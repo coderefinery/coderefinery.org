@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+
+  <title>coderefinery.org</title>
+
+  <link rel="shortcut icon" href="assets/favicon.ico">
+
+  <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" href="{{ site.data.global.url }}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.data.global.url }}/css/font-awesome.min.css">
+
+  <!-- Custom styles for our template -->
+  <link rel="stylesheet" href="{{ site.data.global.url }}/css/bootstrap-theme.css" media="screen" >
+  <link rel="stylesheet" href="{{ site.data.global.url }}/css/main.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="{{ site.data.global.url }}/js/html5shiv.js"></script>
+  <script src="{{ site.data.global.url }}/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="home">
+  <div class="navbar navbar-inverse navbar-fixed-top headroom" >
+    <div class="container">
+      <div class="navbar-header">
+        <!-- button for smallest screens -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right">
+          {% for item in site.data.nav.main %}
+            <li>
+              <a href="{{ item.url }}">{{ item.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <header id="head">
+    <div class="container">
+      <div class="row">
+        <h1 class="lead">coderefinery</h1>
+        <p class="tagline">A <a href="https://neic.nordforsk.org">Nordic e-Infrastructure Collaboration</a> Project</p>
+        <p><a class="btn btn-default btn-lg" role="button" href="#about">ABOUT</a> <a class="btn btn-primary btn-lg" role="button" href="#contact">CONTACT</a></p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container text-center">
+    <h2 class="thin">Launching soon</h2>
+    <p class="text-muted">
+      We are looking for brilliant staff, brilliant ideas, and for Nordic research projects that need
+      our training and infrastructure solutions.
+      <a href="#contact">Get in touch</a>!
+    </p>
+  </div>
+
+  <div class="container">
+    <a name="about"></a>
+    <h2 class="text-center top-space">About the project</h2>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p>
+           The goal of this project is to establish a software development
+           e-infrastructure coupled with necessary technical expertise and
+           extensive training activities in order to address the growing needs of
+           computational communities.
+           This is a project within the <a href="https://neic.nordforsk.org">Nordic e-Infrastructure Collaboration</a> (NeIC).
+           NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Training</h3>
+        <p>
+           Train Nordic research groups and projects in state-of-the-art tools and practices in modern software development.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Consulting and infrastructure</h3>
+        <p>
+           Assist groups in migrating from ad-hoc in-house infrastructure and solution to collaborative
+           industry-strength community solutions
+           encouraging code review and test-driven development.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Visibility and impact</h3>
+        <p>
+           Increase visibility of Nordic software projects by creating a platform where software can be shared.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Maintainable software</h3>
+        <p>
+           Train groups in building modular and maintainable code.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Reproducible science</h3>
+        <p>
+           Encourage open science and enable reproducible science.
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Community</h3>
+        <p>
+           Building a community by aggregating and providing courses and organizing training, summer schools, meet-ups, tutorials and forums.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <a name="partners"></a>
+    <h2 class="text-center top-space">Partners</h2>
+    <div class="row">
+      <div class="col-sm-2">
+        <table>
+          <tr height="150px">
+            <td>
+              <a href="https://neic.nordforsk.org"><img src="assets/neic.png" alt="NeIC logo" style="width:8vw"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Nordic e-Infrastructure Collaboration</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-2">
+        <table>
+          <tr height="150px">
+            <td>
+              <a href="http://www.csc.fi"><img src="assets/csc.png" alt="CSC logo" style="width:8vw"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>CSC - IT Center for Science</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-2">
+        <table>
+          <tr height="150px">
+            <td>
+              <a href="http://www.deic.dk"><img src="assets/deic.png" alt="DeIC logo" style="width:8vw"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Danish e-Infrastructure Cooperation</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-3">
+        <table>
+          <tr height="150px">
+            <td>
+              <a href="http://www.snic.se"><img src="assets/snic.png" alt="SNIC logo" style="width:12vw"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Swedish National Infrastructure for Computing</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-sm-2">
+        <table>
+          <tr height="150px">
+            <td>
+              <a href="https://www.sigma2.no"><img src="assets/sigma2.jpg" alt="UNINETT Sigma2 logo" style="width:8vw"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>UNINETT Sigma2</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer" class="top-space">
+
+    <div class="footer1">
+      <div class="container">
+        <div class="row">
+          <a name="contact"></a>
+
+          <div class="col-md-3 widget">
+            <h3 class="widget-title">Contact</h3>
+            <div class="widget-body">
+              <p>
+                Radovan Bast
+                <br>
+                High Performance Computing Group
+                <br>
+                UiT The Arctic University of Norway
+                <br>
+                +47 776 44117
+                <br>
+                <a href="mailto:#">info@coderefinery.org</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3 widget">
+            <h3 class="widget-title">Follow us</h3>
+            <div class="widget-body">
+              <p class="follow-me-icons">
+                <i class="fa fa-twitter fa-2"></i>
+                <a href="https://github.com/coderefinery"><i class="fa fa-github fa-2"></i></a>
+              </p>
+              <br>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer2">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 widget">
+            <div class="widget-body">
+              <p class="simplenav">
+                |
+                {% for item in site.data.nav.main %}
+                  <a href="{{ item.url }}">{{ item.text }}</a> |
+                {% endfor %}
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 widget">
+            <div class="widget-body">
+              <p class="text-right">
+                Copyright &copy; 2016, Radovan Bast. Designed by <a href="http://gettemplate.com/" rel="designer">gettemplate</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="{{ site.data.global.url }}/js/headroom.min.js"></script>
+  <script src="{{ site.data.global.url }}/js/jQuery.headroom.min.js"></script>
+  <script src="{{ site.data.global.url }}/js/template.js"></script>
+</body>
+</html>

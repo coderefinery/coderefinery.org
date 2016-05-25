@@ -1,0 +1,9 @@
+# site settings
+title: 'CodeRefinery'
+description: ''
+url: 'http://coderefinery.org'  # the base hostname & protocol for your site
+footer_text: 'This text is footer text.'
+
+# admin settings
+admin_name: 'Radovan Bast'
+admin_email: 'firstname.lastname@uit.no'

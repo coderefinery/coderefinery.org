@@ -1,0 +1,6 @@
+main:
+    - { url: '#', text: 'Home' }
+    - { url: '#about', text: 'About' }
+    - { url: 'https://neic.nordforsk.org', text: 'NeIC' }
+    - { url: '#partners', text: 'Partners' }
+    - { url: '#contact', text: 'Contact' }
