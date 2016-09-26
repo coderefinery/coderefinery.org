@@ -455,3 +455,17 @@ csmall2 {
 	padding-right: 15px;
 	font-size: 18px;
 }
+
+
+
+
+div.centered
+{
+    text-align: center;
+}
+
+div.centered table
+{
+    margin: 0 auto;
+    text-align: center;
+}
