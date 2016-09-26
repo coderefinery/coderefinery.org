@@ -1,6 +1,23 @@
 main:
-    - { url: '#', text: 'Home' }
-    - { url: '#about', text: 'About' }
-    - { url: 'https://neic.nordforsk.org', text: 'NeIC' }
-    - { url: '#partners', text: 'Partners' }
-    - { url: '#contact', text: 'Contact' }
+  - url: '#'
+    text: 'Home'
+# - section: 'Schedule'
+#   links:
+#     - url: '/schedule/'
+#       text: 'Overview'
+#     - url: '/people/'
+#       text: 'Speakers and session chairs'
+#     - url: '/workshops/'
+#       text: 'Workshops'
+#     - url: '/sessions/'
+#       text: 'Conference sessions'
+#     - url: '/talks/'
+#       text: 'Talks'
+  - url: '#about'
+    text: 'About'
+  - url: 'https://neic.nordforsk.org'
+    text: 'NeIC'
+  - url: '#partners'
+    text: 'Partners'
+  - url: '#contact'
+    text: 'Contact'
