@@ -66,3 +66,7 @@ kramdown:
     coderay_css:               style
 
 include: ['_pages']
+
+collections:
+  team:
+    output: false

@@ -1,0 +1,17 @@
+<div class="container mtb">
+    <div class="row centered">
+        <h3 class="mb">MEET OUR TEAM</h3>
+
+        {% for person in site.team %}
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="he-wrap tpl6">
+                    <img src="{{ site.baseurl }}/{{ person.photo }}" alt="">
+                </div>
+                <h4>{{ person.name }}</h4>
+                <h5 class="ctitle">{{ person.organization }}</h5>
+                <p>{{ person.content }}</p>
+                <div class="hline"></div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
