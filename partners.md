@@ -1,5 +1,5 @@
 ---
 layout: master
 include: partners
-title: Partners
+title: Partners powering this project
 ---
