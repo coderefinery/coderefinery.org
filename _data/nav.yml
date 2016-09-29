@@ -1,5 +1,5 @@
 main:
-  - url: '#'
+  - url: '/'
     text: 'Home'
   - section: 'About'
     links:
