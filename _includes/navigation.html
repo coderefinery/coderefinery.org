@@ -21,14 +21,20 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ item.section }} <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 {% for i in item.links %}
-                                    <li><a href="{{ site.baseurl }}{{ i.url }}">{{ i.text }}</a></li>
+                                    {% if i.url contains "http" %}
+                                        <li><a href="{{ i.url }}" target="_blank">{{ i.text }}</a></li>
+                                    {% else %}
+                                        <li><a href="{{ site.baseurl }}{{ i.url }}">{{ i.text }}</a></li>
+                                    {% endif %}
                                 {% endfor %}
                             </ul>
                         </li>
                     {% else %}
-                        <li>
-                            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.text }}</a>
-                        </li>
+                        {% if item.url contains "http" %}
+                            <li><a href="{{ item.url }}" target="_blank">{{ item.text }}</a></li>
+                        {% else %}
+                            <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.text }}</a></li>
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </ul>
