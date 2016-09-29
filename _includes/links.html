@@ -1,0 +1,28 @@
+<div class="container mtb">
+    <a name="partners"></a>
+    <h2 class="text-center top-space">Links</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            {% for section in site.links %}
+
+                {% assign l = forloop.length | divided_by: 2.0 | ceil %}
+                {% assign i = forloop.index0 | modulo: l %}
+                {% if i == 0 and forloop.index0 > 0 %}
+                    </div>
+                    <div class="col-lg-6">
+                {% endif %}
+
+                <br>
+                <br>
+                <h4>
+                    {{ section.section }}
+                </h4>
+                {% for link in section.links %}
+                    <div>
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

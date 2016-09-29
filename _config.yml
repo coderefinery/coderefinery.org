@@ -78,3 +78,5 @@ collections:
     output: false
   partners:
     output: false
+  links:
+    output: false

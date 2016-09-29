@@ -1,0 +1,4 @@
+---
+layout: master
+include: links
+---
