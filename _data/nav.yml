@@ -9,5 +9,5 @@ main:
     text: 'NeIC'
   - url: '#partners'
     text: 'Partners'
-  - url: '#contact'
+  - url: '/contact/'
     text: 'Contact'
