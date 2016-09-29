@@ -36,11 +36,17 @@ host:    127.0.0.1
 baseurl: ""
 
 # outputting
-permalink: /:title.html
 timezone:  null
-
 quiet:    false
-defaults: []
+
+# https://github.com/jekyll/jekyll/issues/302
+permalink: pretty
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      permalink: /:path/:basename:output_ext
 
 # markdown processors
 rdiscount:
