@@ -41,3 +41,13 @@
         </div>
     </div>
 </div>
+
+{% if page.include != "index" %}
+    <div class="container mtt">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>{{ page.title }}</h3>
+            </div>
+        </div>
+    </div>
+{% endif %}
