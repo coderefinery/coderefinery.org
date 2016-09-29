@@ -5,6 +5,8 @@ main:
     links:
       - url: '/team/'
         text: 'Team'
+  - url: '/lessons/'
+    text: 'Lessons'
   - url: 'https://neic.nordforsk.org'
     text: 'NeIC'
   - url: '/partners/'

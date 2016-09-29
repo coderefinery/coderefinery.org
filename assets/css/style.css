@@ -19,6 +19,11 @@
 		padding: 0px;
 	}
 
+ul {
+    margin-left: 40px;
+}
+
+
 body {
 	background: #ffffff;
 	margin: 0;
