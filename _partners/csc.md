@@ -1,7 +1,7 @@
 ---
 name: CSC - IT Center for Science
 website: http://www.csc.fi
-logo: assets/img/csc.png
+logo: assets/img/logos/csc.png
 ---
 
 CSC - IT Center for Science Ltd. is a non-profit, state-owned company

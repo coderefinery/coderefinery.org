@@ -1,7 +1,7 @@
 ---
 name: Danish e-Infrastructure Cooperation
 website: http://www.deic.dk
-logo: assets/img/deic.png
+logo: assets/img/logos/deic.png
 ---
 
 DeIC - Danish e-Infrastructure Cooperation was established on April 19, 2012,

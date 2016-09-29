@@ -1,7 +1,7 @@
 ---
 name: Swedish National Infrastructure for Computing
 website: http://www.snic.se
-logo: assets/img/snic.png
+logo: assets/img/logos/snic.png
 ---
 
 The Swedish National Infrastructure for Computing (SNIC) is a national research

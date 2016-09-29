@@ -1,7 +1,7 @@
 ---
 name: UNINETT Sigma2
 website: https://www.sigma2.no
-logo: assets/img/sigma2.jpg
+logo: assets/img/logos/sigma2.jpg
 ---
 
 UNINETT Sigma2 AS manages the national infrastructure for computational science
