@@ -198,7 +198,7 @@ a:focus {
 }
 
 .hline-w {
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid #505050;
 	margin-bottom: 25px;
 }
 /*	################################################################
@@ -337,25 +337,25 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: #ffffff;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: #505050;
 }
 
 #footerwrap h4 {
-	color: white;
+	color: #505050;
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: #505050;
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: #00b3fe
+	color: #505050;
 }
 
 /*	################################################################
