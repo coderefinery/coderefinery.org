@@ -1,6 +1,6 @@
 ---
 layout: master
-include: contact
+include: content
 title: Contact
 ---
 

@@ -76,3 +76,5 @@ include: ['_pages']
 collections:
   team:
     output: false
+  partners:
+    output: false

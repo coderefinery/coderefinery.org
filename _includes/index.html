@@ -70,88 +70,26 @@
 </div>
 
 <div class="container">
-  <a name="partners"></a>
-  <h2 class="text-center top-space">Partners</h2>
-  <div class="row">
-    <div class="col-md-15 col-sm-3">
-      <div class="centered">
-        <table>
-          <tr height="150px">
-            <td>
-              <a href="https://neic.nordforsk.org" target="_blank"><img src="assets/img/neic.png" alt="NeIC logo" style="width:8vw"></a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Nordic e-Infrastructure Collaboration</p>
-            </td>
-          </tr>
-        </table>
-      </div>
+    <a name="partners"></a>
+    <h2 class="text-center top-space">Partners</h2>
+    <div class="row">
+        {% for partner in site.partners %}
+        <div class="col-md-15 col-sm-3">
+            <div class="centered">
+                <table>
+                    <tr height="150px">
+                        <td>
+                            <a href="{{ partner.website }}" target="_blank"><img src="{{ partner.logo }}" alt="{{ partner.name }} logo" style="width:8vw"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>{{ partner.name }}</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    <div class="col-md-15 col-sm-3">
-      <div class="centered">
-        <table>
-          <tr height="150px">
-            <td>
-              <a href="http://www.csc.fi" target="_blank"><img src="assets/img/csc.png" alt="CSC logo" style="width:8vw"></a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>CSC - IT Center for Science</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-15 col-sm-3">
-      <div class="centered">
-        <table>
-          <tr height="150px">
-            <td>
-              <a href="http://www.deic.dk" target="_blank"><img src="assets/img/deic.png" alt="DeIC logo" style="width:8vw"></a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Danish e-Infrastructure Cooperation</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-15 col-sm-3">
-      <div class="centered">
-        <table>
-          <tr height="150px">
-            <td>
-              <a href="http://www.snic.se" target="_blank"><img src="assets/img/snic.png" alt="SNIC logo" style="width:12vw"></a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Swedish National Infrastructure for Computing</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-    <div class="col-md-15 col-sm-3">
-      <div class="centered">
-        <table>
-          <tr height="150px">
-            <td>
-              <a href="https://www.sigma2.no" target="_blank"><img src="assets/img/sigma2.jpg" alt="UNINETT Sigma2 logo" style="width:8vw"></a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>UNINETT Sigma2</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
 </div>

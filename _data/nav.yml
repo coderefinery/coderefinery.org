@@ -7,7 +7,7 @@ main:
         text: 'Team'
   - url: 'https://neic.nordforsk.org'
     text: 'NeIC'
-  - url: '#partners'
+  - url: '/partners/'
     text: 'Partners'
   - url: '/contact/'
     text: 'Contact'
