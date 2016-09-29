@@ -46,9 +46,7 @@ defaults:
     scope:
       type: "pages"
     values:
-      permalink: /:path/:basename:output_ext
-# https://github.com/jekyll/jekyll/issues/3554
-use_post_dirs: false
+      permalink: /:path/:basename
 
 # markdown processors
 rdiscount:
