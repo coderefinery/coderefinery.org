@@ -46,7 +46,7 @@ defaults:
     scope:
       type: "pages"
     values:
-      permalink: /:path/:basename
+      permalink: /:path/:basename/
 
 # markdown processors
 rdiscount:
