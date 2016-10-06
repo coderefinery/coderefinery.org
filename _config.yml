@@ -80,3 +80,5 @@ collections:
     output: false
   links:
     output: false
+  workshops:
+    output: true
