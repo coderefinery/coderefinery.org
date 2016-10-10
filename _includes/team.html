@@ -1,7 +1,8 @@
 <div class="container mtb">
     <div class="row centered">
         {% for person in site.team %}
-            <div class="col-lg-3 col-md-3 col-sm-3">
+         {% assign mod = forloop.index|modulo:4 %}
+            <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
                     <img src="{{ site.baseurl }}/{{ person.photo }}" alt="">
                 </div>
@@ -10,6 +11,10 @@
                 <p>{{ person.content }}</p>
                 <div class="hline"></div>
             </div>
+            {% if mod == 0 and not forloop.last %}
+                </div>
+                <div class="row centered">
+            {% endif %}
         {% endfor %}
     </div>
 </div>
