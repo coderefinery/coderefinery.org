@@ -1,0 +1,34 @@
+<div class="container mtb">
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+		We organize a road-show of hands-on informal and interactive
+                three-day workshops across the Nordics with type-along type of presentations,
+                live coding and demos. Short tutorials alternate with practical exercises.
+                If you are interested in these workshops, please get in touch!
+            </p>
+
+            <h3>Upcoming workshops</h3>
+            <ul>
+                {% for workshop in site.workshops %}
+                    <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                {% endfor %}
+            </ul>
+
+            <h3>Planned workshops</h3>
+            <ul>
+                <li>Mar 2017 - Copenhagen</li>
+                <li>Apr 2017 - Oslo</li>
+                <li>May 2017 - Tromsø</li>
+                <li>May 2017 - Umeå</li>
+                <li>Oct 2017 - Aarhus</li>
+                <li>Nov 2017 - Linköping</li>
+                <li>Dec 2017 - Helsinki</li>
+                <li>Feb 2018 - Trondheim</li>
+                <li>Mar 2018 - Turku</li>
+                <li>Apr 2018 - Odense</li>
+                <li>May 2018 - Uppsala</li>
+            </ul>
+        </div>
+    </div>
+</div>
