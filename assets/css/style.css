@@ -387,6 +387,10 @@ a:focus {
 	margin-bottom: 15px;
 }
 
+.ccontent {
+	height: 130px;
+}
+
 csmall {
 	font-size: 12px;
 	color: #b3b3b3;

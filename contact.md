@@ -23,3 +23,8 @@ info@coderefinery.org
 ### Twitter
 
 [@coderefine](https://twitter.com/coderefine)
+
+
+### LinkedIn
+
+[linkedin.com/coderefinery](https://www.linkedin.com/company/coderefinery?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf/)

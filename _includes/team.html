@@ -4,12 +4,13 @@
          {% assign mod = forloop.index | modulo:4 %}
             <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
-                    <img src="{{ site.baseurl }}/{{ person.photo }}" alt="">
+                    <img src="{{ site.baseurl }}/{{ person.photo }}" alt="" style="height: 262.5px;">
                 </div>
                 <h4>{{ person.name }}</h4>
                 <h5 class="ctitle">{{ person.organization }}</h5>
-                <p>{{ person.content }}</p>
-                <div class="hline"></div>
+                	<div class="ccontent">
+                		<p>{{ person.content }}</p>
+               		</div>
             </div>
             {% if mod == 0 and forloop.last != true %}
                 </div>
