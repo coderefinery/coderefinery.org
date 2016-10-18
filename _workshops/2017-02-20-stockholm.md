@@ -6,7 +6,8 @@ city: Stockholm
 dates: February 20-22, 2017
 time: 9:00 am to 5:00 pm
 contact: Radovan Bast (radovan.bast@uit.no)
-registration_url: <a href="#" class="btn btn-primary disabled">Registration will open December 6 - we have 24 seats</a>
+registration_open_date: December 6
+registration_is_closed: false
 instructors:
     - Jyry Suvilehto
     - Nikolai Denissov
