@@ -46,13 +46,6 @@
                 exercises.
             </p>
 
-            <h3>What we will teach</h3>
-            <ul>
-                {% for topic in page.topics %}
-                    <li>{{ topic }}</li>
-                {% endfor %}
-            </ul>
-
             <h3>Schedule</h3>
             {% for day in page.schedule %}
                 {{ day.date }}
