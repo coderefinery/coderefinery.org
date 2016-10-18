@@ -27,13 +27,22 @@ topics:
     - Profiling
     - Debugging
 schedule:
-    - date: December 14
-      modules:
-        - TBA
-    - date: December 15
-      modules:
-        - TBA
-    - date: December 16
-      modules:
-        - TBA
+    - date: February 20
+      morning:
+        - Introduction to version control
+      afternoon:
+        - Modular code development
+        - Automated testing
+    - date: February 21
+      morning:
+        - Collaborative distributed version control
+      afternoon:
+        - Documentation
+        - Jupyter notebooks
+    - date: February 22
+      morning:
+        - DevOps, automation, and continous integration
+        - Building portable code with CMake
+      afternoon:
+        - Integrated development environments
 ---

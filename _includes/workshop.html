@@ -57,9 +57,18 @@
             {% for day in page.schedule %}
                 {{ day.date }}
                 <ul>
-                    {% for module in day.modules %}
-                        <li>{{ module }}</li>
-                    {% endfor %}
+                    <li>Morning</li>
+                    <ul>
+                        {% for item in day.morning %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                    <li>Afternoon</li>
+                    <ul>
+                        {% for item in day.afternoon %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
                 </ul>
             {% endfor %}
         </div>
