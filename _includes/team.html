@@ -1,7 +1,7 @@
 <div class="container mtb">
     <div class="row centered">
         {% for person in site.team %}
-         {% assign mod = forloop.index | modulo:4 %}
+            {% assign mod = forloop.index | modulo:4 %}
             <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
                     <img src="{{ site.baseurl }}/{{ person.photo }}" alt="" style="height: 262.5px;">
