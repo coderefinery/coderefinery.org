@@ -4,7 +4,11 @@
             {% assign mod = forloop.index | modulo:4 %}
             <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
-                    <img src="{{ site.baseurl }}/{{ person.photo }}" alt="" style="height: 262.5px;">
+                    {% if person.photo %}
+                        <img src="{{ site.baseurl }}/{{ person.photo }}" alt="" style="height: 262.5px;">
+                    {% else %}
+                        <img src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150" alt="" style="height: 262.5px;">
+                    {% endif %}
                 </div>
                 <h4>{{ person.name }}</h4>
                 <h5 class="ctitle">{{ person.organization }}</h5>
