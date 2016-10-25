@@ -4,7 +4,10 @@ include: content
 title: Lessons
 ---
 
-### Links to lesson slides (we are currently updating/transforming the material)
+### Links to lesson slides
+
+This is mostly "old" material developed prior to CodeRefinery which we are
+currently updating and transforming to a more interactive format.
 
 - [Introduction to version control and Git](http://cicero.xyz/v2/remark/github/coderefinery/lessons/master/git-intro.mkd/)
 - [Branching and merging in Git](http://cicero.xyz/v2/remark/github/coderefinery/lessons/master/git-branches.mkd/)
