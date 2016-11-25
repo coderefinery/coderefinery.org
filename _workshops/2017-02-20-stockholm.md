@@ -22,15 +22,15 @@ schedule:
       morning:
         - Introduction to version control
       afternoon:
-        - Managing complexity
-        - Modular code development
-        - Automated testing
+        - Documentation
+        - Jupyter notebooks
     - date: February 21
       morning:
         - Collaborative distributed version control
       afternoon:
-        - Documentation
-        - Jupyter notebooks
+        - Managing complexity
+        - Modular code development
+        - Automated testing
     - date: February 22
       morning:
         - DevOps, automation, and continous integration
