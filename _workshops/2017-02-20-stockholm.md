@@ -7,7 +7,7 @@ dates: February 20-22, 2017
 time: 9:00 am to 5:00 pm
 contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: December 6
-registration_is_closed: false
+registration_is_closed: true
 registration_form: "https://radovan.typeform.com/to/HphrEe"
 instructors:
     - Jyry Suvilehto
