@@ -20,21 +20,25 @@ location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-
 schedule:
     - date: February 20
       morning:
-        - Introduction to version control
+        - title: Introduction to version control
+          url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - Documentation
-        - Jupyter notebooks
+        - title: Documentation
+          url: https://coderefinery.github.io/documentation/
+        - title: Jupyter notebooks
+          url: https://github.com/coderefinery/jupyter
     - date: February 21
       morning:
-        - Collaborative distributed version control
+        - title: Collaborative distributed version control
       afternoon:
-        - Managing complexity
-        - Modular code development
-        - Automated testing
+        - title: Managing complexity
+        - title: Modular code development
+        - title: Automated testing
+          url: https://coderefinery.github.io/testing/
     - date: February 22
       morning:
-        - DevOps, automation, and continous integration
-        - Building portable code with CMake
+        - title: DevOps, automation, and continous integration
+        - title: Building portable code with CMake
       afternoon:
-        - Integrated development environments
+        - title: Integrated development environments
 ---

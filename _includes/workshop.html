@@ -53,13 +53,21 @@
                     <li>Morning</li>
                     <ul>
                         {% for item in day.morning %}
-                            <li>{{ item }}</li>
+                            {% if item.url %}
+                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                            {% else %}
+                                <li>{{ item.title }}</li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                     <li>Afternoon</li>
                     <ul>
                         {% for item in day.afternoon %}
-                            <li>{{ item }}</li>
+                            {% if item.url %}
+                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                            {% else %}
+                                <li>{{ item.title }}</li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 </ul>
