@@ -18,7 +18,7 @@ helpers:
     - TBA
 location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>.
 schedule:
-    - date: February 20
+    - date: Monday, February 20
       morning:
         - title: Introduction to version control
           url: https://coderefinery.github.io/git-intro/
@@ -27,18 +27,22 @@ schedule:
           url: https://coderefinery.github.io/documentation/
         - title: Jupyter notebooks
           url: https://github.com/coderefinery/jupyter
-    - date: February 21
+    - date: Tuesday, February 21
       morning:
         - title: Collaborative distributed version control
+          url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Managing complexity
-        - title: Modular code development
+        - title: Managing complexity and modular code development
+          url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
         - title: Automated testing
           url: https://coderefinery.github.io/testing/
-    - date: February 22
-      morning:
         - title: DevOps, automation, and continous integration
+          url: https://coderefinery.github.io/automation/
+    - date: Wednesday, February 22
+      morning:
         - title: Building portable code with CMake
+          url: https://coderefinery.github.io/cmake/
       afternoon:
         - title: Integrated development environments
+          url: https://coderefinery.github.io/IDEs/
 ---
