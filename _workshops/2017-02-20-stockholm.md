@@ -36,7 +36,7 @@ schedule:
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
         - title: Automated testing
           url: https://coderefinery.github.io/testing/
-        - title: DevOps, automation, and continous integration
+        - title: DevOps, automation, and continuous integration
           url: https://coderefinery.github.io/automation/
     - date: Wednesday, February 22
       morning:

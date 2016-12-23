@@ -19,7 +19,7 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
 - [Managing complexity and modular code development](http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/)
 - [Automated testing](https://coderefinery.github.io/testing/)
-- [DevOps, automation, and continous integration](https://coderefinery.github.io/automation/)
+- [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
 - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
 - [Integrated development environments](https://coderefinery.github.io/IDEs/)
 
