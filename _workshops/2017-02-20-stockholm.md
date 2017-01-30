@@ -10,7 +10,7 @@ registration_open_date: December 6
 registration_is_closed: true
 registration_form: "https://radovan.typeform.com/to/HphrEe"
 instructors:
-    - Jyry Suvilehto
+    - Sabry Razick
     - Nikolai Denissov
     - Radovan Bast
     - Thor Wikfeldt
@@ -20,29 +20,29 @@ location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-
 schedule:
     - date: Monday, February 20
       morning:
-        - title: Introduction to version control
+        - title: Introduction to version control (Sabry)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Documentation
-          url: https://coderefinery.github.io/documentation/
-        - title: Jupyter notebooks
-          url: https://github.com/coderefinery/jupyter
+        - title: Managing complexity and modular code development (Radovan)
+          url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
+        - title: DevOps, automation, and continuous integration (Nikolai)
+          url: https://coderefinery.github.io/automation/
     - date: Tuesday, February 21
       morning:
-        - title: Collaborative distributed version control
+        - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Managing complexity and modular code development
-          url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
-        - title: Automated testing
+        - title: Automated testing (Radovan)
           url: https://coderefinery.github.io/testing/
-        - title: DevOps, automation, and continuous integration
-          url: https://coderefinery.github.io/automation/
+        - title: Jupyter notebooks (Thor)
+          url: https://github.com/coderefinery/jupyter
     - date: Wednesday, February 22
       morning:
-        - title: Building portable code with CMake
+        - title: Building portable code with CMake (Radovan)
           url: https://coderefinery.github.io/cmake/
+        - title: Documentation (Radovan)
+          url: https://coderefinery.github.io/documentation/
       afternoon:
-        - title: Integrated development environments
+        - title: Integrated development environments (Nikolai)
           url: https://coderefinery.github.io/IDEs/
 ---
