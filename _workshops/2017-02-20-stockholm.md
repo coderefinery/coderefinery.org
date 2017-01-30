@@ -23,8 +23,6 @@ schedule:
         - title: Introduction to version control (Sabry)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Documentation (Radovan)
-          url: https://coderefinery.github.io/documentation/
         - title: Managing complexity and modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
         - title: DevOps, automation, and continuous integration (Nikolai)
@@ -42,6 +40,8 @@ schedule:
       morning:
         - title: Building portable code with CMake (Radovan)
           url: https://coderefinery.github.io/cmake/
+        - title: Documentation (Radovan)
+          url: https://coderefinery.github.io/documentation/
       afternoon:
         - title: Integrated development environments (Nikolai)
           url: https://coderefinery.github.io/IDEs/
