@@ -1,10 +1,8 @@
 main:
   - url: '/'
     text: 'Home'
-  - section: 'About'
-    links:
-      - url: '/team/'
-        text: 'Team'
+  - url: '/team/'
+    text: 'Team'
   - url: '/workshops/'
     text: 'Workshops'
   - url: '/lessons/'
