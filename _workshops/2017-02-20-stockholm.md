@@ -14,12 +14,14 @@ instructors:
     - Nikolai Denissov
     - Radovan Bast
     - Thor Wikfeldt
+    - Bjørn Lindi
 helpers:
     - Cristian Cira
 location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>.
 schedule:
     - date: Monday, February 20
       morning:
+        - title: Welcome and debugging installation problems (all teachers)
         - title: Introduction to version control (Sabry)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
@@ -38,7 +40,7 @@ schedule:
           url: https://github.com/coderefinery/jupyter
     - date: Wednesday, February 22
       morning:
-        - title: Building portable code with CMake (Radovan)
+        - title: Building portable code with CMake (Radovan and Bjørn)
           url: https://coderefinery.github.io/cmake/
         - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
