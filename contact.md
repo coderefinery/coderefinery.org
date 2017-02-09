@@ -10,7 +10,7 @@ Please take part in the discussion. We are looking forward to hearing from you.
 Ask questions about code development, discuss, give advice, and let us build a
 community.
 
-[http://groups.google.com/group/coderefinery](http://groups.google.com/group/coderefinery)
+[https://groups.google.com/group/coderefinery](http://groups.google.com/group/coderefinery)
 
 
 ### GitHub
