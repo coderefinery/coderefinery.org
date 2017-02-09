@@ -10,6 +10,7 @@ contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: December 6
 registration_is_closed: true
 registration_form: "https://radovan.typeform.com/to/HphrEe"
+status: planned
 instructors:
     - Sabry Razick
     - Nikolai Denissov

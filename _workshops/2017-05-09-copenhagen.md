@@ -9,6 +9,7 @@ num_seats: 30
 contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: February 13
 registration_is_closed: false
+status: planned
 instructors:
     - Harsha Vathsavayi
     - Nikolai Denissov
