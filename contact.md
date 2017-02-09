@@ -36,4 +36,4 @@ UiT The Arctic University of Norway
 
 +47 776 44117
 <br>
-firstname.lastname@uit.no
+radovan.bast@uit.no
