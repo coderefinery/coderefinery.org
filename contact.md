@@ -4,15 +4,13 @@ include: content
 title: Contact
 ---
 
-### Project lead
+### Mailing list
 
-Radovan Bast
+Please take part in the discussion. We are looking forward to hearing from you.
+Ask questions about code development, discuss, give advice, and let us build a
+community.
 
-High Performance Computing Group <br>
-UiT The Arctic University of Norway
-
-+47 776 44117 <br>
-info@coderefinery.org
+[http://groups.google.com/group/coderefinery](http://groups.google.com/group/coderefinery)
 
 
 ### GitHub
@@ -28,3 +26,16 @@ info@coderefinery.org
 ### LinkedIn
 
 [linkedin.com/coderefinery](https://www.linkedin.com/company/coderefinery?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf/)
+
+
+### Project lead
+
+Radovan Bast
+
+High Performance Computing Group
+<br>
+UiT The Arctic University of Norway
+
++47 776 44117
+<br>
+firstname.lastname@uit.no
