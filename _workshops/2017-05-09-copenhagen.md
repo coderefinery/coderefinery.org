@@ -6,13 +6,15 @@ city: Copenhagen
 dates: May 9-11, 2017
 time: 9:00 am to 5:00 pm
 contact: Radovan Bast (radovan.bast@uit.no)
-registration_open_date: February 8
+registration_open_date: February 13
 registration_is_closed: false
 registration_form: "link_goes_here"
 instructors:
     - Harsha Vathsavayi
     - Nikolai Denissov
     - Pinja Koskinen
+    - Radovan Bast
+    - Jyry Suvilehto
 helpers:
     - Lukas Berger
 location: Conference room 2, <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/dtu-meeting-centre/oversigt" target="_blank">Anker Engelunds Vej 1, Building 101A, 1:st floor, 2800 Kgs. Lyngby</a>.
