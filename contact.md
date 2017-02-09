@@ -8,9 +8,7 @@ title: Contact
 
 Please take part in the discussion. We are looking forward to hearing from you.
 Ask questions about code development, discuss, give advice, and let us build a
-community.
-
-[https://groups.google.com/group/coderefinery](http://groups.google.com/group/coderefinery)
+community: [https://groups.google.com/group/coderefinery](http://groups.google.com/group/coderefinery)
 
 
 ### GitHub
