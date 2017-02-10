@@ -482,3 +482,8 @@ div.centered table
     margin: 0 auto;
     text-align: center;
 }
+
+img.mugshot {
+    object-fit: cover;
+    height: 262.5px;
+}
