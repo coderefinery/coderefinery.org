@@ -15,7 +15,7 @@
                 <a href="#" class="btn btn-danger disabled">Registration is closed</a>
             {% else %}
                 {% if page.registration_form %}
-                    <a class="typeform-share btn btn-success" href="{{ page.registration_form }}" data-mode="1" target="_blank">Register</a>
+                    <a class="typeform-share btn btn-success" href="{{ page.registration_form }}" data-mode="1" target="_blank">Register here</a>
                     <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
                 {% else %}
                     <a href="#" class="btn btn-primary disabled">Registration will open {{ page.registration_open_date }} - we have {{ page.num_seats }} seats</a>
