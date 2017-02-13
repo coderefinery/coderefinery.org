@@ -39,7 +39,7 @@ schedule:
           url: https://coderefinery.github.io/testing/
         - title: Jupyter notebooks
           url: https://github.com/coderefinery/jupyter
-    - date: Wednesday, May 11
+    - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake
           url: https://coderefinery.github.io/cmake/
