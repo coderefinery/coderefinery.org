@@ -19,7 +19,7 @@ instructors:
     - Bjørn Lindi
 helpers:
     - Cristian Cira
-location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>.
+location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>. <a href="https://www.google.com/maps/d/edit?mid=1rUC5rowm-p7CeeeGD4lTMVqywvI&ll=59.347209396917826%2C18.069786073846217&z=16" target="_blank">Map of local lunch restaurants</a>.
 schedule:
     - date: Monday, February 20
       morning:
