@@ -17,7 +17,7 @@ instructors:
     - Jyry Suvilehto
 helpers:
     - Lukas Berger
-location: Conference room 2, <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/dtu-meeting-centre/oversigt" target="_blank">Anker Engelunds Vej 1, Building 101A, 1st floor, 2800 Kgs. Lyngby</a>.
+location: <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/dtu-meeting-centre/oversigt" target="_blank">Conference room 2</a><br>Technical University of Denmark,<br>Building 101A, 1st floor,<br>Anker Engelunds Vej 1,<br>2800 Kgs. Lyngby - <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/getting-there" target="_blank">Directions</a>
 schedule:
     - date: Tuesday, May 9
       morning:
