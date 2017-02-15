@@ -7,15 +7,23 @@
                 live coding and demos. Short tutorials alternate with practical exercises.
                 If you are interested in these workshops, please get in touch!
             </p>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-sm-4">
             <h3>Scheduled workshops</h3>
             <ul>
                 {% for workshop in site.workshops %}
-                    <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                    {% if workshop.status != 'past' %}
+                        <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                    {% endif %}
                 {% endfor %}
                 <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>
             </ul>
+        </div>
 
+        <div class="col-sm-4">
             <h3>Planned workshops</h3>
             <ul>
                 <li>Jun 2017 - Tromsø</li>
@@ -27,6 +35,17 @@
                 <li>Apr 2018 - Odense</li>
                 <li>May 2018 - Uppsala</li>
                 <li>Jun 2018 - Oslo</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Past workshops</h3>
+            <ul>
+                {% for workshop in site.workshops %}
+                    {% if workshop.status == 'past' %}
+                        <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
         </div>
     </div>

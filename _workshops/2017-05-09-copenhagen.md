@@ -9,6 +9,8 @@ num_seats: 30
 contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: February 13
 registration_is_closed: false
+registration_form: "https://radovan.typeform.com/to/L3nro0"
+status: planned
 instructors:
     - Harsha Vathsavayi
     - Nikolai Denissov
@@ -38,7 +40,7 @@ schedule:
           url: https://coderefinery.github.io/testing/
         - title: Jupyter notebooks
           url: https://github.com/coderefinery/jupyter
-    - date: Wednesday, May 11
+    - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake
           url: https://coderefinery.github.io/cmake/

@@ -4,12 +4,13 @@ include: workshop
 permalink: /workshops/2017-02-20-stockholm/
 city: Stockholm
 dates: February 20-22, 2017
-num_seats: 24
 time: 9:00 am to 5:00 pm
+num_seats: 24
 contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: December 6
 registration_is_closed: true
 registration_form: "https://radovan.typeform.com/to/HphrEe"
+status: planned
 instructors:
     - Sabry Razick
     - Nikolai Denissov
@@ -18,7 +19,7 @@ instructors:
     - Bjørn Lindi
 helpers:
     - Cristian Cira
-location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>.
+location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>. <a href="https://www.google.com/maps/d/edit?mid=1rUC5rowm-p7CeeeGD4lTMVqywvI&ll=59.347209396917826%2C18.069786073846217&z=16" target="_blank">Map of local lunch restaurants</a>.
 schedule:
     - date: Monday, February 20
       morning:
