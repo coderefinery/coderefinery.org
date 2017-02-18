@@ -44,9 +44,9 @@ schedule:
       morning:
         - title: Building portable code with CMake
           url: https://coderefinery.github.io/cmake/
-        - title: Documentation
-          url: https://coderefinery.github.io/documentation/
       afternoon:
         - title: Integrated development environments
           url: https://coderefinery.github.io/IDEs/
+        - title: Documentation
+          url: https://coderefinery.github.io/documentation/
 ---
