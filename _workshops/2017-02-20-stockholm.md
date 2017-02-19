@@ -42,7 +42,7 @@ schedule:
           url: https://github.com/coderefinery/jupyter
     - date: Wednesday, February 22
       morning:
-        - title: Building portable code with CMake (Radovan and Bjørn)
+        - title: Building portable code with CMake (Bjørn and Radovan)
           url: https://coderefinery.github.io/cmake/
       afternoon:
         - title: Integrated development environments (Nikolai)
