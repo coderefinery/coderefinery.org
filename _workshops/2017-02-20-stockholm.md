@@ -30,7 +30,7 @@ schedule:
         - title: Managing complexity and modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
         - title: DevOps, automation, and continuous integration (Nikolai)
-          url: https://coderefinery.github.io/automation/
+          url: https://coderefinery.github.io/devops/
     - date: Tuesday, February 21
       morning:
         - title: Collaborative distributed version control (Radovan)
