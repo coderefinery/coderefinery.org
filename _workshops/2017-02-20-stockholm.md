@@ -36,10 +36,10 @@ schedule:
         - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Automated testing (Radovan)
-          url: https://coderefinery.github.io/testing/
         - title: Jupyter notebooks (Thor)
           url: https://github.com/coderefinery/jupyter
+        - title: Automated testing (Radovan)
+          url: https://coderefinery.github.io/testing/
     - date: Wednesday, February 22
       morning:
         - title: Building portable code with CMake (Bjørn and Radovan)
