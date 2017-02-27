@@ -38,14 +38,14 @@ schedule:
       afternoon:
         - title: Automated testing
           url: https://coderefinery.github.io/testing/
-        - title: Reproducible environments
+        - title: Integrated development environments
+          url: https://coderefinery.github.io/IDEs/
     - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake
           url: https://coderefinery.github.io/cmake/
       afternoon:
-        - title: Integrated development environments
-          url: https://coderefinery.github.io/IDEs/
+        - title: Reproducible environments
         - title: Documentation
           url: https://coderefinery.github.io/documentation/
 ---
