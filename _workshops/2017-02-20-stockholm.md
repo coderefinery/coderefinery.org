@@ -37,7 +37,7 @@ schedule:
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
         - title: Jupyter notebooks (Thor)
-          url: https://github.com/coderefinery/jupyter
+          url: https://github.com/coderefinery/jupyter/tree/stockholm-feb2017
         - title: Automated testing (Radovan)
           url: https://coderefinery.github.io/testing/
     - date: Wednesday, February 22
