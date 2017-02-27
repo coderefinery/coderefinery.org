@@ -29,8 +29,8 @@ schedule:
       afternoon:
         - title: Managing complexity and modular code development
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
-        - title: DevOps, automation, and continuous integration
-          url: https://coderefinery.github.io/automation/
+        - title: Jupyter notebooks
+          url: https://github.com/coderefinery/jupyter
     - date: Wednesday, May 10
       morning:
         - title: Collaborative distributed version control
@@ -38,8 +38,7 @@ schedule:
       afternoon:
         - title: Automated testing
           url: https://coderefinery.github.io/testing/
-        - title: Jupyter notebooks
-          url: https://github.com/coderefinery/jupyter
+        - title: Reproducible environments
     - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake
