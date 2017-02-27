@@ -28,7 +28,7 @@ schedule:
           url: https://coderefinery.github.io/git-intro/
       afternoon:
         - title: Managing complexity and modular code development (Radovan)
-          url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
+          url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/970a58a661a42/talk.md/
         - title: DevOps, automation, and continuous integration (Nikolai)
           url: https://coderefinery.github.io/devops/
     - date: Tuesday, February 21
