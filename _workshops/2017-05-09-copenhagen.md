@@ -23,7 +23,7 @@ location: <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/dt
 schedule:
     - date: Tuesday, May 9
       morning:
-        - title: Welcome and debugging installation problems
+        - title: Welcome and practical information
         - title: Introduction to version control
           url: https://coderefinery.github.io/git-intro/
       afternoon:
