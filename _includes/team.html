@@ -5,9 +5,12 @@
             <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
                     {% if person.photo %}
-                        <img src="{{ site.baseurl }}/{{ person.photo }}" alt="" style="height: 262.5px;">
+                        <img src="{{ site.baseurl }}/{{ person.photo }}"
+                        class="mugshot" alt="">
                     {% else %}
-                        <img src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150" alt="" style="height: 262.5px;">
+                        <img
+                        src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150"
+                        alt="" class="mugshot">
                     {% endif %}
                 </div>
                 <h4>{{ person.name }}</h4>
