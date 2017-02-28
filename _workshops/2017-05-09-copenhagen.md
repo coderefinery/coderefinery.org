@@ -14,7 +14,6 @@ status: planned
 instructors:
     - Harsha Vathsavayi
     - Nikolai Denissov
-    - Pinja Koskinen
     - Radovan Bast
     - Jyry Suvilehto
 helpers:
