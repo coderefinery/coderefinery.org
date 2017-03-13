@@ -22,29 +22,29 @@ location: <a href="http://www.dtu.dk/english/about/campuses/dtu-lyngby-campus/dt
 schedule:
     - date: Tuesday, May 9
       morning:
-        - title: Welcome and practical information
-        - title: Introduction to version control
+        - title: Welcome and practical information (Radovan)
+        - title: Introduction to version control (Radovan)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Managing complexity and modular code development
+        - title: Managing complexity and modular code development (Harsha)
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/
-        - title: Jupyter notebooks
+        - title: Jupyter notebooks (Jyry)
           url: https://github.com/coderefinery/jupyter
     - date: Wednesday, May 10
       morning:
-        - title: Collaborative distributed version control
+        - title: Collaborative distributed version control (Jyry)
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Automated testing
+        - title: Automated testing (Harsha or Radovan)
           url: https://coderefinery.github.io/testing/
-        - title: Integrated development environments
+        - title: Integrated development environments (Nikolai)
           url: https://coderefinery.github.io/IDEs/
     - date: Thursday, May 11
       morning:
-        - title: Building portable code with CMake
+        - title: Building portable code with CMake (Radovan)
           url: https://coderefinery.github.io/cmake/
       afternoon:
-        - title: Reproducible environments
-        - title: Documentation
+        - title: Reproducible environments (TBA)
+        - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
 ---
