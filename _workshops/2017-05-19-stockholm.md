@@ -22,4 +22,15 @@ schedule:
         - title: GROMACS development (Mark Abraham)
           url: https://www.kth.se/profile/mjab/
         - title: Joint discussions (everyone)
+goals:
+Does writing code and scripts play an important role in your research?
+Do you have the feeling that there is room for improvements in your
+programming practices? The CodeRefinery project is organizing an
+afternoon get-together with researchers in the Stockholm region where
+the focus will be on exchanging ideas and discussing common problems
+encountered when developing code for research - and how to go about
+solving them.
+format:
+One afternoon event starting with a seminar and followed by discussions.
+Participants can bring their own material to present.
 ---
