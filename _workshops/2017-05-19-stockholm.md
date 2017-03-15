@@ -18,10 +18,12 @@ participants:
 location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. 
 schedule:
     - date: Friday, May 19
-      afternoon:
+      firsthalf: 
         - title: GROMACS development (Mark Abraham)
           url: https://www.kth.se/profile/mjab/
-        - title: Joint discussions (everyone)
+        - title: Joint discussions 
+      secondhalf: 
+        - title: Joint discussions 
 goals:
        Does writing code and scripts play an important role in your research? 
        Do you have the feeling that there is room for improvements in your

@@ -43,26 +43,24 @@
             {% for day in page.schedule %}
                 {{ day.date }}
                 <ul>
-                    <li>Morning</li>
-                    <ul>
-                        {% for item in day.morning %}
-                            {% if item.url %}
-                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-                            {% else %}
-                                <li>{{ item.title }}</li>
-                            {% endif %}
-                        {% endfor %}
+                    <li>First session</li>
+                    <ul> 
+                      {% for item in day.firsthalf %}
+                        {% if item.url %}
+                            <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                        {% else %}
+                            <li>{{ item.title }}</li>
+                      {% endfor %}
                     </ul>
-                    <li>Lunch break: 12:00 - 13:00</li>
-                    <li>Afternoon</li>
+                    <li>Coffee break: 15:00 - 15:30</li>
+                    <li>Second session</li>
                     <ul>
-                        {% for item in day.afternoon %}
-                            {% if item.url %}
-                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-                            {% else %}
-                                <li>{{ item.title }}</li>
-                            {% endif %}
-                        {% endfor %}
+                      {% for item in day.secondhalf %}
+                        {% if item.url %}
+                            <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                        {% else %}
+                            <li>{{ item.title }}</li>
+                      {% endfor %}
                     </ul>
                 </ul>
             {% endfor %}
