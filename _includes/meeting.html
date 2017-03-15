@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-sm-12">
             <h1>CodeRefinery event in {{ page.city }}</h1>
-            <h4>Building a community of scientific software developers</h4>
+            <h4>Building a Nordic community of scientific software developers</h4>
         </div>
     </div>
 
@@ -31,21 +31,12 @@
 
             <h3>Course goals</h3>
             <p>
-                The aim of this course is to demonstrate to and familiarize
-                the workshop participants with best practices and tools in modern research
-                software development. The main focus is on professional tools
-                for efficiently developing and maintaining research software.
-                Since most research code is developed in a collaborative
-                setting, we will discuss tools and workflows which facilitate
-                this process. Most of the content is also relevant to
-                a single developer.
+	      {{ page.goals }}
             </p>
 
             <h3>Format</h3>
             <p>
-                Hands-on informal and interactive three-day event with type-along type of
-                presentations, live coding and demos. Short tutorials alternate with practical
-                exercises.
+	      {{ page.format }}
             </p>
 
             <h3>Schedule</h3>
@@ -90,36 +81,16 @@
 
             <h3>Who the course is for</h3>
             <p>
-                If you are writing code that is used in research, then this course is for you.
-            </p>
-            <p>
-                If you develop research code and you know all the tools
-                already, join us as a helper! It's fun, and you always learn
-                something new about a subject by teaching it.
+                If you are writing code that is used in research, then you might want to attend this meeting.
             </p>
 
-            <h3>Prerequisites</h3>
+            <h3>Invited participants:</h3>
             <ul>
-                <li>Basic knowledge of the Linux/Unix shell.</li>
-                <li>Basics in at least one programming language.</li>
-                <li>You will need to bring a laptop.</li>
-                <li>It is good if you have access to Eduroam.</li>
-                <li>You need to install some software. Please follow our <a href="https://coderefinery.github.io/installation/" target="_blank">installation instructions</a>.</li>
-            </ul>
-
-            <h3>Instructors</h3>
-            <ul>
-                {% for instructor in page.instructors %}
-                    <li>{{ instructor }}</li>
+                {% for participant in page.participants %}
+                    <li>{{ participant }}</li>
                 {% endfor %}
             </ul>
 
-            <h3>Helpers</h3>
-            <ul>
-                {% for helper in page.helpers %}
-                    <li>{{ helper }}</li>
-                {% endfor %}
-            </ul>
         </div>
     </div>
 </div>
