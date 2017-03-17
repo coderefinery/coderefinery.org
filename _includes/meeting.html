@@ -43,23 +43,25 @@
             {% for day in page.schedule %}
                 {{ day.date }}
                 <ul>
-                    <li>First session</li>
+                    <li>First session: 13:15 - 15:00</li>
                     <ul> 
                       {% for item in day.firsthalf %}
                         {% if item.url %}
                             <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
                         {% else %}
                             <li>{{ item.title }}</li>
+                        {% endif %} 
                       {% endfor %}
                     </ul>
                     <li>Coffee break: 15:00 - 15:30</li>
-                    <li>Second session</li>
+                    <li>Second session: 15:30 - 17:00</li>
                     <ul>
                       {% for item in day.secondhalf %}
                         {% if item.url %}
                             <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
                         {% else %}
                             <li>{{ item.title }}</li>
+                        {% endif %} 
                       {% endfor %}
                     </ul>
                 </ul>
@@ -82,7 +84,7 @@
                 If you are writing code that is used in research, then you might want to attend this meeting.
             </p>
 
-            <h3>Invited participants:</h3>
+            <h3>Organizers and speakers:</h3>
             <ul>
                 {% for participant in page.participants %}
                     <li>{{ participant }}</li>

@@ -4,12 +4,12 @@ include: meeting
 permalink: /workshops/2017-05-19-stockholm/
 city: Stockholm
 dates: May 19, 2017
-time: 1:15 am to 5:00 pm
+time: 13:15 to 17:00
 num_seats: 24
 contact: Thor Wikfeldt (kthw@kth.se)
 registration_open_date: March 17
 registration_is_closed: false
-registration_form: "https://radovan.typeform.com/to/HphrEe"
+registration_form: "https://kthw.typeform.com/to/JGFpbZ"
 status: planned
 participants:
     - Radovan Bast, CodeRefinery project manager and senior engineer at UiT, Norway
