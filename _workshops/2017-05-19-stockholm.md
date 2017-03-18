@@ -26,9 +26,9 @@ schedule:
         - title: Joint discussions 
 goals:
        Does writing code and scripts play an important role in your research? 
-       Do you have the feeling that there is room for improvements in your
+       Do you have the feeling that there is room for improvement in your
        programming practices? The CodeRefinery project is organizing an
-       afternoon get-together with researchers in the Stockholm region where
+       afternoon get-together for researchers in the Stockholm region where
        the focus will be on exchanging ideas and discussing common problems
        encountered when developing code for research - and how to go about
        solving them.
