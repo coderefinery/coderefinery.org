@@ -12,7 +12,7 @@
 
     <div class="row">
         <div class="col-sm-4">
-            <h3>Scheduled workshops</h3>
+            <h3>Upcoming events</h3>
             <ul>
                 {% for workshop in site.workshops %}
                     {% if workshop.status != 'past' %}
@@ -39,7 +39,7 @@
         </div>
 
         <div class="col-sm-4">
-            <h3>Past workshops</h3>
+            <h3>Past workshops and events</h3>
             <ul>
                 {% for workshop in site.workshops %}
                     {% if workshop.status == 'past' %}
