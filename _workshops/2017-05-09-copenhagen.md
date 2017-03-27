@@ -35,16 +35,16 @@ schedule:
         - title: Collaborative distributed version control (Jyry)
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Automated testing (Harsha or Radovan)
+        - title: Automated testing (Harsha)
           url: https://coderefinery.github.io/testing/
-        - title: Integrated development environments (Nikolai)
-          url: https://coderefinery.github.io/IDEs/
+        - title: Branch design and archaeology with Git (Radovan)
     - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake (Radovan)
           url: https://coderefinery.github.io/cmake/
       afternoon:
-        - title: Reproducible environments (TBA)
+        - title: Integrated development environments (Nikolai)
+          url: https://coderefinery.github.io/IDEs/
         - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
 ---
