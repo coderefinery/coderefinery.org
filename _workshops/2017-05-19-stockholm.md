@@ -25,7 +25,7 @@ schedule:
         - title: Joint discussions 
       secondhalf: 
         - title: TBA (Mikael Leetmaa)
-          url: https://www.kth.se/profile/mjab/
+          url: https://www.subset.se/
         - title: Joint discussions 
 goals:
        Does writing code and scripts play an important role in your research? 
