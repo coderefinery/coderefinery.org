@@ -15,6 +15,7 @@ participants:
     - Radovan Bast, CodeRefinery project manager and senior engineer at UiT, Norway
     - Thor Wikfeldt, CodeRefinery project member and application expert at PDC, Stockholm
     - Mark Abraham, Researcher and GROMACS lead developer
+    - Mikael Leetmaa, Software Development Manager at Subset AB
 location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. 
 schedule:
     - date: Friday, May 19
@@ -23,6 +24,8 @@ schedule:
           url: https://www.kth.se/profile/mjab/
         - title: Joint discussions 
       secondhalf: 
+        - title: TBA (Mikael Leetmaa)
+          url: https://www.kth.se/profile/mjab/
         - title: Joint discussions 
 goals:
        Does writing code and scripts play an important role in your research? 
