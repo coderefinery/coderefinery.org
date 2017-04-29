@@ -7,7 +7,7 @@ title: Lessons
 
 ### License
 
-You are free to use this material, but please [let us know](/contact) - it is
+You are free to use this material, but please [let us know](/contact/) - it is
 important for us to know whether this material has impact outside of our
 workshops.
 
