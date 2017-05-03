@@ -37,7 +37,10 @@ schedule:
       afternoon:
         - title: Automated testing (Harsha)
           url: https://coderefinery.github.io/testing/
-        - title: Branch design and archaeology with Git (Radovan)
+        - title: Git branch design (Radovan)
+          url: https://coderefinery.github.io/git-branch-design/
+        - title: Archaeology with Git (Radovan)
+          url: https://coderefinery.github.io/git-archaeology/
     - date: Thursday, May 11
       morning:
         - title: Building portable code with CMake (Radovan)
