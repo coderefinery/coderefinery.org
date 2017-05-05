@@ -24,7 +24,7 @@ schedule:
           url: https://www.kth.se/profile/mjab/
         - title: Joint discussions 
       secondhalf: 
-        - title: TBA (Mikael Leetmaa)
+        - title: Industry best-practices for developing reliable and maintainable code (Mikael Leetmaa)
           url: https://www.subset.se/
         - title: Joint discussions 
 goals:
