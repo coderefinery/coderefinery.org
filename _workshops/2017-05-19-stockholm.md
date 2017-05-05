@@ -16,7 +16,7 @@ participants:
     - Thor Wikfeldt, CodeRefinery project member and application expert at PDC, Stockholm
     - Mark Abraham, Researcher and GROMACS lead developer
     - Mikael Leetmaa, Software Development Manager at Subset AB
-location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. 
+location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. <a href="https://www.kth.se/en/student/campus/transportation-upon-arrival-how-to-get-here-1.359878" target="_blank">Instructions to get to KTH Campus</a>.
 schedule:
     - date: Friday, May 19
       firsthalf: 
