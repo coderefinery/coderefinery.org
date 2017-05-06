@@ -32,3 +32,9 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 
 - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
 - [Git branch design](https://coderefinery.github.io/git-branch-design/)
+
+
+### Planned
+
+- Software licensing
+- How to open source a project
