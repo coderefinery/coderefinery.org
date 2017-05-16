@@ -10,7 +10,7 @@ contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: February 13
 registration_is_closed: false
 registration_form: "https://radovan.typeform.com/to/L3nro0"
-status: planned
+status: past
 instructors:
     - Harsha Vathsavayi
     - Nikolai Denissov
