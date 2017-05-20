@@ -10,7 +10,7 @@ contact: Thor Wikfeldt (kthw@kth.se)
 registration_open_date: March 17
 registration_is_closed: false
 registration_form: "https://kthw.typeform.com/to/JGFpbZ"
-status: planned
+status: past
 participants:
     - Radovan Bast, CodeRefinery project manager and senior engineer at UiT, Norway
     - Thor Wikfeldt, CodeRefinery project member and application expert at PDC, Stockholm
