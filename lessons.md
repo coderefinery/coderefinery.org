@@ -26,12 +26,13 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
 - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
 - [Integrated development environments](https://coderefinery.github.io/IDEs/)
+- [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
+- [Git branch design](https://coderefinery.github.io/git-branch-design/)
 
 
 ### Under construction
 
-- [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
-- [Git branch design](https://coderefinery.github.io/git-branch-design/)
+- [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python for Great Good!](https://coderefinery.github.io/mma/)
 
 
 ### Planned
