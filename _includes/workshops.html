@@ -19,7 +19,6 @@
                         <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
                     {% endif %}
                 {% endfor %}
-                <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>
             </ul>
         </div>
 
@@ -41,6 +40,7 @@
         <div class="col-sm-4">
             <h3>Past workshops and events</h3>
             <ul>
+                <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>
                 {% for workshop in site.workshops %}
                     {% if workshop.status == 'past' %}
                         <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
