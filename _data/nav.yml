@@ -15,6 +15,8 @@ main:
     text: 'Links'
   - url: 'https://groups.google.com/group/coderefinery'
     text: 'Forum'
+  - url: '/repository/'
+    text: 'Repository'
   - url: '/contact/'
     text: 'Contact'
   - url: 'https://twitter.com/coderefine'
