@@ -6,6 +6,9 @@ title: Repository hosting
 
 ## Git repository hosting for the Nordics (beta) [source.coderefinery.org](https://source.coderefinery.org)
 
+Private and public repositories with unlimited number of collaborators for Nordic academia.
+You will be able to create groups and projects yourself and add collaborators.
+
 ### Who can use this service?
 
 Students, researchers, and staff affiliated with a Nordic academic institution.
