@@ -9,6 +9,9 @@ title: Repository hosting
 Private and public repositories with unlimited number of collaborators for Nordic academia.
 You will be able to create groups and projects yourself and add collaborators.
 
+**This service is for collaborating on code and scripts**. It is not designed to be a data sharing
+or storage service. In doubt please ask `radovan.bast@uit.no`.
+
 ### Who can use this service?
 
 Students, researchers, and staff affiliated with a Nordic academic institution.
