@@ -7,7 +7,6 @@ title: Repository hosting
 ## Git repository hosting for the Nordics (beta) [source.coderefinery.org](https://source.coderefinery.org)
 
 Private and public repositories with unlimited number of collaborators for Nordic academia.
-You will be able to create groups and projects yourself and add collaborators.
 
 **This service is for collaborating on code and scripts**. It is not designed to be a data sharing
 or storage service. In doubt please ask `radovan.bast@uit.no`.
@@ -21,8 +20,9 @@ If you are not sure whether you can use the system, please contact
 ### How can I get on this system?
 
 Register your user account using your university email account. Then write an
-email to `radovan.bast@uit.no` where you state your affiliation and in 2-3
-sentences describe briefly your motivation for using this service.
+email to `radovan.bast@uit.no` where you state your affiliation and in two
+sentences (or more) describe briefly why you would like to use this service
+and how you plan to use this service.
  
 ### Can my collaborators outside the Nordics use this service?
 
