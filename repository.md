@@ -17,7 +17,7 @@ Students, researchers, and staff affiliated with a Nordic academic institution.
 If you are not sure whether you can use the system, please contact
 `radovan.bast@uit.no`.
  
-### How can I get on this system?
+### I want to be able to create projects and groups - how?
 
 Register your user account using your university email account. Then write an
 email to `radovan.bast@uit.no` where you state your affiliation and in two
