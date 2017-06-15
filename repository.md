@@ -4,9 +4,7 @@ include: content
 title: Repository hosting
 ---
 
-## Git repository hosting for the Nordics (beta) [source.coderefinery.org](https://source.coderefinery.org)
-
-Private and public repositories with unlimited number of collaborators for Nordic research software.
+## Git repository hosting for Nordic research software (beta) [source.coderefinery.org](https://source.coderefinery.org)
 
 ### Scope
 
