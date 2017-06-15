@@ -69,6 +69,7 @@ Twitter via
 
 ### How do I know that you won't turn it off once your funding runs out?
 
+We are currently funded until September 2018.
 We are actively working on securing long-term funding for this service.  The
 goal is to create a service for many years to come.  If we do not manage to
 secure long-term funding, we will notify users well in advance and assist in
