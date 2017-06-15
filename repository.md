@@ -27,10 +27,8 @@ and how you plan to use this service.
 ### Can my collaborators outside the Nordics use this service?
 
 Yes, your collaborators can join your projects but cannot create new projects.
-Ask them to register and then as an existing user please contact
-`radovan.bast@uit.no` listing the user names of your collaborator(s) to enable
-them on the system.
- 
+Ask them to register and then you can add them to your projects or groups as collaborators.
+
 ### How about federated access such as Feide or HAKA or Edugain or Kalmar2?
 
 We are working on it - currently you need a specific user account for this
