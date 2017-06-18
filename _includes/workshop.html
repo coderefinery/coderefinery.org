@@ -8,8 +8,7 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <h3>{{ page.dates }}</h3>
-            <h4>{{ page.time }}</h4>
+            <h3>{{ page.dates }}, {{ page.time }}</h3>
 
             {% if page.registration_is_closed %}
                 <a href="#" class="btn btn-danger disabled">Registration is closed</a>
@@ -81,6 +80,11 @@
             <h3>Location</h3>
             <p>
                 {{ page.location }}
+            </p>
+
+            <h3>Time</h3>
+            <p>
+                {{ page.time }}
             </p>
 
             <h3>Price</h3>
