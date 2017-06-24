@@ -14,7 +14,7 @@ Please contact `radovan.bast@uit.no`. We will soon set up a proper email support
 
 #### SSH repository address contains "10022"
 
-When you copy the repository address to your terminal, it contains "10022", for instance:
+When you copy the SSH repository address to your terminal, it contains "10022", for instance:
 ```
 git clone ssh://git@source.coderefinery.org:10022/myuser/myrepo.git
 ```
