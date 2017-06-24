@@ -6,6 +6,14 @@ title: Repository hosting
 
 ## Git repository hosting for Nordic research software (beta): [source.coderefinery.org](https://source.coderefinery.org)
 
+### How to submit issues
+
+Please visit the [support page](/repository/support/).
+
+### List of known issues
+
+Please visit the [support page](/repository/support/).
+
 ### Scope
 
 This service is for collaborating on code and scripts. It is not designed to be a data sharing
