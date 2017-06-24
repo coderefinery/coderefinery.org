@@ -5,7 +5,7 @@ title: Repository hosting support
 permalink: /repository/support/
 ---
 
-### How to inform us about new issues
+### How to inform us about issues
 
 Please contact `radovan.bast@uit.no`. We will soon set up a proper email support line.
 
