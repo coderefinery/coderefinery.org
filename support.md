@@ -12,19 +12,7 @@ Please contact `radovan.bast@uit.no`. We will soon set up a proper email support
 
 ### Known issues
 
-#### SSH repository address contains "10022"
-
-When you copy the SSH repository address to your terminal, it contains "10022", for instance:
-```
-git clone ssh://git@source.coderefinery.org:10022/myuser/myrepo.git
-```
-
-Workaround is to manually remove the "10022":
-```
-git clone ssh://git@source.coderefinery.org:/myuser/myrepo.git
-```
-
-We are working on a fix.
+Currently none.
 
 
 ### Why not using the issue tracker on the GitLab service for submitting issues?
