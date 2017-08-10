@@ -12,7 +12,7 @@
 
     <div class="row">
         <div class="col-sm-4">
-            <h3>Upcoming events</h3>
+            <h3>Scheduled workshops</h3>
             <ul>
                 {% for workshop in site.workshops %}
                     {% if workshop.status != 'past' %}
@@ -23,8 +23,20 @@
         </div>
 
         <div class="col-sm-4">
+            <h3>Past workshops</h3>
+            <ul>
+                {% for workshop in site.workshops %}
+                    {% if workshop.status == 'past' %}
+                        <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-sm-4">
             <h3>Planned workshops</h3>
             <ul>
+                <li>Jun 2017 - Tromsø</li>
                 <li>Oct 2017 - Aarhus</li>
                 <li>Nov 2017 - Linköping</li>
                 <li>Dec 2017 - Helsinki</li>
@@ -36,16 +48,29 @@
             </ul>
         </div>
 
+    </div>
+
+    <div class="row">
         <div class="col-sm-4">
-            <h3>Past workshops and events</h3>
+            <h3>Scheduled events</h3>
             <ul>
-                <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>
-                {% for workshop in site.workshops %}
-                    {% if workshop.status == 'past' %}
-                        <li><a href="{{ workshop.permalink }}">{{ workshop.city }}, {{ workshop.dates }}</a></li>
+                {% for meeting in site.meetings %}
+                    {% if meeting.status != 'past' %}
+                        <li><a href="{{ meeting.permalink }}">{{ meeting.city }}, {{ meeting.dates }}</a></li>
                     {% endif %}
                 {% endfor %}
-                <li><a href="http://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html">Oslo, April 6, 2017</a></li>
+            </ul>
+        </div>
+
+        <div class="col-sm-4">
+            <h3>Past events</h3>
+            <ul>
+                {% for meeting in site.meetings %}
+                    {% if meeting.status == 'past' %}
+                        <li><a href="{{ meeting.permalink }}">{{ meeting.city }}, {{ meeting.dates }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>
             </ul>
         </div>
     </div>
