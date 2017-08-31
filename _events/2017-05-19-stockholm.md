@@ -1,7 +1,7 @@
 ---
 layout: master
-include: meeting
-permalink: /meetings/2017-05-19-stockholm/
+include: event
+permalink: /events/2017-05-19-stockholm/
 city: Stockholm
 dates: May 19, 2017
 time: 13:15 to 17:00

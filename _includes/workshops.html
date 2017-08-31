@@ -53,9 +53,9 @@
         <div class="col-sm-4">
             <h3>Scheduled events</h3>
             <ul>
-                {% for meeting in site.meetings %}
-                    {% if meeting.status != 'past' %}
-                        <li><a href="{{ meeting.permalink }}">{{ meeting.city }}, {{ meeting.dates }}</a></li>
+                {% for event in site.events %}
+                    {% if event.status != 'past' %}
+                        <li><a href="{{ event.permalink }}">{{ event.city }}, {{ event.dates }}</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -64,9 +64,9 @@
         <div class="col-sm-4">
             <h3>Past events</h3>
             <ul>
-                {% for meeting in site.meetings %}
-                    {% if meeting.status == 'past' %}
-                        <li><a href="{{ meeting.permalink }}">{{ meeting.city }}, {{ meeting.dates }}</a></li>
+                {% for event in site.events %}
+                    {% if event.status == 'past' %}
+                        <li><a href="{{ event.permalink }}">{{ event.city }}, {{ event.dates }}</a></li>
                     {% endif %}
                 {% endfor %}
                 <li><a href="http://neic2017.nordforsk.org/workshops/coderefinery/">Umeå, May 29, 2017</a></li>

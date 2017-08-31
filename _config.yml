@@ -74,5 +74,5 @@ collections:
     output: false
   workshops:
     output: true
-  meetings:
+  events:
     output: true
