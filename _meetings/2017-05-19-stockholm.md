@@ -1,7 +1,7 @@
 ---
 layout: master
 include: meeting
-permalink: /workshops/2017-05-19-stockholm/
+permalink: /meetings/2017-05-19-stockholm/
 city: Stockholm
 dates: May 19, 2017
 time: 13:15 to 17:00
@@ -16,7 +16,7 @@ participants:
     - Thor Wikfeldt, CodeRefinery project member and application expert at PDC, Stockholm
     - Mark Abraham, Researcher and GROMACS lead developer
     - Mikael Leetmaa, Software Development Manager at Subset AB
-location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. 
+location: CSC library, enter via the CSC Service Center, <a href="https://goo.gl/ZAvu2O" target="_blank">Lindstedtsvägen 3, 4:th floor, KTH Campus</a>. <a href="https://www.kth.se/en/student/campus/transportation-upon-arrival-how-to-get-here-1.359878" target="_blank">Instructions to get to KTH Campus</a>.
 schedule:
     - date: Friday, May 19
       firsthalf: 
@@ -24,7 +24,7 @@ schedule:
           url: https://www.kth.se/profile/mjab/
         - title: Joint discussions 
       secondhalf: 
-        - title: TBA (Mikael Leetmaa)
+        - title: Industry best-practices for developing reliable and maintainable code (Mikael Leetmaa)
           url: https://www.subset.se/
         - title: Joint discussions 
 goals:
