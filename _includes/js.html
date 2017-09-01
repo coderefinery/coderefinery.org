@@ -1,2 +1,12 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<script src="{{ site.baseurl }}/assets/js/anchor.min.js"></script>
+<script>
+    anchors.add();
+
+    // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+    var shiftWindow = function() { scrollBy(0, -100) };
+    if (location.hash) shiftWindow();
+    window.addEventListener("hashchange", shiftWindow);
+</script>
