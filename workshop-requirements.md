@@ -2,7 +2,7 @@
 layout: master
 include: content
 title: Workshop requirements 
-permalink: /requirements/
+permalink: /workshop-requirements/
 ---
 
 ### Lecture room
@@ -15,4 +15,11 @@ permalink: /requirements/
 - The projector screen needs to be large, and the resolution of the projector needs to be good
 - Stable wireless connectivity for 20-30 people
 - Sufficiently many electricity outlets so that all participants can charge their laptops
+
+### Other requirements
+When we organize a workshop or event at a new site, we may need help with some local arrangements,
+including:
+- Booking a lecture room
+- Ordering coffee and refreshments
+- Advertise the workshop through local dissemination channels
 
