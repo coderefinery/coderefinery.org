@@ -1,10 +1,8 @@
 ---
 layout: master
 include: content
-title: Lessons
+title: Our lessons
 ---
-
-# Our lessons
 
 ## License
 
