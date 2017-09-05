@@ -1,6 +1,6 @@
 ---
 name: Nordic e-Infrastructure Collaboration
-website: https://neic.nordforsk.org
+website: https://neic.no
 logo: assets/img/logos/neic.png
 ---
 
