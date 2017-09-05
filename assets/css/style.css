@@ -481,3 +481,13 @@ img.mugshot {
     object-fit: cover;
     height: 262.5px;
 }
+
+
+div#imageContainer {
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+#imageContainer img {
+    vertical-align: bottom
+}
