@@ -4,29 +4,29 @@ include: content
 title: Contact
 ---
 
-### Mailing list
+## Mailing list
 
 Please take part in the discussion. We are looking forward to hearing from you.
 Ask questions about code development, discuss, give advice, and let us build a
 community: [groups.google.com/group/coderefinery](https://groups.google.com/group/coderefinery)
 
 
-### GitHub
+## GitHub
 
 [github.com/coderefinery](https://github.com/coderefinery/)
 
 
-### Twitter
+## Twitter
 
 [@coderefine](https://twitter.com/coderefine)
 
 
-### LinkedIn
+## LinkedIn
 
 [linkedin.com/coderefinery](https://www.linkedin.com/company/coderefinery?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf/)
 
 
-### Project lead
+## Project lead
 
 Radovan Bast
 
