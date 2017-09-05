@@ -28,11 +28,7 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [Integrated development environments](https://coderefinery.github.io/IDEs/)
 - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
 - [Git branch design](https://coderefinery.github.io/git-branch-design/)
-
-
-### Under construction
-
-- [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python for Great Good!](https://coderefinery.github.io/mma/)
+- [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
 
 
 ### Planned
