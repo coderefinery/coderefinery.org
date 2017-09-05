@@ -4,8 +4,9 @@ include: content
 title: Lessons
 ---
 
+# Our lessons
 
-### License
+## License
 
 You are free to use this material, but please [let us know](/contact/) - it is
 important for us to know whether this material has impact outside of our
@@ -15,7 +16,7 @@ Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/lic
 Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
 
 
-### Lesson material
+## Lesson material
 
 - [Introduction to version control](https://coderefinery.github.io/git-intro/)
 - [Documentation](https://coderefinery.github.io/documentation/)
@@ -31,7 +32,9 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
 
 
-### Planned
+## Planned lessons
 
-- Software licensing
-- How to open source a project
+- Contribution guides
+- How to open-source a project
+- Software licenses
+- Reproducible science
