@@ -6,12 +6,11 @@ title: Our lessons
 
 ## License
 
+Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
 You are free to use this material, but please [let us know](/contact/) - it is
 important for us to know whether this material has impact outside of our
 workshops.
-
-Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
 
 
 ## Lesson material
