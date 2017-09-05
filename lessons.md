@@ -38,3 +38,8 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - How to open-source a project
 - Software licenses
 - Reproducible science
+
+
+## Wish to contribute a lesson?
+
+Yes please! Please contact us if you are unsure how.
