@@ -1,0 +1,50 @@
+---
+layout: master
+include: workshop
+#permalink: /workshops/2017-11-07-linkoeping/
+city: Linköping
+dates: November 7-9, 2017
+time: 9:00 am to 5:00 pm
+num_seats: 26
+contact: Radovan Bast (radovan.bast@uit.no)
+registration_open_date: September 11
+registration_is_closed: false
+#registration_form: "https://radovan.typeform.com/to/YqDu4e"
+status: planned
+instructors:
+    - TBA
+helpers:
+    - TBA
+location: UiT The Arctic University of Norway, <a href="http://bit.ly/2ntu76T" target="_blank">Room TEO-H1 1.425</a>.
+schedule:
+    - date: Monday, June 19
+      morning:
+        - title: Welcome and practical information
+        - title: Introduction to version control - part 1/2 (Radovan)
+          url: https://coderefinery.github.io/git-intro/
+      afternoon:
+        - title: Jupyter notebooks (Thor)
+          url: https://github.com/coderefinery/jupyter
+        - title: Introduction to version control - part 2/2 (Radovan)
+          url: https://coderefinery.github.io/git-intro/
+    - date: Tuesday, June 20
+      morning:
+        - title: Collaborative distributed version control (Radovan)
+          url: https://coderefinery.github.io/git-collaborative/
+        - title: Archaeology with Git (Radovan)
+          url: https://coderefinery.github.io/git-archaeology/
+        - title: Git branch design (Radovan)
+          url: https://coderefinery.github.io/git-branch-design/
+      afternoon:
+        - title: Integrated development environments and automated testing (Jyry)
+          url: https://coderefinery.github.io/IDEs-testing/
+    - date: Wednesday, June 21
+      morning:
+        - title: Building portable code with CMake (Bjørn and Radovan)
+          url: https://coderefinery.github.io/cmake/
+      afternoon:
+        - title: Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good! (Bjørn and Radovan)
+          url: https://coderefinery.github.io/mma/
+        - title: Documentation (Thor)
+          url: https://coderefinery.github.io/documentation/
+---
