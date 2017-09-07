@@ -6,10 +6,10 @@ title: Registration procedure
 
 ## Confirmation email
 
-After filling out the registration form you will not receive an automatic
-confirmation email immediately after filling out the form but you can expect to
-receive a confirmation email from us within a week. The reason for this is
-that we typically have more people interested in the course than we have seats.
+After filling out the registration form you will receive an automatic
+confirmation email but please note that your registration is only tentative
+until we confirm it with another (human-written) email which should happen
+typically within a week.
 
 
 ## Waiting list
