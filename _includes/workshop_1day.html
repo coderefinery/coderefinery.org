@@ -1,0 +1,116 @@
+<div class="container mtb">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>CodeRefinery workshop in {{ page.city }}</h1>
+            <h4>Teaching researchers in sustainable software development</h4>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>{{ page.dates }}, {{ page.time }}</h3>
+
+            {% if page.registration_is_closed %}
+                <a href="#" class="btn btn-danger disabled">Registration is closed</a>
+            {% else %}
+                {% if page.registration_form %}
+                    <a class="typeform-share btn btn-success" href="{{ page.registration_form }}" data-mode="1" target="_blank">Register here</a>
+                    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+                {% else %}
+                    <a href="#" class="btn btn-primary disabled">Registration will open {{ page.registration_open_date }} - we have {{ page.num_seats }} seats</a>
+                {% endif %}
+            {% endif %}
+            <br>
+            <a href="{{ site.baseurl }}/registration/">More information</a> about the registration procedure.
+
+            <h3>Contact</h3>
+            <p>
+                {{ page.contact }}
+            </p>
+
+            <h3>Course goals</h3>
+            <p>
+               {{ page.goals }}
+            </p>
+
+            <h3>Format</h3>
+            <p>
+                {{ page.format }}
+            </p>
+
+            <h3>Schedule</h3>
+            {% for day in page.schedule %}
+                {{ day.date }}
+                <ul>
+                    <li>Morning</li>
+                    <ul>
+                        {% for item in day.morning %}
+                            {% if item.url %}
+                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                            {% else %}
+                                <li>{{ item.title }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    <li>Lunch break: 12:00 - 13:00</li>
+                    <li>Afternoon</li>
+                    <ul>
+                        {% for item in day.afternoon %}
+                            {% if item.url %}
+                                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+                            {% else %}
+                                <li>{{ item.title }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </ul>
+            {% endfor %}
+        </div>
+
+        <div class="col-sm-6">
+            <h3>Location</h3>
+            <p>
+                {{ page.location }}
+            </p>
+
+            <h3>Time</h3>
+            <p>
+                {{ page.time }}
+            </p>
+
+            <h3>Price</h3>
+            <p>
+                Free of charge.
+            </p>
+
+            <h3>Who the course is for</h3>
+            <p>
+                {{ page.whofor }}
+            </p>
+
+            <h3>What we will not teach</h3>
+            <p>
+		{{ page.nottaught}}
+            </p>
+
+            <h3>Prerequisites</h3>
+            <ul>
+                {{ page.prerequisites }}
+            </ul>
+
+            <h3>Instructors</h3>
+            <ul>
+                {% for instructor in page.instructors %}
+                    <li>{{ instructor }}</li>
+                {% endfor %}
+            </ul>
+
+            <h3>Helpers</h3>
+            <ul>
+                {% for helper in page.helpers %}
+                    <li>{{ helper }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
