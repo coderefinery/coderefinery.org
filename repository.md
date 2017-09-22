@@ -1,38 +1,36 @@
 ---
 layout: master
 include: content
-title: Repository hosting
+title: 'Code repository hosting for Nordic research software: <a href="https://source.coderefinery.org">source.coderefinery.org</a>'
 ---
-
-# Git repository hosting for Nordic research software (beta): [source.coderefinery.org](https://source.coderefinery.org)
-
-## How to inform us about issues
-
-Please visit the [support page](/repository/support/).
-
-
-## List of known issues
-
-Please visit the [support page](/repository/support/).
-
 
 ## Scope
 
 This service is for collaborating on code and scripts. It is not designed to be a data sharing
-or storage service. In doubt please ask `radovan.bast@uit.no`.
+or storage service. In doubt please ask `support@coderefinery.org`.
+
+
+## How to inform us about issues
+
+Please contact `support@coderefinery.org`.
+
+
+## List of known issues
+
+Currently none.
 
 
 ## Who can use this service?
 
 Students, researchers, and staff affiliated with a Nordic academic institution.
 If you are not sure whether you can use the system, please contact
-`radovan.bast@uit.no`.
+`support@coderefinery.org`.
 
  
 ## I want to be able to create projects and groups - how?
 
 Register your user account using your university email account. Then write an
-email to `radovan.bast@uit.no` where you state your affiliation and in two
+email to `support@coderefinery.org` where you state your affiliation and in two
 sentences (or more) describe briefly why you would like to use this service
 and how you plan to use this service.
 
@@ -88,8 +86,8 @@ Twitter via
 
 ## How do I know that you won't turn it off once your funding runs out?
 
-We are currently funded until September 2018.
-We are actively working on securing long-term funding for this service.  The
-goal is to create a service for many years to come.  If we do not manage to
-secure long-term funding, we will notify users well in advance and assist in
-migrating repository and data.
+We are currently funded until September 2018 and funding for 2-3 more years is
+currently being negotiated and is very likely.  We are actively working on
+securing long-term funding for this service.  The goal is to create a service
+for many years to come.  If we do not manage to secure long-term funding, we
+will notify users well in advance and assist in migrating repository and data.

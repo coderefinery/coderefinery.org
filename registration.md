@@ -37,4 +37,4 @@ waiting list can take the vacant seat.
 ## Questions?
 
 If you have any questions about your registration status, please write to
-[Radovan Bast](mailto:radovan.bast@uit.no).
+[support@coderefinery.org](mailto:support@coderefinery.org).
