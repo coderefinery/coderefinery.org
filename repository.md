@@ -39,6 +39,7 @@ and how you plan to use this service.
 
 Yes, your collaborators can join your projects but cannot create new projects.
 Ask them to register and then you can add them to your projects or groups as collaborators.
+No need to ask us or inform us in order to add external collaborators.
 
 
 ## How about federated access such as Feide or HAKA or Edugain or Kalmar2?
