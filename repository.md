@@ -26,7 +26,7 @@ The service we provide is a GitLab instance which targets persons and groups who
   to stay in the Nordics and remain under an academic governance
 - are careful to not share code or data with a for-profit company (not implying here that the company would use it without asking)
 - host their code on local hard drives and look for a better place to host and collaborate but prefer the code to remain private
-- run their own GitLab service but struggle to keep it up to date and backed up
+- run their own GitLab service or other repository hosting server but struggle to keep it up to date and backed up
 - need one place to host public and private repositories
 
 
