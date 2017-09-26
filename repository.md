@@ -12,14 +12,6 @@ or storage service. In doubt please ask `support@coderefinery.org`.
 
 ## Why use this service, rather than a service like GitHub or BitBucket?
 
-[GitHub](https://github.com), [Bitbucket](https://bitbucket.org),
-[GitLab.com](https://gitlab.com), and similar services are fine services.
-If you already use them, please continue to do so! They allow hosting public
-repositories and to some extent also private repositories for free for
-academia. [GitLab.com](https://gitlab.com) offers unlimited private
-repositories. They may offer higher visibility and discoverability than the
-instance offered by our project.
-
 The service we provide is a GitLab instance which targets persons and groups who:
 
 - prefer to keep their code in a private repository until it gets published and prefer the corresponding data
@@ -28,6 +20,14 @@ The service we provide is a GitLab instance which targets persons and groups who
 - host their code on local hard drives and look for a better place to host and collaborate but prefer the code to remain private
 - run their own GitLab service or other repository hosting server but struggle to keep it up to date and backed up
 - need one place to host public and private repositories
+
+[GitHub](https://github.com), [Bitbucket](https://bitbucket.org),
+[GitLab.com](https://gitlab.com), and similar services are fine services.
+If you already use them, please continue to do so! They allow hosting public
+repositories and to some extent also private repositories for free for
+academia. [GitLab.com](https://gitlab.com) offers unlimited private
+repositories. They may offer higher visibility and discoverability than the
+instance offered by our project.
 
 
 ## How to inform us about issues
