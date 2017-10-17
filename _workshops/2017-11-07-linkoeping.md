@@ -16,8 +16,8 @@ instructors:
     - Sabry Razick
     - Thor Wikfeldt
 helpers:
-    - TBA
-location: TBA
+    - Peter Kjellström
+location: <a href="https://old.liu.se/karta/karta?l=sv&px_type=2&px_id=184" target="_blank">Room G37, House G Galaxen, Campus Valla</a>
 schedule:
     - date: Tuesday, November 7
       morning:
