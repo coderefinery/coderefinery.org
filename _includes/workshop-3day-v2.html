@@ -47,18 +47,22 @@
                 exercises.
             </p>
 
-            <h3>Schedule</h3>
+            <h3><font color="red">Software requirements</font></h3>
             {% for day in page.schedule %}
                 {{ day.date }}
                 <ul>
-                    {% if day.software %}
                     <li>
-                        <font color="red">Software you need for this day:</font>
                         {% for item in day.software %}
                             <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>{% if forloop.last %}{% else %},{% endif %}
                         {% endfor %}
                     </li>
-                    {% endif %}
+                </ul>
+            {% endfor %}
+
+            <h3>Schedule</h3>
+            {% for day in page.schedule %}
+                {{ day.date }}
+                <ul>
                     <li>Morning</li>
                     <ul>
                         {% for item in day.morning %}
