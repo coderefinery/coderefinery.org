@@ -7,8 +7,6 @@ main:
     text: 'Workshops'
   - url: '/lessons/'
     text: 'Lessons'
-  - url: 'https://neic.no'
-    text: 'NeIC'
   - url: '/partners/'
     text: 'Partners'
   - url: '/links/'
