@@ -73,13 +73,13 @@ schedule:
         - title: CMake
           url: https://coderefinery.github.io/installation/cmake/
       morning:
-        - title: Building portable code with CMake (Radovan)
-          url: https://coderefinery.github.io/cmake/
-      afternoon:
-        - title: Modular code development (Radovan)
-          url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
-        - title: Software licensing (Radovan)
-          url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
         - title: Documentation (Thor)
           url: https://coderefinery.github.io/documentation/
+        - title: Modular code development (Radovan)
+          url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
+      afternoon:
+        - title: Software licensing (Radovan)
+          url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
+        - title: Building portable code with CMake (Radovan)
+          url: https://coderefinery.github.io/cmake/
 ---
