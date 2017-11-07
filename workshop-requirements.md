@@ -23,6 +23,7 @@ permalink: /workshop-requirements/
 - Stable wireless connectivity for 20-30 people
 - Sufficiently many electricity outlets so that all participants can charge
   their laptops
+- Standing board
 
 ## Other requirements
 
