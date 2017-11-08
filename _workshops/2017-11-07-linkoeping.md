@@ -54,10 +54,10 @@ schedule:
         - title: Archaeology with Git (Radovan)
           url: https://coderefinery.github.io/git-archaeology/
       afternoon:
-        - title: Git branch design (Radovan)
-          url: https://coderefinery.github.io/git-branch-design/
         - title: Automated testing (Radovan)
           url: https://coderefinery.github.io/testing/
+        - title: Git branch design (Radovan)
+          url: https://coderefinery.github.io/git-branch-design/
     - date: Thursday, November 9
       software:
         - title: Bash
