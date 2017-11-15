@@ -25,28 +25,28 @@ schedule:
       morning:
         - title: Welcome and debugging installation problems (all teachers)
         - title: Introduction to version control (Sabry)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/git-intro/
+          url: https://coderefinery.github.io/git-intro/
       afternoon:
         - title: Managing complexity and modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/970a58a661a42/talk.md/
         - title: DevOps, automation, and continuous integration (Nikolai)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/devops/
+          url: https://coderefinery.github.io/devops/
     - date: Tuesday, February 21
       morning:
         - title: Collaborative distributed version control (Radovan)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/git-collaborative/
+          url: https://coderefinery.github.io/git-collaborative/
       afternoon:
         - title: Jupyter notebooks (Thor)
           url: https://github.com/coderefinery/jupyter/tree/stockholm-feb2017
         - title: Automated testing (Radovan)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/testing/
+          url: https://coderefinery.github.io/testing/
     - date: Wednesday, February 22
       morning:
         - title: Building portable code with CMake (Bjørn and Radovan)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/cmake/
+          url: https://coderefinery.github.io/cmake/
       afternoon:
         - title: Integrated development environments (Nikolai)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/IDEs/
+          url: https://coderefinery.github.io/IDEs/
         - title: Documentation (Radovan)
-          url: https://coderefinery.github.io/museum/stockholm-feb2017/documentation/
+          url: https://coderefinery.github.io/documentation/
 ---
