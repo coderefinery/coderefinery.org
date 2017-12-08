@@ -30,6 +30,11 @@ repositories. They may offer higher visibility and discoverability than the
 instance offered by our project.
 
 
+## How to move your repository from another service to this service
+
+Please consult [this page](moving).
+
+
 ## How to inform us about issues
 
 Please contact `support@coderefinery.org`.
