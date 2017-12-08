@@ -54,10 +54,10 @@ by visiting `https://source.coderefinery.org/your-namespace/your-project/branche
 and `https://source.coderefinery.org/your-namespace/your-project/tags`.
 If you moved wikis, make sure they are present on the new server.  If you are
 unsure whether the migration worked, please contact `support@coderefinery.org`
-and we will help you double-checking the procedure.
+and we will try to help you double-checking the procedure.
 
 
 ## Help!
 
 If you have questions or need any assistance with moving repositories, please
-contact `support@coderefinery.org` and we will help you out.
+contact `support@coderefinery.org` and we will try to help you out.
