@@ -35,11 +35,12 @@ to move issues. If no, please continue below. The moving will be very easy.
 - Verify that it is now there: `https://source.coderefinery.no/your-namespace/your-project/`
 
 
-## Do you have any wiki?
+## Do you have a wiki in your project(s)?
 
 You can verify this by visiting `https://source.uit.no/your-namespace/your-project/wikis/home`.
+If yes, you need to move the wiki separately since it is not part of the code project.
 
-If yes, moving a wiki is very similar to moving the code repository:
+Moving a wiki is very similar to moving the code repository:
 
 - Mirror the wiki from old server to your computer: `$ git clone --mirror https://source.uit.no/your-namespace/your-project.wiki.git`
 - Go inside the freshly created directory on your computer: `$ cd your-project.wiki.git`
