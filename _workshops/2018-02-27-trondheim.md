@@ -20,8 +20,7 @@ instructors:
 helpers:
     - TBD
 
-location: |
-	  TBD
+location: TBD
 
 schedule:
     - date: Tuesday, February 27
