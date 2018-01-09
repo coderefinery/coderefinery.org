@@ -18,9 +18,10 @@ instructors:
     - TBD
 
 helpers:
-    - TBD
+    - 
 
-location: TBD
+location: |
+          The event is at <a href="http://bit.ly/2CYAM1q">R6</a>, Realfagsbygget, NTNU
 
 schedule:
     - date: Tuesday, February 27
