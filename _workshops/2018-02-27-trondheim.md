@@ -15,10 +15,9 @@ instructors:
     - Radovan Bast
     - Thor Wikfeldt
     - Bjørn Lindi
-    - TBD
 
 helpers:
-    - TBD
+    - TBA
 
 location: |
           The event is at <a href="http://bit.ly/2CYAM1q">R6</a>, Realfagsbygget, NTNU
@@ -37,13 +36,13 @@ schedule:
         - title: Visual diff tools
           url: https://coderefinery.github.io/installation/difftools/
       morning:
-        - title: Welcome and practical information 
-        - title: Introduction to version control - part 1/2 
+        - title: Welcome and practical information (Radovan)
+        - title: Introduction to version control - part 1/2 (Thor)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Jupyter notebooks 
-          url: https://github.com/coderefinery/jupyter
-        - title: Introduction to version control - part 2/2 
+        - title: Jupyter notebooks
+          url: https://github.com/coderefinery/jupyter (Thor)
+        - title: Introduction to version control - part 2/2 (Thor)
           url: https://coderefinery.github.io/git-intro/
     - date: Wednesday, February 28
       software:
@@ -56,16 +55,16 @@ schedule:
         - title: PyCharm
           url: https://coderefinery.github.io/installation/pycharm/
       morning:
-        - title: Collaborative distributed version control 
+        - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
-        - title: Archaeology with Git
+        - title: Archaeology with Git (Radovan)
           url: https://coderefinery.github.io/git-archaeology/
       afternoon:
-        - title: Integrated development environments
+        - title: Integrated development environments (Bjørn)
           url: https://coderefinery.github.io/IDEs/
-        - title: Reproducible research
+        - title: Reproducible research (Thor)
           url: https://coderefinery.github.io/reproducible-research/
-        - title: Automated testing
+        - title: Automated testing (Bjørn)
           url: https://coderefinery.github.io/testing/
     - date: Thursday, March 1
       software:
@@ -82,13 +81,13 @@ schedule:
         - title: CMake
           url: https://coderefinery.github.io/installation/cmake/
       morning:
-        - title: Documentation
+        - title: Documentation (Thor)
           url: https://coderefinery.github.io/documentation/
-        - title: Modular code development 
+        - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
       afternoon:
-        - title: Software licensing
+        - title: Software licensing (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
-        - title: Building portable code with CMake
+        - title: Building portable code with CMake (Bjørn)
           url: https://coderefinery.github.io/cmake/
 ---
