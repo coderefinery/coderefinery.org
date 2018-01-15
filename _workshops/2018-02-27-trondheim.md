@@ -31,8 +31,6 @@ schedule:
           url: https://coderefinery.github.io/installation/git/
         - title: Python
           url: https://coderefinery.github.io/installation/python/
-        - title: Jupyter
-          url: https://coderefinery.github.io/installation/python/#jupyter
         - title: Visual diff tools
           url: https://coderefinery.github.io/installation/difftools/
       morning:
@@ -40,10 +38,10 @@ schedule:
         - title: Introduction to version control - part 1/2 (Thor)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Jupyter notebooks
-          url: https://github.com/coderefinery/jupyter (Thor)
         - title: Introduction to version control - part 2/2 (Thor)
           url: https://coderefinery.github.io/git-intro/
+        - title: Documentation (Radovan)
+          url: https://coderefinery.github.io/documentation/
     - date: Wednesday, February 28
       software:
         - title: Bash
@@ -80,9 +78,11 @@ schedule:
           url: https://coderefinery.github.io/installation/make/
         - title: CMake
           url: https://coderefinery.github.io/installation/cmake/
+        - title: Jupyter
+          url: https://coderefinery.github.io/installation/python/#jupyter
       morning:
-        - title: Documentation (Thor)
-          url: https://coderefinery.github.io/documentation/
+        - title: Jupyter notebooks
+          url: https://github.com/coderefinery/jupyter (Thor)
         - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
       afternoon:
