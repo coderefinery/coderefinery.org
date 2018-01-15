@@ -5,10 +5,10 @@ permalink: /workshops/2018-02-27-trondheim/
 city: Trondheim
 dates: February 27 - March 1, 2018
 time: 9:00 am to 5:00 pm
-num_seats: 26
+num_seats: 30
 contact: support@coderefinery.org
 registration_open_date: January 1
-registration_is_closed: True
+registration_is_closed: false
 registration_form: "https://coderefinery.typeform.com/to/yihJ1n"
 status: planned
 instructors:
