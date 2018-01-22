@@ -20,7 +20,7 @@ helpers:
     - TBA
 
 location: |
-          The event is at <a href="http://bit.ly/2CYAM1q">R6</a>, Realfagsbygget, NTNU
+          The event is at <a href="http://bit.ly/2DfGYOy">MTS21</a>, Medisinsk-teknisk forskningssenter, NTNU
 
 schedule:
     - date: Tuesday, February 27
