@@ -104,8 +104,8 @@ catastrophes may result in the loss of both data and backups.
 ## How will I get notified about service breaks and downtime?
 
 Initially we will announce service breaks through messages displayed once you
-log into the platform.  Later we will set up an opt-in mailing list for service
-downtime notifications.  In addition, we plan to announce service breaks over
+log into the platform. Later we will set up an opt-in mailing list for service
+downtime notifications. In addition, we plan to announce service breaks over
 Twitter via
 [@coderefine](https://twitter.com/coderefine).
 
