@@ -93,7 +93,7 @@ collaboration funding this project.
  
 ## Is the data backed up?
 
-The Git repositories, wikis, as well as issues and metadata is backed up daily.
+The Git repositories, wikis, as well as issues and metadata are backed up daily.
 The backup is stored for the past 90 days. Backup older than 90 days is
 periodically discarded manually. We reserve the right to reduce the number of
 days backed up if space becomes an issue. Backups and the service are run in
