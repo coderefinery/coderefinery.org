@@ -115,5 +115,5 @@ Twitter via
 We are currently funded until October 2018 and funding for 2-3 more years is
 currently being negotiated and is very likely. We are actively working on
 securing long-term funding for this service. The goal is to create a service
-for many years to come.  If we do not manage to secure long-term funding, we
+for many years to come. If we do not manage to secure long-term funding, we
 will notify users well in advance and assist in migrating repository and data.
