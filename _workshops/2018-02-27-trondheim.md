@@ -52,6 +52,8 @@ schedule:
           url: https://coderefinery.github.io/installation/python/
         - title: PyCharm
           url: https://coderefinery.github.io/installation/pycharm/
+        - title: (optional) Docker
+          url: https://coderefinery.github.io/installation/docker/
       morning:
         - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
@@ -81,8 +83,8 @@ schedule:
         - title: Jupyter
           url: https://coderefinery.github.io/installation/python/#jupyter
       morning:
-        - title: Jupyter notebooks
-          url: https://github.com/coderefinery/jupyter (Thor)
+        - title: Jupyter notebooks (Thor)
+          url: https://github.com/coderefinery/jupyter 
         - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
       afternoon:
