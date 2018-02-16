@@ -54,6 +54,8 @@ schedule:
           url: https://coderefinery.github.io/installation/pycharm/
         - title: (optional) Docker
           url: https://coderefinery.github.io/installation/docker/
+        - title: (optional) CWL
+          url: https://coderefinery.github.io/installation/python/#common-workflow-language-cwl
       morning:
         - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
