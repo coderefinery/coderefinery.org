@@ -64,8 +64,6 @@ schedule:
           url: https://coderefinery.github.io/IDEs/
         - title: Reproducible research (Thor)
           url: https://coderefinery.github.io/reproducible-research/
-        - title: Automated testing (Bjørn)
-          url: https://coderefinery.github.io/testing/
     - date: Thursday, March 1
       software:
         - title: Bash
@@ -74,22 +72,18 @@ schedule:
           url: https://coderefinery.github.io/installation/git/
         - title: Python
           url: https://coderefinery.github.io/installation/python/
-        - title: Compilers
-          url: https://coderefinery.github.io/installation/compilers/
         - title: Make
           url: https://coderefinery.github.io/installation/make/
-        - title: CMake
-          url: https://coderefinery.github.io/installation/cmake/
         - title: Jupyter
           url: https://coderefinery.github.io/installation/python/#jupyter
       morning:
+        - title: Automated testing (Bjørn)
+          url: https://coderefinery.github.io/testing/
         - title: Jupyter notebooks (Thor)
           url: https://github.com/coderefinery/jupyter
+      afternoon:
         - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
-      afternoon:
         - title: Software licensing (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
-        - title: Building portable code with CMake (Bjørn)
-          url: https://coderefinery.github.io/cmake/
 ---
