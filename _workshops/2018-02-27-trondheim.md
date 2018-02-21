@@ -15,13 +15,11 @@ instructors:
     - Radovan Bast
     - Thor Wikfeldt
     - Bjørn Lindi
-
 helpers:
     - TBA
-
 location: |
-          The event is at <a href="http://bit.ly/2DfGYOy">MTS21</a>, Medisinsk-teknisk forskningssenter, NTNU
-
+          The event is at <a href="http://bit.ly/2DfGYOy">MTS21</a>,
+          Medisinsk-teknisk forskningssenter, NTNU
 schedule:
     - date: Tuesday, February 27
       software:
@@ -86,7 +84,7 @@ schedule:
           url: https://coderefinery.github.io/installation/python/#jupyter
       morning:
         - title: Jupyter notebooks (Thor)
-          url: https://github.com/coderefinery/jupyter 
+          url: https://github.com/coderefinery/jupyter
         - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
       afternoon:
