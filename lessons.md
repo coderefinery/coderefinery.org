@@ -28,13 +28,12 @@ workshops.
 - [Git branch design](https://coderefinery.github.io/git-branch-design/)
 - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
 - [Software licensing](http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/)
-
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
 ## Planned lessons
 
 - Contribution guides
 - How to open-source a project
-- Reproducible science
 
 
 ## Wish to contribute a lesson?
