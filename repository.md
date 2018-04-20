@@ -93,12 +93,10 @@ e-Infrastructure collaboration funding this project.
  
 ## Is the data backed up?
 
-The Git repositories, wikis, as well as issues and metadata are backed up daily.
-The backup is stored for the past 90 days. Backup older than 90 days is
-periodically discarded manually. We reserve the right to reduce the number of
-days backed up if space becomes an issue. Backups and the service are run in
-the same OpenStack cloud that is hosted in a single data center, so major
-catastrophes may result in the loss of both data and backups.
+The entire file system is backed up every day.  The schedule is 1/month full
+backup, 3 out of 4 weeks differential backup, 1/day incremental backup.  We
+reserve the right to reduce the number of days backed up if space becomes an
+issue.
 
 
 ## How will I get notified about service breaks and downtime?
