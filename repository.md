@@ -86,9 +86,12 @@ motivation, you will probably get a larger soft limit.
 
 ## Where is the service located?
 
-The service is currently run from and the data is stored on servers at the
-Danish e-Infrastructure Cooperation (DeiC).  DeiC is part of the Nordic
+The GitLab service is currently run from and the data is stored on servers at the
+Danish e-Infrastructure Cooperation (DeiC). DeiC is part of the Nordic
 e-Infrastructure collaboration funding this project.
+
+The continuous integration service is run by Damon Kasacjak and Erland Hochheim at
+[Computerome](https://www.computerome.dk).
 
  
 ## Is the data backed up?
