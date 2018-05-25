@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-v2
+include: workshop-3day-iceland
 permalink: /workshops/2018-08-21-reykjavik/
 city: Reykjavik
 dates: August 21-23, 2018
@@ -15,7 +15,7 @@ instructors:
     - TBA
 helpers:
     - TBA
-location: <a href="https://www.openstreetmap.org/way/28631892" target="_blank">"Interaction room" (room 227), Tæknigarður, University of Iceland.</a>
+location: University of Iceland, exact location to be announced later.
 schedule:
     - date: Tuesday, August 21
       software:
