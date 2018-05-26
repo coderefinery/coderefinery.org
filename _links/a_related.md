@@ -1,6 +1,8 @@
 ---
 section: Interesting organisations and projects to follow
 links:
+  - url: http://nordic-rse.org/
+    text: The Nordic RSE community
   - url: http://software-carpentry.org
     text: Software Carpentry
   - url: http://www.datacarpentry.org
