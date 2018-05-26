@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-iceland
+include: workshop-3day-v2
 permalink: /workshops/2018-08-21-reykjavik/
 city: Reykjavik
 dates: August 21-23, 2018
@@ -11,6 +11,20 @@ registration_open_date: May 15
 registration_is_closed: false
 registration_form: "https://coderefinery.typeform.com/to/B27XIy"
 status: planned
+goals:
+      The aim of this course is to demonstrate to and familiarize
+      the workshop participants with best practices and tools in modern research
+      software development. The main focus is on professional tools
+      for efficiently developing and maintaining research software.
+      Since most research code is developed in a collaborative
+      setting, we will discuss tools and workflows which facilitate
+      this process. Most of the content is also relevant to
+      a single developer.
+      <p>
+      Note that a workshop covering HPC topics will be held on June 13-15, see
+      <a href="https://cs.hi.is/HPC/hpcworkshop2018.html"> Nordic High Performance Computing & Applications Workshop</a>.
+      While both are funded by NeIC, the topics and trainers are different.
+      </p>
 instructors:
     - TBA
 helpers:
