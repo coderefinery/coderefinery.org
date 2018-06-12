@@ -58,8 +58,6 @@ schedule:
           url: https://coderefinery.github.io/installation/git/
         - title: Python
           url: https://coderefinery.github.io/installation/python/
-        - title: PyCharm
-          url: https://coderefinery.github.io/installation/pycharm/
       morning:
         - title: Collaborative distributed version control
           url: https://coderefinery.github.io/git-collaborative/
