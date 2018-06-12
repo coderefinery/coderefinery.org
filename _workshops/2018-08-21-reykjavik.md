@@ -48,8 +48,8 @@ schedule:
       afternoon:
         - title: Introduction to version control - part 2/2
           url: https://coderefinery.github.io/git-intro/
-        - title: Documentation
-          url: https://coderefinery.github.io/documentation/
+        - title: Software licensing 
+          url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
     - date: Wednesday, August 22
       software:
         - title: Bash
@@ -60,18 +60,14 @@ schedule:
           url: https://coderefinery.github.io/installation/python/
         - title: PyCharm
           url: https://coderefinery.github.io/installation/pycharm/
-        - title: (optional) Docker
-          url: https://coderefinery.github.io/installation/docker/
       morning:
         - title: Collaborative distributed version control
           url: https://coderefinery.github.io/git-collaborative/
-        - title: Archaeology with Git
-          url: https://coderefinery.github.io/git-archaeology/
       afternoon:
-        - title: Software licensing 
-          url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
         - title: Automated testing 
           url: https://coderefinery.github.io/testing/
+        - title: Archaeology with Git
+          url: https://coderefinery.github.io/git-archaeology/
     - date: Thursday, August 23
       software:
         - title: Bash
@@ -80,14 +76,12 @@ schedule:
           url: https://coderefinery.github.io/installation/git/
         - title: Python
           url: https://coderefinery.github.io/installation/python/
-        - title: Compilers
-          url: https://coderefinery.github.io/installation/compilers/
         - title: Make
           url: https://coderefinery.github.io/installation/make/
-        - title: CMake
-          url: https://coderefinery.github.io/installation/cmake/
         - title: Jupyter
           url: https://coderefinery.github.io/installation/python/#jupyter
+        - title: (optional) Docker
+          url: https://coderefinery.github.io/installation/docker/
       morning:
         - title: Jupyter notebooks 
           url: https://github.com/coderefinery/jupyter
@@ -96,6 +90,6 @@ schedule:
       afternoon:
         - title: Reproducible research 
           url: https://coderefinery.github.io/reproducible-research/
-        - title: Building portable code with CMake
-          url: https://coderefinery.github.io/cmake/
+        - title: Documentation
+          url: https://coderefinery.github.io/documentation/
 ---
