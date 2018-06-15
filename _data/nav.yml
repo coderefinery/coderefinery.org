@@ -13,6 +13,8 @@ main:
     text: 'Links'
   - url: '/get-involved'
     text: 'Get Involved'
+  - url: '/outreach/'
+    text: 'Outreach'
   - url: '/repository/'
     text: 'Repository'
   - url: '/contact/'
