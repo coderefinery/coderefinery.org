@@ -19,5 +19,3 @@ main:
     text: 'Repository'
   - url: '/contact/'
     text: 'Contact'
-  - url: 'https://github.com/coderefinery'
-    text: 'GitHub'
