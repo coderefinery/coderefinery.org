@@ -1,8 +1,8 @@
 main:
   - url: '/'
     text: 'Home'
-  - url: '/team/'
-    text: 'Team'
+  - url: '/about/'
+    text: 'About'
   - url: '/workshops/'
     text: 'Workshops'
   - url: '/lessons/'
