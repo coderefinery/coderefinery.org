@@ -1,5 +1,5 @@
 ---
 layout: master
-include: team
-title: Meet our team
+include: about
+title: About
 ---
