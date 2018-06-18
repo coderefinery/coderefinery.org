@@ -19,7 +19,5 @@ main:
     text: 'Repository'
   - url: '/contact/'
     text: 'Contact'
-  - url: 'https://twitter.com/coderefine'
-    text: 'Twitter'
   - url: 'https://github.com/coderefinery'
     text: 'GitHub'
