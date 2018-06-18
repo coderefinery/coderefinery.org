@@ -1,17 +1,16 @@
 <div class="container mb">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
+             {% include map.html %}
+        </div>
+        <div class="col-sm-6">
             <p>
 		We organize a road-show of hands-on informal and interactive
                 three-day workshops across the Nordics with type-along type of presentations,
                 live coding and demos. Short tutorials alternate with practical exercises.
                 If you are interested in these workshops, please get in touch!
             </p>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-sm-12">
             <h3>Notify me</h3>
             <p>
 		We don't want you to miss a workshop or event and we also understand that you don't want
@@ -20,105 +19,43 @@
                 <a href="https://goo.gl/forms/DLp3d0CzkAnwS2GX2" target="_blank">here</a>
                 and we will notify you when the registration to a workshop or event near you opens.
             </p>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>3-day workshops</h3>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <h4>Upcoming/ongoing</h4>
-            <ul>
-                {% for event in site.workshops %}
-                    {% if event.status != 'past' %}
-                        {% if event.permalink %}
-                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% else %}
-                            <li>{{ event.city }}, {{ event.dates }}</li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-            <h4>Planned</h4>
-        </div>
-
-        <div class="col-sm-4">
-            <h4>Past</h4>
-            <ul>
-                {% for event in site.workshops %}
-                    {% if event.status == 'past' %}
-                        {% if event.permalink %}
-                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% else %}
-                            <li>{{ event.city }}, {{ event.dates }}</li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>Shorter workshops and other events</h3>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <h4>Upcoming/ongoing</h4>
-            <ul>
-                {% for event in site.events %}
-                    {% if event.status != 'past' %}
-                        {% if event.link %}
-                            <li><a href="{{ event.link }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% elsif event.permalink %}
-                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% else %}
-                            <li>{{ event.city }}, {{ event.dates }}</li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="col-sm-4">
-            <h4>Planned</h4>
-        </div>
-
-        <div class="col-sm-4">
-            <h4>Past</h4>
-            <ul>
-                {% for event in site.events %}
-                    {% if event.status == 'past' %}
-                        {% if event.link %}
-                            <li><a href="{{ event.link }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% elsif event.permalink %}
-                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                        {% else %}
-                            <li>{{ event.city }}, {{ event.dates }}</li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-12">
             <h3>Information for local organizers</h3>
             <p>
 		The format of CodeRefinery workshops with live demonstrations and interactive learning places some
 		constraints on the workshop venue. We have therefore prepared
 		<a href="../workshop-requirements">a list of practical requirements</a>.
             </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>3-day workshops</h3>
+            <ul>
+                {% for event in site.workshops reversed %}
+                    {% if event.permalink %}
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                    {% else %}
+                        <li>{{ event.city }}, {{ event.dates }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-sm-6">
+            <h3>Shorter workshops and other events</h3>
+            <ul>
+                {% for event in site.events reversed %}
+                    {% if event.link %}
+                        <li><a href="{{ event.link }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                    {% elsif event.permalink %}
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                    {% else %}
+                        <li>{{ event.city }}, {{ event.dates }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
