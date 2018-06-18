@@ -1,6 +1,16 @@
 <div class="container mb">
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+	      Lorem ipsum
+            </p>
+        </div>
+    </div>
+
+
+    <h1>Meet the team</h1>
     <div class="row centered">
-        {% for person in site.team %}
+        {% for person in site.about %}
             {% assign mod = forloop.index | modulo:4 %}
             <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
                 <div class="he-wrap tpl6">
