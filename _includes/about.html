@@ -1,0 +1,95 @@
+<div class="container mb">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 class="text-center top-space">Training</h3>
+      <p>
+        We offer training workshops to researchers from Nordic research groups and projects in using
+        state-of-the-art tools and practices from modern collaborative software
+        engineering. Our three-day workshops focus on methods to build modular, 
+	reusable, maintainable, sustainable, reproducible, testable, and robust software.
+      </p>
+      <h3 class="text-center top-space">Who is it for?</h3>
+      <p>
+	<a href="../workshops/" target="_blank">Our workshops</a> are attended by MSc and 
+	PhD students, postdocs, researchers and 
+	more senior staff from a wide range of scientific backgrounds and with different 
+	programming experiences. Our <a href="../repository/" target="_blank">code repository 
+	hosting and continuous integration service</a> 
+	is open and free for all researchers based in Nordic universities and 
+	research institutes.
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h3 class="text-center top-space">Infrastructure</h3>
+      <p>
+        We provide <a href="../repository/" target="_blank">code repository hosting</a> for Nordic research software
+        as well as a continuous integration service for automated testing.
+        Please <a href="../contact/" target="_blank">contact us</a> if you would like to use these services.
+      </p>
+      <br>
+      <h3 class="text-center top-space">Level of our workshops</h3>
+      <p>
+	It is assumed that participants already write code 
+	for their research but no expertise is required. 
+	Some experience in navigating the file tree and editing 
+	files in a terminal session is recommended.
+	For beginners who don't yet write code but want to get started, we 
+	highly recommend attending a <a href="https://software-carpentry.org/">Software
+	Carpentry workshop</a>.
+      </p>
+    </div>
+
+  </div>
+
+
+
+  <h2>Meet the team</h2>
+  <div class="row centered">
+    {% for person in site.about %}
+    {% assign mod = forloop.index | modulo:4 %}
+    <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
+      <div class="he-wrap tpl6">
+	{% if person.photo %}
+	<img src="{{ site.baseurl }}/{{ person.photo }}"
+             class="mugshot" alt="">
+	{% else %}
+	<img
+           src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150"
+           alt="" class="mugshot">
+	{% endif %}
+      </div>
+      <h4>{{ person.name }}</h4>
+      <h5 class="ctitle">{{ person.organization }}</h5>
+      <div class="ccontent">
+	<p>{{ person.content }}</p>
+      </div>
+    </div>
+    {% if mod == 0 and forloop.last != true %}
+  </div>
+  <div class="row centered">
+    {% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-12" style="padding-top: 10px">
+      <h2>Continuous integration service</h2>
+      <p>
+	With support from The Danish National Life Science Supercomputing Center.
+	Computerome is a HPC Facility specialized for Life Science. Users include Research groups from all Danish Universities
+	and large international research consortiums as well as users from industry and the Health Care.
+      </p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-12" style="padding-top: 10px">
+      <h2>Alumni</h2>
+      <ul>
+	<li>Lukas Berger (Technical University of Denmark): work on CI infrastructure</li>
+	<li>Pinja Koskinen (CSC - IT Center for Science): DevOps know-how and lesson material</li>
+	<li>Risto Laurikainen (CSC - IT Center for Science): maintained the GitLab service</li>
+      </ul>
+    </div>
+  </div>
+</div>
