@@ -1,16 +1,18 @@
 ---
 layout: master
 include: content
-title: Outreach activities, presentations and articles
+title: Outreach activities, presentations, and articles
 ---
 
 ## Presentations
 
-- [Short talk at the CarpentryCon 2018 conference in Dublin](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/#1)
+- [Kjartan Thor Wikfeldt: Short talk at the CarpentryCon 2018 conference in Dublin](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
+
 
 ## Events
 
 - [CodeRefinery day in Oslo, April 2017](https://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html)
+
 
 ## Articles about CodeRefinery
 
