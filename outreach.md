@@ -6,7 +6,19 @@ title: Outreach activities, presentations, and articles
 
 ## Presentations
 
-- [Kjartan Thor Wikfeldt: Short talk at the CarpentryCon 2018 conference in Dublin](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
+- Dalton meeting 2016, Uppsala (Radovan Bast)
+- DIRAC meeting 2016, Odense (Radovan Bast)
+- [NORDUnet conference 2016, Helsinki (Radovan Bast)](https://events.nordu.net/display/NDN2016/Welcome)
+- [SNIC User Forum 2016, Lund (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/snic-2016/talk.md/)
+- [Workshop on Nordic Big Biomedical Data for Action 2016, Stockholm (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/niasc-2016/talk.md/)
+- [Sigma2 Metacenter meeting 2017, Tromsø (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/sigma2-2017/talk.md/)
+- [CodeRefinery day in Oslo, Apr 6, 2017 (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/oslo-2017/talk.md/)
+- [NeIC conference 2017, Umeå (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/neic-2017/talk.md/)
+- [NorduGrid conference 2017, Tromsø (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/nordugrid-2017/talk.md/)
+- [Mid-term report presentation, NeIC board meeting Sep 21, 2017, Copenhagen, Tromsø (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/report/master/mid-term.md/)
+- [DeiC conference 2017, Kolding (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/deic-2017/talk.md/)
+- [Nov 21-22, 2017, Narvik (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/narvik-2017/talk.md/)
+- [Short talk at the CarpentryCon 2018 conference, Dublin (Kjartan Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
 
 
 ## Events
