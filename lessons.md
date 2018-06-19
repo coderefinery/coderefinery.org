@@ -1,19 +1,10 @@
 ---
 layout: master
 include: content
-title: Our lessons
+title: Lessons
 ---
 
-## License
-
-Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
-You are free to use this material, but please [let us know](/contact/) - it is
-important for us to know whether this material has impact outside of our
-workshops.
-
-
-## Lesson material
+## Our lessons
 
 - [Introduction to version control](https://coderefinery.github.io/git-intro/)
 - [Documentation](https://coderefinery.github.io/documentation/)
@@ -30,12 +21,16 @@ workshops.
 - [Software licensing](http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/)
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
-## Planned lessons
 
-- Contribution guides
-- How to open-source a project
+### License
+
+Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
+You are free to use this material, but please [let us know](/contact/) - it is
+important for us to know whether this material has impact outside of our
+workshops.
 
 
-## Wish to contribute a lesson?
+### Wish to contribute a lesson?
 
-Yes please! Please contact us if you are unsure how.
+Yes please! Please [contact us](/contact) if you are unsure how.
