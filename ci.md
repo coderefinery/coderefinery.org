@@ -40,4 +40,16 @@ to the World Wide Large Hadron Collider Computing Grid (WLCG).
 > reflected in the test set which is thus very demanding. Using the CodeRefinery
 > CI service, we are able to run the test set in a reasonable time, thus
 > accelerating the development workflow, and additionally it allows us to run the
-> individual tests in both serial and parallel mode."
+> individual tests in both serial and parallel mode." [Jógvan Magnus Haugaard Olsen]
+
+
+### [DIRAC](http://diracprogram.org)
+
+The DIRAC program computes molecular properties using relativistic quantum
+chemical methods. It is named after P.A.M. Dirac, the father of relativistic
+electronic structure theory.
+
+Having access to the CodeRefinery CI service, the DIRAC project has introduced
+code review coupled with automated testing into the workflow with the result
+that trivial problems are detected early and automatically which keeps the main
+development line in principle production- and release-ready at all times.
