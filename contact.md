@@ -1,14 +1,30 @@
 ---
 layout: master
 include: content
-title: Contact
+title: Join/Contact
 ---
 
-### Mailing list
+### Forum
 
-Please take part in the discussion. We are looking forward to hearing from you.
-Ask questions about code development, discuss, give advice, and let us build a
-community: [groups.google.com/group/coderefinery](https://groups.google.com/group/coderefinery)
+[Join the forum](https://groups.google.com/group/coderefinery) to discuss workshops, 
+lesson material or any topic related to research software development! 
+
+
+### Workshop helpers
+
+Have you already participated in a CodeRefinery workshop, but would like to attend another one 
+to refresh your memory and share your own knowledge? Or do you already have a solid background 
+in research software engineering and would like to meet like-minded people in a friendly 
+environment? Join a CodeRefinery workshop as a helper! [Get in touch](../contact) and let 
+us know which workshop you would like to join.
+
+
+### Contribute to teaching material
+
+All our lessons are [on GitHub](https://github.com/coderefinery). Contributions to the 
+lesson material are highly welcome! The best way to contribute is via the forking-pull request 
+workflow. See our lesson on [collaborative version control](https://coderefinery.github.io/git-collaborative/02-distributed/) for an overview of how this works. You can also [contact us](../contact) 
+via other channels.
 
 
 ### Support line
@@ -24,20 +40,3 @@ Reuse our lessons and contribute changes: [github.com/coderefinery](https://gith
 ### Twitter
 
 If you like what we do, please reach out: [@coderefine](https://twitter.com/coderefine)
-
-
-### LinkedIn
-
-Or connect on LinkedIn: [linkedin.com/coderefinery](https://www.linkedin.com/company/coderefinery?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf/)
-
-
-### Project lead
-
-Radovan Bast
-
-High Performance Computing Group,
-UiT The Arctic University of Norway
-
-+47 776 44117
-<br>
-firstname.lastname@uit.no
