@@ -15,5 +15,7 @@ main:
     text: 'Outreach'
   - url: '/repository/'
     text: 'Git repository'
+  - url: '/ci/'
+    text: 'CI service'
   - url: '/contact/'
     text: 'Join/Contact'
