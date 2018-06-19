@@ -16,7 +16,7 @@ title: Outreach activities, presentations, and articles
 - [NeIC conference 2017, Umeå (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/neic-2017/talk.md/)
 - [NorduGrid conference 2017, Tromsø (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/nordugrid-2017/talk.md/)
 - [NORDUnet workshop, Sep 12-15, 2017, Copenhagen (Jyry Suvilehto)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/ntw-2017/talk.md/)
-- [Mid-term report presentation, NeIC board meeting Sep 21, 2017, Copenhagen (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/report/master/mid-term.md/)
+- [Mid-term report presentation, NeIC Board meeting Sep 21, 2017, Copenhagen (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/report/master/mid-term.md/)
 - [DeiC conference 2017, Kolding (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/deic-2017/talk.md/)
 - [Nov 21-22, 2017, Narvik (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/narvik-2017/talk.md/)
 - [Short talk at the CarpentryCon 2018 conference, Dublin (Kjartan Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
