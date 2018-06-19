@@ -42,3 +42,5 @@ Yes please! Please [contact us](/contact) if you are unsure how.
 - [Data Carpentry lessons](http://www.datacarpentry.org/lessons/)
 - [Library Carpentry lessons](https://librarycarpentry.org)
 - [HPC Carpentry lessons](https://hpc-carpentry.github.io)
+- [Aalto Science-IT: Training from beginning to HPC](http://scicomp.aalto.fi/training/)
+- [Aalto Science-IT: HPC tutorials](http://scicomp.aalto.fi/training/#c-high-performance-computing)
