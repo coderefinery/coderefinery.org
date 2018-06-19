@@ -10,6 +10,14 @@ Please get [in touch](/contact) if you would like to run your automated tests
 on our hardware. See below for some interesting use cases of this service.
 
 
+## Team behind the CI service
+
+This service is operated with support from The Danish National Life Science Supercomputing Center.
+Computerome is a HPC Facility specialized for Life Science. Users include
+Research groups from all Danish Universities and large international research
+consortiums as well as users from industry and the Health Care.
+
+
 ## Use cases
 
 ### Nordugrid ARC
