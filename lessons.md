@@ -34,3 +34,11 @@ workshops.
 ### Wish to contribute a lesson?
 
 Yes please! Please [contact us](/contact) if you are unsure how.
+
+
+## Recommended material created by other organizations/projects
+
+- [Software Carpentry lessons](https://software-carpentry.org/lessons/)
+- [Data Carpentry lessons](http://www.datacarpentry.org/lessons/)
+- [Library Carpentry lessons](https://librarycarpentry.org)
+- [HPC Carpentry lessons](https://hpc-carpentry.github.io)
