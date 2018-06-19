@@ -20,7 +20,7 @@ consortiums as well as users from industry and the Health Care.
 
 ## Use cases
 
-### Nordugrid ARC
+### [Nordugrid ARC](http://www.nordugrid.org/arc/)
 
 The Nordugrid ARC software package recently migrated from the Apache Subversion
 version control system to [GitLab hosted by Coderefinery](/repository). Nordugrid ARC is a
