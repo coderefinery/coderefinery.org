@@ -31,7 +31,7 @@ to the World Wide Large Hadron Collider Computing Grid (WLCG).
 > very good platform for discussing changes to the source-code, performing
 > automatic build upon commits, and setting up a testing infrastructure. We are
 > using GitLab extensively now, and plan to expand the automatic deploy and
-> testing that GitLab offers in the near future."
+> testing that GitLab offers in the near future." [Maiken Pedersen]
 
 
 ### [Dalton and LSDalton](http://daltonprogram.org)
