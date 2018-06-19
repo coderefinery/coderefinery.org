@@ -32,3 +32,12 @@ to the World Wide Large Hadron Collider Computing Grid (WLCG).
 > automatic build upon commits, and setting up a testing infrastructure. We are
 > using GitLab extensively now, and plan to expand the automatic deploy and
 > testing that GitLab offers in the near future."
+
+
+### [Dalton and LSDalton](http://daltonprogram.org)
+
+> "The Dalton project consists of several feature-rich programs. This is
+> reflected in the test set which is thus very demanding. Using the CodeRefinery
+> CI service, we are able to run the test set in a reasonable time, thus
+> accelerating the development workflow, and additionally it allows us to run the
+> individual tests in both serial and parallel mode."
