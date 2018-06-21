@@ -35,6 +35,21 @@ instance offered by our project.
 Please consult [this page](moving).
 
 
+## SSH key fingerprints
+
+Public key fingerprints can be used to validate a connection to a remote server.
+
+These are the public key fingerprints for `source.coderefinery.org` (in hexadecimal format):
+
+    MD5:b8:c9:43:24:33:96:ba:5d:88:84:73:81:38:ac:e6:0f (RSA)
+    MD5:21:dc:4e:ef:4f:1c:44:f8:d8:5e:3a:30:15:32:e3:4c (ECDSA)
+
+These are the SHA256 hashes:
+
+    SHA256:dQ6iP+E6PZ2Ureynaw1eGKqRLJ5RtL4C7qUJlNSvLW8 (RSA)
+    SHA256:dtWo53mvtXVv3NxZf44kpRIfvJ8edcEqv7HFEltPpa4 (ECDSA)
+
+
 ## How to inform us about issues
 
 Please contact `support@coderefinery.org`.
