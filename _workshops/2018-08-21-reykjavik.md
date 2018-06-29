@@ -26,7 +26,9 @@ goals:
       While both are funded by NeIC, the topics and trainers are different.
       </p>
 instructors:
-    - TBA
+    - Radovan Bast
+    - Bjørn Lindi
+    - Kjartan Thor Wikfeldt
 helpers:
     - TBA
 location: University of Iceland, exact location to be announced later.
@@ -42,13 +44,13 @@ schedule:
         - title: Visual diff tools
           url: https://coderefinery.github.io/installation/difftools/
       morning:
-        - title: Welcome and practical information 
-        - title: Introduction to version control - part 1/2
+        - title: Welcome and practical information (Radovan)
+        - title: Introduction to version control - part 1/2 (Kjartan)
           url: https://coderefinery.github.io/git-intro/
       afternoon:
-        - title: Introduction to version control - part 2/2
+        - title: Introduction to version control - part 2/2 (Kjartan)
           url: https://coderefinery.github.io/git-intro/
-        - title: Software licensing 
+        - title: Software licensing (Bjørn)
           url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
     - date: Wednesday, August 22
       software:
@@ -59,12 +61,12 @@ schedule:
         - title: Python
           url: https://coderefinery.github.io/installation/python/
       morning:
-        - title: Collaborative distributed version control
+        - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
       afternoon:
-        - title: Automated testing 
+        - title: Automated testing (Bjørn)
           url: https://coderefinery.github.io/testing/
-        - title: Archaeology with Git
+        - title: Archaeology with Git (Bjørn)
           url: https://coderefinery.github.io/git-archaeology/
     - date: Thursday, August 23
       software:
@@ -81,13 +83,13 @@ schedule:
         - title: (optional) Docker
           url: https://coderefinery.github.io/installation/docker/
       morning:
-        - title: Jupyter notebooks 
+        - title: Jupyter notebooks (Kjartan)
           url: https://github.com/coderefinery/jupyter
-        - title: Modular code development 
+        - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
       afternoon:
-        - title: Reproducible research 
+        - title: Reproducible research (Kjartan)
           url: https://coderefinery.github.io/reproducible-research/
-        - title: Documentation
+        - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
 ---
