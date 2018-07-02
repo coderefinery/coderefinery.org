@@ -31,8 +31,8 @@ to move issues. If no, please continue below. The moving will be very easy.
   there.
 - Mirror the repository from old server to your computer: `$ git clone --mirror git@source.uit.no:your-namespace/your-project.git`
 - Go inside the freshly created directory on your computer: `$ cd your-project.git`
-- Push the entire repository to the new server: `$ git push --mirror git@source.coderefinery.no:your-namespace/your-project.git`
-- Verify that it is now there: `https://source.coderefinery.no/your-namespace/your-project/`
+- Push the entire repository to the new server: `$ git push --mirror git@source.coderefinery.org:your-namespace/your-project.git`
+- Verify that it is now there: `https://source.coderefinery.org/your-namespace/your-project/`
 
 
 ## Do you have a wiki in your project(s)?
@@ -44,7 +44,7 @@ Moving a wiki is very similar to moving the code repository:
 
 - Mirror the wiki from old server to your computer: `$ git clone --mirror git@source.uit.no:your-namespace/your-project.wiki.git`
 - Go inside the freshly created directory on your computer: `$ cd your-project.wiki.git`
-- Push the wiki to the new server: `$ git push --mirror git@source.coderefinery.no:your-namespace/your-project.wiki.git`
+- Push the wiki to the new server: `$ git push --mirror git@source.coderefinery.org:your-namespace/your-project.wiki.git`
 
 
 ## Finally verify that it went well
