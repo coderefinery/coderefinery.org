@@ -31,9 +31,12 @@ important for us to know whether this material has impact outside of our
 workshops.
 
 
-### Wish to contribute a lesson?
+### Wish to contribute to a lesson?
 
-Yes please! Please [contact us](/contact) if you are unsure how.
+We would love that! Contributions via the forking/pull-request workflow are most convenient. How to do 
+this is covered in the [collaborative Git lesson](https://coderefinery.github.io/git-collaborative/), but
+please [contact us](/contact) if you are unsure how. We also welcome any other contributions or suggestions
+regarding our lessons, including suggestions for new lessons - [stay in touch!](/contact)
 
 
 ## Recommended material created by other organizations/projects
