@@ -34,20 +34,24 @@ helpers:
 location: University of Iceland, exact location to be announced later.
 
 software:
- - title: Bash
-   url: https://coderefinery.github.io/installation/bash/
- - title: Git
-   url: https://coderefinery.github.io/installation/git/
- - title: Python 
-   url: https://coderefinery.github.io/installation/python/
- - title: (optional) Visual diff tools
-   url: https://coderefinery.github.io/installation/difftools/
- - title: Make
-   url: https://coderefinery.github.io/installation/make/
- - title: Jupyter
-   url: https://coderefinery.github.io/installation/python/#jupyter
- - title: (optional) Docker
-   url: https://coderefinery.github.io/installation/docker/
+- title: Bash
+  url: https://coderefinery.github.io/installation/bash/
+- title: Editor
+  url: https://coderefinery.github.io/installation/editors/
+- title: Git
+  url: https://coderefinery.github.io/installation/git/
+- title: Python 
+  url: https://coderefinery.github.io/installation/python/
+- title: (optional) Visual diff tools
+  url: https://coderefinery.github.io/installation/difftools/
+- title: Make
+  url: https://coderefinery.github.io/installation/make/
+- title: Jupyter
+  url: https://coderefinery.github.io/installation/python/#jupyter
+- title: Snakemake
+  url: https://coderefinery.github.io/installation/python/#snakemake
+- title: (optional) Docker
+  url: https://coderefinery.github.io/installation/docker/
 
 schedule:
     - date: Tuesday, August 21
