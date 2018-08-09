@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-v2
+include: workshop-3day-v3
 permalink: /workshops/2018-08-21-reykjavik/
 city: Reykjavik
 dates: August 21-23, 2018
@@ -32,17 +32,25 @@ instructors:
 helpers:
     - TBA
 location: University of Iceland, exact location to be announced later.
+
+software:
+ - title: Bash
+   url: https://coderefinery.github.io/installation/bash/
+ - title: Git
+   url: https://coderefinery.github.io/installation/git/
+ - title: Python 
+   url: https://coderefinery.github.io/installation/python/
+ - title: Visual diff tools
+   url: https://coderefinery.github.io/installation/difftools/
+ - title: Make
+   url: https://coderefinery.github.io/installation/make/
+ - title: Jupyter
+   url: https://coderefinery.github.io/installation/python/#jupyter
+ - title: (optional) Docker
+   url: https://coderefinery.github.io/installation/docker/
+
 schedule:
     - date: Tuesday, August 21
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
-        - title: Visual diff tools
-          url: https://coderefinery.github.io/installation/difftools/
       morning:
         - title: Welcome and practical information (Radovan)
         - title: Introduction to version control - part 1/2 (Kjartan)
@@ -53,13 +61,6 @@ schedule:
         - title: Software licensing (Bjørn)
           url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
     - date: Wednesday, August 22
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
       morning:
         - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
@@ -69,19 +70,6 @@ schedule:
         - title: Archaeology with Git (Bjørn)
           url: https://coderefinery.github.io/git-archaeology/
     - date: Thursday, August 23
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
-        - title: Make
-          url: https://coderefinery.github.io/installation/make/
-        - title: Jupyter
-          url: https://coderefinery.github.io/installation/python/#jupyter
-        - title: (optional) Docker
-          url: https://coderefinery.github.io/installation/docker/
       morning:
         - title: Jupyter notebooks (Kjartan)
           url: https://github.com/coderefinery/jupyter
