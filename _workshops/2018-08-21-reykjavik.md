@@ -40,7 +40,7 @@ software:
    url: https://coderefinery.github.io/installation/git/
  - title: Python 
    url: https://coderefinery.github.io/installation/python/
- - title: Visual diff tools
+ - title: (optional) Visual diff tools
    url: https://coderefinery.github.io/installation/difftools/
  - title: Make
    url: https://coderefinery.github.io/installation/make/
