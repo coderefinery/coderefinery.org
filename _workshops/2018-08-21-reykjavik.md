@@ -31,7 +31,7 @@ instructors:
     - Kjartan Thor Wikfeldt
 helpers:
     - TBA
-location: University of Iceland, exact location to be announced later.
+location: <a href="https://www.openstreetmap.org/search?query=t%C3%A6knigar%C3%B0ur#map=19/64.13951/-21.95521"> Tæknigarður, room 227 (2nd floor)</a>, University of Iceland.
 
 software:
 - title: Bash
