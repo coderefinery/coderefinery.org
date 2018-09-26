@@ -22,15 +22,6 @@ location: |
           Medisinsk-teknisk forskningssenter, NTNU
 schedule:
     - date: Tuesday, February 27
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
-        - title: Visual diff tools
-          url: https://coderefinery.github.io/installation/difftools/
       morning:
         - title: Welcome and practical information (Radovan)
         - title: Introduction to version control - part 1/2 (Thor)
@@ -41,19 +32,6 @@ schedule:
         - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
     - date: Wednesday, February 28
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
-        - title: PyCharm
-          url: https://coderefinery.github.io/installation/pycharm/
-        - title: (optional) Docker
-          url: https://coderefinery.github.io/installation/docker/
-        - title: (optional) CWL
-          url: https://coderefinery.github.io/installation/python/#common-workflow-language-cwl
       morning:
         - title: Collaborative distributed version control (Radovan)
           url: https://coderefinery.github.io/git-collaborative/
@@ -65,17 +43,6 @@ schedule:
         - title: Reproducible research (Thor)
           url: https://coderefinery.github.io/reproducible-research/
     - date: Thursday, March 1
-      software:
-        - title: Bash
-          url: https://coderefinery.github.io/installation/bash/
-        - title: Git
-          url: https://coderefinery.github.io/installation/git/
-        - title: Python
-          url: https://coderefinery.github.io/installation/python/
-        - title: Make
-          url: https://coderefinery.github.io/installation/make/
-        - title: Jupyter
-          url: https://coderefinery.github.io/installation/python/#jupyter
       morning:
         - title: Automated testing (Bjørn)
           url: https://coderefinery.github.io/testing/
