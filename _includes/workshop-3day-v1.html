@@ -29,6 +29,11 @@
       </p>
 
       <h3>Course goals</h3>
+	  {% if page.goals %}
+	  <p>
+	    {{ page.goals }}
+	  </p>
+	  {% else %}
       <p>
         The aim of this course is to demonstrate to and familiarize
         the workshop participants with best practices and tools in modern research
@@ -39,6 +44,7 @@
         this process. Most of the content is also relevant to
         a single developer.
       </p>
+	  {% endif %}
 
       <h3>Format</h3>
       <p>
