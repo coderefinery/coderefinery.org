@@ -5,11 +5,11 @@
       <h4>Teaching researchers in sustainable software development</h4>
     </div>
   </div>
-  
+
   <div class="row">
     <div class="col-sm-6">
       <h3>{{ page.dates }}, {{ page.time }}</h3>
-      
+
       {% if page.registration_is_closed %}
       <a href="#" class="btn btn-danger disabled">Registration is closed</a>
       {% else %}
@@ -22,23 +22,23 @@
       {% endif %}
       <br>
       <a href="{{ site.baseurl }}/registration/">More information</a> about the registration procedure.
-      
+
       <h3>Contact</h3>
       <p>
         {{ page.contact }}
       </p>
-            
+
       <h3>Format</h3>
       <p>
         Hands-on informal and interactive three-day event with type-along type of
         presentations, live coding and demos. Short tutorials alternate with practical
         exercises.
       </p>
-      
+
       <h3><font color="red">Software requirements</font></h3>
       Please follow the links below and make sure that you install all the required software packages.
-      Note that, e.g., a working Python executable on your laptop is not 
-      sufficient - a version greater than 3.4 is strongly recommended 
+      Note that, e.g., a working Python executable on your laptop is not
+      sufficient - a version greater than 3.4 is strongly recommended
       and a number of extra packages need to be installed as detailed on the Python installation page.
       {% for item in page.software %}
       {% if item.url %}
@@ -47,7 +47,7 @@
       <li>{{ item.title }}</li>
       {% endif %}
       {% endfor %}
-      
+
       <h3>Schedule</h3>
       {% for day in page.schedule %}
       {{ day.date }}
@@ -76,23 +76,23 @@
       </ul>
       {% endfor %}
     </div>
-    
+
     <div class="col-sm-6">
       <h3>Location</h3>
       <p>
         {{ page.location }}
       </p>
-      
+
       <h3>Time</h3>
       <p>
         {{ page.time }}
       </p>
-      
+
       <h3>Price</h3>
       <p>
         Free of charge.
       </p>
-      
+
       <h3>Course goals</h3>
       {% if page.goals %}
       <p>
@@ -118,7 +118,7 @@
         already, join us as a helper! It's fun, and you always learn
         something new about a subject by teaching it.
       </p>
-      
+
       <h3>What we will not teach</h3>
       <p>
 	This is not a course about a specific programming language or
@@ -127,7 +127,7 @@
         language-independent as possible but we will show some basic code examples in
         Python.
       </p>
-      
+
       <h3>Prerequisites</h3>
       <ul>
         <li>You should be able to navigate the file tree in a terminal session and edit text files in the terminal.</li>
@@ -136,14 +136,14 @@
         <li>It is good if you have access to Eduroam.</li>
         <li>You need to install some software. Please follow links in the schedule.
       </ul>
-      
+
       <h3>Instructors</h3>
       <ul>
         {% for instructor in page.instructors %}
         <li>{{ instructor }}</li>
         {% endfor %}
       </ul>
-      
+
       <h3>Helpers</h3>
       <ul>
         {% for helper in page.helpers %}
