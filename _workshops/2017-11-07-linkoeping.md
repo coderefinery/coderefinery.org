@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-v2
+include: workshop-3day
 permalink: /workshops/2017-11-07-linkoeping/
 city: Linköping
 dates: November 7-9, 2017
