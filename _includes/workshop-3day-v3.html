@@ -50,30 +50,30 @@
 
       <h3>Schedule</h3>
       {% for day in page.schedule %}
-      {{ day.date }}
-      <ul>
-        <li>Morning</li>
+        {{ day.date }}
         <ul>
-          {% for item in day.morning %}
-          {% if item.url %}
-          <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-          {% else %}
-          <li>{{ item.title }}</li>
-          {% endif %}
-          {% endfor %}
+          <li>Morning</li>
+          <ul>
+            {% for item in day.morning %}
+              {% if item.url %}
+                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+              {% else %}
+                <li>{{ item.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <li>Lunch break: 12:00 - 13:00</li>
+          <li>Afternoon</li>
+          <ul>
+            {% for item in day.afternoon %}
+              {% if item.url %}
+                <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+              {% else %}
+                <li>{{ item.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </ul>
-        <li>Lunch break: 12:00 - 13:00</li>
-        <li>Afternoon</li>
-        <ul>
-          {% for item in day.afternoon %}
-          {% if item.url %}
-          <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-          {% else %}
-          <li>{{ item.title }}</li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </ul>
       {% endfor %}
     </div>
 
