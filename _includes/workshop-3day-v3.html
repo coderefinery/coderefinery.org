@@ -95,20 +95,20 @@
 
       <h3>Course goals</h3>
       {% if page.goals %}
-      <p>
-	{{ page.goals }}
-      </p>
+        <p>
+	  {{ page.goals }}
+        </p>
       {% else %}
-      <p>
-        The aim of this course is to demonstrate to and familiarize
-        the workshop participants with best practices and tools in modern research
-        software development. The main focus is on professional tools
-        for efficiently developing and maintaining research software.
-        Since most research code is developed in a collaborative
-        setting, we will discuss tools and workflows which facilitate
-        this process. Most of the content is also relevant to
-        a single developer.
-      </p>
+        <p>
+          The aim of this course is to demonstrate to and familiarize
+          the workshop participants with best practices and tools in modern research
+          software development. The main focus is on professional tools
+          for efficiently developing and maintaining research software.
+          Since most research code is developed in a collaborative
+          setting, we will discuss tools and workflows which facilitate
+          this process. Most of the content is also relevant to
+          a single developer.
+        </p>
       {% endif %}
 
       <h3>Who the course is for</h3>
@@ -140,14 +140,14 @@
       <h3>Instructors</h3>
       <ul>
         {% for instructor in page.instructors %}
-        <li>{{ instructor }}</li>
+          <li>{{ instructor }}</li>
         {% endfor %}
       </ul>
 
       <h3>Helpers</h3>
       <ul>
         {% for helper in page.helpers %}
-        <li>{{ helper }}</li>
+          <li>{{ helper }}</li>
         {% endfor %}
       </ul>
     </div>
