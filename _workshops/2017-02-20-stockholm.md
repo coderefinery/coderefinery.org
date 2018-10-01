@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-v1
+include: workshop-3day
 permalink: /workshops/2017-02-20-stockholm/
 city: Stockholm
 dates: February 20-22, 2017

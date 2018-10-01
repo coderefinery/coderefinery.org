@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day-v1
+include: workshop-3day
 permalink: /workshops/2017-05-09-copenhagen/
 city: Copenhagen
 dates: May 9-11, 2017
