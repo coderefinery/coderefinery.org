@@ -23,8 +23,8 @@ Your data only comes from what you decide to provide to us. You will never be af
 
 - Anonymized survey results are or will be published on [https://github.com/coderefinery](https://github.com/coderefinery).
 - Names and email addresses of participants are stored on a zero-knowledge encrypted Git repository.
-- When attending a workshop, we use [https://indico.neic.no](https://indico.neic.no) and guide you to register
-  for accounts in them. We don't control this data, and this is not required to
+- We use [https://indico.neic.no](https://indico.neic.no) to register participants for workshops.
+  We don't control this data, and this is not required to
   take part in the workshop.
 
 
