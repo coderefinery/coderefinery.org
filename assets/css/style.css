@@ -383,7 +383,8 @@ a:focus {
 }
 
 .ccontent {
-	height: 130px;
+	min-height: 130px;
+	text-align: left;
 }
 
 csmall {
