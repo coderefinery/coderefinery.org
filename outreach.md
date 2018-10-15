@@ -34,3 +34,4 @@ title: Outreach activities, presentations, and articles
 - *CodeRefinery and the Red Queen's race*, [CSC June 2017 blog post](https://www.csc.fi/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race)
 - *First Year of CodeRefinery*, [PDC December 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-2/first-year-of-coderefinery-1.783468)
 - *Better software leads to better science*, [Nordforsk January 2018 news article](https://www.nordforsk.org/en/news/better-software-leads-to-better-science?set_language=en)
+- *Teaching researchers to write better code*, [https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/](https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/)
