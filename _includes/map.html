@@ -4,6 +4,9 @@
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(mymap);
 
+    L.marker([60.1866693, 24.827682]).addTo(mymap)
+            .bindPopup('<a href="http://coderefinery.org/workshops/2018-12-11-aalto/" target="_blank">Aalto, December 11-13, 2018</a>');
+
     L.marker([67.850, 20.2166667]).addTo(mymap)
             .bindPopup('<a href="http://coderefinery.org/workshops/2018-11-21-kiruna/" target="_blank">Kiruna, November 21-23, 2018</a>');
 
