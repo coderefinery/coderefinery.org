@@ -10,7 +10,6 @@ contact: support@coderefinery.org
 registration_open_date: May 15
 registration_is_closed: true
 registration_form: "https://coderefinery.typeform.com/to/B27XIy"
-status: planned
 goals:
     The aim of this course is to demonstrate to and familiarize
     the workshop participants with best practices and tools in modern research

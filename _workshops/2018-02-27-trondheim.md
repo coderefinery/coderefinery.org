@@ -10,7 +10,6 @@ contact: support@coderefinery.org
 registration_open_date: January 1
 registration_is_closed: true
 registration_form: "https://coderefinery.typeform.com/to/yihJ1n"
-status: past
 instructors:
     - Radovan Bast
     - Thor Wikfeldt
