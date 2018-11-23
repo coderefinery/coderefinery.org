@@ -18,7 +18,8 @@ title: Lessons
 - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
 - [Git branch design](https://coderefinery.github.io/git-branch-design/)
 - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
-- [Software licensing](http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/)
+- [Software licensing (evolved into "social coding")](http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/)
+- [Social coding and open software](http://cicero.xyz/v2/remark/github/coderefinery/social-coding/master/talk.md/)
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
 
