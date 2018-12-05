@@ -10,7 +10,7 @@ title: Lessons
 - [Documentation](https://coderefinery.github.io/documentation/)
 - [Jupyter notebooks](https://github.com/coderefinery/jupyter)
 - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-- [Managing complexity and modular code development](http://cicero.xyz/v2/remark/github/bast/talk-complexity/master/talk.md/)
+- [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
 - [Automated testing](https://coderefinery.github.io/testing/)
 - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
 - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
@@ -18,8 +18,7 @@ title: Lessons
 - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
 - [Git branch design](https://coderefinery.github.io/git-branch-design/)
 - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
-- [Software licensing (evolved into "social coding")](http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/)
-- [Social coding and open software](http://cicero.xyz/v2/remark/github/coderefinery/social-coding/master/talk.md/)
+- [Social coding and open software](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
 
