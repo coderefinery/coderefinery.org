@@ -6,20 +6,31 @@ title: Lessons
 
 ## Our lessons
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/)
-- [Documentation](https://coderefinery.github.io/documentation/)
-- [Jupyter notebooks](https://github.com/coderefinery/jupyter)
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-- [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-- [Automated testing](https://coderefinery.github.io/testing/)
-- [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
-- [Building portable code with CMake](https://coderefinery.github.io/cmake/)
-- [Integrated development environments](https://coderefinery.github.io/IDEs/)
-- [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
-- [Git branch design](https://coderefinery.github.io/git-branch-design/)
-- [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
-- [Social coding and open software](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
-- [Reproducible research](https://coderefinery.github.io/reproducible-research/)
+This is not a strict division, but lessons can be classified as to
+what is initially useful to yourself, to your group, and to the whole
+community.
+
+- For yourself and larger:
+  - [Introduction to version control](https://coderefinery.github.io/git-intro/)
+  - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
+  - [Jupyter notebooks](https://github.com/coderefinery/jupyter)
+  - [Automated testing](https://coderefinery.github.io/testing/)
+  - [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
+
+- For your group and larger:
+  - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+  - [Git branch design](https://coderefinery.github.io/git-branch-design/)
+  - [Documentation](https://coderefinery.github.io/documentation/)
+
+- For the community:
+  - [Social coding and open software](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
+  - [Reproducible research](https://coderefinery.github.io/reproducible-research/)
+
+- Special topics:
+  - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
+  - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
+  - [Integrated development environments](https://coderefinery.github.io/IDEs/)
+  - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
 
 
 ### License
