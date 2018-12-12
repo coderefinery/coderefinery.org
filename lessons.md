@@ -13,7 +13,7 @@ community.
 - For yourself and larger:
   - [Introduction to version control](https://coderefinery.github.io/git-intro/)
   - [Archaeology with Git](https://coderefinery.github.io/git-archaeology/)
-  - [Jupyter notebooks](https://github.com/coderefinery/jupyter)
+  - [Jupyter notebooks](https://github.com/coderefinery/jupyterlab)
   - [Automated testing](https://coderefinery.github.io/testing/)
   - [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
 
