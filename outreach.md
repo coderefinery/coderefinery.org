@@ -35,3 +35,4 @@ title: Outreach activities, presentations, and articles
 - *First Year of CodeRefinery*, [PDC December 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-2/first-year-of-coderefinery-1.783468)
 - *Better software leads to better science*, [Nordforsk January 2018 news article](https://www.nordforsk.org/en/news/better-software-leads-to-better-science?set_language=en)
 - *Teaching researchers to write better code*, [https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/](https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/)
+- *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580)
