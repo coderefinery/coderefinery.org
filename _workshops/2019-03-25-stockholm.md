@@ -3,7 +3,7 @@ layout: master
 include: workshop-3day
 permalink: /workshops/2019-03-25-stockholm/
 city: Stockholm
-dates: March 25.27, 2019
+dates: March 25-27, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
 contact: support@coderefinery.org
