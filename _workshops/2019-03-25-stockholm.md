@@ -20,7 +20,9 @@ goals:
     this process. Most of the content is also relevant to
     a single researcher.
 instructors:
-  - TBD
+  - Radovan Bast
+  - Juho Lehtonen
+  - Thor Wikfeldt
 helpers:
   - TBD
 location: |
