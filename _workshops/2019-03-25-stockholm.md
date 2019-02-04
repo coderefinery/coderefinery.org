@@ -52,31 +52,29 @@ schedule:
   - date: Monday, March 25
     morning:
       - title: Welcome and practical information
-      - title: Introduction to version control - part 1/2
+      - title: Introduction to version control - part 1/2 (Juho and Thor)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - title: Introduction to version control - part 2/2 
+      - title: Introduction to version control - part 2/2 (Juho and Thor)
         url: https://coderefinery.github.io/git-intro/
-      - title: Social coding and open software 
+      - title: Social coding and open software (Radovan)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/2018-12-11-espoo/talk.md/
   - date: Tuesday, March 26
     morning:
-      - title: Collaborative distributed version control 
+      - title: Collaborative distributed version control (Radovan)
         url: https://coderefinery.github.io/git-collaborative/
     afternoon:
-      - title: Automated testing 
-        url: https://coderefinery.github.io/testing/
-      - title: Archaeology with Git
-        url: https://coderefinery.github.io/git-archaeology/
+      - title: Modular code development (Radovan)
+        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
+      - title: Reproducible research and FAIR data (Thor)
+        url: https://coderefinery.github.io/reproducible-research/
   - date: Wednesday, March 27
     morning:
-      - title: Reproducible research and FAIR data
-        url: https://coderefinery.github.io/reproducible-research/
-      - title: Modular code development
-        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
+      - title: Automated testing (Radovan)
+        url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Documentation 
+      - title: Documentation (Juho)
         url: https://coderefinery.github.io/documentation/
-      - title: JupyterLab 
+      - title: JupyterLab (Thor)
         url: https://github.com/coderefinery/jupyterlab
 ---
