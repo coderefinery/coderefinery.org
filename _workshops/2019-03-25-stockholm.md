@@ -70,11 +70,11 @@ schedule:
         url: https://coderefinery.github.io/reproducible-research/
   - date: Wednesday, March 27
     morning:
-      - title: Automated testing (Radovan)
-        url: https://coderefinery.github.io/testing/
-    afternoon:
       - title: Documentation (Juho)
         url: https://coderefinery.github.io/documentation/
+    afternoon:
+      - title: Automated testing (Radovan)
+        url: https://coderefinery.github.io/testing/
       - title: JupyterLab (Thor)
         url: https://github.com/coderefinery/jupyterlab
 ---
