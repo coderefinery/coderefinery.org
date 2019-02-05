@@ -72,8 +72,10 @@ schedule:
     morning:
       - title: Documentation (Juho)
         url: https://coderefinery.github.io/documentation/
+      - title: Automated testing part 1/2 (Radovan)
+        url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Automated testing (Radovan)
+      - title: Automated testing part 2/2 (Radovan)
         url: https://coderefinery.github.io/testing/
       - title: JupyterLab (Thor)
         url: https://github.com/coderefinery/jupyterlab
