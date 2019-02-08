@@ -7,6 +7,8 @@ links:
     text: Software Carpentry
   - url: http://www.datacarpentry.org
     text: Data Carpentry
+  - url: https://librarycarpentry.org
+    text: Library Carpentry
   - url: https://www.software.ac.uk
     text: The Software Sustainability Institute
   - url: http://molssi.org
