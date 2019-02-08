@@ -29,4 +29,6 @@ links:
     text: Netherlands eScience Center
   - url: https://github.com/alan-turing-institute/the-turing-way#about-the-project
     text: The Turing Way
+  - url: https://programminghistorian.org/en/lessons/
+    text: The Programming Historian
 ---
