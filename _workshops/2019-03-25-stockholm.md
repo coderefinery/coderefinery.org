@@ -78,5 +78,5 @@ schedule:
       - title: Automated testing part 2/2 (Radovan)
         url: https://coderefinery.github.io/testing/
       - title: JupyterLab (Thor)
-        url: https://github.com/coderefinery/jupyterlab
+        url: https://github.com/coderefinery/jupyter
 ---
