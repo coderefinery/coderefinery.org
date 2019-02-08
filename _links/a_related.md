@@ -27,4 +27,6 @@ links:
     text: NumFOCUS
   - url: https://www.esciencecenter.nl
     text: Netherlands eScience Center
+  - url: https://github.com/alan-turing-institute/the-turing-way#about-the-project
+    text: The Turing Way
 ---
