@@ -105,9 +105,6 @@ The GitLab service is currently run from and the data is stored on servers at th
 Danish e-Infrastructure Cooperation (DeiC). DeiC is part of the Nordic
 e-Infrastructure collaboration funding this project.
 
-The continuous integration service is run by Damon Kasacjak and Erland Hochheim at
-[Computerome](https://www.computerome.dk).
-
  
 ## Is the data backed up?
 
