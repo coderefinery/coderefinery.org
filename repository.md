@@ -129,3 +129,10 @@ We are currently funded until October 2021. We are actively working on
 securing long-term funding for this service. The goal is to create a service
 for many years to come. If we do not manage to secure long-term funding, we
 will notify users well in advance and assist in migrating repository and data.
+
+
+## Can I serve GitLab pages?
+
+Yes! GitLab pages now serve via `*.pages.coderefinery.org`.
+
+Currently only HTTP. TLS is in the works.
