@@ -492,3 +492,12 @@ div#imageContainer {
 #imageContainer img {
     vertical-align: bottom
 }
+
+.two_columns{
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
