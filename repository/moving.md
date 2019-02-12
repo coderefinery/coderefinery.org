@@ -10,6 +10,9 @@ In this how-to we will move repositories from `https://source.uit.no` to
 `https://source.coderefinery.org` to have an explicit example
 but the strategy is general and works with any host name.
 
+Please also note that GitLab has good import functionality from all major
+platforms.
+
 
 ## Check first whether you track any issues
 
