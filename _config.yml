@@ -10,6 +10,9 @@ highlighter: rouge
 lsi:         false
 excerpt_separator: "\n\n"
 
+# without this we would not see future workshops
+future: true
+
 # https://github.com/jekyll/jekyll/issues/302
 permalink: pretty
 defaults:
