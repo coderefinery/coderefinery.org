@@ -37,4 +37,6 @@ links:
     text: Better Scientific Software (BSSw)
   - url: https://softdev4research.github.io/recommendations/
     text: Recommendations to encourage best practices in research software
+  - url: http://www.prace-ri.eu/prace-repository-services/
+    text: PRACE Repository Services
 ---
