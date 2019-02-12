@@ -31,4 +31,10 @@ links:
     text: The Turing Way
   - url: https://programminghistorian.org/en/lessons/
     text: The Programming Historian
+  - url: http://wssspe.researchcomputing.org.uk
+    text: WSSSPE
+  - url: https://bssw.io
+    text: Better Scientific Software (BSSw)
+  - url: https://softdev4research.github.io/recommendations/
+    text: Recommendations to encourage best practices in research software
 ---
