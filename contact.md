@@ -6,7 +6,7 @@ title: Join/Contact
 
 ## Get involved
 
-Welcome! :wave: :thumbsup: :clap: :ok_hand:
+Welcome! 
 
 ### Workshop helpers
 
