@@ -1,25 +1,27 @@
 <div class="container mb">
-  <div class="row">
-    <div class="col-sm-6">
-      <h3 class="text-center top-space">CodeRefinery training</h3>
-      <p>
-        The key objective of CodeRefinery is to grow researchers' software best practices
-        skills to facilitate open and reproducible research.
 
+  <h2>Infrastructure</h2>
+    <div class="col-sm-12" style="padding-top: 10px">
+      <p>
+        Our <a href="../repository/" target="_blank">code repository
+	hosting service</a>
+	is open and free for all researchers based in Nordic universities and
+	research institutes.
+      </p>
+      <p>
+        Please <a href="../contact/" target="_blank">contact us</a> if you would like to use these services.
+      </p>
+      <br/>
+    </div>
+
+  <h2>Training opportunities <a name="training"></a></h2>
         We offer training opportunities to researchers from Nordic research groups and projects
         to learn basic-to-advanced research computing skills and become confident in using
         state-of-the-art tools and practices from modern collaborative software
         engineering.
-
-        We offer:
-      </p>
-      <ul>
-        <li><b>Three-day workshops</b> that focus on advanced methods to build modular,
- 	reusable, maintainable, sustainable, reproducible, testable, and robust software.</li>
-	<li><b>Train the trainer program</b> to build partnerships with Research
-        Software Engineers and researchers who are willing to lead skills' transfer
-        within their local communities in the Nordics.</li>
-      </ul>
+    
+  <div class="row">
+    <div class="col-sm-6">
 
       <h3 class="text-center top-space">Membership with <a href="https://carpentries.org">The Carpentries</a></h3>
       <p>
@@ -32,47 +34,69 @@
         With this we have access to:
       </p>
       <ul>
-        <li>6 <a href="https://carpentries.org/workshops/">Carpentries workshops</a> in the Nordics each year.
+        <li><a name="carpentries_workshops"></a>6 <a href="https://carpentries.org/workshops/">Carpentries workshops</a> in the Nordics each year.
             The workshop fee is on us, only the instructor travel is on the host institution.</li>
-	<li>15 seats in the <a href="https://carpentries.github.io/instructor-training/">Carpentries instructor training</a> each year.</li>
+	<li><a name="instructor_workshops"></a>15 seats in the <a href="https://carpentries.github.io/instructor-training/">Carpentries instructor training</a> each year.
+<b>Our train the trainer program</b> aims at building partnerships with <a href="http://nordic-rse.org/">Research Software Engineers</a> and researchers who are willing to lead skills' transfer
+        within their local communities in the Nordics.
+	</li>
       </ul>
       <p>
-        Please <a href="../contact/" target="_blank">get in touch</a> if you would like to host a workshop or become an instructor.
+        Please <a href="../contact/" target="_blank">get in touch</a> if you would like to host a Carpentry workshop or become an instructor.
       </p>
 
+<a name="coderefinery_workshops"></a>
+      <h3 class="text-center top-space">CodeRefinery Worshops</h3>
+      <p>
+        The key objective of CodeRefinery workshop is to grow researchers' software best practices
+        skills to facilitate open and reproducible research.
+
+
+        We offer <b>Three-day workshops</b> that focus on advanced methods to build modular,
+	        reusable, maintainable, sustainable, reproducible, testable, and robust software.
+		These workshops are based on <a href="/lessons/">training material</a> we develop and maintain. 
       </p>
+      <br/>
+	  
     </div>
     <div class="col-sm-6">
-      <h3 class="text-center top-space">Infrastructure</h3>
-      <p>
-        Our <a href="../repository/" target="_blank">code repository
-	hosting service</a>
-	is open and free for all researchers based in Nordic universities and
-	research institutes.
-      </p>
-      <p>
-        Please <a href="../contact/" target="_blank">contact us</a> if you would like to use these services.
-      </p>
 
-      <h3 class="text-center top-space">Level of our workshops</h3>
+      <h3 class="text-center top-space">Level of Carpentry workshops</h3>
       <p>
 	Carpentries workshops focus on creating a motivating and engaging environment for
 	learners with no or little digital skills while our three day workshops are the next
 	step.
-	For CodeRefinery workshop, it is assumed that participants already write code
-	for their research but no expertise is required.
-	Some experience in navigating the file tree and editing
-	files in a terminal session is recommended.
 	For beginners who don't yet write code but want to get started, we
 	highly recommend attending a <a href="https://software-carpentry.org/">Software
 	Carpentry workshop</a>.
       </p>
+    
+    <br/>  
+    <br/>  
+    <br/>   
+    <br/>  
+	<br/>
+    <br/>  
+    <br/>  
+    <br/>  
+    <br/>  
+    <br/>  
+	<h3 class="text-center top-space">Level of CodeRefinery workshops</h3>
       <p>
+	For CodeRefinery workshop, it is assumed that participants already write code
+	for their research but no expertise is required.
+	Some experience in navigating the file tree and editing
+	files in a terminal session is recommended.
+	  </p>
+	
+	<p>
 	<a href="../workshops/" target="_blank">Our workshops</a> are attended by MSc and
 	PhD students, postdocs, researchers and
 	more senior staff from a wide range of scientific backgrounds and with different
 	programming experiences.
-      </p>
+    </p>
+	  
+      <br/>
     </div>
 
   </div>
@@ -99,8 +123,6 @@
       </div>
     </div>
     {% if mod == 0 and forloop.last != true %}
-  </div>
-  <div class="row centered">
     {% endif %}
     {% endfor %}
   </div>
