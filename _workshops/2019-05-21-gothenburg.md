@@ -1,15 +1,15 @@
 ---
 layout: master
 include: workshop-3day
-permalink: /workshops/2019-04-02-tartu/
-city: Tartu
-dates: April 2-4, 2019
+permalink: /workshops/2019-05-21-gothenburg/
+city: Gothenburg
+dates: May 21-23, 2019
 time: 9:00 am to 5:00 pm
-num_seats: 30
+num_seats: 26
 contact: support@coderefinery.org
-registration_open_date: Feb 13
-registration_is_closed: true
-registration_form: "https://indico.neic.no/event/71/"
+registration_open_date: March 1
+registration_is_closed: false
+registration_form: "https://indico.neic.no/event/74/"
 goals:
     The aim of this course is to demonstrate to and familiarize
     the workshop participants with best practices and tools in modern research
@@ -20,13 +20,13 @@ goals:
     this process. Most of the content is also relevant to
     a single researcher.
 instructors:
+  - Max Eckardt
+  - Anne Fouilloux
   - Bjørn Lindi
-  - João M. da Silva
-  - Radovan Bast
-  - Sabry Razick
+  - Thor Wikfeldt
 helpers:
   - TBD
-location: University of Tartu Library, W. Struve 1, 51003, Seminar room Kodavere.
+location: <a href="https://www.chalmers.se/sv/institutioner/bio/kontakt/Sidor/Hitta-till-avdelningarna.aspx" target="_blank">Fysikhuset, Chalmers</a>. 
 
 software:
   - title: Bash
@@ -49,35 +49,35 @@ software:
     url: https://coderefinery.github.io/installation/#accounts
 
 schedule:
-  - date: Tuesday, April 2
+  - date: Monday, May 21
     morning:
       - title: Welcome and practical information
-      - title: Introduction to version control - part 1/2 (Sabry)
+      - title: Introduction to version control - part 1/2 
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - title: Introduction to version control - part 2/2 (Sabry)
+      - title: Introduction to version control - part 2/2 
         url: https://coderefinery.github.io/git-intro/
-      - title: Social coding and open software (TBA)
+      - title: Social coding and open software
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/2018-12-11-espoo/talk.md/
-  - date: Wednesday, April 3
+  - date: Tuesday, May 22
     morning:
-      - title: Collaborative distributed version control (Bjørn)
+      - title: Collaborative distributed version control
         url: https://coderefinery.github.io/git-collaborative/
     afternoon:
-      - title: Modular code development (TBA)
+      - title: Modular code development
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
-      - title: Reproducible research and FAIR data (TBA)
+      - title: Reproducible research and FAIR data 
         url: https://coderefinery.github.io/reproducible-research/
-  - date: Thursday, April 4
+  - date: Wednesday, May 23
     morning:
-      - title: Documentation (Sabry)
+      - title: Documentation
         url: https://coderefinery.github.io/documentation/
-      - title: Automated testing part 1/2 (Radovan)
+      - title: Automated testing part 1/2
         url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Automated testing part 2/2 (Radovan)
+      - title: Automated testing part 2/2 
         url: https://coderefinery.github.io/testing/
-      - title: Jupyter (Bjørn)
+      - title: Jupyter 
         url: https://github.com/coderefinery/jupyter
       - title: Concluding remarks and where to go from here
 ---
