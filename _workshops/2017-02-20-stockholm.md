@@ -12,7 +12,7 @@ registration_is_closed: true
 registration_form: "https://radovan.typeform.com/to/HphrEe"
 instructors:
     - Sabry Razick
-    - Nikolai Denissov
+    - N. D.
     - Radovan Bast
     - Thor Wikfeldt
     - Bjørn Lindi
@@ -28,7 +28,7 @@ schedule:
       afternoon:
         - title: Managing complexity and modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/bast/talk-complexity/970a58a661a42/talk.md/
-        - title: DevOps, automation, and continuous integration (Nikolai)
+        - title: DevOps, automation, and continuous integration (N. D.)
           url: https://coderefinery.github.io/devops/
     - date: Tuesday, February 21
       morning:
@@ -44,7 +44,7 @@ schedule:
         - title: Building portable code with CMake (Bjørn and Radovan)
           url: https://coderefinery.github.io/cmake/
       afternoon:
-        - title: Integrated development environments (Nikolai)
+        - title: Integrated development environments (N. D.)
           url: https://coderefinery.github.io/IDEs/
         - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/

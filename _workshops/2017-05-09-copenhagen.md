@@ -12,7 +12,7 @@ registration_is_closed: false
 registration_form: "https://radovan.typeform.com/to/L3nro0"
 instructors:
     - Harsha Vathsavayi
-    - Nikolai Denissov
+    - N. D.
     - Radovan Bast
     - Jyry Suvilehto
 helpers:
@@ -45,7 +45,7 @@ schedule:
         - title: Building portable code with CMake (Radovan)
           url: https://coderefinery.github.io/cmake/
       afternoon:
-        - title: Integrated development environments (Nikolai)
+        - title: Integrated development environments (N. D.)
           url: https://coderefinery.github.io/IDEs/
         - title: Documentation (Radovan)
           url: https://coderefinery.github.io/documentation/
