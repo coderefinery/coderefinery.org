@@ -40,9 +40,9 @@ software:
   - title: (optional) Visual diff tools
     url: https://coderefinery.github.io/installation/difftools/
   - title: Jupyter and JupyterLab
-    url: https://coderefinery.github.io/installation/python/#jupyter
+    url: https://coderefinery.github.io/installation/jupyter
   - title: Snakemake
-    url: https://coderefinery.github.io/installation/python/#snakemake
+    url: https://coderefinery.github.io/installation/snakemake
   - title: Accounts
     url: https://coderefinery.github.io/installation/#accounts
 
