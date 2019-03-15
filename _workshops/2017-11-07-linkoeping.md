@@ -6,6 +6,7 @@ city: Linköping
 dates: November 7-9, 2017
 time: 9:00 am to 5:00 pm
 num_seats: 26
+participants: 22
 contact: support@coderefinery.org
 registration_open_date: October 2
 registration_is_closed: true

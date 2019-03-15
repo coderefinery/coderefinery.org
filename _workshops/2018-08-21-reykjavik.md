@@ -6,6 +6,7 @@ city: Reykjavik
 dates: August 21-23, 2018
 time: 9:00 am to 5:00 pm
 num_seats: 24
+participants: 26
 contact: support@coderefinery.org
 registration_open_date: May 15
 registration_is_closed: true

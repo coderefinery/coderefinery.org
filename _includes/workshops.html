@@ -82,7 +82,7 @@
                   {% assign nowday = nowday | minus: 2 %}
                   {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
                     {% if event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }} ({{ event.participants }} participants)</a></li>
                     {% else %}
                         <li>{{ event.city }}, {{ event.dates }}</li>
                     {% endif %}

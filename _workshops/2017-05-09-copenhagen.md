@@ -6,6 +6,7 @@ city: Copenhagen
 dates: May 9-11, 2017
 time: 9:00 am to 5:00 pm
 num_seats: 30
+participants: 23
 contact: Radovan Bast (radovan.bast@uit.no)
 registration_open_date: February 13
 registration_is_closed: false
