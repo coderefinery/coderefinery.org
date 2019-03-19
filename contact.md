@@ -18,9 +18,9 @@ us know which workshop you would like to join.
 
 ### Become an instructor
 
-Instructors organise and teach Carpentry or/and CodeRefinery workshops to spread data literacy, programmatic skills and best software practices in the Nordics. 
+CodeRefinery instructors organise and teach both CodeRefinery and Carpentry workshops to spread data literacy, programming skills and best software practices in the Nordics. 
 
-If you would like to become a [Carpentries instructor](https://carpentries.github.io/instructor-training/), please get in touch with [us](mailto:support@coderefinery.org). 
+If you would like to become an instructor for CodeRefinery and/or Carpentry workshops, you should begin by participating in a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/). Please [get in touch](mailto:support@coderefinery.org) if this sounds interesting.
 
 ### Contribute to teaching material
 
@@ -42,7 +42,7 @@ Except where otherwise noted, the example programs and other software provided b
 
 ### Zulip
 
-We use [zulip](https://zulipchat.com/) to discuss within our team and community. We discuss in the open and you can join us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you can listen in, follow certain threads, participate, and influence. 
+We use [Zulip](https://zulipchat.com/) to discuss within our team and community. We discuss in the open and you can join us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you can listen in, follow certain threads, participate, and influence. 
 
 ### Forum
 
