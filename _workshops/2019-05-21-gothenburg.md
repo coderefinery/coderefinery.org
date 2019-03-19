@@ -25,7 +25,8 @@ instructors:
   - Bjørn Lindi
   - Thor Wikfeldt
 helpers:
-  - TBD
+  - Leif Wigge
+  - Tuomas Rossi
 location: <a href="https://www.chalmers.se/sv/institutioner/bio/kontakt/Sidor/Hitta-till-avdelningarna.aspx" target="_blank">Fysikhuset, Chalmers</a>. 
 
 software:
@@ -47,7 +48,7 @@ software:
     url: https://coderefinery.github.io/installation/#accounts
 
 schedule:
-  - date: Monday, May 21
+  - date: Tuesday, May 21
     morning:
       - title: Welcome and practical information
       - title: Introduction to version control - part 1/2 
@@ -57,7 +58,7 @@ schedule:
         url: https://coderefinery.github.io/git-solo/
       - title: Social coding and open software
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/2018-12-11-espoo/talk.md/
-  - date: Tuesday, May 22
+  - date: Wednesday, May 22
     morning:
       - title: Collaborative distributed version control
         url: https://coderefinery.github.io/git-collaborative/
@@ -66,7 +67,7 @@ schedule:
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
       - title: Reproducible research and FAIR data 
         url: https://coderefinery.github.io/reproducible-research/
-  - date: Wednesday, May 23
+  - date: Thursday, May 23
     morning:
       - title: Documentation
         url: https://coderefinery.github.io/documentation/
