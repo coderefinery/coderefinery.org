@@ -31,7 +31,7 @@ Your data only comes from what you decide to provide to us. You will never be af
 
 - Anonymized survey results are meant to be kept without a time limit.
 - We always keep affiliations and academic position long term for reporting.
-- Stored names and email addresses of participants will be removed with the end of this project.
+- Stored names and email addresses of participants will be removed with the end of this project (2021-10-31).
 
 
 ## Anonymity and right to be forgotten
