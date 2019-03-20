@@ -52,5 +52,5 @@ schedule:
         - title: Modular code development (Radovan)
           url: http://cicero.xyz/v2/remark/github/coderefinery/modular-code-development/master/talk.md/
         - title: Software licensing (Radovan)
-          url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
+          url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
 ---

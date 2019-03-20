@@ -55,7 +55,7 @@ schedule:
       - title: Introduction to version control - part 2/2 (Juho and Thor)
         url: https://coderefinery.github.io/git-solo/
       - title: Social coding and open software (Radovan)
-        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/2018-12-11-espoo/talk.md/
+        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Tuesday, March 26
     morning:
       - title: Collaborative distributed version control (Radovan)

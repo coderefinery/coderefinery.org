@@ -63,7 +63,7 @@ schedule:
       - title: Introduction to version control - part 2/2 (Kjartan)
         url: https://coderefinery.github.io/git-intro/
       - title: Software licensing (Bjørn)
-        url: http://cicero.xyz/v2/remark/github/coderefinery/software-licensing/master/talk.md/
+        url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Wednesday, August 22
     morning:
       - title: Collaborative distributed version control (Radovan)
