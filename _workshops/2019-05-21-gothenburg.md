@@ -79,4 +79,5 @@ schedule:
       - title: Jupyter 
         url: https://github.com/coderefinery/jupyter
       - title: Concluding remarks and where to go from here
+        url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
 ---
