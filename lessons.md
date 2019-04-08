@@ -31,6 +31,7 @@ community.
   - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
   - [Integrated development environments](https://coderefinery.github.io/IDEs/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
+  - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://github.com/coderefinery/manuals)
 
 
 ### License
