@@ -40,7 +40,6 @@ possible workshop helpers. Good candidates are people who:
 - have a passion for teaching, scientific software development, open source, open science, etc.
 
 
-
 ## Other requirements
 
 When we organize a workshop or event at a new site, we may need help with some local arrangements,
@@ -49,3 +48,9 @@ including:
 - Booking a lecture room.
 - Ordering coffee and refreshments.
 - Advertise the workshop through local dissemination channels.
+
+
+## After the workshop
+
+Would you like to [become a helper, instructor, or partner](/contact/)
+and make more workshops possible?
