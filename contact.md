@@ -37,6 +37,16 @@ All [CodeRefinery training material](../lessons) is made available under the [Cr
 
 Except where otherwise noted, the example programs and other software provided by [CodeRefinery](https://github.com/coderefinery/) are made available under the [OSI](https://opensource.org/)-approved [MIT license](https://opensource.org/licenses/mit-license.html).
 
+### Become a partner
+
+Coderefinery started as a sponsored and funded project, but we are
+encouraging more partnerships to stay sustainable long-term.  In
+general, we image a reciprocal relationship for academic institutions:
+you help us run workshops, we give workshops at your institution.
+Join our chat (Zulip, below) and talk to us.  There's no formal
+process yet and we don't even know exactly how it will work, so join
+and have some influence.
+
 
 ## Contact us
 
