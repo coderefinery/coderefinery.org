@@ -50,34 +50,36 @@ software:
 schedule:
   - date: Tuesday, May 21
     morning:
-      - title: Welcome and practical information
-      - title: Introduction to version control - part 1/2 
+      - title: Welcome and practical information (Thor)
+      - title: Introduction to version control - part 1/2 (Thor)
         url: https://coderefinery.github.io/git-solo/
     afternoon:
-      - title: Introduction to version control - part 2/2 
+      - title: Introduction to version control - part 2/2 (Thor)
         url: https://coderefinery.github.io/git-solo/
-      - title: Social coding and open software
+      - title: Social coding and open software (Max)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Wednesday, May 22
     morning:
-      - title: Collaborative distributed version control
+      - title: Reproducible research and FAIR data (Bjørn)
+        url: https://coderefinery.github.io/reproducible-research/
+      - title: Collaborative distributed version control 1/2 (Anne)
         url: https://coderefinery.github.io/git-collaborative/
     afternoon:
-      - title: Modular code development
+      - title: Collaborative distributed version control 2/2 (Anne)
+        url: https://coderefinery.github.io/git-collaborative/
+      - title: Modular code development (Max)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
-      - title: Reproducible research and FAIR data 
-        url: https://coderefinery.github.io/reproducible-research/
   - date: Thursday, May 23
     morning:
-      - title: Documentation
+      - title: Documentation (Anne)
         url: https://coderefinery.github.io/documentation/
-      - title: Automated testing part 1/2
+      - title: Automated testing part 1/2 (Bjørn)
         url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Automated testing part 2/2 
+      - title: Automated testing part 2/2 (Bjørn)
         url: https://coderefinery.github.io/testing/
-      - title: Jupyter 
+      - title: Jupyter (Max)
         url: https://github.com/coderefinery/jupyter
-      - title: Concluding remarks and where to go from here
+      - title: Concluding remarks and where to go from here (Thor)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
 ---
