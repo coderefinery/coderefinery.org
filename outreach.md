@@ -31,7 +31,8 @@ updates. To sign up, please enter your email address below (or visit
 - [Mid-term report presentation, NeIC Board meeting Sep 21, 2017, Copenhagen (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/report/master/mid-term.md/)
 - [DeiC conference 2017, Kolding (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/deic-2017/talk.md/)
 - [Nov 21-22, 2017, Narvik (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/narvik-2017/talk.md/)
-- [Short talk at the CarpentryCon 2018 conference, Dublin (Kjartan Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
+- [Short talk at the CarpentryCon 2018 conference, Dublin (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
+- [Albanova seminar, Stockholm, April 2019 (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/longtalk-coderefinery/master/talk.md/)
 
 
 ## Events
