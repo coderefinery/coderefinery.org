@@ -54,11 +54,6 @@ and have some influence.
 
 We use [Zulip](https://zulipchat.com/) to discuss within our team and community. We discuss in the open and you can join us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you can listen in, follow certain threads, participate, and influence. 
 
-### Forum
-
-[Join the forum](https://groups.google.com/group/coderefinery) to discuss workshops, 
-lesson material or any topic related to research software development! 
-
 ### Support line
 
 To ask questions about workshops or services or to report issues: [support@coderefinery.org](mailto:support@coderefinery.org)
