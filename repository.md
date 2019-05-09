@@ -55,9 +55,13 @@ These are the SHA256 hashes:
 Please contact `support@coderefinery.org`.
 
 
-## List of known issues
+## Confirmation email does not arrive in your inbox?
 
-Currently none.
+If you do not receive a confirmation email after signing up, you are possibly auto-blocked
+(we do this to prevent spam registrations). In this case please send an email
+to `support@coderefinery.org` and we unblock you.
+
+Please also check your spam folder, though.
 
 
 ## Who can use this service?
