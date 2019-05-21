@@ -64,10 +64,10 @@ schedule:
       - title: Reproducible research and FAIR data (Bjørn)
         url: https://coderefinery.github.io/reproducible-research/
       - title: Collaborative distributed version control 1/2 (Anne)
-        url: https://coderefinery.github.io/git-collaborative/
+        url: https://annefou.github.io/git-collaborative/
     afternoon:
       - title: Collaborative distributed version control 2/2 (Anne)
-        url: https://coderefinery.github.io/git-collaborative/
+        url: https://annefou.github.io/git-collaborative/
       - title: Modular code development (Max)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
   - date: Thursday, May 23
