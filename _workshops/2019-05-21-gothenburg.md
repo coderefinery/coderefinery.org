@@ -81,7 +81,7 @@ schedule:
       - title: Automated testing part 2/2 (Bjørn)
         url: https://coderefinery.github.io/testing/
       - title: Jupyter (Max)
-        url: https://github.com/coderefinery/jupyter
+        url: https://coderefinery.github.io/jupyter/
       - title: Concluding remarks and where to go from here (Thor)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
 ---
