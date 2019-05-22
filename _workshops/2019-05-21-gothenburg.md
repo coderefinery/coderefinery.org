@@ -27,6 +27,7 @@ instructors:
 helpers:
   - Leif Wigge
   - Tuomas Rossi
+  - Mikael Öhman
 location: The workshop will take place in three separate lecture rooms. Tuesday - <a href="http://maps.chalmers.se/#beda30d4-a234-4e4d-8b44-35007e8754b5" target="_blank"> KS31 in building Kemi, entrance from Kemigården 4 (stair C to floor 3)</a>, Wednesday - <a href="http://maps.chalmers.se/#6e4973e7-a31f-48bf-aaf4-02d32e2f06c5" target="_blank">  FL63, building Fysik, entrance from Kemigården 1 (stair A+C to floor 6)</a>, Thursday - <a href="http://maps.chalmers.se/#96de5091-96fe-4e70-8def-1faa831680ae" target="_blank"> Raven and the Fox, building Forskarhuset Fysik, entrance from Fysikgränd 3 (floor 5)</a>.
 
 software:
