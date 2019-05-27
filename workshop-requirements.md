@@ -27,17 +27,24 @@ permalink: /workshop-requirements/
 
 ## Helpers
 
-CodeRefinery workshops are hands-on and interactive, and a lot of time is 
-spent on exercises where participants learn by doing. 
-It is therefore highly desirable that each workshop have a few 
-workshop "helpers" who can work with the instructors in assisting participants 
-with the exercises.   
-Local organizers are requested to suggest names for 
-possible workshop helpers. Good candidates are people who:
-- are research software engineers or hold a similar technical research position
+CodeRefinery workshops are hands-on and interactive, and a lot of time is
+spent on exercises where participants learn by doing.  Participants
+explore themselves, and that means they need guides to help them if
+they get stuck.
+
+We recommend that each site takes proactive steps to recruit at least
+two helpers per workshop.  We've noticed that helper diversity
+promotes learning, so we recommend that organizers also make proactive
+steps to have diverse helpers (male/female, international, etc.).
+Local organizers should directly contact possible helpers and invite them.
+
+Good candidates are people who have any of:
 - have attended a previous CodeRefinery workshop
+- have a passion for teaching, scientific software development, open
+  source, open science, etc.
+- are research software engineers or hold a similar technical research position
 - have experience from teaching e.g. Software Carpentry workshops
-- have a passion for teaching, scientific software development, open source, open science, etc.
+- want to experience CodeRefinery but already have a good idea of most basics
 
 
 ## Other requirements
