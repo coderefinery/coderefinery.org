@@ -6,6 +6,7 @@ city: Gothenburg
 dates: May 21-23, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 26
+participants: 25
 contact: support@coderefinery.org
 registration_open_date: March 1
 registration_is_closed: true
