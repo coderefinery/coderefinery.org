@@ -2,7 +2,10 @@
 layout: master
 include: hackathon
 permalink: /events/2019-11-06-stockholm/
-city: Stockholm hackathon
+city: Stockholm 
+type: hackathon
+subtitle: Building a Nordic community of research software engineers
+whofor: If you are writing code, working with data or teaching technical topics in a research environment, then you might want to attend this hackathon!
 dates: November 6-7, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30

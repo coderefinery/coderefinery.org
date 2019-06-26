@@ -3,6 +3,9 @@ layout: master
 include: hackathon
 permalink: /events/2019-11-04-stockholm/
 city: Stockholm
+type: instructor training workshop
+subtitle: Learning to teach tools and best practices in research software development
+whofor: If you want to become a CodeRefinery instructor or simply improve the way you teach best practices and tooling in research software development, then you might want to attend this instructor training workshop!
 dates: November 4-5, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
@@ -34,7 +37,7 @@ description:
   event at KTH where researchers are invited to bring their code and data
   and work on it collaboratively with other participants. 
   We would like to bring over ideas from the instructor workshop to the 
-  hackathon, so participants of this workshop are especially invited 
+  hackathon, so participants of this workshop are especially encouraged
   to attend also the hackathon to work on lesson improvement and development 
   of new CodeRefinery lessons!
   </p>
