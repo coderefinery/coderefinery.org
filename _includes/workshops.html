@@ -50,7 +50,7 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <h3>Future 3-day workshops</h3>
+            <h3>Upcoming workshops and events</h3>
             <ul>
                 {% for event in site.workshops reversed %}
                   {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
@@ -68,7 +68,29 @@
                     {% endif %}
                   {% endif %}
                 {% endfor %}
+
+                {% for event in site.events reversed %}
+                  {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                  {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                  {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                  {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                  {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                  {% assign postday = postday | plus: 0 %}
+                  {% assign nowday = nowday | minus: 2 %}
+                  {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
+                    {% if event.permalink %}
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                    {% else %}
+                        <li>{{ event.city }}, {{ event.dates }}</li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+
             </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
             <h3>Past 3-day workshops</h3>
             <ul>
                 {% for event in site.workshops reversed %}
@@ -91,9 +113,18 @@
         </div>
 
         <div class="col-sm-6">
-            <h3>Shorter workshops and other events</h3>
+            <h3>Past events and shorter workshops</h3>
             <ul>
                 {% for event in site.events reversed %}
+                  {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                  {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                  {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                  {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                  {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                  {% assign postday = postday | plus: 0 %}
+                  {% assign nowday = nowday | minus: 2 %}
+                  {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
+
                     {% if event.link %}
                         <li><a href="{{ event.link }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
                     {% elsif event.permalink %}
@@ -101,6 +132,8 @@
                     {% else %}
                         <li>{{ event.city }}, {{ event.dates }}</li>
                     {% endif %}
+
+                  {% endif %}
                 {% endfor %}
             </ul>
         </div>
