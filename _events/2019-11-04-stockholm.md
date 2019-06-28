@@ -11,7 +11,7 @@ time: 9:00 am to 5:00 pm
 num_seats: 30
 contact: support@coderefinery.org
 registration_open_date: June 31
-registration_is_closed: false
+registration_is_closed: true
 registration_form: "https://indico.neic.no/event/89/"
 description:
   <p>
