@@ -79,9 +79,9 @@
                   {% assign nowday = nowday | minus: 2 %}
                   {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
                     {% if event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
                     {% else %}
-                        <li>{{ event.city }}, {{ event.dates }}</li>
+                        <li>{{ event.city }} {{ event.type }}, {{ event.dates }}</li>
                     {% endif %}
                   {% endif %}
                 {% endfor %}
@@ -126,9 +126,9 @@
                   {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
 
                     {% if event.link %}
-                        <li><a href="{{ event.link }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                        <li><a href="{{ event.link }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
                     {% elsif event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
                     {% else %}
                         <li>{{ event.city }}, {{ event.dates }}</li>
                     {% endif %}
