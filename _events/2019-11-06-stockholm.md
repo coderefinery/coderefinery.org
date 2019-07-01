@@ -10,9 +10,9 @@ dates: November 6-7, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
 contact: support@coderefinery.org
-registration_open_date: June 31
-registration_is_closed: true
-registration_form: "https://indico.neic.no/event/89/"
+registration_open_date: August 1
+registration_is_closed: false
+#registration_form: "https://indico.neic.no/event/89/"
 description:
   Welcome to the first CodeRefinery hackathon! The idea behind this event 
   is to bring together people who are working with code and/or data in 

@@ -10,9 +10,9 @@ dates: November 4-5, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
 contact: support@coderefinery.org
-registration_open_date: June 31
-registration_is_closed: true
-registration_form: "https://indico.neic.no/event/89/"
+registration_open_date: August 1
+registration_is_closed: false
+#registration_form: "https://indico.neic.no/event/89/"
 description:
   <p>
   Are you interested in becoming an instructor in CodeRefinery workshops?
