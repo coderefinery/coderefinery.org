@@ -30,11 +30,13 @@ in the context of your specific project are:
 - How can I improve my usage of version control and automated
   testing frameworks?
 - What license should I use for my project?
-- What are some interesting ways I could analyze this new dataset that
-  I have?
+- What are some interesting ways I could analyze my dataset?
 - Should I have a data management plan? How should it be?
 - I want to teach other members in my research group better software/data
   management practices. How can most efficiently bring them up to speed?
+
+We will contact the hackathon participants well in advance and ask them to submit
+project ideas as well as nominate papers for a ReproHack session (more details soon).
 
 This hackathon will immediately follow after an instructor training workshop
 at KTH focusing on how to teach CodeRefinery workshops. Many participants
@@ -57,14 +59,16 @@ information on the problem when you register!
   - morning:
       - Welcome and practical information
       - Brainstorming
+      - Presentation of group projects and forming of groups
   - afternoon:
-      - Hackathon part I
-      - Coffee break
-      - Hackathon part II
+      - Group work part I
+      - Morning break
+      - Group work part II
 - Thursday, November 7
   - morning:
-      - Hackathon part III
-      - Summary of progress made, concluding remarks
+      - Group work part III
+      - Short presentations of results
+      - Concluding remarks
   - afternoon:
       - Departure
 
