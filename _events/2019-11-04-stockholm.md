@@ -51,18 +51,18 @@ of new CodeRefinery lessons!
 ### Schedule
 
 - Monday, November 4
-  morning:
+  - morning:
     - Arrival
-  afternoon:
+  - afternoon:
     - Welcome and general introduction
     - Carpentries approach to teaching
     - Lessons: Git intro and collaborative Git
 - Tuesday, November 5
-  morning:
+  - morning:
     - Lessons: Modular code development and social coding
     - Morning break
     - Lessons: Documentation and automated testing
-  afternoon:
+  - afternoon:
     - Lessons: Reproducible research and Jupyter
     - Brainstorming about new lessons, preparation for hackathon
 
