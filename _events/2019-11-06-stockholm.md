@@ -2,6 +2,9 @@
 layout: master
 include: event-with-registration
 permalink: /events/2019-11-06-stockholm/
+city: Stockholm
+type: hackathon
+dates: November 6-7, 2019
 title: CodeRefinery hackathon in Stockholm
 subtitle: Building a Nordic community of research software engineers
 registration_open_date: August 1
