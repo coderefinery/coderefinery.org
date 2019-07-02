@@ -22,7 +22,8 @@ Location: Fantum room, Lindstedtsvägen 24, F-huset, floor 5, KTH Main Campus.
 
 ### Workshop for present and future instructors
 
-Are you interested in becoming an instructor in CodeRefinery workshops?
+Do you (want to) teach researchers or independent students best
+practices of scientific software?
 Are you teaching a university course and would like to include
 aspects of best practices in software engineering in the course?
 Or would you simply like to educate your friends and colleagues in
@@ -36,7 +37,14 @@ CodeRefinery lessons in particular. We will cover key pedagogical ideas
 and teaching methods, and what you need to know in order to teach the
 CodeRefinery lessons. All the material will be firmly grounded in the
 experience that CodeRefinery staff has acquired after teaching over 25
-workshops to over 600 participants.
+workshops to over 600 participants and the published best practices of
+the Software Carpentry organization.
+
+One purpose of this workshop is to train CodeRefinery instructors, but
+being (or becoming) a CodeRefinery instructor is not required.  People
+are equally welcome to learn our tips and tricks and join our informal
+Nordic network.  Put another way: *anyone involved in improving the
+quality of research code should be here!*
 
 This instructor training workshop will immediate precede a hackathon
 event at KTH where researchers are invited to bring their code and data
