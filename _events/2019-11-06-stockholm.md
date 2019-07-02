@@ -19,37 +19,24 @@ Location: KTH Library, Osquars backe 31, KTH Main Campus.
 
 ### Welcome to the first CodeRefinery hackathon!
 
-The idea behind this event
-is to bring together people who are working with code and/or data in
-research, in an informal environment where ideas can be exchanged, expertise
-shared and real work done! Participants are invited to bring their code,
-datasets or other projects to work on, and discuss and solve any challenges
-together with other experts. Some possible topics that you can bring up
-in the context of your specific project are:
-- How can I organize my project better?
-- How can I improve my usage of version control and automated
-  testing frameworks?
-- What license should I use for my project?
-- What are some interesting ways I could analyze my dataset?
-- Should I have a data management plan? How should it be?
-- I want to teach other members in my research group better software/data
-  management practices. How can most efficiently bring them up to speed?
+The idea behind this event is to bring together people who are working with
+code and/or data in research, in an informal environment where ideas can be
+exchanged, expertise shared and real work done!
 
-We will contact the hackathon participants well in advance and ask them to submit
-project ideas as well as nominate papers for a ReproHack session (more details soon).
+What you can do at the hackathon:
+- Bring your own code or data and get suggestions/help on how to better organize, test,
+  document, and share your code.
+- Participate at a ReproHack where we try to reproduce a nominated paper and learn how to make
+  software papers better reproducible. You can nominate your own paper and then you get feedback
+  about how to improve your own work.
+- Work on new or existing CodeRefinery lessons.
+- Share your expertise with others and learn many new tricks and tools from others.
 
-This hackathon will immediately follow after an instructor training workshop
-at KTH focusing on how to teach CodeRefinery workshops. Many participants
-from that workshop will also attend the hackathon, so we welcome
-topics related to teaching, such as:
-- Developing a new CodeRefinery (or other) lesson.
-- Improving existing CodeRefinery lessons.
-- How to set up and teach a CodeRefinery workshop.
-
-Most importantly, you are invited to bring any topic or problem from
-your own work. If there is a particular problem you would like to
-discuss and work on during the hackathon, please provide some background
-information on the problem when you register!
+What we will ask you to provide when registering:
+- Nominate two papers for the ReproHack (can be your papers or somebody else's).
+- Suggest at least one project that you would like to work on with others.
+- If you bring your own code or data where you would like to get expert suggestions, please give
+  us some background information.
 
 ---
 
