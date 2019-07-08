@@ -14,7 +14,7 @@ layout: null
 
   <title type="html">Events</title>
 
-  {% assign events = site.events | where_exp: "post", "post.draft != true" | sort: "published_date"  | reverse %}
+  {% assign events = site.events | where_exp: "post", "post.draft != true" | reverse %}
   {% for event in events limit: 30 %}
     <entry{% if event.lang %}{{" "}}xml:lang="{{ event.lang }}"{% endif %}>
       <title type="html">{{ event.city | append: ", " | append: event.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
