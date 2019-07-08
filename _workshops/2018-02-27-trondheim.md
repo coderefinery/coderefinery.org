@@ -2,6 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2018-02-27-trondheim/
+published_date: 2018-01-15
 city: Trondheim
 dates: February 27 - March 1, 2018
 time: 9:00 am to 5:00 pm

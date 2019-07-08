@@ -2,6 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2019-05-21-gothenburg/
+published_date: 2019-02-28
 city: Gothenburg
 dates: May 21-23, 2019
 time: 9:00 am to 5:00 pm

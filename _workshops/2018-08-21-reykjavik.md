@@ -2,6 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2018-08-21-reykjavik/
+published_date: 2018-05-06
 city: Reykjavik
 dates: August 21-23, 2018
 time: 9:00 am to 5:00 pm

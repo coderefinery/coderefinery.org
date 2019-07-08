@@ -2,6 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2019-03-25-stockholm/
+published_date: 2019-01-10
 city: Stockholm
 dates: March 25-27, 2019
 time: 9:00 am to 5:00 pm

@@ -2,6 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2017-02-20-stockholm/
+published_date: 2016-10-10
 city: Stockholm
 dates: February 20-22, 2017
 time: 9:00 am to 5:00 pm
