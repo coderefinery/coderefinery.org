@@ -2,6 +2,7 @@
 layout: master
 include: event-with-registration
 permalink: /events/2019-11-04-stockholm/
+published_date: 2017-06-26
 city: Stockholm
 type: instructor training workshop
 dates: November 4-5, 2019

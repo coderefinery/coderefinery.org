@@ -2,6 +2,7 @@
 layout: master
 include: event-with-registration
 permalink: /events/2019-11-06-stockholm/
+published_date: 2017-06-26
 city: Stockholm
 type: hackathon
 dates: November 6-7, 2019

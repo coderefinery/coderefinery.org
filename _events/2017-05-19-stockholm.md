@@ -2,6 +2,7 @@
 layout: master
 include: event
 permalink: /events/2017-05-19-stockholm/
+published_date: 2017-08-31
 city: Stockholm
 dates: May 19, 2017
 time: 13:15 to 17:00
