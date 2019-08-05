@@ -8,11 +8,11 @@ city: FIXME
 dates: June 11-13, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 25
-participants: 20
+participants: 20  # how many actually attended
 contact: support@coderefinery.org
 registration_open_date: April 15
-registration_is_closed: true
-registration_form: FIXME
+registration_is_closed: false
+#registration_form: REPLACE-THIS-WITH-LINK
 goals:
     The aim of this course is to demonstrate to and familiarize
     the workshop participants with best practices and tools in modern research
