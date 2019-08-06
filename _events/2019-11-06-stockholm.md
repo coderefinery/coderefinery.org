@@ -10,7 +10,7 @@ title: CodeRefinery hackathon in Stockholm
 subtitle: Building a Nordic community of research software engineers
 registration_open_date: August 1
 registration_is_closed: false
-#registration_form: "https://indico.neic.no/event/89/"
+registration_form: "https://indico.neic.no/event/89/"
 ---
 
 ### November 6-7, 2019, KTH Main Campus
