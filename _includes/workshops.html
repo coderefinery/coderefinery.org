@@ -1,25 +1,107 @@
 <div class="container mb">
     <div class="row">
         <div class="col-sm-6">
-             {% include map.html %}
-        </div>
+            <h3>Upcoming workshops and events</h3>
+            <ul>
+                {% for event in site.workshops reversed %}
+                    {% unless event.exclude %}
+                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                    {% assign postday = postday | plus: 0 %}
+                    {% assign nowday = nowday | minus: 2 %}
+                    {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
+                        {% if event.permalink %}
+                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
+                        {% else %}
+                            <li>{{ event.city }}, {{ event.dates }}</li>
+                        {% endif %}
+                    {% endif %}
+                    {% endunless %}
+                {% endfor %}
+
+                {% for event in site.events reversed %}
+                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                    {% assign postday = postday | plus: 0 %}
+                    {% assign nowday = nowday | minus: 2 %}
+                    {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
+                    {% if event.permalink %}
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
+                    {% else %}
+                        <li>{{ event.city }} {{ event.type }}, {{ event.dates }}</li>
+                    {% endif %}
+                    {% endif %}
+                {% endfor %}
+
+            </ul>
+            <h3>Past 3-day workshops</h3>
+            <ul>
+                {% for event in site.workshops reversed %}
+                    {% unless event.exclude %}
+                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                    {% assign postday = postday | plus: 0 %}
+                    {% assign nowday = nowday | minus: 2 %}
+                    {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
+                        {% if event.permalink %}
+                            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }} ({{ event.participants }} participants)</a></li>
+                        {% else %}
+                            <li>{{ event.city }}, {{ event.dates }}</li>
+                        {% endif %}
+                    {% endif %}
+                    {% endunless %}
+                {% endfor %}
+            </ul>
+
+            <h3>Past events and shorter workshops</h3>
+            <ul>
+                {% for event in site.events reversed %}
+                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
+                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
+                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
+                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
+                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
+                    {% assign postday = postday | plus: 0 %}
+                    {% assign nowday = nowday | minus: 2 %}
+                    {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
+
+                    {% if event.link %}
+                        <li><a href="{{ event.link }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
+                    {% elsif event.permalink %}
+                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
+                    {% else %}
+                        <li>{{ event.city }}, {{ event.dates }}</li>
+                    {% endif %}
+
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            </div>
 
         <div class="col-sm-6">
             <p>
-		We organize a roadshow of hands-on interactive
+                We organize a roadshow of hands-on interactive
                 three-day workshops across the Nordics with type-along presentations
                 and live coding where short tutorials alternate with practical exercises.
             </p>
-
             <h3>Notify me</h3>
             <p>
-		We don't want you to miss a workshop or event.
-		Sign up
+                We don't want you to miss a workshop or event.
+                Sign up
                 <a href="https://goo.gl/forms/DLp3d0CzkAnwS2GX2" target="_blank">here</a>
                 and we will notify you when the registration to a workshop or event near you opens.
                 Or subscribe to our <a href="../feed-workshops/">workshops</a> and <a href="../feed-events/">events</a> RSS feeds.
             </p>
-
+            
             <h3>Requesting a workshop<a name="request_workshop"></a> </h3>
             <p>
 	        Would you like to host a CodeRefinery workshop at your home institution?
@@ -46,101 +128,12 @@
             <p>
 		There will be 1-2 workshops/year in Helsinki region sponsored by Aalto Science-IT.
             </p>
+            <h3>Past events on a map</h3>
+            {% include map.html %}
         </div>
     </div>
 
     <div class="row">
-        <div class="col-sm-6">
-            <h3>Upcoming workshops and events</h3>
-            <ul>
-                {% for event in site.workshops reversed %}
-                  {% unless event.exclude %}
-                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
-                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
-                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
-                    {% assign postday = postday | plus: 0 %}
-                    {% assign nowday = nowday | minus: 2 %}
-                    {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
-                      {% if event.permalink %}
-                          <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-                      {% else %}
-                          <li>{{ event.city }}, {{ event.dates }}</li>
-                      {% endif %}
-                    {% endif %}
-                  {% endunless %}
-                {% endfor %}
 
-                {% for event in site.events reversed %}
-                  {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                  {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                  {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
-                  {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
-                  {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
-                  {% assign postday = postday | plus: 0 %}
-                  {% assign nowday = nowday | minus: 2 %}
-                  {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
-                    {% if event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
-                    {% else %}
-                        <li>{{ event.city }} {{ event.type }}, {{ event.dates }}</li>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <h3>Past 3-day workshops</h3>
-            <ul>
-                {% for event in site.workshops reversed %}
-                  {% unless event.exclude %}
-                    {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                    {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                    {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
-                    {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
-                    {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
-                    {% assign postday = postday | plus: 0 %}
-                    {% assign nowday = nowday | minus: 2 %}
-                    {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
-                      {% if event.permalink %}
-                          <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }} ({{ event.participants }} participants)</a></li>
-                      {% else %}
-                          <li>{{ event.city }}, {{ event.dates }}</li>
-                      {% endif %}
-                    {% endif %}
-                  {% endunless %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="col-sm-6">
-            <h3>Past events and shorter workshops</h3>
-            <ul>
-                {% for event in site.events reversed %}
-                  {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
-                  {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
-                  {% capture postmonth %}{{event.dates | date: '%b'}}{% endcapture %}
-                  {% capture postday %}{{event.dates | date: '%j'}}{% endcapture %}
-                  {% capture postyear %}{{event.dates | split: ", " | last }}{% endcapture %}
-                  {% assign postday = postday | plus: 0 %}
-                  {% assign nowday = nowday | minus: 2 %}
-                  {% if postyear < nowyear or postyear <= nowyear and postday < nowday %}
-
-                    {% if event.link %}
-                        <li><a href="{{ event.link }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
-                    {% elsif event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
-                    {% else %}
-                        <li>{{ event.city }}, {{ event.dates }}</li>
-                    {% endif %}
-
-                  {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
     </div>
 </div>
