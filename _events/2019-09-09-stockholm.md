@@ -11,7 +11,6 @@ subtitle: Teaching researchers in sustainable software development
 registration_open_date: August 23
 registration_is_closed: false
 #registration_form: "https://indico.neic.no/event/95/"
-#registration_form: ""
 ---
 
 ### September 9 and September 12 2019, KTH 
@@ -68,6 +67,6 @@ go through the following installation and configuration instructions.
 ### Organizers
 
 - Thor Wikfeldt
-- Will Ushner
+- Will Usher
 
 Contact: kthw@kth.se
