@@ -6,7 +6,7 @@ published_date: 2019-08-22
 city: Trondheim
 dates: October 22-24, 2019
 time: 9:00 am to 5:00 pm
-num_seats: 25
+num_seats: 30
 participants: Open
 contact: support@coderefinery.org
 registration_open_date: August 28, 2019 
@@ -29,8 +29,7 @@ helpers:
   - Nico Reissmann
 location: |
     The event is organized at Norwegian University of Science and Technology (NTNU), Trondheim
-    but is open to everyone. The location is the Natural Science building - "Realfagbygget" U1,
-    https://www.ntnu.no/laeringsarealer/u1
+    but is open to everyone. The location is in the library in Natural Science building/Realfagbygget, <a href="https://www.ntnu.no/laeringsarealer/u1">Realfagbiblioteket U1</a>
 
 software:
   - title: Bash
