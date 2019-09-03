@@ -71,7 +71,7 @@ of new CodeRefinery lessons!
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - Backwards lesson design process (Richard)
-  - ...
+  - Institutional partnerships and sustainability (discussion, 45 min)
 
 #### Tuesday, November 5
 
@@ -90,7 +90,6 @@ of new CodeRefinery lessons!
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
-  - Institutional partnerships and sustainability
   - Preparation for hackathon
 
 ---
