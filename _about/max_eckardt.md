@@ -1,10 +1,8 @@
 ---
 name: Max R. Eckardt
-organization: Datakuben @ University of Southern Denmark
+organization: Center for Humanities Computing Aarhus at Aarhus University
 photo: assets/img/team/max_eckardt.jpg
 ---
 
-Mechatronics Engineer with a Ph.D. from the Humanities on user-defined search 
-algorithms for explorative searches on interaction transcript corpora. Full-stack web developer with a 
-passion for social (software) innovation, cognitive support, and generative code. 
-Likes to tinker and build bridges between devices and technologies.
+Working as Research Software Engineer mostly on Full-stack web development. Holds a PhD in the humanities on user-defined explorative search algorithms. Builds a framework
+for social (software) innovation aiming at synergistic collaboration between programming- and use context experts. Carpentry Instructor.
