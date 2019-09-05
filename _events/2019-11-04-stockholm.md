@@ -59,11 +59,9 @@ of new CodeRefinery lessons!
 
 ### Schedule
 
-The first day is focused on generalities of teaching and lesson design, the second
-day is focused on going through lessons to revise and develop teaching
-strategies.
-
 #### Monday, November 4
+
+The first day is focused on generalities of teaching and lesson design.
 
 - Morning: Arrival
 - **12:00 - 13:00: Lunch**
@@ -74,23 +72,32 @@ strategies.
   - ...
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
-  - Backwards lesson design process (Richard)
-  - Institutional partnerships and sustainability (discussion, 45 min)
+  - Backwards lesson design process (Richard, 30 min)
+  - Institutional partnerships and sustainability (discussion, 30 min)
+  - Lightning overview of all lessons (30 min)
+  - Workshop preparation (setting up registration, surveys, webpage, checklists, 30 min)
 
 #### Tuesday, November 5
 
-- **9:00 - 10:30: Lesson discussion** (two groups)
-  - Track 1: Git intro and collaborative Git
-  - Track 2: Documentation
+The second day is focused on going through lessons to revise and develop teaching
+strategies. The goal of this day is to review objectives, keypoints, and exercises,
+to identify sections/exercises that could be optional, and to adjust timing.
+
+- **9:00 - 10:30: Lesson discussion** (3 groups)
+  - Group 1: Git intro
+  - Group 2: Documentation
+  - Group 3: Collaborative Git
 - **10:30 - 11:00: Morning break**
-- **11:00 - 12:30: Lesson discussion** (two groups)
-  - Track 1: Modular code development and social coding
-  - Track 2: Jupyter
+- **11:00 - 12:30: Lesson discussion** (3 groups)
+  - Group 1: Modular code development
+  - Group 2: Jupyter
+  - Group 3: social coding
 - **12:30 - 13:30: Lunch**
   - Place TBA
-- **13:30 - 15:00: Lesson discussion** (two groups)
-  - Track 1: Automated testing
-  - Track 2: Reproducible research
+- **13:30 - 15:00: Lesson discussion** (3 groups)
+  - Group 1: Automated testing
+  - Group 2: Reproducible research I (first half of lesson)
+  - Group 3: Reproducible research II (second half)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
