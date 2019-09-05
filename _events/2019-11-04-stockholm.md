@@ -59,6 +59,10 @@ of new CodeRefinery lessons!
 
 ### Schedule
 
+The first day is focused on generalities of teaching and lesson design, the second
+day is focused on going through lessons to revise and develop teaching
+strategies.
+
 #### Monday, November 4
 
 - Morning: Arrival
