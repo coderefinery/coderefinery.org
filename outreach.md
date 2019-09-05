@@ -22,6 +22,7 @@ To sign up, please enter your email address below (or visit
 ## Presentations
 
 - [Lightning talk at CarpentryConnect 2019, Manchester (Radovan Bast)](https://software.ac.uk/ccmcr19/programme/posters-lightning-talks)
+- ["Coding like it's 1969", Toulouse, April 2019 (Radovan Bast)](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-coding-like-1969/master/talk.md/)
 - [Albanova seminar, Stockholm, April 2019 (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/longtalk-coderefinery/master/talk.md/)
 - [Short talk at the CarpentryCon 2018 conference, Dublin (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/shorttalk-coderefinery/master/talk.md/)
 - [Nov 21-22, 2017, Narvik (Radovan Bast)](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/narvik-2017/talk.md/)
