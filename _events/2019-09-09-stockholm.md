@@ -9,7 +9,7 @@ dates: September 9 and 12, 2019
 title: Reproducibility workshop
 subtitle: Teaching researchers in sustainable software development
 registration_open_date: August 23
-registration_is_closed: false
+registration_is_closed: true
 #registration_form: "https://indico.neic.no/event/95/"
 ---
 
