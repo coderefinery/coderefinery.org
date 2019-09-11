@@ -57,9 +57,9 @@ go through the following installation and configuration instructions.
 - Thursday, September 12
   - 9:00-9:15 - Recap from day 1 (Thor & Will)
   - 9:15 - 10:00 - [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/) (Thor)
-  - 10:00-12:00 - [Git collaborative](https://coderefinery.github.io/git-collaborative/) (Thor)
+  - 10:00-12:00 - [Git collaborative](https://wikfeldt.github.io/git-collaborative/) (Thor)
   - 12:00-13:00 - Lunch
-  - 13:00-13:30 - [Git collaborative](https://coderefinery.github.io/git-collaborative/) (Thor)
+  - 13:00-13:30 - [Git collaborative](https://wikfeldt.github.io/git-collaborative/) (Thor)
   - 13:30 - 17:00 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (Will)
 
 ---
