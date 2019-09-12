@@ -60,7 +60,7 @@ go through the following installation and configuration instructions.
   - 10:00-12:00 - [Git collaborative](https://wikfeldt.github.io/git-collaborative/) (Thor)
   - 12:00-13:00 - Lunch
   - 13:00-13:30 - [Git collaborative](https://wikfeldt.github.io/git-collaborative/) (Thor)
-  - 13:30 - 17:00 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (Will)
+  - 13:30 - 17:00 - [Reproducible research](https://kth-desa.github.io/reproducible-research/) (Will)
 
 ---
 
