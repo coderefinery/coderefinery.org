@@ -22,11 +22,14 @@ goals:
     setting, we will discuss tools and workflows which facilitate
     this process. Most of the content is also relevant to
     a single researcher.
+    
 instructors:
-  - TBA
+  - TBA  
+  
 helpers:
-  - TBA
-location: TBA
+  - TBA  
+  
+location: TBA 
 
 software:
   - title: Bash
