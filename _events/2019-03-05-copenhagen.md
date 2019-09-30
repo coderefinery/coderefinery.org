@@ -3,8 +3,7 @@ layout: master
 include: event-with-registration
 permalink: https://kln-courses.github.io/mixed-arts/
 published_date: 2019-01-01
-city: Copenhagen
-type: research software workshop
+city: Copenhagen 
 dates: March 05, 2019
 title: Mixed Arts with CodeRefinery &amp; Software Carpentry
 registration_open_date: November 1
