@@ -1,6 +1,6 @@
 ---
 name: Max R. Eckardt
-organization: [Center for Humanities Computing Aarhus](http://chcaa.io) at Aarhus University
+organization: <a href="http://chcaa.io" target="_blank" style="text-decoration: none;">Center for Humanities Computing Aarhus</a> at Aarhus University
 photo: assets/img/team/max_eckardt.jpg
 ---
 
