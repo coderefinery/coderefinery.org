@@ -11,7 +11,7 @@ participants: Open
 contact: support@coderefinery.org
 registration_open_date: September 30, 2019 
 registration_is_closed: false
-#registration_form: https://indico.neic.no/event/96/
+registration_form: https://indico.neic.no/event/102
 goals:
     The aim of this course is to demonstrate to and familiarize
     the workshop participants with best practices and tools in modern research
