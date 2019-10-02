@@ -54,12 +54,12 @@ software:
 schedule:
   - date: Tuesday, November 19
     morning:
-      - title: Welcome and practical information (TBA)
+      - title: Welcome and practical information (Radovan)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
-      - title: Introduction to version control - part 1/2 (TBA)
+      - title: Introduction to version control - part 1/2 (Radovan)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - title: Introduction to version control - part 2/2 (TBA)
+      - title: Introduction to version control - part 2/2 (Radovan)
         url: https://coderefinery.github.io/git-intro/
       - title: Social coding and open software (TBA)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
@@ -78,14 +78,14 @@ schedule:
     morning:
       - title: Documentation (TBA)
         url: https://coderefinery.github.io/documentation/
-      - title: Automated testing part 1/2 (TBA)
+      - title: Automated testing part 1/2 (Radovan)
         url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Automated testing part 2/2 (TBA)
+      - title: Automated testing part 2/2 (Radovan)
         url: https://coderefinery.github.io/testing/
       - title: Jupyter (TBA)
         url: https://coderefinery.github.io/jupyter/
-      - title: Concluding remarks and where to go from here (TBA)
+      - title: Concluding remarks and where to go from here (Radovan)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
 ---
 
