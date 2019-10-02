@@ -75,7 +75,7 @@ The first day is focused on generalities of teaching and lesson design.
   - Backwards lesson design process (Richard, 30 min)
   - Institutional partnerships and sustainability (discussion, 30 min)
   - Lightning overview of all lessons (30 min)
-  - Workshop preparation (setting up registration, surveys, webpage, checklists, 30 min)
+  - Workshop preparation (Thor, 30 min)
 
 #### Tuesday, November 5
 
