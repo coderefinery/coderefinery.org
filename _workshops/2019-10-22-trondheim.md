@@ -54,10 +54,10 @@ schedule:
     morning:
       - title: Welcome and practical information (Radovan)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
-      - title: Introduction to version control - part 1/2 (TBA)
+      - title: Introduction to version control - part 1/2 (Thor)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - title: Introduction to version control - part 2/2 (TBA)
+      - title: Introduction to version control - part 2/2 (Thor)
         url: https://coderefinery.github.io/git-intro/
       - title: Social coding and open software (Radovan)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
@@ -70,7 +70,7 @@ schedule:
     afternoon:
       - title: Collaborative distributed version control 2/2 (Radovan)
         url: https://coderefinery.github.io/git-collaborative/
-      - title: Reproducible research and FAIR data (TBA)
+      - title: Reproducible research and FAIR data (Thor)
         url: https://coderefinery.github.io/reproducible-research/
   - date: Thursday, October 24
     morning:
@@ -81,7 +81,7 @@ schedule:
     afternoon:
       - title: Automated testing part 2/2 (TBA)
         url: https://coderefinery.github.io/testing/
-      - title: Jupyter (TBA)
+      - title: Jupyter (Thor)
         url: https://coderefinery.github.io/jupyter/
       - title: Concluding remarks and where to go from here (Radovan)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
