@@ -67,23 +67,23 @@ schedule:
     morning:
       - title: Modular code development (TBA)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
-      - title: Collaborative distributed version control 1/2 (TBA)
+      - title: Collaborative distributed version control 1/2 (Thor)
         url: https://coderefinery.github.io/git-collaborative/
     afternoon:
-      - title: Collaborative distributed version control 2/2 (TBA)
+      - title: Collaborative distributed version control 2/2 (Thor)
         url: https://coderefinery.github.io/git-collaborative/
       - title: Reproducible research and FAIR data (TBA)
         url: https://coderefinery.github.io/reproducible-research/
   - date: Thursday, November 21
     morning:
-      - title: Documentation (TBA)
+      - title: Documentation (Thor)
         url: https://coderefinery.github.io/documentation/
       - title: Automated testing part 1/2 (Radovan)
         url: https://coderefinery.github.io/testing/
     afternoon:
       - title: Automated testing part 2/2 (Radovan)
         url: https://coderefinery.github.io/testing/
-      - title: Jupyter (TBA)
+      - title: Jupyter (TBD)
         url: https://coderefinery.github.io/jupyter/
       - title: Concluding remarks and where to go from here (Radovan)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
