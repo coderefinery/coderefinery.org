@@ -83,7 +83,7 @@ schedule:
     afternoon:
       - title: Automated testing part 2/2 (Radovan)
         url: https://coderefinery.github.io/testing/
-      - title: Jupyter (TBD)
+      - title: Jupyter (Thor)
         url: https://coderefinery.github.io/jupyter/
       - title: Concluding remarks and where to go from here (Radovan)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
