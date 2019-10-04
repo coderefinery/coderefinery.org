@@ -61,18 +61,18 @@ schedule:
     afternoon:
       - title: Introduction to version control - part 2/2 (Radovan)
         url: https://coderefinery.github.io/git-intro/
-      - title: Social coding and open software (TBA)
+      - title: Social coding and open software (Anne)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Wednesday, November 20
     morning:
-      - title: Modular code development (TBA)
+      - title: Modular code development (Anne)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
       - title: Collaborative distributed version control 1/2 (Thor)
         url: https://coderefinery.github.io/git-collaborative/
     afternoon:
       - title: Collaborative distributed version control 2/2 (Thor)
         url: https://coderefinery.github.io/git-collaborative/
-      - title: Reproducible research and FAIR data (TBA)
+      - title: Reproducible research and FAIR data (Anne)
         url: https://coderefinery.github.io/reproducible-research/
   - date: Thursday, November 21
     morning:
