@@ -85,11 +85,11 @@ to identify sections/exercises that could be optional, and to adjust timing.
 
 - **9:00 - 10:30: Lesson discussion** (3 groups)
   - Group 1: Git intro
-  - Group 2: Documentation
+  - Group 2: Modular code development
   - Group 3: Collaborative Git
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
-  - Group 1: Modular code development
+  - Group 1: Documentation
   - Group 2: Jupyter
   - Group 3: social coding
 - **12:30 - 13:30: Lunch**
