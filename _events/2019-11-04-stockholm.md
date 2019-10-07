@@ -73,7 +73,7 @@ The first day is focused on generalities of teaching and lesson design.
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - Backwards lesson design process (Richard, 30 min)
-  - Institutional partnerships and sustainability (discussion, 30 min)
+  - Institutional partnerships and sustainability (discussion, 30 min, with intro by Radovan)
   - Lightning overview of all lessons (30 min)
   - Workshop preparation (Thor, 30 min)
 
