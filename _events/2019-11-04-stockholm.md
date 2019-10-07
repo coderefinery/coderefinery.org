@@ -92,21 +92,26 @@ The second day is focused on going through lessons to revise and develop teachin
 strategies. The goal of this day is to review objectives, keypoints, and exercises,
 to identify sections/exercises that could be optional, and to adjust timing.
 
+Each lesson discussion is lead by 2-3 CodeRefiners. Their task is to prepare
+the following in the instructor guides before these sessions: 1) Why do we
+teach this lesson, 2) intended learning outcomes (should this be very detailed,
+e.g. list of skills that should be acquired), and 3) how it is presented.
+
 - **9:00 - 10:30: Lesson discussion** (3 groups)
-  - Group 1: Git intro
-  - Group 2: Modular code development
-  - Group 3: Reproducible research I (first half of lesson)
+  - Group 1: Git intro (Sabry, Thor)
+  - Group 2: Modular code development (Radovan)
+  - Group 3: Reproducible research I (first half of lesson; Anne)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
-  - Group 1: Documentation
-  - Group 2: Jupyter
-  - Group 3: social coding
+  - Group 1: Documentation (Anne)
+  - Group 2: Jupyter (Thor)
+  - Group 3: Social coding (Richard, Radovan)
 - **12:30 - 13:30: Lunch**
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
-  - Group 1: Automated testing
-  - Group 2: Collaborative Git
-  - Group 3: Reproducible research II (second half)
+  - Group 1: Automated testing (Bjørn, Radovan)
+  - Group 2: Collaborative Git (Juho)
+  - Group 3: Reproducible research II (second half; Thor, Anne)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
