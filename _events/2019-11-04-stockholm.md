@@ -68,8 +68,8 @@ The first day is focused on generalities of teaching and lesson design.
   - Place TBA
 - **13:00 - 15:00: CodeRefinery project and teaching style**
   - Welcome and general introduction (Radovan, 20 min)
-  - Carpentries approach to teaching (Anne)
-  - Training philosophy (Anne with contributions from others)
+  - Carpentries approach to teaching (Anne, 20 min plus discussion)
+  - Training philosophy (Anne with contributions from others, 60 min)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - Backwards lesson design process (Richard, 30 min)
