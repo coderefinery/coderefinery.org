@@ -86,7 +86,7 @@ to identify sections/exercises that could be optional, and to adjust timing.
 - **9:00 - 10:30: Lesson discussion** (3 groups)
   - Group 1: Git intro
   - Group 2: Modular code development
-  - Group 3: Collaborative Git
+  - Group 3: Reproducible research I (first half of lesson)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation
@@ -96,7 +96,7 @@ to identify sections/exercises that could be optional, and to adjust timing.
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
   - Group 1: Automated testing
-  - Group 2: Reproducible research I (first half of lesson)
+  - Group 2: Collaborative Git
   - Group 3: Reproducible research II (second half)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
