@@ -27,6 +27,7 @@ instructors:
   - Bjørn Lindi 
 helpers:
   - Nico Reissmann
+  - Radek Lonka
 location: |
     The event is organized at Norwegian University of Science and Technology (NTNU), Trondheim
     but is open to everyone. The location is in the library in Natural Science building/Realfagbygget, <a href="https://www.ntnu.no/laeringsarealer/u1">Realfagbiblioteket U1</a>
@@ -63,7 +64,7 @@ schedule:
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Wednesday, October 23
     morning:
-      - title: Modular code development (TBA)
+      - title: Modular code development (Bjørn)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
       - title: Collaborative distributed version control 1/2 (Radovan)
         url: https://coderefinery.github.io/git-collaborative/
@@ -76,10 +77,10 @@ schedule:
     morning:
       - title: Documentation (Radovan)
         url: https://coderefinery.github.io/documentation/
-      - title: Automated testing part 1/2 (TBA)
+      - title: Automated testing part 1/2 (Bjørn)
         url: https://coderefinery.github.io/testing/
     afternoon:
-      - title: Automated testing part 2/2 (TBA)
+      - title: Automated testing part 2/2 (Bjørn)
         url: https://coderefinery.github.io/testing/
       - title: Jupyter (Thor)
         url: https://coderefinery.github.io/jupyter/
