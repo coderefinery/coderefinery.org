@@ -70,6 +70,7 @@ The first day is focused on generalities of teaching and lesson design.
   - Welcome and general introduction (Radovan, 20 min)
   - Carpentries approach to teaching (Anne, 20 min plus discussion)
   - Training philosophy (Anne with contributions from others, 60 min)
+  - Reverse Instructional Design (Anne, 20 mn)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - Backwards lesson design process (Richard, 30 min)
