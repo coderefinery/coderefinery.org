@@ -92,7 +92,7 @@ The second day is focused on going through lessons to revise and develop teachin
 strategies. The goal of this day is to review objectives, keypoints, and exercises,
 to identify sections/exercises that could be optional, and to adjust timing.
 
-Each lesson discussion is lead by 2-3 CodeRefiners. Their task is to prepare
+Each lesson discussion is led by 2-3 CodeRefiners. Their task is to prepare
 the following in the instructor guides before these sessions: 1) Why do we
 teach this lesson, 2) intended learning outcomes (should this be very detailed,
 e.g. list of skills that should be acquired), and 3) how it is presented.
