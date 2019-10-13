@@ -48,6 +48,8 @@ software:
     url: https://coderefinery.github.io/installation/snakemake/
   - title: Accounts
     url: https://coderefinery.github.io/installation/accounts/
+  - title: Troubleshooting
+    url: https://coderefinery.github.io/installation/troubleshooting/
 
 schedule:
   - date: Tuesday, June 11
