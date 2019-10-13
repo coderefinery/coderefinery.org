@@ -45,7 +45,7 @@ software:
   - title: Snakemake
     url: https://coderefinery.github.io/installation/snakemake
   - title: Accounts
-    url: https://coderefinery.github.io/installation/#accounts
+    url: https://coderefinery.github.io/installation/accounts
 
 schedule:
   - date: Monday, March 25

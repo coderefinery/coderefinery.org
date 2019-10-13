@@ -43,7 +43,7 @@ go through the following installation and configuration instructions.
 - [Python](https://coderefinery.github.io/installation/python/)
 - [(optional) Visual diff tools](https://coderefinery.github.io/installation/difftools/)
 - [Snakemake](https://coderefinery.github.io/installation/snakemake)
-- [Accounts](https://coderefinery.github.io/installation/#accounts)
+- [Accounts](https://coderefinery.github.io/installation/accounts)
 - [Common installation and configuration problems](https://coderefinery.github.io/installation/troubleshooting/)
 
 ### Schedule
