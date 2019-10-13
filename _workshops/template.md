@@ -43,11 +43,11 @@ software:
   - title: (optional) Visual diff tools
     url: https://coderefinery.github.io/installation/difftools/
   - title: Jupyter and JupyterLab
-    url: https://coderefinery.github.io/installation/jupyter
+    url: https://coderefinery.github.io/installation/jupyter/
   - title: Snakemake
-    url: https://coderefinery.github.io/installation/snakemake
+    url: https://coderefinery.github.io/installation/snakemake/
   - title: Accounts
-    url: https://coderefinery.github.io/installation/accounts
+    url: https://coderefinery.github.io/installation/accounts/
 
 schedule:
   - date: Tuesday, June 11
