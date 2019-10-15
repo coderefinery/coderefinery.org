@@ -32,7 +32,13 @@
                     {% assign nowday = nowday | minus: 2 %}
                     {% if postyear > nowyear or postday >= nowday and postyear >= nowyear %}
                     {% if event.permalink %}
-                        <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }} {{ event.type }}, {{ event.dates }}</a></li>
+                        <li><a href="{{ event.permalink }}" target="_blank">
+                          {% if event.type %}
+                            {{ event.city }} {{ event.type }}, {{ event.dates }}
+                          {% else %}
+                            {{ event.city }}, {{ event.dates }}
+                          {% endif %}
+                        </a></li>
                     {% else %}
                         <li>{{ event.city }} {{ event.type }}, {{ event.dates }}</li>
                     {% endif %}
