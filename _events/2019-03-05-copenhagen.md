@@ -33,7 +33,7 @@ go through the following installation and configuration instructions.
   - [Git](https://coderefinery.github.io/installation/git/)
   - [Python](https://coderefinery.github.io/installation/python/)
   - [JupyterLab](https://coderefinery.github.io/installation/jupyter)
-  - [Accounts](https://coderefinery.github.io/installation/#accounts)
+  - [Accounts](https://coderefinery.github.io/installation/accounts)
   - [Common installation and configuration problems](https://coderefinery.github.io/installation/troubleshooting/)
 
 
