@@ -24,7 +24,8 @@ are on the waiting list.
 The seats are assigned on a first come first serve basis but we need to also
 make sure that registered participants are affiliated with a Nordic academic
 institution since the course is free for participants and financed by the
-Nordic e-Infrastructure Collaboration.
+Nordic e-Infrastructure Collaboration (unless this is an event outside of Nordics
+funded by a different organization).
 
 
 ## Cancellation
