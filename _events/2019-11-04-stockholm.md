@@ -104,13 +104,13 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation (Anne)
-  - Group 2: Jupyter (Thor)
+  - Group 2: Jupyter (Thor, Emiliano)
   - Group 3: Social coding (Richard, Radovan)
 - **12:30 - 13:30: Lunch**
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
-  - Group 1: Automated testing (Bjørn, Radovan)
-  - Group 2: Collaborative Git (Juho)
+  - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
+  - Group 2: Collaborative Git (Juho, Emiliano)
   - Group 3: Reproducible research II (second half; Thor, Anne)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
