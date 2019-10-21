@@ -10,7 +10,7 @@ num_seats: 30
 participants: Open
 contact: support@coderefinery.org
 registration_open_date: August 28, 2019 
-registration_is_closed: false
+registration_is_closed: true
 registration_form: https://indico.neic.no/event/96/
 goals:
     The aim of this course is to demonstrate to and familiarize
