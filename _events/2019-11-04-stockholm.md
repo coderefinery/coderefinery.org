@@ -99,13 +99,13 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 
 - **9:00 - 10:30: Lesson discussion** (3 groups)
   - Group 1: Git intro (Sabry, Thor)
-  - Group 2: Modular code development (Radovan)
+  - Group 2: Modular code development (Radovan, Max)
   - Group 3: Reproducible research I (first half of lesson; Anne)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation (Anne)
   - Group 2: Jupyter (Thor, Emiliano)
-  - Group 3: Social coding (Richard, Radovan)
+  - Group 3: Social coding (Richard, Radovan, Max)
 - **12:30 - 13:30: Lunch**
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
