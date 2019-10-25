@@ -7,7 +7,7 @@ city: Trondheim
 dates: October 22-24, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
-participants: Open
+participants: 20
 contact: support@coderefinery.org
 registration_open_date: August 28, 2019 
 registration_is_closed: true
