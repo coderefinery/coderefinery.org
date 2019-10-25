@@ -68,13 +68,23 @@ The first day is focused on generalities of teaching and lesson design.
   - Place TBA
 - **13:00 - 15:00: CodeRefinery project and teaching style**
   - Welcome and general introduction (Radovan, 20 min)
-  - Carpentries approach to teaching (Anne)
-  - ...
+  - Carpentries approach to teaching (Anne, 20 min plus discussion)
+  - Training philosophy (Anne with contributions from others, 60 min)
+  - Reverse Instructional Design (Anne, 20 min)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - Backwards lesson design process (Richard, 30 min)
-  - Institutional partnerships and sustainability (discussion, 30 min)
+  - Institutional partnerships and sustainability (discussion, 30 min, with intro by Radovan)
   - Lightning overview of all lessons (30 min)
+    - Git intro (Sabry)
+    - Collaborative Git (Juho)
+    - Modular code development (Radovan)
+    - Documentation (Anne)
+    - Jupyter (Thor)
+    - Social coding (Richard)
+    - Automated testing (Bjørn)
+    - Reproducible research I (Anne)
+    - Reproducible research II (Thor)
   - Workshop preparation (Thor, 30 min)
 
 #### Tuesday, November 5
@@ -83,21 +93,25 @@ The second day is focused on going through lessons to revise and develop teachin
 strategies. The goal of this day is to review objectives, keypoints, and exercises,
 to identify sections/exercises that could be optional, and to adjust timing.
 
+Each lesson discussion is led by 2-3 CodeRefiners. Their task is to prepare
+the following in the instructor guides before these sessions: 1) Why do we
+teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
+
 - **9:00 - 10:30: Lesson discussion** (3 groups)
-  - Group 1: Git intro
-  - Group 2: Documentation
-  - Group 3: Collaborative Git
+  - Group 1: Git intro (Sabry, Thor)
+  - Group 2: Modular code development (Radovan, Max)
+  - Group 3: Reproducible research I (first half of lesson; Anne)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
-  - Group 1: Modular code development
-  - Group 2: Jupyter
-  - Group 3: social coding
+  - Group 1: Documentation (Anne)
+  - Group 2: Jupyter (Thor, Emiliano)
+  - Group 3: Social coding (Richard, Radovan, Max)
 - **12:30 - 13:30: Lunch**
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
-  - Group 1: Automated testing
-  - Group 2: Reproducible research I (first half of lesson)
-  - Group 3: Reproducible research II (second half)
+  - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
+  - Group 2: Collaborative Git (Juho, Emiliano)
+  - Group 3: Reproducible research II (second half; Thor, Anne)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
