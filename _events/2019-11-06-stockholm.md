@@ -46,22 +46,29 @@ What we will ask you to provide when registering:
 
 ### Schedule
 
-- Wednesday, November 6
-  - morning:
-      - Welcome and practical information
-      - Brainstorming
-      - Presentation of group projects and forming of groups
-  - afternoon:
-      - Group work part I
-      - Morning break
-      - Group work part II
-- Thursday, November 7
-  - morning:
-      - Group work part III
-      - Short presentations of results
-      - Concluding remarks
-  - afternoon:
-      - Departure
+#### Wednesday, November 6
+
+- **9:00 - 10:30: Briefing**
+  - Welcome and practical information
+  - Presentation of group projects and forming of groups
+- **10:30 - 11:00: Morning break**
+- **11:00 - 12:30: Group work session 1**
+- **12:30 - 13:30: Lunch**
+  - Place TBA
+- **13:30 - 15:00: Group work session 2**
+- **15:00 - 15:30: Afternoon break**
+- **15:30 - 17:00: Group work session 3**
+
+#### Thursday, November 7
+
+- **9:00 - 10:30: Group work session 4**
+- **10:30 - 11:00: Morning break**
+- **11:00 - 12:30: Results**
+  - Presentations of results (all groups)
+  - Concluding remarks
+- **12:30 - 13:30: Lunch**
+  - Place TBA
+- **Afternoon: Departure**
 
 ---
 
