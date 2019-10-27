@@ -27,6 +27,7 @@ The idea behind this event is to bring together people who are working with
 code and/or data in research, in an informal environment where ideas can be
 exchanged, expertise shared and real work done!
 
+
 #### What you can do at the hackathon
 
 - **Bring your own code or data** and get suggestions/help on how to better organize, test,
@@ -37,9 +38,10 @@ exchanged, expertise shared and real work done!
 - Develop a **new CodeRefinery lesson**.
 - **Share your expertise** with others and learn many new tricks and tools from others.
 
-#### What we will ask you to provide when registering
 
-- Nominate two papers for the ReproHack (can be your papers or somebody else's).
+#### What we ask you to provide
+
+- Nominate one paper for the ReproHack (can be your paper or somebody else's).
 - Suggest at least one project that you would like to work on with others.
 - If you bring your own code or data where you would like to get expert suggestions, please give
   us some background information.
