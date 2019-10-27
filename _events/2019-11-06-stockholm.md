@@ -26,7 +26,9 @@ Location: KTH Library, Osquars backe 31, KTH Main Campus.
 The idea behind this event is to bring together people who are working with
 code and/or data in research, in an informal environment where ideas can be
 exchanged, expertise shared and real work done!
-
+This hackathon is suitable for both experienced computational scientists
+and newcomers who still have things to figure out.  We'll make sure that
+everyone can learn something.  
 
 #### What you can do at the hackathon
 
