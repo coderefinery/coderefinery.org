@@ -34,7 +34,7 @@ exchanged, expertise shared and real work done!
 - Participate at a **ReproHack** where we try to reproduce a nominated paper and learn how to make
   software papers better reproducible. You can nominate your own paper and then you get feedback
   about how to improve your own work.
-- Work on new or existing CodeRefinery lessons.
+- Develop a **new CodeRefinery lesson**.
 - **Share your expertise** with others and learn many new tricks and tools from others.
 
 #### What we will ask you to provide when registering
