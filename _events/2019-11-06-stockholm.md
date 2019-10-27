@@ -30,21 +30,43 @@ exchanged, expertise shared and real work done!
 
 #### What you can do at the hackathon
 
+- Participate in a **2-day project**
 - **Bring your own code or data** and get suggestions/help on how to better organize, test,
   document, and share your code.
-- Participate at a **ReproHack** where we try to reproduce a nominated paper and learn how to make
-  software papers better reproducible. You can nominate your own paper and then you get feedback
-  about how to improve your own work.
+- Participate at a **ReproHack** where we try to reproduce a nominated paper (can be your own paper!) and learn how to make
+  software papers better reproducible.
 - Develop a **new CodeRefinery lesson**.
 - **Share your expertise** with others and learn many new tricks and tools from others.
 
 
-#### What we ask you to provide
+#### 2-day project
 
-- Nominate one paper for the ReproHack (can be your paper or somebody else's).
-- Suggest at least one project that you would like to work on with others.
-- If you bring your own code or data where you would like to get expert suggestions, please give
-  us some background information.
+- To participate in this session, please propose a project. For this please
+  email us a project title and an abstract.
+- We will also soon list here already proposed projects.
+
+
+#### Bring your own code or data
+
+- To participate in this session, please provide us with some background information about your code/data.
+
+
+#### ReproHack
+
+- To participate in the ReproHack, please nominate one paper which we will try
+  to reproduce as a group. You can nominate your own paper and then you get
+  feedback about how to improve your own work.
+
+
+#### Develop a new CodeRefinery lesson
+
+- Ideas: web scraping, regular expressions.
+
+
+#### Share your expertise
+
+- We will schedule short informal presentations where you can show something
+  cool you have built or learned.
 
 ---
 
