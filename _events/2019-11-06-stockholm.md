@@ -28,7 +28,7 @@ code and/or data in research, in an informal environment where ideas can be
 exchanged, expertise shared and real work done!
 This hackathon is suitable for both experienced computational scientists
 and newcomers who still have things to figure out.  We'll make sure that
-everyone can learn something.  
+everyone can learn something.
 
 #### What you can do at the hackathon
 
@@ -43,7 +43,14 @@ everyone can learn something.
 
 #### 2-day project: bring your own project (code or data)
 
-You are working on a Software Development project on your own or as a team and would like to apply CodeRefinery Best Software Practices to your project. Or you do not have a project yet but would be interest to join a team and learn how they adopt CodeRefinery Best Software Practices: as an external participant, you will be able to give accurate and important feedback and learn what are the important steps in the context of a real project.
+You are working on a software development project on your own or as a team and
+would like to apply best software practices to your project. Or
+you do not have a project yet but would be interest to join a team and learn
+how they adopt best software practices: as an external
+participant, you will be able to give accurate and important feedback and learn
+what are the important steps in the context of a real project.
+
+It is also OK to suggest building something new within the hackathon.
 
 - To participate in this session, please propose a project. For this please
   email us a project title and an abstract.
@@ -53,7 +60,9 @@ You are working on a Software Development project on your own or as a team and w
 
 #### ReproHack
 
-ReproHacks are one-day reproducibility hackathons where participants reproduce papers from published code and data. We will be running two ReproHack sessions during our hackathon.
+ReproHacks are one-day reproducibility hackathons where participants reproduce
+papers from published code and data. We will be running two ReproHack sessions
+during our hackathon.
 
 - To participate in the ReproHack, please nominate one paper which we will try
   to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
@@ -62,11 +71,14 @@ ReproHacks are one-day reproducibility hackathons where participants reproduce p
 
 #### Develop a new CodeRefinery lesson
 
-Would you like to participate in the development of new CodeRefinery lessons? We are listing a few ideas below but do not hesitate to contact us for new subjects!
+Would you like to participate in the development of new CodeRefinery lessons?
+We are listing a few ideas below but do not hesitate to contact us for new
+subjects!
 
 - New lesson on web scraping
 - New lesson on regular expressions
 - Add R examples in all CodeRefinery lessons (such as automated testing, documentation, etc.)
+- Generalize the automated testing lessons to a selection of programming languages
 
 
 #### Share your expertise
