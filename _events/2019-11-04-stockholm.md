@@ -99,7 +99,7 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **9:00 - 10:30: Lesson discussion** (3 groups)
   - Group 1: Git intro (Sabry, Thor, Jarno)
   - Group 2: Modular code development (Radovan, Max)
-  - Group 3: Reproducible research (Anne)
+  - Group 3: Reproducible research (Anne, Richard)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation (Anne, Sabry, Jarno)
@@ -110,7 +110,7 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **13:30 - 15:00: Lesson discussion** (3 groups)
   - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
   - Group 2: Collaborative Git (Juho, Emiliano, Sabry, Jarno)
-  - Group 3: To be decided by popular vote (Anne)
+  - Group 3: To be decided by popular vote (Anne, Richard)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
