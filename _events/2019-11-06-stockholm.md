@@ -83,7 +83,7 @@ Would you like to participate in the development of new CodeRefinery lessons? We
 - **9:00 - 10:00: Overview and motivation**
   - Welcome and practical information (Radovan, 10 min)
   - [The Zen of Scientific Computing](https://scicomp.aalto.fi/scicomp/zen-of-scicomp.html) (Richard, 15 min)
-  - Data track (TBA, 15 min)
+  - Data track (Rosa Lönneborg, 15 min)
   - Nordic RSE (TBA, 15 min)
 - **10:00 - 10:30: Group projects pitch**
   - Presentation of group projects and forming of groups
