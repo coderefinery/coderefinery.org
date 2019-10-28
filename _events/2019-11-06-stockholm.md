@@ -26,42 +26,77 @@ Location: KTH Library, Osquars backe 31, KTH Main Campus.
 The idea behind this event is to bring together people who are working with
 code and/or data in research, in an informal environment where ideas can be
 exchanged, expertise shared and real work done!
+This hackathon is suitable for both experienced computational scientists
+and newcomers who still have things to figure out.  We'll make sure that
+everyone can learn something.  
 
-What you can do at the hackathon:
-- Bring your own code or data and get suggestions/help on how to better organize, test,
+#### What you can do at the hackathon
+
+- Participate in a **2-day project**
+- **Bring your own code or data** and get suggestions/help on how to better organize, test,
   document, and share your code.
-- Participate at a ReproHack where we try to reproduce a nominated paper and learn how to make
-  software papers better reproducible. You can nominate your own paper and then you get feedback
-  about how to improve your own work.
-- Work on new or existing CodeRefinery lessons.
-- Share your expertise with others and learn many new tricks and tools from others.
+- Participate at a **ReproHack** where we try to reproduce a nominated paper (can be your own paper!) and learn how to make
+  software papers better reproducible.
+- Develop a **new CodeRefinery lesson**.
+- **Share your expertise** with others and learn many new tricks and tools from others.
 
-What we will ask you to provide when registering:
-- Nominate two papers for the ReproHack (can be your papers or somebody else's).
-- Suggest at least one project that you would like to work on with others.
-- If you bring your own code or data where you would like to get expert suggestions, please give
-  us some background information.
+
+#### 2-day project
+
+- To participate in this session, please propose a project. For this please
+  email us a project title and an abstract.
+- We will also soon list here already proposed projects.
+
+
+#### Bring your own code or data
+
+- To participate in this session, please provide us with some background information about your code/data.
+
+
+#### ReproHack
+
+- To participate in the ReproHack, please nominate one paper which we will try
+  to reproduce as a group. You can nominate your own paper and then you get
+  feedback about how to improve your own work.
+
+
+#### Develop a new CodeRefinery lesson
+
+- Ideas: web scraping, regular expressions.
+
+
+#### Share your expertise
+
+- We will schedule short informal presentations where you can show something
+  cool you have built or learned.
 
 ---
 
 ### Schedule
 
-- Wednesday, November 6
-  - morning:
-      - Welcome and practical information
-      - Brainstorming
-      - Presentation of group projects and forming of groups
-  - afternoon:
-      - Group work part I
-      - Morning break
-      - Group work part II
-- Thursday, November 7
-  - morning:
-      - Group work part III
-      - Short presentations of results
-      - Concluding remarks
-  - afternoon:
-      - Departure
+#### Wednesday, November 6
+
+- **9:00 - 10:30: Briefing**
+  - Welcome and practical information
+  - Presentation of group projects and forming of groups
+- **10:30 - 11:00: Morning break**
+- **11:00 - 12:30: Group work session 1**
+- **12:30 - 13:30: Lunch**
+  - Place TBA
+- **13:30 - 15:00: Group work session 2**
+- **15:00 - 15:30: Afternoon break**
+- **15:30 - 17:00: Group work session 3**
+
+#### Thursday, November 7
+
+- **9:00 - 10:30: Group work session 4**
+- **10:30 - 11:00: Morning break**
+- **11:00 - 12:30: Results**
+  - Presentations of results (all groups)
+  - Concluding remarks
+- **12:30 - 13:30: Lunch**
+  - Place TBA
+- **Afternoon: Departure**
 
 ---
 
