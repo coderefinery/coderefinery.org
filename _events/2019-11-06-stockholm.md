@@ -52,10 +52,10 @@ what are the important steps in the context of a real project.
 
 It is also OK to suggest building something new within the hackathon.
 
-- To participate in this session, please propose a project. For this please
-  email us a project title and an abstract.
-- Please provide us with some background information about your code/data.
-- We will also soon list here already proposed projects.
+To participate in this session, please propose a project. For this please
+email us a project title and an abstract.
+Please provide us with some background information about your code/data.
+We will also soon list here already proposed projects.
 
 
 #### ReproHack
@@ -64,9 +64,9 @@ ReproHacks are one-day reproducibility hackathons where participants reproduce
 papers from published code and data. We will be running two ReproHack sessions
 during our hackathon.
 
-- To participate in the ReproHack, please nominate one paper which we will try
-  to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
-  feedback about how to improve your own work.
+To participate in the ReproHack, please nominate one paper which we will try
+to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
+feedback about how to improve your own work.
 
 
 #### Develop a new CodeRefinery lesson
@@ -83,8 +83,8 @@ subjects!
 
 #### Share your expertise
 
-- We will schedule short informal presentations where you can show something
-  cool you have built or learned.
+We will schedule short informal presentations where you can show something
+cool you have built or learned.
 
 ---
 
