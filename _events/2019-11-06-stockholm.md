@@ -80,8 +80,12 @@ Would you like to participate in the development of new CodeRefinery lessons? We
 
 #### Wednesday, November 6
 
-- **9:00 - 10:30: Briefing**
-  - Welcome and practical information
+- **9:00 - 10:00: Overview and motivation**
+  - Welcome and practical information (Radovan, 10 min)
+  - [The Zen of Scientific Computing](https://scicomp.aalto.fi/scicomp/zen-of-scicomp.html) (Richard, 15 min)
+  - Data track (TBA, 15 min)
+  - Nordic RSE (TBA, 15 min)
+- **10:00 - 10:30: Group projects pitch**
   - Presentation of group projects and forming of groups
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Group work session 1**
@@ -89,7 +93,9 @@ Would you like to participate in the development of new CodeRefinery lessons? We
   - Place TBA
 - **13:30 - 15:00: Group work session 2**
 - **15:00 - 15:30: Afternoon break**
-- **15:30 - 17:00: Group work session 3**
+- **15:30 - 16:30: Group work session 3**
+- **16:30 - 17:00: Summary of day 1**
+  - Each group presents a few minute summary of what they've learned so far
 
 #### Thursday, November 7
 
