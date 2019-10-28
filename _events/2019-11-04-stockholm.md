@@ -83,8 +83,7 @@ The first day is focused on generalities of teaching and lesson design.
     - Jupyter (Thor)
     - Social coding (Richard)
     - Automated testing (Bjørn)
-    - Reproducible research I (Anne)
-    - Reproducible research II (Thor)
+    - Reproducible research (Thor)
   - Workshop preparation (Thor, 30 min)
 
 #### Tuesday, November 5
@@ -100,7 +99,7 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **9:00 - 10:30: Lesson discussion** (3 groups)
   - Group 1: Git intro (Sabry, Thor)
   - Group 2: Modular code development (Radovan, Max)
-  - Group 3: Reproducible research I (first half of lesson; Anne)
+  - Group 3: Reproducible research (Anne)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation (Anne, Sabry)
@@ -111,7 +110,7 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **13:30 - 15:00: Lesson discussion** (3 groups)
   - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
   - Group 2: Collaborative Git (Juho, Emiliano, Sabry)
-  - Group 3: Reproducible research II (second half; Thor, Anne)
+  - Group 3: To be decided by popular vote
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
