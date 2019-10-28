@@ -41,19 +41,19 @@ everyone can learn something.
 - **Share your expertise** with others and learn many new tricks and tools from others.
 
 
-#### 2-day project
+#### 2-day project: bring your own project (code or data)
+
+You are working on a Software Development project on your own or as a team and would like to apply CodeRefinery Best Software Practices to your project. Or you do not have a project yet but would be interest to join a team and learn how they adopt CodeRefinery Best Software Practices: as an external participant, you will be able to give accurate and important feedback and learn what are the important steps in the context of a real project.
 
 - To participate in this session, please propose a project. For this please
   email us a project title and an abstract.
+- Please provide us with some background information about your code/data.
 - We will also soon list here already proposed projects.
 
 
-#### Bring your own code or data
-
-- To participate in this session, please provide us with some background information about your code/data.
-
-
 #### ReproHack
+
+Reprohacks are one-day reproducibility hackathons where participants repdoduce papers from published code and data. We will be running two reprohack sessions during our hackathon.
 
 - To participate in the ReproHack, please nominate one paper which we will try
   to reproduce as a group. You can nominate your own paper and then you get
@@ -62,8 +62,11 @@ everyone can learn something.
 
 #### Develop a new CodeRefinery lesson
 
-- Ideas: web scraping, regular expressions.
+You would like to participate in the development of new CodeRefinery lessons. We are listing a few ideas below but do not hesitate to contact us for new subjects!
 
+- New lesson on web scraping
+- New lesson on regular expressions
+- Add R examples in all CodeRefinery lessons (such as automated testing, Documentation, etc.)
 
 #### Share your expertise
 
