@@ -62,11 +62,12 @@ ReproHacks are one-day reproducibility hackathons where participants reproduce p
 
 #### Develop a new CodeRefinery lesson
 
-You would like to participate in the development of new CodeRefinery lessons. We are listing a few ideas below but do not hesitate to contact us for new subjects!
+Would you like to participate in the development of new CodeRefinery lessons? We are listing a few ideas below but do not hesitate to contact us for new subjects!
 
 - New lesson on web scraping
 - New lesson on regular expressions
-- Add R examples in all CodeRefinery lessons (such as automated testing, Documentation, etc.)
+- Add R examples in all CodeRefinery lessons (such as automated testing, documentation, etc.)
+
 
 #### Share your expertise
 
