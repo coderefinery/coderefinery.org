@@ -53,20 +53,21 @@ You are working on a Software Development project on your own or as a team and w
 
 #### ReproHack
 
-Reprohacks are one-day reproducibility hackathons where participants repdoduce papers from published code and data. We will be running two reprohack sessions during our hackathon.
+ReproHacks are one-day reproducibility hackathons where participants reproduce papers from published code and data. We will be running two ReproHack sessions during our hackathon.
 
 - To participate in the ReproHack, please nominate one paper which we will try
-  to reproduce as a group. You can nominate your own paper and then you get
+  to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
   feedback about how to improve your own work.
 
 
 #### Develop a new CodeRefinery lesson
 
-You would like to participate in the development of new CodeRefinery lessons. We are listing a few ideas below but do not hesitate to contact us for new subjects!
+Would you like to participate in the development of new CodeRefinery lessons? We are listing a few ideas below but do not hesitate to contact us for new subjects!
 
 - New lesson on web scraping
 - New lesson on regular expressions
-- Add R examples in all CodeRefinery lessons (such as automated testing, Documentation, etc.)
+- Add R examples in all CodeRefinery lessons (such as automated testing, documentation, etc.)
+
 
 #### Share your expertise
 
@@ -79,8 +80,12 @@ You would like to participate in the development of new CodeRefinery lessons. We
 
 #### Wednesday, November 6
 
-- **9:00 - 10:30: Briefing**
-  - Welcome and practical information
+- **9:00 - 10:00: Overview and motivation**
+  - Welcome and practical information (Radovan, 10 min)
+  - [The Zen of Scientific Computing](https://scicomp.aalto.fi/scicomp/zen-of-scicomp.html) (Richard, 15 min)
+  - Data track (TBA, 15 min)
+  - Nordic RSE (TBA, 15 min)
+- **10:00 - 10:30: Group projects pitch**
   - Presentation of group projects and forming of groups
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Group work session 1**
@@ -88,7 +93,9 @@ You would like to participate in the development of new CodeRefinery lessons. We
   - Place TBA
 - **13:30 - 15:00: Group work session 2**
 - **15:00 - 15:30: Afternoon break**
-- **15:30 - 17:00: Group work session 3**
+- **15:30 - 16:30: Group work session 3**
+- **16:30 - 17:00: Summary of day 1**
+  - Each group presents a few minute summary of what they've learned so far
 
 #### Thursday, November 7
 
