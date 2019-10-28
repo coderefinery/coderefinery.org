@@ -63,7 +63,7 @@ everyone can learn something.
 #### Develop a new CodeRefinery lesson
 
 - Ideas: web scraping, regular expressions.
-
+- R - Sabry, Anne
 
 #### Share your expertise
 
