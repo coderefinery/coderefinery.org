@@ -53,10 +53,10 @@ You are working on a Software Development project on your own or as a team and w
 
 #### ReproHack
 
-Reprohacks are one-day reproducibility hackathons where participants repdoduce papers from published code and data. We will be running two reprohack sessions during our hackathon.
+ReproHacks are one-day reproducibility hackathons where participants reproduce papers from published code and data. We will be running two ReproHack sessions during our hackathon.
 
 - To participate in the ReproHack, please nominate one paper which we will try
-  to reproduce as a group. You can nominate your own paper and then you get
+  to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
   feedback about how to improve your own work.
 
 
