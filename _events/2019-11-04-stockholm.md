@@ -110,7 +110,7 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 - **13:30 - 15:00: Lesson discussion** (3 groups)
   - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
   - Group 2: Collaborative Git (Juho, Emiliano, Sabry)
-  - Group 3: To be decided by popular vote
+  - Group 3: To be decided by popular vote (Anne)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
   - Brainstorming about new lessons
