@@ -9,7 +9,7 @@ dates: November 4-5, 2019
 title: Instructor training workshop in Stockholm
 subtitle: Learning to teach tools and best practices in research software development
 registration_open_date: August 1
-registration_is_closed: false
+registration_is_closed: true
 registration_form: "https://indico.neic.no/event/90/"
 ---
 
