@@ -59,6 +59,9 @@ of new CodeRefinery lessons!
 
 ### Schedule
 
+Lesson material (for each of the items below) can be found at
+https://coderefinery.github.io/instructor-training/
+
 #### Monday, November 4
 
 The first day is focused on generalities of teaching and lesson design.
