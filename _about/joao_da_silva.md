@@ -9,6 +9,4 @@ System specialist for the [[Rahti service](https://rahti.csc.fi/)]: containerise
 
 Advocates Open Source SW for Open Science, Open Data and Open Knowledge.
 
-Favourite quote: "Knowledge is like money: to be of value it must circulate, and in circulating it can increase in quantity and, hopefully, in value.".
-
 
