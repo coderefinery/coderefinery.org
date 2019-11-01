@@ -55,7 +55,8 @@ It is also OK to suggest building something new within the hackathon.
 To participate in this session, please propose a project. For this please
 email us a project title and an abstract.
 Please provide us with some background information about your code/data.
-We will also soon list here already proposed projects.
+
+Here is the [list of project proposals that we have received](https://github.com/coderefinery/hackathon-2019/blob/master/README.md).
 
 
 #### ReproHack
@@ -98,7 +99,7 @@ cool you have built or learned.
   - Data track (Rosa Lönneborg, 15 min)
   - Nordic RSE (TBA, 15 min)
 - **10:00 - 10:30: Group projects pitch**
-  - Presentation of group projects and forming of groups
+  - Presentation of [group projects](https://github.com/coderefinery/hackathon-2019/blob/master/README.md) and forming of groups
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Group work session 1**
 - **12:30 - 13:30: Lunch**
