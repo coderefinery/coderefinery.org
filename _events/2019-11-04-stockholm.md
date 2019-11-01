@@ -67,15 +67,10 @@ The first day is focused on generalities of teaching and lesson design.
 - **12:00 - 13:00: Lunch**
   - Place TBA
 - **13:00 - 15:00: CodeRefinery project and teaching style**
-  - Welcome and general introduction (Radovan, 20 min)
-  - Carpentries approach to teaching (Anne, 20 min plus discussion)
-  - Training philosophy (Anne with contributions from others, 60 min)
-  - Reverse Instructional Design (Anne, 20 min)
-- **15:00 - 15:30: Afternoon break**
-- **15:30 - 17:30: Lesson development**
-  - Backwards lesson design process (Richard, 30 min)
-  - Institutional partnerships and sustainability (discussion, 30 min, with intro by Radovan)
-  - Lightning overview of all lessons (30 min)
+  - [Welcome and general introduction](https://coderefinery.github.io/instructor-training/01-intro/) (Radovan, 15 min)
+  - [Training philosophy](https://coderefinery.github.io/instructor-training/01-intro/#coderefinery-training-philosophies) (Anne with contributions from others, 15 min)
+  - [Carpentries approach to teaching](https://coderefinery.github.io/instructor-training/02-teachingstyle/) (Anne, 60 min)
+  - [Lightning overview of all lessons](https://coderefinery.github.io/instructor-training/03-lightningoverview/) (30 min)
     - Git intro (Sabry)
     - Collaborative Git (Juho)
     - Modular code development (Radovan)
@@ -84,7 +79,11 @@ The first day is focused on generalities of teaching and lesson design.
     - Social coding (Richard)
     - Automated testing (Bjørn)
     - Reproducible research (Thor)
-  - Workshop preparation (Thor, 30 min)
+- **15:00 - 15:30: Afternoon break**
+- **15:30 - 17:30: Lesson development**
+  - [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/) (Thor, 30 min)
+  - Contributing to lesson development (Richard, 30 min)
+  - [Institutional partnerships and sustainability](https://coderefinery.github.io/instructor-training/07-partnership/) (discussion, 30 min, with intro by Radovan)
 
 #### Tuesday, November 5
 
@@ -96,18 +95,18 @@ Each lesson discussion is led by 2-3 CodeRefiners. Their task is to prepare
 the following in the instructor guides before these sessions: 1) Why do we
 teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 
-- **9:00 - 10:30: Lesson discussion** (3 groups)
+- **9:00 - 10:30: [Lesson discussion](https://coderefinery.github.io/instructor-training/08-teaching/)** (3 groups)
   - Group 1: Git intro (Sabry, Thor, Jarno, João)
   - Group 2: Modular code development (Radovan, Max)
   - Group 3: Reproducible research (Anne, Richard, Emiliano, Juho)
 - **10:30 - 11:00: Morning break**
-- **11:00 - 12:30: Lesson discussion** (3 groups)
+- **11:00 - 12:30: [Lesson discussion](https://coderefinery.github.io/instructor-training/08-teaching/)** (3 groups)
   - Group 1: Documentation (Anne, Sabry, Jarno)
   - Group 2: Jupyter (Thor, Emiliano, Juho)
   - Group 3: Social coding (Richard, Radovan, Max, João)
 - **12:30 - 13:30: Lunch**
   - Place TBA
-- **13:30 - 15:00: Lesson discussion** (3 groups)
+- **13:30 - 15:00: [Lesson discussion](https://coderefinery.github.io/instructor-training/08-teaching/)** (3 groups)
   - Group 1: Automated testing (Bjørn, Radovan, Emiliano, João)
   - Group 2: Collaborative Git (Juho, Sabry, Jarno)
   - Group 3: To be decided by popular vote (Anne, Richard)
