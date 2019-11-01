@@ -97,18 +97,18 @@ the following in the instructor guides before these sessions: 1) Why do we
 teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
 
 - **9:00 - 10:30: Lesson discussion** (3 groups)
-  - Group 1: Git intro (Sabry, Thor, Jarno)
+  - Group 1: Git intro (Sabry, Thor, Jarno, João)
   - Group 2: Modular code development (Radovan, Max)
-  - Group 3: Reproducible research (Anne, Richard, Emiliano)
+  - Group 3: Reproducible research (Anne, Richard, Emiliano, Juho)
 - **10:30 - 11:00: Morning break**
 - **11:00 - 12:30: Lesson discussion** (3 groups)
   - Group 1: Documentation (Anne, Sabry, Jarno)
-  - Group 2: Jupyter (Thor, Emiliano)
-  - Group 3: Social coding (Richard, Radovan, Max)
+  - Group 2: Jupyter (Thor, Emiliano, Juho)
+  - Group 3: Social coding (Richard, Radovan, Max, João)
 - **12:30 - 13:30: Lunch**
   - Place TBA
 - **13:30 - 15:00: Lesson discussion** (3 groups)
-  - Group 1: Automated testing (Bjørn, Radovan, Emiliano)
+  - Group 1: Automated testing (Bjørn, Radovan, Emiliano, João)
   - Group 2: Collaborative Git (Juho, Sabry, Jarno)
   - Group 3: To be decided by popular vote (Anne, Richard)
 - **15:00 - 15:30: Afternoon break**
