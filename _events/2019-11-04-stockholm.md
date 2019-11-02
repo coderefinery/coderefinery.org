@@ -72,7 +72,8 @@ The first day is focused on generalities of teaching and lesson design.
 
 - Morning: Arrival
 - **12:00 - 13:00: Lunch**
-  - Place TBA
+  - No seats reserved, but many of us will meet at 
+    [Restaurang Q, Malvinas Väg 4, 114 28 Stockholm](https://g.page/restaurangq?share) at 11:40
 - **13:00 - 15:00: CodeRefinery project and teaching style**
   - Welcome and general introduction (Radovan, 20 min)
   - Carpentries approach to teaching (Anne, 20 min plus discussion)
