@@ -90,7 +90,7 @@ The first day is focused on generalities of teaching and lesson design.
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:30: Lesson development**
   - [Running workshops](https://coderefinery.github.io/instructor-training/05-operations/) (Thor, 30 min)
-  - Contributing to lesson development (Richard, 30 min)
+  - [Contributing to lesson development](https://coderefinery.github.io/instructor-training/06-lessons/) (Richard, 30 min)
   - [Institutional partnerships and sustainability](https://coderefinery.github.io/instructor-training/07-partnership/) (discussion, 30 min, with intro by Radovan)
 
 #### Tuesday, November 5
@@ -120,7 +120,8 @@ teach this lesson, 2) intended learning outcomes, and 3) how it is presented.
   - Group 3: To be decided by popular vote (Anne, Richard)
 - **15:00 - 15:30: Afternoon break**
 - **15:30 - 17:00: Future**
-  - Brainstorming about new lessons
+  - [CodeRefinery's near future](https://coderefinery.github.io/instructor-training/09-future/)
+  - [CodeRefinery in the world](https://coderefinery.github.io/instructor-training/09-future/#hands-on-scientific-computing) (Richard, 30 minutes)
   - Preparation for hackathon
 
 ---
