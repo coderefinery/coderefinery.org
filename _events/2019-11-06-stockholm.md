@@ -69,6 +69,8 @@ To participate in the ReproHack, please nominate one paper which we will try
 to reproduce as a group (please email a suggestion to us). You can nominate your own paper and then you get
 feedback about how to improve your own work.
 
+Here is the [event page](https://github.com/coderefinery/reprohack-2019/blob/master/README.md).
+
 
 #### Develop a new CodeRefinery lesson
 
