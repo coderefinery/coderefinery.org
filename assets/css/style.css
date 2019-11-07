@@ -464,7 +464,17 @@ csmall2 {
 	font-size: 18px;
 }
 
-
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+	flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+}
 
 
 div.centered
