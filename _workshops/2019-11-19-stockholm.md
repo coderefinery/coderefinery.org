@@ -27,6 +27,7 @@ instructors:
   - Thor Wikfeldt
 helpers:
   - Carolina Robustini
+  - Ashwin Vishnu
 location: |
     This workshop is co-organized with the International Neuroinformatics Coordinating Facility (INCF)
     and will be held at the Karolinska Institute in Stockholm.
