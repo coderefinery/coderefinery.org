@@ -26,7 +26,7 @@ instructors:
   - Anne Fouilloux
   - Thor Wikfeldt
 helpers:
-  - Flavio Calvo
+  - Carolina Robustini
 location: |
     This workshop is co-organized with the International Neuroinformatics Coordinating Facility (INCF)
     and will be held at the Karolinska Institute in Stockholm.
