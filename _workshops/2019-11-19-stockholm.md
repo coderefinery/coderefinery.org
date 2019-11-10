@@ -75,11 +75,11 @@ schedule:
     afternoon:
       - title: Collaborative distributed version control 2/2 (Radovan)
         url: https://coderefinery.github.io/git-collaborative/
-      - title: Reproducible research and FAIR data (Anne)
+      - title: Reproducible research and FAIR data (Thor)
         url: https://coderefinery.github.io/reproducible-research/
   - date: Thursday, November 21
     morning:
-      - title: Documentation (Thor)
+      - title: Documentation (Anne)
         url: https://coderefinery.github.io/documentation/
       - title: Automated testing part 1/2 (Thor)
         url: https://coderefinery.github.io/testing/
