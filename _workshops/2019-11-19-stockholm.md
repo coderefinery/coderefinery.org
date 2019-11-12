@@ -26,6 +26,7 @@ instructors:
   - Anne Fouilloux
   - Thor Wikfeldt
 helpers:
+  - Dmytro Kryvokhyzha
   - Carolina Robustini
   - Ashwin Vishnu
 location: |
