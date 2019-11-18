@@ -61,10 +61,10 @@ schedule:
       - title: Welcome and practical information (Radovan)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - title: Introduction to version control - part 1/2 (Radovan)
-        url: https://coderefinery.github.io/git-intro/
+        url: https://coderefinery.github.io/git-intro-stockholm/
     afternoon:
       - title: Introduction to version control - part 2/2 (Radovan)
-        url: https://coderefinery.github.io/git-intro/
+        url: https://coderefinery.github.io/git-intro-stockholm/
       - title: Social coding and open software (Anne)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Wednesday, November 20
