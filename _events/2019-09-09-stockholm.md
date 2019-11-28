@@ -11,6 +11,7 @@ subtitle: Teaching researchers in sustainable software development
 registration_open_date: August 23
 registration_is_closed: true
 #registration_form: "https://indico.neic.no/event/95/"
+participants: 12
 ---
 
 ### September 9 and September 12 2019, KTH 

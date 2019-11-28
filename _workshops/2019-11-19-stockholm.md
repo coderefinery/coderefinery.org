@@ -7,7 +7,7 @@ city: Stockholm
 dates: November 19-21, 2019
 time: 9:00 am to 5:00 pm
 num_seats: 30
-participants: Open
+participants: 28
 contact: support@coderefinery.org
 registration_open_date: September 30, 2019 
 registration_is_closed: true

@@ -11,6 +11,7 @@ subtitle: Learning to teach tools and best practices in research software develo
 registration_open_date: August 1
 registration_is_closed: true
 registration_form: "https://indico.neic.no/event/90/"
+participants: 30
 ---
 
 ### November 4-5, 2019, KTH Main Campus
