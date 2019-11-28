@@ -11,6 +11,7 @@ subtitle: Building a Nordic community of research software engineers
 registration_open_date: August 1
 registration_is_closed: true
 registration_form: "https://indico.neic.no/event/89/"
+participants: 18
 ---
 
 ### November 6-7, 2019, KTH Main Campus
