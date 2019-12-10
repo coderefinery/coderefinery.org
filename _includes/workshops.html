@@ -85,7 +85,11 @@
                         {% if event.type %}
                           {{ event.city }} {{ event.type }}, {{ event.dates }}
                         {% else %}
-                          {{ event.city }}, {{ event.dates }}
+			  {% if event.participants > 0 %}
+                              {{ event.city }}, {{ event.dates }}  ({{ event.participants }} participants)
+			  {% else %}
+                              {{ event.city }}, {{ event.dates }}
+                          {% endif %}
                         {% endif %}
                         </a></li>
                     {% elsif event.permalink %}
