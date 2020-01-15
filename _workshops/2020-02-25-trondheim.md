@@ -1,7 +1,7 @@
 ---
 layout: master
 include: workshop-3day
-permalink: /workshops/2019-10-22-trondheim/
+permalink: /workshops/2020-02-25-trondheim/
 published_date: 2020-01-07
 city: Trondheim
 dates: February 25-27, 2020
