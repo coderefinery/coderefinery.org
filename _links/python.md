@@ -17,4 +17,6 @@ links:
     text: The definitive guide on how to use static, class or abstract methods in Python
   - url: https://www.devbattles.com/en/sand/post-1697-How_to_build_a_simple_neural_network_in_9_lines_of_Python_code
     text: How to build a simple neural network in 9 lines of Python code
+  - url: https://comp-think.github.io/
+    text: Computational Thinking and Programming - book focused on people with a background in the Humanities
 ---
