@@ -17,4 +17,8 @@ links:
     text: Top 10 FAIR Data & Software Things
   - url: https://www.arl.org/code-fair-use-software-preservation/
     text: Code of Best Practices in Fair Use for Software Preservation 
+  - url: https://cos.io/
+    text: Center for Open Science
+  - url: https://cos.io/blog/strategy-culture-change/
+    text: Center for Open Science - Strategy for Culture Change
 ---
