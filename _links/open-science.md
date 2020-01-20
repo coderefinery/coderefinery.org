@@ -13,4 +13,6 @@ links:
     text: "The Big Data Brain Drain: Why Science is in Trouble"
   - url: https://danielskatzblog.wordpress.com/
     text: Daniel S. Katz's blog
+  - url: https://librarycarpentry.org/Top-10-FAIR/
+    text: Top 10 FAIR Data & Software Things
 ---
