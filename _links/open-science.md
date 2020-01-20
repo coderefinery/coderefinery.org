@@ -15,4 +15,6 @@ links:
     text: Daniel S. Katz's blog
   - url: https://librarycarpentry.org/Top-10-FAIR/
     text: Top 10 FAIR Data & Software Things
+  - url: https://www.arl.org/code-fair-use-software-preservation/
+    text: Code of Best Practices in Fair Use for Software Preservation 
 ---
