@@ -39,4 +39,14 @@ links:
     text: Recommendations to encourage best practices in research software
   - url: http://www.prace-ri.eu/prace-repository-services/
     text: PRACE Repository Services
+  - url:  http://urssi.us
+    text: US Research Software Sustainability Institute
+  - url: https://us-rse.org/
+    text: The US Research Software Engineer Association
+  - url: https://society-rse.org/
+    text: Society of Research Software Engineering
+  - url: http://www.researchsoft.org/
+  - text: Research Software Alliance
 ---
+
+

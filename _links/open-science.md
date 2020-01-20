@@ -13,4 +13,12 @@ links:
     text: "The Big Data Brain Drain: Why Science is in Trouble"
   - url: https://danielskatzblog.wordpress.com/
     text: Daniel S. Katz's blog
+  - url: https://librarycarpentry.org/Top-10-FAIR/
+    text: Top 10 FAIR Data & Software Things
+  - url: https://www.arl.org/code-fair-use-software-preservation/
+    text: Code of Best Practices in Fair Use for Software Preservation 
+  - url: https://cos.io/
+    text: Center for Open Science
+  - url: https://cos.io/blog/strategy-culture-change/
+    text: Center for Open Science - Strategy for Culture Change
 ---
