@@ -6,12 +6,15 @@ title: Outreach activities, presentations, and articles
 
 ## The CodeRefinery Newsletter
 
-The CodeRefinery Newsletter is sent out roughly every two months.
+The CodeRefinery Newsletter is sent out every few months.
 Subscribers will be informed about upcoming workshops, hackathons and 
 other events, as well as other interesting developments like new training 
 material, community building activities and general project 
 updates. 
-- An archive of previous newsletters can be [found here](https://tinyletter.com/coderefinery/archive).
+- [May 2019](https://tinyletter.com/coderefinery/letters/coderefinery-newsletter-may-2019)
+- [August 2019](https://tinyletter.com/coderefinery/letters/coderefinery-newsletter-august-2019)
+- [December 2019](https://tinyletter.com/coderefinery/letters/coderefinery-newsletter-december-2020)
+- [Archive of all previous newsletters](https://tinyletter.com/coderefinery/archive).
 
 To sign up, please enter your email address below (or visit 
 [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery)).
