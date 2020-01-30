@@ -14,6 +14,6 @@ main:
   - url: '/outreach/'
     text: 'Outreach'
   - url: '/repository/'
-    text: 'Git repository'
+    text: 'Code Repository Hosting'
   - url: '/contact/'
     text: 'Join/Contact'
