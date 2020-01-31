@@ -86,6 +86,13 @@ Ask them to register and then you can add them to your projects or groups as col
 No need to ask us or inform us in order to add external collaborators.
 
 
+## Can I continue using this service after leaving academia?
+
+Write an email to `support@coderefinery.org` where you describe how you would
+like to continue to use this service. In general the code created while in 
+academia should remain available and even better if it will be maintained.
+
+
 ## How about federated access such as Feide or HAKA or Edugain or Kalmar2?
 
 We are working on it - currently you need a specific user account for this
