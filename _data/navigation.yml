@@ -21,5 +21,5 @@ main:
     text: 'Code Repository Hosting'
   - url: '/resources/'
     text: 'Resources'
-  - url: '/contact/'
-    text: 'Join/Contact'
+  - url: '/get-involved/'
+    text: 'Get involved'

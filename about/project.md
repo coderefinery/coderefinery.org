@@ -16,7 +16,7 @@ review, discuss, test, share and reuse their codes.
 
 Our [code repository hosting service](/repository/) is open and free for all
 researchers based in Nordic universities and research institutes. Please
-[contact us](/contact/) if you would like to use these services.
+[contact us](/get-involved/#contact-us) if you would like to use these services.
 
 
 ## Training opportunities
@@ -42,7 +42,7 @@ With this we have access to:
 - 6 [Carpentries workshops](https://carpentries.org/workshops/) in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
 - 15 seats in the [Carpentries instructor training](https://carpentries.github.io/instructor-training/) each year.
 
-Please [get in touch](/contact/) if you would like to host a Carpentry workshop or become an instructor.
+Please [get in touch](/get-involved/) if you would like to host a Carpentry workshop or become an instructor.
 
 
 #### Level of Carpentry workshops

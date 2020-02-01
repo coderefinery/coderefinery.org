@@ -37,12 +37,12 @@ Your data only comes from what you decide to provide to us. You will never be af
 ## Anonymity and right to be forgotten
 
 - You have the right to register to a workshop anonymously.
-- If you want to be removed from announcement lists, please [let us know](/contact).
+- If you want to be removed from announcement lists, please [let us know](/get-involved/#contact-us).
 - Workshop registration can be canceled before and removed, otherwise we keep it for survey.
 - If you want access to your data or to be removed, email us from the address you have used for registration.
 
 
 ## Questions/concerns?
 
-- If you believe something is wrong, please [let us know](/contact).
+- If you believe something is wrong, please [let us know](/get-involved/#contact-us).
 - You have the right to lodge complaint with supervisory authority.

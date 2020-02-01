@@ -59,5 +59,5 @@ including:
 
 ## After the workshop
 
-Would you like to [become a helper, instructor, or partner](/contact/)
+Would you like to [become a helper, instructor, or partner](/get-involved/)
 and make more workshops possible?
