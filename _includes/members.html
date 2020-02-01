@@ -1,0 +1,54 @@
+<div class="container mb">
+
+  <h2>Meet the team</h2>
+  <div class="row centered">
+    {% for person in site.people %}
+    {% assign mod = forloop.index | modulo:4 %}
+    <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
+      <div class="he-wrap tpl6">
+	{% if person.photo %}
+	<img src="{{ site.baseurl }}/{{ person.photo }}"
+             class="mugshot" alt="">
+	{% else %}
+	<img
+           src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150"
+           alt="" class="mugshot">
+	{% endif %}
+      </div>
+      <h4>{{ person.name }}</h4>
+      <h5 class="ctitle">{{ person.organization }}</h5>
+      <div class="ccontent">
+	<p>{{ person.content }}</p>
+      </div>
+    </div>
+    {% if mod == 0 and forloop.last != true %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12" style="padding-top: 10px">
+      <h2>Partners</h2>
+      <ul>
+	<li>Richard Darst (Aalto Science-IT): has organized two workshops at Aalto university,
+            contributed both as helper and as instructor, and has significantly
+            contributed to the "Introduction to version control with Git" lesson</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12" style="padding-top: 10px">
+      <h2>Alumni</h2>
+      <ul>
+	<li>Lukas Berger (Technical University of Denmark): work on CI infrastructure</li>
+	<li>Erik Edelmann (CSC - IT Center for Science): SGAS software</li>
+	<li>Pinja Koskinen (CSC - IT Center for Science): DevOps know-how and lesson material</li>
+	<li>Risto Laurikainen (CSC - IT Center for Science): maintained the GitLab service</li>
+	<li>Jyry Suvilehto (CSC - IT Center for Science): lesson material,
+    training and GitLab</li>
+	<li>Sri Harsha Vathsavayi (CSC - IT Center for Science): lesson material and training</li>
+      </ul>
+    </div>
+  </div>
+</div>

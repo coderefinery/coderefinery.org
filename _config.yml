@@ -40,7 +40,7 @@ kramdown:
 include: ['_pages']
 
 collections:
-  about:
+  people:
     output: false
   partners:
     output: false
