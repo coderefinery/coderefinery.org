@@ -1,7 +1,7 @@
 ---
 layout: master
 include: content
-title: Workshop requirements 
+title: Workshop requirements
 permalink: /workshop-requirements/
 ---
 

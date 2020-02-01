@@ -6,27 +6,27 @@ title: Join/Contact
 
 ## Get involved
 
-Welcome! 
+Welcome!
 
 ### Workshop helpers
 
-Have you already participated in a Carpentry or CodeRefinery workshop, but would like to attend another one 
-to refresh your memory and share your own knowledge? Or do you already have a solid background 
-in research software engineering and would like to meet like-minded people in a friendly 
-environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in touch](../contact) and let 
+Have you already participated in a Carpentry or CodeRefinery workshop, but would like to attend another one
+to refresh your memory and share your own knowledge? Or do you already have a solid background
+in research software engineering and would like to meet like-minded people in a friendly
+environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in touch](../contact) and let
 us know which workshop you would like to join.
 
 ### Become an instructor
 
-CodeRefinery instructors organise and teach both CodeRefinery and Carpentry workshops to spread data literacy, programming skills and best software practices in the Nordics. 
+CodeRefinery instructors organise and teach both CodeRefinery and Carpentry workshops to spread data literacy, programming skills and best software practices in the Nordics.
 
 If you would like to become an instructor for CodeRefinery and/or Carpentry workshops, you should begin by participating in a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/). Please [get in touch](mailto:support@coderefinery.org) if this sounds interesting.
 
 ### Contribute to teaching material
 
-All our lessons are [on GitHub](https://github.com/coderefinery). Contributions to the 
-lesson material are highly welcome! The best way to contribute is via the forking-pull request 
-workflow. See our lesson on [collaborative version control](https://coderefinery.github.io/git-collaborative/02-distributed/) for an overview of how this works. You can also [contact us](../contact) 
+All our lessons are [on GitHub](https://github.com/coderefinery). Contributions to the
+lesson material are highly welcome! The best way to contribute is via the forking-pull request
+workflow. See our lesson on [collaborative version control](https://coderefinery.github.io/git-collaborative/02-distributed/) for an overview of how this works. You can also [contact us](../contact)
 via other channels.
 
 ### GitHub
@@ -52,7 +52,7 @@ and have some influence.
 
 ### Zulip
 
-We use [Zulip](https://zulipchat.com/) to discuss within our team and community. We discuss in the open and you can join us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you can listen in, follow certain threads, participate, and influence. 
+We use [Zulip](https://zulipchat.com/) to discuss within our team and community. We discuss in the open and you can join us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you can listen in, follow certain threads, participate, and influence.
 
 ### Support line
 

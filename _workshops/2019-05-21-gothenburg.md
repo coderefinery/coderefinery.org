@@ -54,7 +54,7 @@ schedule:
   - date: Tuesday, May 21
     morning:
       - title: Welcome and practical information (Thor)
-        url: https://github.com/coderefinery/workshop-intro/blob/master/README.md      
+        url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - title: Introduction to version control - part 1/2 (Thor)
         url: https://coderefinery.github.io/git-intro/
     afternoon:

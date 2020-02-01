@@ -14,7 +14,7 @@ registration_is_closed: true
 participants: 12
 ---
 
-### September 9 and September 12 2019, KTH 
+### September 9 and September 12 2019, KTH
 
 Location: Room 304, Teknikringen 14, floor 2, KTH Main Campus.
 
@@ -35,7 +35,7 @@ a single researcher.
 
 ### Software requirements
 
-Before attending the workshop, please make sure that you 
+Before attending the workshop, please make sure that you
 go through the following installation and configuration instructions.
 
 - [Bash](https://coderefinery.github.io/installation/bash/)
@@ -52,7 +52,7 @@ go through the following installation and configuration instructions.
 - Monday, September 9
   - 9:00-9:30 - Introduction and overview (Will)
   - 9:30-12:00 - [Unix shell](https://swcarpentry.github.io/shell-novice/) (Will)
-  - 12:00-13:00 - Lunch  
+  - 12:00-13:00 - Lunch
   - 13:00-17:00 - [Introduction to Git](https://coderefinery.github.io/git-intro/) (Thor)
 
 - Thursday, September 12

@@ -9,7 +9,7 @@ time: 9:00 am to 5:00 pm
 num_seats: 30
 participants: 20
 contact: support@coderefinery.org
-registration_open_date: August 28, 2019 
+registration_open_date: August 28, 2019
 registration_is_closed: true
 registration_form: https://indico.neic.no/event/96/
 goals:
@@ -24,7 +24,7 @@ goals:
 instructors:
   - Thor Wikfeldt
   - Radovan Bast
-  - Bjørn Lindi 
+  - Bjørn Lindi
 helpers:
   - Nico Reissmann
   - Radek Lonka

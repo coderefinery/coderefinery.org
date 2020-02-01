@@ -27,7 +27,7 @@ instructors:
   - Thor Wikfeldt
 helpers:
   - Tor Kjellsson Lindblom
-location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>. 
+location: Room Fantum, <a href="https://www.kth.se/places/room/id/c9ec01ab-b536-4be6-b82a-0d52ddadb2e6" target="_blank">Lindstedtsvägen 24, F-building, 5:th floor, KTH Campus</a>.
 
 software:
   - title: Bash

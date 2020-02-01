@@ -3,7 +3,7 @@ layout: master
 include: event-with-registration
 permalink: https://kln-courses.github.io/mixed-arts/
 published_date: 2019-01-01
-city: Copenhagen 
+city: Copenhagen
 dates: March 05, 2019
 title: Mixed Arts with CodeRefinery &amp; Software Carpentry
 registration_open_date: November 1
@@ -11,7 +11,7 @@ registration_is_closed: true
 #registration_form: https://cst.dk/DHN2019/registration.html
 ---
 
-### March 5 2019, University of Copenhagen 
+### March 5 2019, University of Copenhagen
 
 Location: [University of Copenhagen's South Campus](https://goo.gl/maps/XdJXMDtVPLQ2) room 27.3.23
 
@@ -22,10 +22,10 @@ Location: [University of Copenhagen's South Campus](https://goo.gl/maps/XdJXMDtV
 The workshop combines insights and teachings from CodeRefinery and Software Carpentry in order to raise awareness of both initiatives. We tailor the workshop to specific needs of the humanities. Researchers, students, educators, and librarians will all find the workshop relevant to their specific interests. The workshop focuses on hands-on experience and will cover basic concepts and tools, including program design, version control, and task automation. The core lessons of the workshop are the Software Carpentry’ Programming with Python and CodeRefinery’s Introduction to Version Control with Git.
 
 ---
-  
+
 
 # Software Requirements:
-Before attending the workshop, please make sure that you 
+Before attending the workshop, please make sure that you
 go through the following installation and configuration instructions.
 
   - [Bash](https://coderefinery.github.io/installation/bash/)
@@ -38,7 +38,7 @@ go through the following installation and configuration instructions.
 
 
 ### Schedule:
-  
+
    Time | Episode
     --- |---
     08:00 |	Optional Setup
