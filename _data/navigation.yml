@@ -15,8 +15,6 @@ main:
     text: 'Workshops'
   - url: '/lessons/'
     text: 'Lessons'
-  - url: '/outreach/'
-    text: 'Outreach'
   - url: '/repository/'
     text: 'Code Repository Hosting'
   - url: '/resources/'
