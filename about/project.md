@@ -88,6 +88,16 @@ lead skills' transfer within their local communities in the Nordics.
 
 ## Articles about CodeRefinery
 
+- "A FAIRer future", [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
+- "Bättre datahantering gör forskning mer reproducerbar", [article in the Curie newsletter](https://www.tidningencurie.se/nyheter/2019/04/23/battre-datahantering-gor-forskning-mer-reproducerbar/) from the Swedish Research Council
+- *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580) and [Titan.uio.no blog post](https://titan.uio.no/node/3162)
+- *Teaching researchers to write better code*, [https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/](https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/)
+- *Better software leads to better science*, [Nordforsk January 2018 news article](https://www.nordforsk.org/en/news/better-software-leads-to-better-science?set_language=en)
+- *First Year of CodeRefinery*, [PDC December 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-2/first-year-of-coderefinery-1.783468)
+- *CodeRefinery and the Red Queen's race*, [CSC June 2017 blog post](https://www.csc.fi/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race)
+- *CodeRefinery Workshops*, [PDC June 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-1/coderefinery-workshops-1.744807)
+- *The CodeRefinery Project*, [PDC December 2016 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2016-no-2/the-coderefinery-project-1.744952)
+
 
 ## Presentations
 
