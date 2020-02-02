@@ -5,8 +5,8 @@ main:
     links:
       - url: '/about/project/'
         text: 'Project'
-      - url: '/about/members/'
-        text: 'Members'
+      - url: '/about/who-we-are/'
+        text: 'Who we are'
       - url: '/about/funding/'
         text: 'Funding partners'
       - url: '/about/hubs/'
