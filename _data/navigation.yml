@@ -16,7 +16,7 @@ main:
   - url: '/lessons/'
     text: 'Lessons'
   - url: '/repository/'
-    text: 'Code Repository Hosting'
+    text: 'Code repository hosting'
   - url: '/resources/'
     text: 'Resources'
   - url: '/get-involved/'
