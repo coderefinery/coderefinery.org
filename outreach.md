@@ -19,8 +19,3 @@ updates.
 To sign up, please enter your email address below (or visit
 [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery)).
 <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/coderefinery" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coderefinery', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
-
-
-## Events
-
-- [CodeRefinery day in Oslo, April 2017](https://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html)
