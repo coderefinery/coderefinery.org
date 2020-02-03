@@ -4,3 +4,4 @@ _site/
 .idea/
 # vim temporary files
 *.sw?
+.jekyll-cache
