@@ -1,6 +1,6 @@
 ---
 name: Max R. Eckardt
-organization: Center for Humanities Computing Aarhus at Aarhus University
+organization: Center for Humanities Computing Aarhus at Aarhus University; CR staff
 photo: assets/img/team/max_eckardt.jpg
 ---
 

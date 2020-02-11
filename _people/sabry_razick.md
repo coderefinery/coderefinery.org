@@ -1,6 +1,6 @@
 ---
 name: Sabry Razick
-organization: UIO University of Oslo, Norway
+organization: UIO University of Oslo, Norway; CR staff
 photo: assets/img/team/sabry_razick.jpg
 ---
 

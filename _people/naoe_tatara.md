@@ -1,6 +1,6 @@
 ---
 name: Naoe Tatara
-organization: University of Oslo
+organization: University of Oslo; CR staff
 photo: assets/img/team/naoe.jpg
 ---
 

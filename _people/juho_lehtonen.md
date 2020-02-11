@@ -1,6 +1,6 @@
 ---
 name: Juho Lehtonen
-organization: CSC- IT center for science
+organization: CSC- IT center for science; CR staff
 photo: assets/img/team/juho_lehtonen.jpg
 ---
 

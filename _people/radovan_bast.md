@@ -1,6 +1,6 @@
 ---
 name: Radovan Bast
-organization: UiT The Arctic University of Norway
+organization: UiT The Arctic University of Norway; CR staff
 photo: assets/img/team/radovan_bast.jpg
 ---
 
