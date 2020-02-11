@@ -55,16 +55,16 @@ title: 'Training hubs'
 
 ## Become a hub
 
-There is no particular application process here: one simply sponsors a
-first workshop, then a second, and then eventually it becomes a
-regular thing.  There should be at least one local instructor who can
-regularly take part in other CodeRefinery activities and several
-helpers.
+To become a hub, please sponsor a first workshop, then a second, and then
+eventually it becomes a regular thing. There should be at least one local
+instructor who can regularly take part in other CodeRefinery activities and
+several helpers.
 
 To get started, consider attending another workshop as a helper
 (optional), then [request a workshop](/workshops/), then [join our
-chat and become an instuructor](/get-involved/).  When you would like
+chat and become an instuructor](/get-involved/). When you would like
 to be add to the list above, send a pull request.
+
 
 ## Hub cooperation
 
