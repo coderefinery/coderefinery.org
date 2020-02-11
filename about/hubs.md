@@ -8,7 +8,7 @@ title: 'Training hubs'
   <div class="col-sm-6">
     <p>
     Institutions can become active partners (training hubs), so that they provide regular
-    training for there areas.  Hubs have at least one local instructor
+    training for their areas.  Hubs have at least one local instructor
     committed to organizing a workshop at least once a year, and then.
     </p>
   </div>
