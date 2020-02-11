@@ -43,16 +43,15 @@ title: 'Training hubs'
 
 ## Current hubs
 
-
 * Aalto University, Helsinki region, sponsored by [Aalto Scientific
   Computing](https://scicomp.aalto.fi/).
   Workshops every May (Helsinki)/December (Aalto) in partnership with
   the University of Helsinki.
 * KTH, Stockholm, sponsored by [PDC](https://www.pdc.kth.se/).
   Workshops every March-April and October-November.
-* NTNU, Trondheim, sponsored by ??.  Workshops every February and November.
-* University of Oslo, sponsored by ??.  Workshops every June (and
-  possibly more).
+* NTNU, Trondheim. Workshops every February and November.
+* University of Oslo. Workshops every June (and possibly more).
+
 
 ## Become a hub
 
