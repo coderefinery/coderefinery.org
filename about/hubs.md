@@ -49,7 +49,7 @@ title: 'Training hubs'
   the University of Helsinki.
 * KTH, Stockholm, sponsored by [PDC](https://www.pdc.kth.se/).
   Workshops every March-April and October-November.
-* NTNU, Trondheim. Workshops every February and November.
+* NTNU, Trondheim. Workshops every February and October-November.
 * University of Oslo. Workshops every June (and possibly more).
 
 
