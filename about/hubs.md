@@ -62,7 +62,7 @@ several helpers.
 
 To get started, consider attending another workshop as a helper
 (optional), then [request a workshop](/workshops/), then [join our
-chat and become an instuructor](/get-involved/). When you would like
+chat and become an instructor](/get-involved/). When you would like
 to be add to the list above, send a pull request.
 
 
