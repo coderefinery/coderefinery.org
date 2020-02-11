@@ -4,9 +4,41 @@ include: content
 title: 'Training hubs'
 ---
 
-Institutions can become active partners (training hubs), so that they provide regular
-training for there areas.  Hubs have at least one local instructor
-committed to organizing a workshop at least once a year, and then.
+<div class="row">
+  <div class="col-sm-6">
+    <p>
+    Institutions can become active partners (training hubs), so that they provide regular
+    training for there areas.  Hubs have at least one local instructor
+    committed to organizing a workshop at least once a year, and then.
+    </p>
+  </div>
+  <div class="col-sm-6">
+  <div id="mapid" style="width: 300px; height: 200px;"></div>
+  <script>
+      var map_hubs = L.map('mapid').setView([61.0, 15.0], 4);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map_hubs);
+
+      let hubs = [
+          {lat: 59.348442, lon: 18.072857, title: 'KTH/PDC Stockholm'},
+          {lat: 59.943530, lon: 10.717122, title: 'University of Oslo/ USIT'},
+          {lat: 60.186802, lon: 24.821555, title: 'Aalto University'},
+          {lat: 63.415677, lon: 10.405992, title: 'NTNU Trondheim'},
+      ];
+
+      for (const hub of hubs){
+          marker = L.circleMarker([hub.lat, hub.lon], {radius: 15}).addTo(map_hubs);
+          marker.bindPopup(hub.title);
+          marker.on('mouseover', function (e) {
+              this.openPopup();
+          });
+          marker.on('mouseout', function (e) {
+              this.closePopup();
+          });
+      }
+  </script>
+  </div>
+</div>
 
 
 ## Current hubs
