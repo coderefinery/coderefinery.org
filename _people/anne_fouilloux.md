@@ -1,6 +1,6 @@
 ---
 name: Anne Fouilloux
-organization: UIO University of Oslo, Norway
+organization: UIO University of Oslo, Norway; CR staff
 photo: assets/img/team/anne_fouilloux.jpg
 ---
 

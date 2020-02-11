@@ -1,6 +1,6 @@
 ---
 name: Emiliano Molinaro
-organization: SDU eScience Center
+organization: SDU eScience Center; CR staff
 photo: assets/img/team/emiliano_molinaro.jpg
 ---
 

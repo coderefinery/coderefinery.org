@@ -1,6 +1,6 @@
 ---
 name: Bjørn Lindi
-organization: NTNU
+organization: NTNU; CR staff
 photo: assets/img/team/bjoern_lindi.jpg
 ---
 

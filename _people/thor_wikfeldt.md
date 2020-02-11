@@ -1,6 +1,6 @@
 ---
 name: Thor Wikfeldt
-organization: PDC Center for High Performance Computing
+organization: PDC Center for High Performance Computing; CR staff
 photo: assets/img/team/thor_wikfeldt.jpg
 ---
 
