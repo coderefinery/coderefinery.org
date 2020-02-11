@@ -38,7 +38,7 @@ p {
 	padding: 0;
 	margin-bottom: 12px;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	color: #384452;
 	margin-top: 10px;
@@ -78,6 +78,10 @@ a:focus {
 
 .centered {
 	text-align: center
+}
+
+.left {
+	text-align: left
 }
 
 /*	################################################################
@@ -511,3 +515,55 @@ div#imageContainer {
        -moz-column-count: 2;
             column-count: 2;
 }
+
+.front_columns{
+	padding: 80px;
+	column-gap: 10px;
+        column-count: 2;
+}
+
+div.three_columns{
+	padding: 40px;
+	column-gap: 20px;
+        column-count: 3;
+	display: flex;
+}
+
+div.panel {
+	padding: 30px;
+	column-gap: 10px;
+	background-color: #F3F6F9;
+	flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .three_columns {
+    display: block;
+    width: 100%;
+  }
+}
+div.front {
+	margin-bottom: 12px;
+	margin-right: 50px;
+	font-weight: 400;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 24px;
+	color: #384452;
+	margin-top: 15px;
+}
+
+.button_more {
+  background-color: #3074BA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
