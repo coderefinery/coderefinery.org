@@ -35,7 +35,7 @@ community.
 
 ### License
 
-Lesson material is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Lesson material is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (however note, some old ones may be CC BY-SA).
 Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
 You are free to use this material, but please [let us know](/get-involved/#contact-us) - it is
 important for us to know whether this material has impact outside of our
