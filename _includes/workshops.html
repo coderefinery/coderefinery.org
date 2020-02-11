@@ -1,5 +1,11 @@
 <div class="container mb">
     <div class="row">
+      <div class="col-sm-12">
+      We organize a roadshow of hands-on interactive
+      three-day workshops across the Nordics with type-along presentations
+      and live coding where short tutorials alternate with practical exercises.
+    </div>
+
         <div class="col-sm-6">
             <h3>Upcoming workshops and events</h3>
             <ul>
@@ -45,7 +51,29 @@
                     {% endif %}
                 {% endfor %}
 
-            </ul>
+              </ul>
+              </div>
+              <div class="col-sm-6">
+                <h4>Notify me</h4>
+                <p>
+                    We don't want you to miss a workshop or event.
+                    Sign up
+                    <a href="https://goo.gl/forms/DLp3d0CzkAnwS2GX2" target="_blank">here</a>
+                    and we will notify you when the registration to a workshop or event near you opens.
+                    Or subscribe to our <a href="../feed-workshops/">workshops</a> and <a href="../feed-events/">events</a> RSS feeds.
+                </p>
+
+                <h4>Privacy policy</h4>
+                <p>
+                  Our
+                  <a href="../privacy-policy">privacy policy</a>
+                  documents what registration data we store, where, and why.
+                </p>
+
+              </div>
+
+            <div class="col-sm-6">
+
             <h3>Past 3-day workshops</h3>
             <ul>
                 {% for event in site.workshops reversed %}
@@ -110,19 +138,8 @@
             </div>
 
         <div class="col-sm-6">
-            <p>
-                We organize a roadshow of hands-on interactive
-                three-day workshops across the Nordics with type-along presentations
-                and live coding where short tutorials alternate with practical exercises.
-            </p>
-            <h3>Notify me</h3>
-            <p>
-                We don't want you to miss a workshop or event.
-                Sign up
-                <a href="https://goo.gl/forms/DLp3d0CzkAnwS2GX2" target="_blank">here</a>
-                and we will notify you when the registration to a workshop or event near you opens.
-                Or subscribe to our <a href="../feed-workshops/">workshops</a> and <a href="../feed-events/">events</a> RSS feeds.
-            </p>
+
+
 
             <h3>Requesting a workshop<a name="request_workshop"></a> </h3>
             <p>
@@ -139,12 +156,6 @@
 		<a href="../workshop-requirements">a list of practical requirements</a>.
             </p>
 
-            <h3>Privacy policy</h3>
-            <p>
-	        Our
-		<a href="../privacy-policy">privacy policy</a>
-		documents what registration data we store, where, and why.
-            </p>
 
             <h3>Local partnerships</h3>
             <p>
