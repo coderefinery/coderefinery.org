@@ -21,17 +21,38 @@ main:
   image: /assets/img/CR_workshop_RDV.png
 
 widget1:
-  title: "Training opportunities"
-  url: '/training'
-  text: 'We offer training opportunities to researchers from Nordic research groups and projects to learn basic-to-advanced research computing skills and become confident in using state-of-the-art tools and practices from modern collaborative software engineering.'
+  title: "CodeRefinery workshops"
+  url: '/about/project/#coderefinery-workshops'
+  text: "CodeRefinery workshops aim grow researchers' software best
+         practices skills and to consolidate knowledge learnt during
+         Carpentries workshops or from prior experience. The focus is 
+         on professional tools for efficiently developing and maintaining research software."
 widget2:
-  title: "Lesson materials"
-  url: '/lessons'
-  text: 'We develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.'
+  title: "Software and Data Carpentry"
+  url: '/about/project/#membership-with-the-carpentries'
+  text: "Carpentry workshops teach foundational coding and data science skills and focus on raising
+        awareness about tools that researchers can learn to speed up their research. As members of the 
+        Carpentries, we can give access to Carpentries instructor training workshops and help set up 
+        Carpentry workshops."
+
 widget3:
-  title: "Code Repository Hosting"
-  url: '/repository'
-  text: 'Our code repository hosting service is open and free for all researchers based in Nordic universities and research institutes. Please contact us if you would like to use these services.'
+  title: "Instructor training"
+  url: '/about/project/#instructor-training-workshops'
+  text: "Instructor training workshops focus on how to teach
+        technical topics in general and CodeRefinery lessons in
+        particular. Key pedagogical ideas and teaching methods
+        are covered, as well as what learners need to know in
+        order to teach CodeRefinery lessons."
+
+widget4:
+  title: "Other events"
+  url: '/about/project/#other-types-of-events'
+  text: "We occasionally teach, organize or participate in other	 
+        types of events. This includes hackathons, get-together	 
+        events with knowledge sharing and networking, or	 
+        dedicated shorter workshops focusing on a particular	 
+        topic. Get in touch if you want to co-organize an event with us!"
+
 
 permalink: /workshops
 

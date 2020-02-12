@@ -42,6 +42,12 @@ With this we have access to:
 - 6 [Carpentries workshops](https://carpentries.org/workshops/) in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
 - 15 seats in the [Carpentries instructor training](https://carpentries.github.io/instructor-training/) each year.
 
+Carpentry workshops last 2 days.  Software Carpentry workshops include
+introductory lessons on Unix shell, version control with Git and
+programming in Python or R. Data Carpentry workshops are usually
+tailored to specific scientific disciplines. An overview of Carpentry
+curricula can be [found here](https://carpentries.org/workshops-curricula/)
+
 Please [get in touch](/get-involved/) if you would like to host a Carpentry workshop or become an instructor.
 
 
@@ -59,7 +65,7 @@ highly recommend attending a [Software Carpentry workshop](https://software-carp
 The key objective of CodeRefinery workshop is to grow researchers' software
 best practices skills to facilitate open and reproducible research.
 
-We offer **three-day workshops** that focus on advanced methods to build
+We offer **three-day workshops** that focus on methods to build
 modular, reusable, maintainable, sustainable, reproducible, testable, and
 robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
@@ -76,11 +82,35 @@ researchers and more senior staff from a wide range of scientific backgrounds
 and with different programming experiences.
 
 
-#### Our train the trainer program
+### Instructor training workshops
 
-Our train the trainer program aims at building partnerships with [research
-software engineers](https://nordic-rse.org) and researchers who are willing to
-lead skills' transfer within their local communities in the Nordics.
+One purpose of our Instructor training workshops is to train
+CodeRefinery instructors, but being (or becoming) a CodeRefinery
+instructor is not required. With the workshops we also aim at building
+partnerships with [research software engineers](https://nordic-rse.org) 
+and researchers who are willing to lead skills' transfer within their
+local communities in the Nordics.
+
+Instructor training workshops take 2 days and cover [this lesson
+material](https://coderefinery.github.io/instructor-training/).
+
+#### Level of Instructor training workshops
+
+Learners should have some familiarity with good software development
+practices, especially in the context of scientific software, and be
+interested in sharing knowledge and teaching.
+
+### Other types of events
+
+We have organized hackathons, get-together events and shorter workshops
+customized for individual research groups. Regularly we also host
+online Open House events where CodeRefinery instructors together with
+a wider community of interested people work in sprints on topics
+ranging from lesson development to website updates.
+
+We're always interested in new collaborations, so if you would like to 
+co-organize an event with us or suggest a new type of event, don't 
+hesitate to [get in touch](/get-involved/)!
 
 
 ## Key facts
