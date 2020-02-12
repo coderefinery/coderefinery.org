@@ -54,7 +54,7 @@ widget4:
         topic. Get in touch if you want to co-organize an event with us!"
 
 
-permalink: /workshops
+permalink: /workshops/
 
 ---
 
