@@ -3,6 +3,7 @@
     {% include head.html %}
     <body>
         {% include navigation.html %}
+      <div class="container-fluid">
       <div class="front_columns">
           <div class="row centered">
             <img src={{ page.main.image }} alt="" class="pull-left mr-2" width="360"/>
@@ -14,8 +15,11 @@
 	        {{ page.main.text }}
             </div>
 	    </div>
+	    </div>
 	  </div>
       </div>
+
+      <div class="container-fluid">
        <div class="col-sm-6">
         {% if page.widget1.title %}
                 {% include _workshop-widget.html widget=page.widget1 %}
@@ -26,6 +30,8 @@
                 {% include _workshop-widget.html widget=page.widget2 %}
         {% endif %}
       </div>
+      </div>
+      <div class="container-fluid">
        <div class="col-sm-6">
         {% if page.widget3.title %}
                 {% include _workshop-widget.html widget=page.widget3 %}
@@ -36,6 +42,7 @@
                 {% include _workshop-widget.html widget=page.widget3 %}
         {% endif %}
       </div><!-- columns -->
+     </div>
 
         {% include footer.html %}
         {% include js.html %}
