@@ -70,6 +70,19 @@ modular, reusable, maintainable, sustainable, reproducible, testable, and
 robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
 
+#### Requesting a workshop
+
+Would you like to host a CodeRefinery workshop at your home institution?
+[Get in touch](/get-involved/#contact-us) if this sounds interesting!
+
+Note that even though CodeRefinery is a Nordic project, we are interested in giving workshops
+also outside the Nordics and are able to do so provided that funding for travel and
+accommodation can be covered.
+
+#### Information for local organizers
+
+We have prepared [a list of practical requirements](../../workshop-requirements).
+
 
 #### Level of CodeRefinery workshops
 
