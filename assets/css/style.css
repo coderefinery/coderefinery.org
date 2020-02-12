@@ -536,6 +536,10 @@ div.panel {
 	flex: 1;
 }
 
+div.panel-height {
+  height: 300px; / change according to your requirement/
+}
+
 @media only screen and (max-width: 600px) {
   .three_columns {
     display: block;

@@ -1,5 +1,5 @@
 <div class="belt">
-  <div class="panel panel-default">
+  <div class="panel panel-primary panel-height">
 	{% capture widget_url %}{% if include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
 	{% if include.widget.video %}
 		{{ include.widget.video }}
