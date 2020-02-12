@@ -529,6 +529,13 @@ div.three_columns{
 	display: flex;
 }
 
+div.two_panels{
+	padding: 40px;
+	column-gap: 20px;
+        column-count: 2;
+	display: flex;
+}
+
 div.panel {
 	padding: 30px;
 	column-gap: 10px;
@@ -546,6 +553,7 @@ div.panel-height {
     width: 100%;
   }
 }
+
 div.front {
 	margin-bottom: 12px;
 	margin-right: 50px;
