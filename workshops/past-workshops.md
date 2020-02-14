@@ -7,7 +7,6 @@ description:
 
 title: Past workshops
 
-permalink: /past-workshops
 
 ---
 

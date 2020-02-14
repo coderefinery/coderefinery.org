@@ -1,11 +1,8 @@
 ---
 layout: workshops
-title: Workshops
+title: About our workshops
 
 description: 
-
-
-title: Workshops
 
 main:
   text: <p>We organize a roadshow of hands-on interactive three-day
@@ -52,9 +49,6 @@ widget4:
         events with knowledge sharing and networking, or	 
         dedicated shorter workshops focusing on a particular	 
         topic. Get in touch if you want to co-organize an event with us!"
-
-
-permalink: /workshops/
 
 ---
 

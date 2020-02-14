@@ -1,6 +1,6 @@
 ---
-layout: 
-include: 
+layout: master
+include: content
 title: Impact
 ---
 ## Our participants
