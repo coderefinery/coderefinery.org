@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: master
+include: index
 description: We are working with students, researchers, Research Software Engineers from all disciplines and national e-infrastructure partners to advance FAIRness of Software management and development practices so that research groups can collaboratively develop, review, discuss, test, share and reuse their codes.
 main:
   title: "Training and e-Infrastructure for Research Software Development"
@@ -23,4 +24,3 @@ widget3:
   text: 'Our code repository hosting service is open and free for all researchers based in Nordic universities and research institutes. Please contact us if you would like to use these services.'
 permalink: /
 ---
-
