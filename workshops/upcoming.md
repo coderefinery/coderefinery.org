@@ -6,7 +6,7 @@ title: Upcoming workshops
 
 ### Past workshops
 
-See [this page](/workshops/past-workshops/) for a list of past workshops.
+See [this page](/workshops/past/) for a list of past workshops.
 
 ### Notify me
 
