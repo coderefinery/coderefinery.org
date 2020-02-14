@@ -1,5 +1,6 @@
 ---
-layout: workshops
+layout: master
+include: workshops
 title: About our workshops
 
 description: 
