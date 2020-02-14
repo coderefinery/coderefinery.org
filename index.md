@@ -8,7 +8,7 @@ main:
   text: 'We are working with students, researchers, Research Software Engineers from all disciplines and national e-infrastructure partners to advance FAIRness of Software management and development practices so that research groups can collaboratively develop, review, discuss, test, share and reuse their codes.'
 widget1:
   title: "Training opportunities"
-  url: '/workshops'
+  url: '/workshops/about-our-workshops/'
   image: /assets/img/CR_workshop_RDV.png
   text: 'We offer training opportunities to researchers from Nordic research groups and projects to learn basic-to-advanced research computing skills and become confident in using state-of-the-art tools and practices from modern collaborative software engineering.'
 widget2:
