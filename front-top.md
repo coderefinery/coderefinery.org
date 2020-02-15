@@ -1,5 +1,5 @@
 ---
-layout:  
+layout:
 ---
 Training and e-Infrastructure for Research Software Development
 

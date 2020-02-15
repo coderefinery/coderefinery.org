@@ -18,7 +18,7 @@
         {% endif %}
         {% endunless %}
         {% endfor %}
-	
+
         {% for event in site.events reversed %}
         {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
         {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
@@ -41,10 +41,10 @@
         {% endif %}
         {% endif %}
         {% endfor %}
-	
+
       </ul>
 
-          
+
     <div class="row">
         <div class="col-sm-8">
             {{ page.content | markdownify }}

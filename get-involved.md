@@ -19,7 +19,7 @@ touch](/get-involved/#contact-us) and let us know which workshop you would like 
 ### Become a CodeRefinery workshop instructor
 <!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
 
-You are welcome to self-organize a CodeRefinery workshop or join as an instructor in a workshop organized by others. Please watch out recruitment of instructors in #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.zulipchat.com). 
+You are welcome to self-organize a CodeRefinery workshop or join as an instructor in a workshop organized by others. Please watch out recruitment of instructors in #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.zulipchat.com).
 
 Although at the moment there is no strict requirements to become a CodeRefinery instructor, we strongly encourage you to attend either a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/), CR instructor training, or (even better), both. Please
 [get in touch](mailto:support@coderefinery.org) if this sounds interesting.
@@ -29,7 +29,7 @@ For more information about organizing a workshop, please refer to [CodeRefinery 
 ### Become a Carpentries workshop instructor
 <!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
 
-If you would like to become an instructor for Carpentries, you should begin by participating in a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/). 
+If you would like to become an instructor for Carpentries, you should begin by participating in a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/).
 <!--need to revise the URL -->
 [NeIC reserves 15 seats per year for Carpentries instructor training](https://neic.no/training). Please
 [get in touch](mailto:support@coderefinery.org) for more information if this sounds interesting.

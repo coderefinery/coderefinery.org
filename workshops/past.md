@@ -2,6 +2,6 @@
 layout: master
 include: past-workshops
 title: Workshops
-description: 
+description:
 title: Past workshops
 ---

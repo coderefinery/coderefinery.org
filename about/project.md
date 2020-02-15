@@ -100,7 +100,7 @@ and with different programming experiences.
 One purpose of our Instructor training workshops is to train
 CodeRefinery instructors, but being (or becoming) a CodeRefinery
 instructor is not required. With the workshops we also aim at building
-partnerships with [research software engineers](https://nordic-rse.org) 
+partnerships with [research software engineers](https://nordic-rse.org)
 and researchers who are willing to lead skills' transfer within their
 local communities in the Nordics.
 
@@ -121,8 +121,8 @@ online Open House events where CodeRefinery instructors together with
 a wider community of interested people work in sprints on topics
 ranging from lesson development to website updates.
 
-We're always interested in new collaborations, so if you would like to 
-co-organize an event with us or suggest a new type of event, don't 
+We're always interested in new collaborations, so if you would like to
+co-organize an event with us or suggest a new type of event, don't
 hesitate to [get in touch](/get-involved/)!
 
 
