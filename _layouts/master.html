@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="en">
-    {% include head.html %}
+  {% include head.html %}
 
-    <body>
-        {% include navigation.html %}
+  <body>
+    <div class="container">
+      {% include navigation.html %}
 
-        {% if page.include %}
-            {% include {{ page.include }}.html %}
-        {% endif %}
+      {% if page.include %}
+        {% include {{ page.include }}.html %}
+      {% endif %}
 
-        {% include footer.html %}
-        {% include js.html %}
-    </body>
+      {% include footer.html %}
+    </div>
+
+    {% include js.html %}
+  </body>
 </html>

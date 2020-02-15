@@ -1,57 +1,48 @@
-<div class="container mb">
-
-  <h2>Meet the team</h2>
-  <div class="row centered">
-    {% for person in site.people %}
-    {% assign mod = forloop.index | modulo:4 %}
+<h2>Meet the team</h2>
+<div class="row centered">
+  {% for person in site.people %}
     <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
-      <div class="he-wrap tpl6">
-	{% if person.photo %}
-	<img src="{{ site.baseurl }}/{{ person.photo }}"
-             class="mugshot" alt="">
-	{% else %}
-	<img
-           src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150"
-           alt="" class="mugshot">
-	{% endif %}
-      </div>
-      <h4>{{ person.name }}</h4>
-      <h5 class="ctitle">{{ person.organization }}</h5>
-      <div class="ccontent">
-	<p>{{ person.content }}</p>
-      </div>
+      {% if person.photo %}
+        <img src="{{ site.baseurl }}/{{ person.photo }}" class="mugshot" alt="">
+      {% else %}
+        <img src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150" alt="" class="mugshot">
+      {% endif %}
+      <h4 class="top-buffer">{{ person.name }}</h4>
+      <p class="ctitle">{{ person.organization }}</p>
+      <p><small>{{ person.content }}</small></p>
     </div>
-    {% if mod == 0 and forloop.last != true %}
-    {% endif %}
-    {% endfor %}
-  </div>
+  {% endfor %}
+</div>
 
-  <div class="row">
-    <div class="col-sm-12" style="padding-top: 10px">
-      <h2>Who's the team?</h2>
-	<p>The team consists of volunteers, usually paid as part of
-	  their work, and CodeRefinery staff paid by NeIC.  If you are
-	  an instructor for two workshops or otherwise consistently
-	  contribute to material or CodeRefinery organization, and
-	  occasionally come to our online meetings, please request to
-	  be added to the list above.  Likewise, we remove people
-	  after they are inactive for a year.</p>
-	<p>CodeRefinery is evolving to a collaborative project - join us!</p>
-    </div>
+<div class="row top-buffer">
+  <div class="col">
+    <h2>Who's the team?</h2>
+      <p>
+        The team consists of volunteers, usually paid as part of
+        their work, and CodeRefinery staff paid by NeIC.  If you are
+        an instructor for two workshops or otherwise consistently
+        contribute to material or CodeRefinery organization, and
+        occasionally come to our online meetings, please request to
+        be added to the list above.  Likewise, we remove people
+        after they are inactive for a year.
+      </p>
+      <p>
+        CodeRefinery is evolving to a collaborative project - join us!
+      </p>
   </div>
+</div>
 
-  <div class="row">
-    <div class="col-sm-12" style="padding-top: 10px">
-      <h2>Alumni</h2>
-      <ul>
-	<li>Lukas Berger (Technical University of Denmark): work on CI infrastructure</li>
-	<li>Erik Edelmann (CSC - IT Center for Science): SGAS software</li>
-	<li>Pinja Koskinen (CSC - IT Center for Science): DevOps know-how and lesson material</li>
-	<li>Risto Laurikainen (CSC - IT Center for Science): maintained the GitLab service</li>
-	<li>Jyry Suvilehto (CSC - IT Center for Science): lesson material,
-    training and GitLab</li>
-	<li>Sri Harsha Vathsavayi (CSC - IT Center for Science): lesson material and training</li>
-      </ul>
-    </div>
+<div class="row top-buffer">
+  <div class="col">
+    <h2>Alumni</h2>
+    <ul>
+      <li>Lukas Berger (Technical University of Denmark): work on CI infrastructure</li>
+      <li>Erik Edelmann (CSC - IT Center for Science): SGAS software</li>
+      <li>Pinja Koskinen (CSC - IT Center for Science): DevOps know-how and lesson material</li>
+      <li>Risto Laurikainen (CSC - IT Center for Science): maintained the GitLab service</li>
+      <li>Jyry Suvilehto (CSC - IT Center for Science): lesson material,
+  training and GitLab</li>
+      <li>Sri Harsha Vathsavayi (CSC - IT Center for Science): lesson material and training</li>
+    </ul>
   </div>
 </div>

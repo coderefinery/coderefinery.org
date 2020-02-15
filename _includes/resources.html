@@ -1,19 +1,16 @@
-<div class="container mb">
-  <div>
-    <div class="col">
-      <div class="two_columns">
-        {% for section in site.links %}
-          <div class="top-buffer">
-            <br>
-            <h4>{{ section.section }}</h4>
-            {% for link in section.links %}
-              <div>
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </div>
-            {% endfor %}
+<div class="row">
+  <div class="col">
+    <div class="two_columns">
+      {% for section in site.links %}
+        <div class="top-buffer">
+        <h4>{{ section.section }}</h4>
+        {% for link in section.links %}
+          <div>
+            <a href="{{ link.url }}">{{ link.text }}</a>
           </div>
         {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>

@@ -1,38 +1,34 @@
-<div class="container mtb">
+<div class="row top-buffer">
+  <div class="col-md-4">
+    <img src={{ page.main.image }} alt="" class="pull-left mr-2" width="100%"/>
+  </div>
+  <div class="col-md-8">
+    <h2>{{ page.main.title }}</h2>
+    <p>
+      {{ page.main.text }}
+    </p>
+  </div>
+</div><!-- row -->
 
-  <div class="row">
-    <div class="col-sm-4">
-      <img src={{ page.main.image }} alt="" class="pull-left mr-2" width="400"/>
-    </div>
-    <div class="col-sm-8">
-      <h2>{{ page.main.title }}</h2>
-      <p>
-        {{ page.main.text }}
-      </p>
-    </div>
-  </div><!-- row -->
-
-  <div class="row top-buffer">
-    <div class="col-sm-6">
-      {% if page.widget1.title %}
-        {% include _workshop-widget.html widget=page.widget1 %}
-      {% endif %}
-    </div>
-    <div class="col-sm-6">
-      {% if page.widget2.title %}
-        {% include _workshop-widget.html widget=page.widget2 %}
-      {% endif %}
-    </div>
-    <div class="col-sm-6">
-      {% if page.widget3.title %}
-        {% include _workshop-widget.html widget=page.widget3 %}
-      {% endif %}
-    </div>
-    <div class="col-sm-6">
-      {% if page.widget4.title %}
-        {% include _workshop-widget.html widget=page.widget4 %}
-      {% endif %}
-    </div>
-  </div><!-- row -->
-
-</div>
+<div class="row top-buffer">
+  <div class="col-md-6">
+    {% if page.widget1.title %}
+      {% include widget.html widget=page.widget1 %}
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    {% if page.widget2.title %}
+      {% include widget.html widget=page.widget2 %}
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    {% if page.widget3.title %}
+      {% include widget.html widget=page.widget3 %}
+    {% endif %}
+  </div>
+  <div class="col-md-6">
+    {% if page.widget4.title %}
+      {% include widget.html widget=page.widget4 %}
+    {% endif %}
+  </div>
+</div><!-- row -->

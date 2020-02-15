@@ -1,19 +1,20 @@
-<div class="container mb">
-    {% for partner in site.partners %}
-        <div class="row">
-            <div class="col-sm-2">
-            </div>
-            <div class="col-sm-8">
-                <h3>{{ partner.name }}</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2">
-                <a href="{{ partner.website }}" target="_blank"><img src="{{ site.baseurl }}/{{ partner.logo }}" alt="{{ partner.name }} logo" style="width:120px"></a>
-            </div>
-            <div class="col-sm-8">
-                <p>{{ partner.content }}</p>
-            </div>
-        </div>
-    {% endfor %}
-</div>
+{% for partner in site.partners %}
+  <div class="row top-buffer">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      <h3><a href="{{ partner.website }}" target="_blank">{{ partner.name }}</a></h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2">
+      <a href="{{ partner.website }}" target="_blank">
+        <img src="{{ site.baseurl }}/{{ partner.logo }}" alt="{{ partner.name }} logo" style="width:120px">
+      </a>
+    </div>
+    <div class="col-sm-8">
+      <p>{{ partner.content }}</p>
+    </div>
+  </div>
+{% endfor %}
