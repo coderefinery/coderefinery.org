@@ -29,3 +29,5 @@ main:
     text: 'Resources'
   - url: '/get-involved/'
     text: 'Get involved'
+  - url: 'https://neic.no'
+    text: 'Funded by NeIC'
