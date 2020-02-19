@@ -7,10 +7,10 @@ city: Trondheim
 dates: February 25-27, 2020
 time: 9:00 am to 5:00 pm
 num_seats: 30
-participants: false
+participants: 28
 contact: support@coderefinery.org
 registration_open_date: January 13, 2020
-registration_is_closed: false
+registration_is_closed: true
 registration_form: https://indico.neic.no/event/114/
 goals:
     The aim of this course is to demonstrate to and familiarize
