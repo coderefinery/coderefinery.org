@@ -10,6 +10,7 @@
     <h3>Past 3-day workshops</h3>
     <ul>
       {% for event in site.workshops reversed %}
+        {% unless event.postponed %}
         {% unless event.exclude %}
           {% capture nowyear %}{{'now' | date: '%Y'}}{% endcapture %}
           {% capture nowday %}{{'now' | date: '%j'}}{% endcapture %}
@@ -25,6 +26,7 @@
                <li>{{ event.city }}, {{ event.dates }}</li>
             {% endif %}
           {% endif %}
+        {% endunless %}
         {% endunless %}
       {% endfor %}
     </ul>
