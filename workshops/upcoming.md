@@ -1,12 +1,13 @@
 ---
 layout: master
 include: upcoming-workshops
-title: Upcoming workshops
+title: Upcoming workshops and events and events
 ---
 
-### Past workshops
+### Past workshops and events
 
 See [this page](/workshops/past/) for a list of past workshops.
+
 
 ### Notify me
 
