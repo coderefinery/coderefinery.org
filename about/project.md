@@ -126,9 +126,6 @@ co-organize an event with us or suggest a new type of event, don't
 hesitate to [get in touch](/get-involved/)!
 
 
-## Key facts
-
-
 ## Articles about CodeRefinery
 
 - "A FAIRer future", [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
