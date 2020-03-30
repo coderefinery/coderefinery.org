@@ -46,7 +46,7 @@ links:
   - url: https://society-rse.org/
     text: Society of Research Software Engineering
   - url: http://www.researchsoft.org/
-  - text: Research Software Alliance
+    text: Research Software Alliance
 ---
 
 
