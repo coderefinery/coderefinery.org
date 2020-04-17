@@ -65,10 +65,20 @@ highly recommend attending a [Software Carpentry workshop](https://software-carp
 The key objective of CodeRefinery workshop is to grow researchers' software
 best practices skills to facilitate open and reproducible research.
 
+#### In-person workshops
+
 We offer **three-day workshops** that focus on methods to build
 modular, reusable, maintainable, sustainable, reproducible, testable, and
 robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
+
+#### Online workshops
+
+Since April 2020, we also offer **online workshops**. Each online
+workshop focuses on one lesson from our [training material](/lessons/)
+and takes place during one or two 3-hour sessions in an online meeting
+room.
+
 
 #### Requesting a workshop
 
