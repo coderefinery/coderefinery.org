@@ -19,7 +19,8 @@ layout: null
   {% for workshop in workshops limit: 30 %}
     <entry{% if workshop.lang %}{{" "}}xml:lang="{{ workshop.lang }}"{% endif %}>
       <title type="html">{{ workshop.city | append: ", " | append: workshop.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-      <id>{{ workshop.id | absolute_url | xml_escape }}</id>
+      <id>{{ workshop.url | absolute_url | xml_escape }}</id>
+      <author><name>CodeRefinery team</name></author>
       <updated>{{ workshop.last_modified_at | default: workshop.published_date | date_to_xmlschema }}</updated>
       <link href="{{ workshop.url | absolute_url }}" rel="alternate" type="text/html" title="{{ workshop.city | xml_escape }}" />
       <published>{{ workshop.published_date | date_to_xmlschema }}</published>

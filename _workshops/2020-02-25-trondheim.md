@@ -2,7 +2,7 @@
 layout: master
 include: workshop-3day
 permalink: /workshops/2020-02-25-trondheim/
-published_date: 2020-01-07
+published_date: 2020-01-08
 city: Trondheim
 dates: February 25-27, 2020
 time: 9:00 am to 5:00 pm
