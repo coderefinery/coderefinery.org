@@ -30,7 +30,7 @@ layout: null
             {{ event.location | strip_html | normalize_whitespace }}<br />
           {% endif %}
           {% if event.instructors and event.instructors != empty %}
-            Course instructors: {{ event.instructors | array_to_sentence_string | normalize_whitespace }}<br />
+            Instructors: {{ event.instructors | array_to_sentence_string | normalize_whitespace }}<br />
           {% endif %}
           {% if event.helpers and event.helpers != empty %}
             Course helpers: {{ event.helpers | array_to_sentence_string | normalize_whitespace }}

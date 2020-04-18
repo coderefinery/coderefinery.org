@@ -12,13 +12,15 @@ layout: null
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ page.url | absolute_url | xml_escape }}</id>
 
-  <title type="html">Events</title>
+  <title type="html">CodeRefinery events</title>
+  <subtitle>Training and e-Infrastructure for Research Software Development</subtitle>
 
   {% assign events = site.events | where_exp: "post", "post.draft != true" | reverse %}
   {% for event in events limit: 30 %}
     <entry{% if event.lang %}{{" "}}xml:lang="{{ event.lang }}"{% endif %}>
       <title type="html">{{ event.city | append: ", " | append: event.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
       <id>{{ event.id | absolute_url | xml_escape }}</id>
+      <author><name>CodeRefinery team</name></author>
       <updated>{{ event.last_modified_at | default: event.published_date | date_to_xmlschema }}</updated>
       <link href="{{ event.url | absolute_url }}" rel="alternate" type="text/html" title="{{ event.city | xml_escape }}" />
       <published>{{ event.published_date | date_to_xmlschema }}</published>
@@ -26,7 +28,7 @@ layout: null
         <div xmlns="http://www.w3.org/1999/xhtml">
           {{ event.content }}
           {% if event.location and event.location != empty %}
-            {{ event.location | strip_html | normalize_whitespace }}<br /> 
+            {{ event.location | strip_html | normalize_whitespace }}<br />
           {% endif %}
           {% if event.instructors and event.instructors != empty %}
             Instructors: {{ event.instructors | array_to_sentence_string | normalize_whitespace }}<br />
