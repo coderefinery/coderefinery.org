@@ -15,11 +15,11 @@ layout: null
   <title type="html">CodeRefinery events</title>
   <subtitle>Training and e-Infrastructure for Research Software Development</subtitle>
 
-  {% assign events = site.events | where_exp: "post", "post.draft != true" | reverse %}
+  {% assign events = site.events | where_exp: "post", "post.draft != true" | sort: "published_date" | reverse %}
   {% for event in events limit: 30 %}
     <entry{% if event.lang %}{{" "}}xml:lang="{{ event.lang }}"{% endif %}>
       <title type="html">{{ event.city | append: ", " | append: event.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-      <id>{{ event.id | absolute_url | xml_escape }}</id>
+      <id>{{ event.url | absolute_url | xml_escape }}</id>
       <author><name>CodeRefinery team</name></author>
       <updated>{{ event.last_modified_at | default: event.published_date | date_to_xmlschema }}</updated>
       <link href="{{ event.url | absolute_url }}" rel="alternate" type="text/html" title="{{ event.city | xml_escape }}" />
