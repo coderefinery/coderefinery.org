@@ -12,6 +12,7 @@ community.
 
 - For yourself and larger:
   - [Introduction to version control](https://coderefinery.github.io/git-intro/)
+  - [Collaborating and sharing using GitHub without command line](https://coderefinery.github.io/github-without-command-line/)
   - [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
   - [Automated testing](https://coderefinery.github.io/testing/)
   - [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
