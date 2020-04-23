@@ -1,7 +1,7 @@
 ---
 layout: master
 include: upcoming-workshops
-title: Upcoming workshops and events and events
+title: Upcoming workshops and events
 ---
 
 ### Past workshops and events
