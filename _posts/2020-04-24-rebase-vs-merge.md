@@ -35,13 +35,13 @@ The result will look like this.
 ![First rebase tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_02.png "git commit tree
 after rebase"){:class="img-responsive" style="max-width:100%"}
  
-Checking out `master` again, we can merge `feature_A` with master. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow.
+Checking out `master` again, we can merge `feature_A` with `master`. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow.
 
 ![FF-merge tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_03.png "git commit tree after fast-forward merge"){:class="img-responsive" style="max-width:100%"}
 
 ### Merge
 
-If we don’t use rebase, but just merge feature_A with master, we get an merge commit, a new commit pointing  to the previous last commit in master and the previous last commit in feature_A.
+If we don’t use rebase, but just merge `feature_A` with `master`, we get an merge commit, a new commit pointing  to the previous last commit in `master` and the previous last commit in `feature_A`.
 
 ![Plain merge tree]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_04.png "git commit tree after regular merge"){:class="img-responsive" style="max-width:100%"}
 
@@ -51,7 +51,7 @@ If we only do merges, we show the true story of the repository, how the code cam
 ### Mixing rebase and merge
 
 Instead of sticking to either rebase or merge, we could use both operations, but establish principles for when we will use merge and under which conditions we use rebase:
-- When we merge a semantic unit to master, we use merge.
+- When we merge a semantic unit to `master`, we use merge.
 - When patch features, or do general corrections, we use rebase.
 
 How will this look?
@@ -59,9 +59,9 @@ How will this look?
 
 #### Merge revisited
 
-Let us say we have created a new function or class, something that belongs together - a semantic unit we call feature_B. The base of feature_B is the last commit in master.
+Let us say we have created a new function or class, something that belongs together - a semantic unit we call `feature_B`. The base of `feature_B` is the last commit in `master`.
 
-![Master feature-b tree]({{ site.baseurl }}/img/image_05_here.svg "git commit tree with master and a new feature"){:class="img-responsive" style="max-width:70%"}
+![Master feature-b tree]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_05.png "git commit tree with master and a new feature"){:class="img-responsive" style="max-width:70%"}
 
 If we do a merge, git will by default do a fast-forward merge. Following our newly stated policy, we want this merge to be a merge commit. Consequently, we add the option --no-ff to the merge command:
 ```sh
@@ -80,7 +80,7 @@ The result will be like this, where the feature is clearly visible in a feature 
 
 #### Rebase revisited
 
-Now we  take the case where we checkout a branch from C1 to do some corrections. While we were doing the corrections, at least before we were able to complete the corrections, master moved to M1 as in the picture above. A merge commit will add unnecessary complexity to the story of our project. We are not adding a new semantic unit, just fixing things that got wrong in the first phase. That we started to fix things from C1 is not necessarily a important information to keep for the project.
+Now we  take the case where we checkout a branch from C1 to do some corrections. While we were doing the corrections, at least before we were able to complete the corrections, `master` moved to M1 as in the picture above. A merge commit will add unnecessary complexity to the story of our project. We are not adding a new semantic unit, just fixing things that got wrong in the first phase. That we started to fix things from C1 is not necessarily a important information to keep for the project.
 
 ![No-ff merge tree plus patch]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_07.png "git commit tree with a merged feature branch and a patch branch in master"){:class="img-responsive" style="max-width:100%"}
 
@@ -96,6 +96,6 @@ The git graph will now look like this:
 ![No-ff merge plus rebase]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_08.png "git commit tree with a merged feature branch and a rebased patch branch"){:class="img-responsive" style="max-width:100%"}
 
 ### Rebase vs merge revisited
-Rebase and merge serve two different purposes. We can use this to our advantage to create a clear story, a more readable git log (It is important to create a story, remember?). By using the above principles as guidance, we will become more conscious of where these operations will serve us or add more clutter. For instance, we might conclude that rebasing semantic branches, but insisting on a merge commit, is perfectly fine, because it is where the feature (the semantic entity) enters the master branch which is important, not where the development first started. Features will clearly stand out as a visible pattern in a git repository following such a practice. 
+Rebase and merge serve two different purposes. We can use this to our advantage to create a clear story, a more readable git log (It is important to create a story, remember?). By using the above principles as guidance, we will become more conscious of where these operations will serve us or add more clutter. For instance, we might conclude that rebasing semantic branches, but insisting on a merge commit, is perfectly fine, because it is where the feature (the semantic entity) enters the `master` branch which is important, not where the development first started. Features will clearly stand out as a visible pattern in a git repository following such a practice. 
 
 [[1] Getting Solid at Merge vs Rebase](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa)
