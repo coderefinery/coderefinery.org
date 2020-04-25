@@ -5,7 +5,7 @@ title: Announcing the first Nordic-RSE conference
 permalink: /blog/2020/04/24/nordic-rse-conference/
 ---
 
-*2020-04-14 - Anne Fouilloux, Thor Wikfeldt, ANYONE ELSE?*
+*2020-04-14 - Richard Darst, Anne Fouilloux, Thor Wikfeldt*
 
 ---
 
