@@ -84,7 +84,7 @@ Now we  take the case where we checkout a branch from C1 to do some corrections.
 
 ![No-ff merge tree plus patch]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_07.png "git commit tree with a merged feature branch and a patch branch in master"){:class="img-responsive" style="max-width:100%"}
 
-Following our second principle, we rebase the fix_typos branch to M1. Then we do a merge, but this time as fast-forward:
+Following our second principle, we rebase the fix_typos branch to M1. Then we do a merge, but this time as fast-forward. If we have configured merge for not doing fast forward when possible, as the configuration statement above, we need to add the --ff-only argument:
 ```sh
 git checkout fix_types
 git rebase master
