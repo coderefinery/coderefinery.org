@@ -26,7 +26,7 @@ base. Here we have two branches, `master` and `feature_A`.
 We can rebase the `feature_A` branch to the last commit in `master`:
 
 ```bash
-git checkout experiment
+git checkout feature_A
 git rebase master
 ```
 
