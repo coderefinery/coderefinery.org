@@ -35,7 +35,7 @@ The result will look like this.
 ![First rebase tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_02.png "git commit tree
 after rebase"){:class="img-responsive" style="max-width:100%"}
  
-Checking out `master` again, we can merge `feature_A` with `master`. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow.
+Checking out `master` again, we can merge `feature_A` with `master`. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow. The disadvantage is that we rewrite the history as the commit hashes changes.
 
 ![FF-merge tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_03.png "git commit tree after fast-forward merge"){:class="img-responsive" style="max-width:100%"}
 
