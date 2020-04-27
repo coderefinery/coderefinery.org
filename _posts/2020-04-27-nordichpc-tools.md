@@ -1,7 +1,7 @@
 ---
 layout: master
 include: content
-title: CodeRefinery tools in action: NordicHPC
+title: "CodeRefinery tools in action: NordicHPC"
 permalink: /blog/2020/04/27/nordichpc-tools/
 ---
 
@@ -51,4 +51,3 @@ to anyone, but some may be more interesting to cluster administrators.
   easily.
 
 Do you have a nice tool that needs a home?  You know what to do...
-
