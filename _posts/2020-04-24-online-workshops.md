@@ -25,7 +25,7 @@ to move more of our traditional workshops online. Online workshops will
 also provide a means for us to *scale up* and reach a larger audience
 than possible with in-person workshops.
 
-Many important lessons were learned in this first experiment and we
+We learned many important lessons in this first experiment and we
 tried to summarize them all in a [previous
 article](https://coderefinery.org/blog/2020/04/14/first-online-workshop/). We
 hope that these notes can be of help to others who are going online
@@ -37,7 +37,7 @@ with some of their teaching.
 We expect to be delivering many more online workshops also after
 covid-19 restrictions are lifted and life starts returning to
 normal. We realized that this means that our old notify-me form has
-become obsolete - it is no longer relevant to only indicate the 
+become obsolete - it is no longer enough to only indicate the 
 city in which you want to attend a workshop. So we created a [new more
 fine-grained notify-me
 form](https://coderefinery.org/workshops/upcoming/#notify-me) where
