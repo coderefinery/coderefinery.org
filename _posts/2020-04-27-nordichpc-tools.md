@@ -5,7 +5,7 @@ title: "CodeRefinery tools in action: NordicHPC"
 permalink: /blog/2020/04/27/nordichpc-tools/
 ---
 
-*2020-04-27 - TODO: who are the authors? ..., Richard Darst, ...*
+*2020-04-27 - Richard Darst*
 
 
 You've been to a CodeRefinery workshop, and wonder how these tools are
