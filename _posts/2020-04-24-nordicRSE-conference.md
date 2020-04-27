@@ -5,7 +5,7 @@ title: Announcing the first Nordic-RSE conference
 permalink: /blog/2020/04/24/nordic-rse-conference/
 ---
 
-*2020-04-14 - Richard Darst, Anne Fouilloux, Thor Wikfeldt*
+*2020-04-14 - Anne Fouilloux, Thor Wikfeldt*
 
 ---
 
@@ -113,4 +113,3 @@ talks](https://nordic-rse.org/conference/sponsorship/#sponsor-packages). For
 information on sponsorship see [our
 webpage](https://nordic-rse.org/conference/sponsorship/) or [get in
 touch](nordic-rse-organizers@neic.no).
-
