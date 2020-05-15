@@ -32,6 +32,7 @@ community.
   - [Integrated development environments](https://coderefinery.github.io/IDEs/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
   - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://github.com/coderefinery/manuals)
+  - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
 
 
 ### License
