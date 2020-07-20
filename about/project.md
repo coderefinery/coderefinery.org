@@ -151,6 +151,8 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Presentations
 
+- [Lightning talk at CarpentryConnect 2020, (Sabry Razick)](https://2020.carpentrycon.org/schedule/) - 
+  [Carpentries next level - CodeRefinery model](https://sabryr.github.io/HPC-Carpentry-talk/)
 - [Lightning talk at CarpentryConnect 2019, Manchester (Radovan Bast)](https://software.ac.uk/ccmcr19/programme/posters-lightning-talks)
 - ["Coding like it's 1969", Toulouse, April 2019 (Radovan Bast)](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-coding-like-1969/master/talk.md/)
 - [Albanova seminar, Stockholm, April 2019 (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/longtalk-coderefinery/master/talk.md/)
