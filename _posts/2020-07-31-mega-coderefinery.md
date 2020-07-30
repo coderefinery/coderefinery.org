@@ -224,8 +224,9 @@ Recommendations:
 Regular helpers:
 - Have a helper call the previous week.  Actually, have two so that
   everyone can make it to at least one.
-- Helper training: https://hackmd.io/@rkdarst/breakout-hints TODO:
-  update link
+- Helper training:
+    - [General](https://coderefinery.github.io/manuals/helping-and-teaching/)
+    - [Breakout rooms](https://coderefinery.github.io/manuals/breakout-rooms-helping/)
 - Focus on training for managing time and keeping a flow going.  This
   is described in our document.
 - Helpers do not need to be experts in everything.
