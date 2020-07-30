@@ -428,23 +428,17 @@ Recommendations:
   exercises, they can join twice, one of those times for sharing their
   screen (second one also be web browser client).
 - We saw some interesting Zoom problems:
-    - If "waiting room" was enabled, after you first opened breakout
-rooms, anyone else who joined would not be in the breakout room list.
-Our recommendation is to disable waiting room after everyone has
-joined, before you assign breakout rooms.  Of course this defeats the
-purpose, but when you otherwise can't assign people to breakout rooms
-and the link is private anyway...  > [name=Naoe Tatara]If I remember
-correctly, I feel the problem described here is slightly different
-from what I experienced at Mega CR. Even after opening breakout rooms,
-people can join in the meeting room, and I could assign the new people
-into one of the breakout rooms. The problem I experienced in the first
-couple of days was that after assigning a participant into one of the
-breakout rooms, and then that participant leaves from the meeting room
-(not only breakout room), and tries to join in the meeting room again
-with waiting room enabled, then that participant was kicked out from
-the meeting room. I don't still understand the mechanism behind, but I
-disabled waiting room function only from right before opening breakout
-rooms until they are closed. It went totally fine.
+    - Even after opening breakout rooms, people can join in the
+      meeting room, and the host could assign the new people into one
+      of the breakout rooms. The problem we experienced in the first
+      couple of days was that after assigning a participant into one
+      of the breakout rooms, and then that participant leaves from the
+      meeting room (not only breakout room), and tries to join in the
+      meeting room again with waiting room enabled, then that
+      participant was kicked out from the meeting room. We don't still
+      understand the mechanism behind, but once we disabled the
+      waiting room function (right before opening breakout rooms until
+      they are closed), it went totally fine.
 
 Recommendations:
 - Managing breakout rooms isn't too hard, but do practice.
