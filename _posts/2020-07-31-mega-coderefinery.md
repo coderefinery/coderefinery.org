@@ -564,11 +564,12 @@ it's a question of if it matches our vision.
       material from scratch, they are probably very useful to an
       existing learner who wants to review something they already saw,
       teach others, etc.
+	- When we can't provide them quickly, their usefulness is much
+      less.
 
 ### Recommendations
 - Also clearly announce the recording privacy statement when first
-  registering
-- Try to make the recording as one-shot as possible, with the lest
-  amount of preprocessing.
-
-
+  registering.
+- Try to make the recording as one-shot as possible, with minimal
+  post-processing needed.  Plan for who will do this and when already
+  before the workshop.
