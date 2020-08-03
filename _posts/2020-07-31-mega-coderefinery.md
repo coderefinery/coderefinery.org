@@ -104,7 +104,7 @@ regardless of location and physical limitations.
       easiest to combine.  Then, instructor and expert helpers.
 
 
-Recommendations:
+### Recommendations
 - Place a large emphasis on getting ready for the workshop.
 - Have multiple ways for learners to verify their installation.
 - "Require" attendance in pre-workshop installation verification
@@ -168,7 +168,7 @@ Recommendations:
     - One could give the teams names and so on, to increase team
       spirit.
 
-Recommendations:
+### Recommendations
 - Accept a "team name" as part of registration.  These people will be
   put into the same breakout rooms.  Worst case, it isn't used.
 - Keep people in the same breakout room for the entire workshop - if
@@ -212,7 +212,7 @@ Recommendations:
       Indico mail merge function
     - The majority of people did manage to name themselves correctly.
 
-Recommendations:
+### Recommendations
 - Consistent naming of participants (and an order that sorts properly)
   makes managing breakout rooms reasonable.
 - Consider how your registration system can send personalized emails
@@ -274,7 +274,7 @@ Special expert helpers:
   saying, Zoom host/hackmd master follow learner questions, and
   up-next instructors think about what they are about to do.
 
-Recommendations:
+### Recommendations
 - Hierarchical helpers allows you to extend to a greater size.
 - You need to put thought into how helpers work and prepare them well.
   We should develop a special, quick training for them.
@@ -302,7 +302,7 @@ Recommendations:
       ago, and not having a surprise twist that somehow had to be
       accommodated at the beginning of the exercise.
 
-Recommendations:
+### Recommendations
 - Consider limits of online formats and how difficult it is to do
   interactive work.
 
@@ -319,7 +319,7 @@ Recommendations:
 - This is exactly the case of "if it's even a little bit slow to you,
   then it takes ages for a learner to understand".
 
-Recommendations:
+### Recommendations
 - Have lots of "meta-talk" about what you are doing, what expectations
   are, etc.
 
@@ -440,7 +440,7 @@ Recommendations:
       waiting room function (right before opening breakout rooms until
       they are closed), it went totally fine.
 
-Recommendations:
+### Recommendations
 - Managing breakout rooms isn't too hard, but do practice.
 
 
@@ -538,7 +538,7 @@ it's a question of if it matches our vision.
       people who couldn't join breakout rooms.  In the future, it
       could also serve a different type of learning style.
 
-Recommendations:
+### Recommendations
 - Consider the place of the workshop in the larger world.  Once you go
   big, streaming is not too hard and lets you reach even more people.
 - If you do streaming, clearly announce it from the very start, with
@@ -565,7 +565,7 @@ Recommendations:
       existing learner who wants to review something they already saw,
       teach others, etc.
 
-Recommendations:
+### Recommendations
 - Also clearly announce the recording privacy statement when first
   registering
 - Try to make the recording as one-shot as possible, with the lest
