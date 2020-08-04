@@ -61,7 +61,7 @@ regardless of location and physical limitations.
 
 ## Organization
 
-- Pre-workshop install help times
+- Pre-workshop install help times:
     - Emphasis on getting ready and making sure things are installed
       and configured.
     - We "required" everyone to attend one pre-workshop installation
@@ -76,7 +76,7 @@ regardless of location and physical limitations.
 - Installation instructions consist not just of installation, but also
   verification instructions.
     - In particular, verifying of the git configuration, since if
-      stuff goes wrong it very quickly derails things.
+      there are any issues, it very quickly derails things.
 - We created installation and verification videos for the most
   critical part, git [youtube
   playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACyKCfHnPwRruOxllNoHsEg):
@@ -341,7 +341,7 @@ Special expert helpers:
   follow.  Be strategic: if an answer isn't needed for following the
   course, say so (and if you want, come back and answer later).
   Answer the minimum to let someone follow the course, and inspire
-  people to research themselves later.  Several short bullet points
+  people to research themselves later. Several short bullet points
   progressively going into more depth makes for fast reading but also
   more inspiration.  For example this point, it's a bit long and
   intimidating to read, which makes you lose the flow of whatever else
@@ -355,8 +355,8 @@ Special expert helpers:
     - When the document grew too long: we moved some of the text from
       previous episodes to a side-HackMD and linked to it.
     - The failure mode was usually not being able to edit.
-    - But, there are no strict limits.  With short documents, even 100
-      or more people could use it.  Perhaps this is determined by
+    - In theory, there are no strict limits. With short documents, even 100
+      or more people could use it. Perhaps this is determined by
       length of edit history.
     - We even saw Google Docs fail with 50 simultaneous editors during
       an icebreaker (and our icebreakers with hackmd seemed to work
