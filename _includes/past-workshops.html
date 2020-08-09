@@ -57,9 +57,12 @@
           {% elsif event.permalink %}
             <li><a href="{{ event.permalink }}" target="_blank">
               {% if event.type %}
-                {{ event.city }} {{ event.type}}, {{ event.dates }} ({{ event.participants }} participants)
+                {{ event.city }} {{ event.type}}, {{ event.dates }}
               {% else %}
                 {{ event.city }}, {{ event.dates }}
+              {% endif %}
+              {% if event.participants %}
+                ({{ event.participants }} participants)
               {% endif %}
             </a></li>
           {% else %}
