@@ -138,6 +138,7 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Articles about CodeRefinery
 
+- "Better Science Through Better Software", <https://neic.no/news/2020/06/29/better-science-through-better-software/>
 - "A FAIRer future", [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
 - "Bättre datahantering gör forskning mer reproducerbar", [article in the Curie newsletter](https://www.tidningencurie.se/nyheter/2019/04/23/battre-datahantering-gor-forskning-mer-reproducerbar/) from the Swedish Research Council
 - *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580) and [Titan.uio.no blog post](https://titan.uio.no/node/3162)
