@@ -47,6 +47,8 @@ links:
     text: Society of Research Software Engineering
   - url: http://www.researchsoft.org/
     text: Research Software Alliance
+  - url: https://missing.csail.mit.edu/
+    text: The Missing Semester of Your CS Education
 ---
 
 
