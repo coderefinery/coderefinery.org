@@ -10,17 +10,17 @@ main:
 widget1:
   title: "Training opportunities"
   url: '/workshops/about/'
-  image: /assets/img/CR_workshop_RDV.png
+  image: /assets/img/classroom.png
   text: 'We offer training opportunities to researchers from Nordic research groups and projects to learn basic-to-advanced research computing skills and become confident in using state-of-the-art tools and practices from modern collaborative software engineering.'
 widget2:
   title: "Lesson materials"
   url: '/lessons'
-  image: /assets/img/training_CR.png
+  image: /assets/img/wordcloud.png
   text: 'We develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.'
 widget3:
   title: "Code Repository Hosting"
   url: '/repository'
-  image: /assets/img/shahadat-rahman-O2MdroNurVw-unsplash.png
+  image: /assets/img/terminal.png
   text: 'Our code repository hosting service is open and free for all researchers based in Nordic universities and research institutes. Please contact us if you would like to use these services.'
 permalink: /
 ---

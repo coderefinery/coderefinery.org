@@ -16,7 +16,7 @@ main:
         <p>Are you interested in becoming an instructor yourself? Join us for an
         instructor training workshop!</p>
 
-  image: /assets/img/CR_workshop_RDV.png
+  image: /assets/img/classroom.png
 
 widget1:
   title: "CodeRefinery workshops"
