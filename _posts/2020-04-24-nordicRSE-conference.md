@@ -32,7 +32,7 @@ December 2020**!
 
 
 ### About the conference
-    
+
 At Nordic-RSE2020, we will bring together those that develop software
 for research purposes and contribute to building the RSE
 community. The program is not set in stone but we will have invited
@@ -48,7 +48,7 @@ for Nordic-RSE2020, the THS student union building at KTH campus in
 Stockholm, reflects our hopes: it has lots of spaces for casual
 conversations and is equipped with fast internet and all the
 facilities required for a successful conference.
-     
+
 ### Who should attend?
 
 Our aim is to reflect the diverse and emerging community of RSEs by
@@ -71,7 +71,7 @@ We welcome participation from:
 
 We especially encourage first-time presenters and can offer mentoring
 and other support with preparing your contribution.
-   
+
 
 ### Getting involved
 

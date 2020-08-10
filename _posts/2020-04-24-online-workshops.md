@@ -20,8 +20,8 @@ workshop covering only the
 group of around 25 participants on April 7-8. Neither teaching nor
 attending online workshops offers quite the same experience as
 attending in-person events, but we were pleasantly surprised about how
-well the workshop went and it definitely gave a boost to our ambitions 
-to move more of our traditional workshops online. Online workshops will 
+well the workshop went and it definitely gave a boost to our ambitions
+to move more of our traditional workshops online. Online workshops will
 also provide a means for us to *scale up* and reach a larger audience
 than possible with in-person workshops.
 
@@ -37,14 +37,14 @@ with some of their teaching.
 We expect to be delivering many more online workshops also after
 covid-19 restrictions are lifted and life starts returning to
 normal. We realized that this means that our old notify-me form has
-become obsolete - it is no longer enough to only indicate the 
+become obsolete - it is no longer enough to only indicate the
 city in which you want to attend a workshop. So we created a [new more
 fine-grained notify-me
 form](https://coderefinery.org/workshops/upcoming/#notify-me) where
 people can sign up for updates about upcoming online and/or in-person
 workshops and also indicate which lessons they are most interested
 in. If you want to be informed of upcoming workshops, please sign
-up. 
+up.
 
 
 
@@ -67,7 +67,7 @@ form](https://coderefinery.org/workshops/upcoming/#notify-me). Remember
 also that there is no better way to consolidate new knowledge than
 teaching it to others!
 
-  
+
 ### Bring your own breakout room/helper
 
 With online courses over video we could in principle aim at reaching a

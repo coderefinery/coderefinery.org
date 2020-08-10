@@ -34,7 +34,7 @@ The result will look like this.
 
 ![First rebase tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_02.png "git commit tree
 after rebase"){:class="img-responsive" style="max-width:100%"}
- 
+
 Checking out `master` again, we can merge `feature_A` with `master`. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow. The disadvantage is that we rewrite the history as the commit hashes changes.
 
 ![FF-merge tree]({{_site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_03.png "git commit tree after fast-forward merge"){:class="img-responsive" style="max-width:100%"}
@@ -96,6 +96,6 @@ The git graph will now look like this:
 ![No-ff merge plus rebase]({{ site.baseurl }}/assets/img/blogs/rebase_vs_merge/image_08.png "git commit tree with a merged feature branch and a rebased patch branch"){:class="img-responsive" style="max-width:100%"}
 
 ### Rebase vs merge revisited
-Rebase and merge serve two different purposes. We can use this to our advantage to create a clear story, a more readable git log (It is important to create a story, remember?). By using the above principles as guidance, we will become more conscious of where these operations will serve us or add more clutter. For instance, we might conclude that rebasing semantic branches, but insisting on a merge commit, is perfectly fine, because it is where the feature (the semantic entity) enters the `master` branch which is important, not where the development first started. Features will clearly stand out as a visible pattern in a git repository following such a practice. 
+Rebase and merge serve two different purposes. We can use this to our advantage to create a clear story, a more readable git log (It is important to create a story, remember?). By using the above principles as guidance, we will become more conscious of where these operations will serve us or add more clutter. For instance, we might conclude that rebasing semantic branches, but insisting on a merge commit, is perfectly fine, because it is where the feature (the semantic entity) enters the `master` branch which is important, not where the development first started. Features will clearly stand out as a visible pattern in a git repository following such a practice.
 
 [[1] Getting Solid at Merge vs Rebase](https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa)
