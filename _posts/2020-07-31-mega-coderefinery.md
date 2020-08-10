@@ -123,8 +123,8 @@ regardless of location and physical limitations.
       workshop.
 - Allow registration as part of teams.
     - Research shows that multiple adopters in an organization greatly
-      increases uptake of new tools (I don't have a citation... does
-      someone?).  Encourage people to come with friends or groupmates.
+      increases uptake of new tools [citation needed].
+      Encourage people to come with friends or groupmates.
     - This is implemented as a "Team name" option when registering.
 - Bring your own breakout room
     - To further improve things, imagine if a whole group wants to get
@@ -564,11 +564,11 @@ it's a question of if it matches our vision.
       material from scratch, they are probably very useful to an
       existing learner who wants to review something they already saw,
       teach others, etc.
-	- When we can't provide them quickly, their usefulness is much
-      less.
+    - When we can't provide them quickly, their usefulness is much
+      reduced.
 
 ### Recommendations
-- Also clearly announce the recording privacy statement when first
+- Clearly announce the recording privacy statement when first
   registering.
 - Try to make the recording as one-shot as possible, with minimal
   post-processing needed.  Plan for who will do this and when already
