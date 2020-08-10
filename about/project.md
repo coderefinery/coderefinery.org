@@ -152,7 +152,7 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Presentations
 
-- [Lightning talk at CarpentryConnect 2020, (Sabry Razick)](https://2020.carpentrycon.org/schedule/) - 
+- [Lightning talk at CarpentryConnect 2020, (Sabry Razick)](https://2020.carpentrycon.org/schedule/) -
   [Carpentries next level - CodeRefinery model](https://sabryr.github.io/HPC-Carpentry-talk/)
 - [Lightning talk at CarpentryConnect 2019, Manchester (Radovan Bast)](https://software.ac.uk/ccmcr19/programme/posters-lightning-talks)
 - ["Coding like it's 1969", Toulouse, April 2019 (Radovan Bast)](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-coding-like-1969/master/talk.md/)
@@ -187,3 +187,11 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 
 
 ## Links to project reports
+
+- [Project directive (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/5/5a/Collaborative_Infrastructure_for_Scientific_Software_Project_directive.doc)
+- [Collaboration agreement (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/6/6e/150904-Collaborative_Infrastructure_for_Scientific_Software_Collaboration_Agreement.pdf)
+- [Project plan (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/d/d0/CodeRefinery-project-plan-v1.0.pdf)
+- [Report (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/b/be/CodeRefinery-phase1-report.pdf)
+- [Project directive (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/46/Coderefinery-project-directive-phase-2.pdf)
+- [Collaboration agreement (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/42/180926Collaboration_Agreement_for_CodeRefinery2_clean.pdf)
+- [Project plan (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/3/34/CodeRefinery-phase-2-project-plan-v1.1.pdf)
