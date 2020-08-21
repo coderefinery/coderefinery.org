@@ -68,8 +68,7 @@ regardless of location and physical limitations.
       time, even if they thought they had already done it (in this
       case, we quickly verified the instllation).  In practice, we
       didn't check this requirement and only 25-50% of people came,
-      but it still make the workshop more smooth.  ~~If someone was
-      already installed, we~~
+      but it still make the workshop more smooth.  
     - The installation verification time occurred right after the
       "helper introduction meeting", so helpers would stay and help
       people verify their installation.
