@@ -127,7 +127,7 @@ Our recruitment/sign-up strategy was twofold.
 - First we had a general call for helpers to assign a breakout room with individual learners.
 - Our plan was to allocate one helper for 5 learnes accepted approx. (the number of helpers) * 5 of individual leraner sign-ups.
 - We tried to sort these learners by university/country/field, but didn't put too much effort into this.    
-- Helpers and leaners were told which team they will be in before the workshop.
+- Helpers and learners were told which team they will be in before the workshop (personalized email with breakout room number).
 - In general, we tried to keep consistency in member composition in a breakout room throughout the whole workshop; with the same learnes and the same helper, as much as possible. 
     - For a long workshop like this one (6 half-days), getting to know each other seemed to result in more interaction by the end.
     - Random assignments might work better in a smaller workshop, where you are likely to see the same people you know.  That isn't the case in a large workshop, so consistent breakout rooms are more worth it.
