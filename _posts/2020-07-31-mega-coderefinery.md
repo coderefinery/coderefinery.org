@@ -7,8 +7,8 @@ permalink: /blog/2020/07/31/mega-coderefinery/
 
 In May/June 2020, CodeRefinery ran a large online workshop with about
 100 learners in attendance.  We overcame the challenges with some
-clever strategies, and we feel the learning outcomes were to that of
-an online or in-person workshop of similar size.
+clever strategies, and we feel the learning outcomes were similar to that of
+an online or in-person workshop of 20-30 participants.
 
 After that workshop, some of the same staff held an even larger
 "High-performance computing (HPC) Kickstart" workshop (180 learners,
