@@ -2,7 +2,6 @@
 layout: master
 include: content
 title: "Report from the Mega-Coderefinery workshop"
-authors: 
 permalink: /blog/2020/07/31/mega-coderefinery/
 ---
 
@@ -125,7 +124,7 @@ regardless of location and physical limitations.
       workshop.
 - Allow registration as part of teams.
     - Research shows that multiple adopters in an organization greatly
-      increases uptake of new tools [Graf-Vlachy, L., Buhtz, K. & König, 2018](https://doi.org/10.1007/s11301-017-0133-3).
+      increases uptake of new tools ([Graf-Vlachy, L., Buhtz, K. & König, 2018](https://doi.org/10.1007/s11301-017-0133-3)).
       Encourage people to come with friends or groupmates.
     - This is implemented as a "Team name" option when registering.
 - Bring your own breakout room
