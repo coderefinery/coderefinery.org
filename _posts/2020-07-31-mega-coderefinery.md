@@ -87,6 +87,10 @@ regardless of location and physical limitations.
   early (on time is late).  Have some sort of
   icebreakers/discussion/program to fill that 10 minutes to keep
   people interested.
+- We kept the Zoom meeting room open for 30 min to 1 hour after the scheduled lessons are over on that day.
+  - This enabled continuation of exercises in re-opening breakout rooms.
+  - Some participants could receive individual help by a helper or an expert helper.
+  - In the main room, we did debriefing among instructors and helpers so that we could reflect on the day after. 
 - The larger the audience gets, the more diverse it is.
     - This causes more load on helpers and more effort for organizers
       to prepare.
@@ -114,59 +118,34 @@ regardless of location and physical limitations.
 
 ## Teams
 
-- We allowed learners to register as **teams**, where each team
-  brought its own helper: "bring your own breakout room".
-- In general, a "team" was a group of people kept in a consistent
-  breakout room throughout the whole workshop.
-    - If you didn't register as part of a team, you would be assigned
-      one, and that would also be consistent throughout the whole
-      workshop.
-- Allow registration as part of teams.
-    - Research shows that multiple adopters in an organization greatly
-      increases uptake of new tools ([Graf-Vlachy, L., Buhtz, K. & König, 2018](https://doi.org/10.1007/s11301-017-0133-3)).
-      Encourage people to come with friends or groupmates.
+Our recruitment/sign-up strategy was twofold.
+1. Open call for helpers and sign-up for individual learners.
+2. “Bring your own breakout room”:  We allowed learners to register as **teams**, where each team brought its own helper.
+
+### Open call for helpers and sign-up for individual learners.
+- First we had a general call for helpers to assign a breakout room with individual learners.
+- Our plan was to allocate one helper for 5 learnes accepted approx. (the number of helpers) * 5 of individual leraner sign-ups.
+- We tried to sort these learners by university/country/field, but didn't put too much effort into this.    
+- Helpers and learners were told which team they will be in before the workshop (personalized email with breakout room number).
+- In general, we tried to keep consistency in member composition in a breakout room throughout the whole workshop; with the same learnes and the same helper, as much as possible. 
+    - For a long workshop like this one (6 half-days), getting to know each other seemed to result in more interaction by the end.
+    - Random assignments might work better in a smaller workshop, where you are likely to see the same people you know.  That isn't the case in a large workshop, so consistent breakout rooms are more worth it.
+    - It took a session or two for people to get comfortable with their room, but once they did it went well.
+
+### "Bring your own breakout room"
+- To further improve things, imagine if a whole group wants to get trained?  They can register and bring their own helper, who could be an advanced group member.
+- Research shows that multiple adopters in an organization greatly increases uptake of new tools ([Graf-Vlachy, L., Buhtz, K. & König, 2018](https://doi.org/10.1007/s11301-017-0133-3)). Encourage people to come with friends or groupmates.
+- How it worked:
     - This is implemented as a "Team name" option when registering.
-- Bring your own breakout room
-    - To further improve things, imagine if a whole group wants to get
-      trained?  They can register and bring their own helper, who
-      could be an advanced group member.
     - They are put in their own breakout room together.
-    - Because they bring their own helper, we can scale to essentially
-      as many learners as we want.  Because these learners have a
-      pre-existing social connection, they are able to keep a sense of
-      community and help each other much better than you might expect
-      from a course of this size.
-    - We have observed that some team breakout rooms were discussing
-      examples close to their research domain which would otherwise
-      have been difficult to do in a "random" group room or the main
-      room.
-- If someone registers as a team but without a helper, they are put in
-  the general queue and we accept them if we have space.
-    - We had a general call for helpers, which we used for teamless
-      learners
-    - We tried to sort teamless learners by university/country/field,
-      but didn't put too much effort into this.
-    - So, our total capicity was SUM(number of people in a team;
-      number of teams) + (number of helpers)*6: every teamless helper
-      directly allowed five other learners to attend.
-- "Bring your own breakout room" allowed us to reach far more people
-  than we could normally, and allowed anyone who could find their own
-  helper to attend.
-- Is it better to randomly mix people for every breakout session or to
-  keep them consistent?
-    - For a long workshop, getting to know each other seemed to result
-      in more interaction by the end.
-    - Random assignments might work better in a smaller workshop,
-      where you are likely to see the same people you know.  That
-      isn't the case in a large workshop, so consistent breakout rooms
-      are more worth it.
-    - It took a session or two for people to get comfortable with
-      their room, but once they did it went well.
+- Advantages:
+    - **Scalability**: Because they bring their own helper, we can scale to essentially as many learners as we want.This mechanism allowed us to reach far more people than we could normally, and allowed anyone who could find their own helper to attend. So, our workshop size became SUM(number of people in a team; number of teams) + (number of helpers)*6: every teamless helper directly allowed five other learners to attend. 
+    - **Team building**: Because these learners have a pre-existing social connection, they are able to keep a sense of community and help each other much better than you might expect from a course of this size.
+    - **Possibility to use familiar examples**: We have observed that some team breakout rooms were discussing examples close to their research domain which would otherwise have been difficult to do in a "random" group room or the main room.
 - The concept of teams could be extended to in-person workshops, too.
-    - Not necessarily pre-assigned, but cleverly organize tables,
-      expect the group to stay together all days.
-    - One could give the teams names and so on, to increase team
-      spirit.
+    - Not necessarily pre-assigned, but cleverly organize tables, expect the group to stay together all days.
+    - One could give the teams names and so on, to increase team spirit.
+      
 
 ### Recommendations
 - Accept a "team name" as part of registration.  These people will be
@@ -405,19 +384,19 @@ Special expert helpers:
   Zoom can make it easy enough:
     - The "pre-assign breakout rooms" seems to only work within one
       organization, thus was useless to us
-    - When people name themselves according to the `(1) Firstname
+    - When people name themselves according to the `(n) Firstname
       Lastname` system, people sort properly and it becomes very fast
       to assign hundreds of people to their rooms.
-- Edit profile beforehand and log into zoom when they join in the
-  meeting room so that the name is properly shown and the zoom host
+- Ask participants to edit profile beforehand and log into zoom when they join in the
+  meeting room. This shows the name properly upon entry and thus the zoom host
   can confirm that the name is found in the registration list.
-    - But it can be a lot of work verifying people against a
-      registration list, with a private link it didn't seem to be that
-      important.  Plus Zoom's waiting room function seemed to
-      interfere with breakout rooms.
+    - This is important when you approve entry to the meeting room from the waiting room. 
+    - Enabling or disabling waiting room is another discussion: For the host, it can be a lot of work verifying people against a
+      registration list. Plus, we experienced some problems that waiting room interfered breakout room entry (see the point at the bottom of this section). With a private link, waiting room didn't seem to be that
+      important.  
 - Prepare another communication channel dedicated to staff (like
   expert helpers and those who could help with HackMD editing), in our
-  case we used the Zulip channel.
+  case we used a dedicated topic in [CodeRefinery Zulip channel](https://coderefinery.zulipchat.com/).
     - Zoom chat is sometimes tricky, as it allows communication with
       either all to the same room (in the main room or breakout room,
       wherever you are, and as a host to all in waiting room) or to an
@@ -428,17 +407,18 @@ Special expert helpers:
   exercises, they can join twice, one of those times for sharing their
   screen (second one also be web browser client).
 - We saw some interesting Zoom problems:
-    - Even after opening breakout rooms, people can join in the
-      meeting room, and the host could assign the new people into one
-      of the breakout rooms. The problem we experienced in the first
-      couple of days was that after assigning a participant into one
+    - We experienced in the first
+      couple of days that after assigning a participant into one
       of the breakout rooms, and then that participant leaves from the
       meeting room (not only breakout room), and tries to join in the
       meeting room again with waiting room enabled, then that
-      participant was kicked out from the meeting room. We don't still
-      understand the mechanism behind, but once we disabled the
+      participant was kicked out from the meeting room. 
+    - We don't still understand the mechanism behind, but once we disabled the
       waiting room function (right before opening breakout rooms until
       they are closed), it went totally fine.
+    - Even after opening breakout rooms, people can join in the
+      meeting room, and the host could assign the new people into one
+      of the breakout rooms. 
 
 ### Recommendations
 - Managing breakout rooms isn't too hard, but do practice.
@@ -506,7 +486,7 @@ it's a question of if it matches our vision.
     - This has to be enabled under your account, then can be
       configured for a particular meeting.
     - "Custom streaming server" seems to be able to broadcast to
-      anything.  In particular, we used Twitch to do our streaming.
+      anything.  In particular, we used [Twitch](https://www.twitch.tv/coderefinery) to do our streaming.
 
 - Keeping learner's videos out of the stream
     - Privacy of learners is the first prerequisite to streaming.
