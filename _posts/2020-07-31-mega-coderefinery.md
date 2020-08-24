@@ -2,7 +2,6 @@
 layout: master
 include: content
 title: "Report from the Mega-Coderefinery workshop"
-authors: ["Richard Darst", "Naoe Tatara"]
 permalink: /blog/2020/07/31/mega-coderefinery/
 ---
 
