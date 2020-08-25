@@ -6,7 +6,13 @@ main:
   title: "Training and e-Infrastructure for Research Software Development"
   image: /assets/img/logos/coderefinery.png
   url: /about
-  text: 'We are working with students, researchers, Research Software Engineers from all disciplines and national e-infrastructure partners to advance FAIRness of Software management and development practices so that research groups can collaboratively develop, review, discuss, test, share and reuse their codes.'
+  text: |
+    We are working with students, researchers, Research Software Engineers from all disciplines and national e-infrastructure partners to advance FAIRness of Software management and development practices so that research groups can collaboratively develop, review, discuss, test, share and reuse their codes.</p>
+
+    <p>We are also an open-source project developing the lesson materials
+    behind this.  They are generic, anyone may use them or join us in
+    developing them.
+
 widget1:
   title: "Training opportunities"
   url: '/workshops/about/'
