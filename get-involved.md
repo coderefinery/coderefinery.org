@@ -4,7 +4,12 @@ include: content
 title: Get involved
 ---
 
-CodeRefinery is always looking for both people and institutions that can promote the FAIRness of software managemeng and development practice. There are many ways that you can get involved.
+CodeRefinery consists of two parts: an **open source project**
+producing lesson material openly, and a **publically funded Nordic
+project** to give these workshops in the Nordics.  Anyone may join the
+open source project as equal partners to the Nordic project.
+
+CodeRefinery is always looking for both people and institutions that can promote the FAIRness of software managemeng and development practice. There are many ways that you can get involved.  You can check out our [manuals](https://coderefinery.github.io/manuals/), in particular the [about us](https://coderefinery.github.io/manuals/the-project/) and [contributing](https://coderefinery.github.io/manuals/contributing/) pages, for more about us.
 
 ### Become a workshop helper
 
@@ -13,18 +18,18 @@ would like to attend another one to refresh your memory and share your own
 knowledge? Or do you already have a solid background in research software
 engineering and would like to meet like-minded people in a friendly
 environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in
-touch](/get-involved/#contact-us) and let us know which workshop you would like to join. For more information about what a helper is supposed to do, please refer [Helper’s guide](https://github.com/coderefinery/manuals/blob/master/helping-and-teaching.md)
+touch](/get-involved/#contact-us) and let us know which workshop you would like to join. For more information about what a helper is supposed to do, please refer [Helper’s guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
 
 
 ### Become a CodeRefinery workshop instructor
 <!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
 
-You are welcome to self-organize a CodeRefinery workshop or join as an instructor in a workshop organized by others. Please watch out recruitment of instructors in #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.zulipchat.com).
+You are welcome to self-organize a CodeRefinery workshop or join as an instructor in a workshop organized by others. Please watch out recruitment of instructors in #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.github.io/manuals/chat/).
 
 Although at the moment there is no strict requirements to become a CodeRefinery instructor, we strongly encourage you to attend either a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/), CR instructor training, or (even better), both. Please
 [get in touch](mailto:support@coderefinery.org) if this sounds interesting.
 
-For more information about organizing a workshop, please refer to [CodeRefinery workshop administration guide](https://github.com/coderefinery/manuals/blob/master/workshop-administration.md).
+For more information about organizing a workshop, please refer to [CodeRefinery workshop administration guide](https://coderefinery.github.io/manuals/workshop-administration/).
 
 ### Become a Carpentries workshop instructor
 <!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
@@ -34,7 +39,7 @@ If you would like to become an instructor for Carpentries, you should begin by p
 [NeIC reserves 15 seats per year for Carpentries instructor training](https://neic.no/training). Please
 [get in touch](mailto:support@coderefinery.org) for more information if this sounds interesting.
 
-After taking the instructor training, you are welcome to self-organize a Carpentries workshop or join a workshop as an instructor when instructors are recruited via  #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.zulipchat.com).
+After taking the instructor training, you are welcome to self-organize a Carpentries workshop or join a workshop as an instructor when instructors are recruited via  #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.github.io/manuals/chat/).
 
 
 ### Contribute to teaching material
@@ -72,8 +77,7 @@ Please take a look at [training hubs page](https://coderefinery.org/about/hubs/)
 
 We use [Zulip](https://zulipchat.com) to discuss within our team and community.
 We discuss in the open and you can join us on
-[https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com): you
-can listen in, follow certain threads, participate, and influence.
+<https://coderefinery.zulipchat.com>: you can listen in, follow certain threads, participate, and influence. [Learn how it works](https://coderefinery.github.io/manuals/chat/).
 
 
 ### Support line
