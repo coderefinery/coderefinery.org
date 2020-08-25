@@ -35,22 +35,43 @@ community.
   - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/)
   - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
 
+### Teach our lessons
+
+All of our material is open source and collaboratively developed: you
+are free to teach it yourself if you would like, just make sure the
+distinction between the funded "CodeRefinery" project and your
+workshop is clear.  Our lessons are designed to be generic, so that
+anyone can use them.  If that isn't the case, help us make them so
+(see below).  Be aware that our lessons are developed in a very agile
+manner, so keep up to date with the latest changes.
+
+Please [let us know](/get-involved/#contact-us) - it is important for
+us to know whether this material has impact outside of our workshops.
+We also have some [manuals](https://coderefinery.github.io/manuals/)
+that provide hints on teaching our lessons.
+
+
+### Contribute to our lessons
+
+We would love that!  We are a normal open source project on Github,
+and you can contribute via issues, pull requests, or discussing via
+our [chat](https://coderefinery.github.io/manuals/chat/).  Our
+[collaborative Git
+lesson](https://coderefinery.github.io/git-collaborative/) and [Github
+without the command
+line](https://coderefinery.github.io/github-without-command-line/) are
+very relevant.
+
+If you have more questions or are unsure how to
+contribute, please [get in touch](/get-involved/#contact-us) or see
+our [our information on
+contributing](https://coderefinery.github.io/manuals/contributing/).
+
 
 ### License
 
 Lesson material is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (however note, some old ones may be CC BY-SA).
 Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
-You are free to use this material, but please [let us know](/get-involved/#contact-us) - it is
-important for us to know whether this material has impact outside of our
-workshops.
-
-
-### Wish to contribute to a lesson?
-
-We would love that! Contributions via the forking/pull-request workflow are most convenient. How to do
-this is covered in the [collaborative Git lesson](https://coderefinery.github.io/git-collaborative/), but
-please [contact us](/get-involved/#contact-us) if you are unsure how. We also welcome any other contributions or suggestions
-regarding our lessons, including suggestions for new lessons - [stay in touch!](/get-involved/)
 
 
 ## Recommended material created by other organizations/projects
