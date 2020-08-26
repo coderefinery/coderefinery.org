@@ -45,11 +45,9 @@ anyone can use them.  If that isn't the case, help us make them so
 (see below).  Be aware that our lessons are developed in a very agile
 manner, so keep up to date with the latest changes.
 
-Please [let us know](/get-involved/#contact-us) - it is important for
-us to know whether this material has impact outside of our workshops.
-We also have some [manuals](https://coderefinery.github.io/manuals/)
-that provide hints on teaching our lessons.
-
+See how to [get involved](/get-involved/) for more information, and
+please let us know if the material is helpful - it is important for us
+to know whether this material has impact outside of our workshops.
 
 ### Contribute to our lessons
 

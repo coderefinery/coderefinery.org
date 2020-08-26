@@ -21,30 +21,54 @@ environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in
 touch](/get-involved/#contact-us) and let us know which workshop you would like to join. For more information about what a helper is supposed to do, please refer [Helper’s guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
 
 
-### Become a CodeRefinery workshop instructor
+### Host a workshop
+
+If you are in the Nordics, you can invite us to give a workshop.  If
+not, let us know anyway but you can also teach this material yourself.
+If you need some structure for the workshops, we suggest that they are
+given under the [Carpentries organization
+framework](https://carpentries.org/) for workshops, but the format is
+up to you as long as you distinguish between your workshop and the
+funded "CodeRefinery" project.
+
+For more information about organizing a workshop, please refer to
+[CodeRefinery workshop administration
+guide](https://coderefinery.github.io/manuals/workshop-administration/),
+or [Carpentries workshop organization
+information](https://carpentries.org/workshops/).
+
+
+
+### Become an instructor
 <!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
 
-You are welcome to self-organize a CodeRefinery workshop or join as an instructor in a workshop organized by others. Please watch out recruitment of instructors in #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.github.io/manuals/chat/).
+We suggest that most instructors start with [Carpentries instructor
+training](https://carpentries.org/become-instructor/).  We have [instructor
+training](https://coderefinery.github.io/instructor-training/), but
+this mostly serves as a compliment focused on our lessons and more
+intermediate users.
 
-Although at the moment there is no strict requirements to become a CodeRefinery instructor, we strongly encourage you to attend either a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/), CR instructor training, or (even better), both. Please
-[get in touch](mailto:support@coderefinery.org) if this sounds interesting.
+CodeRefinery (via [NeIC](https://neic.no/training)), reserves 15 seats
+per year for Carpentries instructor training. Please [get in
+touch](mailto:support@coderefinery.org) for more information if this
+sounds interesting.
 
-For more information about organizing a workshop, please refer to [CodeRefinery workshop administration guide](https://coderefinery.github.io/manuals/workshop-administration/).
+After taking either instructor training, you are welcome to
+self-organize a Carpentries workshop or join a workshop as an
+instructor when instructors are recruited via #workshop stream of
+[CodeRefinery Zulip
+chat](https://coderefinery.github.io/manuals/chat/).
 
-### Become a Carpentries workshop instructor
-<!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
-
-If you would like to become an instructor for Carpentries, you should begin by participating in a 2-day [Carpentry instructor training event](https://carpentries.github.io/instructor-training/).
-<!--need to revise the URL -->
-[NeIC reserves 15 seats per year for Carpentries instructor training](https://neic.no/training). Please
-[get in touch](mailto:support@coderefinery.org) for more information if this sounds interesting.
-
-After taking the instructor training, you are welcome to self-organize a Carpentries workshop or join a workshop as an instructor when instructors are recruited via  #workshop stream of [CodeRefinery Zulip chat](https://coderefinery.github.io/manuals/chat/).
+With that being said, there are no strict requirements to working with
+us and learning "on the job": we help people organically grow from
+learner → helper → instructor.  So far, the best way to get involved is to
+join our chat and let us know when you see something you are
+interested in.
 
 
 ### Contribute to teaching material
 
-All our lessons are [on GitHub](https://github.com/coderefinery). Contributions
+All our [lessons](/lessons/) are [on GitHub](https://github.com/coderefinery). Contributions
 to the lesson material are highly welcome! The best way to contribute is via
 the forking-pull request workflow. See our lesson on [collaborative version
 control](https://coderefinery.github.io/git-collaborative/02-distributed/) for
@@ -77,13 +101,21 @@ Please take a look at [training hubs page](https://coderefinery.org/about/hubs/)
 
 We use [Zulip](https://zulipchat.com) to discuss within our team and community.
 We discuss in the open and you can join us on
-<https://coderefinery.zulipchat.com>: you can listen in, follow certain threads, participate, and influence. [Learn how it works](https://coderefinery.github.io/manuals/chat/).
+<https://coderefinery.zulipchat.com>: you can listen in, follow
+certain threads, participate, and influence. [Learn how it
+works](https://coderefinery.github.io/manuals/chat/).
 
 
 ### Support line
 
 To ask questions about workshops or services or to report issues:
 [support@coderefinery.org](mailto:support@coderefinery.org)
+
+
+### Newsletter
+
+On our front page, you can subscribe to the CodeRefinery newsletter,
+which will tell about different opportunities that come up.
 
 
 ### Twitter
