@@ -62,7 +62,8 @@ without the command
 line](https://coderefinery.github.io/github-without-command-line/) are
 very relevant.
 
-If you have more questions or are unsure how to
+If you are familiar with the Carpentries organization, we work
+basically the same.  If you have more questions or are unsure how to
 contribute, please [get in touch](/get-involved/#contact-us) or see
 our [our information on
 contributing](https://coderefinery.github.io/manuals/contributing/).

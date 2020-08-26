@@ -11,6 +11,12 @@ open source project as equal partners to the Nordic project.
 
 CodeRefinery is always looking for both people and institutions that can promote the FAIRness of software managemeng and development practice. There are many ways that you can get involved.  You can check out our [manuals](https://coderefinery.github.io/manuals/), in particular the [about us](https://coderefinery.github.io/manuals/the-project/) and [contributing](https://coderefinery.github.io/manuals/contributing/) pages, for more about us.
 
+We are in the same galaxy as the [Carpentries
+organization](https://carpentries.org/) and closely work with them. We
+run our workshops in a slightly different way, but our general
+philosophy, lesson material, and procedures are interchangeable. Our
+lessons should be considered Carpentries lessons.
+
 ### Become a workshop helper
 
 Have you already participated in a Carpentry or CodeRefinery workshop, but
