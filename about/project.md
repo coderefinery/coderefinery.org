@@ -152,7 +152,7 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Presentations
 
-- [Panel session at CarpentryCon 2020, (Naoe Tatara, Radovan Bast, Richard Darst, Anne Fouilloux, Petri Jehkonen, Matúš Kalaš, Samantha Wittke)](https://2020.carpentrycon.org/schedule/#session-32) - [Mega CodeRefinery online workshop - How to scale up online workshop to reach 100 learners?](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/carpentrycon-2020/master/slides.md/#1)
+- [Panel session at CarpentryCon 2020, (Naoe Tatara, Radovan Bast, Richard Darst, Anne Fouilloux, Petri Jehkonen, Matúš Kalaš, Samantha Wittke)](https://2020.carpentrycon.org/schedule/#session-32) - Mega CodeRefinery online workshop - How to scale up online workshop to reach 100 learners? [Presentation slides](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/carpentrycon-2020/master/slides.md/#1), [YouTube video of the session](https://www.youtube.com/watch?v=r-5RsQqNInY)
 - [Lightning talk at CarpentryCon 2020, (Sabry Razick)](https://2020.carpentrycon.org/schedule/) -
   [Carpentries next level - CodeRefinery model](https://sabryr.github.io/HPC-Carpentry-talk/)
 - [Lightning talk at CarpentryConnect 2019, Manchester (Radovan Bast)](https://software.ac.uk/ccmcr19/programme/posters-lightning-talks)
