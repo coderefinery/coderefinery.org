@@ -3,7 +3,7 @@ layout: master
 include: content
 permalink: /events/2020-10-02-openhouse/
 published_date: 2020-09-24
-city: Open house (work on blog posts)
+city: Online
 dates: October 2, 2020
 title: Come and join us for our online Open House
 ---
