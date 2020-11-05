@@ -1,5 +1,8 @@
 # Community Discussion in Nordic and Baltic countries (draft)
 
+[![hackmd-github-sync-badge](https://hackmd.io/arQ9y8XqTWSQ4JyajzOxFA/badge)](https://hackmd.io/arQ9y8XqTWSQ4JyajzOxFA)
+
+
 ###### tags: `blogpost` `workshop`
 
 > This blogpost draft is based on the notes made on [Carpentries Community Discussion Etherpad](https://pad.carpentries.org/community-discussions) on the 30th Oct. 2020. 
