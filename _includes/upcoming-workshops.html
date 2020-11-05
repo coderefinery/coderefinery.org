@@ -56,45 +56,7 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col alert alert-dismissible alert-danger">
-    <h3>Postponed workshops due to COVID-19</h3>
 
-    <p>
-      We had to postpone few workshops due to COVID-19. We have informed all
-      registrants and will post new dates as soon as possible. In parallel we are
-      <b>preparing for providing courses online</b> and will post dates soon.
-    </p>
-
-    <ul>
-      {% for event in site.workshops reversed %}
-        {% if event.postponed %}
-          {% if event.permalink %}
-            <li><a href="{{ event.permalink }}" target="_blank">{{ event.city }}, {{ event.dates }}</a></li>
-          {% else %}
-            <li>{{ event.city }}, {{ event.dates }}</li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      {% for event in site.events reversed %}
-        {% if event.postponed %}
-          {% if event.permalink %}
-            <li><a href="{{ event.permalink }}" target="_blank">
-                {% if event.type %}
-                {{ event.city }} {{ event.type }}, {{ event.dates }}
-                {% else %}
-                {{ event.city }}, {{ event.dates }}
-                {% endif %}
-            </a></li>
-          {% else %}
-            <li>{{ event.city }} {{ event.type }}, {{ event.dates }}</li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</div>
 
 <div class="row">
   <div class="col">

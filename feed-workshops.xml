@@ -15,26 +15,27 @@ layout: null
   <title type="html">CodeRefinery workshops</title>
   <subtitle>Training and e-Infrastructure for Research Software Development</subtitle>
 
-  {% assign workshops = site.workshops | where_exp: "post", "post.draft != true" | sort: "published_date" | reverse %}
-  {% for workshop in workshops limit: 30 %}
-    <entry{% if workshop.lang %}{{" "}}xml:lang="{{ workshop.lang }}"{% endif %}>
-      <title type="html">{{ workshop.city | append: ", " | append: workshop.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
-      <id>{{ workshop.id | absolute_url | xml_escape }}</id>
-      <updated>{{ workshop.last_modified_at | default: workshop.published_date | date_to_xmlschema }}</updated>
-      <link href="{{ workshop.url | absolute_url }}" rel="alternate" type="text/html" title="{{ workshop.city | xml_escape }}" />
-      <published>{{ workshop.published_date | date_to_xmlschema }}</published>
-      <content type="xhtml" xml:base="{{ workshop.url | absolute_url | xml_escape }}">
+  {% assign events = site.workshops | where_exp: "post", "post.draft != true" | sort: "published_date" | reverse %}
+  {% for event in events limit: 30 %}
+    <entry{% if event.lang %}{{" "}}xml:lang="{{ event.lang }}"{% endif %}>
+      <title type="html">{{ event.city | append: ", " | append: event.dates | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
+      <id>{{ event.url | absolute_url | xml_escape }}</id>
+      <author><name>CodeRefinery team</name></author>
+      <updated>{{ event.last_modified_at | default: event.published_date | date_to_xmlschema }}</updated>
+      <link href="{{ event.url | absolute_url }}" rel="alternate" type="text/html" title="{{ event.city | xml_escape }}" />
+      <published>{{ event.published_date | date_to_xmlschema }}</published>
+      <content type="xhtml" xml:base="{{ event.url | absolute_url | xml_escape }}">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          {% if workshop.location and workshop.location != empty %}
-            {{ workshop.location | strip_html | normalize_whitespace }}<br />
+          {% if event.location and event.location != empty %}
+            {{ event.location | strip_html | normalize_whitespace }}<br />
           {% endif %}
-          {% if workshop.instructors and workshop.instructors != empty %}
-            Course instructors: {{ workshop.instructors | array_to_sentence_string | normalize_whitespace }}<br />
+          {% if event.instructors and event.instructors != empty %}
+            Instructors: {{ event.instructors | array_to_sentence_string | normalize_whitespace }}<br />
           {% endif %}
-          {% if workshop.helpers and workshop.helpers != empty %}
-            Course helpers: {{ workshop.helpers | array_to_sentence_string | normalize_whitespace }}
+          {% if event.helpers and event.helpers != empty %}
+            Course helpers: {{ event.helpers | array_to_sentence_string | normalize_whitespace }}
           {% endif %}
-          <p /><a href="{{ workshop.url | absolute_url | xml_escape }}">Read more about this workshop on CodeRefinery.org</a>
+          <a href="{{ event.url | absolute_url | xml_escape }}">Read more about this event on CodeRefinery.org</a>
         </div>
       </content>
     </entry>

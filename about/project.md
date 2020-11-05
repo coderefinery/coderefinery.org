@@ -65,10 +65,20 @@ highly recommend attending a [Software Carpentry workshop](https://software-carp
 The key objective of CodeRefinery workshop is to grow researchers' software
 best practices skills to facilitate open and reproducible research.
 
+#### In-person workshops
+
 We offer **three-day workshops** that focus on methods to build
 modular, reusable, maintainable, sustainable, reproducible, testable, and
 robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
+
+#### Online workshops
+
+Since April 2020, we also offer **online workshops**. Each online
+workshop focuses on one lesson from our [training material](/lessons/)
+and takes place during one or two 3-hour sessions in an online meeting
+room.
+
 
 #### Requesting a workshop
 
@@ -128,6 +138,7 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Articles about CodeRefinery
 
+- "Better Science Through Better Software", <https://neic.no/news/2020/06/29/better-science-through-better-software/>
 - "A FAIRer future", [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
 - "Bättre datahantering gör forskning mer reproducerbar", [article in the Curie newsletter](https://www.tidningencurie.se/nyheter/2019/04/23/battre-datahantering-gor-forskning-mer-reproducerbar/) from the Swedish Research Council
 - *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580) and [Titan.uio.no blog post](https://titan.uio.no/node/3162)
@@ -141,6 +152,9 @@ hesitate to [get in touch](/get-involved/)!
 
 ## Presentations
 
+- [Panel session at CarpentryCon 2020, (Naoe Tatara, Radovan Bast, Richard Darst, Anne Fouilloux, Petri Jehkonen, Matúš Kalaš, Samantha Wittke)](https://2020.carpentrycon.org/schedule/#session-32) - Mega CodeRefinery online workshop - How to scale up online workshop to reach 100 learners? [Presentation slides](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/carpentrycon-2020/master/slides.md/#1), [YouTube video of the session](https://www.youtube.com/watch?v=r-5RsQqNInY)
+- [Lightning talk at CarpentryCon 2020, (Sabry Razick)](https://2020.carpentrycon.org/schedule/) -
+  [Carpentries next level - CodeRefinery model](https://sabryr.github.io/HPC-Carpentry-talk/)
 - [Lightning talk at CarpentryConnect 2019, Manchester (Radovan Bast)](https://software.ac.uk/ccmcr19/programme/posters-lightning-talks)
 - ["Coding like it's 1969", Toulouse, April 2019 (Radovan Bast)](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-coding-like-1969/master/talk.md/)
 - [Albanova seminar, Stockholm, April 2019 (Thor Wikfeldt)](http://cicero.xyz/v2/remark/github/wikfeldt/longtalk-coderefinery/master/talk.md/)
@@ -174,3 +188,11 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 
 
 ## Links to project reports
+
+- [Project directive (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/5/5a/Collaborative_Infrastructure_for_Scientific_Software_Project_directive.doc)
+- [Collaboration agreement (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/6/6e/150904-Collaborative_Infrastructure_for_Scientific_Software_Collaboration_Agreement.pdf)
+- [Project plan (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/d/d0/CodeRefinery-project-plan-v1.0.pdf)
+- [Report (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/b/be/CodeRefinery-phase1-report.pdf)
+- [Project directive (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/46/Coderefinery-project-directive-phase-2.pdf)
+- [Collaboration agreement (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/42/180926Collaboration_Agreement_for_CodeRefinery2_clean.pdf)
+- [Project plan (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/3/34/CodeRefinery-phase-2-project-plan-v1.1.pdf)

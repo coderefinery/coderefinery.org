@@ -7,7 +7,7 @@
 <div class="row top-buffer">
 
   <div class="col-md-6">
-    <h3>Past 3-day workshops</h3>
+    <h3>Past standard CodeRefinery workshops</h3>
     <ul>
       {% for event in site.workshops reversed %}
         {% unless event.postponed %}
@@ -57,9 +57,12 @@
           {% elsif event.permalink %}
             <li><a href="{{ event.permalink }}" target="_blank">
               {% if event.type %}
-                {{ event.city }} {{ event.type}}, {{ event.dates }} ({{ event.participants }} participants)
+                {{ event.city }} {{ event.type}}, {{ event.dates }}
               {% else %}
                 {{ event.city }}, {{ event.dates }}
+              {% endif %}
+              {% if event.participants %}
+                ({{ event.participants }} participants)
               {% endif %}
             </a></li>
           {% else %}

@@ -12,9 +12,11 @@ community.
 
 - For yourself and larger:
   - [Introduction to version control](https://coderefinery.github.io/git-intro/)
+  - [Collaborating and sharing using GitHub without command line](https://coderefinery.github.io/github-without-command-line/)
   - [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
   - [Automated testing](https://coderefinery.github.io/testing/)
   - [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
+  - [Modular code development type-along](https://github.com/coderefinery/modular-type-along)
 
 - For your group and larger:
   - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
@@ -30,24 +32,45 @@ community.
   - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
   - [Integrated development environments](https://coderefinery.github.io/IDEs/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
-  - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://github.com/coderefinery/manuals)
+  - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/)
+  - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
+
+### Teach our lessons
+
+All of our material is open source and collaboratively developed: you
+are free to teach it yourself if you would like, just make sure the
+distinction between the funded "CodeRefinery" project and your
+workshop is clear.  Our lessons are designed to be generic, so that
+anyone can use them.  If that isn't the case, help us make them so
+(see below).  Be aware that our lessons are developed in a very agile
+manner, so keep up to date with the latest changes.
+
+See how to [get involved](/get-involved/) for more information, and
+please let us know if the material is helpful - it is important for us
+to know whether this material has impact outside of our workshops.
+
+### Contribute to our lessons
+
+We would love that!  We are a normal open source project on Github,
+and you can contribute via issues, pull requests, or discussing via
+our [chat](https://coderefinery.github.io/manuals/chat/).  Our
+[collaborative Git
+lesson](https://coderefinery.github.io/git-collaborative/) and [Github
+without the command
+line](https://coderefinery.github.io/github-without-command-line/) are
+very relevant.
+
+If you are familiar with the Carpentries organization, we work
+basically the same.  If you have more questions or are unsure how to
+contribute, please [get in touch](/get-involved/#contact-us) or see
+our [our information on
+contributing](https://coderefinery.github.io/manuals/contributing/).
 
 
 ### License
 
 Lesson material is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (however note, some old ones may be CC BY-SA).
 Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
-You are free to use this material, but please [let us know](/get-involved/#contact-us) - it is
-important for us to know whether this material has impact outside of our
-workshops.
-
-
-### Wish to contribute to a lesson?
-
-We would love that! Contributions via the forking/pull-request workflow are most convenient. How to do
-this is covered in the [collaborative Git lesson](https://coderefinery.github.io/git-collaborative/), but
-please [contact us](/get-involved/#contact-us) if you are unsure how. We also welcome any other contributions or suggestions
-regarding our lessons, including suggestions for new lessons - [stay in touch!](/get-involved/)
 
 
 ## Recommended material created by other organizations/projects

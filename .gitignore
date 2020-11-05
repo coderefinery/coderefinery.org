@@ -7,3 +7,4 @@ _site/
 # emacs temporary files
 *~
 .jekyll-cache
+Gemfile.lock

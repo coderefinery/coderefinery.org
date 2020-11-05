@@ -5,4 +5,6 @@ links:
     text: Software Quality Checklist
   - url: http://molssi.org/education/best-practices/
     text: MolSSI best practice guide
+  - url: https://fair-software.eu
+    text: Five Recommendations For Fair Software
 ---
