@@ -1,11 +1,14 @@
-# Community Discussion in Nordic and Baltic countries (draft)
+---
+layout: master
+include: content
+title: "Community discussion in Nordic and Baltic countries"
+permalink: /blog/2020/11/13/carpentry-community-discussion-nordic/
+---
+# Community Discussion in Nordic and Baltic countries
 
-[![hackmd-github-sync-badge](https://hackmd.io/arQ9y8XqTWSQ4JyajzOxFA/badge)](https://hackmd.io/arQ9y8XqTWSQ4JyajzOxFA)
+*2020-11-13 - Naoe Tatara, Tobias Busch*
 
-
-###### tags: `blogpost` `workshop`
-
-> This blogpost draft is based on the notes made on [Carpentries Community Discussion Etherpad](https://pad.carpentries.org/community-discussions) on the 30th Oct. 2020. 
+This blogpost is based on the notes made on [Carpentries Community Discussion Etherpad](https://pad.carpentries.org/community-discussions) on the 30th Oct. 2020. 
 
 ## Summary
 
@@ -57,24 +60,25 @@ Experiences from two recently held online Carpentries workshops were shared and 
 
 - Nordic RSE (research software engineers) online get-together (Nov 30 - Dec 2): https://nordic-rse.org/events/2020-online-get-together/ (everybody welcome to attend and submit proposals or ideas)
 - Local-nordic Carpentries mailing list: https://carpentries.topicbox.com/groups/local-nordic
-- CodeRefinery workshop in November: https://coderefinery.github.io/2020-11-17-online/ (looking for helpers: great way to learn)
+- CodeRefinery workshop in November 17-19, 24-26 (registration closed): https://coderefinery.github.io/2020-11-17-online/ (looking for helpers: great way to learn)
 
 ## Participant list
 
-1. Naoe Tatara (co-host, Norway, Oslo)
-2. Kerstin Lenk (Finland, Tampere) 
-3. Lars Kjær (Denmark, Copenhagen)
-4. Tobias Busch (Norway, Oslo) 
-5. Lina Andrén (Sweden, Stockholm) 
-6. Mohamed Abdelhalim (Norway, Oslo) 
-7. Annajiat Alim Rasel (Bangladesh, Dhaka) 
-8. Joakim Philipson (Sweden, Stockholm) 
-9. Thomas Arildsen (Denmark, Aarborg)
-10. Radovan Bast(Norway, Tromsø)
-11. Samantha Wittke (Finland, Helsinki)
-12. Olav Vahtras (Sweden, Stockholm)
-13. Anne Fouilloux(Norway, Oslo) 
-14. Richard Darst (Finland, Helsinki)
+1. Annika Rockenberger (host, Norway, Oslo)
+2. Naoe Tatara (co-host, Norway, Oslo)
+3. Kerstin Lenk (Finland, Tampere) 
+4. Lars Kjær (Denmark, Copenhagen)
+5. Tobias Busch (Norway, Oslo) 
+6. Lina Andrén (Sweden, Stockholm) 
+7. Mohamed Abdelhalim (Norway, Oslo) 
+8. Annajiat Alim Rasel (Bangladesh, Dhaka) 
+9. Joakim Philipson (Sweden, Stockholm) 
+10. Thomas Arildsen (Denmark, Aarborg)
+11. Radovan Bast(Norway, Tromsø)
+12. Samantha Wittke (Finland, Helsinki)
+13. Olav Vahtras (Sweden, Stockholm)
+14. Anne Fouilloux(Norway, Oslo) 
+15. Richard Darst (Finland, Helsinki)
 
-
+Thank you for all the contributions!
 
