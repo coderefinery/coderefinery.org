@@ -4,9 +4,8 @@ include: content
 title: "Community discussion in Nordic and Baltic countries"
 permalink: /blog/2020/11/13/carpentry-community-discussion-nordic/
 ---
-# Community Discussion in Nordic and Baltic countries
 
-*2020-11-13 - Naoe Tatara, Tobias Busch*
+*2020-11-13 - Naoe Tatara*
 
 This blogpost is based on the notes made on [Carpentries Community Discussion Etherpad](https://pad.carpentries.org/community-discussions) on the 30th Oct. 2020. 
 
