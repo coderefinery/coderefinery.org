@@ -24,33 +24,4 @@ build_search_index = false
 [extra]
 # Put all your custom variables here
 
-navigation = [
-  { name = "Home", path = "/" },
-  # - section: 'About'
-  #   links:
-  #     - url: '/about/project/'
-  #       text: 'Project'
-  #     - url: '/about/who-we-are/'
-  #       text: 'Who we are'
-  #     - url: '/about/funding/'
-  #       text: 'Funding partners'
-  #     - url: '/about/hubs/'
-  #       text: 'Training hubs'
-  # - section: 'Workshops/events'
-  #   links:
-  #     - url: '/workshops/about/'
-  #       text: 'About our workshops'
-  #     - url: '/workshops/upcoming/'
-  #       text: 'Upcoming workshops/events'
-  #     - url: '/workshops/past/'
-  #       text: 'Past workshops/events'
-  #     - url: '/workshops/impact/'
-  #       text: 'Impact and testimonials'
-  { name = "Lessons", path = "/lessons/" },
-  { name = "Code repository hosting", path = "/repository/" },
-  { name = "Resources", path = "/resources/" },
-  { name = "Get involved", path = "/get-involved/" },
-  { name = "Funded by NeIC", path = "https://neic.no" },
-]
-
 twitter_image = "https://github.com/coderefinery/coderefinery.org/blob/gh-pages/assets/img/logos/coderefinery.png"
