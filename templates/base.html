@@ -8,7 +8,11 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>CodeRefinery</title>
+    {% if page.title %}
+      <title>CodeRefinery - {{ page.title }}</title>
+    {% else %}
+      <title>CodeRefinery</title>
+    {% endif %}
 
     {% if config.extra.twitter_image %}
       <meta name="twitter:card" content="summary" />
@@ -104,7 +108,15 @@
       </nav>
       <!-- end navigation -->
 
-      <div class="top-buffer">
+      {% if page.title %}
+        <div class="row top-buffer">
+          <div class="col">
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="top">
         {% block content %}
         {% endblock content %}
       </div>

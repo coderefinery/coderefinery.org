@@ -1,21 +1,26 @@
----
-layout: master
-include: content
-title: Get involved
----
++++
+title = "Get involved"
++++
 
-CodeRefinery consists of two parts: an **open source project**
-producing lesson material openly, and a **publically funded Nordic
-project** to give these workshops in the Nordics.  Anyone may join the
-open source project as equal partners to the Nordic project.
+CodeRefinery consists of two parts: an **open source project** producing lesson
+material openly, and a **publically funded Nordic project** to give these
+workshops in the Nordics.  Anyone may join the open source project as equal
+partners to the Nordic project.
 
-CodeRefinery is always looking for both people and institutions that can promote the FAIRness of software managemeng and development practice. There are many ways that you can get involved.  You can check out our [manuals](https://coderefinery.github.io/manuals/), in particular the [about us](https://coderefinery.github.io/manuals/the-project/) and [contributing](https://coderefinery.github.io/manuals/contributing/) pages, for more about us.
+CodeRefinery is always looking for both people and institutions that can
+promote the FAIRness of software managemeng and development practice. There are
+many ways that you can get involved.  You can check out our
+[manuals](https://coderefinery.github.io/manuals/), in particular the [about
+us](https://coderefinery.github.io/manuals/the-project/) and
+[contributing](https://coderefinery.github.io/manuals/contributing/) pages, for
+more about us.
 
 We are in the same galaxy as the [Carpentries
-organization](https://carpentries.org/) and closely work with them. We
-run our workshops in a slightly different way, but our general
-philosophy, lesson material, and procedures are interchangeable. Our
-lessons should be considered Carpentries lessons.
+organization](https://carpentries.org/) and closely work with them. We run our
+workshops in a slightly different way, but our general philosophy, lesson
+material, and procedures are interchangeable. Our lessons should be considered
+Carpentries lessons.
+
 
 ### Become a workshop helper
 
@@ -24,7 +29,10 @@ would like to attend another one to refresh your memory and share your own
 knowledge? Or do you already have a solid background in research software
 engineering and would like to meet like-minded people in a friendly
 environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in
-touch](/get-involved/#contact-us) and let us know which workshop you would like to join. For more information about what a helper is supposed to do, please refer [Helper’s guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
+touch](/get-involved/#contact-us) and let us know which workshop you would like
+to join. For more information about what a helper is supposed to do, please
+refer [Helper’s
+guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
 
 
 ### Host a workshop
@@ -44,9 +52,7 @@ or [Carpentries workshop organization
 information](https://carpentries.org/workshops/).
 
 
-
 ### Become an instructor
-<!--- I am quite unsure if this is OK enough. Especially the order of the paragraphs. Please modify to make it most reasonable--->
 
 We suggest that most instructors start with [Carpentries instructor
 training](https://carpentries.org/become-instructor/).  We have [instructor
@@ -84,11 +90,17 @@ channels.
 
 ### Reuse our material
 
-We very much encourage reusing our lessons and contributing changes: [github.com/coderefinery](https://github.com/coderefinery/)
+We very much encourage reusing our lessons and contributing changes:
+[github.com/coderefinery](https://github.com/coderefinery/)
 
-All [CodeRefinery training material](../lessons) is made available under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
+All [CodeRefinery training material](../lessons) is made available under the
+[Creative Commons Attribution
+license](https://creativecommons.org/licenses/by/4.0/).
 
-Except where otherwise noted, the example programs and other software provided by [CodeRefinery](https://github.com/coderefinery/) are made available under the [OSI](https://opensource.org/)-approved [MIT license](https://opensource.org/licenses/mit-license.html).
+Except where otherwise noted, the example programs and other software provided
+by [CodeRefinery](https://github.com/coderefinery/) are made available under
+the [OSI](https://opensource.org/)-approved [MIT
+license](https://opensource.org/licenses/mit-license.html).
 
 
 ### Become an institutional partner as a training hub
@@ -98,7 +110,8 @@ encouraging more partnerships to stay sustainable long-term.  In
 general, we image a reciprocal relationship for academic institutions:
 you help us run workshops, we give workshops at your institution.
 
-Please take a look at [training hubs page](https://coderefinery.org/about/hubs/) for more information.
+Please take a look at [training hubs
+page](https://coderefinery.org/about/hubs/) for more information.
 
 
 ## Contact us

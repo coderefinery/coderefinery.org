@@ -1,8 +1,9 @@
----
-layout: master
-include: content
-title: 'Code repository hosting for Nordic research software: <a href="https://source.coderefinery.org">source.coderefinery.org</a>'
----
++++
+title = "Code repository hosting for Nordic research software"
++++
+
+### <https://source.coderefinery.org>
+
 
 ## Scope
 
@@ -14,11 +15,15 @@ or storage service. In doubt please ask `support@coderefinery.org`.
 
 The service we provide is a GitLab instance which targets persons and groups who:
 
-- prefer to keep their code in a private repository until it gets published and prefer the corresponding data
-  to stay in the Nordics and remain under an academic governance
-- are careful to not share code or data with a for-profit company (not implying here that the company would use it without asking)
-- host their code on local hard drives and look for a better place to host and collaborate but prefer the code to remain private
-- run their own GitLab service or other repository hosting server but struggle to keep it up to date and backed up
+- prefer to keep their code in a private repository until it gets published and
+  prefer the corresponding data to stay in the Nordics and remain under an
+  academic governance
+- are careful to not share code or data with a for-profit company (not implying
+  here that the company would use it without asking)
+- host their code on local hard drives and look for a better place to host and
+  collaborate but prefer the code to remain private
+- run their own GitLab service or other repository hosting server but struggle
+  to keep it up to date and backed up
 - need one place to host public and private repositories
 
 [GitHub](https://github.com), [Bitbucket](https://bitbucket.org),

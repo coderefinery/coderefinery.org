@@ -1,8 +1,6 @@
----
-layout: master
-include: content
-title: Registration procedure
----
++++
+title = "Registration procedure"
++++
 
 ## Confirmation email
 

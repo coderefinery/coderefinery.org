@@ -91,7 +91,7 @@ accommodation can be covered.
 
 #### Information for local organizers
 
-We have prepared [a list of practical requirements](../../workshop-requirements).
+We have prepared [a list of practical requirements](https://coderefinery.github.io/manuals/workshop-requirements-inperson/).
 
 
 #### Level of CodeRefinery workshops

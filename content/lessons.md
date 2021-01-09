@@ -1,8 +1,6 @@
----
-layout: master
-include: content
-title: Lessons
----
++++
+title = "Lessons"
++++
 
 ## Our lessons
 
@@ -51,7 +49,6 @@ you can join and give contributions to:
   but focus on scripting.
 
 
-
 ### Teach our lessons
 
 All of our material is open source and collaboratively developed: you
@@ -65,6 +62,7 @@ manner, so keep up to date with the latest changes.
 See how to [get involved](/get-involved/) for more information, and
 please let us know if the material is helpful - it is important for us
 to know whether this material has impact outside of our workshops.
+
 
 ### Contribute to our lessons
 
