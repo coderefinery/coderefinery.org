@@ -36,6 +36,22 @@ community.
   - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/)
   - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
 
+Other lessons by the CodeRefinery community.  You can expect these to
+be open-source, reusable, in a git repository, and with a community
+you can join and give contributions to:
+
+- [Python for Scientific
+  Computing](https://aaltoscicomp.github.io/python-for-scicomp/), by
+  Aalto Scientific Computing, UiO, UiT, KTH.  Not a basic Python
+  course, but taking your from basic programming to the tools needed
+  for scientific computing.
+- [Linux shell
+  tutorial](https://scicomp.aalto.fi/training/linux-shell-tutorial/).
+  By Aalto Scientific Computing, level: intermediate, covers basics
+  but focus on scripting.
+
+
+
 ### Teach our lessons
 
 All of our material is open source and collaboratively developed: you
