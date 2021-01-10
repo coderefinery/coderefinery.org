@@ -55,7 +55,7 @@ img {
 
 img.mugshot {
   object-fit: cover;
-  height: 262.5px;
+  height: 260px;
 }
 
 .ctitle {

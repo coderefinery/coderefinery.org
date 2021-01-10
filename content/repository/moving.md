@@ -1,8 +1,6 @@
----
-layout: master
-include: content
-title: How to move your repository from another service to this service
----
++++
+title = "How to move your repository from another service to this service"
++++
 
 ## Example
 

@@ -1,8 +1,6 @@
----
-layout: master
-include: content
-title: 'The CodeRefinery project'
----
++++
+title = "The CodeRefinery project"
++++
 
 ## Objectives
 

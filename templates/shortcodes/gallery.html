@@ -1,0 +1,18 @@
+{% set data = load_data(path="content/about/people/people.toml") %}
+
+<div class="row centered top-buffer">
+  {% for person in data.people %}
+    <div class="col-lg-3 col-md-3 col-sm-3" style="padding-top: 10px">
+      {% if person.photo %}
+        <img src="{{ resize_image(path="about/people/" ~ person.photo, height=260, op="fit_height") | safe }}"
+             class="mugshot"
+             alt="{{ person.name }}'s photo">
+      {% else %}
+        <img src="https://placeholdit.imgix.net/~text?&txt=&w=350&h=150" alt="" class="mugshot">
+      {% endif %}
+      <h4 class="top-buffer">{{ person.name }}</h4>
+      <p class="ctitle">{{ person.organization }}</p>
+      <p><small>{{ person.text }}</small></p>
+    </div>
+  {% endfor %}
+</div>

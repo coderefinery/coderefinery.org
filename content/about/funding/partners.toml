@@ -1,0 +1,77 @@
+[[partners]]
+name = "CSC - IT Center for Science"
+website = "http://www.csc.fi"
+logo = "csc.png"
+text = """
+CSC - IT Center for Science Ltd. is a non-profit, state-owned company
+administered by the Ministry of Education and Culture of Finland. CSC maintains and
+develops the state-owned centralised IT infrastructure and uses it to provide
+nationwide IT services for research, libraries, archives, museums and culture
+as well as information, education and research management.
+"""
+
+[[partners]]
+name = "Danish e-Infrastructure Cooperation"
+website = "http://www.deic.dk"
+logo = "deic.png"
+text = """
+DeIC - Danish e-Infrastructure Cooperation was established on April 19, 2012,
+with the purpose to support Denmark as an e-Science nation through delivery of
+e-infrastructures (computing, storage and network) to research and
+researchbased teaching.  DeIC is established under the Ministry of Higher
+Education and Science by Act 70 of April 19, 2012. Organizationally, DeIC
+belongs to the Danish Agency for Science, Technology and Innovation and is not
+an independent legal entity.
+"""
+
+[[partners]]
+name = "Estonian Scientific Computing Infrastructure"
+website = "https://etais.ee"
+logo = "etais.png"
+text = """
+Estonian Scientific Computing Infrastructure (ETAIS) belongs to the Estonian
+roadmap of research infrastructures providing computing and storage resources
+for Estonian scientific community. ETAIS project is being carried out by a
+consortium of four institutions: University of Tartu, Tallinn University of
+Technology, National Institute of Chemical Physics and Biophysics and
+Information Technology Foundation for Education.
+"""
+
+[[partners]]
+name = "Nordic e-Infrastructure Collaboration"
+website = "https://neic.no"
+logo = "neic.png"
+text = """
+The Nordic e-Infrastructure Collaboration (NeIC) is an organisation that
+facilitates the development and operation of high-quality e-Infrastructure
+solutions in areas of joint Nordic interest. The NeIC is a distributed
+organisation consisting of technical experts from academic high-performance
+computing centres across the Nordic countries.
+"""
+
+[[partners]]
+name = "UNINETT Sigma2"
+website = "https://www.sigma2.no"
+logo = "sigma2.jpg"
+text = """
+UNINETT Sigma2 AS manages the national infrastructure for computational science
+in Norway and offers services in high performance computing and data storage.
+The services are organized in research infrastructure projects, financed by the
+Research Council of Norway and the University of Bergen, the University of
+Oslo, the University of Tromsø and the Norwegian University of Science and
+Technology.
+"""
+
+[[partners]]
+name = "Swedish National Infrastructure for Computing"
+website = "http://www.snic.se"
+logo = "snic.png"
+text = """
+The Swedish National Infrastructure for Computing (SNIC) is a national research
+infrastructure that provides a balanced and cost-efficient set of resources and
+user support for large scale computation and data storage to meet the needs of
+researchers from all scientific disciplines and from all over Sweden
+(universities, university colleges, research institutes, etc). The resources
+are made available through open application procedures such that the best
+Swedish research is supported.
+"""
