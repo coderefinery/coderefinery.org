@@ -1,19 +1,38 @@
----
-layout: master
-include: content
-title: Impact
----
++++
+title = "Impact"
++++
 
 ## Our participants
 
-Over 500 people have attended a CodeRefinery workshop since the project started! Our workshop participants range from undergraduate students to full professors, and come from a variety of academic disciplines. The two charts below show academic position and discipline of workshop participants.
-![alt text](https://coderefinery.org/assets/img/disciplines_positions.png "A pie chart on the left-hand side shows break downs of participants' disciplines. 24% has physical sciences, 22% computer and information sciences, 13% biological sciences, 11% engineering sciences. Otherwise small portions, less than 10%, of each. A pie chart on the right-hand side shows break downs of academic positions of the participants. 49% graduate students, 18% postdocs, 14% researchers, and others are less than 10% for each")
+Over 500 people have attended a CodeRefinery workshop since the project
+started! Our workshop participants range from undergraduate students to full
+professors, and come from a variety of academic disciplines. The two charts
+below show academic position and discipline of workshop participants.
+
+![alt text](/workshops/disciplines_positions.png "A
+pie chart on the left-hand side shows break downs of participants' disciplines.
+24% has physical sciences, 22% computer and information sciences, 13%
+biological sciences, 11% engineering sciences. Otherwise small portions, less
+than 10%, of each. A pie chart on the right-hand side shows break downs of
+academic positions of the participants. 49% graduate students, 18% postdocs,
+14% researchers, and others are less than 10% for each")
 
 
 ## What is our impact?
 
-The long-term impact of CodeRefinery workshops is measured through a post-workshop survey which is sent out to all former participants 3-6 months after attending a workshop. The two graphs below show how former participants use various software development tools after attending a workshop (left), and how their code and collaboration with colleagues has changed (right). These results are based on 92 survey responses obtained to date.
-![alt text](https://coderefinery.org/assets/img/heatmap_yesno.png "A bar chart on the left-hand side shows that the majority showed their satisfaction of the workshops as they felt that it made it easier to collaborate on software development, that their code became more reusable, and more reproducible. A matrix chart on the right-hand side shows break downs of participants' adoption of best practices depending on the extent and the types of the best practices")
+The long-term impact of CodeRefinery workshops is measured through a
+post-workshop survey which is sent out to all former participants 3-6 months
+after attending a workshop. The two graphs below show how former participants
+use various software development tools after attending a workshop (left), and
+how their code and collaboration with colleagues has changed (right). These
+results are based on 92 survey responses obtained to date.
+
+![alt text](/workshops/heatmap_yesno.png "A bar chart
+on the left-hand side shows that the majority showed their satisfaction of the
+workshops as they felt that it made it easier to collaborate on software
+development, that their code became more reusable, and more reproducible. A
+matrix chart on the right-hand side shows break downs of participants' adoption
+of best practices depending on the extent and the types of the best practices")
 
 
 ## What do our participants say after attending a workshop?
