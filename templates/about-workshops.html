@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="row top-buffer-more">
+    <div class="col-md-4">
+      <img src="{{ resize_image(path="img/classroom.png", width=300, op="fit_width") | safe }}"
+           alt="photo from a classroom" class="pull-left mr-2"/>
+    </div>
+    <div class="col-md-8">
+      <p>
+        We organize a roadshow of hands-on interactive three-day workshops across
+        the Nordics with type-along presentations and live coding where short
+        tutorials alternate with practical exercises.
+      </p>
+
+      <p>
+        We are also actively engaged in The Carpentries and can help set up
+        and/or teach Software Carpentry or Data Carpentry workshops.
+      </p>
+
+      <p>
+        Are you interested in becoming an instructor yourself? Join us for an
+        instructor training workshop!
+      </p>
+    </div>
+  </div><!-- row -->
+
+  <div class="row top-buffer">
+    <div class="col-md-6">
+      <div class="panel">
+        <div class="top-buffer">
+          <h4>CodeRefinery workshops</h4>
+          <p>
+            CodeRefinery workshops aim grow researchers' software best practices
+            skills and to consolidate knowledge learnt during Carpentries
+            workshops or from prior experience. The focus is on professional
+            tools for efficiently developing and maintaining research software.
+          </p>
+        </div>
+        <a class="button_more" href="/about/project/#coderefinery-workshops">More ›</a></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="panel">
+        <div class="top-buffer">
+          <h4>Software and Data Carpentry</h4>
+          <p>
+            Carpentry workshops teach foundational coding and data science skills
+            and focus on raising awareness about tools that researchers can learn
+            to speed up their research. As members of the Carpentries, we can
+            give access to Carpentries instructor training workshops and help set
+            up Carpentry workshops.
+          </p>
+        </div>
+        <a class="button_more" href="/about/project/#membership-with-the-carpentries">More ›</a></p>
+      </div>
+    </div>
+  </div><!-- row -->
+
+  <div class="row top-buffer">
+    <div class="col-md-6">
+      <div class="panel">
+        <div class="top-buffer">
+          <h4>Instructor training</h4>
+          <p>
+            Instructor training workshops focus on how to teach technical
+            topics in general and CodeRefinery lessons in particular. Key
+            pedagogical ideas and teaching methods are covered, as well as what
+            learners need to know in order to teach CodeRefinery lessons.
+          </p>
+        </div>
+        <a class="button_more" href="/about/project/#instructor-training-workshops">More ›</a></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="panel">
+        <div class="top-buffer">
+          <h4>Other events</h4>
+          <p>
+            We occasionally teach, organize or participate in other types of
+            events. This includes hackathons, get-together events with
+            knowledge sharing and networking, or dedicated shorter workshops
+            focusing on a particular topic. Get in touch if you want to
+            co-organize an event with us!
+          </p>
+        </div>
+        <a class="button_more" href="/about/project/#other-types-of-events">More ›</a></p>
+      </div>
+    </div>
+  </div><!-- row -->
+{% endblock content %}
