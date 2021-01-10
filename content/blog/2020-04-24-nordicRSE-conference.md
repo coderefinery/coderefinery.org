@@ -1,13 +1,10 @@
----
-layout: master
-include: content
-title: Announcing the first Nordic-RSE conference
-permalink: /blog/2020/04/24/nordic-rse-conference/
----
++++
+title = "Announcing the first Nordic-RSE conference"
+slug = "2020/04/24/nordic-rse-conference"
 
-*2020-04-14 - Anne Fouilloux, Thor Wikfeldt*
-
----
+[extra]
+authors = "Anne Fouilloux, Thor Wikfeldt"
++++
 
 A couple of years ago, [several CodeRefinery members and their
 friends](https://neic.no/news/2018/05/04/building-a-community/)

@@ -1,14 +1,10 @@
----
-layout: master
-include: content
-title: Lessons learned from running our first online workshop
-permalink: /blog/2020/04/14/first-online-workshop/
----
++++
+title = "Lessons learned from running our first online workshop"
+slug = "2020/04/14/first-online-workshop"
 
-*2020-04-14 - Radovan Bast, Flavio Calvo, Richard Darst, Anne Fouilloux, Pavlin Mitev,
-Hasti Narimanzadeh, Pedro Ojeda May, João M. da Silva, Thor Wikfeldt*
-
----
+[extra]
+authors = "Radovan Bast, Flavio Calvo, Richard Darst, Anne Fouilloux, Pavlin Mitev, Hasti Narimanzadeh, Pedro Ojeda May, João M. da Silva, Thor Wikfeldt"
++++
 
 April 7-8, 2020, we gave our first online workshop on [introduction to
 Git](https://coderefinery.github.io/2020-04-07-online/) (2 x 3 hours) with 22

@@ -21,6 +21,10 @@ highlight_theme = "cheerfully-light"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+# Otherwise blogposts have /blog/2020-04-14-first-online-workshop/
+# instead of /blog/2020/04/14/first-online-workshop/
+slugify.paths = "off"
+
 [extra]
 # Put all your custom variables here
 

@@ -1,11 +1,10 @@
----
-layout: master
-include: content
-title: "Report from the Mega-Coderefinery workshop"
-permalink: /blog/2020/07/31/mega-coderefinery/
----
++++
+title = "Report from the Mega-Coderefinery workshop"
+slug = "2020/07/31/mega-coderefinery"
 
-*2020-07-31 - Richard Darst and Naoe Tatara*
+[extra]
+authors = "Richard Darst and Naoe Tatara"
++++
 
 In May/June 2020, CodeRefinery ran a large online workshop with about
 100 learners in attendance.  We overcame the challenges with some
@@ -69,7 +68,7 @@ regardless of location and physical limitations.
       time, even if they thought they had already done it (in this
       case, we quickly verified the instllation).  In practice, we
       didn't check this requirement and only 25-50% of people came,
-      but it still make the workshop more smooth.  
+      but it still make the workshop more smooth.
     - The installation verification time occurred right after the
       "helper introduction meeting", so helpers would stay and help
       people verify their installation.
@@ -90,7 +89,7 @@ regardless of location and physical limitations.
 - We kept the Zoom meeting room open for 30 min to 1 hour after the scheduled lessons are over on that day.
   - This enabled continuation of exercises in re-opening breakout rooms.
   - Some participants could receive individual help by a helper or an expert helper.
-  - In the main room, we did debriefing among instructors and helpers so that we could reflect on the day after. 
+  - In the main room, we did debriefing among instructors and helpers so that we could reflect on the day after.
 - The larger the audience gets, the more diverse it is.
     - This causes more load on helpers and more effort for organizers
       to prepare.
@@ -125,9 +124,9 @@ Our recruitment/sign-up strategy was twofold.
 ### Open call for helpers and sign-up for individual learners.
 - First we had a general call for helpers to assign a breakout room with individual learners.
 - Our plan was to allocate one helper for 5 learnes accepted approx. (the number of helpers) * 5 of individual leraner sign-ups.
-- We tried to sort these learners by university/country/field, but didn't put too much effort into this.    
+- We tried to sort these learners by university/country/field, but didn't put too much effort into this.
 - Helpers and learners were told which team they will be in before the workshop (personalized email with breakout room number).
-- In general, we tried to keep consistency in member composition in a breakout room throughout the whole workshop; with the same learnes and the same helper, as much as possible. 
+- In general, we tried to keep consistency in member composition in a breakout room throughout the whole workshop; with the same learnes and the same helper, as much as possible.
     - For a long workshop like this one (6 half-days), getting to know each other seemed to result in more interaction by the end.
     - Random assignments might work better in a smaller workshop, where you are likely to see the same people you know.  That isn't the case in a large workshop, so consistent breakout rooms are more worth it.
     - It took a session or two for people to get comfortable with their room, but once they did it went well.
@@ -139,13 +138,13 @@ Our recruitment/sign-up strategy was twofold.
     - This is implemented as a "Team name" option when registering.
     - They are put in their own breakout room together.
 - Advantages:
-    - **Scalability**: Because they bring their own helper, we can scale to essentially as many learners as we want.This mechanism allowed us to reach far more people than we could normally, and allowed anyone who could find their own helper to attend. So, our workshop size became SUM(number of people in a team; number of teams) + (number of helpers)*6: every teamless helper directly allowed five other learners to attend. 
+    - **Scalability**: Because they bring their own helper, we can scale to essentially as many learners as we want.This mechanism allowed us to reach far more people than we could normally, and allowed anyone who could find their own helper to attend. So, our workshop size became SUM(number of people in a team; number of teams) + (number of helpers)*6: every teamless helper directly allowed five other learners to attend.
     - **Team building**: Because these learners have a pre-existing social connection, they are able to keep a sense of community and help each other much better than you might expect from a course of this size.
     - **Possibility to use familiar examples**: We have observed that some team breakout rooms were discussing examples close to their research domain which would otherwise have been difficult to do in a "random" group room or the main room.
 - The concept of teams could be extended to in-person workshops, too.
     - Not necessarily pre-assigned, but cleverly organize tables, expect the group to stay together all days.
     - One could give the teams names and so on, to increase team spirit.
-      
+
 
 ### Recommendations
 - Accept a "team name" as part of registration.  These people will be
@@ -390,10 +389,10 @@ Special expert helpers:
 - Ask participants to edit profile beforehand and log into zoom when they join in the
   meeting room. This shows the name properly upon entry and thus the zoom host
   can confirm that the name is found in the registration list.
-    - This is important when you approve entry to the meeting room from the waiting room. 
+    - This is important when you approve entry to the meeting room from the waiting room.
     - Enabling or disabling waiting room is another discussion: For the host, it can be a lot of work verifying people against a
       registration list. Plus, we experienced some problems that waiting room interfered breakout room entry (see the point at the bottom of this section). With a private link, waiting room didn't seem to be that
-      important.  
+      important.
 - Prepare another communication channel dedicated to staff (like
   expert helpers and those who could help with HackMD editing), in our
   case we used a dedicated topic in [CodeRefinery Zulip channel](https://coderefinery.zulipchat.com/).
@@ -412,13 +411,13 @@ Special expert helpers:
       of the breakout rooms, and then that participant leaves from the
       meeting room (not only breakout room), and tries to join in the
       meeting room again with waiting room enabled, then that
-      participant was kicked out from the meeting room. 
+      participant was kicked out from the meeting room.
     - We don't still understand the mechanism behind, but once we disabled the
       waiting room function (right before opening breakout rooms until
       they are closed), it went totally fine.
     - Even after opening breakout rooms, people can join in the
       meeting room, and the host could assign the new people into one
-      of the breakout rooms. 
+      of the breakout rooms.
 
 ### Recommendations
 - Managing breakout rooms isn't too hard, but do practice.

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ page.date | date(format="%B %d, %Y") }}
+  {% if page.extra.authors %}
+    <br>
+    <br>
+    <i>{{ page.extra.authors }}</i>
+  {% endif %}
+
+  <hr>
+
+  <div class="top-buffer">
+    {{ page.content | safe }}
+  </div>
+{% endblock content %}

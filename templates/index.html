@@ -1,4 +1,132 @@
 {% extends "base.html" %}
 
 {% block content %}
+  <div class="row top-buffer-more">
+  </div>
+
+  <div class="row top-buffer">
+    <div class="col-sm-4">
+      <img src="{{ resize_image(path="logo/coderefinery.png", width=300, op="fit_width") | safe }}"
+           alt="CodeRefinery logo" class="pull-left mr-2"/>
+    </div>
+    <div class="col-sm-8">
+      <h2>Training and e-Infrastructure for Research Software Development</h2>
+      <p>
+        We are working with students, researchers, Research Software Engineers
+        from all disciplines and national e-infrastructure partners to advance
+        FAIRness of Software management and development practices so that
+        research groups can collaboratively develop, review, discuss, test,
+        share and reuse their codes.
+      </p>
+
+      <p>
+        We are also an open-source project developing the lesson materials
+        behind this.  They are generic, anyone may use them or join us in
+        developing them.
+      </p>
+    </div>
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>
+        Check out our
+        <a href="/workshops/upcoming/" target="_blank">upcoming events and workshops</a>
+      </h3>
+    </div>
+  </div><!-- row -->
+
+  <div class="row top-buffer">
+
+    <!-- box "training opportunities" -->
+    <div class="col-md-4">
+      <div class="panel">
+        <a href="/workshops/about/">
+          <img src="{{ resize_image(path="img/classroom.png", width=200, op="fit_width") | safe }}"
+               alt="picture of a classroom"/>
+        </a>
+        <div class="top-buffer">
+          <h4>Training opportunities</h4>
+          <p>
+            We offer training opportunities to researchers from Nordic research
+            groups and projects to learn basic-to-advanced research computing
+            skills and become confident in using state-of-the-art tools and
+            practices from modern collaborative software engineering.
+          </p>
+        </div>
+        <a class="button_more" href="/workshops/about/">More ›</a></p>
+      </div>
+    </div>
+
+    <!-- box "lesson materials" -->
+    <div class="col-md-4">
+      <div class="panel">
+        <a href="/lessons/">
+          <img src="{{ resize_image(path="img/wordcloud.png", width=200, op="fit_width") | safe }}"
+               alt="wordcloud"/>
+        </a>
+        <div class="top-buffer">
+          <h4>Lesson materials</h4>
+          <p>
+            We develop and maintain training material on software best
+            practices for researchers that already write code. Our material
+            addresses all academic disciplines and tries to be as programming
+            language-independent as possible.
+          </p>
+        </div>
+        <a class="button_more" href="/lessons/">More ›</a></p>
+      </div>
+    </div>
+
+    <!-- box "code repository hosting" -->
+    <div class="col-md-4">
+      <div class="panel">
+        <a href="/repository/">
+          <img src="{{ resize_image(path="img/terminal.png", width=200, op="fit_width") | safe }}"
+               alt="image of a terminal"/>
+        </a>
+        <div class="top-buffer">
+          <h4>Code Repository Hosting</h4>
+          <p>
+            Our code repository hosting service is open and free for all
+            researchers based in Nordic universities and research institutes.
+            Please contact us if you would like to use these services.
+          </p>
+        </div>
+        <a class="button_more" href="/repository/">More ›</a></p>
+      </div>
+    </div>
+
+  </div><!-- row -->
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Latest news/blogs</h2>
+      <ul>
+        {% set blogs = get_section(path="blog/_index.md") %}
+        {% for post in blogs.pages %}
+          <li><a href="{{ post.permalink }}">{{ post.title }}</a> ({{ post.date }})</li>
+        {% endfor %}
+      </ul>
+    <div>
+  </div><!-- row -->
+
+  <div class="row top">
+    <div class="col-sm-12">
+      <h2>Stay informed and connected</h2>
+    <div>
+  </div><!-- row -->
+
+  <div class="row">
+    <!-- twitter -->
+    <div class="col-md-4">
+      <a class="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/coderefine">Tweets by coderefine</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+    <!-- tinyletter -->
+    <div class="col-md-8 top-buffer">
+      <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/coderefinery" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/coderefinery', 'popupwindow', 'scrollbars=yes,width=600,height=600');return true"><p><label for="tlemail">Enter your email address to sign up for the CodeRefinery newsletter</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
+    </div>
+  </div><!-- row -->
 {% endblock content %}

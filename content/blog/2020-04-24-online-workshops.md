@@ -1,14 +1,10 @@
----
-layout: master
-include: content
-title: CodeRefinery workshops moving online
-permalink: /blog/2020/04/24/online-workshops-update/
----
++++
+title = "CodeRefinery workshops moving online"
+slug = "2020/04/24/online-workshops-update"
 
-*2020-04-24 - Radovan Bast, Richard Darst, Anne Fouilloux, Bjørn
-Lindi, Thor Wikfeldt*
-
----
+[extra]
+authors = "Radovan Bast, Richard Darst, Anne Fouilloux, Bjørn Lindi, Thor Wikfeldt"
++++
 
 After cancelling all our planned in-person workshops this spring due
 to the ongoing pandemic, we decided to make the best of the situation

@@ -1,12 +1,10 @@
----
-layout: master
-include: content
-title: "CodeRefinery tools in action: NordicHPC"
-permalink: /blog/2020/04/27/nordichpc-tools/
----
++++
+title = "CodeRefinery tools in action: NordicHPC"
+slug = "2020/04/27/nordichpc-tools"
 
-*2020-04-27 - Richard Darst*
-
+[extra]
+authors = "Richard Darst"
++++
 
 You've been to a CodeRefinery workshop, and wonder how these tools are
 actually used?  The NordicHPC github organization, which we've
