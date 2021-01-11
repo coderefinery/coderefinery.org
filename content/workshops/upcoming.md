@@ -2,6 +2,13 @@
 title = "Upcoming workshops and events"
 +++
 
+We have a number of events in preparation and will soon here announce more
+concrete dates:
+- Two-day event focused on testing (probably March)
+- Full CodeRefinery workshop (probably March)
+- Workshop about using containers (Docker and Singularity)
+
+
 ### Past workshops and events
 
 See [this page](/workshops/past/) for a list of past workshops.

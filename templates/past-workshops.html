@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% set data = load_data(path="content/workshops/data.json") %}
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Past events on a map</h3>
+      <p>Locations in the "ocean" represent online events</p>
+      <div id="map" style="width: 100%; height: 400px;"></div>
+        <script type="text/javascript">
+          var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                      {
+                        maxZoom: 4,
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                      }),
+                      latlng = L.latLng(63.0, 2.0);
+
+          var map = L.map('map', {center: latlng, zoom: 13, layers: [tiles]});
+
+          var markers = L.markerClusterGroup();
+
+          {% for workshop in data.workshops %}
+            {% if workshop.location %}
+                var marker = L.marker(new L.LatLng({{ workshop.location.lat }}, {{ workshop.location.lon }}));
+              markers.addLayer(marker);
+            {% endif %}
+          {% endfor %}
+
+          map.addLayer(markers);
+        </script>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Past standard CodeRefinery workshops</h3>
+      <ul>
+        {% for workshop in data.workshops %}
+        <li>
+          {{ workshop.name }},
+          {{ workshop.start_date | date(format="%b %d %Y") }}
+          -
+          {{ workshop.end_date | date(format="%b %d %Y") }}
+          {% if workshop.num_participants %}
+            ({{ workshop.num_participants.total }} participants)
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Past events and shorter workshops</h3>
+    </div>
+  </div>
+{% endblock content %}

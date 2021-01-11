@@ -1,0 +1,28 @@
+{
+    "workshops": [
+        {
+            "name": "Espoo",
+            "start_date": "2016-12-14",
+            "end_date": "2016-12-16",
+            "instructors": [
+                "Jyry Suvilehto",
+                "N. D.",
+                "Pinja Koskinen",
+                "Radovan Bast",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Sri Harsha Vathsavayi",
+                "Heikki Lehväslaiho"
+            ],
+            "num_participants": {
+                "FI": 25,
+                "total": 25
+            },
+            "location": {
+                "lat": 60.17833,
+                "lon": 24.83303
+            }
+        }
+    ]
+}
