@@ -1,4 +1,4 @@
-{% macro list_of_events(data) %}
+{% macro list_of_events(data, linebreak) %}
   <ul>
     {% for event in data.events %}
     <li>
@@ -8,7 +8,11 @@
         {{ event.name }}
       {% endif %}
       <div style="color: #b0b0b0; display: inline;">
-      &nbsp;
+      {% if linebreak %}
+        <br>
+      {% else %}
+        &nbsp;
+      {% endif %}
       {{ event.start_date | date(format="%b %d") }}
       -
       {{ event.end_date | date(format="%b %d, %Y") }}
