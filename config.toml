@@ -28,4 +28,4 @@ slugify.paths = "off"
 [extra]
 # Put all your custom variables here
 
-twitter_image = "https://github.com/coderefinery/coderefinery.org/blob/gh-pages/assets/img/logos/coderefinery.png"
+twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
