@@ -1,6 +1,566 @@
 {
     "workshops": [
         {
+            "name": "Online",
+            "website": "https://coderefinery.github.io/2020-11-17-online/",
+            "start_date": "2020-11-17",
+            "end_date": "2020-11-26",
+            "host": [
+                "Naoe Tatara"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Anne Fouilloux",
+                "Matus Kalas",
+                "Pavlin Mitev",
+                "Sabry Razick",
+                "Thor Wikfeldt"
+            ],
+            "expert_helpers": [
+                "Richard Darst",
+                "Max R. Eckardt",
+                "Juho Lehtonen",
+                "Emiliano Molinaro",
+                "Stefan Negru",
+                "Samantha Wittke"
+            ],
+            "helpers": [
+                "Octavian Andrei",
+                "Raphaela Heil",
+                "Johan Hellsvik",
+                "Patric Holmvall",
+                "Diana Iusan",
+                "Matthew Morris",
+                "Athanasios Protopapas",
+                "Annajiat Alim Rasel",
+                "Anthony Scemama",
+                "Ingrid Strandberg"
+            ],
+            "num_participants": {
+                "NO": 26,
+                "SE": 27,
+                "FI": 3,
+                "FR": 4,
+                "PL": 2,
+                "IN": 1,
+                "DE": 4,
+                "BE": 1,
+                "BD": 1,
+                "ES": 3,
+                "CH": 1,
+                "US": 2,
+                "UK": 2,
+                "total": 77
+            }
+        },
+        {
+            "name": "Online",
+            "website": "https://coderefinery.github.io/2020-10-20-online/",
+            "start_date": "2020-10-20",
+            "end_date": "2020-10-29",
+            "host": [
+                "Richard Darst",
+                "Naoe Tatara",
+                "Radovan Bast"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Johan Hidding",
+                "Jarno Rantaharju",
+                "Sabry Razick",
+                "Marijn van Vliet",
+                "Jens Wehner",
+                "Thor Wikfeldt"
+            ],
+            "expert_helpers": [
+                "Enrico Glerean",
+                "Juho Lehtonen",
+                "Samantha Wittke"
+            ],
+            "helpers": [
+                "Niket Agrawal",
+                "Susan Branchett",
+                "Simoneta Caño de Las Heras",
+                "Amir Ebrahimi Fard",
+                "Johan Hidding",
+                "Jakob Sauer Jørgensen",
+                "Maurits Kok",
+                "Raul Ortiz Merino",
+                "Ingrid Strandberg",
+                "Evelien Van Dijk",
+                "Jens Wehner"
+            ],
+            "num_participants": {
+                "DK": 11,
+                "FI": 22,
+                "MA": 1,
+                "NL": 43,
+                "NO": 4,
+                "SE": 19,
+                "total": 100
+            }
+        },
+        {
+            "name": "Online (Mega-CodeRefinery)",
+            "website": "https://coderefinery.github.io/2020-05-25-online/",
+            "start_date": "2020-05-25",
+            "end_date": "2020-06-04",
+            "host": [
+                "Naoe Tatara"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Anne Fouilloux",
+                "Bjørn Lindi",
+                "Thor Wikfeldt",
+                "Stefan Negru",
+                "Richard Darst"
+            ],
+            "expert_helpers": [
+                "Enrico Glerean",
+                "Jarno Rantaharju",
+                "Juho Lehtonen",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Daniel Holmberg",
+                "Ebrahim Afyounian",
+                "Erika Yashiro",
+                "Francesco Tabaro",
+                "Joakim Löfgren",
+                "Kerstin Lenk",
+                "Lauri Neuvonen",
+                "Luis Amezcua",
+                "Mikael Djurfeldt",
+                "Mikko Heikkilä",
+                "Pengfei Xu",
+                "Preethy Nair",
+                "Raphaela Heil",
+                "Rohit Goswami",
+                "Samantha Wittke",
+                "Sebastian Schmidt",
+                "Tomi Häkkinen",
+                "Tuomas Rossi",
+                "Ygor Morais Jaques"
+            ],
+            "num_participants": {
+                "DK": 2,
+                "FI": 75,
+                "IS": 1,
+                "NP": 1,
+                "NO": 16,
+                "SE": 5,
+                "UK": 1,
+                "US": 1,
+                "total": 102
+            }
+        },
+        {
+            "name": "Trondheim",
+            "start_date": "2020-02-25",
+            "end_date": "2020-02-27",
+            "instructors": [
+                "Anne Fouilloux",
+                "Bjørn Lindi",
+                "Nico Reissmann"
+            ],
+            "helpers": [
+                "Radek Lonka"
+            ],
+            "num_participants": {
+                "NO": 26,
+                "SE": 1,
+                "PL": 1,
+                "total": 28
+            },
+            "location": {
+                "lat": 63.41921,
+                "lon": 10.402319
+            }
+        },
+        {
+            "name": "Espoo",
+            "start_date": "2019-12-10",
+            "end_date": "2019-12-12",
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Enrico Glerean",
+                "Juho Lehtonen",
+                "João M. da Silva",
+                "Jarno Rantaharju"
+            ],
+            "helpers": [
+                "Marijn Van Vliet",
+                "Anni Järvenpää",
+                "Shreyas Deshpande"
+            ],
+            "num_participants": {
+                "FI": 30,
+                "total": 30
+            },
+            "location": {
+                "lat": 60.18708,
+                "lon": 24.82909
+            }
+        },
+        {
+            "name": "Lille",
+            "start_date": "2019-11-25",
+            "end_date": "2019-12-05",
+            "instructors": [
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "FR": 28,
+                "total": 28
+            },
+            "location": {
+                "lat": 50.61141,
+                "lon": 3.14053
+            }
+        },
+        {
+            "name": "Stockholm",
+            "start_date": "2019-11-19",
+            "end_date": "2019-11-21",
+            "instructors": [
+                "Thor Wikfeldt",
+                "Radovan Bast",
+                "Anne Fouilloux"
+            ],
+            "helpers": [
+                "Dmytro Kryvokhyzha",
+                "Carolina Robustini",
+                "Ashwin Vishnu"
+            ],
+            "num_participants": {
+                "SE": 28,
+                "total": 28
+            },
+            "location": {
+                "lat": 59.35002,
+                "lon": 18.02398
+            }
+        },
+        {
+            "name": "Trondheim",
+            "start_date": "2019-10-22",
+            "end_date": "2019-10-24",
+            "instructors": [
+                "Thor Wikfeldt",
+                "Radovan Bast",
+                "Bjørn Lindi"
+            ],
+            "helpers": [
+                "Nico Reissmann",
+                "Radek Lonka"
+            ],
+            "num_participants": {
+                "NO": 20,
+                "total": 20
+            },
+            "location": {
+                "lat": 63.41594,
+                "lon": 10.40656
+            }
+        },
+        {
+            "name": "Aalborg",
+            "start_date": "2019-06-11",
+            "end_date": "2019-06-13",
+            "instructors": [
+                "Max Roald Eckardt",
+                "Radovan Bast",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Thomas Arildsen",
+                "Vang Que Le",
+                "Tobias Lindstrøm Jensen",
+                "Emiliano Molinaro",
+                "Lucy Whalley"
+            ],
+            "num_participants": {
+                "DK": 18,
+                "US": 1,
+                "UK": 1,
+                "total": 20
+            },
+            "location": {
+                "lat": 57.01398,
+                "lon": 9.98891
+            }
+        },
+        {
+            "name": "Oslo",
+            "start_date": "2019-06-03",
+            "end_date": "2019-06-05",
+            "instructors": [
+                "Radovan Bast",
+                "Sabry Razick",
+                "Anne Fouilloux",
+                "Stefan Negru"
+            ],
+            "helpers": [
+                "Jean Iaquinta"
+            ],
+            "num_participants": {
+                "NO": 18,
+                "DK": 1,
+                "SE": 1,
+                "total": 20
+            },
+            "location": {
+                "lat": 59.94347,
+                "lon": 10.718161
+            }
+        },
+        {
+            "name": "Helsinki",
+            "start_date": "2019-05-27",
+            "end_date": "2019-05-29",
+            "instructors": [
+                "Richard Darst",
+                "Juho Lehtonen",
+                "João M. da Silva",
+                "Stefan Negru"
+            ],
+            "helpers": [
+                "Manana Koberidze",
+                "Enrico Glerean"
+            ],
+            "num_participants": {
+                "FI": 26,
+                "SE": 1,
+                "total": 27
+            },
+            "location": {
+                "lat": 60.20444,
+                "lon": 24.96171
+            }
+        },
+        {
+            "name": "Gothenburg",
+            "start_date": "2019-05-21",
+            "end_date": "2019-05-23",
+            "instructors": [
+                "Max Eckardt",
+                "Anne Fouilloux",
+                "Bjørn Lindi",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Leif Wigge",
+                "Tuomas Rossi",
+                "Mikael Öhman"
+            ],
+            "num_participants": {
+                "SE": 25,
+                "total": 25
+            },
+            "location": {
+                "lat": 57.708870,
+                "lon": 11.974560
+            }
+        },
+        {
+            "name": "Tartu",
+            "start_date": "2019-04-02",
+            "end_date": "2019-04-04",
+            "instructors": [
+                "Bjørn Lindi",
+                "João M. da Silva",
+                "Radovan Bast",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Dmytro Fishman",
+                "Ivan Kuzmin",
+                "Mikhail Papkov"
+            ],
+            "num_participants": {
+                "EE": 25,
+                "DE": 1,
+                "total": 26
+            },
+            "location": {
+                "lat": 58.370850,
+                "lon": 26.714720
+            }
+        },
+        {
+            "name": "Stockholm",
+            "start_date": "2019-03-25",
+            "end_date": "2019-03-27",
+            "instructors": [
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Juho Lehtonen"
+            ],
+            "helpers": [
+                "Tor Kjellsson Lindblom"
+            ],
+            "num_participants": {
+                "SE": 28,
+                "DE": 2,
+                "total": 30
+            },
+            "location": {
+                "lat": 59.34819,
+                "lon": 18.07489
+            }
+        },
+        {
+            "name": "Espoo",
+            "start_date": "2018-12-11",
+            "end_date": "2018-12-13",
+            "instructors": [
+                "Stefan Negru",
+                "Juho Lehtonen",
+                "Radovan Bast",
+                "Richard Darst"
+            ],
+            "helpers": [
+                "João M. da Silva",
+                "Pradeep Eranti"
+            ],
+            "num_participants": {
+                "FI": 31,
+                "DK": 1,
+                "UK": 1,
+                "total": 33
+            },
+            "location": {
+                "lat": 60.18708,
+                "lon": 24.82909
+            }
+        },
+        {
+            "name": "Uppsala",
+            "start_date": "2018-12-03",
+            "end_date": "2018-12-05",
+            "instructors": [
+                "Thor Wikfeldt",
+                "Radovan Bast",
+                "Max Schön"
+            ],
+            "helpers": [
+                "Hadrien Gourlé"
+            ],
+            "num_participants": {
+                "SE": 30,
+                "NO": 1,
+                "total": 31
+            },
+            "location": {
+                "lat": 59.8434075,
+                "lon": 17.641331
+            }
+        },
+        {
+            "name": "Kiruna",
+            "start_date": "2018-11-21",
+            "end_date": "2018-11-23",
+            "instructors": [
+                "Thor Wikfeldt",
+                "Max Eckardt",
+                "Sabry Razick",
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "SE": 36,
+                "NO": 1,
+                "CH": 1,
+                "total": 38
+            },
+            "location": {
+                "lat": 67.850,
+                "lon": 20.2166667
+            }
+        },
+        {
+            "name": "Reykjavik",
+            "start_date": "2018-08-21",
+            "end_date": "2018-08-23",
+            "instructors": [
+                "Kjartan Thor Wikfeldt",
+                "Bjørn Lindi",
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "IS": 22,
+                "SE": 3,
+                "CH": 1,
+                "total": 26
+            },
+            "location": {
+                "lat": 64.1396,
+                "lon": -21.9519
+            }
+        },
+        {
+            "name": "Oslo",
+            "start_date": "2018-06-12",
+            "end_date": "2018-06-14",
+            "instructors": [
+                "Sabry Razick",
+                "Sri Harsha Vathsavayi",
+                "Richard Darst"
+            ],
+            "helpers": [
+                "Anne Fouilloux"
+            ],
+            "num_participants": {
+                "DE": 38,
+                "NO": 1,
+                "SE": 3,
+                "total": 42
+            },
+            "location": {
+                "lat": 59.94347,
+                "lon": 10.718161
+            }
+        },
+        {
+            "name": "Espoo",
+            "start_date": "2018-05-29",
+            "end_date": "2018-05-31",
+            "instructors": [
+                "Jyry Suvilehto",
+                "Sri Harsha Vathsavayi",
+                "Richard Darst"
+            ],
+            "num_participants": {
+                "FI": 48,
+                "total": 48
+            },
+            "location": {
+                "lat": 60.18708,
+                "lon": 24.82909
+            }
+        },
+        {
+            "name": "Lund",
+            "start_date": "2018-05-15",
+            "end_date": "2018-05-17",
+            "instructors": [
+                "Radovan Bast",
+                "Sabry Razick",
+                "Thor Wikfeldt"
+            ],
+            "num_participants": {
+                "SE": 30,
+                "DK": 1,
+                "total": 31
+            },
+            "location": {
+                "lat": 55.715043,
+                "lon": 13.212401
+            }
+        },
+        {
             "name": "Turku",
             "start_date": "2018-03-20",
             "end_date": "2018-03-22",
