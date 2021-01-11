@@ -1,21 +1,6 @@
----
-layout: master
-include: content
-permalink: /events/2019-12-13-online/
-published_date: 2019-11-22
-city: Open house (you can join online)
-dates: December 13, 2019
-title: Come and join us for our first online Open House
----
-
-<img src="/assets/img/coderefinery_openhouse.png" alt="CodeRefinery open house" style="width:550px">
-
-## December 13, 2019
-
-### Collaborative work on the CodeRefinery training material
-
-CodeRefinery is organizing a one day online "open house" dedicated to discussions and development of the CodeRefinery training material.
-
++++
+title = "Collaborative work on the training material"
++++
 
 ### Welcome to the first CodeRefinery Open House!
 

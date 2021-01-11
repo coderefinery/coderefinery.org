@@ -35,6 +35,7 @@
       {% set data = load_data(path="content/workshops/full-workshops.json") %}
       {{ macros::list_of_events(data=data) }}
     </div>
+
     <div class="col-md-6">
       <h3>Instructor training events</h3>
       {% set data = load_data(path="content/workshops/instructor-training.json") %}
@@ -43,6 +44,17 @@
       <h3>Shorter workshops and other events</h3>
 
       <h3>Open house events</h3>
+      <ul>
+        {% set events = get_section(path="open-house/_index.md") %}
+        {% for page in events.pages %}
+          <li>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+            <div style="color: #b0b0b0; display: inline;">
+              ({{ page.date | date(format="%b %d, %Y") }})
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 {% endblock content %}

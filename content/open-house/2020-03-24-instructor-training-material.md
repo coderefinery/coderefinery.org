@@ -1,18 +1,6 @@
----
-layout: master
-include: content
-permalink: /events/2020-03-24-online/
-published_date: 2020-03-02
-city: Open house (work on instructor training material)
-dates: March 24, 2020
-title: Come and join us for our online Open House
----
-
-<img src="/assets/img/coderefinery_openhouse.png" alt="CodeRefinery open house" style="width:550px">
-
-## March 24, 2020
-
-### Welcome to the CodeRefinery Open House where we collaboratively work on **improving the instructor training material**!
++++
+title = "Work on instructor training material"
++++
 
 CodeRefinery is organizing a one day online "open house" dedicated to
 work together on revising and

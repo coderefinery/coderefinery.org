@@ -1,18 +1,6 @@
----
-layout: master
-include: content
-permalink: /events/2020-04-24-online/
-published_date: 2020-04-23
-city: Open house (work on blog posts)
-dates: April 24, 2020
-title: Come and join us for our online Open House
----
-
-<img src="/assets/img/coderefinery_openhouse.png" alt="CodeRefinery open house" style="width:550px">
-
-## April 24, 2020
-
-### Welcome to the CodeRefinery Open House where we collaboratively work on **writing newsletter articles and blog posts**!
++++
+title = "Work on blog posts"
++++
 
 CodeRefinery is organizing a one day online "open house" dedicated to
 collaboratively writing up blog posts which have been in 

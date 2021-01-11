@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ page.date | date(format="%B %d, %Y") }}
+
+  <hr>
+
+  <img src="{{ resize_image(path="open-house/coderefinery_openhouse.png", width=500, op="fit_width") | safe }}"
+           alt="coderefinery open house logo"/>
+
+  <div class="top-buffer">
+    {{ page.content | safe }}
+  </div>
+{% endblock content %}

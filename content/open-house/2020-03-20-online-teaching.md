@@ -1,18 +1,6 @@
----
-layout: master
-include: content
-permalink: /events/2020-03-20-online/
-published_date: 2020-03-19
-city: Open house (discuss and prepare for online teaching)
-dates: March 20, 2020
-title: Come and join us for our online Open House
----
-
-<img src="/assets/img/coderefinery_openhouse.png" alt="CodeRefinery open house" style="width:550px">
-
-## March 20, 2020
-
-### Welcome to the CodeRefinery Open House where we discuss and prepare for **online teaching**!
++++
+title = "Preparing for online teaching"
++++
 
 We will meet on [video](https://kth-se.zoom.us/j/152239500) (9:00 am, UTC+1)
 and [chat](https://coderefinery.zulipchat.com) and discuss techniques,
