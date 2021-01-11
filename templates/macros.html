@@ -13,9 +13,13 @@
       {% else %}
         &nbsp;
       {% endif %}
-      {{ event.start_date | date(format="%b %d") }}
-      -
-      {{ event.end_date | date(format="%b %d, %Y") }}
+      {% if event.start_date == event.end_date %}
+        {{ event.start_date | date(format="%b %d, %Y") }}
+      {% else %}
+        {{ event.start_date | date(format="%b %d") }}
+        -
+        {{ event.end_date | date(format="%b %d, %Y") }}
+      {% endif %}
       {% if event.num_participants %}
         &nbsp;
         ({{ event.num_participants.total }} participants)
