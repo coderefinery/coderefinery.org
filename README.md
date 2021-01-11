@@ -8,4 +8,4 @@ Local preview:
 
 Documentation:
 - [Zola](https://www.getzola.org/documentation/getting-started/overview/)
-- [Tera](https://tera.netlify.app/docs/) (the template engine used by Zola)
+- [Tera](https://tera.netlify.app/docs/#introduction) (the template engine used by Zola)
