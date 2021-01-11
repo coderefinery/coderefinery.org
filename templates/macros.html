@@ -1,0 +1,36 @@
+{% macro list_of_events(data) %}
+  <ul>
+    {% for event in data.events %}
+    <li>
+      {% if event.website %}
+        <a href="{{ event.website }}" target=_blank>{{ event.name }}</a>
+      {% else %}
+        {{ event.name }}
+      {% endif %}
+      <div style="color: #b0b0b0; display: inline;">
+      &nbsp;
+      {{ event.start_date | date(format="%b %d") }}
+      -
+      {{ event.end_date | date(format="%b %d, %Y") }}
+      {% if event.num_participants %}
+        &nbsp;
+        ({{ event.num_participants.total }} participants)
+      {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+{% endmacro list_of_events %}
+
+{% macro place_markers(data) %}
+  {% for event in data.events %}
+    {% if event.location %}
+      var marker = L.marker(new L.LatLng({{ event.location.lat }}, {{ event.location.lon }}));
+    {% else %}
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    {% endif %}
+    markers.addLayer(marker);
+  {% endfor %}
+{% endmacro place_markers %}

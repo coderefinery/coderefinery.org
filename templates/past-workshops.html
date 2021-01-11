@@ -1,11 +1,10 @@
+{% import "macros.html" as macros %}
+
 {% extends "base.html" %}
 
 {% block content %}
-  {% set data = load_data(path="content/workshops/data.json") %}
-
   <div class="row">
     <div class="col-md-12">
-      <h3>Past events on a map</h3>
       <p>Locations in the "ocean" represent online events</p>
       <div id="map" style="width: 100%; height: 400px;"></div>
         <script type="text/javascript">
@@ -19,16 +18,8 @@
 
           var markers = L.markerClusterGroup();
 
-          {% for workshop in data.workshops %}
-            {% if workshop.location %}
-              var marker = L.marker(new L.LatLng({{ workshop.location.lat }}, {{ workshop.location.lon }}));
-            {% else %}
-              // this is an online event so we place it in the ocean until we
-              // find a better rendering
-              var marker = L.marker(new L.LatLng(65.0, 0.0));
-            {% endif %}
-            markers.addLayer(marker);
-          {% endfor %}
+          {% set data = load_data(path="content/workshops/full-workshops.json") %}
+          {{ macros::place_markers(data=data) }}
 
           map.addLayer(markers);
         </script>
@@ -37,31 +28,14 @@
 
   <div class="row">
     <div class="col-md-6">
-      <h3>Past standard CodeRefinery workshops</h3>
-      <ul>
-        {% for workshop in data.workshops %}
-        <li>
-          {% if workshop.website %}
-            <a href="{{ workshop.website }}" target=_blank>{{ workshop.name }}</a>
-          {% else %}
-            {{ workshop.name }}
-          {% endif %}
-          <div style="color: #b0b0b0; display: inline;">
-          &nbsp;
-          {{ workshop.start_date | date(format="%b %d") }}
-          -
-          {{ workshop.end_date | date(format="%b %d, %Y") }}
-          {% if workshop.num_participants %}
-            &nbsp;
-            ({{ workshop.num_participants.total }} participants)
-          {% endif %}
-          </div>
-        </li>
-        {% endfor %}
-      </ul>
+      <h3>Standard CodeRefinery workshops</h3>
+      {% set data = load_data(path="content/workshops/full-workshops.json") %}
+      {{ macros::list_of_events(data=data) }}
     </div>
     <div class="col-md-6">
-      <h3>Past events and shorter workshops</h3>
+      <h3>Instructor training events</h3>
+      <h3>Events and shorter workshops</h3>
+      <h3>Open house events</h3>
     </div>
   </div>
 {% endblock content %}
