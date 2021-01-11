@@ -20,4 +20,4 @@ jobs:
     - name: Test spelling errors
       shell: bash
       run: |
-        bin/misspell -error *
+        bin/misspell -i "Jaques" -error *
