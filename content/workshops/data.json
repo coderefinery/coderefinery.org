@@ -1,6 +1,48 @@
 {
     "workshops": [
         {
+            "name": "Turku",
+            "start_date": "2018-03-20",
+            "end_date": "2018-03-22",
+            "instructors": [
+                "Jyry Suvilehto",
+                "Radovan Bast",
+                "Sri Harsha Vathsavayi"
+            ],
+            "helpers": [
+                "Zubair Maalick"
+            ],
+            "num_participants": {
+                "FI": 22,
+                "SE": 1,
+                "total": 23
+            },
+            "location": {
+                "lat": 60.4493,
+                "lon": 22.2952
+            }
+        },
+        {
+            "name": "Trondheim",
+            "start_date": "2018-02-27",
+            "end_date": "2018-03-01",
+            "instructors": [
+                "Bjørn Lindi",
+                "Radovan Bast",
+                "Thor Wikfeldt"
+            ],
+            "num_participants": {
+                "NO": 20,
+                "SE": 1,
+                "DK": 1,
+                "total": 22
+            },
+            "location": {
+                "lat": 63.4208,
+                "lon": 10.3928
+            }
+        },
+        {
             "name": "Espoo",
             "start_date": "2017-12-14",
             "end_date": "2017-12-16",
