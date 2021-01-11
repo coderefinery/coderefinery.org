@@ -11,12 +11,11 @@
         <script type="text/javascript">
           var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                       {
-                        maxZoom: 4,
                         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                       }),
                       latlng = L.latLng(63.0, 2.0);
 
-          var map = L.map('map', {center: latlng, zoom: 13, layers: [tiles]});
+          var map = L.map('map', {center: latlng, zoom: 4, layers: [tiles]});
 
           var markers = L.markerClusterGroup();
 
@@ -39,9 +38,9 @@
         {% for workshop in data.workshops %}
         <li>
           {{ workshop.name }},
-          {{ workshop.start_date | date(format="%b %d %Y") }}
+          {{ workshop.start_date | date(format="%b %d") }}
           -
-          {{ workshop.end_date | date(format="%b %d %Y") }}
+          {{ workshop.end_date | date(format="%b %d, %Y") }}
           {% if workshop.num_participants %}
             ({{ workshop.num_participants.total }} participants)
           {% endif %}

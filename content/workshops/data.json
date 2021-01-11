@@ -2,6 +2,144 @@
     "workshops": [
         {
             "name": "Espoo",
+            "start_date": "2017-12-14",
+            "end_date": "2017-12-16",
+            "instructors": [
+                "Bjørn Lindi",
+                "Jyry Suvilehto",
+                "N. D.",
+                "Radovan Bast",
+                "Sri Harsha Vathsavayi",
+                "Seija Sirkiä"
+            ],
+            "helpers": [
+                "Janne Blomqvist",
+                "Richard Darst",
+                "Mika Jalava",
+                "Harshit Agrawal",
+                "Vesa Vahermaa"
+            ],
+            "num_participants": {
+                "FI": 40,
+                "total": 40
+            },
+            "location": {
+                "lat": 60.18708,
+                "lon": 24.82909
+            }
+        },
+        {
+            "name": "Linköping",
+            "start_date": "2017-11-07",
+            "end_date": "2017-11-09",
+            "instructors": [
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Peter Kjellström"
+            ],
+            "num_participants": {
+                "NO": 1,
+                "SE": 21,
+                "total": 22
+            },
+            "location": {
+                "lat": 58.3978,
+                "lon": 15.5760
+            }
+        },
+        {
+            "name": "Aarhus",
+            "start_date": "2017-10-24",
+            "end_date": "2017-10-26",
+            "instructors": [
+                "Bjørn Lindi",
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Dan Mønster"
+            ],
+            "num_participants": {
+                "DK": 24,
+                "SE": 3,
+                "total": 27
+            },
+            "location": {
+                "lat": 56.1681,
+                "lon": 10.2030
+            }
+        },
+        {
+            "name": "Tromsø",
+            "start_date": "2017-06-19",
+            "end_date": "2017-06-21",
+            "instructors": [
+                "Bjørn Lindi",
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Jyry Suvilehto"
+            ],
+            "num_participants": {
+                "BE": 1,
+                "SE": 1,
+                "NO": 21,
+                "total": 23
+            },
+            "location": {
+                "lat": 69.68137,
+                "lon": 18.97228
+            }
+        },
+        {
+            "name": "Copenhagen",
+            "start_date": "2017-05-09",
+            "end_date": "2017-05-11",
+            "instructors": [
+                "Sri Harsha Vathsavayi",
+                "N. D.",
+                "Radovan Bast",
+                "Jyry Suvilehto"
+            ],
+            "num_participants": {
+                "SE": 3,
+                "NL": 1,
+                "DK": 19,
+                "total": 23
+            },
+            "location": {
+                "lat": 55.78626,
+                "lon": 12.523
+            }
+        },
+        {
+            "name": "Stockholm",
+            "start_date": "2017-02-20",
+            "end_date": "2017-02-22",
+            "instructors": [
+                "Sabry Razick",
+                "N. D.",
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Bjørn Lindi"
+            ],
+            "helpers": [
+                "Cristian Cira"
+            ],
+            "num_participants": {
+                "SE": 34,
+                "total": 34
+            },
+            "location": {
+                "lat": 59.34819,
+                "lon": 18.07489
+            }
+        },
+        {
+            "name": "Espoo",
             "start_date": "2016-12-14",
             "end_date": "2016-12-16",
             "instructors": [
