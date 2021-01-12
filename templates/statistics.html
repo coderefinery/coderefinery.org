@@ -1,0 +1,35 @@
+{% import "macros.html" as macros %}
+
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="row top">
+    <div class="col">
+      {{ page.content | safe }}
+    </div>
+  </div>
+
+  <div class="row top">
+    <div class="col">
+      <h3>Standard CodeRefinery workshops</h3>
+      {% set data = load_data(path="content/workshops/full-workshops.json") %}
+      {{ macros::table(data=data) }}
+    </div>
+  </div>
+
+  <div class="row top">
+    <div class="col">
+      <h3>Instructor training events</h3>
+      {% set data = load_data(path="content/workshops/instructor-training.json") %}
+      {{ macros::table(data=data) }}
+    </div>
+  </div>
+
+  <div class="row top">
+    <div class="col">
+      <h3>Shorter workshops and other events</h3>
+      {% set data = load_data(path="content/workshops/other.json") %}
+      {{ macros::table(data=data) }}
+    </div>
+  </div>
+{% endblock content %}

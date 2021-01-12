@@ -42,3 +42,90 @@
     markers.addLayer(marker);
   {% endfor %}
 {% endmacro place_markers %}
+
+{% macro table(data) %}
+  <p>
+    Number of participants by country of affiliation.
+    "Total" does not mean sum since some countries are not listed.
+  </p>
+  <div class="statistics">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%"></th>
+          <th scope="col" style="width: 20%"></th>
+          <th scope="col" class="text-center">Sweden</th>
+          <th scope="col" class="text-center">Norway</th>
+          <th scope="col" class="text-center">Finland</th>
+          <th scope="col" class="text-center">Denmark</th>
+          <th scope="col" class="text-center">Estonia</th>
+          <th scope="col" class="text-center">Iceland</th>
+          <th scope="col" class="text-center">Netherlands</th>
+          <th scope="col" class="text-center">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for event in data.events %}
+          <tr>
+            <th scope="row">
+              {% if event.website %}
+                <a href="{{ event.website }}" target=_blank>{{ event.name }}</a>
+              {% else %}
+                {{ event.name }}
+              {% endif %}
+            </th>
+            <td>
+              {% if event.start_date == event.end_date %}
+                {{ event.start_date | date(format="%b %_d, %Y") }}
+              {% else %}
+                {{ event.start_date | date(format="%b %_d") }}
+                -
+                {{ event.end_date | date(format="%b %_d, %Y") }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.SE %}
+                {{ event.num_participants.SE }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.NO %}
+                {{ event.num_participants.NO }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.FI %}
+                {{ event.num_participants.FI }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.DK %}
+                {{ event.num_participants.DK }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.EE %}
+                {{ event.num_participants.EE }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.IS %}
+                {{ event.num_participants.IS }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.NL %}
+                {{ event.num_participants.NL }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.total %}
+                {{ event.num_participants.total }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endmacro table %}

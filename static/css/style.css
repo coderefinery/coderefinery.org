@@ -71,3 +71,7 @@ img.mugshot {
        -moz-column-count: 2;
             column-count: 2;
 }
+
+.statistics {
+  font-size: 14px;
+}
