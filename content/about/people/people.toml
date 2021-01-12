@@ -80,6 +80,17 @@ PhD in informatics from University if Oslo.
 """
 
 [[people]]
+name = "Samantha Wittke"
+organization = "Finnish Geospatial Research Institute, Aalto University, Finland"
+photo = "samantha.jpg"
+text = """
+A geoinformatics/remote sensing researcher who stumbled into the deep end of
+the research software engineering pool, now learning to swim with the bigger
+fish while also helping others to stay afloat. Enjoys going on adventures
+(teaching is one of them!), woodworking and the Finnish language.
+"""
+
+[[people]]
 name = "Stefan Negru"
 organization = "CSC - IT center for science; CR staff"
 photo = "stefan_negru.jpg"
