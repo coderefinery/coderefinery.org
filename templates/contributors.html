@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="row top-buffer">
+    <div class="col">
+      {{ page.content | safe }}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <h3>Instructors/speakers</h3>
+      <ul>
+        {% set people = [] %}
+
+        {% set data = load_data(path="content/workshops/full-workshops.json") %}
+        {% for event in data.events %}
+          {% if event.instructors %}
+            {% set_global people = people | concat(with=event.instructors) %}
+          {% endif %}
+        {% endfor %}
+
+        {% set data = load_data(path="content/workshops/instructor-training.json") %}
+        {% for event in data.events %}
+          {% if event.instructors %}
+            {% set_global people = people | concat(with=event.instructors) %}
+          {% endif %}
+        {% endfor %}
+
+        {% set data = load_data(path="content/workshops/other.json") %}
+        {% for event in data.events %}
+          {% if event.instructors %}
+            {% set_global people = people | concat(with=event.instructors) %}
+          {% endif %}
+        {% endfor %}
+
+        {% for person in people | unique() | sort() %}
+          <li>{{ person }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Hosts, helpers, and exercise leaders</h3>
+      <ul>
+        {% set people = [] %}
+
+        {% set data = load_data(path="content/workshops/full-workshops.json") %}
+        {% for event in data.events %}
+          {% if event.hosts %}
+            {% set_global people = people | concat(with=event.hosts) %}
+          {% endif %}
+          {% if event.helpers %}
+            {% set_global people = people | concat(with=event.helpers) %}
+          {% endif %}
+        {% endfor %}
+
+        {% set data = load_data(path="content/workshops/instructor-training.json") %}
+        {% for event in data.events %}
+          {% if event.hosts %}
+            {% set_global people = people | concat(with=event.hosts) %}
+          {% endif %}
+          {% if event.helpers %}
+            {% set_global people = people | concat(with=event.helpers) %}
+          {% endif %}
+        {% endfor %}
+
+        {% set data = load_data(path="content/workshops/other.json") %}
+        {% for event in data.events %}
+          {% if event.hosts %}
+            {% set_global people = people | concat(with=event.hosts) %}
+          {% endif %}
+          {% if event.helpers %}
+            {% set_global people = people | concat(with=event.helpers) %}
+          {% endif %}
+        {% endfor %}
+
+        {% for person in people | unique() | sort() %}
+          <li>{{ person }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock content %}
