@@ -133,8 +133,8 @@ To ask questions about workshops or services or to report issues:
 
 ### Newsletter
 
-On our front page, you can subscribe to the CodeRefinery newsletter,
-which will tell about different opportunities that come up.
+You can subscribe to the CodeRefinery newsletter
+[here](https://tinyletter.com/coderefinery).
 
 
 ### Twitter
