@@ -19,6 +19,28 @@ Ruislimmppu regularly.
 """
 
 [[people]]
+name = "Emiliano Molinaro"
+organization = "SDU eScience Center; CR staff"
+photo = "emiliano_molinaro.jpg"
+text = """
+Software architect for research infrastructure with a background in Theoretical
+Particle Physics. Develops HPC solutions for data science. Working at the
+eScience Center, University of Southern Denmark. Enjoys taking long walks in
+nature.
+"""
+
+[[people]]
+name = "Johan Hellsvik"
+organization = "PDC Center for High Performance Computing; CR staff"
+photo = "johan.jpg"
+text = """
+Johan is an application expert in materials theory at the PDC Center for High
+Performance Computing, KTH, where he is helping users with general scientific
+computing problems, code development, optimization and debugging. He has a
+passion for Fortran.
+"""
+
+[[people]]
 name = "Juho Lehtonen"
 organization = "CSC - IT center for science; CR staff"
 photo = "juho_lehtonen.jpg"
@@ -108,15 +130,4 @@ Application expert at the PDC Center for HPC in Stockholm with a background in
 chemical physics.  Enjoys teaching, working at the interface between HPC and
 academic research and interacting with talented scientists during CodeRefinery
 workshops.
-"""
-
-[[people]]
-name = "Emiliano Molinaro"
-organization = "SDU eScience Center; CR staff"
-photo = "emiliano_molinaro.jpg"
-text = """
-Software architect for research infrastructure with a background in Theoretical
-Particle Physics. Develops HPC solutions for data science. Working at the
-eScience Center, University of Southern Denmark. Enjoys taking long walks in
-nature.
 """
