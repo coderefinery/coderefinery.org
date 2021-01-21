@@ -57,7 +57,7 @@ jobs:
             echo -n ${{ env.CNAME }} > public/CNAME
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/${{ env.MAIN_BRANCH }}' }}
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/${{ env.MAIN_BRANCH }}' && ( '${{env.DEPLOY_ORGANIZATION}}' == '' || github.repository_owner == env.DEPLOY_ORGANIZATION ) }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
