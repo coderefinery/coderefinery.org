@@ -2,6 +2,8 @@
 title = "Upcoming workshops and events"
 +++
 
+{{ upcoming() }}
+
 We have a number of events in preparation and will soon here announce more
 concrete dates:
 - Two-day event focused on testing (probably March)

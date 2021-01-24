@@ -36,7 +36,7 @@
     <div class="col-md-6">
       <h3>Standard CodeRefinery workshops</h3>
       {% set data = load_data(path="content/workshops/full-workshops.json") %}
-      {{ macros::list_of_events(data=data, linebreak=false) }}
+      {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
       <h3>Open house events</h3>
       <ul>
@@ -55,11 +55,11 @@
     <div class="col-md-6">
       <h3>Instructor training events</h3>
       {% set data = load_data(path="content/workshops/instructor-training.json") %}
-      {{ macros::list_of_events(data=data, linebreak=false) }}
+      {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
       <h3>Shorter workshops and other events</h3>
       {% set data = load_data(path="content/workshops/other.json") %}
-      {{ macros::list_of_events(data=data, linebreak=true) }}
+      {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
     </div>
   </div>
 {% endblock content %}

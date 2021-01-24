@@ -1,6 +1,10 @@
-{% macro list_of_events(data, linebreak) %}
+{% macro list_of_events(data, linebreak, show_only_future) %}
+  {% set now_unix_timestamp = now() | date(format="%s") | int %}
   <ul>
     {% for event in data.events %}
+    {% set event_unix_timestamp = event.start_date | date(format="%s") | int %}
+    {% set in_future = now_unix_timestamp < event_unix_timestamp %}
+    {% if in_future or not show_only_future %}
     <li>
       {% if event.website %}
         <a href="{{ event.website }}" target=_blank>{{ event.name }}</a>
@@ -26,6 +30,7 @@
       {% endif %}
       </div>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 {% endmacro list_of_events %}
