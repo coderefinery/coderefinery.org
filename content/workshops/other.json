@@ -6,22 +6,14 @@
             "start_date": "2021-01-29",
             "end_date": "2021-01-29",
             "instructors": [
-	        "Richard Darst",
-		"Enrico Glerean",
+                "Richard Darst",
+                "Enrico Glerean",
                 "Anne Fouilloux"
             ],
             "helpers": [
                 "Sabry Razick",
                 "Naoe Tatara"
-            ],
-            "num_participants": {
-                "NO": 0,
-                "FI": 0,
-                "NL": 0,
-                "SE": 0,
-                "IN": 0,
-                "total": 0
-            }
+            ]
         },
         {
             "name": "Introduction to Conda for (Data) Scientists (online)",

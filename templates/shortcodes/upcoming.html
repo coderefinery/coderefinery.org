@@ -1,0 +1,12 @@
+{% import "macros.html" as macros %}
+
+<div class="row">
+  <div class="col-md-12">
+    {% set data = load_data(path="content/workshops/full-workshops.json") %}
+    {{ macros::list_of_events(data=data, linebreak=false, show_only_future=true) }}
+    {% set data = load_data(path="content/workshops/instructor-training.json") %}
+    {{ macros::list_of_events(data=data, linebreak=false, show_only_future=true) }}
+    {% set data = load_data(path="content/workshops/other.json") %}
+    {{ macros::list_of_events(data=data, linebreak=false, show_only_future=true) }}
+  </div>
+</div>
