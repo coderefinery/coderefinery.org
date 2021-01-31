@@ -53,12 +53,14 @@ newsletters](https://tinyletter.com/coderefinery/archive).  To sign up, please
 visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 
 
-## Links to project reports
+## Project reports
 
-- [Project directive (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/5/5a/Collaborative_Infrastructure_for_Scientific_Software_Project_directive.doc)
-- [Collaboration agreement (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/6/6e/150904-Collaborative_Infrastructure_for_Scientific_Software_Collaboration_Agreement.pdf)
-- [Project plan (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/d/d0/CodeRefinery-project-plan-v1.0.pdf)
-- [Report (phase 1)](https://wiki.neic.no/w/ext/img_auth.php/b/be/CodeRefinery-phase1-report.pdf)
-- [Project directive (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/46/Coderefinery-project-directive-phase-2.pdf)
-- [Collaboration agreement (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/4/42/180926Collaboration_Agreement_for_CodeRefinery2_clean.pdf)
-- [Project plan (phase 2)](https://wiki.neic.no/w/ext/img_auth.php/3/34/CodeRefinery-phase-2-project-plan-v1.1.pdf)
+- [Project directive (phase 1)](phase-1-project-directive.pdf)
+- [Collaboration agreement (phase 1)](phase-1-collaboration-agreement.pdf)
+- [Project plan (phase 1)](phase-1-project-plan-v1.0.pdf)
+- [Report (phase 1)](phase-1-report.pdf)
+- [Project directive (phase 2)](phase-2-project-directive.pdf)
+- [Collaboration agreement (phase 2)](phase-2-collaboration-agreement.pdf)
+- [Project plan (phase 2)](phase-2-project-plan-v1.1.pdf)
+- [Mid-term report (phase 2)](phase-2-mid-term-report.pdf)
+- [Mid-term presentation (phase 2)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/master/mid-term.md/)
