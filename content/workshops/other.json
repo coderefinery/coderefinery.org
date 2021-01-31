@@ -16,9 +16,9 @@
 	        "Jarno Rantaharju",
                 "Naoe Tatara"
             ]
-            "num_participants": [
+            "num_participants": {
                 "NO": 59 
-            ]
+            }
         },
         {
             "name": "Introduction to Conda for (Data) Scientists (online)",
