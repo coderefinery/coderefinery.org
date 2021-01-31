@@ -8,12 +8,18 @@
             "instructors": [
                 "Richard Darst",
                 "Enrico Glerean",
-                "Anne Fouilloux"
+                "Anne Fouilloux",
+                "Sabry Razick"
             ],
             "helpers": [
-                "Sabry Razick",
+                "Marijn van Vliet",
+	        "Jarno Rantaharju",
                 "Naoe Tatara"
-            ]
+            ],
+            "num_participants": {
+                "NO": 59,
+                "total": 59 
+            }
         },
         {
             "name": "Introduction to Conda for (Data) Scientists (online)",
