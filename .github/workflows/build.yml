@@ -32,6 +32,9 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
+    - name: validate JSON
+      run: |
+        find . -type f -name '*.json' -print0 | xargs -0 -i python -c "import json ; json.load(open('{}'))" || exit 1
     - name: Install zola
       run: |
         set -x

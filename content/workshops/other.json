@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "name": "Introduction to Linux and Computing resources for researchers at Aalto University and University of Oslo (online)",
+            "name": "Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)",
             "website": "https://coderefinery.github.io/2021-01-29-linux-online/",
             "start_date": "2021-01-29",
             "end_date": "2021-01-29",
@@ -18,7 +18,8 @@
             ],
             "num_participants": {
                 "NO": 59,
-                "total": 59 
+                "FI": 71,
+                "total": 130
             }
         },
         {
