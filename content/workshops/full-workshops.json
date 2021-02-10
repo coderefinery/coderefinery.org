@@ -1,6 +1,11 @@
 {
     "events": [
         {
+            "name": "Full online workshop (6 half-days)",
+            "start_date": "2021-04-13",
+            "end_date": "2021-04-22"
+        },
+        {
             "name": "Online",
             "website": "https://coderefinery.github.io/2020-11-17-online/",
             "start_date": "2020-11-17",
