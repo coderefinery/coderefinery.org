@@ -61,6 +61,6 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 - [Report (phase 1)](phase-1-report.pdf)
 - [Project directive (phase 2)](phase-2-project-directive.pdf)
 - [Collaboration agreement (phase 2)](phase-2-collaboration-agreement.pdf)
-- [Project plan (phase 2)](phase-2-project-plan-v1.1.pdf)
+- [Project plan (phase 2)](phase-2-project-plan-v1.2.pdf)
 - [Mid-term report (phase 2)](phase-2-mid-term-report.pdf)
 - [Mid-term presentation (phase 2)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/master/mid-term.md/)
