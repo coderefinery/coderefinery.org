@@ -5,6 +5,9 @@
             "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
             "start_date": "2021-03-17",
             "end_date": "2021-03-24",
+            "host": [
+                "Naoe Tatara"
+            ],
             "instructors": [
 		"Anne Fouilloux",
 		"Diana Iusan",
