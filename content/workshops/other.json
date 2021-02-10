@@ -7,23 +7,23 @@
             "end_date": "2021-03-24",
             "host": [
                 "Naoe Tatara",
-            "Thor Wikfeldt" ],
-            "instructors": [
-		"Anne Fouilloux",
-		"Diana Iusan",
-		"Emilia Lipponen",
-		"Johan Hellsvik",
-		"Mark Abraham",
-                "Naoe Tatara",
-		"Patric Holmvall",
-		"Qiang Li",
-		"Radovan Bast",
-		"Roberto Di Remigio",
-		"Samantha Wittke",
-		"Thor Wikfeldt"
+                "Thor Wikfeldt"
             ],
-            "helpers": [
-            ]
+            "instructors": [
+                "Anne Fouilloux",
+                "Diana Iusan",
+                "Emilia Lipponen",
+                "Johan Hellsvik",
+                "Mark Abraham",
+                "Naoe Tatara",
+                "Patric Holmvall",
+                "Qiang Li",
+                "Radovan Bast",
+                "Roberto Di Remigio",
+                "Samantha Wittke",
+                "Thor Wikfeldt"
+            ],
+            "helpers": []
         },
         {
             "name": "Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)",
@@ -38,7 +38,7 @@
             ],
             "helpers": [
                 "Marijn van Vliet",
-	        "Jarno Rantaharju",
+                "Jarno Rantaharju",
                 "Naoe Tatara"
             ],
             "num_participants": {
