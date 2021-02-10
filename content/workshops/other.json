@@ -1,6 +1,27 @@
 {
     "events": [
         {
+            "name": "Online CodeRefinery Workshop and Hackathon on Software Testing",
+            "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
+            "start_date": "2021-03-17",
+            "end_date": "2021-03-24",
+            "instructors": [
+		"Anne Fouilloux",
+		"Diana Iusan",
+		"Emilia Lipponen",
+		"Johan Hellsvik",
+		"Mark Abraham",
+		"Patric Holmvall",
+		"Qiang Li",
+		"Radovan Bast",
+		"Roberto Di Remigio",
+		"Samantha Wittke",
+		"Thor Wikfeldt"
+            ],
+            "helpers": [
+            ]
+        },
+        {
             "name": "Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)",
             "website": "https://coderefinery.github.io/2021-01-29-linux-online/",
             "start_date": "2021-01-29",
