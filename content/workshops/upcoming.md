@@ -7,6 +7,8 @@ title = "Upcoming workshops and events"
 We have a number of events in preparation and will soon here announce more
 concrete dates:
 - Workshop about using containers (Docker and Singularity)
+- Workshop about mixed-language development (probably September)
+- Workshop about Julia
 
 
 ### Past workshops and events
