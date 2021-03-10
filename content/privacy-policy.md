@@ -2,7 +2,7 @@
 title = "CodeRefinery Privacy policy"
 +++
 
-This Privacy Policy covers person identifiable information that may be provided to CodeRefinery. Your data only comes from what you decide to provide to us. Changes to this Privacy Policy will be posted on this page. Any changes will only apply to information collected after the posted date of any such change. Additionally, information may be provided to governmental bodies and other entities as required by law. 
+This Privacy Policy covers person identifiable information that may be provided to CodeRefinery. Your data only comes from what you decide to provide to us by understanding privacy policy of the platforms we are using for different purposes as shown below. Changes to this Privacy Policy will be posted on this page. Any changes will only apply to information collected after the posted date of any such change. Additionally, information may be provided to governmental bodies and other entities as required by law. 
 
 ## Definitions
 
@@ -40,7 +40,7 @@ We obtain the following data anonymously and voluntarily from users.
 
 ## Who has access to the personally identifiable information? 
 
-- CodeRefinery team members have access to personally identifiable information provided upon workshop sign-up, "notify-me" sign-up, sending inquiry to support@coderefinery.org, and attendance in online/in-person workshops.
+- CodeRefinery team members have access to personally identifiable information provided upon workshop sign-up, "notify-me" sign-up, subscribing to our newsletter, sending inquiry to support@coderefinery.org, and attendance in online/in-person workshops.
 
 ## Where we store the data
 
