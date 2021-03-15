@@ -1,5 +1,5 @@
 +++
-title = "CodeRefinery Code of Conduct"
+title = "Code of Conduct"
 +++
 
 # Introduction and source of inspiration
