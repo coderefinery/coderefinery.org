@@ -27,18 +27,31 @@
             "instructors": [
                 "Anne Fouilloux",
                 "Diana Iusan",
-                "Emilia Lipponen",
                 "Johan Hellsvik",
                 "Mark Abraham",
-                "Naoe Tatara",
                 "Patric Holmvall",
                 "Qiang Li",
                 "Radovan Bast",
                 "Roberto Di Remigio",
-                "Samantha Wittke",
                 "Thor Wikfeldt"
             ],
-            "helpers": []
+            "helpers": [
+                "Samantha Wittke",
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 14,
+                "FI": 7,
+                "SE": 31,
+                "DK": 5,
+                "IE": 1,
+                "NL": 2,
+                "UK": 1,
+                "FR": 2,
+                "TN": 1,
+                "ZA": 5,
+                "total": 69
+            }
         },
         {
             "name": "Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)",
