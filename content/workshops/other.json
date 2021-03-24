@@ -16,7 +16,7 @@
             "helpers": []
         },
         {
-            "name": "Online CodeRefinery Workshop and Hackathon on Software Testing",
+            "name": "Online CodeRefinery Hackathon on Software Testing",
             "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
             "start_date": "2021-03-17",
             "end_date": "2021-03-24",
@@ -24,18 +24,49 @@
                 "Naoe Tatara",
                 "Thor Wikfeldt"
             ],
-            "instructors": [
+            "mentors": [
                 "Anne Fouilloux",
                 "Diana Iusan",
                 "Johan Hellsvik",
                 "Mark Abraham",
-                "Patric Holmvall",
                 "Qiang Li",
                 "Radovan Bast",
+                "Richard Darst",
                 "Roberto Di Remigio",
+                "Samantha Wittke",
                 "Thor Wikfeldt"
             ],
             "helpers": [
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 6,
+                "FI": 4,
+                "SE": 16,
+                "DK": 3,
+                "ZA": 4,
+                "total": 33
+            }
+        },
+        {
+            "name": "Online CodeRefinery Workshop on Software Testing",
+            "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
+            "start_date": "2021-03-17",
+            "end_date": "2021-03-17",
+            "host": [
+                "Naoe Tatara",
+                "Thor Wikfeldt"
+            ],
+            "instructors": [
+                "Diana Iusan",
+                "Johan Hellsvik",
+                "Mark Abraham",
+                "Radovan Bast",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Qiang Li",
+                "Roberto Di Remigio",
                 "Samantha Wittke",
                 "Naoe Tatara"
             ],
