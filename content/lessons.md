@@ -98,6 +98,7 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [HPC Carpentry lessons](https://hpc-carpentry.github.io)
 - [Aalto Science-IT: Training from beginning to HPC](http://scicomp.aalto.fi/training/)
 - [Aalto Science-IT: HPC tutorials](http://scicomp.aalto.fi/training/#c-high-performance-computing)
+- [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
 
 
 ## Lessons we contributed to as instructors or helpers
