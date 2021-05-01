@@ -57,6 +57,10 @@ a community you can join and give contributions to:
   tutorial](https://scicomp.aalto.fi/training/linux-shell-tutorial/).
   By Aalto Scientific Computing, level: intermediate, covers basics
   but focus on scripting.
+- [Introduction to MPI](https://rantahar.github.io/introduction-to-mpi/)
+- [Introduction to MPI](https://pdc-support.github.io/introduction-to-mpi/): Derived from the above.
+- [Intermediate MPI](https://enccs.github.io/intermediate-mpi/)
+- [Introduction to High-Performance Computing](https://sabryr.github.io/hpc-intro/)
 
 
 ### Teach our lessons
