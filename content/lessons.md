@@ -35,6 +35,14 @@ community.
   - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
 
 
+## Video recordings
+
+A number of video recordings of CodeRefinery lessons and workshops and
+[Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
+found on our [YouTube
+channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
+
+
 ### Other lessons by our partners and the CodeRefinery community
 
 You can expect these to be open-source, reusable, in a git repository, and with
