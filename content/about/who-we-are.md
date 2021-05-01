@@ -5,6 +5,12 @@ title = "Meet the team"
 {{ gallery() }}
 
 
+## Instructors, helpers, and exercise leads
+
+Our workshops would not be possible without the contributions from
+[many speakers, instructors, hosts, helpers, and exercise leaders](/about/contributors/).
+
+
 ## Our teaching philosophies
 
 On [this page](https://coderefinery.github.io/instructor-training/02-teaching-philosophies/)
