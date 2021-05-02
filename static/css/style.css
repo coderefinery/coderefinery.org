@@ -75,3 +75,13 @@ img.mugshot {
 .statistics {
   font-size: 14px;
 }
+
+/* do not hide anchor behind sticky navbar */
+/* https://www.bryanbraun.com/anchorjs/#pages-with-a-sticky-navbar */
+:target::before {
+  content: "";
+  display: block;
+  margin-top: -80px;
+  height: 80px;
+  width: 1px;
+}
