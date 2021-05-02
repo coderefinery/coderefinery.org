@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
 
-    <link href="{{ config.base_url | safe }}/css/style.css" rel="stylesheet">
+    <link href="{{ get_url(path="css/style.css") | safe }}" rel="stylesheet">
   </head>
 
   <body>
@@ -60,7 +60,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/">Home</a>
+              <a class="nav-link" href="{{ get_url(path="/") | safe }}">Home</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -69,13 +69,13 @@
                 About
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/project/">Project</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/reports/">Articles and reports</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/who-we-are/">Who we are</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/contributors/">Instructors and helpers</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/funding/">Funding partners</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/hubs/">Training hubs</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/about/code-of-conduct/">Code of Conduct</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/project/") | safe }}">Project</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/reports/") | safe }}">Articles and reports</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/who-we-are/") | safe }}">Who we are</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/contributors/") | safe }}">Instructors and helpers</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/funding/") | safe }}">Funding partners</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/hubs/") | safe }}">Training hubs</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/code-of-conduct/") | safe }}">Code of Conduct</a>
               </div>
             </li>
 
@@ -85,28 +85,28 @@
                 Workshops/events
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/workshops/about/">About our workshops</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/workshops/upcoming/">Upcoming workshops/events</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/workshops/past/">Past workshops/events</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/workshops/impact/">Impact and testimonials</a>
-                <a class="dropdown-item" href="{{ config.base_url | safe }}/workshops/statistics/">Statistics</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/about/") | safe }}">About our workshops</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/upcoming/") | safe }}">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/past/") | safe }}">Past workshops/events</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/impact/") | safe }}">Impact and testimonials</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/statistics/") | safe }}">Statistics</a>
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/lessons/">Lessons</a>
+              <a class="nav-link" href="{{ get_url(path="/lessons/") | safe }}">Lessons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/blog/">Blog</a>
+              <a class="nav-link" href="{{ get_url(path="/blog/") | safe }}">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/repository/">Code repository hosting</a>
+              <a class="nav-link" href="{{ get_url(path="/repository/") | safe }}">Code repository hosting</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/resources/">Resources</a>
+              <a class="nav-link" href="{{ get_url(path="/resources/") | safe }}">Resources</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ config.base_url | safe }}/get-involved/">Get involved</a>
+              <a class="nav-link" href="{{ get_url(path="/get-involved/") | safe }}">Get involved</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
