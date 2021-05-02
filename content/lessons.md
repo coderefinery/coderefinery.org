@@ -34,9 +34,19 @@ community.
   - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/)
   - [Installation instructions](https://coderefinery.github.io/installation/) (not a lesson, see your workshop page for which ones are actually needed for you)
 
-Other lessons by the CodeRefinery community.  You can expect these to
-be open-source, reusable, in a git repository, and with a community
-you can join and give contributions to:
+
+## Video recordings
+
+A number of video recordings of CodeRefinery lessons and workshops and
+[Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
+found on our [YouTube
+channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
+
+
+### Other lessons by our partners and the CodeRefinery community
+
+You can expect these to be open-source, reusable, in a git repository, and with
+a community you can join and give contributions to:
 
 - [Python for Scientific
   Computing](https://aaltoscicomp.github.io/python-for-scicomp/), by
@@ -47,6 +57,10 @@ you can join and give contributions to:
   tutorial](https://scicomp.aalto.fi/training/linux-shell-tutorial/).
   By Aalto Scientific Computing, level: intermediate, covers basics
   but focus on scripting.
+- [Introduction to MPI](https://rantahar.github.io/introduction-to-mpi/)
+- [Introduction to MPI](https://pdc-support.github.io/introduction-to-mpi/): Derived from the above.
+- [Intermediate MPI](https://enccs.github.io/intermediate-mpi/)
+- [Introduction to High-Performance Computing](https://sabryr.github.io/hpc-intro/)
 
 
 ### Teach our lessons
@@ -96,3 +110,10 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 - [HPC Carpentry lessons](https://hpc-carpentry.github.io)
 - [Aalto Science-IT: Training from beginning to HPC](http://scicomp.aalto.fi/training/)
 - [Aalto Science-IT: HPC tutorials](http://scicomp.aalto.fi/training/#c-high-performance-computing)
+- [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
+
+
+## Lessons we contributed to as instructors or helpers
+
+- [Introduction to Conda for (Data) Scientists](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/):
+  A lesson in the Carpentries Incubator.
