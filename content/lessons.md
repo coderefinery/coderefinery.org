@@ -22,7 +22,7 @@ community.
   - [Documentation](https://coderefinery.github.io/documentation/)
 
 - For the community:
-  - [Social coding and open software](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
+  - [Social coding and open software](https://coderefinery.github.io/social-coding/)
   - [Reproducible research](https://coderefinery.github.io/reproducible-research/)
 
 - Special topics:
