@@ -131,3 +131,13 @@ chemical physics.  Enjoys teaching, working at the interface between HPC and
 academic research and interacting with talented scientists during CodeRefinery
 workshops.
 """
+
+[[people]]
+name = "Jarno Rantaharju"
+organization = "Aalto University, Finland"
+photo = "jarno_rantaharju.jpg"
+text = """
+Research software engineer with background in physics and HPC.  Sees software
+skills as increasingly necessary in research and life in general.  Enjoys
+teaching and talking with researchers in different fields.
+"""
