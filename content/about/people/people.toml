@@ -19,6 +19,16 @@ Ruislimmppu regularly.
 """
 
 [[people]]
+name = "Diana Iusan"
+organization = "UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, Sweden; CR staff"
+photo = "diana_iusan.png"
+text = """
+Application expert in materials theory at SNIC-UPPMAX. Working with user
+support, striving to share best practices in HPC- and storage-simulations, and
+learn new things. I enjoy looking at trees and water and reading books.
+"""
+
+[[people]]
 name = "Emiliano Molinaro"
 organization = "SDU eScience Center; CR staff"
 photo = "emiliano_molinaro.jpg"
