@@ -54,7 +54,7 @@ newsletters](https://tinyletter.com/coderefinery/archive).  To sign up, please
 visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 
 
-## Project reports
+## Project proposals and reports
 
 - [Project directive (phase 1)](phase-1-project-directive.pdf)
 - [Collaboration agreement (phase 1)](phase-1-collaboration-agreement.pdf)
@@ -65,3 +65,4 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 - [Project plan (phase 2)](phase-2-project-plan-v1.2.pdf)
 - [Mid-term report (phase 2)](phase-2-mid-term-report.pdf)
 - [Mid-term presentation (phase 2)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/master/mid-term.md/)
+- [Proposal to the NeIC open call 2021](open-call-2021-proposal.pdf)
