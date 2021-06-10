@@ -14,7 +14,7 @@ community.
   - [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
   - [Automated testing](https://coderefinery.github.io/testing/)
   - [Modular code development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-  - [Modular code development type-along](https://github.com/coderefinery/modular-type-along)
+  - [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
 
 - For your group and larger:
   - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
