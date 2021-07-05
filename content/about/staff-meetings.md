@@ -1,3 +1,7 @@
++++
+title = "Staff meeting minutes"
++++
+
 # CodeRefinery staff meeting
 
 [![hackmd-github-sync-badge](https://hackmd.io/saJtV2axTSKgXHrD7X6JfA/badge)](https://hackmd.io/saJtV2axTSKgXHrD7X6JfA)
