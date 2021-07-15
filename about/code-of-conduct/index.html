@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Code of Conduct</title>
+      <meta name="twitter:title" content="Code of Conduct" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Code of Conduct</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  
+    <h1 id="introduction-and-source-of-inspiration">Introduction and source of inspiration</h1>
+<p>In any events or community space organized by CodeRefinery, we are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our events and communications are expected to show respect and courtesy to others. </p>
+<p>We follow <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">the Code of Conduct by the Carpentries</a> as primary principles. 
+Here is a summary of CodeRefinery's Code of Conduct adapted from the Carpentries Code of Conduct:</p>
+<h1 id="summary-of-the-coderefinery-code-of-conduct">Summary of the CodeRefinery Code of Conduct</h1>
+<h2 id="expected-behaviors">Expected behaviors</h2>
+<p>We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. By participating in any events or community space organized by CodeRefinery, participants accept to abide by CodeRefinery’s Code of Conduct and accept the procedures by which any Code of Conduct incidents are resolved. Any form of behaviour to exclude, intimidate, or cause discomfort is a violation of the Code of Conduct. </p>
+<p>In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all platforms and events:</p>
+<ul>
+<li>Use welcoming and inclusive language</li>
+<li>Be respectful of different viewpoints and experiences</li>
+<li>Gracefully accept constructive criticism</li>
+<li>Focus on what is best for the community</li>
+<li>Show courtesy and respect towards other community members</li>
+</ul>
+<h2 id="unexpected-behaviors">Unexpected behaviors</h2>
+<p>On the other hand, unexpected behaviors include but not limited to:</p>
+<ul>
+<li>written or verbal comments which have the effect of excluding people on the basis of membership of any specific group</li>
+<li>causing someone to fear for their safety, such as through stalking, following, or intimidation</li>
+<li>violent threats or language directed against another person</li>
+<li>the display of sexual or violent images</li>
+<li>unwelcome sexual attention</li>
+<li>nonconsensual or unwelcome physical contact</li>
+<li>sustained disruption of talks, events or communications</li>
+<li>insults or put downs</li>
+<li>sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes</li>
+<li>excessive swearing</li>
+<li>incitement to violence, suicide, or self-harm</li>
+<li>continuing to initiate interaction (including photography or recording) with someone after being asked to stop</li>
+<li>publication of private communication without consent</li>
+</ul>
+<h2 id="consequence-of-violation-of-code-of-conduct">Consequence of violation of Code of Conduct</h2>
+<p>Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any events and community space organized by CodeRefinery, either online or in-person. If a participant engages in behaviour that violates this code of conduct, the organiser of the event or CodeRefinery core team member(s) may warn the offender, ask them to leave the event or platform (without refund, if applicable), or set up an incident-specific CodeRefinery Code of Conduct Committee to investigate the Code of Conduct violation and impose appropriate sanctions.</p>
+<h2 id="incidence-report">Incidence report</h2>
+<p>If you feel that the Code of Conduct was violated in an event organized by CodeRefinery, no matter if it is online or in physical space, please notify the host of the event or Code of Conduct facilitator if there is a dedicated person in the event. If the incident happened in a community space organized by CodeRefinery, or if you are asked to, or if you feel uncomfortable to notify directly to the host or the Code of Conduct facilitator of the event, please complete <a href="https://indico.neic.no/event/183/surveys/47">this form</a> to report the incident. </p>
+<p>The CodeRefinery core team members have access to reported incidents. We do not yet have a separate Code of Conduct committee, but we may set up an incident-specific committee, if reported incidence is deemed to require it.</p>
+
+  
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

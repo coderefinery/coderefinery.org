@@ -1,0 +1,87 @@
+* { font-family: 'Roboto', sans-serif; }
+
+body {
+  background: #ffffff;
+  margin: 0;
+  height: 100%;
+  color: #384452;
+  font-weight: 300;
+  padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin-top: 1.5em;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #384452;
+  margin-top: 10px;
+}
+
+.top-buffer { margin-top: 35px; }
+.top-buffer-more { margin-top: 70px; }
+
+div.panel {
+  padding: 30px;
+  column-gap: 10px;
+  background-color: #F3F6F9;
+  flex: 1;
+}
+
+.button_more {
+  background-color: #3074BA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+img.mugshot {
+  object-fit: cover;
+  height: 260px;
+}
+
+.ctitle {
+  color: #710d7a;
+  margin-bottom: 15px;
+}
+
+.two_columns{
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
+
+.statistics {
+  font-size: 14px;
+}
+
+/* do not hide anchor behind sticky navbar */
+/* https://www.bryanbraun.com/anchorjs/#pages-with-a-sticky-navbar */
+:target::before {
+  content: "";
+  display: block;
+  margin-top: -80px;
+  height: 80px;
+  width: 1px;
+}

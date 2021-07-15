@@ -1,0 +1,528 @@
+{
+    "events": [
+        {
+            "name": "CodeRefinery workshop with focus on Git and GitLab for Metacenter",
+            "website": "https://coderefinery.github.io/2021-03-25-online/",
+            "start_date": "2021-03-25",
+            "end_date": "2021-04-08",
+            "host": [
+                "Sabry Razick",
+                "Radovan Bast"
+            ],
+            "instructors": [
+                "Sabry Razick",
+                "Radovan Bast"
+            ],
+            "helpers": []
+        },
+        {
+            "name": "Online CodeRefinery Hackathon on Software Testing",
+            "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
+            "start_date": "2021-03-17",
+            "end_date": "2021-03-24",
+            "host": [
+                "Naoe Tatara",
+                "Thor Wikfeldt"
+            ],
+            "mentors": [
+                "Anne Fouilloux",
+                "Diana Iusan",
+                "Johan Hellsvik",
+                "Mark Abraham",
+                "Qiang Li",
+                "Radovan Bast",
+                "Richard Darst",
+                "Roberto Di Remigio",
+                "Samantha Wittke",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 6,
+                "FI": 4,
+                "SE": 16,
+                "DK": 3,
+                "ZA": 4,
+                "total": 33
+            }
+        },
+        {
+            "name": "Online CodeRefinery Workshop on Software Testing",
+            "website": "https://coderefinery.github.io/2021-03-17-testing-hackathon/",
+            "start_date": "2021-03-17",
+            "end_date": "2021-03-17",
+            "host": [
+                "Naoe Tatara",
+                "Thor Wikfeldt"
+            ],
+            "instructors": [
+                "Diana Iusan",
+                "Johan Hellsvik",
+                "Mark Abraham",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Qiang Li",
+                "Radovan Bast",
+                "Roberto Di Remigio",
+                "Samantha Wittke",
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 14,
+                "FI": 7,
+                "SE": 31,
+                "DK": 5,
+                "IE": 1,
+                "NL": 2,
+                "UK": 1,
+                "FR": 2,
+                "TN": 1,
+                "ZA": 5,
+                "total": 69
+            }
+        },
+        {
+            "name": "Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)",
+            "website": "https://coderefinery.github.io/2021-01-29-linux-online/",
+            "start_date": "2021-01-29",
+            "end_date": "2021-01-29",
+            "instructors": [
+                "Richard Darst",
+                "Enrico Glerean",
+                "Anne Fouilloux",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Marijn van Vliet",
+                "Jarno Rantaharju",
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 59,
+                "FI": 71,
+                "total": 130
+            }
+        },
+        {
+            "name": "Introduction to Conda for (Data) Scientists (online)",
+            "website": "https://coderefinery.github.io/2021-01-08-coderefinery-online/",
+            "start_date": "2021-01-08",
+            "end_date": "2021-01-08",
+            "instructors": [
+                "Anne Fouilloux",
+                "Samantha Wittke"
+            ],
+            "helpers": [
+                "Niket Agrawal",
+                "Octavian Andrei",
+                "Radovan Bast",
+                "Emiliano Gelati",
+                "Tomasz Kopec",
+                "Emilia Lipponen",
+                "Lex Nederbragt",
+                "Hui Tang",
+                "Sabry Razick",
+                "Naoe Tatara"
+            ],
+            "num_participants": {
+                "NO": 39,
+                "FI": 5,
+                "NL": 2,
+                "SE": 1,
+                "IN": 1,
+                "total": 48
+            }
+        },
+        {
+            "name": "Collaborative version control with Git (online)",
+            "website": "https://coderefinery.github.io/2020-12-10-online/",
+            "start_date": "2020-12-10",
+            "end_date": "2020-12-11",
+            "instructors": [
+                "Anne Fouilloux",
+                "Radovan Bast"
+            ],
+            "helpers": [
+                "Sabry Razick"
+            ],
+            "num_participants": {
+                "NO": 15,
+                "total": 15
+            }
+        },
+        {
+            "name": "Version control (Karlstad/online)",
+            "website": "https://wikfeldt.github.io/2020-09-22-karlstad/",
+            "start_date": "2020-09-22",
+            "end_date": "2020-09-23",
+            "instructors": [
+                "Raphaela Heil",
+                "Thor Wikfeldt",
+                "Pavlin Mitev"
+            ],
+            "helpers": [
+                "Diana Iusan"
+            ],
+            "num_participants": {
+                "SE": 11,
+                "CN": 1,
+                "total": 12
+            }
+        },
+        {
+            "name": "Python for Scientific Computing (online)",
+            "website": "https://scicomp.aalto.fi/training/scip/python-for-scicomp/",
+            "start_date": "2020-09-14",
+            "end_date": "2020-09-23",
+            "host": [
+                "Naoe Tatara"
+            ],
+            "instructors": [
+                "Anne Fouilloux",
+                "Richard Darst",
+                "Samantha Wittke",
+                "Thor Wikfeldt",
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "FI": 41,
+                "NO": 24,
+                "SE": 3,
+                "total": 68
+            }
+        },
+        {
+            "name": "GitHub without command line (Tampere/online)",
+            "start_date": "2020-08-13",
+            "end_date": "2020-08-13",
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst"
+            ],
+            "helpers": [
+                "Kerstin Lenk",
+                "Narayan Puthanmadam Subramaniyam"
+            ],
+            "num_participants": {
+                "FI": 16,
+                "total": 16
+            },
+            "location": {
+                "lat": 61.49512,
+                "lon": 23.77887
+            }
+        },
+        {
+            "name": "Workshop for those familiar with Git (online)",
+            "website": "https://coderefinery.github.io/2020-05-18-online/",
+            "start_date": "2020-05-18",
+            "end_date": "2020-05-20",
+            "host": [
+                "Naoe Tatara"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Bjørn Lindi",
+                "Sabry Razick",
+                "Thor Wikfeldt"
+            ],
+            "helpers": [
+                "Richard Darst",
+                "Max Roald Eckardt",
+                "Juho Lehtonen",
+                "Pavlin Mitev"
+            ],
+            "num_participants": {
+                "SE": 20,
+                "NO": 2,
+                "FI": 1,
+                "DE": 2,
+                "unknown": 2,
+                "total": 27
+            }
+        },
+        {
+            "name": "Collaborative Git (online)",
+            "website": "https://coderefinery.github.io/2020-05-06-online/",
+            "start_date": "2020-05-06",
+            "end_date": "2020-05-06",
+            "instructors": [
+                "Anne Fouilloux",
+                "Bjørn Lindi",
+                "Thor Wikfeldt",
+                "Stefan Negru"
+            ],
+            "helpers": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Juho Lehtonen",
+                "Sabry Razick"
+            ],
+            "num_participants": {
+                "SE": 25,
+                "NO": 5,
+                "DK": 4,
+                "FI": 3,
+                "total": 37
+            }
+        },
+        {
+            "name": "GitHub without command line (online)",
+            "start_date": "2020-04-15",
+            "end_date": "2020-04-22",
+            "instructors": [
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "NO": 10,
+                "total": 10
+            }
+        },
+        {
+            "name": "Introduction to Git (online)",
+            "website": "https://coderefinery.github.io/2020-04-07-online/",
+            "start_date": "2020-04-07",
+            "end_date": "2020-04-08",
+            "instructors": [
+                "Anne Fouilloux",
+                "Radovan Bast",
+                "Thor Wikfeldt",
+                "Richard Darst"
+            ],
+            "helpers": [
+                "Flavio Calvo",
+                "João M. da Silva",
+                "Pedro Ojeda May",
+                "Pavlin Mitev",
+                "Hasti Narimanzadeh"
+            ],
+            "num_participants": {
+                "SE": 19,
+                "FI": 1,
+                "DE": 2,
+                "total": 22
+            }
+        },
+        {
+            "name": "Best Software Practices for the Norwegian Earth System Model (Oslo/Bergen/Online)",
+            "start_date": "2020-02-05",
+            "end_date": "2020-02-05",
+            "instructors": [
+                "Anne Fouilloux"
+            ],
+            "num_participants": {
+                "NO": 30,
+                "total": 30
+            }
+        },
+        {
+            "name": "Social coding and open software (Oslo)",
+            "website": "https://www.ub.uio.no/english/courses-events/events/all-libraries/2020/research-bazaar/social-coding.html",
+            "start_date": "2020-01-09",
+            "end_date": "2020-01-09",
+            "instructors": [
+                "Anne Fouilloux"
+            ],
+            "num_participants": {
+                "NO": 21,
+                "total": 21
+            },
+            "location": {
+                "lat": 59.91712,
+                "lon": 10.73719
+            }
+        },
+        {
+            "name": "Hackathon (Stockholm)",
+            "start_date": "2019-11-06",
+            "end_date": "2019-11-07",
+            "organizers": [
+                "Thor Wikfeldt",
+                "Anne Fouilloux",
+                "Radovan Bast"
+            ],
+            "speakers": [
+                "Rosa Lönneborg",
+                "Richard Darst",
+                "Anne Fouilloux",
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "NO": 8,
+                "FI": 3,
+                "DK": 1,
+                "UK": 1,
+                "EE": 1,
+                "SE": 4,
+                "total": 18
+            },
+            "location": {
+                "lat": 59.34781,
+                "lon": 18.07257
+            }
+        },
+        {
+            "name": "Reproducibility workshop (Stockholm)",
+            "start_date": "2019-09-09",
+            "end_date": "2019-09-12",
+            "instructors": [
+                "Thor Wikfeldt",
+                "Will Usher"
+            ],
+            "num_participants": {
+                "SE": 12,
+                "total": 12
+            },
+            "location": {
+                "lat": 59.34847,
+                "lon": 18.0729
+            }
+        },
+        {
+            "name": "Python for Dynamics and Evolution of Earth and Planets (Oslo)",
+            "website": "https://annefou.github.io/2019-04-01-deep/",
+            "start_date": "2019-04-01",
+            "end_date": "2019-04-05",
+            "instructors": [
+                "Nils Charles Prieur",
+                "Anne Fouilloux"
+            ],
+            "num_participants": {
+                "NO": 12,
+                "total": 12
+            },
+            "location": {
+                "lat": 59.94347,
+                "lon": 10.718161
+            }
+        },
+        {
+            "name": "Mixed Arts with CodeRefinery & Software Carpentry (Copenhagen)",
+            "website": "https://kln-courses.github.io/mixed-arts/",
+            "start_date": "2019-03-05",
+            "end_date": "2019-03-05",
+            "instructors": [
+                "Annika Rockenberger",
+                "Max Roald Eckardt"
+            ],
+            "num_participants": {
+                "DK": 40,
+                "total": 40
+            },
+            "location": {
+                "lat": 55.66293,
+                "lon": 12.59031
+            }
+        },
+        {
+            "name": "Git in practice (Oslo)",
+            "website": "https://uio-carpentry.github.io/2019-02-27-git/",
+            "start_date": "2019-02-27",
+            "end_date": "2019-02-27",
+            "instructors": [
+                "Sabry Razick",
+                "Anne Fouilloux"
+            ],
+            "helpers": [
+                "Annika Rockenberger "
+            ],
+            "num_participants": {
+                "NO": 18,
+                "total": 18
+            },
+            "location": {
+                "lat": 59.939637,
+                "lon": 10.723291
+            }
+        },
+        {
+            "name": "Git workshop (Umeå)",
+            "start_date": "2017-10-16",
+            "end_date": "2017-10-16",
+            "instructors": [
+                "Radovan Bast",
+                "Jyry Suvilehto",
+                "Thor Wikfeldt"
+            ],
+            "num_participants": {
+                "SE": 21,
+                "total": 21
+            },
+            "location": {
+                "lat": 63.8191,
+                "lon": 20.31
+            }
+        },
+        {
+            "name": "Workshop: Interfacing Fortran, C, C++, and Python (Manchester)",
+            "website": "https://rse.ac.uk/conf2017/workshop-and-tutorial-abstracts/#mixed-martial-arts-with-coderefinery",
+            "start_date": "2017-09-08",
+            "end_date": "2017-09-08",
+            "instructors": [
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "total": 15
+            },
+            "location": {
+                "lat": 53.47724,
+                "lon": -2.25475
+            }
+        },
+        {
+            "name": "Workshop: Mixed Martial Arts with CodeRefinery (Umeå)",
+            "website": "http://neic2017.nordforsk.org/workshops/coderefinery/",
+            "start_date": "2017-05-29",
+            "end_date": "2017-05-29",
+            "instructors": [
+                "Bjørn Lindi",
+                "Radovan Bast"
+            ],
+            "num_participants": {
+                "total": 15
+            },
+            "location": {
+                "lat": 63.8267,
+                "lon": 20.2665
+            }
+        },
+        {
+            "name": "CodeRefinery get-together (Stockholm)",
+            "start_date": "2017-05-19",
+            "end_date": "2017-05-19",
+            "organizers": [
+                "Radovan Bast",
+                "Thor Wikfeldt"
+            ],
+            "speakers": [
+                "Mark Abraham",
+                "Mikael Leetmaa"
+            ],
+            "num_participants": {
+                "SE": 15,
+                "total": 15
+            },
+            "location": {
+                "lat": 59.34819,
+                "lon": 18.07489
+            }
+        },
+        {
+            "name": "CodeRefinery seminar (Oslo)",
+            "website": "https://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html",
+            "start_date": "2017-04-06",
+            "end_date": "2017-04-06",
+            "num_participants": {
+                "NO": 15,
+                "total": 15
+            },
+            "location": {
+                "lat": 59.94347,
+                "lon": 10.718161
+            }
+        }
+    ]
+}

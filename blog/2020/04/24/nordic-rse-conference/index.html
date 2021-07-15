@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Announcing the first Nordic-RSE conference</title>
+      <meta name="twitter:title" content="Announcing the first Nordic-RSE conference" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Announcing the first Nordic-RSE conference</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  April 24, 2020
+  
+    <br>
+    <br>
+    <i>Anne Fouilloux, Thor Wikfeldt</i>
+  
+
+  <hr>
+
+  <div class="top-buffer">
+    <p>A couple of years ago, <a href="https://neic.no/news/2018/05/04/building-a-community/">several CodeRefinery members and their
+friends</a>
+started discussing how a Nordic network of Research Software Engineers
+(RSEs) could be established, and soon thereafter the <a href="https://nordic-rse.org/">Nordic-RSE
+initiative</a> was launched. The idea was to
+follow in the footsteps of very successful such initiatives in other
+countries, most notably in <a href="https://rse.ac.uk/">the UK</a>, <a href="http://nl-rse.org/">the
+Netherlands</a> and
+<a href="http://www.de-rse.org/de/index.html">Germany</a>. For the past two years
+we have been taking the first steps in this direction. A <a href="https://github.com/nordic-rse/RSE_intro_survey/blob/master/analysis/results_nordics_2018_narrative.ipynb">survey was
+conducted</a>
+to learn about the environment for people in RSE-related
+roles. Information on <a href="https://nordic-rse.org/map/">groups and people</a>
+working in Nordic universities who identify as RSEs is being
+collected, and local campaigns have been launched within several
+universities for the creation of new RSE groups. To further grow the
+emerging Nordic community of RSEs, we are now happy to announce that
+<strong>the <a href="https://nordic-rse.org/conference/">first Nordic-RSE conference</a>,
+Nordic-RSE2020, will take place in Stockholm between 1st and 2nd
+December 2020</strong>!</p>
+<h3 id="about-the-conference">About the conference</h3>
+<p>At Nordic-RSE2020, we will bring together those that develop software
+for research purposes and contribute to building the RSE
+community. The program is not set in stone but we will have invited
+talks, lightning talks, poster sessions and workshops on best
+practices for creating research software and other popular RSE related
+topics. We expect a large contribution from Nordic RSEs, but will also
+invite international RSEs that can help our Nordic community take
+shape.</p>
+<p>The emphasis of the conference will be on learning from each other in
+a supportive and relaxed atmosphere. The choice of conference venue
+for Nordic-RSE2020, the THS student union building at KTH campus in
+Stockholm, reflects our hopes: it has lots of spaces for casual
+conversations and is equipped with fast internet and all the
+facilities required for a successful conference.</p>
+<h3 id="who-should-attend">Who should attend?</h3>
+<p>Our aim is to reflect the diverse and emerging community of RSEs by
+seeking input from all levels of experience and across a variety of
+domains, genders, and ethnicities.</p>
+<p>We welcome participation from:</p>
+<ul>
+<li>Researchers at any career stage who develop software for research
+purposes;</li>
+<li>Software developers working in a research context, whatever their
+job title or field;</li>
+<li>Those interested in advancing the understanding of how best to use
+existing research software (e.g. with respect to scalability,
+performance and/or reproducibility);</li>
+<li>People from any organization providing tools, platforms or services
+that benefit research software;</li>
+<li>Anyone with a stake in research software (funders, publishers,
+decision makers, etc).</li>
+</ul>
+<p>We especially encourage first-time presenters and can offer mentoring
+and other support with preparing your contribution.</p>
+<h3 id="getting-involved">Getting involved</h3>
+<p>In order to make this a successful conference, we will need help from
+volunteers to ensure that all the logistics and practicalities work
+smoothly. What's in it for you? All conference helpers get a free
+conference ticket! Please get in touch with the organizing committee
+(nordic-rse-organizers@neic.no) if you would like to help or if you
+have any questions on how to get involved with Nordic-RSE2020.</p>
+<p>We will also need sponsors to cover costs, keep the conference fee as
+low as possible and to be able to offer travel grants to younger
+participants. We have already received generous offers for sponsorship
+from the <a href="https://e-science.se/">Swedish e-Science Research Centre
+(SeRC)</a>, the <a href="https://snic.se/">Swedish National Infrastructure
+for Computing (SNIC)</a> and the <a href="https://essenceofescience.se/">Swedish e-science
+collaboration (eSSENCE)</a>. By supporting
+us, our sponsors are helping to raise awareness of the importance of
+developing RSE career path in the Nordics.</p>
+<h3 id="inviting-new-sponsors">Inviting new sponsors</h3>
+<p>Nordic-RSE2020 is the first networking and community-building event of
+Nordic-RSE. We will meet to network, to learn about best software
+practices, reproducible research and open science, and to further
+develop communication and project management skills required by RSEs.</p>
+<p>RSEs are the connection between technology and research. If you want
+to get a message directly to those who facilitate research with
+technology, you want to sponsor this conference. Our attendees often
+shape decisions about tools, contracts and approaches to research
+software and computing – either directly or through their role in
+advising, training and collaborating with researchers. In addition to
+the chance to raise awareness of how your products or services are
+relevant to modern research, sponsors will get mentions, visibility,
+and depending on the sponsor package chosen, <a href="https://nordic-rse.org/conference/sponsorship/#sponsor-packages">conference tickets and
+contributed workshops, posters or short
+talks</a>. For
+information on sponsorship see <a href="https://nordic-rse.org/conference/sponsorship/">our
+webpage</a> or <a href="https://coderefinery.org/blog/2020/04/24/nordic-rse-conference/nordic-rse-organizers@neic.no">get in
+touch</a>.</p>
+
+  </div>
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

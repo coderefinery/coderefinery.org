@@ -1,0 +1,79 @@
+{
+    "events": [
+        {
+            "name": "Online (with FocusCoE)",
+            "website": "https://coderefinery.github.io/2020-11-02-instructor-training/",
+            "start_date": "2020-11-02",
+            "end_date": "2020-11-09",
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Anne Fouilloux",
+                "Sabry Razick"
+            ],
+            "helpers": [
+                "Jarno Rantaharju"
+            ],
+            "num_participants": {
+                "total": 14
+            }
+        },
+        {
+            "name": "Online (with TU Delft)",
+            "website": "https://coderefinery.github.io/2020-06-24-instructor-training/",
+            "start_date": "2020-06-24",
+            "end_date": "2020-06-25",
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Anne Fouilloux"
+            ],
+            "helpers": [
+                "Thor Wikfeldt",
+                "Paula Martinez Lavanchy"
+            ],
+            "num_participants": {
+                "NO": 1,
+                "FI": 1,
+                "NL": 21,
+                "total": 23
+            }
+        },
+        {
+            "name": "Stockholm",
+            "start_date": "2019-11-04",
+            "end_date": "2019-11-05",
+            "organizers": [
+                "Thor Wikfeldt",
+                "Anne Fouilloux",
+                "Radovan Bast"
+            ],
+            "instructors": [
+                "Thor Wikfeldt",
+                "Anne Fouilloux",
+                "Radovan Bast",
+                "Radovan Bast",
+                "Richard Darst"
+            ],
+            "helpers": [
+                "Juho Lehtonen",
+                "Sabry Razick",
+                "Jarno Rantaharju",
+                "João M. da Silva",
+                "Max Roald Eckardt",
+                "Naoe Tatara",
+                "Emiliano Molinaro",
+                "Bjørn Lindi"
+            ],
+            "num_participants": {
+                "NO": 8,
+                "DK": 2,
+                "FI": 2,
+                "UK": 1,
+                "EE": 2,
+                "SE": 15,
+                "total": 30
+            }
+        }
+    ]
+}

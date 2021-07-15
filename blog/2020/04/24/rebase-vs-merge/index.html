@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Rebase vs merge</title>
+      <meta name="twitter:title" content="Rebase vs merge" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Rebase vs merge</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  April 24, 2020
+  
+    <br>
+    <br>
+    <i>Bjørn Lindi, Juho Lehtonen</i>
+  
+
+  <hr>
+
+  <div class="top-buffer">
+    <p>During a CodeRefinery workshop you might have heard an instructor say
+that you can merge or alternatively rebase, like merge and rebase are
+two equivalent operations. Clearly, they are not, but should we treat
+the operations equally?</p>
+<p>Let us take a closer look at rebase and merge, how they differ  and in
+which situations they are an advantage to use.</p>
+<h3 id="rebase">Rebase</h3>
+<p>Rebase gives you the opportunity to move the base of a branch to a new
+base. Here we have two branches, <code>master</code> and <code>feature_A</code>.</p>
+<p><img src="/blog/image_01.png" alt="Initial tree" title="Initial git commit tree" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<p>We can rebase the <code>feature_A</code> branch to the last commit in <code>master</code>:</p>
+<pre style="background-color:#f5f5f5;">
+<code class="language-bash" data-lang="bash"><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> checkout feature_A
+</span><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> rebase master
+</span></code></pre>
+<p>The result will look like this.</p>
+<p><img src="/blog/image_02.png" alt="First rebase tree" title="git commit tree
+after rebase" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<p>Checking out <code>master</code> again, we can merge <code>feature_A</code> with <code>master</code>. The merge will by default be a fast-forward. We end up with a linear history, which many find attractive as it is easy to follow. The disadvantage is that we rewrite the history as the commit hashes changes.</p>
+<p><img src="/blog/image_03.png" alt="FF-merge tree" title="git commit tree after fast-forward merge" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<h3 id="merge">Merge</h3>
+<p>If we don’t use rebase, but just merge <code>feature_A</code> with <code>master</code>, we get an merge commit, a new commit pointing  to the previous last commit in <code>master</code> and the previous last commit in <code>feature_A</code>.</p>
+<p><img src="/blog/image_04.png" alt="Plain merge tree" title="git commit tree after regular merge" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<p>If we only do merges, we show the true story of the repository, how the code came to be. As the repository grows with new branches, maybe more contributors, following the history can become very challenging. The git graph can look like the tracks of a large railway station, where it can be hard to find the ancestors of a feature.</p>
+<h3 id="mixing-rebase-and-merge">Mixing rebase and merge</h3>
+<p>Instead of sticking to either rebase or merge, we could use both operations, but establish principles for when we will use merge and under which conditions we use rebase:</p>
+<ul>
+<li>When we merge a semantic unit to <code>master</code>, we use merge.</li>
+<li>When patch features, or do general corrections, we use rebase.</li>
+</ul>
+<p>How will this look?</p>
+<h4 id="merge-revisited">Merge revisited</h4>
+<p>Let us say we have created a new function or class, something that belongs together - a semantic unit we call <code>feature_B</code>. The base of <code>feature_B</code> is the last commit in <code>master</code>.</p>
+<p><img src="/blog/image_05.png" alt="Master feature-b tree" title="git commit tree with master and a new feature" />{:class=&quot;img-responsive&quot; style=&quot;max-width:70%&quot;}</p>
+<p>If we do a merge, git will by default do a fast-forward merge. Following our newly stated policy, we want this merge to be a merge commit. Consequently, we add the option --no-ff to the merge command:</p>
+<pre style="background-color:#f5f5f5;">
+<code class="language-sh" data-lang="sh"><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> checkout master
+</span><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> merge feature_B</span><span style="color:#5597d6;"> --no-ff
+</span></code></pre>
+<p>Alternatively, we can configure git to default do merge commits, by setting the configuration to not do fast-forward by default. Here as a global setting, spanning all our projects:</p>
+<pre style="background-color:#f5f5f5;">
+<code class="language-sh" data-lang="sh"><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> config</span><span style="color:#5597d6;"> --global</span><span style="color:#1f1f1f;"> branch.master.mergeoptions</span><span style="color:#5597d6;"> --no-ff
+</span></code></pre>
+<p>The result will be like this, where the feature is clearly visible in a feature path, presumably with well written commit messages explaining what has been added in this path of work.</p>
+<p><img src="/blog/image_06.png" alt="No-ff merge tree" title="git commit tree after --no-ff merge" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<h4 id="rebase-revisited">Rebase revisited</h4>
+<p>Now we  take the case where we checkout a branch from C1 to do some corrections. While we were doing the corrections, at least before we were able to complete the corrections, <code>master</code> moved to M1 as in the picture above. A merge commit will add unnecessary complexity to the story of our project. We are not adding a new semantic unit, just fixing things that got wrong in the first phase. That we started to fix things from C1 is not necessarily a important information to keep for the project.</p>
+<p><img src="/blog/image_07.png" alt="No-ff merge tree plus patch" title="git commit tree with a merged feature branch and a patch branch in master" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<p>Following our second principle, we rebase the fix_typos branch to M1. Then we do a merge, but this time as fast-forward. If we have configured merge for not doing fast forward when possible, as the configuration statement above, we need to add the --ff-only argument:</p>
+<pre style="background-color:#f5f5f5;">
+<code class="language-sh" data-lang="sh"><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> checkout fix_types
+</span><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> rebase master
+</span><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> checkout master
+</span><span style="color:#5597d6;">git</span><span style="color:#1f1f1f;"> merge fix_typos</span><span style="color:#5597d6;"> --ff-only
+</span></code></pre>
+<p>The git graph will now look like this:</p>
+<p><img src="/blog/image_08.png" alt="No-ff merge plus rebase" title="git commit tree with a merged feature branch and a rebased patch branch" />{:class=&quot;img-responsive&quot; style=&quot;max-width:100%&quot;}</p>
+<h3 id="rebase-vs-merge-revisited">Rebase vs merge revisited</h3>
+<p>Rebase and merge serve two different purposes. We can use this to our advantage to create a clear story, a more readable git log (It is important to create a story, remember?). By using the above principles as guidance, we will become more conscious of where these operations will serve us or add more clutter. For instance, we might conclude that rebasing semantic branches, but insisting on a merge commit, is perfectly fine, because it is where the feature (the semantic entity) enters the <code>master</code> branch which is important, not where the development first started. Features will clearly stand out as a visible pattern in a git repository following such a practice.</p>
+<p><a href="https://medium.com/@porteneuve/getting-solid-at-git-rebase-vs-merge-4fa1a48c53aa">[1] Getting Solid at Merge vs Rebase</a></p>
+
+  </div>
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

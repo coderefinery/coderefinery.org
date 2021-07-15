@@ -1,0 +1,2045 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Past workshops and events</title>
+      <meta name="twitter:title" content="Past workshops and events" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Past workshops and events</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  <div class="row">
+    <div class="col-md-12">
+      <p>Locations "in the ocean" represent online events</p>
+      <div id="map" style="width: 100%; height: 400px;"></div>
+        <script type="text/javascript">
+          var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                      {
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                      }),
+                      latlng = L.latLng(63.0, 2.0);
+
+          var map = L.map('map', {center: latlng, zoom: 4, layers: [tiles]});
+
+          var markers = L.markerClusterGroup();
+
+          
+          
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(63.41921, 10.402319));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.18708, 24.82909));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(50.61141, 3.14053));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.35002, 18.02398));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(63.41594, 10.40656));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(57.01398, 9.98891));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.94347, 10.718161));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.20444, 24.96171));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(57.70887, 11.97456));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(58.37085, 26.71472));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.34819, 18.07489));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.18708, 24.82909));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.8434075, 17.641331));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(67.85, 20.2166667));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(64.1396, -21.9519));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.94347, 10.718161));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.18708, 24.82909));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(55.715043, 13.212401));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.4493, 22.2952));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(63.4208, 10.3928));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.18708, 24.82909));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(58.3978, 15.576));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(56.1681, 10.203));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(69.68137, 18.97228));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(55.78626, 12.523));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.34819, 18.07489));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(60.17833, 24.83303));
+    
+    markers.addLayer(marker);
+  
+
+
+          
+          
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+
+
+          
+          
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(61.49512, 23.77887));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      // this is an online event so we place it in the ocean until we
+      // find a better rendering
+      var marker = L.marker(new L.LatLng(65.0, 0.0));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.91712, 10.73719));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.34781, 18.07257));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.34847, 18.0729));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.94347, 10.718161));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(55.66293, 12.59031));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.939637, 10.723291));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(63.8191, 20.31));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(53.47724, -2.25475));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(63.8267, 20.2665));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.34819, 18.07489));
+    
+    markers.addLayer(marker);
+  
+    
+      var marker = L.marker(new L.LatLng(59.94347, 10.718161));
+    
+    markers.addLayer(marker);
+  
+
+
+          map.addLayer(markers);
+        </script>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Standard CodeRefinery workshops</h3>
+      
+      
+  
+  <ul>
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-05-10-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 10
+        -
+        May 20, 2021
+      
+      
+        &nbsp;
+        (128 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-11-17-online&#x2F;" target=_blank>Online</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov 17
+        -
+        Nov 26, 2020
+      
+      
+        &nbsp;
+        (77 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-10-20-online&#x2F;" target=_blank>Online</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Oct 20
+        -
+        Oct 29, 2020
+      
+      
+        &nbsp;
+        (100 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-25-online&#x2F;" target=_blank>Online (Mega-CodeRefinery)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 25
+        -
+        Jun  4, 2020
+      
+      
+        &nbsp;
+        (102 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Trondheim
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Feb 25
+        -
+        Feb 27, 2020
+      
+      
+        &nbsp;
+        (28 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Espoo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Dec 10
+        -
+        Dec 12, 2019
+      
+      
+        &nbsp;
+        (30 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Lille
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov 25
+        -
+        Dec  5, 2019
+      
+      
+        &nbsp;
+        (28 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Stockholm
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov 19
+        -
+        Nov 21, 2019
+      
+      
+        &nbsp;
+        (28 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Trondheim
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Oct 22
+        -
+        Oct 24, 2019
+      
+      
+        &nbsp;
+        (20 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Aalborg
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Jun 11
+        -
+        Jun 13, 2019
+      
+      
+        &nbsp;
+        (20 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Oslo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Jun  3
+        -
+        Jun  5, 2019
+      
+      
+        &nbsp;
+        (20 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Helsinki
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 27
+        -
+        May 29, 2019
+      
+      
+        &nbsp;
+        (27 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Gothenburg
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 21
+        -
+        May 23, 2019
+      
+      
+        &nbsp;
+        (25 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Tartu
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Apr  2
+        -
+        Apr  4, 2019
+      
+      
+        &nbsp;
+        (26 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Stockholm
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Mar 25
+        -
+        Mar 27, 2019
+      
+      
+        &nbsp;
+        (30 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Espoo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Dec 11
+        -
+        Dec 13, 2018
+      
+      
+        &nbsp;
+        (33 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Uppsala
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Dec  3
+        -
+        Dec  5, 2018
+      
+      
+        &nbsp;
+        (31 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Kiruna
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov 21
+        -
+        Nov 23, 2018
+      
+      
+        &nbsp;
+        (38 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Reykjavik
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Aug 21
+        -
+        Aug 23, 2018
+      
+      
+        &nbsp;
+        (26 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Oslo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Jun 12
+        -
+        Jun 14, 2018
+      
+      
+        &nbsp;
+        (42 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Espoo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 29
+        -
+        May 31, 2018
+      
+      
+        &nbsp;
+        (48 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Lund
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May 15
+        -
+        May 17, 2018
+      
+      
+        &nbsp;
+        (31 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Turku
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Mar 20
+        -
+        Mar 22, 2018
+      
+      
+        &nbsp;
+        (23 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Trondheim
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Feb 27
+        -
+        Mar  1, 2018
+      
+      
+        &nbsp;
+        (22 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Espoo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Dec 14
+        -
+        Dec 16, 2017
+      
+      
+        &nbsp;
+        (40 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Linköping
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov  7
+        -
+        Nov  9, 2017
+      
+      
+        &nbsp;
+        (22 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Aarhus
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Oct 24
+        -
+        Oct 26, 2017
+      
+      
+        &nbsp;
+        (27 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Tromsø
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Jun 19
+        -
+        Jun 21, 2017
+      
+      
+        &nbsp;
+        (23 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Copenhagen
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        May  9
+        -
+        May 11, 2017
+      
+      
+        &nbsp;
+        (23 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Stockholm
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Feb 20
+        -
+        Feb 22, 2017
+      
+      
+        &nbsp;
+        (34 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Espoo
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Dec 14
+        -
+        Dec 16, 2016
+      
+      
+        &nbsp;
+        (25 participants)
+      
+      </div>
+    </li>
+    
+    
+  </ul>
+
+
+      <h3>Open house events</h3>
+      <ul>
+        
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;credit&#x2F;">Making lessons citable and giving credits for contributors</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Oct 02, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;newsletter&#x2F;">Writing newsletter articles and blog posts</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Aug 24, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;blog-posts&#x2F;">Work on blog posts</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Apr 24, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;instructor-training-material&#x2F;">Work on instructor training material</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Mar 24, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;online-teaching&#x2F;">Preparing for online teaching</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Mar 20, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;website&#x2F;">Collaborative work on the website</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Feb 11, 2020)
+            </div>
+          </li>
+        
+          <li>
+            <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;open-house&#x2F;training-material&#x2F;">Collaborative work on the training material</a>
+            <div style="color: #b0b0b0; display: inline;">
+              (Dec 13, 2019)
+            </div>
+          </li>
+        
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h3>Instructor training events</h3>
+      
+      
+  
+  <ul>
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-11-02-instructor-training&#x2F;" target=_blank>Online (with FocusCoE)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov  2
+        -
+        Nov  9, 2020
+      
+      
+        &nbsp;
+        (14 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-06-24-instructor-training&#x2F;" target=_blank>Online (with TU Delft)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Jun 24
+        -
+        Jun 25, 2020
+      
+      
+        &nbsp;
+        (23 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Stockholm
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        &nbsp;
+      
+      
+        Nov  4
+        -
+        Nov  5, 2019
+      
+      
+        &nbsp;
+        (30 participants)
+      
+      </div>
+    </li>
+    
+    
+  </ul>
+
+
+      <h3>Shorter workshops and other events</h3>
+      
+      
+  
+  <ul>
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-25-online&#x2F;" target=_blank>CodeRefinery workshop with focus on Git and GitLab for Metacenter</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Mar 25
+        -
+        Apr  8, 2021
+      
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-17-testing-hackathon&#x2F;" target=_blank>Online CodeRefinery Hackathon on Software Testing</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Mar 17
+        -
+        Mar 24, 2021
+      
+      
+        &nbsp;
+        (33 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-17-testing-hackathon&#x2F;" target=_blank>Online CodeRefinery Workshop on Software Testing</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Mar 17, 2021
+      
+      
+        &nbsp;
+        (69 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-01-29-linux-online&#x2F;" target=_blank>Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Jan 29, 2021
+      
+      
+        &nbsp;
+        (130 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-01-08-coderefinery-online&#x2F;" target=_blank>Introduction to Conda for (Data) Scientists (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Jan  8, 2021
+      
+      
+        &nbsp;
+        (48 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-12-10-online&#x2F;" target=_blank>Collaborative version control with Git (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Dec 10
+        -
+        Dec 11, 2020
+      
+      
+        &nbsp;
+        (15 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;wikfeldt.github.io&#x2F;2020-09-22-karlstad&#x2F;" target=_blank>Version control (Karlstad&#x2F;online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Sep 22
+        -
+        Sep 23, 2020
+      
+      
+        &nbsp;
+        (12 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;scicomp.aalto.fi&#x2F;training&#x2F;scip&#x2F;python-for-scicomp&#x2F;" target=_blank>Python for Scientific Computing (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Sep 14
+        -
+        Sep 23, 2020
+      
+      
+        &nbsp;
+        (68 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        GitHub without command line (Tampere&#x2F;online)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Aug 13, 2020
+      
+      
+        &nbsp;
+        (16 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-18-online&#x2F;" target=_blank>Workshop for those familiar with Git (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        May 18
+        -
+        May 20, 2020
+      
+      
+        &nbsp;
+        (27 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-06-online&#x2F;" target=_blank>Collaborative Git (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        May  6, 2020
+      
+      
+        &nbsp;
+        (37 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        GitHub without command line (online)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Apr 15
+        -
+        Apr 22, 2020
+      
+      
+        &nbsp;
+        (10 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-04-07-online&#x2F;" target=_blank>Introduction to Git (online)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Apr  7
+        -
+        Apr  8, 2020
+      
+      
+        &nbsp;
+        (22 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Best Software Practices for the Norwegian Earth System Model (Oslo&#x2F;Bergen&#x2F;Online)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Feb  5, 2020
+      
+      
+        &nbsp;
+        (30 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;www.ub.uio.no&#x2F;english&#x2F;courses-events&#x2F;events&#x2F;all-libraries&#x2F;2020&#x2F;research-bazaar&#x2F;social-coding.html" target=_blank>Social coding and open software (Oslo)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Jan  9, 2020
+      
+      
+        &nbsp;
+        (21 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Hackathon (Stockholm)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Nov  6
+        -
+        Nov  7, 2019
+      
+      
+        &nbsp;
+        (18 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Reproducibility workshop (Stockholm)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Sep  9
+        -
+        Sep 12, 2019
+      
+      
+        &nbsp;
+        (12 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;annefou.github.io&#x2F;2019-04-01-deep&#x2F;" target=_blank>Python for Dynamics and Evolution of Earth and Planets (Oslo)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Apr  1
+        -
+        Apr  5, 2019
+      
+      
+        &nbsp;
+        (12 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;kln-courses.github.io&#x2F;mixed-arts&#x2F;" target=_blank>Mixed Arts with CodeRefinery &amp; Software Carpentry (Copenhagen)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Mar  5, 2019
+      
+      
+        &nbsp;
+        (40 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;uio-carpentry.github.io&#x2F;2019-02-27-git&#x2F;" target=_blank>Git in practice (Oslo)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Feb 27, 2019
+      
+      
+        &nbsp;
+        (18 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        Git workshop (Umeå)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Oct 16, 2017
+      
+      
+        &nbsp;
+        (21 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;rse.ac.uk&#x2F;conf2017&#x2F;workshop-and-tutorial-abstracts&#x2F;#mixed-martial-arts-with-coderefinery" target=_blank>Workshop: Interfacing Fortran, C, C++, and Python (Manchester)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Sep  8, 2017
+      
+      
+        &nbsp;
+        (15 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="http:&#x2F;&#x2F;neic2017.nordforsk.org&#x2F;workshops&#x2F;coderefinery&#x2F;" target=_blank>Workshop: Mixed Martial Arts with CodeRefinery (Umeå)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        May 29, 2017
+      
+      
+        &nbsp;
+        (15 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        CodeRefinery get-together (Stockholm)
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        May 19, 2017
+      
+      
+        &nbsp;
+        (15 participants)
+      
+      </div>
+    </li>
+    
+    
+    
+    
+    
+    <li>
+      
+        <a href="https:&#x2F;&#x2F;www.uio.no&#x2F;english&#x2F;services&#x2F;it&#x2F;research&#x2F;events&#x2F;coderefinery-2017-april.html" target=_blank>CodeRefinery seminar (Oslo)</a>
+      
+      <div style="color: #b0b0b0; display: inline;">
+      
+        <br>
+      
+      
+        Apr  6, 2017
+      
+      
+        &nbsp;
+        (15 participants)
+      
+      </div>
+    </li>
+    
+    
+  </ul>
+
+    </div>
+  </div>
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

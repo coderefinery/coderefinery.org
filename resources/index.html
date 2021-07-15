@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Resources</title>
+      <meta name="twitter:title" content="Resources" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Resources</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  
+    <h3 id="git">Git</h3>
+<ul>
+<li><a href="http://pcottle.github.io/learnGitBranching/">Learn Git branching</a></li>
+<li><a href="https://try.github.io">Got 15 minutes and want to learn Git?</a></li>
+<li><a href="http://git-scm.com/book">The entire Pro Git book, written by Scott Chacon and Ben Straub</a></li>
+<li><a href="http://gitready.com">Learn git one commit at a time</a></li>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a></li>
+<li><a href="http://cheat.errtheblog.com/s/git/">Git cheat sheet</a></li>
+<li><a href="http://sethrobertson.github.io/GitBestPractices/">Commit Often, Perfect Later, Publish Once: Git Best Practices</a></li>
+<li><a href="http://documentup.com/skwp/git-workflows-book">Git Workflows</a></li>
+<li><a href="https://github.com/pluralsight/git-internals-pdf/releases">PeepCode Git Internals</a></li>
+<li><a href="https://github.com/githubtraining">The GitHub Training Team</a></li>
+<li><a href="https://www.youtube.com/watch?v=U8GBXvdmHT4">Webcast: The Basics of Git and GitHub</a></li>
+<li><a href="https://zachholman.com/talk/how-github-uses-github-to-build-github/">How GitHub Uses GitHub to Build GitHub</a></li>
+<li><a href="https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide">Git Workflows for Pros: A Good Git Guide</a></li>
+<li><a href="http://dymitruk.com/blog/2012/02/05/branch-per-feature/">Branch-per-Feature</a></li>
+<li><a href="http://xkcd.com/1597/">Git on XKCD</a></li>
+<li><a href="https://sethrobertson.github.io/GitBestPractices/">Git best practices</a></li>
+<li><a href="http://fle.github.io/an-efficient-git-workflow-for-midlong-term-projects.html">An efficient GIT workflow for mid/long term projects</a></li>
+</ul>
+<h3 id="best-practices">Best practices</h3>
+<ul>
+<li><a href="https://eurise-network.github.io/technical-reference/quality/software-checklist.html">Software Quality Checklist</a></li>
+<li><a href="http://molssi.org/education/best-practices/">MolSSI best practice guide</a></li>
+<li><a href="https://fair-software.eu">Five Recommendations For Fair Software</a></li>
+</ul>
+<h3 id="fortran">Fortran</h3>
+<ul>
+<li><a href="http://www.ibiblio.org/pub/languages/fortran/ch1-8.html">Fortran common pitfalls</a></li>
+</ul>
+<h3 id="lessons">Lessons</h3>
+<ul>
+<li><a href="https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons">Collection of Carpentries style lessons</a></li>
+</ul>
+<h3 id="python">Python</h3>
+<ul>
+<li><a href="http://docs.python-guide.org">The Hitchhiker's Guide to Python</a></li>
+<li><a href="https://www.youtube.com/watch?v=OSGv2VnC0go">Transforming Code into Beautiful, Idiomatic Python</a></li>
+<li><a href="http://pythonmentors.com">Python Mentors - Python Core Mentorship</a></li>
+<li><a href="https://emptysqua.re/blog/plop-python-profiler-with-call-graphs/">Plop: Python Profiler With Call Graphs</a></li>
+<li><a href="http://hplgit.github.io/prog4comp/doc/pub/p4c_Python.pdf">A Gentle Introduction to Numerical Simulations with Python</a></li>
+<li><a href="http://pandas.pydata.org">Pandas</a></li>
+<li><a href="https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods">The definitive guide on how to use static, class or abstract methods in Python</a></li>
+<li><a href="https://www.devbattles.com/en/sand/post-1697-How_to_build_a_simple_neural_network_in_9_lines_of_Python_code">How to build a simple neural network in 9 lines of Python code</a></li>
+<li><a href="https://comp-think.github.io/">Computational Thinking and Programming - book focused on people with a background in the Humanities</a></li>
+</ul>
+<h3 id="open-source">Open source</h3>
+<ul>
+<li><a href="http://tom.preston-werner.com/2011/11/22/open-source-everything.html">Open Source (Almost) Everything</a></li>
+<li><a href="http://aosabook.org">The Architecture of Open Source Applications</a></li>
+<li><a href="http://opensoul.org/99ways/">99 ways to ruin an open source project</a></li>
+<li><a href="http://www.oreilly.com/openbook/osfreesoft/">Understanding Open Source and Free Software Licensing</a></li>
+<li><a href="https://tldrlegal.com">Software Licenses in Plain English</a></li>
+</ul>
+<h3 id="versioning">Versioning</h3>
+<ul>
+<li><a href="http://semver.org">Semantic Versioning</a></li>
+<li><a href="http://faq.sealedabstract.com/why_not_semver/">Alternative opinion: Why not semver</a></li>
+</ul>
+<h3 id="code-review">Code review</h3>
+<ul>
+<li><a href="https://about.gitlab.com/2015/08/05/6-reasons-why-pre-is-better-than-post-production-code-review/">6 reasons why pre is better than post production code review</a></li>
+</ul>
+<h3 id="interesting-organisations-and-projects-to-follow">Interesting organisations and projects to follow</h3>
+<ul>
+<li><a href="http://nordic-rse.org/">The Nordic RSE community</a></li>
+<li><a href="http://software-carpentry.org">Software Carpentry</a></li>
+<li><a href="http://www.datacarpentry.org">Data Carpentry</a></li>
+<li><a href="https://librarycarpentry.org">Library Carpentry</a></li>
+<li><a href="https://www.software.ac.uk">The Software Sustainability Institute</a></li>
+<li><a href="http://molssi.org">The Molecular Sciences Software Institute</a></li>
+<li><a href="http://melbourne.resbaz.edu.au">The Research Bazaar</a></li>
+<li><a href="http://cbiovikings.org">CBioVikings: ISCB Regional Student Group Denmark</a></li>
+<li><a href="https://www.nesi.org.nz">New Zealand eScience Infrastructure</a></li>
+<li><a href="http://ropensci.org">rOpenSci: Transforming science through open data</a></li>
+<li><a href="https://twitter.com/ResearchSoftEng">The RSE Community</a></li>
+<li><a href="http://www.numfocus.org">NumFOCUS</a></li>
+<li><a href="https://www.esciencecenter.nl">Netherlands eScience Center</a></li>
+<li><a href="https://github.com/alan-turing-institute/the-turing-way#about-the-project">The Turing Way</a></li>
+<li><a href="https://programminghistorian.org/en/lessons/">The Programming Historian</a></li>
+<li><a href="http://wssspe.researchcomputing.org.uk">WSSSPE</a></li>
+<li><a href="https://bssw.io">Better Scientific Software (BSSw)</a></li>
+<li><a href="https://softdev4research.github.io/recommendations/">Recommendations to encourage best practices in research software</a></li>
+<li><a href="http://www.prace-ri.eu/prace-repository-services/">PRACE Repository Services</a></li>
+<li><a href="http://urssi.us">US Research Software Sustainability Institute</a></li>
+<li><a href="https://us-rse.org/">The US Research Software Engineer Association</a></li>
+<li><a href="https://society-rse.org/">Society of Research Software Engineering</a></li>
+<li><a href="http://www.researchsoft.org/">Research Software Alliance</a></li>
+<li><a href="https://missing.csail.mit.edu/">The Missing Semester of Your CS Education</a></li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li><a href="http://sphinx-doc.org">Sphinx</a></li>
+<li><a href="https://readthedocs.org">Read the Docs</a></li>
+<li><a href="http://www.writethedocs.org/guide/">Write the Docs</a></li>
+<li><a href="http://breathe.readthedocs.org">Breathe</a></li>
+<li><a href="http://scholarlymarkdown.com">Scholarly markdown</a></li>
+</ul>
+<h3 id="open-science">Open science</h3>
+<ul>
+<li><a href="http://sciencecodemanifesto.org">Science Code Manifesto</a></li>
+<li><a href="http://software-carpentry.org/blog/2014/02/open-scoop-challenge.html">The Open Scoop Challenge</a></li>
+<li><a href="https://opensource.com/business/10/8/barriers-open-science-big-business-watson-and-crick">Barriers to open science</a></li>
+<li><a href="http://www.sciencemag.org/careers/2010/04/scientists-embrace-openness">Scientists Embrace Openness</a></li>
+<li><a href="http://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/">The Big Data Brain Drain: Why Science is in Trouble</a></li>
+<li><a href="https://danielskatzblog.wordpress.com/">Daniel S. Katz's blog</a></li>
+<li><a href="https://librarycarpentry.org/Top-10-FAIR/">Top 10 FAIR Data &amp; Software Things</a></li>
+<li><a href="https://www.arl.org/code-fair-use-software-preservation/">Code of Best Practices in Fair Use for Software Preservation</a></li>
+<li><a href="https://cos.io/">Center for Open Science</a></li>
+<li><a href="https://cos.io/blog/strategy-culture-change/">Center for Open Science - Strategy for Culture Change</a></li>
+</ul>
+
+  
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

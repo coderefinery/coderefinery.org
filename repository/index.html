@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery</title>
+      <meta name="twitter:title" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+          
+            <h1>Code repository hosting for Nordic research software</h1>
+          
+        </div>
+      </div>
+
+      
+  
+    <h3 id="https-source-coderefinery-org"><a href="https://source.coderefinery.org">https://source.coderefinery.org</a></h3>
+<h2 id="scope">Scope</h2>
+<p>This service is for collaborating on code and scripts. It is not designed to be a data sharing
+or storage service. In doubt please ask <code>support@coderefinery.org</code>.</p>
+<h2 id="why-use-this-service-rather-than-a-service-like-github-or-bitbucket">Why use this service, rather than a service like GitHub or BitBucket?</h2>
+<p>The service we provide is a GitLab instance which targets persons and groups who:</p>
+<ul>
+<li>prefer to keep their code in a private repository until it gets published and
+prefer the corresponding data to stay in the Nordics and remain under an
+academic governance</li>
+<li>are careful to not share code or data with a for-profit company (not implying
+here that the company would use it without asking)</li>
+<li>host their code on local hard drives and look for a better place to host and
+collaborate but prefer the code to remain private</li>
+<li>run their own GitLab service or other repository hosting server but struggle
+to keep it up to date and backed up</li>
+<li>need one place to host public and private repositories</li>
+</ul>
+<p><a href="https://github.com">GitHub</a>, <a href="https://bitbucket.org">Bitbucket</a>,
+<a href="https://gitlab.com">GitLab.com</a>, and similar services are fine services.
+If you already use them, please continue to do so! They allow hosting public
+repositories and to some extent also private repositories for free for
+academia. <a href="https://gitlab.com">GitLab.com</a> offers unlimited private
+repositories. They may offer higher visibility and discoverability than the
+instance offered by our project.</p>
+<h2 id="how-to-move-your-repository-from-another-service-to-this-service">How to move your repository from another service to this service</h2>
+<p>Please consult <a href="https://coderefinery.org/repository/moving">this page</a>.</p>
+<h2 id="ssh-key-fingerprints">SSH key fingerprints</h2>
+<p>Public key fingerprints can be used to validate a connection to a remote server.</p>
+<p>These are the public key fingerprints for <code>source.coderefinery.org</code> (in hexadecimal format):</p>
+<pre style="background-color:#f5f5f5;">
+<code>MD5:b8:c9:43:24:33:96:ba:5d:88:84:73:81:38:ac:e6:0f (RSA)
+MD5:21:dc:4e:ef:4f:1c:44:f8:d8:5e:3a:30:15:32:e3:4c (ECDSA)
+</code></pre>
+<p>These are the SHA256 hashes:</p>
+<pre style="background-color:#f5f5f5;">
+<code>SHA256:dQ6iP+E6PZ2Ureynaw1eGKqRLJ5RtL4C7qUJlNSvLW8 (RSA)
+SHA256:dtWo53mvtXVv3NxZf44kpRIfvJ8edcEqv7HFEltPpa4 (ECDSA)
+</code></pre><h2 id="how-to-inform-us-about-issues">How to inform us about issues</h2>
+<p>Please contact <code>support@coderefinery.org</code>.</p>
+<h2 id="confirmation-email-does-not-arrive-in-your-inbox">Confirmation email does not arrive in your inbox?</h2>
+<p>If you do not receive a confirmation email after signing up, you are possibly auto-blocked
+(we do this to prevent spam registrations). In this case please send an email
+to <code>support@coderefinery.org</code> and we unblock you.</p>
+<p>Please also check your spam folder, though.</p>
+<h2 id="who-can-use-this-service">Who can use this service?</h2>
+<p>Students, researchers, and staff affiliated with a Nordic academic institution.
+If you are not sure whether you can use the system, please contact
+<code>support@coderefinery.org</code>.</p>
+<p> </p>
+<h2 id="i-want-to-be-able-to-create-projects-and-groups-how">I want to be able to create projects and groups - how?</h2>
+<p>Register your user account using your university email account. Then write an
+email to <code>support@coderefinery.org</code> where you state your affiliation and in two
+sentences (or more) describe briefly why you would like to use this service
+and how you plan to use this service.</p>
+<p> </p>
+<h2 id="can-my-collaborators-outside-the-nordics-use-this-service">Can my collaborators outside the Nordics use this service?</h2>
+<p>Yes, your collaborators can join your projects but cannot create new projects.
+Ask them to register and then you can add them to your projects or groups as collaborators.
+No need to ask us or inform us in order to add external collaborators.</p>
+<h2 id="can-i-continue-using-this-service-after-leaving-academia">Can I continue using this service after leaving academia?</h2>
+<p>Write an email to <code>support@coderefinery.org</code> where you describe how you would
+like to continue to use this service. In general the code created while in
+academia should remain available and even better if it will be maintained.</p>
+<h2 id="how-about-federated-access-such-as-feide-or-haka-or-edugain-or-kalmar2">How about federated access such as Feide or HAKA or Edugain or Kalmar2?</h2>
+<p>We are working on it - currently you need a specific user account for this
+instance. If you create an account with the email address your identity
+federation gives provides for you, then you can later move to single sign on
+seamlessly.</p>
+<p> </p>
+<h2 id="is-there-a-data-limit-per-project">Is there a data limit per project?</h2>
+<p>Currently no limit is enforced but we recommend less than 100 MB per project.
+This should really be for code and not for persistent storage of data. If you
+use more, we will contact you. If you need more, please contact us and motivate
+why you need more and we will see what we can do about it. If you have a good
+motivation, you will probably get a larger soft limit.</p>
+<h2 id="where-is-the-service-located">Where is the service located?</h2>
+<p>The GitLab service is currently run from and the data is stored on servers at the
+Danish e-Infrastructure Cooperation (DeiC). DeiC is part of the Nordic
+e-Infrastructure collaboration funding this project.</p>
+<p> </p>
+<h2 id="is-the-data-backed-up">Is the data backed up?</h2>
+<p>The entire file system is backed up every day.  The schedule is 1/month full
+backup, 3 out of 4 weeks differential backup, 1/day incremental backup.  We
+reserve the right to reduce the number of days backed up if space becomes an
+issue.</p>
+<h2 id="how-will-i-get-notified-about-service-breaks-and-downtime">How will I get notified about service breaks and downtime?</h2>
+<p>Initially we will announce service breaks through messages displayed once you
+log into the platform. Later we will set up an opt-in mailing list for service
+downtime notifications. In addition, we plan to announce service breaks over
+Twitter via
+<a href="https://twitter.com/coderefine">@coderefine</a>.</p>
+<h2 id="how-do-i-know-that-you-won-t-turn-it-off-once-your-funding-runs-out">How do I know that you won't turn it off once your funding runs out?</h2>
+<p>We are currently funded until October 2021. We are actively working on
+securing long-term funding for this service. The goal is to create a service
+for many years to come. If we do not manage to secure long-term funding, we
+will notify users well in advance and assist in migrating repository and data.</p>
+<h2 id="can-i-serve-gitlab-pages">Can I serve GitLab pages?</h2>
+<p>Yes! GitLab pages now serve via <code>*.pages.coderefinery.org</code>.</p>
+<p>Currently only HTTP. TLS is in the works.</p>
+
+  
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

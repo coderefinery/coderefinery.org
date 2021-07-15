@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    
+      <title>CodeRefinery - Funding partners</title>
+      <meta name="twitter:title" content="Funding partners" />
+    
+
+    
+      <meta name="description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+      <meta name="twitter:description" content="We are working with students, researchers, Research Software Engineers from all
+disciplines and national e-infrastructure partners to advance FAIRness of
+Software management and development practices so that research groups can
+collaboratively develop, review, discuss, test, share and reuse their codes.
+" />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png" />
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" integrity="sha256-BPfK9M5v34c2XP6p0cxVz1mUQLst0gTLk0mlc7kuodA=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js" integrity="sha256-yDc0eil8GjWFKqN1OSzHSVCiuGghTosZCcRje4tj7iQ=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <link href="https://coderefinery.org/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/about/project">Project</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/reports">Articles and reports</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/who-we-are">Who we are</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/contributors">Instructors and helpers</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/funding">Funding partners</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/hubs">Training hubs</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/code-of-conduct">Code of Conduct</a>
+                <a class="dropdown-item" href="https://coderefinery.org/about/meeting-minutes">Meeting minutes</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/about">About our workshops</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/upcoming">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/past">Past workshops/events</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/impact">Impact and testimonials</a>
+                <a class="dropdown-item" href="https://coderefinery.org/workshops/statistics">Statistics</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/lessons">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/repository">Code repository hosting</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://coderefinery.org/get-involved">Get involved</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navigation -->
+
+      <div class="row top-buffer">
+        <div class="col">
+          
+            <h1>Funding partners</h1>
+          
+          
+        </div>
+      </div>
+
+      
+  
+
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="http:&#x2F;&#x2F;www.csc.fi" target="_blank">CSC - IT Center for Science</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="http:&#x2F;&#x2F;www.csc.fi" target="_blank">
+          <img src="https://coderefinery.org/processed_images/8aef71104d62dd7d00.png"
+               alt="CSC - IT Center for Science logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>CSC - IT Center for Science Ltd. is a non-profit, state-owned company
+administered by the Ministry of Education and Culture of Finland. CSC maintains and
+develops the state-owned centralised IT infrastructure and uses it to provide
+nationwide IT services for research, libraries, archives, museums and culture
+as well as information, education and research management.
+</p>
+      </div>
+    </div>
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="http:&#x2F;&#x2F;www.deic.dk" target="_blank">Danish e-Infrastructure Cooperation</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="http:&#x2F;&#x2F;www.deic.dk" target="_blank">
+          <img src="https://coderefinery.org/processed_images/b54dd8be20ec0e0300.png"
+               alt="Danish e-Infrastructure Cooperation logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>DeIC - Danish e-Infrastructure Cooperation was established on April 19, 2012,
+with the purpose to support Denmark as an e-Science nation through delivery of
+e-infrastructures (computing, storage and network) to research and
+researchbased teaching.  DeIC is established under the Ministry of Higher
+Education and Science by Act 70 of April 19, 2012. Organizationally, DeIC
+belongs to the Danish Agency for Science, Technology and Innovation and is not
+an independent legal entity.
+</p>
+      </div>
+    </div>
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="https:&#x2F;&#x2F;etais.ee" target="_blank">Estonian Scientific Computing Infrastructure</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="https:&#x2F;&#x2F;etais.ee" target="_blank">
+          <img src="https://coderefinery.org/processed_images/337edcc925a8c3f700.png"
+               alt="Estonian Scientific Computing Infrastructure logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>Estonian Scientific Computing Infrastructure (ETAIS) belongs to the Estonian
+roadmap of research infrastructures providing computing and storage resources
+for Estonian scientific community. ETAIS project is being carried out by a
+consortium of four institutions: University of Tartu, Tallinn University of
+Technology, National Institute of Chemical Physics and Biophysics and
+Information Technology Foundation for Education.
+</p>
+      </div>
+    </div>
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="https:&#x2F;&#x2F;neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="https:&#x2F;&#x2F;neic.no" target="_blank">
+          <img src="https://coderefinery.org/processed_images/1b3a829492dfb39d00.png"
+               alt="Nordic e-Infrastructure Collaboration logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>The Nordic e-Infrastructure Collaboration (NeIC) is an organisation that
+facilitates the development and operation of high-quality e-Infrastructure
+solutions in areas of joint Nordic interest. The NeIC is a distributed
+organisation consisting of technical experts from academic high-performance
+computing centres across the Nordic countries.
+</p>
+      </div>
+    </div>
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="https:&#x2F;&#x2F;www.sigma2.no" target="_blank">UNINETT Sigma2</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="https:&#x2F;&#x2F;www.sigma2.no" target="_blank">
+          <img src="https://coderefinery.org/processed_images/c791087055695ccc00.jpg"
+               alt="UNINETT Sigma2 logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>UNINETT Sigma2 AS manages the national infrastructure for computational science
+in Norway and offers services in high performance computing and data storage.
+The services are organized in research infrastructure projects, financed by the
+Research Council of Norway and the University of Bergen, the University of
+Oslo, the University of Tromsø and the Norwegian University of Science and
+Technology.
+</p>
+      </div>
+    </div>
+  
+    <div class="row top-buffer">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <h3><a href="http:&#x2F;&#x2F;www.snic.se" target="_blank">Swedish National Infrastructure for Computing</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="http:&#x2F;&#x2F;www.snic.se" target="_blank">
+          <img src="https://coderefinery.org/processed_images/38ad8225b569900300.png"
+               alt="Swedish National Infrastructure for Computing logo">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <p>The Swedish National Infrastructure for Computing (SNIC) is a national research
+infrastructure that provides a balanced and cost-efficient set of resources and
+user support for large scale computation and data storage to meet the needs of
+researchers from all scientific disciplines and from all over Sweden
+(universities, university colleges, research institutes, etc). The resources
+are made available through open application procedures such that the best
+Swedish research is supported.
+</p>
+      </div>
+    </div>
+  
+
+
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <p>
+            <strong>Funding</strong>
+          </p>
+          <p>
+            CodeRefinery is a project within the
+            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Privacy</strong>
+          </p>
+          <p>
+            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Follow us</strong>
+          </p>
+          <p>
+            <a href="https://github.com/coderefinery" target="_blank">
+              <img src="https://coderefinery.org/processed_images/b4cc1d3c13d7ddeb00.png"
+                   alt="CodeRefinery GitHub account">
+            </a>
+            <a href="https://twitter.com/coderefine" target="_blank">
+              <img src="https://coderefinery.org/processed_images/4103ca55758969cd00.png"
+                   alt="CodeRefinery Twitter account">
+            </a>
+          </p>
+        </div>
+        <div class="col-lg">
+          <p>
+            <strong>Contact</strong>
+          </p>
+          <p>
+            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+            integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8="
+            crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function() { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://coderefinery.org/sitemap.xml
