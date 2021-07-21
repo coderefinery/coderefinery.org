@@ -1,0 +1,15 @@
+{
+    "events": [
+        {
+            "topic": " Feedback and updates round",
+            "website": "https://hackmd.io/@coderefinery/H1XUL1Hiu",
+            "zoom": "",
+            "start_date": "2021-08-09",
+            "end_date": "2021-08-09",
+            "host": [
+                "Samantha Wittke"
+            ],
+            "invited": "All exercise leaders, helpers, exeprt helpers and instructors of 2020/21 CodeRefinery workshops"
+        }
+    ]
+}
