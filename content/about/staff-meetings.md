@@ -11,7 +11,7 @@ title = "Staff meeting minutes"
 - **Date:** 2021-07-19  
 - **Chair:** NT  
 - **Minutes taker:** NT  
-- **Present:**  
+- **Present:** RB, SN, NT  
 - **When:** 12:00 CEST / 13:00 EEST
 - **Where:** https://uit.zoom.us/j/65070953679 
 - **This document**: https://hackmd.io/@coderefinery/staff-meeting
