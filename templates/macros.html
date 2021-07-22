@@ -196,9 +196,9 @@
    
     <li>
       {% if event.website %}
-        <a href="{{ event.website }}" target=_blank>{{ event.topic }}</a>
+        <a href="{{ event.website }}" target=_blank>{{ event.name }}</a>
       {% else %}
-        {{ event.topic }}
+        {{ event.name }}
       {% endif %}
       <div style="color: #b0b0b0; display: inline;">
       {% if linebreak %}
@@ -219,11 +219,6 @@
       <p>
         Invited: {{ event.invited }}
       </p>
-      {% if event.zoom %}
-      <p>
-        Zoom: <a href="{{ event.zoom }}" target=_blank>{{ event.zoom }}</a>
-      </p>
-      {% endif %}
       </div>
     </li>
     
