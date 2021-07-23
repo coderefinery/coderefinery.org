@@ -18,4 +18,4 @@ and deliverables.
 Scope: All topics involving community onboarding, workshop scheduling,
 governance, and roadmap.
 
-Soon we will publish an agenda and meeting minutes here.
+{{ comunity() }}
