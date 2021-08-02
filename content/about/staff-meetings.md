@@ -8,10 +8,10 @@ title = "Staff meeting minutes"
 
 
 :::info
-- **Date:** 2021-07-19  
-- **Chair:** NT  
-- **Minutes taker:** NT  
-- **Present:** RB, SN, NT  
+- **Date:** 2021-08-02
+- **Chair:** RB
+- **Minutes taker:** 
+- **Present:** RB, RD, AF, JH, DI, JL, SN, NT 
 - **When:** 12:00 CEST / 13:00 EEST
 - **Where:** https://uit.zoom.us/j/65070953679 
 - **This document**: https://hackmd.io/@coderefinery/staff-meeting
@@ -19,14 +19,14 @@ title = "Staff meeting minutes"
 
 ## Next meeting
 
-- 2021-08-02, (RB)
+- 2021-08-16, (NT)
 
 
 ## About this document
 
 - Visibility: 
-    - We write so that it can become public.  
-    - Everybody who has the link during the meeting can edit. Otherwise logged-on users can edit.  
+    - We write so that it can become public.
+    - Everybody who has the link during the meeting can edit. Otherwise logged-on users can edit.
     - The minutes need to be reviewed and approved by the end of the meeting. 
 - All paid staff is invited to this meeting and expected to attend (unless vacation, sick leave, scheduling conflict).
 - We use one document (this document) for all meetings instead of creating a new one.
@@ -43,49 +43,53 @@ title = "Staff meeting minutes"
 
 ## Tasks (in progress or unassigned)
 
+- [ ] [RB] Assignment of relevant tasks (planning, recruiting of volunteers in the community, dissemination, etc.) regarding "Ask Us Anything"- community call on the 23rd Aug (2021-09)
 - [ ] [DI] Workshop, 2021 May - retrospective, document prepared and link shared
     - [x] Richard's notes from the coordination HackMD and Zulip in [this HackMD](https://hackmd.io/@dianai/lessons-learned-May-2021)
     - [ ] DI fixes categories and polishes the document more. Pls. add any comments/suggestions at the top of the document.
-    - document tasks what other persons can contribute so that we can move it futher
+    - [ ] document tasks what other persons can contribute so that we can move it futher
 - [ ] [JH, RB] organize meeting/open house to finalize the workflow for getting citable lessons in August.
-    * Half-day event to be organized
+    * Half-day event to be organized (fill in [doodle](https://doodle.com/poll/73pwmeyrxqamgn33) by the 4th Aug )
     * Everyone who contributed (github) will be added as contributor. 
     * Then we ask each contributor if they want to be an author.
     * Release “idea”: get both source + rendered in zenodo with one DOI for each release.
     * https://docs.readthedocs.io/en/stable/versions.html
     * Also installation guides and manuals should be released and citable (they are very useful also and were a lot of work and are being reused in places)
-- [ ] [RB] Draft governance board and onboarding procedure
+- [x] [RB] Draft [governance board](https://hackmd.io/@coderefinery/HyiwKZN1F) 
+- [ ] [RB] Draft onboarding procedure
 - [ ] [~~NT~~ ,RB] De-Google Drive work
    * work started and data move in progress
    * plan is to move public data to GitHub and to remove outdated text
    * RB will ask input regarding decisions on what to keep and where
 - [ ] [RB (for inititiation)] Draft "lessons learned" document from project
    * produce a lesson's document learned from the project
-   * after a draft is produced other memembers should contribute
+   * after a draft is produced other members should contribute
 - [ ] [RB] Secure some follow-up for GitLab service
-- [ ] [all] Prepare for autumn workshop
-   * think of the date, October ?
+- [ ] ~~[all] Prepare for autumn workshop~~
+   ~~* think of the date, October ?~~
 - [ ] [NT, RB] Processing pre-/post-workshop survey to prepare for the 1) talk at RDA Nordic (Aug 30) and 2) final report (may involve others as well later) (2021-03)
    * RB is working on making (editing) scripts to process survey responses and will send PR
+   * NT found that the difference in the survey format between Typeform-based surveys (2017 and early 2018) and Indico-based surveys (late 2018 and over) made it unreasonable to use the same analysis-method that was used for the Typeform-based surveys for a part of questions. [Details](https://github.com/coderefinery/post-workshop-survey/pull/10)
 - [ ] [RB] Schedule 1-1 calls with everybody about tasks to get better balance
 - [ ] [RB] Finalizing the payment for 1 paid workshop
     * RB is waiting for an input from the payer side
 - The meeting with exercise leaders, helpers and expert helpers on the 9th August (including information about certificate).
-    - [ ] [RB] Start/locate a chat thread on this topic and collect what documents we already have
+    - [x] [RB] Start/locate a chat thread on this topic and collect what documents we already have
     - [ ] [RB] Agreeing on the agenda of the meeting 
-    - [ ] [SN] Website and Twitter (re-tweet it)
+    - [x] [SN] Website and Twitter (re-tweet it)
     - [ ] [RB] Email to ELs
-    - [ ] [NT] Schedule a prep meeting? with some ideas of concrete questions -> 2nd Aug. 13:00 CEST: 
-        - [ ] make sure SW has time for this
-- [ ] [RB] Ask other PMs how they manage support/request emails
+    - [x] [NT] Schedule a prep meeting? with some ideas of concrete questions -> 2nd Aug. 13:00 CEST: 
+        - [x] make sure SW has time for this
+- [x] [RB] Ask other PMs how they manage support/request emails
+
 
 ## Decisions
 
-Decisions made in the meeting should be listed with the item-number.  
+Decisions made in the meeting should be listed with the item-number.
 
->Ex.
->- 2021-MM-DD: An example decision in one-two sentences >and possibly link to more context, (related item->number).
-
+- 2021-08-02: Paid staff will attend "Community calls" as well, as this is to be where we will discuss more big picture and "interesting"-topics in-depth. However, community calls are also open to anyone interested in CodeRefinery. Community call topics will be defined at least two weeks in advance and communicated to the CodeRefinery community (email invitation for paid staff, twitter, website)
+- 2021-08-02: Autumn workshop within the phase 2 is not prioritized to setting up the sustainability phase regardless of funding from NeIC or not (2021-11)
+- 2021-08-02: Open House for making lessons citable to be held with paid-staff as "supposed to attend" and open to anyone interested (2021-06)
 - 2021-07-05: Pre-/post-workshop survey will be processed for the talk on the 30th Aug at RDA Nordic and for the final report (see the task as well) (2021-03)
 - 2021-07-05: RB to schedule 1-1 talks with everybody about task assignment and optimal task tracking since everybody prefers different ways to track items and we don't seem to agree on 1 solution that works for everybody. (2021-02)
 - 2021-07-05: Meeting minutes for each meeting saved as commit history of a single file in github.com/coderefinery/coderefinery.org (2021-01)
@@ -94,6 +98,33 @@ Decisions made in the meeting should be listed with the item-number.
 ## Discussion items
 
 Each new discussion item gets a number. It is OK that the same item may be discussed in several meetings. Please add items that you would like that we discuss.
+
+
+### 2021-08-02
+
+- [x] 2021-11: Starting the scheduling process for the last full workshop of phase 2
+   - The mandate/committment for phase 2 has been fulfilled so "we don't have to prove anything" in terms of another workshop before October 2021
+   - It can also be after phase 2 formal ends, can also happen in November or later, to not put too much pressure on the project since many other tasks have to be done
+   - Consider a streaming-only workshop which would simplify onboarding, communication, and coordination
+- [x] 2021-10: Community call one week from now, agenda: https://hackmd.io/@coderefinery/community-call
+   - RB would appreciate some feedback before sending out emails which already seems late
+   - Discussed more in a separate meeting
+   - Email will go out tonight
+- [x] 2021-09: "Ask Us Anything"- community call on the 23rd Aug; assignment of relevant tasks (planning, recruiting of volunteers in the community, dissemination, etc.)
+   - RB will ask on chat and assign tasks
+- [ ] 2021-08: Feedback on document about [celebration event](https://hackmd.io/jFc-3yDRRkKIwv57HqK-QQ?view)
+- [ ] 2021-07: Draft for [governance document](https://hackmd.io/uFIZF6x1TROxWwPCqGecsg). Very early stage drafty draft. Please comment/edit/ask.
+    - 2021-08-02
+        - Who are/to be involved: everybody who is interested. Working group will be formed.
+        - Clearly state that the goal is a non-profit organization
+        - Clearly define what should be governed
+        - Reference book: "[AGILE STARTUP BOARDS](https://www.boardmangrow.fi/content/uploads/2018/03/Agile-Boards-leaflet.pdf)"
+        - Need to define minimum to be able to apply for funding (ex.) and have others join the project in-kind/volunteer.
+    - To be continued on the 2021-08-16 
+- [x] 2021-06: "Open house" event to make CodeRefinery lessons citable.
+  - Doodle poll: https://doodle.com/poll/73pwmeyrxqamgn33 by the 4th Aug.
+  - Staff are all supposed to attend (i.e. must to fill in the doodle), while volunteers are welcome
+
 
 ### 2021-07-19
 
@@ -111,7 +142,7 @@ Each new discussion item gets a number. It is OK that the same item may be discu
     - RB has collected and annonymized them and they are in CodeRefinery HackMD (one document). Feedback from all previous workshops is on Google Drive.
 - [x] 2021-03: Pre- and post-workshop survey: status and next steps. This data will be central to our reporting and also help RB preparing the talk at RDA Nordic (August 30; see "Information").
     - it would need what FAIR means, we have data on technique and tools and data how they changed their work after attending a workshop
-    - usage statitistics can be a starting point for a Nordic survey/overview
+    - usage statistics can be a starting point for a Nordic survey/overview
     - help is needed so data can be made presentable on the coderefienry website
 - [x] 2021-02: Task clarification for the rest of the current project period. (ref. [minutes from 2021-06-21](https://docs.google.com/document/d/19KfHyGEH9_ZDbcmwq6EhQHJfKmV0taJgadjCam3KKP0/edit#heading=h.8diefinqvirx)"Administrative challenges for remaining months"). Should we revive the issue board? Or use the website? Or can we just use this document in future (top section) for tracking tasks?
    - due dates may help 
@@ -130,9 +161,6 @@ RB watching support line until we organise next event.
 
 
 ## Done tasks
-
->Ex.
->- [x] Example task that is done
 
 - [x] [RB] Update meeting invite to be 1 hour instead of 30 mins
 - [x] [NT, RB] Connect to a md file in the coderefinery.org repository of CR GH account and make a meta file 
