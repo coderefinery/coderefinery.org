@@ -11,6 +11,11 @@ concrete dates:
 - Workshop about Julia
 
 
+### Community calls
+
+More details on [this page](/about/meeting-minutes/)
+
+
 ### Past workshops and events
 
 See [this page](/workshops/past/) for a list of past workshops.

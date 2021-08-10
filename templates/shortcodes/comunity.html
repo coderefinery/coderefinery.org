@@ -1,8 +1,0 @@
-{% import "macros.html" as macros %}
-
-<div class="row">
-    <div class="col-md-12">
-        {% set data = load_data(path="content/workshops/community-calls.json") %}
-        {{ macros::list_of_community_calls(data=data, linebreak=false) }}
-    </div>
-</div>
