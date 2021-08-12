@@ -14,7 +14,7 @@ name: Build/deploy website
 env:
   ZOLA_VERSION: "0.13.0"
   MAIN_BRANCH: "main"
-  TARGET_BRANCH: "gh-pages"
+  PUBLISH_BRANCH: "gh-pages"
   #DEPLOY_ORGANIZATION: ""
   #CNAME: xxx   # or make a CNAME in the root
 
@@ -76,6 +76,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
+        publish_branch: ${{ env.PUBLISH_BRANCH }}
         force_orphan: true
     #- name: Commit and push to target branch
     #  if: github.ref == 'refs/heads/{{ env.MAIN_BRANCH }}'
