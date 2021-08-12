@@ -85,7 +85,8 @@
     <div class="col-md-3">
       <div class="panel">
         <a href="/repository/">
-          <img src="{{ resize_image(path="img/terminal.png", width=200, op="fit_width") | safe }}"
+          {% set terminal = resize_image(path="img/terminal.png", width=200, op="fit_width") %}
+          <img src="{{ terminal.url }}"
                alt="image of a terminal"/>
         </a>
         <div class="top-buffer">
