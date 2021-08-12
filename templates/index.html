@@ -6,7 +6,8 @@
 
   <div class="row top-buffer">
     <div class="col-sm-4">
-      <img src="{{ resize_image(path="logo/coderefinery.png", width=300, op="fit_width") | safe }}"
+      {% set coderefinery = resize_image(path="logo/coderefinery.png", width=300, op="fit_width") %}
+      <img src="{{ coderefinery.url }}"
            alt="CodeRefinery logo" class="pull-left mr-2"/>
     </div>
     <div class="col-sm-8">
@@ -42,7 +43,8 @@
     <div class="col-md-3">
       <div class="panel">
         <a href="/workshops/about/">
-          <img src="{{ resize_image(path="img/classroom.png", width=200, op="fit_width") | safe }}"
+          {% set classroom = resize_image(path="img/classroom.png", width=200, op="fit_width") %}
+          <img src="{{ classroom.url }}"
                alt="picture of a classroom"/>
         </a>
         <div class="top-buffer">
@@ -62,7 +64,8 @@
     <div class="col-md-3">
       <div class="panel">
         <a href="/lessons/">
-          <img src="{{ resize_image(path="img/wordcloud.png", width=200, op="fit_width") | safe }}"
+          {% set wordcloud = resize_image(path="img/wordcloud.png", width=200, op="fit_width") %}
+          <img src="{{ wordcloud.url }}"
                alt="wordcloud"/>
         </a>
         <div class="top-buffer">
