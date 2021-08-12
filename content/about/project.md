@@ -16,7 +16,7 @@ namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
 
 ## Core Activities
 
-* We provide a code repository hosting service that is open and free for all researchers based in universities and research institutes from Nordic countries.
+* We provide a code repository hosting service that is open and free for all researchers based in national universities and research institutes from Nordic countries.
 * We develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 * We offer training opportunities:
 
@@ -83,10 +83,7 @@ best practices skills to facilitate open and reproducible research.
 modular, reusable, maintainable, sustainable, reproducible, testable, and
 robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
-* **Online workshops** - Since April 2020, we also offer **online workshops**. 
-workshop focuses on one lesson from our [training material](/lessons/)
-and takes place during one or two 3-hour sessions in an online meeting
-room.
+* **Online workshops** - Since April 2020, we offer both "full-package" workshops by 6 half-days over 2 weeks with the same contents as 2-day in-person workshop ([training material](/lessons/)) and shorter workshops focusing on one or a limited number of lessons. 
 * **Requesting a workshop** - Would you like to host a CodeRefinery workshop at your home institution?
 **[Get in touch](/get-involved/#contact-us) if this sounds interesting!**
 Note that even though CodeRefinery is a Nordic project, we are interested in giving workshops
