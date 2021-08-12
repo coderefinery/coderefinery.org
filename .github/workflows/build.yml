@@ -12,7 +12,7 @@
 name: Build/deploy website
 
 env:
-  ZOLA_VERSION: "0.13.0"
+  ZOLA_VERSION: "0.14.0"
   MAIN_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
   #DEPLOY_ORGANIZATION: ""
