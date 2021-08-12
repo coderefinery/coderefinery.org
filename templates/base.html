@@ -31,6 +31,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -50,7 +51,7 @@
 
   <body>
 
-    <div class="container">
+    <header>
 
       <!-- navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
@@ -115,8 +116,11 @@
           </ul>
         </div>
       </nav>
-      <!-- end navigation -->
+      </header>
 
+      <!-- end navigation -->
+<main role="main">
+    <div class="container">
       <div class="row top-buffer">
         <div class="col">
           {% if page.title %}
@@ -130,59 +134,57 @@
 
       {% block content %}
       {% endblock content %}
-
+    </div>
+  </main>
       <!-- footer -->
-      <div class="row">
-        <div class="col">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg">
-          <p>
-            <strong>Funding</strong>
-          </p>
-          <p>
-            CodeRefinery is a project within the
-            <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
-            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Privacy</strong>
-          </p>
-          <p>
-            <a href="/privacy-policy/" target="_blank">Privacy policy</a>
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Follow us</strong>
-          </p>
-          <p>
-            <a href="https://github.com/coderefinery" target="_blank">
-              <img src="{{ resize_image(path="icons/github.png", width=30, op="fit_width") | safe }}"
-                   alt="CodeRefinery GitHub account">
-            </a>
-            <a href="https://twitter.com/coderefine" target="_blank">
-              <img src="{{ resize_image(path="icons/twitter.png", width=30, op="fit_width") | safe }}"
-                   alt="CodeRefinery Twitter account">
-            </a>
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Contact</strong>
-          </p>
-          <p>
-            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
-          </p>
-        </div>
-      </div>
+      <footer class="text-muted">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg">
+              <p>
+                <strong>Funding</strong>
+              </p>
+              <p>
+                CodeRefinery is a project within the
+                <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+                NeIC is an organisational unit under <a href="http://www.nordforsk.org/en" target="_blank">NordForsk</a>.
+              </p>
+            </div>
+            <div class="col-lg">
+              <p>
+                <strong>Privacy</strong>
+              </p>
+              <p>
+                <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+              </p>
+            </div>
+            <div class="col-lg">
+              <p>
+                <strong>Follow us</strong>
+              </p>
+              <p>
+                <a href="https://github.com/coderefinery" class="social" target="_blank">
+                  <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+                </a>
+                <a href="https://twitter.com/coderefine"  class="social" target="_blank">
+                  <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+                </a>
+              </p>
+            </div>
+            <div class="col-lg">
+              <p>
+                <strong>Contact</strong>
+              </p>
+              <p>
+                <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+              </p>
+            </div>
+          </div>
       <!-- end footer -->
 
-    </div>
+        </div>
+    </footer>
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

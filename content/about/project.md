@@ -1,5 +1,6 @@
 +++
 title = "The CodeRefinery project"
+template = "page-with-toc.html"
 +++
 
 ## Objectives

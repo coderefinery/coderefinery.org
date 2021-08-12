@@ -1,5 +1,6 @@
 +++
 title = "Get involved"
+template = "page-with-toc.html"
 +++
 
 CodeRefinery consists of two parts: an **open source project** producing lesson
@@ -21,6 +22,7 @@ workshops in a slightly different way, but our general philosophy, lesson
 material, and procedures are interchangeable. Our lessons should be considered
 Carpentries lessons.
 
+---
 
 ### Become a workshop helper
 
@@ -113,6 +115,7 @@ you help us run workshops, we give workshops at your institution.
 Please take a look at [training hubs
 page](https://coderefinery.org/about/hubs/) for more information.
 
+---
 
 ## Contact us
 
