@@ -27,6 +27,10 @@ footer .social:hover{
   text-decoration: none;
 }
 
+.panel .top-buffer {
+    flex-grow: 1;
+}
+
 p {
   padding: 0;
   margin-bottom: 12px;
@@ -45,6 +49,10 @@ div.panel {
   column-gap: 10px;
   background-color: #F3F6F9;
   flex: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 2px #cfdcea;
 }
 
 .button_more {
@@ -59,6 +67,12 @@ div.panel {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
+}
+
+.button_more:hover{
+  color: white;
+  background-color: #5996d3;
+  text-decoration: none;
 }
 
 img {
