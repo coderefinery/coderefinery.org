@@ -4,8 +4,8 @@
   {{ page.date | date(format="%B %d, %Y") }}
 
   <hr>
-
-  <img src="{{ resize_image(path="open-house/coderefinery_openhouse.png", width=500, op="fit_width") | safe }}"
+  {% set image = resize_image(path="open-house/coderefinery_openhouse.png", width=500, op="fit_width") %}
+  <img src="{{ image.url }}"
            alt="coderefinery open house logo"/>
 
   <div class="top-buffer">

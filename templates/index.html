@@ -6,7 +6,8 @@
 
   <div class="row top-buffer">
     <div class="col-sm-4">
-      <img src="{{ resize_image(path="logo/coderefinery.png", width=300, op="fit_width") | safe }}"
+      {% set coderefinery = resize_image(path="logo/coderefinery.png", width=300, op="fit_width") %}
+      <img src="{{ coderefinery.url }}"
            alt="CodeRefinery logo" class="pull-left mr-2"/>
     </div>
     <div class="col-sm-8">
@@ -39,10 +40,10 @@
   <div class="row top-buffer">
 
     <!-- box "training opportunities" -->
-    <div class="col-md-3">
       <div class="panel">
         <a href="/workshops/about/">
-          <img src="{{ resize_image(path="img/classroom.png", width=200, op="fit_width") | safe }}"
+          {% set classroom = resize_image(path="img/classroom.png", width=200, op="fit_width") %}
+          <img src="{{ classroom.url }}"
                alt="picture of a classroom"/>
         </a>
         <div class="top-buffer">
@@ -56,13 +57,12 @@
         </div>
         <a class="button_more" href="/workshops/about/">More ›</a></p>
       </div>
-    </div>
 
     <!-- box "lesson materials" -->
-    <div class="col-md-3">
       <div class="panel">
         <a href="/lessons/">
-          <img src="{{ resize_image(path="img/wordcloud.png", width=200, op="fit_width") | safe }}"
+          {% set wordcloud = resize_image(path="img/wordcloud.png", width=200, op="fit_width") %}
+          <img src="{{ wordcloud.url }}"
                alt="wordcloud"/>
         </a>
         <div class="top-buffer">
@@ -76,13 +76,12 @@
         </div>
         <a class="button_more" href="/lessons/">More ›</a></p>
       </div>
-    </div>
 
     <!-- box "code repository hosting" -->
-    <div class="col-md-3">
       <div class="panel">
         <a href="/repository/">
-          <img src="{{ resize_image(path="img/terminal.png", width=200, op="fit_width") | safe }}"
+          {% set terminal = resize_image(path="img/terminal.png", width=200, op="fit_width") %}
+          <img src="{{ terminal.url }}"
                alt="image of a terminal"/>
         </a>
         <div class="top-buffer">
@@ -95,14 +94,12 @@
         </div>
         <a class="button_more" href="/repository/">More ›</a></p>
       </div>
-    </div>
 
     <!-- box "research software hour" -->
-    <div class="col-md-3">
       <div class="panel">
         <a href="https://researchsoftwarehour.github.io/">
           <img src="https://raw.githubusercontent.com/ResearchSoftwareHour/researchsoftwarehour.github.io/main/static/img/logo-hashbang.png"
-               style="width: 150px"
+               style="width: 150px; max-height: 122.55px;"
                alt="ResearchSoftwareHour logo"/>
         </a>
         <div class="top-buffer">
@@ -117,7 +114,7 @@
         </div>
         <a class="button_more" href="https://researchsoftwarehour.github.io/">More ›</a></p>
       </div>
-    </div>
+
 
   </div><!-- row -->
 

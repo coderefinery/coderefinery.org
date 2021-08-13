@@ -3,7 +3,8 @@
 {% block content %}
   <div class="row top-buffer-more">
     <div class="col-md-4">
-      <img src="{{ resize_image(path="img/classroom.png", width=300, op="fit_width") | safe }}"
+      {% set image = resize_image(path="img/classroom.png", width=300, op="fit_width") %}
+      <img src="{{ image.url }}"
            alt="photo from a classroom" class="pull-left mr-2"/>
     </div>
     <div class="col-md-8">
