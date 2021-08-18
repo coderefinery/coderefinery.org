@@ -65,7 +65,7 @@ The requirements for a self-organized CodeRefinery workshop are:
 - Use CodeRefinery surveys to get evaluations and to help us collect feedback from the learners;
 - Abide by [The Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html);
 
-There is **no administrative fee** due to CodeRefinery for running a self-organized Carpentries workshop. 
+There is **no administrative fee** to run a self-organized CodeRefinery workshop. 
 
 If your workshop fulfill the requirements detailed above, it can be listed as a "self-organized CodeRefinery workshop" on our website at [Workshops/events](https://coderefinery.org/workshops/upcoming/) under **self-organized CodeRefinery workshops**. Please get in touch with us on  [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream to add it on our website.
 
