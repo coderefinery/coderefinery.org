@@ -42,7 +42,7 @@ The cost depends on the type of workshop and the membership tier your institutio
 
 #### CodeRefinery workshops with support of the CodeRefinery Team
 
-#### Self-organized CodeRefinery or Carpentries workshop
+#### Self-organized CodeRefinery workshop
 
 
 In the sections below, we provide you with more detailed information on each CodeRefinery or Carpentries type of self-organized workshop.
