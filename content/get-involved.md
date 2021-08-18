@@ -74,7 +74,7 @@ If your workshop fulfill the requirements detailed above, it can be listed as a 
 
 All CodeRefinery and The Carpentries training material are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), so you can teach this material yourself and mix and match with any other material.
 
-However, if you wish your workshop to be listed on our website, get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream.
+However, we would love to know when CodeRefinery lesson material is used for any type of training, including workshops, credited/non-credited courses, or other types of learning events! Please let us know on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream, as well as whether or not you wish your event to be listed in our website, under **self-organized workshops or training activities using CodeRefinery lesson material**.
 
 Your workshop will be listed on our website at [Workshops/events](https://coderefinery.org/workshops/upcoming/) under **self-organized workshops using CodeRefinery training material**.
 
