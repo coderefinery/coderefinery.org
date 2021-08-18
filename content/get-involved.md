@@ -71,7 +71,6 @@ If your workshop fulfill the requirements detailed above, it can be listed as a 
 
 #### Self-organized workshop or any training activity using CodeRefinery lessons
 
-There is **no administrative fee** due to CodeRefinery for running a self-organized workshop using CodeRefinery lessons. 
 
 All CodeRefinery and The Carpentries training material are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), so you can teach this material yourself and mix and match with any other material.
 
