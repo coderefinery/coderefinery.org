@@ -5,7 +5,7 @@ template = "page-with-toc.html"
 
 CodeRefinery has two main activities: 
 - maintain and further develop the CodeRefinery **open source project** to produce lesson material openly and collaboratively;
-- deliver workshops.  
+- deliver trainings, mainly by workshops with hands-on exercises and type-along sessions.  
 
 We are in the same galaxy as the [Carpentries organization](https://carpentries.org/) and closely work with them. 
 We run our workshops in a slightly different way, but our general philosophy, lesson
