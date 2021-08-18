@@ -63,7 +63,7 @@ The requirements for a self-organized CodeRefinery workshop are:
 - Teach at least three CodeRefinery lessons (we recommend one from the section **For yourself and larger**, one from **For your group and larger** and one from **For the community**);
 - Have at least one certified Carpentry or CodeRefinery instructor;
 - Use CodeRefinery surveys to get evaluations and to help us collect feedback from the learners;
-- Abide by [The Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html);
+- Abide by [CodeRefinery's Code of Conduct](https://coderefinery.org/about/code-of-conduct/);
 
 There is **no administrative fee** to run a self-organized CodeRefinery workshop. 
 
