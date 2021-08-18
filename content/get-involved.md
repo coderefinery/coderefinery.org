@@ -69,7 +69,7 @@ There is **no administrative fee** to run a self-organized CodeRefinery workshop
 
 If your workshop fulfill the requirements detailed above, it can be listed as a "self-organized CodeRefinery workshop" on our website at [Workshops/events](https://coderefinery.org/workshops/upcoming/) under **self-organized CodeRefinery workshops**. Please get in touch with us on  [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream to add it on our website.
 
-#### Self-organized workshop using CodeRefinery lessons
+#### Self-organized workshop or any training activity using CodeRefinery lessons
 
 There is **no administrative fee** due to CodeRefinery for running a self-organized workshop using CodeRefinery lessons. 
 
