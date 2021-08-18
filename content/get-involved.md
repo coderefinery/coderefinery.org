@@ -51,7 +51,7 @@ In the sections below, we provide you with more detailed information on each Cod
 
 The requirements for a self-organized Carpentries workshop can be found [here](https://carpentries.org/workshops/#workshop-core) on the Carpentries website.
 
-There is **no administrative fee** due to the Carpentries or CodeRefinery for running a self-organized Carpentries workshop. 
+There is **no administrative fee** to run a self-organized Carpentries workshop. 
 
 To add your Carpentries workshop in the list of upcoming workshops in the [CodeRefinery's "upcoming workshops" page](https://coderefinery.org/workshops/upcoming/), get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream. 
 
