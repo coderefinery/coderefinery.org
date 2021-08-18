@@ -53,7 +53,9 @@ The requirements for a self-organized Carpentries workshop can be found [here](h
 
 There is **no administrative fee** due to the Carpentries or CodeRefinery for running a self-organized Carpentries workshop. 
 
-To add your Carpentries workshop both to [the Carpentries upcoming workshops](https://carpentries.org/upcoming_workshops/) and [CodeRefinery upcoming workshops](https://coderefinery.org/workshops/upcoming/), get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream. 
+To add your Carpentries workshop in the list of upcoming workshops in the [CodeRefinery's "upcoming workshops" page](https://coderefinery.org/workshops/upcoming/), get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #request-workshops stream. 
+
+In [the registration form submitted to the Carpentries](https://amy.carpentries.org/forms/self-organised/), there is a question asking you if you wish to publish your workshop in [the Carpentries upcoming workshops](https://carpentries.org/upcoming_workshops/) (and if applicable, each Carpentry's upcoming workshops for Software, Data or Library Carpentry). 
 
 ##### Self-organized CodeRefinery workshop
 
