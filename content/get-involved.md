@@ -35,7 +35,7 @@ more about us.
 There are different ways to organize and deliver workshops using partly or entirely our training material. You can:
 
 - Request the support of the CodeRefinery Team to organize a CodeRefinery workshop;
-- Register a self-organized CodeRefinery or Carpentries workshop;
+- Register a self-organized CodeRefinery workshop;
 - Register a self-organized workshop using CodeRefinery or Carpentries lessons.
 
 The cost depends on the type of workshop and the membership tier your institution has subscribed. For more information, check our [Training Hubs](https://coderefinery.org/about/hubs/) section.
