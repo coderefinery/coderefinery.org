@@ -4,12 +4,7 @@ title = "Upcoming workshops and events"
 
 {{ upcoming() }}
 
-We have a number of events in preparation and will soon here announce more
-concrete dates:
-- Workshop about using containers (Docker and Singularity)
-- Workshop about mixed-language development (probably September)
-- Workshop about Julia
-
+There is no plan to organize any CodeRefinery workshops before the end of the NeIC funding period (2016-10-01 — 2021-10-31). We are working on the sustainability of CodeRefinery. For more information see our [Training hubs](https://coderefinery.org/about/hubs/) section.
 
 ### Community calls
 

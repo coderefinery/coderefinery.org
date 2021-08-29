@@ -4,6 +4,43 @@ title = "Training hubs"
 
 {{ hubs() }}
 
+From October 2016 to October 2021, CodeRefinery was a project funded by [NeIC](https://neic.no/) and the CodeRefinery community is amazing! We would like to continue providing similar services after the end of the project. 
+
+Our plan to make CodeRefinery sustainable:
+1. CodeRefinery governance;
+2. CodeRefinery Kickstarter campaign to be able to register CodeRefinery as an independent foundation;
+3. CodeRefinery membership
+
+## CodeRefinery governance
+
+We are currently working at establishing the CodeRefinery governance.
+
+## CodeRefinery Kickstarter
+
+We need your support to spin-off and register CodeRefinery as a foundation in one of the Nordic countries.
+
+CodeRefinery is working on setting up a kickstart campaign to raise the necessary funds.
+
+If you are interested, get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #kickstart-cr stream. 
+
+## CodeRefinery membership
+
+CodeRefinery is working on defining membership tiers with associated benefits to continue its activities. 
+
+We will offer different options such as:
+- Free membership with no in-kind trainers;
+- Free membership with in-kind trainers;
+- Basic annual membership;
+- Premium annual membership;
+
+We are working on defining the benefits for each option.
+
+## Hub cooperation
+
+As part of the CodeRefinery sustainability plan, hubs will allow to
+share instructors in-kind: since a workshop needs at least two or
+three instructors, instructors can travel between hubs so that we
+maintain community, share knowledge, and continue workshops.
 
 ## Current hubs
 
@@ -30,9 +67,3 @@ chat and become an instructor](/get-involved/). When you would like
 to be add to the list above, send a pull request.
 
 
-## Hub cooperation
-
-As part of the CodeRefinery sustainably plan, we hope that hubs can
-share instructors in-kind: since a workshop needs at least two or
-three instructors, instructors can travel between hubs so that we
-maintain community, share knowledge, and continue workshops.
