@@ -43,7 +43,7 @@ Suggestions and questions about topics not listed here always welcome.
 2. Thoughts about CodeRefinery future (10 min)  (Radovan)
      - RB's slides: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/main/rb-ideas.md/ 
 3. Participants 0,1 or 2 slides a proposed model or an existing example of an model (5 min each)
-    - Lex ([slides](https://docs.google.com/presentation/d/18aInfiMnMvsG0tSOznTo_jfyIPSg0m3O/edit?usp=sharing&ouid=117765752504171676718&rtpof=true&sd=true))
+    - Lex ([slides](https://docs.google.com/presentation/d/18amkAavFkxddoF1EtuLq-4eUc6HR54gy/edit?usp=sharing&ouid=117765752504171676718&rtpof=true&sd=true))
       - "Carpentries model": CR becomes a lesson program of the carpentries
       - RD: we should definitely become a lesson program somehow
       - RB: how long will this take?
