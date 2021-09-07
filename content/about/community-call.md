@@ -1,8 +1,6 @@
----
-
-title: CodeRefinery community call
-
----
++++
+title = "Community call meeting minutes"
++++
 
 # CodeRefinery community call
 
