@@ -8,10 +8,10 @@ title = "Staff meeting minutes"
 
 
 :::info
-- **Date:** 2021-09-27
-- **Chair:** DI
-- **Minutes taker:** DI
-- **Present** : DI, ME, NT, SN, RB, JH, JL, RD, SR, AF
+- **Date:** 2021-10-11
+- **Chair:** NT
+- **Minutes taker:** 
+- **Present** : RB, RD, ME, JH, DI, JL, SN, SR, NT
 - **When:** 12:00 CEST / 13:00 EEST
 - **Where:** https://uit.zoom.us/j/65070953679 
 - **This document**: https://hackmd.io/@coderefinery/staff-meeting
@@ -19,7 +19,7 @@ title = "Staff meeting minutes"
 
 ## Next meeting
 
-- 2021-10-11, (Chair: NT)
+- 2021-10-25, (Chair: NT)
 
 
 ## About this document
@@ -42,96 +42,58 @@ title = "Staff meeting minutes"
 
 
 ## Tasks (in progress or unassigned)
-- [ ] [RB] Preparation of the next community call (date Oct 4) with the agenda [Workshops year 2022 planning document](https://hackmd.io/@coderefinery/Workshops2022)
-    - [ ] As preparation we could get an inventory of possible workshops and events.
-    - [ ] As preparation read and fill in the document before October 4
-    - [ ] announce the commmunity call on Twitter
-- [ ] [ME] Streaming VPS Solution for live stream selection, light editing, compressing and uploading to YouTube 
-    - there were some discussions with RD and RB about this.  We continue this thursday 16.september at 14 CEST, if you want to join let us know.
+- [x] [RB] Preparation of the next community call (date Oct 4) with the agenda [Workshops year 2022 planning document](https://hackmd.io/@coderefinery/Workshops2022)
+    - [x] As preparation we could get an inventory of possible workshops and events.
+    - [x] As preparation read and fill in the document before October 4
+    - [x] announce the commmunity call on Twitter
+- [ ] [ME] Streaming VPS Solution for live stream selection, live production (OBS switchboard, API), compressing and uploading to YouTube 
+    - there were some discussions with RD and RB about this.  We continue this thursday 16.september at 14 CEST, if you want to join let us know
+    - 2021-10-11: OBS is not compatible with Managed server infrastructure on AU / UCloud. CHCAA will supply and maintain a dedicated server for this purpose as part of our contributions in CodeRefinery's phase 3.
     - motivation: decentralize video production
 - [ ] Make CR lessons citable
-    - [x] Open house on citable lessons ["Workflow to make CR lessons citable via Zenodo"](https://hackmd.io/pr3hps9SRgWwSPOHWRMWXA?view#Workflow-to-make-CR-lessons-citable-via-Zenodo)
     - [ ] [JH] GitHub actions generation of pdfs from the lessons 
           - Tried out pdf generation offline. Why the 'Could not import extension sphinx_lesson (exception: No module named 'sphinx_lesson')' error when typing `make html`? Missing something in the sphinx install on my laptop?
           - Clone the present GitHub action `.github/workflows/sphinx.yml` to an action that implement a sphinx `make latexpdf` step?
-        - [x] [JH] Testing CITATION.cff again 
-        - [x] [JH] Making sure the 3 categories we defined still then map to CITATION.cff
-             - The 3 categories are
-               - "creator": significant contributions
-               - "contributor"/Editor: reviewing/approving contributions
-               - "contributor"/Other: smaller contributions
-          - CITATION.cff has the category 'author'.
-          - Zenodo has the categories 'creators' and 'contributors'
-          - To keep to the 3 desired categories would involve manual editing of the metadata Zenodo.
-        - [x] [JH] Create a demo on a fork+sandbox where this is demonstrated for one lesson
-          - [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE)
-        - [ ] [RB] Draft email/issue to send to all contributors 
-          - or on github issue to have it in one place
-          - email persons that do not respond on github issues  
-        - [x] create an ORCID research community (DI checks how to do it)
-          - Seems organizations can obtain ORCID only by becoming ORCID members https://info.orcid.org/about-membership/ . The annual fee for a Basic membership is 5 150 USD, with a 20% discount for non-profits, and 75% discount for small & start-up organizations. 
-          - Many universities are ORCID members, KTH being one https://orcid.org/members/001G000001EA3k9IAD-kth-royal-institute-of-technology
-          - If a membership fee is required, suggestion is that we hold off for the time being.
-          - [ ] [RB] check with NeIC if one can get an organization account for free
-        - [x] [DI] Check how to create a Zenodo community and link with the ORCID one
-           - Our Zenodo sandbox community
-       https://sandbox.zenodo.org/communities/coderefinery/
-           - Real Zenodo community could preferably be registered by login in to Zenodo via the Code Refinery organization GitHub account
-           - also find out whether records can be added to communities retroactively 
-             - This is possible. "communities" are edited as metadata which is editable after the release/publication as well. The [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE) was created, and its 'community' metadata was added afterwards.
-      - [ ] Everyone who would like to include his/her ORCID on the Zenodo releases, please register or update personal ORCID.
-      - [x] [JH] Present progress on the workflow at upcoming CR staff meeting
-         - I could give a brief update Sep 27
+          -> RD, RB and JH will take a look.
+    - [ ] [RB] Draft email/issue to send to all contributors 
+      - or on github issue to have it in one place
+      - email persons that do not respond on github issues  
+    - [ ] Everyone who would like to include his/her ORCID on the Zenodo releases, please register or update personal ORCID.
 - [ ] [DI, ME] Workshop, 2021 May - retrospective, document prepared and link shared
     - [x] Richard's notes from the coordination HackMD and Zulip in [this HackMD](https://hackmd.io/@dianai/lessons-learned-May-2021)
     - [x] DI fixes categories and polishes the document more. Pls. add any comments/suggestions at the top of the document.
-    - [ ] [DI] transform the lessons learned document into a blog
-- [ ] [~~NT~~ ,RB, AF] De-Google Drive work
+    - [ ] [DI] transform the lessons learned document into a blog -> send a PR
+- [x] [~~NT~~ ,RB, AF] De-Google Drive work
    * work started and data move in progress
    * plan is to move public data to GitHub and to remove outdated text
    * RB will ask input regarding decisions on what to keep and where
-   - [ ] Move data with names (e.g. who we issued certificates) temporarily (at least) to UiTs OneDrive-based folder  (would Metacenter G-suite is an alternative ? )
-   - [ ] Move anonymized feedback to HackMD/Coderefinery 
+   - [x] Move data with names (e.g. who we issued certificates) temporarily (at least) to UiTs OneDrive-based folder  (would Metacenter G-suite is an alternative ? )
+   - [x] Move anonymized feedback to HackMD/Coderefinery 
 - [ ] [RB (for inititiation)] Draft "lessons learned" document from project
    * produce a lesson's document learned from the project
    * after a draft is produced other members should contribute
    * all comments/ bullet points welcome: https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ
-- [ ] [RB] Secure some follow-up for GitLab service
+- [x] [RB] Secure some follow-up for GitLab service
    * Planning document: https://hackmd.io/@bast/gitlab-future
    * Discussions ongoing
    * There will probably be some solution (ETAIS or Sigma2)
-- [x] [NT, RB] Analyze post-workshop survey
-   * Result: https://github.com/coderefinery/post-workshop-survey
-   * Follow-up:
-     * [x] [NT] Collect results for 2021 workshop
-         * [x] [invitation draft](https://hackmd.io/MzbCBqA7R0qVnsZSiqTIoA?view#For-attendees-in-2021)
-     * [x] Create new release/DOI
-     * [x] [NT] update [coderefinery.org, impact page](https://coderefinery.org/workshops/impact/) -> [PR](https://github.com/coderefinery/coderefinery.org/pull/572), please review and merge, or ask for revisions.
-     * [x] -> Revisions are done [pre-](https://github.com/coderefinery/pre-workshop-survey/pull/20)/[post-](https://github.com/coderefinery/post-workshop-survey/pull/12)
+   * Closed since follow-up needs to happen probably outside of this group
 - [ ] [RB] Celebration event
-    - [ ] Doodle poll
+    - [ ] Schedule a 1.5 hour lunch event in November
     - [ ] Collect addresses and send gifts
     - [ ] Prepare video
     - [ ] Postprocess feedback
     - [ ] Prepare slideshow from feedback
     - [ ] Encourage others to submit a video
-- [x] [RD] Lead preparation of community call Sep 20 with focus on workshop planning
-- [x] [RB] Make past meeting minutes easier to browse, see: https://github.com/coderefinery/coderefinery.org/issues/570
-- [x] [NT] Investigate how Freshdesk treats personal data deleted from "our" Freshdesk.
-    - [Freshdesk's GDPR-related page](https://freshdesk.com/gdpr)
-    - [Permanent deletion of tickets](https://support.freshdesk.com/support/solutions/articles/217539-spam-and-trash) 
-         >A ticket will be present in the spam or trash view only for 30 days, after which Freshdesk will be deleting it permanently.
-    - [Permanent deletion of contacts](https://support.freshdesk.com/support/solutions/articles/227558-can-i-completely-delete-a-contact-from-freshdesk-/)
-        > It will take a few seconds for each contact to be completely purged. During this time, the contact will be inaccessible. 
-    - Ref. [Data processing addendum](https://www.freshworks.com/data-processing-addendum/), chap 12 "Deletion or Return of Personal Data"
-         >Controller may export all Service Data prior to the termination of the Customer’s Account. In any event, following the termination of the Customer’s Account, (i) subject to (ii) and (iii) below and the MSA and/or TermsMSA and/or Terms , Service Data will be retained for a period of 14 days from such termination within which Controller may contact Processor to export Service Data; (ii) where the Controller does not use custom mailbox and uses the e-mail feature, if available within the Service(s), e-mails forming part of Service Data are automatically archived for a period of 3 months; and (iii) logs are archived for a period of thirty (30) days in the log management systems, post which logs are retired to a restricted archived cold storage for a period of eleven (11) months (each a “Data Retention Period”). Beyond each such Data Retention Period, Processor reserves the right to delete all Service Data in the normal course of operation except as necessary to comply with Processor’s legal obligations, maintain accurate financial and other records, resolve disputes, and enforce its agreements. Service Data cannot be recovered once it is deleted.
-     - We will delete all tickets that need no follow up and delete all contacts (RB has started doing this)
-- [ ] [NT] Making a draft for the newsletter before unsubscribing everyone
+- [ ] [NT] Making a draft for the newsletter before unsubscribing everyone -> NT needs help here as she wonders now what is the most appropriate to write including unsubscribe/newly subscribe to newsletter. [Draft](https://hackmd.io/xrxbEi9GT6yaN6sQP6DCaQ) 
+        - [ ] can write that we don't know what the next plat form is and the readers will be notified when more is fixed and known.
+- [ ] [RB] Collect governance/bylaws notes and present them at a community call
 
 ## Decisions
 
 Decisions made in the meeting should be listed with the item-number.
-- [2021-09-27] We will continue using tinyletter for newsletters regarding upcoming events (2021-13).
+- 2021-10-11: We will modify the privacy policy to make it in line with the reality in which we don't know yet concrete plans on data-migrations etc (2021-13).
+- 2021-10-11: monthly meeting (more open and general) + bi-weekly stand-up like meetings. JH will set up a Doodle with suggestions for a standing day and time for these meetings. (2021-19)
 
 **Old decisions are listed in the section at the bottom.**
 
@@ -139,13 +101,60 @@ Decisions made in the meeting should be listed with the item-number.
 ## Discussion items
 
 Each new discussion item gets a number. It is OK that the same item may be discussed in several meetings. Please add items that you would like that we discuss.
+
+- [ ] 2021-22: Hacktoberfest (postponed)
+  - Any interest in doing something? One small thing to do would be to enable our project/repos and announce on Twitter.
+  - But maybe it's just one thing too many to start?
+
+- [ ] 2021-21: Data cleanup (postponed)
+  - Google Drive folder is almost empty, all personal information is gone
+  - Freshdesk: all contacts deleted and all tickets (except 2 active ones) are deleted
+  - What should we do with Indico data?
+
+- [ ] 2021-20: Celebration event (postponed)
+  - 1.5 hour lunch event November, completely voluntary
+  - RB kindly asks whether somebody would like to help preparing (especially the feedback/slides but also 2 people make better decisions than 1 person)
+  - It was suggested to submit videos but this will only work if more people want to actually do this. So do we want to do this?
+
+- [x] 2021-19: Future of staff meetings and core team stream
+  - RB will from now try to avoid using core team since from now on almost everything is for everybody.
+  - We have only one staff meeting left after this one (if we find it useful to have it). But there is also the Python training event.
+  - Community calls are left but frequency will be lowered to monthly (or even lower).+1
+  - Do we need to schedule any other recurrent meetings at this point or do we leave it to others and to the future?
+  - Do we need any private stream on the chat?
+  - JH: On the return to on-site work, meetings at 12:00 schedule clash with lunch breaks. For November 2021 and onwards, we could consider to have any new standing times for meetings to avoid 11:00 - 13:00 CET (12:00 - 14:00 EET).
+  - SR: We need  at least a booked time slot for meeting where we can call meetings without a call. For a formal inkind contribution, personally I need this to keep my focus. 
+  - RD: proposal: "cabal meetings" (public and somewhat frequent, most people not expected to attend but those that are really pushing CR forward use this as a hacktime/discussion time).  Then the general meetings, less frequent, focused on the general interest stuff.  There will always me more and less focused people, we should adapt to that.
+  - About frequency: it should be fun and motivating to come to this meeting and should not create too much overlap with other work
+  - RD: there is basically an internal management team now (not just NeIC management).  Maybe this best describes what I think: we need multiple levels of internal meetings to reflect this.
+  - RD: why separate staff meeting?  staff should be seen as part of the community
+  - **Decision** Nov-Dec; monthly meeting (more open and general) + bi-weekly stand-up like meetings. JH will set up a Doodle with suggestions for a standing day and time for these meetings. 
+
+
+- [x] 2021-18: Impressions from steering group meeting: https://wiki.neic.no/wiki/CodeRefinery2-SG-meeting-2021-10-07
+  - What remains to be done from the steering group perspective
+  - Future of GitLab service: How to organize support.
+
+- [x] 2021-17: Negotiation phase and next steps: What we know after a couple of meetings last week.
+    - 5th Nov contact persons in the consortium partners will be meeting and discuss budget, start date, and staffing situation and governance (steering group setup)
+    - to be discussed but we will favor that each partner gets the chance to be represented
+    - another worry is that there is a too rigid structure for joining
+    - project start will be most likely 1st Jan
+    - Q. A new member in business expertise is needed?
+        - A. Yes, it will be ideal.
+        - KTH&Uppsala, there is group called the Innovation Office that help out researchers to start up a small business or put researchers in contact with Industry. They could have some ideas on what kind of [non-]profit organization would be suitable for CR.
+
 - [x] 2021-16: Research Software Hour (RSH) to be adopted as CodeRefinery project?
     - No problem and encourage to use CR twitter and CR website for this but RB considers this to be both CR and Nordic-RSE project and both Twitter accounts can (and should?) be used 
-- [ ] 2021-15: Please help out with [Lessons learned document](https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ?view)
-- [ ] 2021-14: Consider on-site work-meeting to kickstart next phase of Code Refinery. Two to three days in January or February 2022?
+- [x] 2021-15: Please help out with [Lessons learned document](https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ?view)
+   - keeping open as todo
+- [x] 2021-14: Consider on-site work-meeting to kickstart next phase of Code Refinery. Two to three days in January or February 2022?
+    - **Decision** Now the NeIC funding is approved and the budget covers traveling costs of those for both in-kind contributors and NeIC-paid staff, and there could be a way to fund other individual contributors or persons from new in-kind contributing organizations. The issue is basically for the sustainability phase and the discussion is carried over to the susstainability phase. 
     - Open to everyone interested in CR. Most people could get the travel covered by the employer, but it would be good to have the possibility to offer travel support for those that need it.
-    - Could be scheduled as an event just before or after to the NeIC all hands meeting as no additional travel would be required if the same location/city is chosen.
-- [ ] 2021-13: [Privacy policy: "How long we store the data"](https://coderefinery.org/privacy-policy/#how-long-we-store-the-data) shows "Stored names and email addresses of users will be removed with the end of this project (2021-10-31)"
+    - Could be scheduled as an event just before or after to the NeIC all hands meeting (would be in-person, late Jan) as no additional travel would be required if the same location/city is chosen.
+- [x] 2021-13: [Privacy policy: "How long we store the data"](https://coderefinery.org/privacy-policy/#how-long-we-store-the-data) shows "Stored names and email addresses of users will be removed with the end of this project (2021-10-31)"
+    - 2021-10-11: **the end** of the project is extended? If it can be considered in that way, isn't it better to modify the date writtein in the privacy policy, while investigating what the best way is in the future?
+        - We can change the end date and be honest to say that nothing relevant to privacy policy in new sustainable phase of the project is yet decided as well as that we inform when things are set. 
     - Notification to "users"? ([Definition section](https://coderefinery.org/privacy-policy/#definitions) shows; "_Users_ \- people who use and/or contribute to our services including workshops, trainings, events, lesson materials, other materials under on our website and other online resources, newsletters, notification form, and those who send inquiries to support@coderefinery.org.
 ")
     - Any plan/place to invite those interested for continued involvement? Zulip? (is it possible to keep using Zulip, btw?) 
@@ -167,7 +176,11 @@ Each new discussion item gets a number. It is OK that the same item may be discu
             - [ ] investigate how to do it technically
             - [ ] we send a final email to exported list of tinyletter contacts and we ask them via email
             - [ ] in the resubscribe letter also describe/encourage how to get involved
-- [ ] 2021-07: Draft for [governance document](https://hackmd.io/uFIZF6x1TROxWwPCqGecsg). Very early stage drafty draft. Please comment/edit/ask.
+
+- [x] 2021-07: Draft for [governance document](https://hackmd.io/uFIZF6x1TROxWwPCqGecsg). Very early stage drafty draft. Please comment/edit/ask.
+    - This will be a community call topic. Not relevant anymore in this context.
+    - 2021-10-11
+        - Shouldn't it be taken in the community call where all the committers for the sustainability phase join for futher discussion rather than this staff meeting?
     - 2021-09-13
         - Reflection on [the community call on the 6th Sep](https://coderefinery.org/about/community-call/)
         - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/about/hubs/)
@@ -198,7 +211,55 @@ RB watching support line until we organise next event.
 
 
 ## Done tasks
-
+- Make CR lessons citable (part of sub-tasks)
+    - [x] Open house on citable lessons ["Workflow to make CR lessons citable via Zenodo"](https://hackmd.io/pr3hps9SRgWwSPOHWRMWXA?view#Workflow-to-make-CR-lessons-citable-via-Zenodo)
+    - [x] [JH] Testing CITATION.cff again 
+    - [x] [JH] Making sure the 3 categories we defined still then map to CITATION.cff
+        - The 3 categories are
+            - "creator": significant contributions
+            - "contributor"/Editor: reviewing/approving contributions
+            - "contributor"/Other: smaller contributions
+        - CITATION.cff has the category 'author'.
+        - Zenodo has the categories 'creators' and 'contributors'
+        - To keep to the 3 desired categories would involve manual editing of the metadata Zenodo.
+    - [x] [JH] Create a demo on a fork+sandbox where this is demonstrated for one lesson
+          - [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE)    
+    - [x] create an ORCID research community (DI checks how to do it)
+        - Seems organizations can obtain ORCID only by becoming ORCID members https://info.orcid.org/about-membership/ . The annual fee for a Basic membership is 5 150 USD, with a 20% discount for non-profits, and 75% discount for small & start-up organizations. 
+        - Many universities are ORCID members, KTH being one https://orcid.org/members/001G000001EA3k9IAD-kth-royal-institute-of-technology
+        - If a membership fee is required, suggestion is that we hold off for the time being.
+        - [x] [RB] check with NeIC if one can get an organization account for free
+           - This was unfortunately not possible
+    - [x] [DI] Check how to create a Zenodo community and link with the ORCID one
+           - Our Zenodo sandbox community
+       https://sandbox.zenodo.org/communities/coderefinery/
+           - The real Zenodo community could preferably be registered by login in to Zenodo via the Code Refinery organization GitHub account
+           - also find out whether records can be added to communities retroactively 
+             - This is possible. "communities" are edited as metadata which is editable after the release/publication as well. The [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE) was created, and its 'community' metadata was added afterwards.
+    - [x] [JH] Present progress on the workflow at upcoming CR staff meeting
+         - JH gave a brief update Sep 27
+- [DI, ME] Workshop, 2021 May - retrospective, document prepared and link shared (Part of sub-tasks)
+    - [x] Richard's notes from the coordination HackMD and Zulip in [this HackMD](https://hackmd.io/@dianai/lessons-learned-May-2021)
+    - [x] DI fixes categories and polishes the document more. Pls. add any comments/suggestions at the top of the document.
+- [x] [RB] Make past meeting minutes easier to browse, see: https://github.com/coderefinery/coderefinery.org/issues/570
+- [x] [NT] Investigate how Freshdesk treats personal data deleted from "our" Freshdesk.
+    - [Freshdesk's GDPR-related page](https://freshdesk.com/gdpr)
+    - [Permanent deletion of tickets](https://support.freshdesk.com/support/solutions/articles/217539-spam-and-trash) 
+         >A ticket will be present in the spam or trash view only for 30 days, after which Freshdesk will be deleting it permanently.
+    - [Permanent deletion of contacts](https://support.freshdesk.com/support/solutions/articles/227558-can-i-completely-delete-a-contact-from-freshdesk-/)
+        > It will take a few seconds for each contact to be completely purged. During this time, the contact will be inaccessible. 
+    - Ref. [Data processing addendum](https://www.freshworks.com/data-processing-addendum/), chap 12 "Deletion or Return of Personal Data"
+         >Controller may export all Service Data prior to the termination of the Customer’s Account. In any event, following the termination of the Customer’s Account, (i) subject to (ii) and (iii) below and the MSA and/or TermsMSA and/or Terms , Service Data will be retained for a period of 14 days from such termination within which Controller may contact Processor to export Service Data; (ii) where the Controller does not use custom mailbox and uses the e-mail feature, if available within the Service(s), e-mails forming part of Service Data are automatically archived for a period of 3 months; and (iii) logs are archived for a period of thirty (30) days in the log management systems, post which logs are retired to a restricted archived cold storage for a period of eleven (11) months (each a “Data Retention Period”). Beyond each such Data Retention Period, Processor reserves the right to delete all Service Data in the normal course of operation except as necessary to comply with Processor’s legal obligations, maintain accurate financial and other records, resolve disputes, and enforce its agreements. Service Data cannot be recovered once it is deleted.
+     - We will delete all tickets that need no follow up and delete all contacts (RB has started doing this)
+- [x] [RD] Lead preparation of community call Sep 20 with focus on workshop planning
+- [x] [NT, RB] Analyze post-workshop survey
+   * Result: https://github.com/coderefinery/post-workshop-survey
+   * Follow-up:
+     * [x] [NT] Collect results for 2021 workshop
+         * [x] [invitation draft](https://hackmd.io/MzbCBqA7R0qVnsZSiqTIoA?view#For-attendees-in-2021)
+     * [x] Create new release/DOI
+     * [x] [NT] update [coderefinery.org, impact page](https://coderefinery.org/workshops/impact/) -> [PR](https://github.com/coderefinery/coderefinery.org/pull/572), please review and merge, or ask for revisions.
+     * [x] -> Revisions are done [pre-](https://github.com/coderefinery/pre-workshop-survey/pull/20)/[post-](https://github.com/coderefinery/post-workshop-survey/pull/12)
 - [x] [RB] Schedule 1-1 calls with everybody about tasks to get better balance
     - Ongoing, still a few left for scheduling
 - [x] [RB] Ask other PMs how they manage support/request emails
@@ -227,7 +288,7 @@ RB watching support line until we organise next event.
 
 
 ## Archive of decisions
-
+- 2021-09-27: We will continue using tinyletter for newsletters regarding upcoming events (2021-13).
 - 2021-09-13: Privacy-policy and communication relevant decisions for transition to a new phase of CR (2021-13)
     - By the 31st Oct, all the sign-up info for workshops stored in Indico and email inquiries in Freshdesk are deleted.
     - We will consolidate communication towards Zulip since it makes it easy to unwatch and also unregister
