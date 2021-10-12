@@ -1,6 +1,32 @@
 {
     "events": [
         {
+            "name": "Python for Scientific Computing",
+            "website": "https://scicomp.aalto.fi/training/scip/python-for-scicomp/",
+            "start_date": "2021-10-25",
+            "end_date": "2021-10-28",
+            "Organizer": [
+                "Richard Darst",
+                "Enrico Glerean"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Enrico Glerean",
+                "Johan Hellsvik",
+                "Diana Iusan",
+                "Pavlin Mitev",
+                "Thomas Pfau",
+                "Dhanya Pushpadas",
+                "Jarno Rantaharju",
+                "Sabry Razick",
+                "Simo Tuomisto",
+                "Marijn van Vliet",
+                "Samantha Wittke"
+            ],
+            "helpers": []
+        },
+        {
             "name": "CodeRefinery workshop with focus on Git and GitLab for Metacenter",
             "website": "https://coderefinery.github.io/2021-03-25-online/",
             "start_date": "2021-03-25",
