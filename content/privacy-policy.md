@@ -2,6 +2,22 @@
 title = "CodeRefinery Privacy policy"
 +++
 
+**Update, 12th October 2021**
+
+In short:
+- Due to the continuation of the project and to keep it possible to issue certificates, we will keep the workshop/hackathon/training participants' data until December 2024.
+- When we know which newsletter/notify-me platform to use in the new project phase (hopefully by early next year), we will notify the current newsletter/notify-me subscribers to subscribe to a new platform and unsubscribe all of them from the current ones after the notification email is sent.
+
+On the 1st October 2021, it was announced that CodeRefinery will receive partial financial support by NeIC for the next 3 years (CodeRefinery Sustainability Phase, CodeRefinery SP)(Ref. https://neic.no/news/2021/10/01/2021-open-call-results/ ). The next phase of the CodeRefinery project is mainly consisting of in-kind contributions by diverse partner organizations. In this new phase, we need to renew our privacy policy, but we need some time before the new privacy policy is set. 
+
+We will continue using our online community spaces and the current owners/administrators will remain until new roles are set in the CodeRefinery SP.
+
+Despite the privacy policy we set describes that the "Stored names and email addresses of users will be removed with the end of this project (2021-10-31)", we need to prolong this date by the further 3 years to keep it possible to issue certificates of participation in the workshop as long as the project exists. Therefore, we will keep information of the participants who are qualified to certificates (either as learner, helper, expert helper, or exercise lead) in the currently used platform, Indico, managed by NeIC. The currently participating staff who is also committed to be a part of the CodeRefinery SP have access to the information.
+
+We will notify subscribers to both newsletters and notify-me form about the upcoming change and that we will keep the platform until we know which platform will be used in the new phase. In that notification, we will clarify when the currently registered information will be deleted from each of the platforms and where to re-register for notify-me and newsletter. If a user wants to unsubscribe before that, they are welcome to do so anytime.
+
+----
+
 This Privacy Policy covers person identifiable information that may be provided to CodeRefinery. Your data only comes from what you decide to provide to us by understanding privacy policy of the platforms we are using for different purposes as shown below. Changes to this Privacy Policy will be posted on this page. Any changes will only apply to information collected after the posted date of any such change. Additionally, information may be provided to governmental bodies and other entities as required by law. 
 
 ## Definitions
