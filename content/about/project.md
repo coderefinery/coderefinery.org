@@ -11,7 +11,7 @@ so that research groups can collaboratively develop, test,
 review and discuss their source code, with the aim of making it shareable and reusable,
 thus following the FAIR principles.
 
-We serve as a hub for research software engineers in the Nordic countries, 
+Through our spin-off project [Nordic-RSE](https://nordic-rse.org), we serve as a hub for research software engineers in the Nordic countries, 
 namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
 
 

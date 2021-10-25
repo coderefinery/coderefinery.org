@@ -14,7 +14,7 @@ Our target audience is learners who already have some experience with programmin
 
 Anyone may contribute to the CodeRefinery open source project. 
 
-From 2016-10-01 to 2021-10-31, CodeRefinery received funding from [NeIC](https://neic.no/) and delivered a large number of face to face and online workshops to the Nordic Community.
+From 2016-10-01 to 2021-10-31, CodeRefinery received funding from [NeIC](https://neic.no/) and delivered a large number of face to face and online workshops to the Nordic Community.  After that point, we are a community project seeking volunteers to sustain what we have accomplished in the first five years.
 
 CodeRefinery is always looking for both people and institutions that can
 promote the FAIRness of software management and development practice. There are

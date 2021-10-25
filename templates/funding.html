@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+  Until October 2021, the following partners contributed to
+  CodeRefinery as part of the Nordic e-Infrastructure Collaboration
+  project.
+
   {% set data = load_data(path="content/about/funding/partners.toml") %}
 
   {% for partner in data.partners %}
