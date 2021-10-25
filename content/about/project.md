@@ -23,6 +23,7 @@ namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
 
     * Carpentries 2-day workshops in the Nordics (6 workshops each year). The workshop fee is on us, only the instructor travel is on the host institution.
     * CodeRefinery workshops to grow researchers' software best practices skills. These workshops aim at consolidating knowledge learnt during Carpentries workshops and focus on teaching professional tools for efficiently developing and maintaining research software. In-person workshops are typically 3 days, while online workshops are typically 6 half days over 2 weeks.
+    * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
     * Instructor training workshops to learn to organise and teach Carpentries and CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
 ---
