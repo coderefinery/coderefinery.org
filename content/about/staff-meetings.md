@@ -8,10 +8,10 @@ title = "Staff meeting minutes"
 
 
 :::info
-- **Date:** 2021-10-11
+- **Date:** 2021-10-25
 - **Chair:** NT
-- **Minutes taker:** 
-- **Present** : RB, RD, ME, JH, DI, JL, SN, SR, NT
+- **Minutes taker:** all who could
+- **Present** : RB, RD, JH, DI, JL, BL, SN, NT
 - **When:** 12:00 CEST / 13:00 EEST
 - **Where:** https://uit.zoom.us/j/65070953679 
 - **This document**: https://hackmd.io/@coderefinery/staff-meeting
@@ -19,7 +19,7 @@ title = "Staff meeting minutes"
 
 ## Next meeting
 
-- 2021-10-25, (Chair: NT)
+- Staff meeting in Phase 2 is over. JH will inform the result of Doodle poll about stand-up meetings for the following phase.
 
 
 ## About this document
@@ -42,58 +42,50 @@ title = "Staff meeting minutes"
 
 
 ## Tasks (in progress or unassigned)
-- [x] [RB] Preparation of the next community call (date Oct 4) with the agenda [Workshops year 2022 planning document](https://hackmd.io/@coderefinery/Workshops2022)
-    - [x] As preparation we could get an inventory of possible workshops and events.
-    - [x] As preparation read and fill in the document before October 4
-    - [x] announce the commmunity call on Twitter
 - [ ] [ME] Streaming VPS Solution for live stream selection, live production (OBS switchboard, API), compressing and uploading to YouTube 
     - there were some discussions with RD and RB about this.  We continue this thursday 16.september at 14 CEST, if you want to join let us know
     - 2021-10-11: OBS is not compatible with Managed server infrastructure on AU / UCloud. CHCAA will supply and maintain a dedicated server for this purpose as part of our contributions in CodeRefinery's phase 3.
     - motivation: decentralize video production
 - [ ] Make CR lessons citable
-    - [ ] [JH] GitHub actions generation of pdfs from the lessons 
-          - Tried out pdf generation offline. Why the 'Could not import extension sphinx_lesson (exception: No module named 'sphinx_lesson')' error when typing `make html`? Missing something in the sphinx install on my laptop?
-          - Clone the present GitHub action `.github/workflows/sphinx.yml` to an action that implement a sphinx `make latexpdf` step?
-          -> RD, RB and JH will take a look.
-    - [ ] [RB] Draft email/issue to send to all contributors 
-      - or on github issue to have it in one place
-      - email persons that do not respond on github issues  
-    - [ ] Everyone who would like to include his/her ORCID on the Zenodo releases, please register or update personal ORCID.
+    - [ ] priority 1: Write down JH's knowledge
+    - [ ] priority 2: Making the lessons citable in practice (having a separate meeting to decide who to be cited as what)
+* The followings are dropped for now (by the end of Oct. See Discussion item 2021-22 )
+*       - [ ] [JH] GitHub actions generation of pdfs from the lessons 
+              - Tried out pdf generation offline. Why the 'Could not import extension sphinx_lesson (exception: No module named 'sphinx_lesson')' error when typing `make html`? Missing something in the sphinx install on my laptop?
+              - Clone the present GitHub action `.github/workflows/sphinx.yml` to an action that implement a sphinx `make latexpdf` step?
+              -> RD, RB and JH will take a look.
+        - [ ] [RB] Draft email/issue to send to all contributors 
+          - or on github issue to have it in one place
+          - email persons that do not respond on github issues  
+        - [ ] Everyone who would like to include his/her ORCID on the Zenodo releases, please register or update personal ORCID.
+          - The ORCID will go into the CITATION.cff and/or .zenodo.json for each and every lesson for those author/contributors who would like to have ORCID stated.
+          - Seems there is on GitHub no natural place in the user profile / account settings where one can specify ORCID. One can use an ORCID or a GitHub account to log in on Zenodo.
 - [ ] [DI, ME] Workshop, 2021 May - retrospective, document prepared and link shared
-    - [x] Richard's notes from the coordination HackMD and Zulip in [this HackMD](https://hackmd.io/@dianai/lessons-learned-May-2021)
-    - [x] DI fixes categories and polishes the document more. Pls. add any comments/suggestions at the top of the document.
     - [ ] [DI] transform the lessons learned document into a blog -> send a PR
-- [x] [~~NT~~ ,RB, AF] De-Google Drive work
-   * work started and data move in progress
-   * plan is to move public data to GitHub and to remove outdated text
-   * RB will ask input regarding decisions on what to keep and where
-   - [x] Move data with names (e.g. who we issued certificates) temporarily (at least) to UiTs OneDrive-based folder  (would Metacenter G-suite is an alternative ? )
-   - [x] Move anonymized feedback to HackMD/Coderefinery 
 - [ ] [RB (for inititiation)] Draft "lessons learned" document from project
    * produce a lesson's document learned from the project
    * after a draft is produced other members should contribute
    * all comments/ bullet points welcome: https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ
-- [x] [RB] Secure some follow-up for GitLab service
-   * Planning document: https://hackmd.io/@bast/gitlab-future
-   * Discussions ongoing
-   * There will probably be some solution (ETAIS or Sigma2)
-   * Closed since follow-up needs to happen probably outside of this group
-- [ ] [RB] Celebration event
-    - [ ] Schedule a 1.5 hour lunch event in November
+- [ ] [RB] Celebration event -> See discussion item 2021-20 as well
+    - [ ] Schedule a 1.5 hour lunch event in November -> RB will send a doodle poll
     - [ ] Collect addresses and send gifts
     - [ ] Prepare video
     - [ ] Postprocess feedback
-    - [ ] Prepare slideshow from feedback
+    - [ ] [NT] Prepare slideshow from feedback
     - [ ] Encourage others to submit a video
-- [ ] [NT] Making a draft for the newsletter before unsubscribing everyone -> NT needs help here as she wonders now what is the most appropriate to write including unsubscribe/newly subscribe to newsletter. [Draft](https://hackmd.io/xrxbEi9GT6yaN6sQP6DCaQ) 
-        - [ ] can write that we don't know what the next plat form is and the readers will be notified when more is fixed and known.
+- [x] [NT] Making a draft for the newsletter before unsubscribing everyone -> NT needs help here as she wonders now what is the most appropriate to write including unsubscribe/newly subscribe to newsletter. [Draft](https://hackmd.io/xrxbEi9GT6yaN6sQP6DCaQ) 
+    - [x] can write that we don't know what the next plat form is and the readers will be notified when more is fixed and known.
+    - [x] can someone send it? -> NT sent on Friday 22nd Oct.
 - [ ] [RB] Collect governance/bylaws notes and present them at a community call
 
 ## Decisions
 
 Decisions made in the meeting should be listed with the item-number.
-- 2021-10-11: We will modify the privacy policy to make it in line with the reality in which we don't know yet concrete plans on data-migrations etc (2021-13).
-- 2021-10-11: monthly meeting (more open and general) + bi-weekly stand-up like meetings. JH will set up a Doodle with suggestions for a standing day and time for these meetings. (2021-19)
+
+- 2021-10-25: A separate meeting will be set for editing/updating the CodeRefinery homepage, especially top-page, "who we are", training hubs, and funding partners (2021-23)
+- 2021-10-25: Regarding the task "making lessons citable", at least know-how so far should be available in text, and a separate discussion will be held on concretize who is cited as what (2021-22)
+- 2021-10-25: Indico data prior to 2020 is to be deleted (2021-21)
+- 2021-10-25: Celebration event for lunch time on one Monday in November. Doodle poll will be sent by RB (2021-20)
 
 **Old decisions are listed in the section at the bottom.**
 
@@ -102,19 +94,48 @@ Decisions made in the meeting should be listed with the item-number.
 
 Each new discussion item gets a number. It is OK that the same item may be discussed in several meetings. Please add items that you would like that we discuss.
 
-- [ ] 2021-22: Hacktoberfest (postponed)
-  - Any interest in doing something? One small thing to do would be to enable our project/repos and announce on Twitter.
-  - But maybe it's just one thing too many to start?
+- [x] 2021-24: Meeting about leadership
+  - RB and RD would like to discuss with everybody interested how we take leadership from here
+  - It will be good to clarify this before the Nov 5 coordination meeting with the consortium
+  - Our goal is to collect the many notes about governance and leadership and prepare for Nov 5 meeting
+  - Please add yourself here if you would like to get a doodle poll for a meeting:
+  - Anyone wants to can join in the meeting on Nov 5 12-13:30 CEST?
+      - Should be possible, RB will raise this with the meeting organizer and share connection details
 
-- [ ] 2021-21: Data cleanup (postponed)
-  - Google Drive folder is almost empty, all personal information is gone
-  - Freshdesk: all contacts deleted and all tickets (except 2 active ones) are deleted
+- [x] 2021-23: coderefinery-staff on GitHub and coderefinery-team mailing list
+  - RB will disband the GitHub team "coderefinery-staff" but still keep everybody in the organization. You can remove yourself from the organization if you prefer so.
+  - RB will welcome more people who want to be co-admins/owners of the GitHub organization. Please let RB know. There is no barrier to this. It will mean some more work for you.
+  - Please inform RB if you would perfer to be removed from coderefinery-team mailing list (which has been used for calendar invites to meetings like this one). Possibly you can also remove yourself but RB is happy to do that.
+  - What should we do with https://coderefinery.org/about/who-we-are/? The minimum we probably need to do is to remove the distinction staff or not staff.
+    - RB send these points also by email 
+    - Help needed: what should be on the who-we-are page? How should it be presented? Goal is to present the project as community.
+    - In doubt we keep people visible for longer rather than removing them too early.
+    - Who we are-page and training-hub pages should be edited accordingly and also aligned with the kickstarter info on the page
+    - Also update/align funding partner page with consortium of next phase
+
+- [x] 2021-22: Remaining tasks
+  - We should not carry tasks to next month or next year, we will get plenty of new ones as time goes on
+  - Some tasks may need to be dropped
+  - RB: Citable lessons: this is a lot of work for one person (JH) and my recommendation is that we conclude something with 80% done instead of trying to make it 100%. The conclusion does not need to be that one or all lessons are citable but that we have a write-up on how this can be followed up in 2022 by possibly somebody else. If the pdf export is difficult, my (RB) recommendation is to not do it now. I want to remind that there are two aspects: credit and citability, and the other aspect is preservation. The former does not require pdf export. The latter may not be essential.
+  - Blog posts that are in progress: please open a draft pull request. It does not have to be finished but it will be easier to take it from there.
+
+- [x] 2021-21: Indico data
   - What should we do with Indico data?
+      - [Privacy policy](https://coderefinery.org/privacy-policy/) is updated with saying:
+       >we need to prolong this date by the further 3 years to keep it possible to issue certificates of participation in recent enough workshops (2020 and 2021) to be fair. Therefore, we will keep information of the participants who are qualified to certificates (either as learner, helper, expert helper, or exercise lead) in the currently used platform, Indico, managed by NeIC. The currently participating staff who is also committed to be a part of the CodeRefinery SP have access to the information.
+  - Can we delete all events prior to 2020?
+    - No objection to do so. RB will delete these events.
 
-- [ ] 2021-20: Celebration event (postponed)
+- [x] 2021-20: Celebration event
   - 1.5 hour lunch event November, completely voluntary
   - RB kindly asks whether somebody would like to help preparing (especially the feedback/slides but also 2 people make better decisions than 1 person)
   - It was suggested to submit videos but this will only work if more people want to actually do this. So do we want to do this?
+  - Date suggestions:
+    - Monday Nov 15, 12-13:30 CET, 13-14:30 EET
+    - Monday Nov 22, 12-13:30 CET, 13-14:30 EET
+    - Monday Nov 29, 12-13:30 CET, 13-14:30 EET
+  - Any of these times seem to work well but RB will send Doodle poll to all
+  - Suggestion was also made to just have the lunch together
 
 - [x] 2021-19: Future of staff meetings and core team stream
   - RB will from now try to avoid using core team since from now on almost everything is for everybody.
@@ -129,72 +150,7 @@ Each new discussion item gets a number. It is OK that the same item may be discu
   - RD: there is basically an internal management team now (not just NeIC management).  Maybe this best describes what I think: we need multiple levels of internal meetings to reflect this.
   - RD: why separate staff meeting?  staff should be seen as part of the community
   - **Decision** Nov-Dec; monthly meeting (more open and general) + bi-weekly stand-up like meetings. JH will set up a Doodle with suggestions for a standing day and time for these meetings. 
-
-
-- [x] 2021-18: Impressions from steering group meeting: https://wiki.neic.no/wiki/CodeRefinery2-SG-meeting-2021-10-07
-  - What remains to be done from the steering group perspective
-  - Future of GitLab service: How to organize support.
-
-- [x] 2021-17: Negotiation phase and next steps: What we know after a couple of meetings last week.
-    - 5th Nov contact persons in the consortium partners will be meeting and discuss budget, start date, and staffing situation and governance (steering group setup)
-    - to be discussed but we will favor that each partner gets the chance to be represented
-    - another worry is that there is a too rigid structure for joining
-    - project start will be most likely 1st Jan
-    - Q. A new member in business expertise is needed?
-        - A. Yes, it will be ideal.
-        - KTH&Uppsala, there is group called the Innovation Office that help out researchers to start up a small business or put researchers in contact with Industry. They could have some ideas on what kind of [non-]profit organization would be suitable for CR.
-
-- [x] 2021-16: Research Software Hour (RSH) to be adopted as CodeRefinery project?
-    - No problem and encourage to use CR twitter and CR website for this but RB considers this to be both CR and Nordic-RSE project and both Twitter accounts can (and should?) be used 
-- [x] 2021-15: Please help out with [Lessons learned document](https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ?view)
-   - keeping open as todo
-- [x] 2021-14: Consider on-site work-meeting to kickstart next phase of Code Refinery. Two to three days in January or February 2022?
-    - **Decision** Now the NeIC funding is approved and the budget covers traveling costs of those for both in-kind contributors and NeIC-paid staff, and there could be a way to fund other individual contributors or persons from new in-kind contributing organizations. The issue is basically for the sustainability phase and the discussion is carried over to the susstainability phase. 
-    - Open to everyone interested in CR. Most people could get the travel covered by the employer, but it would be good to have the possibility to offer travel support for those that need it.
-    - Could be scheduled as an event just before or after to the NeIC all hands meeting (would be in-person, late Jan) as no additional travel would be required if the same location/city is chosen.
-- [x] 2021-13: [Privacy policy: "How long we store the data"](https://coderefinery.org/privacy-policy/#how-long-we-store-the-data) shows "Stored names and email addresses of users will be removed with the end of this project (2021-10-31)"
-    - 2021-10-11: **the end** of the project is extended? If it can be considered in that way, isn't it better to modify the date writtein in the privacy policy, while investigating what the best way is in the future?
-        - We can change the end date and be honest to say that nothing relevant to privacy policy in new sustainable phase of the project is yet decided as well as that we inform when things are set. 
-    - Notification to "users"? ([Definition section](https://coderefinery.org/privacy-policy/#definitions) shows; "_Users_ \- people who use and/or contribute to our services including workshops, trainings, events, lesson materials, other materials under on our website and other online resources, newsletters, notification form, and those who send inquiries to support@coderefinery.org.
-")
-    - Any plan/place to invite those interested for continued involvement? Zulip? (is it possible to keep using Zulip, btw?) 
-      - We need to delete sign-up data of workshops by the end of the project (31 Oct)
-      - Notify-me (this is based on Indico)
-      - Newsletter tinyletter.com etc. - we need to inform users
-      - Challenge: which tech solution would we move to if we decide to move registrants?
-          - Can we off-load this to a third party ? make people use Google account and handle the privacy there
-      - Data processor agreements between hosting partners can make this really complicated
-      - Freshdesk:
-        - we continue using it until we have a better alternative
-        - we delete all past conversations
-      - Conclusions (written in the Decisions section as well):
-        - we will consolidate communication towards Zulip since it makes it easy to unwatch and also unregister
-        - we send an email to all notify-me registrants to inform them that we will discontinue the indico survey solution but encourage to follow updates on Zulip
-      - we are unsure how to collect email addresses for those who want to be notified but do not want to sign up for chat
-      - 2021-09-27: we plan to continue using tinyletter
-          - we then need to notify the users and ask them to resubscribe OR change the privacy policy
-            - [ ] investigate how to do it technically
-            - [ ] we send a final email to exported list of tinyletter contacts and we ask them via email
-            - [ ] in the resubscribe letter also describe/encourage how to get involved
-
-- [x] 2021-07: Draft for [governance document](https://hackmd.io/uFIZF6x1TROxWwPCqGecsg). Very early stage drafty draft. Please comment/edit/ask.
-    - This will be a community call topic. Not relevant anymore in this context.
-    - 2021-10-11
-        - Shouldn't it be taken in the community call where all the committers for the sustainability phase join for futher discussion rather than this staff meeting?
-    - 2021-09-13
-        - Reflection on [the community call on the 6th Sep](https://coderefinery.org/about/community-call/)
-        - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/about/hubs/)
-    - 2021-08-16
-        - Discussed with relevance to 2021-10. 
-        - The governance should come after the vision is set and shared.
-        - Community calls should be used as an arena for discussion including those who committed in-kind contributions in sustainability phase.
-    - 2021-08-02
-        - Who are/to be involved: everybody who is interested. Working group will be formed.
-        - Clearly state that the goal is a non-profit organization
-        - Clearly define what should be governed
-        - Reference book: "[AGILE STARTUP BOARDS](https://www.boardmangrow.fi/content/uploads/2018/03/Agile-Boards-leaflet.pdf)"
-        - Need to define minimum to be able to apply for funding (ex.) and have others join the project in-kind/volunteer.
-            - First describe how to continue with in-kind model after 31.10.2021
+      - Followup (2021-10-25): JH will send a reminder and summarize to 2 possible dates/times for bi-weekly meetings.
 
 
 ### Freshdesk Support
@@ -211,6 +167,24 @@ RB watching support line until we organise next event.
 
 
 ## Done tasks
+- [x] [RB] Secure some follow-up for GitLab service
+   * Planning document: https://hackmd.io/@bast/gitlab-future
+   * Discussions ongoing
+   * There will probably be some solution (ETAIS or Sigma2)
+   * Closed since follow-up needs to happen probably outside of this group
+- [x] [~~NT~~ ,RB, AF] De-Google Drive work
+   * work started and data move in progress
+   * plan is to move public data to GitHub and to remove outdated text
+   * RB will ask input regarding decisions on what to keep and where
+   - [x] Move data with names (e.g. who we issued certificates) temporarily (at least) to UiTs OneDrive-based folder  (would Metacenter G-suite is an alternative ? )
+   - [x] Move anonymized feedback to HackMD/Coderefinery 
+- [DI, ME] Workshop, 2021 May - retrospective, document prepared and link shared (part of sub-tasks)
+    - [x] Richard's notes from the coordination HackMD and Zulip in [this HackMD](https://hackmd.io/@dianai/lessons-learned-May-2021)
+    - [x] DI fixes categories and polishes the document more. Pls. add any comments/suggestions at the top of the document.
+- [x] [RB] Preparation of the next community call (date Oct 4) with the agenda [Workshops year 2022 planning document](https://hackmd.io/@coderefinery/Workshops2022)
+    - [x] As preparation we could get an inventory of possible workshops and events.
+    - [x] As preparation read and fill in the document before October 4
+    - [x] announce the commmunity call on Twitter
 - Make CR lessons citable (part of sub-tasks)
     - [x] Open house on citable lessons ["Workflow to make CR lessons citable via Zenodo"](https://hackmd.io/pr3hps9SRgWwSPOHWRMWXA?view#Workflow-to-make-CR-lessons-citable-via-Zenodo)
     - [x] [JH] Testing CITATION.cff again 
@@ -288,6 +262,8 @@ RB watching support line until we organise next event.
 
 
 ## Archive of decisions
+- 2021-10-11: monthly meeting (more open and general) + bi-weekly stand-up like meetings. JH will set up a Doodle with suggestions for a standing day and time for these meetings. (2021-19)
+- 2021-10-11: We will modify the privacy policy to make it in line with the reality in which we don't know yet concrete plans on data-migrations etc (2021-13).
 - 2021-09-27: We will continue using tinyletter for newsletters regarding upcoming events (2021-13).
 - 2021-09-13: Privacy-policy and communication relevant decisions for transition to a new phase of CR (2021-13)
     - By the 31st Oct, all the sign-up info for workshops stored in Indico and email inquiries in Freshdesk are deleted.
@@ -306,6 +282,51 @@ RB watching support line until we organise next event.
 
 
 ## Archive of discussions
+- [x] 2021-18: Impressions from steering group meeting: https://wiki.neic.no/wiki/CodeRefinery2-SG-meeting-2021-10-07
+  - What remains to be done from the steering group perspective
+  - Future of GitLab service: How to organize support.
+
+- [x] 2021-17: Negotiation phase and next steps: What we know after a couple of meetings last week.
+    - 5th Nov contact persons in the consortium partners will be meeting and discuss budget, start date, and staffing situation and governance (steering group setup)
+    - to be discussed but we will favor that each partner gets the chance to be represented
+    - another worry is that there is a too rigid structure for joining
+    - project start will be most likely 1st Jan
+    - Q. A new member in business expertise is needed?
+        - A. Yes, it will be ideal.
+        - KTH&Uppsala, there is group called the Innovation Office that help out researchers to start up a small business or put researchers in contact with Industry. They could have some ideas on what kind of [non-]profit organization would be suitable for CR.
+
+- [x] 2021-16: Research Software Hour (RSH) to be adopted as CodeRefinery project?
+    - No problem and encourage to use CR twitter and CR website for this but RB considers this to be both CR and Nordic-RSE project and both Twitter accounts can (and should?) be used 
+- [x] 2021-15: Please help out with [Lessons learned document](https://hackmd.io/XUbSv2NPT6OvTx8FLp1_oQ?view)
+   - keeping open as todo
+- [x] 2021-14: Consider on-site work-meeting to kickstart next phase of Code Refinery. Two to three days in January or February 2022?
+    - **Decision** Now the NeIC funding is approved and the budget covers traveling costs of those for both in-kind contributors and NeIC-paid staff, and there could be a way to fund other individual contributors or persons from new in-kind contributing organizations. The issue is basically for the sustainability phase and the discussion is carried over to the susstainability phase. 
+    - Open to everyone interested in CR. Most people could get the travel covered by the employer, but it would be good to have the possibility to offer travel support for those that need it.
+    - Could be scheduled as an event just before or after to the NeIC all hands meeting (would be in-person, late Jan) as no additional travel would be required if the same location/city is chosen.
+- [x] 2021-13: [Privacy policy: "How long we store the data"](https://coderefinery.org/privacy-policy/#how-long-we-store-the-data) shows "Stored names and email addresses of users will be removed with the end of this project (2021-10-31)"
+    - 2021-10-11: **the end** of the project is extended? If it can be considered in that way, isn't it better to modify the date writtein in the privacy policy, while investigating what the best way is in the future?
+        - We can change the end date and be honest to say that nothing relevant to privacy policy in new sustainable phase of the project is yet decided as well as that we inform when things are set. 
+    - Notification to "users"? ([Definition section](https://coderefinery.org/privacy-policy/#definitions) shows; "_Users_ \- people who use and/or contribute to our services including workshops, trainings, events, lesson materials, other materials under on our website and other online resources, newsletters, notification form, and those who send inquiries to support@coderefinery.org.
+")
+    - Any plan/place to invite those interested for continued involvement? Zulip? (is it possible to keep using Zulip, btw?) 
+      - We need to delete sign-up data of workshops by the end of the project (31 Oct)
+      - Notify-me (this is based on Indico)
+      - Newsletter tinyletter.com etc. - we need to inform users
+      - Challenge: which tech solution would we move to if we decide to move registrants?
+          - Can we off-load this to a third party ? make people use Google account and handle the privacy there
+      - Data processor agreements between hosting partners can make this really complicated
+      - Freshdesk:
+        - we continue using it until we have a better alternative
+        - we delete all past conversations
+      - Conclusions (written in the Decisions section as well):
+        - we will consolidate communication towards Zulip since it makes it easy to unwatch and also unregister
+        - we send an email to all notify-me registrants to inform them that we will discontinue the indico survey solution but encourage to follow updates on Zulip
+      - we are unsure how to collect email addresses for those who want to be notified but do not want to sign up for chat
+      - 2021-09-27: we plan to continue using tinyletter
+          - we then need to notify the users and ask them to resubscribe OR change the privacy policy
+            - [ ] investigate how to do it technically
+            - [ ] we send a final email to exported list of tinyletter contacts and we ask them via email
+            - [ ] in the resubscribe letter also describe/encourage how to get involved
 
 - [x] 2021-12: Reassignment of tasks and the plan until the end of the current phase? - are we on track?
     - Yes, we are on track :)
@@ -338,3 +359,22 @@ RB watching support line until we organise next event.
     - short videos can be submitted which can be added
     - add something entertaining to watch
     - lunch or dinner? lunch (we could use one of the staff meeting slots)
+
+- [x] 2021-07: Draft for [governance document](https://hackmd.io/uFIZF6x1TROxWwPCqGecsg). Very early stage drafty draft. Please comment/edit/ask.
+    - This will be a community call topic. Not relevant anymore in this context.
+    - 2021-10-11
+        - Shouldn't it be taken in the community call where all the committers for the sustainability phase join for futher discussion rather than this staff meeting?
+    - 2021-09-13
+        - Reflection on [the community call on the 6th Sep](https://coderefinery.org/about/community-call/)
+        - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/about/hubs/)
+    - 2021-08-16
+        - Discussed with relevance to 2021-10. 
+        - The governance should come after the vision is set and shared.
+        - Community calls should be used as an arena for discussion including those who committed in-kind contributions in sustainability phase.
+    - 2021-08-02
+        - Who are/to be involved: everybody who is interested. Working group will be formed.
+        - Clearly state that the goal is a non-profit organization
+        - Clearly define what should be governed
+        - Reference book: "[AGILE STARTUP BOARDS](https://www.boardmangrow.fi/content/uploads/2018/03/Agile-Boards-leaflet.pdf)"
+        - Need to define minimum to be able to apply for funding (ex.) and have others join the project in-kind/volunteer.
+            - First describe how to continue with in-kind model after 31.10.2021
