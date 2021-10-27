@@ -21,7 +21,7 @@ We need your support to spin-off and register CodeRefinery as a foundation in on
 
 CodeRefinery is working on setting up a kickstart campaign to raise the necessary funds.
 
-If you are interested, get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #kickstart-cr stream. 
+If you are interested, get in touch with us on [https://coderefinery.zulipchat.com](https://coderefinery.zulipchat.com) in #coderefinery stream. 
 
 ## CodeRefinery membership
 
