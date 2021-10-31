@@ -71,16 +71,26 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="{{ get_url(path="/about/project/") | safe }}">Project</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/reports/") | safe }}">Articles and reports</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/who-we-are/") | safe }}">Who we are</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/contributors/") | safe }}">Instructors and helpers</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/funding/") | safe }}">Funding partners</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/hubs/") | safe }}">Training hubs</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/impact/") | safe }}">Impact and testimonials</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/statistics/") | safe }}">Statistics</a>
                 <a class="dropdown-item" href="{{ get_url(path="/about/code-of-conduct/") | safe }}">Code of Conduct</a>
-                <a class="dropdown-item" href="{{ get_url(path="/about/meeting-minutes/") | safe }}">Meeting minutes</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/reports/") | safe }}">Articles and reports</a>
               </div>
             </li>
-
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Get Involved
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{ get_url(path="/organization/get-involved/") | safe }}">Get involved</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/who-we-are/") | safe }}">Who we are</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/contributors/") | safe }}">Instructors and helpers</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/funding/") | safe }}">Funding partners</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/hubs/") | safe }}">Training hubs</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/meeting-minutes/") | safe }}">Meeting minutes</a>
+	      </div>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -90,8 +100,6 @@
                 <a class="dropdown-item" href="{{ get_url(path="/workshops/about/") | safe }}">About our workshops</a>
                 <a class="dropdown-item" href="{{ get_url(path="/workshops/upcoming/") | safe }}">Upcoming workshops/events</a>
                 <a class="dropdown-item" href="{{ get_url(path="/workshops/past/") | safe }}">Past workshops/events</a>
-                <a class="dropdown-item" href="{{ get_url(path="/workshops/impact/") | safe }}">Impact and testimonials</a>
-                <a class="dropdown-item" href="{{ get_url(path="/workshops/statistics/") | safe }}">Statistics</a>
               </div>
             </li>
 
@@ -102,13 +110,10 @@
               <a class="nav-link" href="{{ get_url(path="/blog/") | safe }}">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ get_url(path="/repository/") | safe }}">Code repository hosting</a>
+              <a class="nav-link" href="{{ get_url(path="/repository/") | safe }}">Gitlab repository</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="{{ get_url(path="/resources/") | safe }}">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ get_url(path="/get-involved/") | safe }}">Get involved</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://neic.no" target="_blank">Funded by NeIC</a>
