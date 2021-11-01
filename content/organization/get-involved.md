@@ -91,19 +91,15 @@ guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
 
 ### Become an instructor
 
-There is no requirement for using our training material. However, to be
-We suggest that most instructors start with [Carpentries instructor
-training](https://carpentries.org/become-instructor/).  We have [instructor
+There is no requirement for using our training material. However, 
+we suggest that most instructors start with [Carpentries instructor
+training](https://carpentries.org/become-instructor/). We have [instructor
 training](https://coderefinery.github.io/instructor-training/), but
 this mostly serves as a complement focused on our lessons and more
 intermediate users.
 
-CodeRefinery reserves 15 seats per year for Carpentries instructor training. Please [get in
-touch](mailto:support@coderefinery.org) for more information if this
-sounds interesting.
-
 After taking either instructor training, you are welcome to
-self-organize a Carpentries workshop or join a workshop as an
+self-organize a CodeRefinery workshop or join a workshop as an
 instructor when instructors are recruited via #workshop stream of
 [CodeRefinery Zulip
 chat](https://coderefinery.github.io/manuals/chat/).

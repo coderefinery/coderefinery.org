@@ -21,10 +21,9 @@ namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
 * We develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 * We offer training opportunities:
 
-    * Carpentries 2-day workshops in the Nordics (6 workshops each year). The workshop fee is on us, only the instructor travel is on the host institution.
-    * CodeRefinery workshops to grow researchers' software best practices skills. These workshops aim at consolidating knowledge learnt during Carpentries workshops and focus on teaching professional tools for efficiently developing and maintaining research software. In-person workshops are typically 3 days, while online workshops are typically 6 half days over 2 weeks.
+    * CodeRefinery workshops to grow researchers' software best practices skills. These workshops aim at consolidating knowledge learnt during [Carpentries workshops](https://carpentries.org/workshops/) and focus on teaching professional tools for efficiently developing and maintaining research software. In-person workshops are typically 3 days, while online workshops are typically 6 half days over 2 weeks.
     * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
-    * Instructor training workshops to learn to organise and teach Carpentries and CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
+    * Instructor training workshops to learn to organise and teach CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
 ---
 
@@ -41,39 +40,6 @@ We offer training opportunities to researchers from Nordic research groups and p
 to learn basic-to-advanced research computing skills and become confident in using
 state-of-the-art tools and practices from modern collaborative software
 engineering.
-
-
-### Membership with [The Carpentries](https://carpentries.org)
-
-Since November 2018, [NeIC](https://neic.no) is a [platinum
-partner](https://carpentries.org/members/) to [The
-Carpentries](https://carpentries.org), an international project that comprises
-[Software Carpentry](https://software-carpentry.org) and [Data
-Carpentry](https://www.datacarpentry.org), communities of instructors,
-trainers, maintainers, helpers, and supporters who share a mission to teach
-foundational computational and data science skills to researchers.
-
-With this we have access to:
-
-- 6 [Carpentries workshops](https://carpentries.org/workshops/) in the Nordics each year. The workshop fee is on us, only the instructor travel is on the host institution.
-- 15 seats in the [Carpentries instructor training](https://carpentries.github.io/instructor-training/) each year.
-
-Carpentry workshops last 2 days.  Software Carpentry workshops include
-introductory lessons on Unix shell, version control with Git and
-programming in Python or R. Data Carpentry workshops are usually
-tailored to specific scientific disciplines. An overview of Carpentry
-curricula can be [found here](https://carpentries.org/workshops-curricula/)
-
-Please [get in touch](/get-involved/) if you would like to host a Carpentry workshop or become an instructor.
-
-
-#### Level of Carpentry workshops
-
-Carpentries workshops focus on creating a motivating and engaging environment for
-learners with no or little digital skills while our three day workshops are the next
-step.
-For beginners who don't yet write code but want to get started, we
-highly recommend attending a [Software Carpentry workshop](https://software-carpentry.org).
 
 
 ### CodeRefinery Workshops 
