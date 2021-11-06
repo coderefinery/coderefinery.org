@@ -28,6 +28,7 @@ community.
 - Special topics:
   - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
   - [Building portable code with CMake](https://coderefinery.github.io/cmake/)
+  - [CMake workshop (based on ENCCS version)](https://coderefinery.github.io/cmake-workshop/)
   - [Integrated development environments](https://coderefinery.github.io/IDEs/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
   - [Instructor training](https://coderefinery.github.io/instructor-training/)
