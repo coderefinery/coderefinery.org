@@ -4,7 +4,6 @@ title = "Upcoming workshops and events"
 
 {{ upcoming() }}
 
-There is no plan to organize any CodeRefinery workshops before the end of the NeIC funding period (2016-10-01 — 2021-10-31). We are working on the sustainability of CodeRefinery. For more information see our [Training hubs](https://coderefinery.org/about/hubs/) section.
 
 ### Community calls
 
