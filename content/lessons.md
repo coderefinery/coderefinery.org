@@ -106,11 +106,11 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 ## Recommended material created by other organizations/projects
 
 - [Software Carpentry lessons](https://software-carpentry.org/lessons/)
-- [Data Carpentry lessons](http://www.datacarpentry.org/lessons/)
+- [Data Carpentry lessons](https://datacarpentry.org/lessons/)
 - [Library Carpentry lessons](https://librarycarpentry.org)
 - [HPC Carpentry lessons](https://hpc-carpentry.github.io)
-- [Aalto Science-IT: Training from beginning to HPC](http://scicomp.aalto.fi/training/)
-- [Aalto Science-IT: HPC tutorials](http://scicomp.aalto.fi/training/#c-high-performance-computing)
+- [Aalto Science-IT: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
+- [Aalto Science-IT: HPC tutorials](https://scicomp.aalto.fi/training/#c-high-performance-computing)
 - [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
 
 
