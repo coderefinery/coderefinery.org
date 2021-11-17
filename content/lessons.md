@@ -64,6 +64,23 @@ a community you can join and give contributions to:
 - [Introduction to High-Performance Computing](https://sabryr.github.io/hpc-intro/)
 
 
+## Recommended material created by other organizations/projects
+
+- [Software Carpentry lessons](https://software-carpentry.org/lessons/)
+- [Data Carpentry lessons](https://datacarpentry.org/lessons/)
+- [Library Carpentry lessons](https://librarycarpentry.org)
+- [HPC Carpentry lessons](https://hpc-carpentry.github.io)
+- [Aalto Science-IT: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
+- [Aalto Science-IT: HPC tutorials](https://scicomp.aalto.fi/training/#c-high-performance-computing)
+- [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
+
+
+## Lessons we contributed to as instructors or helpers
+
+- [Introduction to Conda for (Data) Scientists](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/):
+  A lesson in the Carpentries Incubator.
+
+
 ### Teach our lessons
 
 All of our material is open source and collaboratively developed: you
@@ -101,20 +118,3 @@ contributing](https://coderefinery.github.io/manuals/contributing/).
 
 Lesson material is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (however note, some old ones may be CC BY-SA).
 Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
-
-
-## Recommended material created by other organizations/projects
-
-- [Software Carpentry lessons](https://software-carpentry.org/lessons/)
-- [Data Carpentry lessons](https://datacarpentry.org/lessons/)
-- [Library Carpentry lessons](https://librarycarpentry.org)
-- [HPC Carpentry lessons](https://hpc-carpentry.github.io)
-- [Aalto Science-IT: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
-- [Aalto Science-IT: HPC tutorials](https://scicomp.aalto.fi/training/#c-high-performance-computing)
-- [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
-
-
-## Lessons we contributed to as instructors or helpers
-
-- [Introduction to Conda for (Data) Scientists](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/):
-  A lesson in the Carpentries Incubator.
