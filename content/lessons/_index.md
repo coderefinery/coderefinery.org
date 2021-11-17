@@ -1,8 +1,6 @@
 +++
-title = "Lessons"
+title = "Our lessons"
 +++
-
-## Our lessons
 
 This is not a strict division, but lessons can be classified as to
 what is initially useful to yourself, to your group, and to the whole
@@ -64,57 +62,7 @@ a community you can join and give contributions to:
 - [Introduction to High-Performance Computing](https://sabryr.github.io/hpc-intro/)
 
 
-## Recommended material created by other organizations/projects
-
-- [Software Carpentry lessons](https://software-carpentry.org/lessons/)
-- [Data Carpentry lessons](https://datacarpentry.org/lessons/)
-- [Library Carpentry lessons](https://librarycarpentry.org)
-- [HPC Carpentry lessons](https://hpc-carpentry.github.io)
-- [Aalto Science-IT: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
-- [Aalto Science-IT: HPC tutorials](https://scicomp.aalto.fi/training/#c-high-performance-computing)
-- [CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
-
-
 ## Lessons we contributed to as instructors or helpers
 
 - [Introduction to Conda for (Data) Scientists](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/):
   A lesson in the Carpentries Incubator.
-
-
-### Teach our lessons
-
-All of our material is open source and collaboratively developed: you
-are free to teach it yourself if you would like, just make sure the
-distinction between the funded "CodeRefinery" project and your
-workshop is clear.  Our lessons are designed to be generic, so that
-anyone can use them.  If that isn't the case, help us make them so
-(see below).  Be aware that our lessons are developed in a very agile
-manner, so keep up to date with the latest changes.
-
-See how to [get involved](/get-involved/) for more information, and
-please let us know if the material is helpful - it is important for us
-to know whether this material has impact outside of our workshops.
-
-
-### Contribute to our lessons
-
-We would love that!  We are a normal open source project on Github,
-and you can contribute via issues, pull requests, or discussing via
-our [chat](https://coderefinery.github.io/manuals/chat/).  Our
-[collaborative Git
-lesson](https://coderefinery.github.io/git-collaborative/) and [Github
-without the command
-line](https://coderefinery.github.io/github-without-command-line/) are
-very relevant.
-
-If you are familiar with the Carpentries organization, we work
-basically the same.  If you have more questions or are unsure how to
-contribute, please [get in touch](/get-involved/#contact-us) or see
-our [our information on
-contributing](https://coderefinery.github.io/manuals/contributing/).
-
-
-### License
-
-Lesson material is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (however note, some old ones may be CC BY-SA).
-Code examples: [OSI](http://opensource.org)-approved [MIT license](http://opensource.org/licenses/mit-license.html).
