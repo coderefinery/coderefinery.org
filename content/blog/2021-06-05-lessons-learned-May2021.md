@@ -1,6 +1,7 @@
 +++
 title = "Lessons learned from the May 2021 online mega-workshop held May 2021"
 slug = "2021/06/05/lessons-learned-may-2021"
+draft = true
 
 [extra]
 authors = "Radovan Bast, Max Roald Eckardt, Anne Fouilloux, Johan Hellsvik, Patric Holmvall, Diana Iusan, Anni Järvenpää, Juho Letonen, Stefan Negru, Jarno Rantaharju, Sabry Razick, Marijn van Vliet, Thor Wikfeldt, Samantha Wittke"
