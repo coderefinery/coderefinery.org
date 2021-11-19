@@ -133,6 +133,12 @@ Yes! GitLab pages now serve via `*.pages.coderefinery.org`.
 Currently only HTTP. TLS is in the works.
 
 
+### Does the service include shared continuous integration runners?
+
+No, shared runners are not part of the offering but you can connect
+your own CI runners to your projects for automated tests and builds.
+
+
 ### How to move your repository from another service to this service
 
 Please consult [this page](moving).
