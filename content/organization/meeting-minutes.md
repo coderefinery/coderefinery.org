@@ -15,7 +15,7 @@ and deliverables.
 
 ## Community calls
 
-Every second Monday after August 9, 12-13 CE(S)T/ 13-14 EE(S)T.
+Held on a montly intervall on Mondays at 14 CET. Next meeting is Mon 22 Nov 2021, 14-15 CET/ 15-16 EET.
 
 Scope: All topics involving community onboarding, workshop scheduling,
 governance, and roadmap.
