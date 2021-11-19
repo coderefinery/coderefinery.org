@@ -5,6 +5,14 @@ title = "Upcoming workshops and events"
 {{ upcoming() }}
 
 
+### Workshop dates for 2022
+
+These are full, 6 half-day CodeRefinery workshops which we will hold online:
+
+- Spring 2022: Tue-Thu, March 22-24 and 29-31
+- Autumn 2022: Tue-Thu, September 20-22 and 27-29
+
+
 ### Community calls
 
 More details on [this page](/about/meeting-minutes/)
