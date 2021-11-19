@@ -16,36 +16,41 @@ In short:
 
 On the 1st October 2021, it was announced that CodeRefinery will receive
 partial financial support by NeIC for the next 3 years (CodeRefinery
-Sustainability Phase, CodeRefinery SP)(Ref.
-https://neic.no/news/2021/10/01/2021-open-call-results/ ). The next phase of
+Sustainability Phase, CodeRefinery SP, see
+https://neic.no/news/2021/10/01/2021-open-call-results/). The next phase of
 the CodeRefinery project is mainly consisting of in-kind contributions by
 diverse partner organizations. In this new phase, we need to renew our privacy
-policy, but we need some time before the new privacy policy is set. 
+policy, but we need some time before the new privacy policy is set.
 
 We will continue using our online community spaces and the current
 owners/administrators will remain until new roles are set in the CodeRefinery
 SP.
 
-Despite the privacy policy we set describes that the "Stored names and email
-addresses of users will be removed with the end of this project (2021-10-31)",
-we need to prolong this date by the further 3 years to keep it possible to
-issue certificates of participation in recent enough workshops (2020 and 2021)
-to be fair. Therefore, we will keep information of the participants who are
-qualified to certificates (either as learner, helper, expert helper, or
-exercise lead) in the currently used platform, Indico, managed by NeIC. The
-currently participating staff who is also committed to be a part of the
-CodeRefinery SP have access to the information.
+Previously we have written that "Stored names and email addresses of users
+will be removed with the end of this project (2021-10-31)".  However, we need
+to keep participation data from 2020 and 2021 workshops at least until the end
+of 2022 since we often get asked for participation certificates long after the
+workshop is concluded.  Therefore, we will keep information of the
+participants who are qualified to certificates (either as learner, helper,
+expert helper, or exercise lead) in the currently used platform, Indico,
+managed by NeIC. The currently participating staff who is also committed to be
+a part of the CodeRefinery SP have access to the information.
 
-We will notify subscribers to both newsletters and notify-me form about the
-upcoming change and that we will keep the platform until we know which
-platform will be used in the new phase. In that notification, we will clarify
-when the currently registered information will be deleted from each of the
-platforms and where to re-register for notify-me and newsletter. If a user
-wants to unsubscribe before that, they are welcome to do so anytime.
+We continue using the newsletter and notify-me form also in the new phase but
+we may switch to other services but in this case we would notify all
+subscribers about deletion of their contact information and invite them to
+re-register to the new services that we may migrate to.  If a user wants to
+unsubscribe before that, they are welcome to do so anytime.
 
 ----
 
-This Privacy Policy covers person identifiable information that may be provided to CodeRefinery. Your data only comes from what you decide to provide to us by understanding privacy policy of the platforms we are using for different purposes as shown below. Changes to this Privacy Policy will be posted on this page. Any changes will only apply to information collected after the posted date of any such change. Additionally, information may be provided to governmental bodies and other entities as required by law. 
+This Privacy Policy covers person identifiable information that may be
+provided to CodeRefinery. Your data only comes from what you decide to provide
+to us by understanding privacy policy of the platforms we are using for
+different purposes as shown below. Changes to this Privacy Policy will be
+posted on this page. Any changes will only apply to information collected
+after the posted date of any such change. Additionally, information may be
+provided to governmental bodies and other entities as required by law.
 
 
 ## Definitions
@@ -55,7 +60,7 @@ This Privacy Policy covers person identifiable information that may be provided 
 - *Users* - people who use and/or contribute to our services including
   workshops, trainings, events, lesson materials, other materials under on our
   website and other online resources, newsletters, notification form, and
-  those who send inquiries to support@coderefinery.org. 
+  those who send inquiries to support@coderefinery.org.
 - *Online community spaces* - cloud services that CodeRefinery as a project
   uses to provide its services to users and for collaborative working among
   CodeRefinery team members as well as together with Users. They include, but
@@ -79,15 +84,15 @@ We obtain user data including person identifiable information in the following m
   - After anonymization and summarizing, to report statistics on our website and in reports delivered to fiscal sponsors and contributing partners.
 - "notify-me" subscription form to receive notification of upcoming workshops and events.
   - To send notification about upcoming workshops and events that the user registered as interested.
-- Email inquiry sent to support@coderefinery.org. 
+- Email inquiry sent to support@coderefinery.org.
   - To answer the inquiry.
-- Usage report of Online video conference system showing attendance information (participant name, email address (if any), and time of entry and exit of the online event). 
+- Usage report of Online video conference system showing attendance information (participant name, email address (if any), and time of entry and exit of the online event).
 - Attendance sheet we ask for participants in a in-person event to fill out.
   - To compare with the information provided upon sign-up for workshops.
   - To issue a certificate upon user's request.
 
 Information you provide in our Online community spaces are visible and
-accessible according to each service's Privacy Policy. Please note that your
+accessible according to each service's privacy policy. Please note that your
 information may be visible to other users in the Online community spaces than
 CodeRefinery team members. We use your information within each Online
 community space for communication purpose in a reasonable and respectful
@@ -95,18 +100,18 @@ manner. We will not use your person identifiable information provided in our
 Online community spaces for other purposes than communication with you and
 within the community. When we archive a note taken in
 [HackMD](hackmd.io/@coderefinery) during a workshop, we will delete all the
-person identifiable information of users.  
+person identifiable information of users.
 
 We obtain the following data anonymously and voluntarily from users.
 - Pre-/Post-workshop survey results.
   - For preparation of the workshop.
   - For improvement of future workshops.
   - For reporting (in a summarized form).
-- Poll answers in Online video conference systems during a workshop 
+- Poll answers in Online video conference systems during a workshop
   - For sharing overview of workshop cohort's idea or opinions
 
 
-## Who has access to the personally identifiable information? 
+## Who has access to the personally identifiable information?
 
 - CodeRefinery team members have access to personally identifiable information
   provided upon workshop sign-up, "notify-me" sign-up, subscribing to our
@@ -116,22 +121,44 @@ We obtain the following data anonymously and voluntarily from users.
 
 ## Where we store the data
 
-- We use [https://indico.neic.no](https://indico.neic.no) for storing sign-up information provided by users for any events. Also emails sent from [https://indico.neic.no](https://indico.neic.no) with sender email address of support@coderefinery.org will be stored in the same place. Data controller of [https://indico.neic.no](https://indico.neic.no) is [neic](neic.no). Registering via [https://indico.neic.no](https://indico.neic.no) is not strictly required to take part in an event.
-- We use [Freshdesk](https://www.freshworks.com/security/) as a platform (data processor) for email communication where we use our contact email address (support@coderefinery.org), except for the cases where we send email from [https://indico.neic.no](https://indico.neic.no).  
-- We use [TinyLetter(mailchimp)](https://mailchimp.com/legal/privacy/) as a platform to send a newsletter.
-- Anonymized survey results and workshop/event attendee statistics are or will be published on
+- We use [https://indico.neic.no](https://indico.neic.no) for storing sign-up
+  information provided by users for any events. Also emails sent from
+  [https://indico.neic.no](https://indico.neic.no) with sender email address
+  of support@coderefinery.org will be stored in the same place. Data
+  controller of [https://indico.neic.no](https://indico.neic.no) is
+  [neic](neic.no). Registering via
+  [https://indico.neic.no](https://indico.neic.no) is not strictly required to
+  take part in an event.
+- We use [Freshdesk](https://www.freshworks.com/security/) as a platform (data
+  processor) for email communication where we use our contact email address
+  (support@coderefinery.org), except for the cases where we send email from
+  [https://indico.neic.no](https://indico.neic.no).
+- We use [TinyLetter(mailchimp)](https://mailchimp.com/legal/privacy/) as a
+  platform to send a newsletter.
+- Anonymized survey results and workshop/event attendee statistics are or will
+  be published on
   [https://github.com/coderefinery](https://github.com/coderefinery).
-- Registration data provided via sign-up form in [Indico](https://indico.neic.no) and attendance information generated by an Online video conference system are temporarily stored in a CodeRefinery team member's affiliated institution's cloud system which is in line with processing non-sensitive person-identifiable information during anonymization process or obtaining information necessary for issuing a certificate.  
-- Names and email addresses of participants are stored on a zero-knowledge
-  encrypted Git repository.
+- Registration data provided via sign-up form in
+  [Indico](https://indico.neic.no) and attendance information generated by an
+  Online video conference system are temporarily stored in a CodeRefinery team
+  member's affiliated institution's cloud system which is in line with
+  processing non-sensitive person-identifiable information during
+  anonymization process or obtaining information necessary for issuing a
+  certificate.
+- Our GitLab service stores your account information which you have entered
+  when signing up. This contact information is accessible to the system
+  administrator operating the service and the CodeRefinery project management.
+  You can at any moment delete your account from this service.
 
 
 ## How long we store the data
 
 - Anonymized survey results are meant to be kept without a time limit.
-- We always keep affiliations and academic position long term for reporting.
+- We always keep affiliations and academic position long term for reporting
+  but they are disconnected from names and email addresses (which we both do
+  not store long term).
 - Stored names and email addresses of users will be removed with the end
-  of this project (2021-10-31).
+  of the project period.
 
 
 ## Anonymity and right to be forgotten
