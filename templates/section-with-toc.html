@@ -2,7 +2,7 @@
 
 {% block content %}
   <ul>
-    {% for h1 in page.toc %}
+    {% for h1 in section.toc %}
       <li>
         <a href="{{h1.permalink | safe}}">{{ h1.title }}</a>
         {% if h1.children %}
@@ -27,7 +27,7 @@
     {% endfor %}
   </ul>
 
-  {% if page.content %}
-    {{ page.content | safe }}
+  {% if section.content %}
+    {{ section.content | safe }}
   {% endif %}
 {% endblock content %}
