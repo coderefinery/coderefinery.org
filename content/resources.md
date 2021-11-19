@@ -2,27 +2,6 @@
 title = "Resources"
 +++
 
-### Git
-
-- [Learn Git branching](http://pcottle.github.io/learnGitBranching/)
-- [Got 15 minutes and want to learn Git?](https://try.github.io)
-- [The entire Pro Git book, written by Scott Chacon and Ben Straub](http://git-scm.com/book)
-- [Learn git one commit at a time](http://gitready.com)
-- [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
-- [Git cheat sheet](http://cheat.errtheblog.com/s/git/)
-- [Commit Often, Perfect Later, Publish Once: Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
-- [Git Workflows](http://documentup.com/skwp/git-workflows-book)
-- [PeepCode Git Internals](https://github.com/pluralsight/git-internals-pdf/releases)
-- [The GitHub Training Team](https://github.com/githubtraining)
-- [Webcast: The Basics of Git and GitHub](https://www.youtube.com/watch?v=U8GBXvdmHT4)
-- [How GitHub Uses GitHub to Build GitHub](https://zachholman.com/talk/how-github-uses-github-to-build-github/)
-- [Git Workflows for Pros: A Good Git Guide](https://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide)
-- [Branch-per-Feature](http://dymitruk.com/blog/2012/02/05/branch-per-feature/)
-- [Git on XKCD](http://xkcd.com/1597/)
-- [Git best practices](https://sethrobertson.github.io/GitBestPractices/)
-- [An efficient GIT workflow for mid/long term projects](http://fle.github.io/an-efficient-git-workflow-for-midlong-term-projects.html)
-
-
 ### Best practices
 
 - [Software Quality Checklist](https://eurise-network.github.io/technical-reference/quality/software-checklist.html)
@@ -30,27 +9,9 @@ title = "Resources"
 - [Five Recommendations For Fair Software](https://fair-software.eu)
 
 
-### Fortran
-
-- [Fortran common pitfalls](http://www.ibiblio.org/pub/languages/fortran/ch1-8.html)
-
-
 ### Lessons
 
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
-
-
-### Python
-
-- [The Hitchhiker's Guide to Python](http://docs.python-guide.org)
-- [Transforming Code into Beautiful, Idiomatic Python](https://www.youtube.com/watch?v=OSGv2VnC0go)
-- [Python Mentors - Python Core Mentorship](http://pythonmentors.com)
-- [Plop: Python Profiler With Call Graphs](https://emptysqua.re/blog/plop-python-profiler-with-call-graphs/)
-- [A Gentle Introduction to Numerical Simulations with Python](http://hplgit.github.io/prog4comp/doc/pub/p4c_Python.pdf)
-- [Pandas](http://pandas.pydata.org)
-- [The definitive guide on how to use static, class or abstract methods in Python](https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods)
-- [How to build a simple neural network in 9 lines of Python code](https://www.devbattles.com/en/sand/post-1697-How_to_build_a_simple_neural_network_in_9_lines_of_Python_code)
-- [Computational Thinking and Programming - book focused on people with a background in the Humanities](https://comp-think.github.io/)
 
 
 ### Open source
@@ -99,15 +60,6 @@ title = "Resources"
 - [Society of Research Software Engineering](https://society-rse.org/)
 - [Research Software Alliance](http://www.researchsoft.org/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
-
-
-### Documentation
-
-- [Sphinx](http://sphinx-doc.org)
-- [Read the Docs](https://readthedocs.org)
-- [Write the Docs](http://www.writethedocs.org/guide/)
-- [Breathe](http://breathe.readthedocs.org)
-- [Scholarly markdown](http://scholarlymarkdown.com)
 
 
 ### Open science
