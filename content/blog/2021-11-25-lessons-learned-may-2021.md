@@ -1,7 +1,6 @@
 +++
 title = "Lessons learned from the May 2021 online workshop"
 slug = "2021/11/25/lessons-learned-may-2021"
-draft = true
 
 [extra]
 authors = "Max Roald Eckardt, Diana Iusan"
