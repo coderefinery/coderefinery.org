@@ -1,6 +1,6 @@
 +++
 title = "Lessons learned from the May 2021 online mega-workshop held May 2021"
-slug = "2021/06/05/lessons-learned-may-2021"
+slug = "2021/11/25/lessons-learned-may-2021"
 draft = true
 
 [extra]
