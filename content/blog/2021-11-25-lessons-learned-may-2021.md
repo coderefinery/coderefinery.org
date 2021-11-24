@@ -4,7 +4,7 @@ slug = "2021/11/25/lessons-learned-may-2021"
 draft = true
 
 [extra]
-authors = "Radovan Bast, Max Roald Eckardt, Anne Fouilloux, Johan Hellsvik, Patric Holmvall, Diana Iusan, Anni Järvenpää, Juho Letonen, Stefan Negru, Jarno Rantaharju, Sabry Razick, Marijn van Vliet, Thor Wikfeldt, Samantha Wittke"
+authors = "Max Roald Eckardt, Diana Iusan"
 +++
 
 May 10-12 and 18-20, 2021, we gave our largest, as of June 2021, [CodeRefinery 
