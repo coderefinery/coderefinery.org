@@ -10,9 +10,7 @@ title = "Community call meeting minutes"
 - Session chairs: JH
 - Participants: JH, RB, SW, SR, BL, DI
 - This document: https://hackmd.io/@coderefinery/community-call
-- Zoom connection details:
-  - https://uit.zoom.us/j/65007812271
-  - Meeting ID: 65007812271
+- Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting
 :::
 
 Meeting minutes are archived at https://coderefinery.org/about/community-call/
