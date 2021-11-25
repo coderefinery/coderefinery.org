@@ -38,6 +38,6 @@ Meeting minutes are archived at https://coderefinery.org/about/community-call/
 ### How to archive meeting minutes
 
 - Send PR towards https://github.com/coderefinery/coderefinery.org/blob/main/content/about/community-call.md
-- In a second commit adjust this page: https://github.com/coderefinery/coderefinery.org/blob/main/content/about/meeting-minutes.md
+- In a second commit adjust this page: https://github.com/coderefinery/coderefinery.org/blob/main/content/organization/meeting-minutes.md
 - There is no automatic HackMD-GitHub link yet. We can set one up but we do need to link to individual sessions to make browsing easier for those who don't want to inspect GitHub diffs.
 :::
