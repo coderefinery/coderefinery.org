@@ -26,6 +26,7 @@ governance, and roadmap.
 
 ### Archive of past meetings
 
+- [Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting](https://github.com/coderefinery/coderefinery.org/blob/38f1273/content/about/community-call.md)
 - [Theme: Workshop planning for 2022 (2021-10-04)](https://github.com/coderefinery/coderefinery.org/blob/6f0afb3/content/about/community-call.md)
 - [Theme: Communication and announcement strategies (2021-09-20)](https://github.com/coderefinery/coderefinery.org/blob/34cc747/content/about/community-call.md)
 - [Theme: CodeRefinery way forward (2021-09-06)](https://github.com/coderefinery/coderefinery.org/blob/afb8b4f/content/about/community-call.md)
