@@ -1,5 +1,6 @@
 +++
 title = "Impact of online CodeRefinery workshops"
+aliases = ["/workshops/impact"]
 +++
 
 [Over 1100 people have attended a CodeRefinery workshop since the project
