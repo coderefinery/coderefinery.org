@@ -66,6 +66,7 @@
           <th scope="col" class="text-center">Estonia</th>
           <th scope="col" class="text-center">Iceland</th>
           <th scope="col" class="text-center">Netherlands</th>
+          <th scope="col" class="text-center">Other</th>
           <th scope="col" class="text-center">Total</th>
         </tr>
       </thead>
@@ -77,8 +78,10 @@
         {% set EE_total = 0 %}
         {% set IS_total = 0 %}
         {% set NL_total = 0 %}
+        {% set other_total = 0 %}
         {% set total_total = 0 %}
         {% for event in data.events %}
+          {% set num_explicit = 0 %}
           <tr>
             <th scope="row">
               {% if event.website %}
@@ -100,42 +103,58 @@
               {% if event.num_participants.SE %}
                 {{ event.num_participants.SE }}
                 {% set_global SE_total = SE_total + event.num_participants.SE %}
+                {% set num_explicit = num_explicit + event.num_participants.SE %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.NO %}
                 {{ event.num_participants.NO }}
                 {% set_global NO_total = NO_total + event.num_participants.NO %}
+                {% set num_explicit = num_explicit + event.num_participants.NO %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.FI %}
                 {{ event.num_participants.FI }}
                 {% set_global FI_total = FI_total + event.num_participants.FI %}
+                {% set num_explicit = num_explicit + event.num_participants.FI %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.DK %}
                 {{ event.num_participants.DK }}
                 {% set_global DK_total = DK_total + event.num_participants.DK %}
+                {% set num_explicit = num_explicit + event.num_participants.DK %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.EE %}
                 {{ event.num_participants.EE }}
                 {% set_global EE_total = EE_total + event.num_participants.EE %}
+                {% set num_explicit = num_explicit + event.num_participants.EE %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.IS %}
                 {{ event.num_participants.IS }}
                 {% set_global IS_total = IS_total + event.num_participants.IS %}
+                {% set num_explicit = num_explicit + event.num_participants.IS %}
               {% endif %}
             </td>
             <td class="text-center">
               {% if event.num_participants.NL %}
                 {{ event.num_participants.NL }}
                 {% set_global NL_total = NL_total + event.num_participants.NL %}
+                {% set num_explicit = num_explicit + event.num_participants.NL %}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.num_participants.total %}
+                {% set num_other = event.num_participants.total - num_explicit %}
+                {% if num_other > 0 %}
+                  {{ num_other }}
+                {% endif %}
+                {% set_global other_total = other_total + num_other %}
               {% endif %}
             </td>
             <td class="text-center">
@@ -172,6 +191,9 @@
           </td>
           <td class="text-center">
             {{ NL_total }}
+          </td>
+          <td class="text-center">
+            {{ other_total }}
           </td>
           <td class="text-center">
             {{ total_total }}
