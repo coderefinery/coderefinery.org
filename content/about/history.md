@@ -22,19 +22,19 @@ until 2021. In 2021 the project successfully applied to the NeIC open call
 ## Funding partners 2016-2021
 
 [CSC - IT Center for Science](https://csc.fi)
-<img src="funding/csc.png" alt="CSC logo" width="200px">
+<img src="/about/funding/csc.png" alt="CSC logo" width="200px">
 
 [Danish e-Infrastructure Cooperation](https://deic.dk)
-<img src="funding/deic.png" alt="DeiC logo" width="180px">
+<img src="/about/funding/deic.png" alt="DeiC logo" width="180px">
 
 [Estonian Scientific Computing Infrastructure](https://etais.ee)
-<img src="funding/etais.png" alt="ETAIS logo" width="200px">
+<img src="/about/funding/etais.png" alt="ETAIS logo" width="200px">
 
 [Nordic e-Infrastructure Collaboration](https://neic.no)
-<img src="funding/neic.png" alt="NeIC logo" width="200px">
+<img src="/about/funding/neic.png" alt="NeIC logo" width="200px">
 
 [UNINETT Sigma2](https://sigma2.no)
-<img src="funding/sigma2.jpg" alt="Sigma2 logo" width="170px">
+<img src="/about/funding/sigma2.jpg" alt="Sigma2 logo" width="170px">
 
 [Swedish National Infrastructure for Computing](https://snic.se)
-<img src="funding/snic.png" alt="SNIC logo" width="200px">
+<img src="/about/funding/snic.png" alt="SNIC logo" width="200px">
