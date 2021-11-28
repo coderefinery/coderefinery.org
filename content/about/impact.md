@@ -7,7 +7,6 @@ started](statistics/#standard-coderefinery-workshops)! Since the pandemic starte
 
 Along the change in tools and practices, we changed questions in pre-/post-workshop surveys. To provide the most consistent and recent picture of our participants and impact, the below is based on data provided by pre-/post-workshop surveys answered in relevance to **only online workshops**. (Note: pre-/post-workshops are opt-in.) 
 
-[Summary of impact of in-person workshops until early 2019](/about/impact_until-early-2019) is archived.
 
 ## Participants' background
 
@@ -43,25 +42,3 @@ heatmap based on the number of responses a matrix chart showing 4 impact levels 
 The chart below shows fraction of former participants who feel their code and collaboration with colleagues has been improved. 
 ![alt text](/workshops/yes-no-questions-online.png "A bar chart
 showing fraction of participants who feel that their code is more resusable (0.59), more reproduceble (0.50), more modular (0.34), better documented (0.64), and that it is easier to collaborate (near 0.85) and incroduced tools to colleagues (below 0.75)")
-
-## What else has changed do our participants say after attending a workshop?
-
-Below are examples of free-text answers given to this question to showcase variety of answers. Generally we see many gained confidence in using tools like Git.
-
-> "Constantly making sure my code is as accessible as possible to ensure future me and others can understand and use it, i.e. writing explanatory comments everywhere no matter how simple the code may be."
-
-> "Increased confidence. Sense of community (extremely valuable during the pandemic times). The value of volunteering."
-
-> "I'm significantly more confident in navigating and creating versions and branches in git and on GitHub."
-
-> "It was a great experience, it just did sum up all the necessary tools and step to build more sustainable code. That saved me A LOT of time trying to figuring out everything by myself!! :)"
-
-> "I am an experienced developer and instructor and attended the workshop mainly to help out. It did not change much for me in terms of the course content. However, the course was am absolutely great experience for me in terms of seeing how to conduct a massive online course with live participation. The HackMD "backchannel" and breakout rooms with helpers are features I now incorporate in teaching at my own university."
-
->"Think much more before starting a coding project and overall better structure: coding with a structure in mind (making modules, simplifying), using a structured approach to coding (knowing which tools, which steps, doing reviews, etc.), etc."
-
-> "I have a much broader understanding of these tools and why they are important. I regularly use the tutorials and movies to help teach new incoming students in between CodeRefinery workshops."
-
-> "The project team has a common understanding of why and how to track code versions and collaborate on processing scripts"
-
-> "More focus on that results and papers should be reproducible, ideally even for referees."

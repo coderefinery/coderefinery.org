@@ -59,6 +59,64 @@
     </div>
   </div><!-- row -->
 
+  {% set data = load_data(path="content/feedback.toml") %}
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval=8000>
+    <div class="row top-buffer">
+      <div class="col-md-1">
+        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+      <div class="col-md-10">
+        <div class="carousel-inner">
+          {% for feedback in data.feedback %}
+            {% if loop.first %}
+              <div class="carousel-item active">
+            {% else %}
+              <div class="carousel-item">
+            {% endif %}
+                <h3 class="d-block w-100">
+                  <i>
+                    {{ feedback.text }}
+                  </i>
+                </h3>
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-md-1">
+        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div><!-- row -->
+    <div class="row top-buffer">
+      <div class="col-md-12">
+        <ol class="carousel-indicators">
+          {% for feedback in data.feedback %}
+            {% if loop.first %}
+              <li data-target="#carouselIndicators"
+                  data-slide-to="{{ loop.index0 }}" class="active"></li>
+            {% else %}
+              <li data-target="#carouselIndicators"
+                  data-slide-to="{{ loop.index0 }}"></li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </div><!-- row -->
+    <div class="row">
+      <div class="col-md-12">
+         <p>
+           More feedback and testimonials
+           <a href="https://github.com/coderefinery/feedback" target="_blank">here</a>.
+         </p>
+      </div>
+    </div><!-- row -->
+  </div><!-- carousel -->
+
   <div class="row top-buffer">
 
     <!-- box "training opportunities" -->

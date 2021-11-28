@@ -1,0 +1,124 @@
+[[feedback]]
+text = """
+I'm more conscious about the way I write programs and organize their 'organic'
+growth. I try to modularize more and write proper tests. I also use git more
+extensive to keep track about my different development branches
+"""
+
+[[feedback]]
+text = """
+The main thing I got out of the workshop is that I'm now extensively using the
+issue-tracking systems on GitHub and GitLab. Also on one of my major projects
+we have moved towards having shorter lived feature branches and using merge
+requests for more frequent merges and less code divergence. I also started
+using GitLab's issues system more frequently. It made it easier for people in
+my lab to report bugs, and easier for me to keep track of them
+"""
+
+[[feedback]]
+text = """
+My code became much more 'sustainable' in the sense for others to
+read/use/modify it. In detail the most significant is improved use of git
+(forking workflow) and more strict 'purity' of functions. Use of PyCharm
+increased speed of development
+"""
+
+[[feedback]]
+text = """
+I take more time to think about long term solutions than 'quick fixes' even if
+it's short of time. Another aspect is that I try to make the code reproducible
+in the sense of documentation, code readability, clear log files, etc, both for
+helping myself and my collaborators
+"""
+
+[[feedback]]
+text = """
+My code is better documented, and I use version control much more. I have also
+started writing more unit tests
+"""
+
+[[feedback]]
+text = """
+I write my codes now in such a way that the person who will be taking over my
+job would have less time figuring out what is going on. The emphasis of writing
+modular codes in the workshop was very helpful for me and for the people using
+my code
+"""
+
+[[feedback]]
+text = """
+For me the most important thing was to learn to use git better. Now I make
+frequent commented commits so it is far easier to see what I actually did for
+me and others too
+"""
+
+[[feedback]]
+text = """
+This was an extremely useful workshop. Thank you very much! I wish I had known
+this stuff already as a grad student 10+ years ago. It is now easier to
+collaborate with co-developers and easier to keep things in order and
+structured
+"""
+
+[[feedback]]
+text = """
+Constantly making sure my code is as accessible as possible to ensure future me
+and others can understand and use it, i.e. writing explanatory comments
+everywhere no matter how simple the code may be.
+"""
+
+[[feedback]]
+text = """
+Increased confidence. Sense of community (extremely valuable during the
+pandemic times). The value of volunteering.
+"""
+
+[[feedback]]
+text = """
+I'm significantly more confident in navigating and creating versions and
+branches in git and on GitHub.
+"""
+
+[[feedback]]
+text = """
+It was a great experience, it just did sum up all the necessary tools and step
+to build more sustainable code. That saved me A LOT of time trying to figuring
+out everything by myself!! :)
+"""
+
+[[feedback]]
+text = """
+I am an experienced developer and instructor and attended the workshop mainly
+to help out. It did not change much for me in terms of the course content.
+However, the course was am absolutely great experience for me in terms of
+seeing how to conduct a massive online course with live participation. The
+HackMD "backchannel" and breakout rooms with helpers are features I now
+incorporate in teaching at my own university.
+"""
+
+[[feedback]]
+text = """
+Think much more before starting a coding project and overall better structure:
+coding with a structure in mind (making modules, simplifying), using a
+structured approach to coding (knowing which tools, which steps, doing reviews,
+etc.), etc.
+"""
+
+[[feedback]]
+text = """
+I have a much broader understanding of these tools and why they are important.
+I regularly use the tutorials and movies to help teach new incoming students in
+between CodeRefinery workshops.
+"""
+
+[[feedback]]
+text = """
+The project team has a common understanding of why and how to track code
+versions and collaborate on processing scripts
+"""
+
+[[feedback]]
+text = """
+More focus on that results and papers should be reproducible, ideally even for
+referees.
+"""
