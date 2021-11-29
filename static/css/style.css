@@ -112,3 +112,27 @@ img.mugshot {
   height: 80px;
   width: 1px;
 }
+
+.carousel .carousel-indicators li {background-color: gray;}
+.carousel .carousel-indicators li.active {background-color: red;}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
