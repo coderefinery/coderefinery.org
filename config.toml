@@ -20,6 +20,8 @@ build_search_index = false
 # instead of /blog/2020/04/14/first-online-workshop/
 slugify.paths = "off"
 
+generate_feed = true
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

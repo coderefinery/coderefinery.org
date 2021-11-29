@@ -1,5 +1,6 @@
 +++
 title = "Upcoming workshops and events"
+date = 2021-11-28
 +++
 
 {{ upcoming() }}
@@ -8,6 +9,9 @@ title = "Upcoming workshops and events"
 ### Workshop dates for 2022
 
 These are full, 6 half-day CodeRefinery workshops which we will hold online:
+
+<!-- If you edit this section, also update the date on top of this page. This
+is important for RSS feed. -->
 
 - Spring 2022: Tue-Thu, March 22-24 and 29-31
 - Autumn 2022: Tue-Thu, September 20-22 and 27-29
@@ -33,8 +37,7 @@ workshops and events opens. This form is also for new
 helpers and instructors, so please fill the form if you would like to
 contribute to future workshops!
 
-You can also subscribe to our [workshops](/feed-workshops/) and
-[events](/feed-events/) RSS feeds.
+You can also subscribe to our [RSS feed](/atom.xml).
 
 
 ### Privacy policy
