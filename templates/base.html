@@ -7,6 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
+    {% block rss %}
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" />
+    {% endblock %}
 
     {% if page.title %}
       <title>CodeRefinery - {{ page.title }}</title>
