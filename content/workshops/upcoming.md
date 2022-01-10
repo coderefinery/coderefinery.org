@@ -19,7 +19,7 @@ is important for RSS feed. -->
 
 ### Community calls
 
-More details on [this page](/about/meeting-minutes/)
+More details on [this page](/about/community-call/)
 
 
 ### Past workshops and events
