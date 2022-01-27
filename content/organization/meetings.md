@@ -1,5 +1,5 @@
 +++
-title = "Meeting minutes"
+title = "Community calls"
 +++
 
 ## Community calls
