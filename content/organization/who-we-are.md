@@ -17,7 +17,7 @@ title = "Meet the team"
 ## Instructors, helpers, and exercise leads
 
 Our workshops would not be possible without the contributions from
-[many speakers, instructors, hosts, helpers, and exercise leaders](/about/contributors/).
+[many speakers, instructors, hosts, helpers, and exercise leaders](/organization/contributors/).
 
 
 ## Our teaching philosophies
