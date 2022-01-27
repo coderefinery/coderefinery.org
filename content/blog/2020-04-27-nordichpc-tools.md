@@ -26,7 +26,7 @@ testing](https://coderefinery.github.io/testing/) (e.g. .travis.yml in
 sonar, envkernel, nbscript, slurm2sql), [modular code
 development](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
 (e.g. ), [open
-licensing](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
+licensing](https://coderefinery.github.io/social-coding/)
 (e.g. everything).
 
 Below you see some examples of NordicHPC tools.  Some tools are useful

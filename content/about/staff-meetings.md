@@ -37,7 +37,7 @@ title = "Staff meeting minutes"
 - Syncing with GitHub:
   - One commit per meeting with "20YY-MM-DD" as version/commit message.
   - 3 dots top right -> "Versions and GitHub Sync"
-  - This document is linked to [this file](https://github.com/coderefinery/coderefinery.org/blob/main/content/about/staff-meetings.md). See also [this overview page](https://coderefinery.org/about/meeting-minutes/).
+  - This document is linked to [this file](https://github.com/coderefinery/coderefinery.org/blob/main/content/about/staff-meetings.md).
   - Meeting chair commits after a meeting.
 
 
@@ -186,7 +186,7 @@ RB watching support line until we organise next event.
     - [x] As preparation read and fill in the document before October 4
     - [x] announce the commmunity call on Twitter
 - Make CR lessons citable (part of sub-tasks)
-    - [x] Open house on citable lessons ["Workflow to make CR lessons citable via Zenodo"](https://hackmd.io/pr3hps9SRgWwSPOHWRMWXA?view#Workflow-to-make-CR-lessons-citable-via-Zenodo)
+    - [x] Open house on citable lessons ["Workflow to make CR lessons citable via Zenodo"](https://hackmd.io/pr3hps9SRgWwSPOHWRMWXA?view)
     - [x] [JH] Testing CITATION.cff again 
     - [x] [JH] Making sure the 3 categories we defined still then map to CITATION.cff
         - The 3 categories are
@@ -197,7 +197,7 @@ RB watching support line until we organise next event.
         - Zenodo has the categories 'creators' and 'contributors'
         - To keep to the 3 desired categories would involve manual editing of the metadata Zenodo.
     - [x] [JH] Create a demo on a fork+sandbox where this is demonstrated for one lesson
-          - [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE)    
+          - [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502)
     - [x] create an ORCID research community (DI checks how to do it)
         - Seems organizations can obtain ORCID only by becoming ORCID members https://info.orcid.org/about-membership/ . The annual fee for a Basic membership is 5 150 USD, with a 20% discount for non-profits, and 75% discount for small & start-up organizations. 
         - Many universities are ORCID members, KTH being one https://orcid.org/members/001G000001EA3k9IAD-kth-royal-institute-of-technology
@@ -209,7 +209,7 @@ RB watching support line until we organise next event.
        https://sandbox.zenodo.org/communities/coderefinery/
            - The real Zenodo community could preferably be registered by login in to Zenodo via the Code Refinery organization GitHub account
            - also find out whether records can be added to communities retroactively 
-             - This is possible. "communities" are edited as metadata which is editable after the release/publication as well. The [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502#.YVCL17pfhhE) was created, and its 'community' metadata was added afterwards.
+             - This is possible. "communities" are edited as metadata which is editable after the release/publication as well. The [Sandbox Zenodo for Social Coding](https://sandbox.zenodo.org/record/924502) was created, and its 'community' metadata was added afterwards.
     - [x] [JH] Present progress on the workflow at upcoming CR staff meeting
          - JH gave a brief update Sep 27
 - [DI, ME] Workshop, 2021 May - retrospective, document prepared and link shared (Part of sub-tasks)
@@ -230,7 +230,7 @@ RB watching support line until we organise next event.
    * Result: https://github.com/coderefinery/post-workshop-survey
    * Follow-up:
      * [x] [NT] Collect results for 2021 workshop
-         * [x] [invitation draft](https://hackmd.io/MzbCBqA7R0qVnsZSiqTIoA?view#For-attendees-in-2021)
+         * [x] [invitation draft](https://hackmd.io/MzbCBqA7R0qVnsZSiqTIoA?view)
      * [x] Create new release/DOI
      * [x] [NT] update [coderefinery.org, impact page](https://coderefinery.org/workshops/impact/) -> [PR](https://github.com/coderefinery/coderefinery.org/pull/572), please review and merge, or ask for revisions.
      * [x] -> Revisions are done [pre-](https://github.com/coderefinery/pre-workshop-survey/pull/20)/[post-](https://github.com/coderefinery/post-workshop-survey/pull/12)
@@ -250,7 +250,7 @@ RB watching support line until we organise next event.
 - [x] [RB] Analyze pre-workshop survey
    * Result: https://github.com/coderefinery/pre-workshop-survey
    * Follow-up:
-     * [ ] [Some data](https://github.com/coderefinery/pre-workshop-survey#questionsanswers-which-we-have-not-analyzed-yet) not analyzed yet
+     * [ ] Some data not analyzed yet
 - [x] [RB] Assignment of relevant tasks (planning, recruiting of volunteers in the community, dissemination, etc.)
 - [x] [JH, RB] organize meeting/open house to finalize the workflow for getting citable lessons in August.
     * Half-day Open House will be held on Aug 19, 12-15 CEST. The event is planned in [this HackMD](https://hackmd.io/@coderefinery/citable-lessons)
@@ -365,8 +365,8 @@ RB watching support line until we organise next event.
     - 2021-10-11
         - Shouldn't it be taken in the community call where all the committers for the sustainability phase join for futher discussion rather than this staff meeting?
     - 2021-09-13
-        - Reflection on [the community call on the 6th Sep](https://coderefinery.org/about/community-call/)
-        - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/about/hubs/)
+        - Reflection on the community call on the 6th Sep
+        - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/organization/hubs/)
     - 2021-08-16
         - Discussed with relevance to 2021-10. 
         - The governance should come after the vision is set and shared.

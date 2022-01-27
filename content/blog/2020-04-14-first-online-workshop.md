@@ -241,7 +241,7 @@ The requirements and recommendations are roughly like in-person.
 
 - Showing history of commands via tmux or similar, coupled with [displaying the
   last commands
-  typed](https://github.com/coderefinery/manuals/blob/master/presenting.md#screencasting)
+  typed](https://coderefinery.github.io/manuals/instructor-tech-setup/)
   really helps.
 - Gray/dark background terminal looked better than light background terminal.
 

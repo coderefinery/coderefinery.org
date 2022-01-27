@@ -51,7 +51,7 @@ regardless of location and physical limitations.
 
 ## Mega-CodeRefinery
 
-[Webpage](https://coderefinery.githubaio/2020-05-25-online/)
+[Webpage](https://coderefinery.github.io/2020-05-25-online/)
 
 
 ## Finnish HPC Kickstart
