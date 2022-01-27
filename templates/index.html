@@ -6,9 +6,18 @@
 
   <div class="row top-buffer">
     <div class="col-sm-4">
-      {% set coderefinery = resize_image(path="logo/coderefinery.png", width=300, op="fit_width") %}
-      <img src="{{ coderefinery.url }}"
-           alt="CodeRefinery logo" class="pull-left mr-2"/>
+      <div class="row">
+        {% set coderefinery = resize_image(path="logo/coderefinery.png", width=300, op="fit_width") %}
+        <img src="{{ coderefinery.url }}"
+             alt="CodeRefinery logo" class="pull-left mr-2"/>
+      </div>
+      <div class="row">
+        <h3>
+          We got
+          <a href="https://neic.no/news/2021/10/01/2021-open-call-results/" target="_blank">new funding</a>
+          until 2025!
+        </h3>
+      </div>
     </div>
     <div class="col-sm-8">
       <h2>Training and e-Infrastructure for Research Software Development</h2>
@@ -49,16 +58,6 @@
           </li>
         </ul>
       </p>
-    </div>
-  </div><!-- row -->
-
-  <div class="row">
-    <div class="col-md-12">
-      <h3>
-        We got
-        <a href="https://neic.no/news/2021/10/01/2021-open-call-results/" target="_blank">new funding</a>
-        until 2025!
-      </h3>
     </div>
   </div><!-- row -->
 
