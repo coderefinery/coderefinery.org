@@ -165,7 +165,7 @@ We obtain the following data anonymously and voluntarily from users.
 
 - You have the right to register to a workshop anonymously.
 - If you want to be removed from announcement lists, please [let us
-  know](/get-involved/#contact-us).
+  know](/organization/contact/).
 - Workshop registration can be canceled before and removed, otherwise we keep
   it for sending a request to answer pre-/post-workshop survey.
 - If you want access to your data or to be removed, email us from the address
@@ -174,5 +174,5 @@ We obtain the following data anonymously and voluntarily from users.
 
 ## Questions/concerns?
 
-- If you believe something is wrong, please [let us know](/get-involved/#contact-us).
+- If you believe something is wrong, please [let us know](/organization/contact/).
 - You have the right to lodge complaint with supervisory authority.

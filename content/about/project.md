@@ -31,7 +31,7 @@ namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
 
 Our [code repository hosting service](/repository/) is open and free for all
 researchers based in Nordic universities and research institutes. Please
-[contact us](/get-involved/#contact-us) if you would like to use these services.
+[contact us](/organization/contact/) if you would like to use these services.
 
 
 ## Training opportunities
@@ -53,7 +53,7 @@ robust software.  These workshops are based on [training material](/lessons/)
 we develop and maintain.
 * **Online workshops** - Since April 2020, we offer both "full-package" workshops by 6 half-days over 2 weeks with the same contents as 2-day in-person workshop ([training material](/lessons/)) and shorter workshops focusing on one or a limited number of lessons. 
 * **Requesting a workshop** - Would you like to host a CodeRefinery workshop at your home institution?
-**[Get in touch](/get-involved/#contact-us) if this sounds interesting!**
+**[Get in touch](/organization/contact/) if this sounds interesting!**
 Note that even though CodeRefinery is a Nordic project, we are interested in giving workshops
 also outside the Nordics and are able to do so provided that funding for travel and
 accommodation can be covered.
