@@ -1,6 +1,6 @@
 +++
 title = "Code repository hosting for Nordic research software"
-template = "section-with-toc.html"
+template = "page-with-toc.html"
 +++
 
 The service is hosted at <https://source.coderefinery.org>.
@@ -137,11 +137,6 @@ Currently only HTTP. TLS is in the works.
 
 No, shared runners are not part of the offering but you can connect
 your own CI runners to your projects for automated tests and builds.
-
-
-### How to move your repository from another service to this service
-
-Please consult [this page](moving).
 
 
 ### SSH key fingerprints
