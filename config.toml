@@ -4,10 +4,8 @@ base_url = "https://coderefinery.org"
 title = "CodeRefinery"
 
 description = '''
-We are working with students, researchers, Research Software Engineers from all
-disciplines and national e-infrastructure partners to advance FAIRness of
-Software management and development practices so that research groups can
-collaboratively develop, review, discuss, test, share and reuse their codes.
+CodeRefinery acts as a hub for FAIR (Findable, Accessible, Interoperable, and
+Reusable) software practices.
 '''
 
 # Whether to automatically compile all Sass files in the sass directory
