@@ -28,6 +28,14 @@ generate_feed = true
 highlight_code = true
 highlight_theme = "cheerfully-light"
 
+[link_checker]
+# leads sometimes to "too many redirects" but we can assume the DOI links to not break
+skip_prefixes = [
+    "https://doi.org/",
+    "http://cicero.xyz/",
+    "https://cicero.xyz/",
+]
+
 [extra]
 # Put all your custom variables here
 
