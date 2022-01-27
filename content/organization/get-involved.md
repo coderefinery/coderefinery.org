@@ -84,7 +84,7 @@ would like to attend another one to refresh your memory and share your own
 knowledge? Or do you already have a solid background in research software
 engineering and would like to meet like-minded people in a friendly
 environment? Join a Carpentry or CodeRefinery workshop as a helper! [Get in
-touch](/get-involved/#contact-us) and let us know which workshop you would like
+touch](/organization/contact/) and let us know which workshop you would like
 to join. For more information about what a helper is supposed to do, please
 refer [Helper’s
 guide](https://coderefinery.github.io/manuals/helping-and-teaching/)
@@ -117,7 +117,7 @@ All our [lessons](/lessons/) are [on GitHub](https://github.com/coderefinery). C
 to the lesson material are highly welcome! The best way to contribute is via
 the forking-pull request workflow. See our lesson on [collaborative version
 control](https://coderefinery.github.io/git-collaborative/02-distributed/) for
-an overview of how this works. You can also [contact us](/get-involved/#contact-us) via other
+an overview of how this works. You can also [contact us](/organization/contact/) via other
 channels.
 
 
@@ -143,33 +143,3 @@ seeking for partnerships to stay sustainable long-term.
 
 Please take a look at [training hubs
 page](https://coderefinery.org/about/hubs/) for more information on CodeRefinery Membership options.
-
----
-
-## Contact us
-
-### Zulip
-
-We use [Zulip](https://zulipchat.com) to discuss within our team and community.
-We discuss in the open and you can join us on
-<https://coderefinery.zulipchat.com>: you can listen in, follow
-certain threads, participate, and influence. [Learn how it
-works](https://coderefinery.github.io/manuals/chat/).
-
-
-### Support line
-
-To ask questions about workshops or services or to report issues:
-[support@coderefinery.org](mailto:support@coderefinery.org)
-
-
-### Newsletter
-
-You can subscribe to the CodeRefinery newsletter
-[here](https://tinyletter.com/coderefinery).
-
-
-### Twitter
-
-If you like what we do, please reach out:
-[@coderefine](https://twitter.com/coderefine)
