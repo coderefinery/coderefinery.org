@@ -19,22 +19,37 @@ until 2021. In 2021 the project successfully applied to the NeIC open call
 2021 for another 3 years, starting 2022.
 
 
-## Funding partners 2016-2021
+### Funding partners 2016-2021
 
-[CSC - IT Center for Science](https://csc.fi)
-<img src="/about/funding/csc.png" alt="CSC logo" width="200px">
-
-[Danish e-Infrastructure Cooperation](https://deic.dk)
-<img src="/about/funding/deic.png" alt="DeiC logo" width="180px">
-
-[Estonian Scientific Computing Infrastructure](https://etais.ee)
-<img src="/about/funding/etais.png" alt="ETAIS logo" width="200px">
-
-[Nordic e-Infrastructure Collaboration](https://neic.no)
-<img src="/about/funding/neic.png" alt="NeIC logo" width="200px">
-
-[UNINETT Sigma2](https://sigma2.no)
-<img src="/about/funding/sigma2.jpg" alt="Sigma2 logo" width="170px">
-
-[Swedish National Infrastructure for Computing](https://snic.se)
-<img src="/about/funding/snic.png" alt="SNIC logo" width="200px">
+<div class="row">
+  <div class="col-md-2">
+    <a href="https://csc.fi">
+      <img src="/about/funding/csc.png" alt="logo: CSC - IT Center for Science" width="170px">
+    </a>
+  </div>
+  <div class="col-md-2">
+    <a href="https://scicomp.aalto.fi/">
+      <img src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing" width="100px">
+    </a>
+  </div>
+  <div class="col-md-2">
+    <a href="https://deic.dk">
+      <img src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation" width="150px">
+    </a>
+  </div>
+  <div class="col-md-2">
+    <a href="https://neic.no">
+      <img src="/about/funding/neic.png" alt="logo: Nordic e-Infrastructure Collaboration" width="170px">
+    </a>
+  </div>
+  <div class="col-md-2">
+    <a href="https://sigma2.no">
+      <img src="/about/funding/sigma2.jpg" alt="logo: Sigma2" width="150px">
+    </a>
+  </div>
+  <div class="col-md-2">
+    <a href="https://snic.se">
+      <img src="/about/funding/snic.png" alt="logo: Swedish National Infrastructure for Computing" width="170px">
+    </a>
+  </div>
+</div>
