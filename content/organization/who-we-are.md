@@ -5,15 +5,6 @@ title = "Meet the team"
 {{ gallery() }}
 
 
-## Steering Group
-
-* Jon Kerr Nilsen, NO
-* Kristoffer Laigaard Nielbo, DK
-* Monica Lassi, SE, Chair
-* Pauliina Somerkoski, FI
-* Rossen Apostolov, SE
-* Terje Vellemaa, EE 
-
 ## Instructors, helpers, and exercise leads
 
 Our workshops would not be possible without the contributions from
