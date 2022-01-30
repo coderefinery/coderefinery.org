@@ -17,6 +17,15 @@ is important for RSS feed. -->
 - Autumn 2022: Tue-Thu, September 20-22 and 27-29
 
 
+### Requesting workshop
+
+If you are interested in hosting a workshop or co-organizing a workshop with
+us, please [contact us](/organization/contact/). It is good for us if we get
+asked for workshops as this makes it easier for us to show that there is demand
+and to motivate funding. We will then take it from there and discuss how we can
+make it happen. The more we are to collaborate, the easier it will be.
+
+
 ### Community calls
 
 More details on [this page](/about/community-call/).
