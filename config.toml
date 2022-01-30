@@ -32,6 +32,7 @@ skip_prefixes = [
     "https://doi.org/",
     "http://cicero.xyz/",
     "https://cicero.xyz/",
+    "https://sandbox.zenodo.org/",
 ]
 
 [extra]
