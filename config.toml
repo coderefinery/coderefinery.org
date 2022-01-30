@@ -29,10 +29,10 @@ highlight_theme = "cheerfully-light"
 [link_checker]
 # leads sometimes to "too many redirects" but we can assume the DOI links to not break
 skip_prefixes = [
-    "https://doi.org/",
-    "http://cicero.xyz/",
-    "https://cicero.xyz/",
-    "https://sandbox.zenodo.org/",
+    "https://doi.org",
+    "http://cicero.xyz",
+    "https://cicero.xyz",
+    "https://sandbox.zenodo.org",
 ]
 
 [extra]
