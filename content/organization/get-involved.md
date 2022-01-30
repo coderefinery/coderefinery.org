@@ -3,19 +3,6 @@ title = "Get involved"
 template = "page-with-toc.html"
 +++
 
-CodeRefinery has two main activities: 
-- maintain and further develop the CodeRefinery **open source project** to produce lesson material openly and collaboratively;
-- deliver trainings, mainly by workshops with hands-on exercises and type-along sessions.  
-
-We are in the same galaxy as the [Carpentries organization](https://carpentries.org/) and closely work with them. 
-We run our workshops in a slightly different way, but our general philosophy, lesson
-material, and procedures are very similar. 
-Our target audience is learners who already have some experience with programming and would like to develop software in a more efficient and sustainable way. 
-
-Anyone may contribute to the CodeRefinery open source project. 
-
-From 2016-10-01 to 2021-10-31, CodeRefinery received funding from [NeIC](https://neic.no/) and delivered a large number of face to face and online workshops to the Nordic Community.  After that point, we are a community project seeking volunteers to sustain what we have accomplished in the first five years.
-
 CodeRefinery is always looking for both people and institutions that can
 promote the FAIRness of software management and development practice. There are
 many ways that you can get involved:
