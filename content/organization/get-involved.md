@@ -25,7 +25,7 @@ many ways that you can get involved:
 us](https://coderefinery.github.io/manuals/the-project/) and
 [contributing](https://coderefinery.github.io/manuals/contributing/) pages, for
 more about us.
-- if you are an institution, a research group or a company, you can check out our [Training hubs](https://coderefinery.org/about/hubs/) section to learn how to support us and become a Member organization.
+- if you are an institution, a research group or a company, you can check out our [Training hubs](https://coderefinery.org/organization/hubs/) section to learn how to support us and become a Member organization.
 
 
 ---
@@ -38,7 +38,7 @@ There are different ways to organize and deliver workshops using partly or entir
 - Register a self-organized CodeRefinery workshop;
 - Register a self-organized workshop using CodeRefinery lessons.
 
-The cost depends on the type of workshop and the membership tier your institution has subscribed. For more information, check our [Training Hubs](https://coderefinery.org/about/hubs/) section.
+The cost depends on the type of workshop and the membership tier your institution has subscribed. For more information, check our [Training Hubs](https://coderefinery.org/organization/hubs/) section.
 
 #### CodeRefinery workshops with support of the CodeRefinery Team
 
@@ -116,7 +116,7 @@ interested in.
 All our [lessons](/lessons/) are [on GitHub](https://github.com/coderefinery). Contributions
 to the lesson material are highly welcome! The best way to contribute is via
 the forking-pull request workflow. See our lesson on [collaborative version
-control](https://coderefinery.github.io/git-collaborative/02-distributed/) for
+control](https://coderefinery.github.io/git-collaborative/) for
 an overview of how this works. You can also [contact us](/organization/contact/) via other
 channels.
 
@@ -142,4 +142,4 @@ Coderefinery started as a sponsored and funded project (until end of october 202
 seeking for partnerships to stay sustainable long-term.  
 
 Please take a look at [training hubs
-page](https://coderefinery.org/about/hubs/) for more information on CodeRefinery Membership options.
+page](https://coderefinery.org/organization/hubs/) for more information on CodeRefinery Membership options.

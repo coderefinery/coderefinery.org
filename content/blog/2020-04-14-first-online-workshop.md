@@ -32,7 +32,7 @@ issues, and breaks.
   hour.
 - We have started with a demonstration of the tools (Zoom and HackMD) and this
   was probably time well spent (thanks to Greg Wilson's excellent
-[presentation](https://resources.rstudio.com/webinars/teaching-online-at-short-notice)
+[presentation](https://www.rstudio.com/resources/webinars/teaching-online-at-short-notice/)
 and references therein).
 - The HackMD ice-breaker was for each participant to write their name,
   operating system, experience with Git, and optionally what they are working
@@ -241,7 +241,7 @@ The requirements and recommendations are roughly like in-person.
 
 - Showing history of commands via tmux or similar, coupled with [displaying the
   last commands
-  typed](https://github.com/coderefinery/manuals/blob/master/presenting.md#screencasting)
+  typed](https://coderefinery.github.io/manuals/instructor-tech-setup/)
   really helps.
 - Gray/dark background terminal looked better than light background terminal.
 

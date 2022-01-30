@@ -12,18 +12,18 @@ started discussing how a Nordic network of Research Software Engineers
 (RSEs) could be established, and soon thereafter the [Nordic-RSE
 initiative](https://nordic-rse.org/) was launched. The idea was to
 follow in the footsteps of very successful such initiatives in other
-countries, most notably in [the UK](https://rse.ac.uk/), [the
+countries, most notably in [the UK](https://society-rse.org/), [the
 Netherlands](http://nl-rse.org/) and
 [Germany](http://www.de-rse.org/de/index.html). For the past two years
 we have been taking the first steps in this direction. A [survey was
 conducted](https://github.com/nordic-rse/RSE_intro_survey/blob/master/analysis/results_nordics_2018_narrative.ipynb)
 to learn about the environment for people in RSE-related
-roles. Information on [groups and people](https://nordic-rse.org/map/)
+roles. Information on [groups and people](https://nordic-rse.org/communities/map/)
 working in Nordic universities who identify as RSEs is being
 collected, and local campaigns have been launched within several
 universities for the creation of new RSE groups. To further grow the
 emerging Nordic community of RSEs, we are now happy to announce that
-**the [first Nordic-RSE conference](https://nordic-rse.org/conference/),
+**the [first Nordic-RSE conference](https://nordic-rse.org/events/conference/),
 Nordic-RSE2020, will take place in Stockholm between 1st and 2nd
 December 2020**!
 
@@ -104,9 +104,9 @@ software and computing – either directly or through their role in
 advising, training and collaborating with researchers. In addition to
 the chance to raise awareness of how your products or services are
 relevant to modern research, sponsors will get mentions, visibility,
-and depending on the sponsor package chosen, [conference tickets and
+and depending on the sponsor package chosen, conference tickets and
 contributed workshops, posters or short
-talks](https://nordic-rse.org/conference/sponsorship/#sponsor-packages). For
-information on sponsorship see [our
-webpage](https://nordic-rse.org/conference/sponsorship/) or [get in
+talks. For
+information on sponsorship see our
+webpage [removed] or [get in
 touch](nordic-rse-organizers@neic.no).
