@@ -366,7 +366,7 @@ RB watching support line until we organise next event.
         - Shouldn't it be taken in the community call where all the committers for the sustainability phase join for futher discussion rather than this staff meeting?
     - 2021-09-13
         - Reflection on the community call on the 6th Sep
-        - Plan reflecting the contents written in ["Training hubs" page](https://coderefinery.org/organization/hubs/)
+        - Plan reflecting the contents written in "Training hubs" page
     - 2021-08-16
         - Discussed with relevance to 2021-10. 
         - The governance should come after the vision is set and shared.
