@@ -1,6 +1,6 @@
 +++
 title = "Upcoming workshops and events"
-date = 2021-11-28
+date = 2022-02-03
 +++
 
 {{ upcoming() }}
@@ -15,6 +15,10 @@ is important for RSS feed. -->
 
 - Spring 2022: Tue-Thu, March 22-24 and 29-31
 - Autumn 2022: Tue-Thu, September 20-22 and 27-29
+
+Other workshops:
+
+- Feb 6 and 23, 2022: Git workshop with [Compex Systems Modelling](https://site.uit.no/cosmo/) group at [UiT the Arctic University of Norway](https://uit.no/)
 
 
 ### Requesting workshop
