@@ -18,7 +18,7 @@ is important for RSS feed. -->
 
 Other workshops:
 
-- Feb 6 and 23, 2022: Git workshop with [Compex Systems Modelling](https://site.uit.no/cosmo/) group at [UiT the Arctic University of Norway](https://uit.no/)
+- Feb 16 and 23, 2022: Git workshop with [Compex Systems Modelling](https://site.uit.no/cosmo/) group at [UiT the Arctic University of Norway](https://uit.no/)
 
 
 ### Requesting workshop
