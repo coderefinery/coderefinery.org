@@ -35,6 +35,7 @@ Lessons marked with (*) are part of a regular 6 half-day workshop.
 - Special topics
   - [CMake workshop (based on ENCCS version)](https://coderefinery.github.io/cmake-workshop/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
+  - [Data visualization using Python](https://coderefinery.github.io/data-visualization-python/)
 
 - Old material (material is outdated and could be revived by somebody)
   - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
