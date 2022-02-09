@@ -2,42 +2,43 @@
 title = "Community call meeting minutes"
 +++
 
-# CodeRefinery community call
+## Agenda and notes
 
-:::info
-- Date: **Monday, November 22**, 14-15 CET / 15-16 EET
-- Invited: Everybody welcome
-- Session chairs: JH
-- Participants: JH, RB, SW, SR, BL, DI
-- This document: https://hackmd.io/@coderefinery/community-call
-- Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting
-:::
+Please add/comment "inline", as close to the topic/subject as possible, not below everything.
 
-Meeting minutes are archived at https://coderefinery.org/about/community-call/
+- Information about start of phase 3 and the process around that
+  - Official start March 1, 2022 (until Feb 28, 2025)
+  - Discussions with partners, stakeholders, and in-kind staff
+  - Drafting project plan
+    - Has not started yet but needs to be done by end of Feb
+    - Project plan will evolve from the [proposal](https://coderefinery.org/about/reports/open-call-2021-proposal.pdf)
+    - Changes: Carpentries coordination role will probably be removed, but we will try to keep Carpentries membership
+    - Slight downsizing of promised workshops based on slightly downsized budget/resources
+    - All input very welcome
+    - Goal is to present it at next community call, a month from now
+  - Steering group meeting Feb 11
+  - Community representative
+  - Working group on benefit realization plan (starting their work later today)
 
+- Announcing the various workshops that we are preparing
+  - What are you planning and how would you like others to help
+  - Git workshop at UiT: 2 x 3 h, online; planning to update Git materials
+  - NRIS courses: intro to HPC and job profiling (RB will add details)
+  - Intro to Dardel at PDC (March 2022)
 
-## Agenda
+- March workshop
+  - Dates: Tue-Thu, March 22-24 and 29-31
+  - Registration status and website: hopefully up by Feb 1
+  - We will continue using Indico for registration
+  - Exercise leads
+  - Instructors: LF, SW, JH, DI, TW (RB will also write on chat)
+  - Advertising: DI can advertise via SNIC to SE users, SW can advertise to CSC and possibly CSC users and possibly some of Finnish research institutes,
+  - Reserve dates for Sep: September 20-22 and 27-29
 
-- Briefing on what was discussed and decided at the NeIC negotiation meeting that was held on Fri 5 Nov.
-  -  presentation slides by project manager: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/main/sustainability-phase.md/
-  -  formal start date March 1st 2022
-  -  next formal steps: writing project plan (but this also depends on staff resources), definining governance structure (representatives of the steering group)
-- Info and discussion on the upcoming NeIC all hands event 24-27 Jan 2022 
-    - Abstract: https://hackmd.io/LQxs3v72QRi79MFtge3fng
-    - Please contribute to this document before Friday Nov 26
-    - There will also be room to do focused CodeRefinery work during the AHM
-- CodeRefinery webpages - bring up items that might need to be edited before the holidays, and agree on who can do what.
-  - Overview of what we plan to change and what has been implemented already are listed here: https://github.com/coderefinery/coderefinery.org/issues/582 
-  - You can help by reviewing PRs but also by opening issues and self-assigning issues
-- Any other topics for discussion 
-- Next meeting Mon 13 Dec, 14 CET
+- Website updates
+  - [Collaboration models](https://coderefinery.org/organization/collaboration-models/)
+  - [How to get involved](https://coderefinery.org/organization/get-involved/)
+  - What is left: https://github.com/coderefinery/coderefinery.org/issues
 
----
-
-:::info
-### How to archive meeting minutes
-
-- Send PR towards https://github.com/coderefinery/coderefinery.org/blob/main/content/about/community-call.md
-- In a second commit adjust this page: https://github.com/coderefinery/coderefinery.org/blob/main/content/organization/meeting-minutes.md
-- There is no automatic HackMD-GitHub link yet. We can set one up but we do need to link to individual sessions to make browsing easier for those who don't want to inspect GitHub diffs.
-:::
+- Next meeting
+  - Monday, Feb 28, 14-15 CET / 15-16 EET
