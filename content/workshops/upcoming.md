@@ -32,7 +32,7 @@ make it happen. The more we are to collaborate, the easier it will be.
 
 ### Community calls
 
-More details on [this page](/about/community-call/).
+More details on [this page](/organization/meetings/).
 
 
 ### Past workshops and events
