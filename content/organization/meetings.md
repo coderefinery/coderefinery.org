@@ -14,7 +14,7 @@ governance, and roadmap.
 
 ### Archive of past community calls
 
-- [Theme: Start of phase 3 and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/debdba1/content/about/community-call.md)
+- [Theme: Start of phase 3 and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/debdba1/content/organization/meeting-minutes.md)
 - [Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting](https://github.com/coderefinery/coderefinery.org/blob/38f1273/content/about/community-call.md)
 - [Theme: Workshop planning for 2022 (2021-10-04)](https://github.com/coderefinery/coderefinery.org/blob/6f0afb3/content/about/community-call.md)
 - [Theme: Communication and announcement strategies (2021-09-20)](https://github.com/coderefinery/coderefinery.org/blob/34cc747/content/about/community-call.md)
