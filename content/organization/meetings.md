@@ -2,6 +2,18 @@
 title = "Community calls"
 +++
 
+
+## Team meetings
+
+Every Monday at 14 CET. Except the last Monday of the month where we have a
+call with more community focus (see below).
+
+Scope: Making sure everything fits together; improving the processes, website
+and documentation; information exchange; bouncing ideas off others.
+
+- [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
+
+
 ## Community calls
 
 Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, February 28, 2022,** 14-15 CET/ 15-16 EET
