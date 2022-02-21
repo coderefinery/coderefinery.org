@@ -9,7 +9,9 @@ Every Monday at 14 CET. Except the last Monday of the month where we have a
 call with more community focus (see below).
 
 Scope: Making sure everything fits together; improving the processes, website
-and documentation; information exchange; bouncing ideas off others.
+and documentation; information exchange; bouncing ideas off others. This is
+the place where day-to-day decisions are made, but any major decisions will
+also be discussed in chat, over several weeks, or in other meetings such as the community call or with the steering group.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
 
