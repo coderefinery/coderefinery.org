@@ -1,5 +1,5 @@
 +++
-title = "Community calls"
+title = "CodeRefinery meetings"
 +++
 
 
