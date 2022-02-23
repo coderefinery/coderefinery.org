@@ -35,4 +35,9 @@ In return, you have a much broader and better training offering for
 your own community and improved teaching competence by being involved
 in our community.
 
+If you think that large, distributed workshops can't work or results
+in lower quality for your own audience, just try coming to some of our
+workshops, or attend our [instructor
+training](https://coderefinery.github.io/instructor-training/).
+
 Read more: [Get involved](/organization/get-involved)
