@@ -24,11 +24,11 @@ local leaders.
 
 ## Private workshops requests
 
-If you would like to request a private workshop, please get in touch.
-As of 2022, with our updated funding situation, CodeRefinery is more
-of a decentralized organization and we don't have dedicated staff to
-offer workshops (note: before 2022 this was mainly in the Nordic
-countries).  Thus,
+If you would like to request a private workshop, [please get in
+touch](/organization/contact/).  As of 2022, with our updated funding
+situation, CodeRefinery is more of a decentralized organization and we
+don't have dedicated staff to offer workshops (note: before 2022 this
+was mainly in the Nordic countries).  Thus,
 
 - You'd be expected to help with the teaching and organization some,
   or
