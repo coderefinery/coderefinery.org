@@ -4,7 +4,7 @@ aliases = ["/workshops/impact"]
 +++
 
 [Over 1100 people have attended a CodeRefinery workshop since the project
-started](statistics/#standard-coderefinery-workshops)! Since the pandemic started, we shifted the gear towards online workshops. In total 407 participated in online CodeRefinery workshops. 
+started](../statistics/#standard-coderefinery-workshops)! Since the pandemic started, we shifted the gear towards online workshops. In total 407 participated in online CodeRefinery workshops. 
 
 Along the change in tools and practices, we changed questions in pre-/post-workshop surveys. To provide the most consistent and recent picture of our participants and impact, the below is based on data provided by pre-/post-workshop surveys answered in relevance to **only online workshops**. (Note: pre-/post-workshops are opt-in.) 
 
