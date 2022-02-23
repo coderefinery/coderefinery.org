@@ -11,6 +11,9 @@ welcome to join just to hang out and share ideas.
 
 [Read more about
 contributing](https://coderefinery.github.io/manuals/contributing/).
+Don't forget that anyone can be an Exercise Leader in individual
+workshops, co-teach, or contribute to lessons.
+
 
 
 ## Join our "community teaching training"
