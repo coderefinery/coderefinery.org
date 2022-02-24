@@ -110,4 +110,4 @@ ranging from lesson development to website updates.
 
 We're always interested in new collaborations, so if you would like to
 co-organize an event with us or suggest a new type of event, don't
-hesitate to [get in touch](/get-involved/)!
+hesitate to [get in touch](/organization/get-involved/)!

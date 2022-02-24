@@ -28,7 +28,7 @@ Experiences from two recently held online Carpentries workshops were shared and 
 [A self-organized workshop by KTH, Stockholm University, and Karolinska Institute](https://linajandren.github.io/2020-09-22-stockholmtrio-online/)
 
 - (Lina, instructor of this workshop) Felt it was hard to teach online, as she was unsure if it reached to the audience. But it went fine.
-- (Radovan) (In his experiences from teaching online workshops in [CodeRefinery](coderefinery.org)) Jumping into breakout rooms to see how the participants did in exercise sessions helped a lot. Also being able to ask/answer questions asynchronously via HackMD hopefully lowers barrier to ask (does not delay others).
+- (Radovan) (In his experiences from teaching online workshops in [CodeRefinery](https://coderefinery.org)) Jumping into breakout rooms to see how the participants did in exercise sessions helped a lot. Also being able to ask/answer questions asynchronously via HackMD hopefully lowers barrier to ask (does not delay others).
 - (Annika) Even being able to see helpers' faces would help despite having all the learners camera off. Also, when breakout room size is small, it is easier to get impression of the learners.
 
 ### Norway, Bodø -- DC social science

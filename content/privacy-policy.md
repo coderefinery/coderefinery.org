@@ -64,10 +64,10 @@ provided to governmental bodies and other entities as required by law.
 - *Online community spaces* - cloud services that CodeRefinery as a project
   uses to provide its services to users and for collaborative working among
   CodeRefinery team members as well as together with Users. They include, but
-  not limited to, CodeRefinery's account in [GitHub](github.com/coderefinery),
-  [Zulipchat](coderefinery.zulipchat.com), [HackMD](hackmd.io/@coderefinery),
-  [Twitch](twitch.tv/coderefinery),
-  [YouTube]([youtube.com/](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg)),
+  not limited to, CodeRefinery's account in [GitHub](https://github.com/coderefinery),
+  [Zulipchat](https://coderefinery.zulipchat.com), [HackMD](https://hackmd.io/@coderefinery),
+  [Twitch](https://twitch.tv/coderefinery),
+  [YouTube](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg),
   and [Twitter](https://twitter.com/coderefine).
 - *Online video conference systems* - onlinve video conference systems that
   are licensed to any institute that CodeRefinery team members are affiliated
@@ -99,7 +99,7 @@ community space for communication purpose in a reasonable and respectful
 manner. We will not use your person identifiable information provided in our
 Online community spaces for other purposes than communication with you and
 within the community. When we archive a note taken in
-[HackMD](hackmd.io/@coderefinery) during a workshop, we will delete all the
+[HackMD](https://hackmd.io/@coderefinery) during a workshop, we will delete all the
 person identifiable information of users.
 
 We obtain the following data anonymously and voluntarily from users.
@@ -126,7 +126,7 @@ We obtain the following data anonymously and voluntarily from users.
   <https://indico.neic.no> with sender email address
   of support@coderefinery.org will be stored in the same place. Data
   controller of <https://indico.neic.no> is
-  [neic](neic.no). Registering via
+  [neic](https://neic.no). Registering via
   <https://indico.neic.no> is not strictly required to
   take part in an event.
 - We use [Freshdesk](https://www.freshworks.com/security/) as a platform (data
