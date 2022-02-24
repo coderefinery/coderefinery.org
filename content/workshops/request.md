@@ -13,7 +13,7 @@ deliver a better quality program (and that's even before we get to the
 broader audience).  Various institutions run in-person breakout rooms
 and exercise sessions for the courses, too.
 
-So, our most common recommendation for the classic 3-day CodeRefinery
+So, our most common recommendation for the classic 6-day CodeRefinery
 workshops is to join one of the online courses with your own
 registration and local breakout rooms (in-person or online).  The most
 important part of our current model is teams with exercise leaders,
