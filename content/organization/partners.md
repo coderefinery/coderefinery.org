@@ -4,10 +4,15 @@ template = "page-with-toc.html"
 +++
 
 The main point of modern CodeRefinery is that everyone needs to
-teach - why not work together?  The most important thing to realize is
-that CodeRefinery is not necessarily a separate project to be
-budgeted - **you must teach anyway, why not work together to get more
+teach - why not work together?  Joining CodeRefinery is one of best
+ways your organization can support open science, FAIR, and
+reproduciblity for the computational sciences.  The most important
+thing to realize is that CodeRefinery is not necessarily a separate
+project to be budgeted - **you must teach anyway, why not work
+together to get more
 out of it?**
+
+
 
 ## As individuals representing the partner
 
