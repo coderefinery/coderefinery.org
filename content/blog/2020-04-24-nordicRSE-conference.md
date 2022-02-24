@@ -109,4 +109,4 @@ contributed workshops, posters or short
 talks. For
 information on sponsorship see our
 webpage [removed] or [get in
-touch](nordic-rse-organizers@neic.no).
+touch](mailto:nordic-rse-organizers@neic.no).
