@@ -55,7 +55,11 @@
                 "Sabry Razick",
                 "Radovan Bast"
             ],
-            "helpers": []
+            "helpers": [],
+            "num_participants": {
+                "NO": 15,
+                "total": 15
+            }
         },
         {
             "name": "Online CodeRefinery Hackathon on Software Testing",
