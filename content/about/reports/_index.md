@@ -4,6 +4,8 @@ title = "Articles and reports"
 
 ## Articles about CodeRefinery
 
+- [CodeRefinery workshop: Nettkurs for utviklere av forskningsprogramvare](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-workshop.html)
+- [CodeRefinery: En samfunnsbasert plattform for samkjøring av kurs og opplæring relatert til utvikling av forskningsprogramvarer](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-samfunn.html)
 - "Better Science Through Better Software", <https://neic.no/news/2020/06/29/better-science-through-better-software/>
 - "A FAIRer future", [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
 - "Bättre datahantering gör forskning mer reproducerbar", [article in the Curie newsletter](https://www.tidningencurie.se/nyheter/2019/04/23/battre-datahantering-gor-forskning-mer-reproducerbar/) from the Swedish Research Council
