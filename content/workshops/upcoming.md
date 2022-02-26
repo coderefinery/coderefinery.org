@@ -16,10 +16,6 @@ is important for RSS feed. -->
 - [Spring 2022: Tue-Thu, March 22-24 and 29-31](https://coderefinery.github.io/2022-03-22-workshop/)
 - Autumn 2022: Tue-Thu, September 20-22 and 27-29
 
-Other workshops:
-
-- Feb 16 and 23, 2022: Git workshop with [Compex Systems Modelling](https://site.uit.no/cosmo/) group at [UiT the Arctic University of Norway](https://uit.no/)
-
 
 ### Requesting workshop
 

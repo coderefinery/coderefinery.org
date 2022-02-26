@@ -1,6 +1,22 @@
 {
     "events": [
         {
+            "name": "Git workshop with Compex Systems Modelling group at UiT",
+            "start_date": "2022-02-16",
+            "end_date": "2022-02-23",
+            "Organizer": [
+                "Radovan Bast"
+            ],
+            "instructors": [
+                "Radovan Bast"
+            ],
+            "helpers": [],
+            "num_participants": {
+                "NO": 19,
+                "total": 19
+            }
+        },
+        {
             "name": "Python for Scientific Computing",
             "website": "https://scicomp.aalto.fi/training/scip/python-for-scicomp/",
             "start_date": "2021-10-25",
