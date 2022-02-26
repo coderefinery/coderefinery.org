@@ -2,7 +2,7 @@
 title = "Articles and reports"
 +++
 
-## Articles about CodeRefinery
+## Articles and blog posts about CodeRefinery
 
 - [CodeRefinery workshop: Nettkurs for utviklere av forskningsprogramvare](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-workshop.html)
 - [CodeRefinery: En samfunnsbasert plattform for samkjøring av kurs og opplæring relatert til utvikling av forskningsprogramvarer](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-samfunn.html)
