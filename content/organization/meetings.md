@@ -18,7 +18,7 @@ also be discussed in chat, over several weeks, or in other meetings such as the 
 
 ## Community calls
 
-Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, February 28, 2022,** 14-15 CET/ 15-16 EET
+Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, March 28, 2022,** 14-15 CET/ 15-16 EET
 
 Scope: All topics involving community onboarding, workshop scheduling,
 governance, and roadmap.
@@ -28,6 +28,7 @@ governance, and roadmap.
 
 ### Archive of past community calls
 
+- [Community call 2022-02-28](https://github.com/coderefinery/coderefinery.org/blob/8c4f176/content/organization/meeting-minutes.md)
 - [Theme: Start of phase 3 and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/debdba1/content/organization/meeting-minutes.md)
 - [Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting](https://github.com/coderefinery/coderefinery.org/blob/38f1273/content/about/community-call.md)
 - [Theme: Workshop planning for 2022 (2021-10-04)](https://github.com/coderefinery/coderefinery.org/blob/6f0afb3/content/about/community-call.md)
