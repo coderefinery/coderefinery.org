@@ -41,7 +41,8 @@ On the other hand, unexpected behaviors include but not limited to:
 Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any events and community space organized by CodeRefinery, either online or in-person. If a participant engages in behaviour that violates this code of conduct, the organiser of the event or CodeRefinery core team member(s) may warn the offender, ask them to leave the event or platform (without refund, if applicable), or set up an incident-specific CodeRefinery Code of Conduct Committee to investigate the Code of Conduct violation and impose appropriate sanctions.
 
 ## Incidence report
- If you feel that the Code of Conduct was violated in an event organized by CodeRefinery, no matter if it is online or in physical space, please notify the host of the event or Code of Conduct facilitator if there is a dedicated person in the event. If the incident happened in a community space organized by CodeRefinery, or if you are asked to, or if you feel uncomfortable to notify directly to the host or the Code of Conduct facilitator of the event, please complete [this form](https://indico.neic.no/event/183/surveys/47) to report the incident. 
- 
- The CodeRefinery core team members have access to reported incidents. We do not yet have a separate Code of Conduct committee, but we may set up an incident-specific committee, if reported incidence is deemed to require it.
+If you feel that the Code of Conduct was violated in an event organized by CodeRefinery, no matter if it is online or in physical space, please notify the coordinator/host of the event (or Code of Conduct facilitator if there is a dedicated person). If you feel uncomfortable directly notifying someone in the workshop, use the form in the next paragraph.
 
+ If the incident happened in a community space organized by CodeRefinery, please complete [this form](https://indico.neic.no/event/183/surveys/47) to report the incident.
+
+Designed CodeRefinery team members have access to reported incidents. We do not yet have a separate Code of Conduct committee, but we may set up an incident-specific committee, if reported incidence is deemed to require it.
