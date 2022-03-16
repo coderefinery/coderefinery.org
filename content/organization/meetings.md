@@ -11,19 +11,25 @@ call with more community focus (see below).
 Scope: Making sure everything fits together; improving the processes, website
 and documentation; information exchange; bouncing ideas off others. This is
 the place where day-to-day decisions are made, but any major decisions will
-also be discussed in chat, over several weeks, or in other meetings such as the community call or with the steering group.
+also be discussed in chat, over several weeks, or in other meetings
+such as the community call or with the steering group. Despite the
+name, everyone is welcome to this event too.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
+- Calendar invites: [https://coderefinery.org/calendar/](Subscribe to
+  "team events" here), which includes community calls below.
 
 
 ## Community calls
 
 Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, March 28, 2022,** 14-15 CET/ 15-16 EET
 
-Scope: All topics involving community onboarding, workshop scheduling,
-governance, and roadmap.
+Scope: All topics involving community onboarding, "what can I do?",
+workshop scheduling, governance, and roadmap.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/community-call)
+- Calendar invites: [https://coderefinery.org/calendar/](Subscribe to
+  "CodeRefinery community calls" here)
 
 
 ### Archive of past community calls
