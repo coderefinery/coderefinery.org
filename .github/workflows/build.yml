@@ -18,13 +18,7 @@ env:
   #DEPLOY_ORGANIZATION: ""
   #CNAME: xxx   # or make a CNAME in the root
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   build:
@@ -78,7 +72,7 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) && ( env.DEPLOY_ORGANIZATION == '' || github.repository_owner == env.DEPLOY_ORGANIZATION ) }}
+      if: ${{ github.event_name == 'push' && ( env.DEPLOY_ORGANIZATION == '' || github.repository_owner == env.DEPLOY_ORGANIZATION ) }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
