@@ -61,6 +61,11 @@ jobs:
     # Add CNAME, either (first one used)
     # - file in the root
     # - the environment variable set above
+    - name: Multibranch deploy
+      uses: rkdarst/gh-pages-multibranch@main
+      if: ${{ github.event_name == 'push' }}
+      with:
+        directory: public/
     - name: add CNAME
       run: |
         if [ -f CNAME ] ; then
