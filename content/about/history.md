@@ -1,5 +1,5 @@
 +++
-title = "History of the project"
+title = "History of the project TEST CHANGE"
 +++
 
 The project idea/directive grew out of two courses given at PDC/KTH in 2014
