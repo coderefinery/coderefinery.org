@@ -5,7 +5,7 @@ title = "CodeRefinery meetings"
 
 ## Team meetings
 
-Every Monday at 14 CET. Except the last Monday of the month where we have a
+Every Monday at 14 CET. Except the first Monday of the month where we have a
 call with more community focus (see below).
 
 Scope: Making sure everything fits together; improving the processes, website
@@ -22,7 +22,7 @@ name, everyone is welcome to this event too.
 
 ## Community calls
 
-Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, March 28, 2022,** 14-15 CET/ 15-16 EET
+Held on a monthly interval on Mondays at 14 CET. **Next meeting is Monday, April 4, 2022,** 14-15 CET/ 15-16 EET
 
 Scope: All topics involving community onboarding, "what can I do?",
 workshop scheduling, governance, and roadmap.
