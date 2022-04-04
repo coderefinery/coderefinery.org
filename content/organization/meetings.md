@@ -21,7 +21,7 @@ name, everyone is welcome to this event too.
 
 ## Community calls
 
-Held on a monthly interval on Mondays at 14 CET/CEST. **Next meeting is Monday, April 4, 2022,** 14-15 CET/ 15-16 EET
+Held on a monthly interval on Mondays at 14 CET/CEST. **Next meeting is Monday, May 2, 2022,** 14-15 CET/ 15-16 EET
 
 Scope: All topics involving community onboarding, "what can I do?",
 workshop scheduling, governance, and roadmap.
@@ -32,6 +32,7 @@ workshop scheduling, governance, and roadmap.
 
 ### Archive of past community calls
 
+- [Community call 2022-04-04 focused on feedback from the March online workshop](https://github.com/coderefinery/coderefinery.org/blob/7fb0bd9/content/organization/meeting-minutes.md)
 - [Community call 2022-02-28](https://github.com/coderefinery/coderefinery.org/blob/8c4f176/content/organization/meeting-minutes.md)
 - [Theme: Start of phase 3 and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/debdba1/content/organization/meeting-minutes.md)
 - [Theme: Briefing on Nov 2021 NeIC meeting and Jan 2022 NeIC AHM meeting](https://github.com/coderefinery/coderefinery.org/blob/38f1273/content/about/community-call.md)
