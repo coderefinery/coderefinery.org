@@ -16,7 +16,7 @@ such as the community call or with the steering group. Despite the
 name, everyone is welcome to this event too.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
-- Calendar invites: [Subscribe to "team events" here](https://coderefinery.org/calendar/), which includes community calls below.
+- Calendar invites: [Subscribe to "team events" here](https://coderefinery.github.io/calendar/), which includes community calls below.
 
 
 ## Community calls
@@ -27,7 +27,7 @@ Scope: All topics involving community onboarding, "what can I do?",
 workshop scheduling, governance, and roadmap.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/community-call)
-- Calendar invites: [Subscribe to "CodeRefinery community calls" here](https://coderefinery.org/calendar/)
+- Calendar invites: [Subscribe to "CodeRefinery community calls" here](https://coderefinery.github.io/calendar/)
 
 
 ### Archive of past community calls
