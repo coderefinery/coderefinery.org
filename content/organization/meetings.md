@@ -21,7 +21,7 @@ name, everyone is welcome to this event too.
 
 ## Community calls
 
-Held on a monthly interval on Mondays at 14 CET/CEST. **Next meeting is Monday, May 2, 2022,** 14-15 CEST/ 15-16 EEST
+Held on a monthly interval on Mondays at 14 CET/CEST. **Next meeting is Monday, June 6, 2022,** 14-15 CEST/ 15-16 EEST
 
 Scope: All topics involving community onboarding, "what can I do?",
 workshop scheduling, governance, and roadmap.
