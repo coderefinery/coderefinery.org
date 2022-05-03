@@ -13,7 +13,6 @@ These are full, 6 half-day CodeRefinery workshops which we will hold online:
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [Spring 2022: Tue-Thu, March 22-24 and 29-31](https://coderefinery.github.io/2022-03-22-workshop/)
 - Autumn 2022: Tue-Thu, September 20-22 and 27-29
 
 
