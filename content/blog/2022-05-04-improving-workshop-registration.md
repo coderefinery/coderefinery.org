@@ -1,5 +1,5 @@
 +++
-title = "Improving Workshop Registration"
+title = "Our plans to improve our workshop registration process"
 slug = "2022/05/04/improving-workshop-registration"
 
 [extra]
