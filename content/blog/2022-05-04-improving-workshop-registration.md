@@ -6,16 +6,20 @@ slug = "2022/05/04/improving-workshop-registration"
 authors = "Diana Iușan and Radovan Bast"
 +++
 
+As we entered the sustainability phase of the CodeRefinery project, the number
+of participants attending our workshops continues to increase. The online
+March 2022 workshop on best practices for scientific software development has
+reached a record of 297 participants. https://coderefinery.org/workshops/past/
 
-As we entered the sustainability phase of the CodeRefinery project, the number of participants attending our workshops continues to increase. The online March 2022 workshop on best practices for scientific software development has reached a record of 297 participants. https://coderefinery.org/workshops/past/
+Interactive lessons and team exercise work are among the essential ingredients
+of our workshops. But how to devise a system that allows for dynamic exercise
+groups and easier matching of exercise leads and respective groups?
 
-Interactive lessons and team exercise work are among the essential ingredients of our workshops. But how to devise a system that allows for dynamic exercise groups and easier matching of exercise leads and respective groups?
-
-To answer this question, the CodeRefinery staff and some community members have brainstormed in an online hackathon on improving the workshop registration, held on May 3, 2022.
+To answer this question, the CodeRefinery staff and some community members
+have brainstormed in an online hackathon on improving the workshop
+registration, held on May 3, 2022.
 
 Below we summarize our observations and strategies for the upcoming events.
-
-
 
 
 ### Previous registration form
