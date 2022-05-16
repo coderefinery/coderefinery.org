@@ -71,3 +71,4 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 - [Proposal to the NeIC open call 2021](open-call-2021-proposal.pdf)
 - [NeIC open call 2021 evaluation report](open-call-2021-evaluation.pdf)
 - [Collaboration agreement (phase 3)](phase-3-collaboration-agreement.pdf)
+- [Project plan (phase 3)](phase-3-project-plan.pdf)
