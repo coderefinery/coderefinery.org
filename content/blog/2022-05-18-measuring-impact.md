@@ -77,7 +77,7 @@ The main points of our discussion were:
   - Breakout rooms could be a natural way to measure attendance but with team
     and group registration and exercise room delegation this becomes less
     directly measurable.
-- How can we measure less but have more meaningful results to not add too much
+- How can we measure less but have more meaningful results while not adding too much
   work?
   - We should not try to achieve perfection. Some data / details cannot be
     collected.
@@ -106,7 +106,7 @@ The main points of our discussion were:
     motivate it.
 - During workshops, we should talk more about us and the workshops, and let
   people know the importance of surveys and feedback.  We should motivate how
-  this "pay us back".
+  this "pays us back".
 - Our current (early 2022 and earlier) post-workshop survey questions are
   found at:
   https://github.com/coderefinery/post-workshop-survey#survey-questions
