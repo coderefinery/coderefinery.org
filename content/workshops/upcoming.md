@@ -1,6 +1,6 @@
 +++
 title = "Upcoming workshops and events"
-date = 2022-02-17
+date = 2022-05-27
 +++
 
 {{ upcoming() }}
@@ -8,12 +8,11 @@ date = 2022-02-17
 
 ### Workshop dates for 2022
 
-These are full, 6 half-day CodeRefinery workshops which we will hold online:
-
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- Autumn 2022: Tue-Thu, September 20-22 and 27-29
+- June 21, 2022: [Community teaching mini-workshop](https://hackmd.io/@coderefinery/community-teaching-2022-summer)
+- Autumn 2022: Tue-Thu, September 20-22 and 27-29 (6 half-day, online)
 
 
 ### Requesting workshop
