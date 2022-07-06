@@ -1,6 +1,33 @@
 {
     "events": [
         {
+            "name": "Community teaching mini-workshop",
+            "website": "https://hackmd.io/@coderefinery/community-teaching-2022-summer",
+            "start_date": "2022-06-21",
+            "end_date": "2022-06-21",
+            "Organizer": [
+                "Radovan Bast",
+                "Richard Darst"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Diana Iusan",
+                "Johan Hellsvik"
+            ],
+            "helpers": [],
+            "num_participants": {
+                "DK": 2,
+                "ES": 1,
+                "SE": 5,
+                "NO": 7,
+                "FI": 5,
+                "LT": 1,
+                "LV": 1,
+                "total": 22
+            }
+        },
+        {
             "name": "Git workshop with Compex Systems Modelling group at UiT",
             "start_date": "2022-02-16",
             "end_date": "2022-02-23",

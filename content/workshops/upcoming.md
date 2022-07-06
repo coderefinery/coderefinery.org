@@ -11,7 +11,6 @@ date = 2022-06-16
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- June 21, 2022: [Community teaching mini-workshop](https://hackmd.io/@coderefinery/community-teaching-2022-summer)
 - [Autumn 2022: Tue-Thu, September 20-22 and 27-29 (6 half-day, online)](https://coderefinery.github.io/2022-09-20-workshop/)
 
 
