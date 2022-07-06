@@ -319,8 +319,7 @@ community engagement, and infrastructure hosting.
       support on the issues relevant to GDPR and common cloud-based platforms
       that staff across boarder securely use. Common support email and a
       platform where more than one project staff can answer inquiries
-      regardless of their affiliation is essential (see also [Support
-      line](#Support-line) section).
+      regardless of their affiliation is essential (see also section about "Support line/ request tracker").
     - CodeRefinery is (and has become) a very much community-driven project
       rather than one where only fixed staff work with written contract through
       the employer. Such project may have been rare, but there might be more of
