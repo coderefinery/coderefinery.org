@@ -7,7 +7,7 @@ title = "Recommended material created by other organizations/projects"
 - [Library Carpentry lessons](https://librarycarpentry.org)
 - [HPC Carpentry lessons](https://hpc-carpentry.github.io)
 - [Aalto Scientific Computing: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
-- [ENCCS: CMake hands-on workshop](https://enccs.github.io/cmake-workshop/)
+- [ENCCS lessons on HPC and AI topics](https://enccs.se/lessons/)
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
 
 
