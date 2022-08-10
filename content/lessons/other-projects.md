@@ -9,6 +9,7 @@ title = "Recommended material created by other organizations/projects"
 - [Aalto Scientific Computing: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
 - [ENCCS lessons on HPC and AI topics](https://enccs.se/lessons/)
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
+- [Intermediate Research Software Development in Python](https://carpentries-incubator.github.io/python-intermediate-development/)
 
 
 ### Interesting organisations and projects to follow
