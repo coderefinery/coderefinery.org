@@ -10,6 +10,7 @@ title = "Recommended material created by other organizations/projects"
 - [ENCCS lessons on HPC and AI topics](https://enccs.se/lessons/)
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
 - [Intermediate Research Software Development in Python](https://carpentries-incubator.github.io/python-intermediate-development/)
+- [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/)
 
 
 ### Interesting organisations and projects to follow
