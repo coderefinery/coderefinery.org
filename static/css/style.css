@@ -1,34 +1,41 @@
-* { font-family: 'Roboto', sans-serif; }
-
-body {
-  background: #ffffff;
-  margin: 0;
-  height: 100%;
-  color: #384452;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-  margin-top: 1.5em;
-  color: #000000;
+body {
+    background: #ffffff;
+    margin: 0;
+    height: 100%;
+    color: #384452;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin-top: 1.5em;
+    color: #000000;
 }
 
 h3 {
-  font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 main {
-  background-color: #f8f9fa !important;
-  padding-bottom: 20px;
+    background-color: #f8f9fa !important;
+    padding-bottom: 20px;
 }
 
 footer {
-  padding: 20px 0;
-  border-top: solid 1px rgb(233, 233, 233);
+    padding: 20px 0;
+    border-top: solid 1px rgb(233, 233, 233);
 }
 
-footer .social:hover{
-  text-decoration: none;
+footer .social:hover {
+    text-decoration: none;
 }
 
 .panel .top-buffer {
@@ -36,107 +43,103 @@ footer .social:hover{
 }
 
 p {
-  padding: 0;
-  margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #384452;
-  margin-top: 10px;
+    padding: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #384452;
+    margin-top: 10px;
 }
 
-.top-buffer { margin-top: 35px; }
-.top-buffer-more { margin-top: 70px; }
+.top-buffer {
+    margin-top: 35px;
+}
+
+.top-buffer-more {
+    margin-top: 70px;
+}
 
 div.panel {
-  padding: 30px;
-  column-gap: 10px;
-  background-color: #F3F6F9;
-  flex: 1;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 1px 2px 2px #cfdcea;
+    padding: 30px;
+    column-gap: 10px;
+    background-color: #F3F6F9;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 2px #cfdcea;
 }
 
 .button_more {
-  background-color: #3074BA; /* Blue */
-  border: none;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
+    background-color: #3074BA;
+    /* Blue */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.button_more:hover{
-  color: white;
-  background-color: #5996d3;
-  text-decoration: none;
+.button_more:hover {
+    color: white;
+    background-color: #5996d3;
+    text-decoration: none;
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 img.mugshot {
-  object-fit: cover;
-  height: 260px;
-}
-
-.ctitle {
-  color: #710d7a;
-  margin-bottom: 15px;
-}
-
-.two_columns{
-    -webkit-column-gap: 20px;
-       -moz-column-gap: 20px;
-            column-gap: 20px;
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2;
+    object-fit: cover;
+    height: 260px;
 }
 
 .statistics {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /* do not hide anchor behind sticky navbar */
 /* https://www.bryanbraun.com/anchorjs/#pages-with-a-sticky-navbar */
 :target::before {
-  content: "";
-  display: block;
-  margin-top: -80px;
-  height: 80px;
-  width: 1px;
+    content: "";
+    display: block;
+    margin-top: -80px;
+    height: 80px;
+    width: 1px;
 }
 
-.carousel .carousel-indicators li {background-color: gray;}
-.carousel .carousel-indicators li.active {background-color: red;}
+.carousel .carousel-indicators li {
+    background-color: gray;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: red;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
+    height: 100px;
+    width: 100px;
+    background-size: 100%, 100%;
+    background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: red;
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: red;
+    content: '<';
+    font-size: 55px;
+    color: red;
 }
