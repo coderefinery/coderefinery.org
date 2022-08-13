@@ -1,0 +1,80 @@
+<header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ get_url(path="/") | safe }}">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Get Involved
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{ get_url(path="/organization/get-involved/") | safe }}">Get involved</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/how-to-help/") | safe }}">How to help</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/partners/") | safe }}">Partners</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/who-we-are/") | safe }}">Who we are</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/contributors/") | safe }}">Instructors and helpers</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/meetings/") | safe }}">Meetings</a>
+                <a class="dropdown-item" href="https://coderefinery.github.io/calendar/" target="_blank">Subscribe to calendars</a>
+                <a class="dropdown-item" href="{{ get_url(path="/organization/contact/") | safe }}">Contact</a>
+	          </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{ get_url(path="/about/project/") | safe }}">Project</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/impact/") | safe }}">Impact</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/statistics/") | safe }}">Statistics</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/code-of-conduct/") | safe }}">Code of Conduct</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/reports/") | safe }}">Articles and reports</a>
+                <a class="dropdown-item" href="{{ get_url(path="/about/history/") | safe }}">History</a>
+                <a class="dropdown-item" href="https://github.com/coderefinery/coderefinery-artwork" target="_blank">Logo and artwork</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops/events
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/upcoming/") | safe }}">Upcoming workshops/events</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/past/") | safe }}">Past workshops/events</a>
+                <a class="dropdown-item" href="{{ get_url(path="/workshops/request/") | safe }}">Request a workshop</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Lessons
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="{{ get_url(path="/lessons/") | safe }}">Our lessons</a>
+                <a class="dropdown-item" href="{{ get_url(path="/lessons/reusing/") | safe }}">Reusing</a>
+                <a class="dropdown-item" href="{{ get_url(path="/lessons/contributing/") | safe }}">Contributing</a>
+                <a class="dropdown-item" href="{{ get_url(path="/lessons/other-projects/") | safe }}">Other projects</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{ get_url(path="/blog/") | safe }}">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="{{ get_url(path="/repository/") | safe }}">GitLab repository</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </header>

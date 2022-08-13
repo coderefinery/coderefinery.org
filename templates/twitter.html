@@ -1,0 +1,20 @@
+    {% if page.title %}
+      <title>CodeRefinery - {{ page.title }}</title>
+      <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+      <title>CodeRefinery</title>
+      <meta name="twitter:title" content="{{ config.title }}" />
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+      <meta name="twitter:description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="description" content="{{ config.description }}" />
+      <meta name="twitter:description" content="{{ config.description }}" />
+    {% endif %}
+
+    {% if config.extra.twitter_image %}
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="{{ config.extra.twitter_image | safe }}" />
+    {% endif %}
