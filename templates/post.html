@@ -1,16 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {{ page.date | date(format="%B %d, %Y") }}
-  {% if page.extra.authors %}
-    <br>
-    <br>
-    <i>{{ page.extra.authors }}</i>
-  {% endif %}
+  <article class="uk-article">
 
-  <hr>
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">{{ page.title }}</a></h1>
 
-  <div class="top-buffer">
+    <p class="uk-article-meta">
+      {{ page.date | date(format="%B %d, %Y") }}
+      {% if page.extra.authors %}
+        - {{ page.extra.authors }}
+      {% endif %}
+    </p>
+
+    <hr>
+
     {{ page.content | safe }}
-  </div>
+
+  </article>
 {% endblock content %}
