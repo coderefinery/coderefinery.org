@@ -26,7 +26,7 @@ community engagement, and infrastructure hosting.
   about measuring how many participants from which country and from which
   discipline and career stage. However, we were asked to report about metrics
   again and again, on short notice. At some point we started reporting this in
-  detail <(https://coderefinery.org/about/statistics/>) which really simplified
+  detail (<https://coderefinery.org/about/statistics/>) which really simplified
   reporting.
 
 
@@ -144,7 +144,7 @@ community engagement, and infrastructure hosting.
     - [Lessons Learned from Running Code Refinery's First Online Workshop](https://carpentries.org/blog/2020/04/coderefinery-first-online-workshop/)
     - [Report from the Mega-Coderefinery workshop](https://carpentries.org/blog/2020/08/Report-from-the-Mega-Coderefinery-workshop/)
 - [CodeRefinery's Zulip chat is introduced as a Carpentries local community space for Nordics and Baltics.](https://carpentries.org/community/)
-- Attended at membership exective council meetings (2020 by RA, 2021 by NT).
+- Attended at membership executive council meetings (2020 by RA, 2021 by NT).
 - In 2021, CodeRefinery hosted a workshop on [Introduction to Conda for (Data) Scientists](https://coderefinery.github.io/2021-01-08-coderefinery-online/) as a part of [the Carpentries pilot program to improve the lesson material in the incubator program to further level](https://carpentries.org/blog/2020/10/call-for-pilot-workshops-carpentries-incubator/).
 - Carpentries Executive Director provided a support letter upon the application for the sustainability phase.
 - CodeRefinery has re-licensed their lesson material from CC-BY-SA to CC-BY based on a suggestion by the Carpentries.
@@ -152,7 +152,7 @@ community engagement, and infrastructure hosting.
 
 #### Regional Coordinator (RC) 
 
-- During the priod where the RC role was given as a part of tasks by a CodeRefinery project staff, the RC had an administrative role within the Carpentries on both COWs and SOWs in the relevant region. In total, appointed RC carried out administrative works on **35 workshops**. In addition, she recorded 28 past SOWs hosted by University of Oslo, which were eligible to be recorded in the Carpentries database but had not been registered.
+- During the period where the RC role was given as a part of tasks by a CodeRefinery project staff, the RC had an administrative role within the Carpentries on both COWs and SOWs in the relevant region. In total, appointed RC carried out administrative works on **35 workshops**. In addition, she recorded 28 past SOWs hosted by University of Oslo, which were eligible to be recorded in the Carpentries database but had not been registered.
 - RC initiated the following: 
     - [Nordic region mailing list at topic-box (managed by the Carpentries)](https://carpentries.topicbox.com/groups/local-nordic), 
     - ["Nordic and Baltic Get Together" session at CarpentryCon 2020 @home](https://2020.carpentrycon.org/schedule/#session-48), and
