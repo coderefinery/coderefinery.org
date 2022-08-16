@@ -1,6 +1,5 @@
 +++
 title = "Code repository hosting for Nordic research software"
-template = "page-with-toc.html"
 +++
 
 ### Server address and contact
