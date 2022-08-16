@@ -1,9 +1,8 @@
 +++
-title = "Upcoming workshops and events"
 date = 2022-06-16
 +++
 
-{{ upcoming() }}
+# Upcoming workshops and events
 
 
 ### Workshop dates for 2022
