@@ -11,6 +11,7 @@ title = "Recommended material created by other organizations/projects"
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
 - [Intermediate Research Software Development in Python](https://carpentries-incubator.github.io/python-intermediate-development/)
 - [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/)
+- [Lecture recordings by High Performance Computing Center North (HPC2N)](https://www.youtube.com/user/HPC2N/videos)
 
 
 ### Interesting organisations and projects to follow
