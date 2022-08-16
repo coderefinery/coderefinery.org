@@ -2,9 +2,16 @@ The sources behind https://coderefinery.org.
 
 Rendered using [Zola](https://www.getzola.org/).
 
-Local preview:
-- [Install Zola](https://www.getzola.org/documentation/getting-started/installation/)
-- Then: `$ zola serve`
+You can [install Zola as package](https://www.getzola.org/documentation/getting-started/installation/)
+or [download the binary](https://github.com/getzola/zola/releases).
+
+Then:
+
+```
+$ git clone --recursive git@github.com:coderefinery/coderefinery.org.git
+$ cd coderefinery.org
+$ zola serve
+```
 
 Pull requests:
 - Please send pull requests towards the `main` branch, not towards the `gh-pages` branch.
