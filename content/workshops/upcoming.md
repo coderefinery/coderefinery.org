@@ -41,6 +41,17 @@ contribute to future workshops!
 You can also subscribe to our [RSS feed](/atom.xml).
 
 
+### Upcoming workshops from partner organizations
+
+<div class="uk-alert-primary" uk-alert>
+<a class="uk-alert-close" uk-close></a>
+
+Partners are invited to [send a pull
+request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
+to list your workshop/event here.
+
+</div>
+
 ### Privacy policy
 
 Our [privacy policy](/privacy-policy/)
