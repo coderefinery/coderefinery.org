@@ -1,7 +1,8 @@
 +++
-title = "Request a workshop"
-template = "page-with-toc.html"
 +++
+
+# Request a workshop
+
 
 ## Join an existing workshop
 
@@ -21,19 +22,13 @@ and this model allows anyone to join as long as they can find these
 local leaders.
 
 
-
 ## Private workshops requests
 
 If you would like to request a private workshop, [please get in
 touch](/organization/contact/).  As of 2022, with our updated funding
 situation, CodeRefinery is more of a decentralized organization and we
-don't have dedicated staff to offer workshops (note: before 2022 this
-was mainly in the Nordic countries).  Thus,
-
-- You'd be expected to help with the teaching and organization some,
-  or
-- Or one of our partner organizations might be able to put on a
-  workshop for you.
+may not have dedicated staff to offer workshops.
+Thus, you would be expected to help with the teaching and organization some.
 
 During this transition period, it's best to join the [CodeRefniery
 chat](https://coderefinery.zulipchat.com/) and discuss there - we are
@@ -48,7 +43,6 @@ national computing center can provide the workshop) or some other
 CodeRefinery partner might be able to name a price.
 
 
-
 ## Other workshops
 
 CodeRefinery is now more than one workshop curriculum, but a platform
@@ -56,5 +50,5 @@ for sharing a wide variety of workshops.  These are more ad-hoc based
 on interest from partners.  Many of them can be joined as described in
 the first section of this page.
 
-These workshops have ranged as broadly as "HPC Kickstart" to "Python
-for Scientific Computing".
+These workshops have ranged as broadly as ["HPC Kickstart" to "Python
+for Scientific Computing"](https://scicomp.aalto.fi/training/).

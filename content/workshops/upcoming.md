@@ -11,6 +11,8 @@ date = 2022-06-16
 is important for RSS feed. -->
 
 - [Autumn 2022: Tue-Thu, September 20-22 and 27-29 (6 half-day, online)](https://coderefinery.github.io/2022-09-20-workshop/)
+- Spring 2023: (dates yet to be set)
+- Autumn 2023: (dates yet to be set)
 
 
 ## Past workshops and events
