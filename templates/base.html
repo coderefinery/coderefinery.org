@@ -25,13 +25,6 @@
 
       {% include "navigation.html" %}
 
-      {% if page.title %}
-        <h1>{{ page.title }}</h1>
-      {% endif %}
-      {% if section.title %}
-        <h1>{{ section.title }}</h1>
-      {% endif %}
-
       <div class="markdown">
         {% block content %}
         {% endblock content %}

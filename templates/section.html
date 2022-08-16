@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
+  {% if section.title %}
+    <h1>{{ section.title }}</h1>
+  {% endif %}
+
   {% if section.content %}
     {{ section.content | safe }}
   {% endif %}
