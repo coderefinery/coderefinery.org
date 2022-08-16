@@ -1,6 +1,7 @@
 +++
-title = "Our lessons/material"
 +++
+
+# Our lessons/material
 
 This is not a strict division, but lessons can be classified as to
 what is initially useful to yourself, to your group, and to the whole
@@ -50,7 +51,7 @@ found on our [YouTube
 channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
 
 
-### Other lessons by our partners and the CodeRefinery community
+## Other lessons by our partners and the CodeRefinery community
 
 You can expect these to be open-source, reusable, in a git repository, and with
 a community you can join and give contributions to:
