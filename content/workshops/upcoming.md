@@ -5,7 +5,7 @@ date = 2022-06-16
 # Upcoming workshops and events
 
 
-### Workshop dates for 2022
+## Workshop dates for 2022
 
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
@@ -13,22 +13,12 @@ is important for RSS feed. -->
 - [Autumn 2022: Tue-Thu, September 20-22 and 27-29 (6 half-day, online)](https://coderefinery.github.io/2022-09-20-workshop/)
 
 
-### Requesting workshop
+## Past workshops and events
 
-See [request a workshop](/workshops/request/).
-
-
-### Team meetings and community calls
-
-More details on [this page](/organization/meetings/).
+On [this page](/workshops/past/) we list all our past workshops and events.
 
 
-### Past workshops and events
-
-See [this page](/workshops/past/) for a list of past workshops.
-
-
-### Notify me
+## Notify me
 
 We don't want you to miss a workshop, whether it's an in-person
 workshop in your city or an online training event. [Sign up
@@ -41,7 +31,7 @@ contribute to future workshops!
 You can also subscribe to our [RSS feed](/atom.xml).
 
 
-### Upcoming workshops from partner organizations
+## Upcoming workshops from partner organizations
 
 <div class="uk-alert-primary" uk-alert>
 <a class="uk-alert-close" uk-close></a>
@@ -52,7 +42,8 @@ to list your workshop/event here.
 
 </div>
 
-### Privacy policy
+
+## Privacy policy
 
 Our [privacy policy](/privacy-policy/)
 documents what registration data we store, where, and why.
