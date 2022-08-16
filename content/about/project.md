@@ -12,13 +12,18 @@ review and discuss their source code, with the aim of making it shareable and re
 thus following the FAIR principles.
 
 Through our spin-off project [Nordic-RSE](https://nordic-rse.org), we serve as a hub for research software engineers in the Nordic countries, 
-namely in Iceland, Denmark, Norway, Sweden, Finland and Estonia.
+namely in Iceland, Denmark, Norway, Sweden, Finland, and Estonia.
 
-From 2016-10-01 to 2021-10-31, CodeRefinery received funding from
-[NeIC](https://neic.no/) and delivered a large number of face to face and
-online workshops to the Nordic Community.  After that point, we are a community
-project seeking volunteers to sustain what we have accomplished in the first
-five years.
+We are a community project seeking volunteers to sustain what we have
+accomplished in the first five years.
+
+
+## Key facts
+
+- Funded by the [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) (October 2016 to February 2025)
+- Project manager: Radovan Bast
+- Over 30 workshops held with over 1500 participants (see [past workshops](/workshops/past/) and [statistics](/about/statistics/))
+- [GitLab service](/repository/): Over 300 active users, 175 groups, with over 400 active projects
 
 
 ## CodeRefinery and [The Carpentries](https://carpentries.org/)
