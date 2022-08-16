@@ -53,8 +53,8 @@
     Number of participants by country of affiliation.
     "Total" does not mean sum since some countries are not listed.
   </p>
-  <div class="statistics">
-    <table class="table">
+
+    <table class="uk-table uk-table-divider">
       <thead>
         <tr>
           <th scope="col" style="width: 30%"></th>
@@ -83,7 +83,7 @@
         {% for event in data.events %}
           {% set num_explicit = 0 %}
           <tr>
-            <th scope="row">
+            <td>
               {% if event.website %}
                 <a href="{{ event.website }}" target=_blank>{{ event.name }}</a>
               {% else %}
@@ -166,9 +166,9 @@
           </tr>
         {% endfor %}
         <tr>
-          <th scope="row">
+          <td>
             Total
-          </th>
+          </td>
           <td>
           </td>
           <td class="text-center">
@@ -201,5 +201,4 @@
         </tr>
       </tbody>
     </table>
-  </div>
 {% endmacro table %}
