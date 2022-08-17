@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
 
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     {% block rss %}
       <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" />
     {% endblock %}

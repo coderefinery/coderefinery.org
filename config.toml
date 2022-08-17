@@ -49,9 +49,9 @@ navigation = [
       { name = "Who we are", target = "/organization/who-we-are/" },
       { name = "Instructors and helpers", target = "/organization/contributors/" },
       { name = "Meetings", target = "/organization/meetings/" },
-      { name = "Subscribe to calendars", target = "https://coderefinery.github.io/calendar/" },
       { name = "Contact", target = "/organization/contact/" },
       ] },
+  { name = "Calendars", target = "/calendars/" },
   { name = "About", items = [
       { name = "Project", target = "/about/project/" },
       { name = "Impact", target = "/about/impact/" },
