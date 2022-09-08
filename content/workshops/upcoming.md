@@ -1,5 +1,5 @@
 +++
-date = 2022-06-16
+date = 2022-09-08
 +++
 
 # Upcoming workshops and events
