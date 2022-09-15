@@ -4,6 +4,7 @@ title = "Articles and reports"
 
 ## Articles and blog posts about CodeRefinery
 
+- [Training that connects people (2022 NeIC news article)](https://neic.no/news/2022/09/15/sixth-success-story/)
 - [CodeRefinery workshop: Nettkurs for utviklere av forskningsprogramvare](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-workshop.html)
 - [CodeRefinery: En samfunnsbasert plattform for samkjøring av kurs og opplæring relatert til utvikling av forskningsprogramvarer](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-samfunn.html)
 - *Better Science Through Better Software*, <https://neic.no/news/2020/06/29/better-science-through-better-software/>
