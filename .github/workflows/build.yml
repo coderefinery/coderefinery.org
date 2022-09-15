@@ -57,6 +57,13 @@ jobs:
             echo -n ${{ env.CNAME }} > public/CNAME
             echo "Used CNAME from the action workflow file"
         fi
+    - name: Debug info
+      env:
+        event_name: ${{ github.event_name }}
+        ref: ${{ github.ref }}
+      run: |
+        echo event_name: "${event_name}"
+        echo github.ref: "${ref}"
     - name: multipages
       uses: rkdarst/gh-pages-multibranch@main
       if: ${{ github.event_name == 'push' }}
