@@ -57,8 +57,13 @@ jobs:
             echo -n ${{ env.CNAME }} > public/CNAME
             echo "Used CNAME from the action workflow file"
         fi
+    - name: multipages
+      uses: rkdarst/gh-pages-multibranch@main
+      if: ${{ github.event_name == 'push' }}
+      with:
+        directory: public
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      if: ${{ github.event_name == 'push' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
