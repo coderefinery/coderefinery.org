@@ -19,13 +19,7 @@ env:
   TARGET_BRANCH: "gh-pages"
   CNAME: "coderefinery.org"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   build:
