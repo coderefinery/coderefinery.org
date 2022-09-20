@@ -44,6 +44,9 @@ to list your workshop/event here.
 
 </div>
 
+- [Python for Scientific Computing, November 22-25,
+  2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/)
+
 
 ## Privacy policy
 
