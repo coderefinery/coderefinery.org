@@ -33,6 +33,7 @@ workshop scheduling, governance, and roadmap.
 
 ### Archive of past community calls
 
+- [Community call 2022-10-03 with September workshop retrospective](https://github.com/coderefinery/coderefinery.org/blob/9c4ec1c/content/organization/meeting-minutes.md)
 - [Community call 2022-08-01 with focus on September workshop and kick-off planning](https://github.com/coderefinery/coderefinery.org/blob/0ae6031/content/organization/meeting-minutes.md)
 - [Community call 2022-04-04 focused on feedback from the March online workshop](https://github.com/coderefinery/coderefinery.org/blob/7fb0bd9/content/organization/meeting-minutes.md)
 - [Community call 2022-05-02 focused on improving workshop registration](https://github.com/coderefinery/coderefinery.org/blob/43c05e9/content/organization/meeting-minutes.md)
