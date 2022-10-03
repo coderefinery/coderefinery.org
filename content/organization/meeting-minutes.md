@@ -5,34 +5,58 @@ title = "Community call meeting minutes"
 ## Agenda and notes
 
 - Welcome
-- Community teaching event held: https://hackmd.io/@coderefinery/community-teaching-2022-summer
-  - Version 2 of this at CarpentryCon on Wednesday
-- September workshop, new registration form/approach: https://coderefinery.github.io/2022-09-20-workshop/
-  - Teams can now register as team and do not have to register individually
-  - https://coderefinery.github.io/2022-09-20-workshop/join/
-  - SNIC/ENCCS registration
-    - the ENCCS form is only for on-site registration
-    - https://enccs.se/events/20-6-2022-coderefinery/ (but is under constructio still)
-    - the on-site event will happen in Uppsala
-    - all other/remote registrations should go to central registration
-  - RD: what about "General registration (anyone may register here to do basic online attendance with no obligations.  You may be interested in one of the following special attendee groups, in which case you don't need to register here, but still can):"   and then each group should say what extra benefits it gets?
-- Kick-off meeting Sep 1-2 at Aalto/Helsinki
-  - https://hackmd.io/@coderefinery/kickoff2022 
-  - Lunch to lunch
-  - Aalto Campus 
-  - Brainstorming about new formats and new lessons
-  - Working on lessons
-  - Brainstorming about funding/sustainability/pricing
-  - Event website coming soon
-  - You are welcome to join
-- Marketing and engagement
-  - https://tweetdeck.twitter.com/ if you have an account and would like to be able to post on CR's behalf, please let RB know
-  - it is possible to tweet by sending pull request to https://github.com/coderefinery/coderefinery-twitter
-  - https://zulip.com/integrations/doc/twitter - this bot can post mentions into zulip, maybe useful for knowing when to react?
-    - RB will set this up 
-  - Including the event in other organisations training calendars
-      - [Example: CSC Eventilla page](https://ssl.eventilla.com/event/7eXYL) so that the event shows in [here](https://www.csc.fi/en/training)
+- Reflections on in-person participations post CR_fall_2022
+    - lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
+    - learners not that motivated in joining the Otaniemi in-person (daily decreasing numbers)
+    - some discussion in [this thread](https://coderefinery.zulipchat.com/#narrow/stream/316508-tools-workshop/topic/otaniemi.20in-person) summarised here:
+        -  is September too crowded with other events?
+        -  have we saturated the local market?
+        -  should we do more async teaching/learning?
+        -  what is the number of hours/emails/euros/zooms spent per participant showing up?
+        -   flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
+    - possible action points
+        - send out a survey to (Aalto) doctoral students to ask when they are the busiest (Enrico can draft)
+        - promote more local in-person only workshop following the old 3-days format (e.g. a research group *retreat* meeting, winter/summer schools, encourage aspiring lecturers to teach our material with our help which is good for their teaching portfolio). Do we want this?
+          - We (DI, TW, JH) are considering an in-person CR workshop in Stockholm or Uppsala during the first half of 2023.
+ - I (Frankie) will come and can discuss any of these if they are in-scope (I do not want to derail the meeting)
+    - Feedback from JYU in person. Two things were mentioned multiple times in free form feedback:
+        - Audio problems (standardised headsets have already been discussed on Zulip)
+          - (This was partially a problem with the in-room audio setup which ws a single corner roof speaker. In future I would probably check out the rooms in a bit more detail. This time the room bookings were made in a bit of a panic However, it was made worse by a lot of reverb/muddy low end in the source audio.)
+        - Navigation problems among different webpages. See: https://github.com/coderefinery/coderefinery.org/issues/697
+    - Can we do it somehow that exercises would happen in one repo
+      - Some cohesive big picture betwen exercises
+      - Then provide snapshots / starting points for thos who do not have done the previous exercises
+  - lessons learned
+    - Some notes also in Team meeting HackMD
+    - still too many links and places?
+    - many different webpages make it difficult to navigate
+  - follow-up steps
+    - publish viewer statistics
+    - document workshop organization "playbook" in manual
+  - are we keeping or changing the format?
+    - maybe we keep it once more since we already announced the times? 
+    - towards more self organization (self-flowing/organization in exercise zoom seems to have worked well)
+    - experience from Aalto: central registration is very automated and communities self-organize
+      - let's have a hackathon day 
+    - flipped classroom approaches
+      - short videos (maybe attached to lecture material)
+      - this could lead to us creating the material and then people arranging their own "workshops" according to our instructions
+  - registration page
+    - 3 different forms
+    - especially unclear for exercise leads where to register 
+- Upcoming events
+  - Nordic RSE unconference October 18-19: https://nordic-rse.org/events/2022-online-unconference/
+  - NRIS 2 workshops on HPC: one basic and one on best practices, in Oct and Nov: https://documentation.sigma2.no/training/events.html
 - Upcoming course ideas
   - Idea: instead of HPC kickstart course, Aalto would do a "workflows course" that is a more general and reusable thing.  Covering things like "parallelizing things without parallelizing", practical data management, workflow management, etc.
   - https://hackmd.io/@coderefinery/workflows-course-planning
-- Next meeting: Sep 5
+- Marketing and engagement
+  - Newsletter? 
+  - https://tweetdeck.twitter.com/ if you have an account and would like to be able to post on CR's behalf, please let RB know
+  - it is possible to tweet by sending pull request to https://github.com/coderefinery/coderefinery-twitter
+  - https://zulip.com/integrations/doc/twitter - this bot can post mentions into zulip, maybe useful for knowing when to react?
+  - Including the event in other organisations training calendars
+      - [Example: CSC Eventilla page](https://ssl.eventilla.com/event/7eXYL) so that the event shows in [here](https://www.csc.fi/en/training)
+  - one-liner per week a la "terminal-Tuesday" or shell-one-liners
+  - at next development day ("social media day"): come up with 20-30 and prepare and automate every Tuesday
+- Next meeting: Nov 7
