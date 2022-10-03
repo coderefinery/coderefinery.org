@@ -22,7 +22,7 @@ name, everyone is welcome to this event too.
 ## Community calls
 
 Held on a monthly interval on Mondays at 14 CET/CEST,
-the **first monday of a month**.
+the **first Monday of a month**.
 
 Scope: All topics involving community onboarding, "what can I do?",
 workshop scheduling, governance, and roadmap.
