@@ -19,7 +19,7 @@ welcome to join just to hang out and share ideas.
 - [Request a workshop](/workshops/request/)
 - [Reuse our lessons](/lessons/reusing/)
 - [Join our meetings](/organization/meetings/)
-- Stay up-to-date on all events and meetings by subscribing to one or more of our [Calendars](https://coderefinery.org/calendars/
+- Stay up-to-date on all events and meetings by subscribing to one or more of our [Calendars](https://coderefinery.org/calendars/)
 - [More detail about contributing in our
   manuals](https://coderefinery.github.io/manuals/contributing/)
 
