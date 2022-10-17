@@ -1,6 +1,25 @@
 {
     "events": [
         {
+            "name": "CarpentryCon 2022: Online teaching strategies from CodeRefinery",
+            "website": "https://hackmd.io/@coderefinery/carpentrycon-2022-attendee",
+            "start_date": "2022-08-03",
+            "end_date": "2022-08-03",
+            "Organizer": [
+                "Radovan Bast",
+                "Richard Darst"
+            ],
+            "instructors": [
+                "Radovan Bast",
+                "Richard Darst",
+                "Luca Ferranti",
+                "Samantha Wittke"
+            ],
+            "num_participants": {
+                "total": 15
+            }
+        },
+        {              
             "name": "Community teaching mini-workshop",
             "website": "https://hackmd.io/@coderefinery/community-teaching-2022-summer",
             "start_date": "2022-06-21",
