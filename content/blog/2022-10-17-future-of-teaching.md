@@ -40,7 +40,9 @@ manuals](https://coderefinery.github.io/manuals/).
 
 The strategies we have developed have revolutionized the way we teach.
 We no longer have limited attendance because of room sizes, mandatory
-registration, or instructor monologues.
+registration, or instructor monologues.  We don't want to "return to
+normal", and we think that others should start learning of our
+developments as well.
 
 But we realize that not everyone can go all the way that we have gone.
 It takes a lot of effort to put on a livestream course with tens of
@@ -50,9 +52,10 @@ provide a good way for a few people to reach an audience - especially
 if it is local.  We hope to explore the ways that what we have learned
 can be adapted to this kind of teaching, too.
 
-Future blog posts in this series could include (future blog posts will
-be linked from the list below):
-* HackMD
+Future blog posts in this series could include the following (this
+list will be updated and future blog posts will be linked below, this
+is the "start page" of the series):
+* Random access chat ("HackMD") and interaction in large courses
 * Co-teaching
 * Teams
 * Hybrid courses vs reverse-hybrid courses
@@ -65,3 +68,5 @@ be linked from the list below):
 ## See also
 
 - [CodeRefinery manuals](https://coderefinery.github.io/manuals/)
+- [CodeRefinery community teaching
+  training](https://coderefinery.github.io/community-teaching/)
