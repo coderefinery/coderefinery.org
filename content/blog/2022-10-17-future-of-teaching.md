@@ -63,6 +63,7 @@ is the "start page" of the series):
 * Registration and learner management
 * Livestreaming
 * Collaboration in organizing
+* Working together as a team
 * (lessons for academic teaching?)
 
 ## See also
