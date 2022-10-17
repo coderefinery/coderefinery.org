@@ -7,6 +7,7 @@ We are always looking for both **people and institutions** that can promote the
 FAIRness of software management and development practice. There are many ways
 that **you can join and get involved and help the project**:
 
+## Help with the workshops
 
 ### As helper or exercise lead
 
@@ -120,6 +121,11 @@ All our material is open. It is steadily evolving and you can help us making it 
 - Also opening issues about errors or suggestions help
 - Sharing ideas/suggestions for lessons we are missing
 
+## Help the CodeRefinery project
+
+CodeRefinery is more than bi-yearly workshops. There is many ways that you can become involved and help the project to continue.
+
+We are collecting current to-do's all around the project (including the workshops) in our [collaborative document](https://hackmd.io/@coderefinery/CR_TO-DO). The best way to get started with those, is to join our [Zulip chat](https://coderefinery.zulipchat.com) and ask for more information.
 
 ### Shaping the governance structure
 
