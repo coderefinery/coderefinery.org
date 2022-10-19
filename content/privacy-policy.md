@@ -8,11 +8,6 @@ In short:
 - Due to the continuation of the project and to keep it possible to issue
   certificates, we will keep the workshop/hackathon/training participants'
   data from 2020 and 2021 until December 2024.
-- When we know which newsletter/notify-me platform to use in the new project
-  phase (hopefully by early next year), we will notify the current
-  newsletter/notify-me subscribers to subscribe to a new platform and
-  unsubscribe all of them from the current ones after the notification email
-  is sent.
 
 On the 1st October 2021, it was announced that CodeRefinery will receive
 partial financial support by NeIC for the next 3 years (CodeRefinery
@@ -36,7 +31,7 @@ expert helper, or exercise lead) in the currently used platform, Indico,
 managed by NeIC. The currently participating staff who is also committed to be
 a part of the CodeRefinery SP have access to the information.
 
-We continue using the newsletter and notify-me form also in the new phase but
+We continue using the newsletter in the new phase but
 we may switch to other services but in this case we would notify all
 subscribers about deletion of their contact information and invite them to
 re-register to the new services that we may migrate to.  If a user wants to
@@ -82,8 +77,6 @@ We obtain user data including person identifiable information in the following m
   - For preparation of the workshop, for example grouping of users for exercises.
   - To compare with attendance information.
   - After anonymization and summarizing, to report statistics on our website and in reports delivered to fiscal sponsors and contributing partners.
-- "notify-me" subscription form to receive notification of upcoming workshops and events.
-  - To send notification about upcoming workshops and events that the user registered as interested.
 - Email inquiry sent to support@coderefinery.org.
   - To answer the inquiry.
 - Usage report of Online video conference system showing attendance information (participant name, email address (if any), and time of entry and exit of the online event).
@@ -114,7 +107,7 @@ We obtain the following data anonymously and voluntarily from users.
 ## Who has access to the personally identifiable information?
 
 - CodeRefinery team members have access to personally identifiable information
-  provided upon workshop sign-up, "notify-me" sign-up, subscribing to our
+  provided upon workshop sign-up, subscribing to our
   newsletter, sending inquiry to support@coderefinery.org, and attendance in
   online/in-person workshops.
 
