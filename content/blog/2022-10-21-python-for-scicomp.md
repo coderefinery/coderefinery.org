@@ -26,8 +26,9 @@ is ready for you!  Take part in different ways:
 Python for Scientific Computing has run in 2020 and 2021, and was
 designed to be a next step for scientists after basic Python: not too
 in-depth, but showing a broad, hands-on picture of many useful tools
-in the Python ecosystem.  All material and teaching is open-source
-before, during, and after the course.
+in the Python ecosystem.  All
+[material](https://aaltoscicomp.github.io/python-for-scicomp/) and
+teaching is open-source before, during, and after the course.
 
 Last year, we had 500 viewers for our peak days.  Can we make 1000 or
 5000 this year? - the course certainly supports it, and with your
