@@ -1,5 +1,5 @@
 +++
-title = "Parallel chat ("HackMD") and scaling teaching"
+title = 'Parallel chat ("HackMD") and scaling teaching'
 slug = "2022/05/04/parallel-chat"
 
 [extra]
