@@ -15,7 +15,8 @@ discuss what we did and how you can learn from it.**
 So, what is the future of teaching?  For type of practical, hands-on
 learning, we could try to classify learning situations into three
 types:
-* Very large courses, MOOCs, material available online.
+* Very large courses and MOOCs, where individual interaction isn't
+  possible.
 * Small-medium courses, 10-30 people, with traditional classroom-type
   interactions.
 * One-on-one or small-group mentoring.
@@ -29,7 +30,8 @@ got squeezed out**: very large courses (with the proper tools) were
 better at conveying information, and mentoring and co-working was best
 for supporting people outside of these courses.  These two things
 combined seemed to greatly reduce the need for traditional
-medium-sized courses.
+medium-sized courses.  At the same time, the total effort became less
+as we scaled up, which we'll talk about later.
 
 Of course, you can't move medium in-person courses to large online
 courses without adjusting how you teach.  However, once we did adjust,
@@ -50,7 +52,10 @@ staff (but still many of our strategies can be adapted by others).
 Medium-sized courses are still great for medium-sized communities and
 provide a good way for a few people to reach an audience - especially
 if it is local.  We hope to explore the ways that what we have learned
-can be adapted to this kind of teaching, too.
+can be adapted to this kind of teaching, too.  And of course, we will
+continue supporting medium sized courses where someone wants them,
+especially as a "reverse hybrid" with remote instructors but in-person
+exercises.
 
 Future blog posts in this series could include the following (this
 list will be updated and future blog posts will be linked below, this
@@ -64,6 +69,8 @@ is the "start page" of the series):
 * Livestreaming
 * Collaboration in organizing
 * Working together as a team
+* Comparison to MOOCs
+* Effort needed for organizing big courses
 * (lessons for academic teaching?)
 
 ## See also
