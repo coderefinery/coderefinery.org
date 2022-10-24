@@ -20,15 +20,10 @@ is important for RSS feed. -->
 On [this page](/workshops/past/) we list all our past workshops and events.
 
 
-## Notify me
+## How to be informed about future events
 
-We don't want you to miss a workshop, whether it's an in-person
-workshop in your city or an online training event. [Sign up
-here](https://indico.neic.no/event/135/surveys/36) and tell us what
-you're interested in, and we will notify you when the registration for
-workshops and events opens. This form is also for new
-helpers and instructors, so please fill the form if you would like to
-contribute to future workshops!
+We don't want you to miss a workshop or event. The best
+way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery).
 
 You can also subscribe to our [RSS feed](/atom.xml).
 
