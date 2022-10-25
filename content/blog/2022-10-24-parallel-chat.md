@@ -6,7 +6,7 @@ slug = "2022/05/04/parallel-chat"
 authors = "Richard Darst"
 +++
 
-One of the most common complains when moving online was the amount of
+One of the most common complaints when moving online was the amount of
 interaction and feedback possible.  How often have you heard "please
 turn on your cameras so I can see how it's going" - only to have no
 one do that.  You might be surprised to learn that CodeRefinery's
@@ -14,14 +14,14 @@ online courses have an order of magnitude more interaction than our
 in-person courses.
 
 Problems with online courses
-* turning on camera doesnt' work, peopl quiet, anonymous
+* turning on camera doesn't work, people quiet, anonymous
 * no interaction
 
 Our solution is "parallel chat", or as we typically call it "HackMD"
 after the service we started using - although it's not really specific
-to that service.  Basically, it's on online document (think
+to that HackMD, and neither is it a chat platform. Basically, it's on online document (think
 etherpad/Google Docs/etc) that everyone can see and edit at the same
-time.  Instead of asking question by voice classic (linear) chat,
+time.  Instead of asking question by voice or via classic (linear) chat,
 people write new questions as a bullet point in the bottom of the
 parallel chat.  Our team of helpers answers them in sub-bullet
 points - and a whole discussion can happen in these bullet points.
@@ -35,18 +35,19 @@ There are a variety of reasons this is so good:
 * People can ask anonymously - which encourages questions from those
   who would usually be silent in courses.
 * You can get multiple diverse answers to the same question, showing
-  that the instructors aren't one homogeneous group
+  that the instructors aren't one homogeneous group and to give multiple different solutions, when "one right answer" does not exist or is more a matter of taste.
 * By having more questions asked, you can get much more feedback while
   teaching - so much you have to be careful to not be overloaded!
 * It's fun: parallel chat via a text document isn't perfect, but it's
   pretty good.  It allows some creativity in asking, answering, and
   giving feedback.
+For example polls can be conducted as "+" or "-" or "o" added after the options.
 
 Just look at the number of questions in our old courses: LINK
 
 So, just how does this work?  Well, we create the text document with
 some standard notes at the top and bottom.  It's made freely editable
-without any login.  All learnors are told to ask every new question in
+without any login.  All learners are told to ask every new question in
 list item at the bottom of the document - *always* the bottom, since
 that's the only thing we follow.  The course team has this open and
 answers questions, focusing their attention at the bottom.  Some other
@@ -85,6 +86,7 @@ it is...
 * Lack of helpers to answer in parallel - fewer answers ⇒ fewer
   questions.  Fewer questions ⇒ less time looking at it ⇒ less
   motivation to ask questions.
+* But also in smaller hybrid courses it provides a great way to give equal opportunities to on-site vs online participants to ask and get answers to their questions.
 
 Overall parallel chat in a workshop feels extremely interactive - even
 more so than a medium-sized traditional in-person course.  Combine
