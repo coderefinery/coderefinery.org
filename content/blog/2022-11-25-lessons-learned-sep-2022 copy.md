@@ -70,12 +70,36 @@ we can try to communicate better that after the git lessons it can be OK and als
     - How to get stats then?
     - Could we just instruct people to give us info?
       - Have it somewhere nicely submitted?
-- Feedback discussen in meeting Mon 03.10.22
-  - Team Meeting: https://hackmd.io/76jnB2v7ThKTT-X2iznebg?both#2022-10-03
-  - Community call: https://hackmd.io/TU7lIsHwT_ORaEjytW5Xcg?both#Agenda-and-notes
-    - Or archived in https://coderefinery.org/organization/meetings/#archive-of-past-meetings
+- Feedback discussen in meeting Mon 03.10.22 https://coderefinery.org/organization/meetings/#archive-of-past-meetings
+  - lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
+  - learners not that motivated in joining the Otaniemi in-person (daily decreasing numbers)
+  - is September too crowded with other events?
+  - have we saturated the local market?
+  - should we do more async teaching/learning?
+  - what is the number of hours/emails/euros/zooms spent per participant showing up?
+  - flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
+  - Navigation problems among different webpages. See: #697
+  - Can we do it somehow that exercises would happen in one repo
+  - Some cohesive big picture betwen exercises
+  - Then provide snapshots / starting points for thos who do not have done the previous exercises
+  - many different webpages make it difficult to navigate
 
->>> From here it is just copy of https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/ -MJ 25.10.22 klo 10:35
+### Lesson coordination
+
+### Zoom and OBS
+
+### Collaborative notes
+
+### Installation and tools
+
+### Presenting and coordinating
+
+### Lesson content
+
+### Communication with participants
+
+
+>>> From here it is just copy of https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/ -MJ 25.10.22 klo 16:00
 
 ### Lesson coordination
 
