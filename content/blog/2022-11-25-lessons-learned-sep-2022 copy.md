@@ -15,90 +15,91 @@ Here we wish to share with the community our lessons learned: What worked well a
 This complements our lessons learned from [our first online workshop](https://coderefinery.org/blog/2020/04/14/first-online-workshop/) and [May 2021 workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/).
 
 ### Placeholder from [Zulip](https://coderefinery.zulipchat.com/#narrow/stream/316508-tools-workshop/topic/lessons.20learned/near/305823097) 
-large no-show rate (over 50%)
-most participants were interested in the Git part and after the Git lessons the interest was smaller
-very little interaction among participants in the in-person room
-more interaction in video room
-especially in in-person: the twitch sessions felt long (since there was so little interaction)
-too few exercises and hence not enough possibility for interaction
-many did not install software beforehand
-exercises felt too short (because many were software-unprepared)
-since there as so little interaction and not enough exercise time: some ELs felt that they "are not needed"
-next time they will probably try only video participation
-we can try to communicate better that after the git lessons it can be OK and also useful to join only for the lessons of interest (to motivate people to pop in also for 1 or 2 lessons)
+- more interaction in video room
+  - especially in in-person: the twitch sessions felt long (since there was so little interaction)
+  - too few exercises and hence not enough possibility for interaction
+- many did not install software beforehand
+- exercises felt too short (because many were software-unprepared)
+- since there as so little interaction and not enough exercise time: some ELs felt that they "are not needed"
+- next time they will probably try only video participation
 
-### Placeholder From Planning HackMD
-- add all sessions to CodeRefinery calendar
-- Link all relevant repositories in one place (ie. this calendar and anything that needs attention near a workshop)
-  - Make sure those repositories have good instructions in readmes
+
+### Registration
 - ask for consent to be contacted for future events organized by us
 - exercise leader registration was confusing (too many forms)
+- Let people to self-organise more
+  - Offer hackmd, EL zoom, Ex zoom, stream and inform people about those resources
+  - Give hints about different ways to participate but no rigid instructions
+- Still more lightweight system registration
+  - This is a balancing act between guiding people and trusting them to them self.organise
+- leave team registration completely to the participants to handle
+  - Tell that they could summon teams in their organisation communication channels
+  - They could indicate somewhere that they are open for teams
+  - Tell organisations that they can organise their own registration
+- Could we actually get away with no registration at all?
+  - How to get stats then?
+  - Could we just instruct people to give us info?
+    - Have it somewhere nicely submitted?
+- How to deal with late registrants?
+  - should they get zoom link or only HackMD?
+    - If not we should take those options away from the registration form. Maybe have a last minute registration form as a separate one
+- Consider adding EG to Indico managers :grin: 
+
+### Workshop format
+- most participants were interested in the Git part and after the Git lessons the interest was smaller
+- large no-show rate (over 50%)
 - maybe this is too big for the resources/time that we have or don't have or maybe the task distribution was not clear/visible
+- learners not that motivated in joining the Otaniemi in-person (daily decreasing numbers)
+- is September too crowded with other events?
+- have we saturated the local market?
 - Establish the process according to this experience gained from this and previous times:
   - Make step-by-step instructions in manuals on how to arrange this
   - Create all entities with links already early so that they can be put in Indico confirmation message
     - Info from emails sent could be also in manuals except for the links
-- Consider adding EG to Indico managers :grin: 
+
+### Lesson coordination
+- very little interaction among participants in the in-person room
+- flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
+- should we do more async teaching/learning?
+- lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
+
+### Zoom and OBS
 - ask ELs not to speak in learners Zoom while lecturers speak in Twitch
-- HackMD goes to twitch chat anyway so maybe no point in keeping it as a secret
+- The goal was to have Zoom instructions about BO rooms aaand open BO rooms well before the stream starts but that did not happen, sorry. I opened them ~10 minutes before exercises -MJ
+- Utilise Zoom annotate in co-teaching
+- Ex Zoom BO rooms:
+  - Tech questions -room is difficult to follow if someone actually goes there
+  - Quiet room had 1-3 participants always
+- Exercise room instructions screenshare: I did it from separate device so I had the host computer free to operate stuff -MJ
 - We could share the Zoom link as well and consider having a password and/or waiting room
+
+### Collaborative notes
+- HackMD goes to twitch chat anyway so maybe no point in keeping it as a secret
 - HackMD starts to be slow even if it should not with ~100 participants
   - Numbering questions adds confusion -> keep bullets and change to numbers in archive if needed
   - note for future: when pre-seeding the question numbers, leave a line between them.  Then, when someone pushes enter after a number to add a new line, it doesn't increment the future numbers.  Just saw this, this solves a big problem with numbering
   - New doc in HedgeDoc: https://notes.coderefinery.org/t-0OzGm_TOW0a5eYgFUbuQ?both
-- The goal was to have Zoom instructions about BO rooms aaand open BO rooms well before the stream starts but that did not happen, sorry. I opened them ~10 minutes before exercises -MJ
-- add install session to CR calendar
-- How to deal with late registrants?
-  - should they get zoom link or only HackMD?
-    - If not we should take those options away from the registration form. Maybe have a last minute registration form as a separate one
-- Exercise room livestream: I did it from separate device so I had the host computer free to operate stuff -MJ
-- Utilise Zoom annotate in co-teaching
-- Let people to self-organise more
-  - Offer hackmd, EL zoom, Ex zoom, stream and inform people about those resources
-  - Give hints about different ways to participate but no rigid instructions
-- Ex Zoom BO rooms:
-  - Tech questions -room is difficult to follow if someone actually goes there
-  - Quiet room had 1-3 participants always
-- Topics in Day 4 (at least) would deserve a longer lesson
-- MJ Train of thought on registration
-  - More lightweight system
-  - leave team registration completely to the participants to handle
-    - Tell that they could summon teams in their organisation communication channels
-    - They could indicate somewhere that they are open for teams
-    - Tell organisations that they can organise their own registration
-  - Could we actually get away with no registration at all?
-    - How to get stats then?
-    - Could we just instruct people to give us info?
-      - Have it somewhere nicely submitted?
-- Feedback discussen in meeting Mon 03.10.22 https://coderefinery.org/organization/meetings/#archive-of-past-meetings
-  - lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
-  - learners not that motivated in joining the Otaniemi in-person (daily decreasing numbers)
-  - is September too crowded with other events?
-  - have we saturated the local market?
-  - should we do more async teaching/learning?
-  - what is the number of hours/emails/euros/zooms spent per participant showing up?
-  - flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
-  - Navigation problems among different webpages. See: #697
-  - Can we do it somehow that exercises would happen in one repo
-  - Some cohesive big picture betwen exercises
-  - Then provide snapshots / starting points for thos who do not have done the previous exercises
-  - many different webpages make it difficult to navigate
-
-### Lesson coordination
-
-### Zoom and OBS
-
-### Collaborative notes
 
 ### Installation and tools
 
 ### Presenting and coordinating
 
 ### Lesson content
+- Can we do it somehow that exercises would happen in one repo
+- Some cohesive big picture betwen exercises
+- Then provide snapshots / starting points for thos who do not have done the previous exercises
+- Topics in Day 4 (at least) would deserve a longer lesson
+- we can try to communicate better that after the git lessons it can be OK and also useful to join only for the lessons of interest (to motivate people to pop in also for 1 or 2 lessons)
 
 ### Communication with participants
+- what is the number of hours/emails/euros/zooms spent per participant showing up?
+- Navigation problems among different webpages. See: #697
+- add install session to CR calendar
+- Link all relevant repositories in one place (ie. this calendar and anything that needs attention near a workshop)
+  - Make sure those repositories have good instructions in readmes
+- add all sessions to CodeRefinery calendar
 
-
+---------------------------------------------------------------------------------------------------------------------------
 >>> From here it is just copy of https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/ -MJ 25.10.22 klo 16:00
 
 ### Lesson coordination
