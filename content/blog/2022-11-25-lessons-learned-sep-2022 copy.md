@@ -23,6 +23,8 @@ This complements our lessons learned from [our first online workshop](https://co
 - since there as so little interaction and not enough exercise time: some ELs felt that they "are not needed"
 - next time they will probably try only video participation
 
+>>> Here are headlines and the new stuff put in places -MJ
+>>> What is needed still is to make them understandable and see for synergies
 
 ### Registration
 - ask for consent to be contacted for future events organized by us
@@ -101,6 +103,7 @@ This complements our lessons learned from [our first online workshop](https://co
 
 ---------------------------------------------------------------------------------------------------------------------------
 >>> From here it is just copy of https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/ -MJ 25.10.22 klo 16:00
+>>> I would say check for things that did not happen better this time and take them up 🔝 from here.
 
 ### Lesson coordination
 
