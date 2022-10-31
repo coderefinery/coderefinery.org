@@ -2,6 +2,53 @@
     "events": [
         {
             "name": "Full online workshop (6 half-days)",
+            "website": "https://coderefinery.github.io/2022-09-20-workshop/",
+            "start_date": "2022-09-20",
+            "end_date": "2022-09-31",
+            "host": [
+                "Radovan Bast",
+                "Matias Jääskeläinen"
+            ],
+            "instructors": [
+                "Sabry Razick",
+                "Samantha Wittke",
+                "Dhanya Pushpadas",
+                "Thomas Pfau",
+                "Radovan Bast",
+                "Hande Celikkanat",
+                "Johan Hellsvik",
+                "Thor Wikfeldt",
+                "Jarno Rantaharju",
+                "Matteo Tomasini",
+                "Richard Darst"
+            ],
+            "expert_helpers": [
+                "Diana Iusan",
+                "Thor Wikfeldt",
+                "Johan Hellsvik",
+                "Stephan Smuts",
+                "Juho Lehtonen",
+                "Dhanya Pushpadas"
+            ],
+            "helpers": [
+                "Björn Claremar",
+                "Philip Gjedde",
+                "Juho Lehtonen",
+                "Bjørn Lindi",
+                "Giordano Lipari",
+                "Dhanya Pushpadas",
+                "Stephanie van de Sandt",
+                "Meron Vermaas",
+                "Aleksandra Wilczynska",
+                "Ruslan Zhuravchak",
+                "Kaveh Karimi"
+            ],
+            "num_participants": {
+               
+            }
+        },
+        {
+            "name": "Full online workshop (6 half-days)",
             "website": "https://coderefinery.github.io/2022-03-22-workshop/",
             "start_date": "2022-03-22",
             "end_date": "2022-03-31",
