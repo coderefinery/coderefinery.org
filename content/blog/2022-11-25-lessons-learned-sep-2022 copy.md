@@ -14,7 +14,7 @@ Here we wish to share with the community our lessons learned: What worked well a
 
 This complements our lessons learned from [our first online workshop](https://coderefinery.org/blog/2020/04/14/first-online-workshop/) and [May 2021 workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/).
 
-### Placeholder from [Zulip](https://coderefinery.zulipchat.com/#narrow/stream/316508-tools-workshop/topic/lessons.20learned/near/305823097) 
+### Placeholder from [Zulip](https://coderefinery.zulipchat.com/#narrow/stream/316508-tools-workshop/topic/lessons.20learned/near/305823097)
 - more interaction in video room
   - especially in in-person: the twitch sessions felt long (since there was so little interaction)
   - too few exercises and hence not enough possibility for interaction
@@ -27,14 +27,14 @@ This complements our lessons learned from [our first online workshop](https://co
 >>> What is needed still is to make them understandable and see for synergies
 
 ### Registration
-- ask for consent to be contacted for future events organized by us
-- exercise leader registration was confusing (too many forms)
+- Ask for consent to be contacted for future events organized by us
+- Exercise leader registration was confusing (too many forms)
 - Let people to self-organise more
   - Offer hackmd, EL zoom, Ex zoom, stream and inform people about those resources
   - Give hints about different ways to participate but no rigid instructions
-- Still more lightweight system registration
-  - This is a balancing act between guiding people and trusting them to them self.organise
-- leave team registration completely to the participants to handle
+- We still need a more lightweight system registration
+  - This is a balancing act between guiding people and trusting them to them self-organise
+- Leave team registration completely to the participants or partners to handle
   - Tell that they could summon teams in their organisation communication channels
   - They could indicate somewhere that they are open for teams
   - Tell organisations that they can organise their own registration
@@ -43,13 +43,13 @@ This complements our lessons learned from [our first online workshop](https://co
   - Could we just instruct people to give us info?
     - Have it somewhere nicely submitted?
 - How to deal with late registrants?
-  - should they get zoom link or only HackMD?
+  - Should they get zoom link or only HackMD?
     - If not we should take those options away from the registration form. Maybe have a last minute registration form as a separate one
-- Consider adding EG to Indico managers :grin: 
+- Consider adding others who are helping to Indico (our registration system) as managers :grin:
 
 ### Workshop format
-- most participants were interested in the Git part and after the Git lessons the interest was smaller
-- large no-show rate (over 50%)
+- Most participants were interested in the Git part and after the Git lessons the interest was smaller
+- Large no-show rate (over 50%)
 - maybe this is too big for the resources/time that we have or don't have or maybe the task distribution was not clear/visible
 - learners not that motivated in joining the Otaniemi in-person (daily decreasing numbers)
 - is September too crowded with other events?
@@ -60,14 +60,14 @@ This complements our lessons learned from [our first online workshop](https://co
     - Info from emails sent could be also in manuals except for the links
 
 ### Lesson coordination
-- very little interaction among participants in the in-person room
-- flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
-- should we do more async teaching/learning?
-- lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
+- Very little interaction among participants in the in-person room
+- Flipped learning: have people watch videos / read the docs and then come onsite/online to discuss and solve problems?
+- Should we do more async teaching/learning?
+- Lunch time was an issue in JYU and CSC (But people managed when topic to come after break was announced before break so that they knew if they could skip without losing the thread)
 
 ### Zoom and OBS
-- ask ELs not to speak in learners Zoom while lecturers speak in Twitch
-- The goal was to have Zoom instructions about BO rooms aaand open BO rooms well before the stream starts but that did not happen, sorry. I opened them ~10 minutes before exercises -MJ
+- Ask Exercise leaders (ELs) not to speak in learners Zoom while lecturers speak in Twitch
+- The goal was to have Zoom instructions about BO rooms and open BO rooms well before the stream starts but we didn't manage that this time. We opened them ~10 minutes before exercises.
 - Utilise Zoom annotate in co-teaching
 - Ex Zoom BO rooms:
   - Tech questions -room is difficult to follow if someone actually goes there
@@ -77,10 +77,10 @@ This complements our lessons learned from [our first online workshop](https://co
 
 ### Collaborative notes
 - HackMD goes to twitch chat anyway so maybe no point in keeping it as a secret
-- HackMD starts to be slow even if it should not with ~100 participants
+- HackMD started to be slow even if it should not with ~100 participants
   - Numbering questions adds confusion -> keep bullets and change to numbers in archive if needed
-  - note for future: when pre-seeding the question numbers, leave a line between them.  Then, when someone pushes enter after a number to add a new line, it doesn't increment the future numbers.  Just saw this, this solves a big problem with numbering
-  - New doc in HedgeDoc: https://notes.coderefinery.org/t-0OzGm_TOW0a5eYgFUbuQ?both
+  - Note for future: when pre-seeding the question numbers, leave a line between them.  Then, when someone pushes enter after a number to add a new line, it doesn't increment the future numbers.  Just saw this, this solves a big problem with numbering
+  - We deployed our own HedgeDoc instance, which worked quite well.
 
 ### Installation and tools
 
@@ -91,15 +91,15 @@ This complements our lessons learned from [our first online workshop](https://co
 - Some cohesive big picture betwen exercises
 - Then provide snapshots / starting points for thos who do not have done the previous exercises
 - Topics in Day 4 (at least) would deserve a longer lesson
-- we can try to communicate better that after the git lessons it can be OK and also useful to join only for the lessons of interest (to motivate people to pop in also for 1 or 2 lessons)
+- We can try to communicate better that after the git lessons it can be OK and also useful to join only for the lessons of interest (to motivate people to pop in also for 1 or 2 lessons)
 
 ### Communication with participants
-- what is the number of hours/emails/euros/zooms spent per participant showing up?
+- What is the number of hours/emails/euros/zooms spent per participant showing up?
 - Navigation problems among different webpages. See: #697
-- add install session to CR calendar
+- Add install sessions to CR calendar
 - Link all relevant repositories in one place (ie. this calendar and anything that needs attention near a workshop)
   - Make sure those repositories have good instructions in readmes
-- add all sessions to CodeRefinery calendar
+- Add all sessions to CodeRefinery calendar
 
 ---------------------------------------------------------------------------------------------------------------------------
 >>> From here it is just copy of https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/ -MJ 25.10.22 klo 16:00
