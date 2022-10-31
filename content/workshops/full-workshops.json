@@ -4,10 +4,11 @@
             "name": "Full online workshop (6 half-days)",
             "website": "https://coderefinery.github.io/2022-09-20-workshop/",
             "start_date": "2022-09-20",
-            "end_date": "2022-09-31",
+            "end_date": "2022-09-29",
             "host": [
                 "Radovan Bast",
-                "Matias Jääskeläinen"
+                "Matias Jääskeläinen",
+                "Richard Darst"
             ],
             "instructors": [
                 "Sabry Razick",
