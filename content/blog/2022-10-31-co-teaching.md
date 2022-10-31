@@ -54,3 +54,8 @@ hope that the audience interacts directly.  At a few tens of students,
 it might work, if you can keep the co-instructor discipline working
 well - but that might easily be forgotten if there are many questions
 from the audience.
+
+Overall, co-teaching has revolutionized our teaching: we can feel more
+interactive in large courses, we can bring in new instructors more
+quickly, and we can teach better.  It really seems to solve the boring
+"500-person lecture" problems that I had when I was in university.
