@@ -68,6 +68,7 @@
           <th scope="col" class="text-center">Netherlands</th>
           <th scope="col" class="text-center">Other</th>
           <th scope="col" class="text-center">Total</th>
+          <th scope="col" class="text-center">Twitch viewers</th>
         </tr>
       </thead>
       <tbody>
@@ -161,6 +162,11 @@
               {% if event.num_participants.total %}
                 {{ event.num_participants.total }}
                 {% set_global total_total = total_total + event.num_participants.total %}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.twitch_viewers %}
+                 {{ event.twitch_viewers.smallest_viewers_max }}&mdash;{{ event.twitch_viewers.largest_viewers_max }}
               {% endif %}
             </td>
           </tr>
