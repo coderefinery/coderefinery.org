@@ -1,5 +1,5 @@
 +++
-date = 2022-09-08
+date = 2022-10-31
 +++
 
 # Upcoming workshops and events
@@ -10,7 +10,6 @@ date = 2022-09-08
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [Autumn 2022: Tue-Thu, September 20-22 and 27-29 (6 half-day, online)](https://coderefinery.github.io/2022-09-20-workshop/)
 - Spring 2023: Tue-Thu, March 21-23 and March 28-30 (6 half-day, online)
 - Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
 
