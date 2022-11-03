@@ -148,6 +148,10 @@
                 "UK":  3,
                 "US":  3,
                 "total": 297
+            },
+            "twitch_viewers": {
+                "smallest_viewers_max": 144,
+                "largest_viewers_max": 215
             }
         },
         {
