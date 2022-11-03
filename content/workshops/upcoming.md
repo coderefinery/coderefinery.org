@@ -22,7 +22,8 @@ On [this page](/workshops/past/) we list all our past workshops and events.
 ## How to be informed about future events
 
 We don't want you to miss a workshop or event. The best
-way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery).
+way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
+(we are working on reviving it and will post updates there soon).
 
 You can also subscribe to our [RSS feed](/atom.xml).
 
