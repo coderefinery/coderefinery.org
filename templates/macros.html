@@ -69,6 +69,7 @@
           <th scope="col" class="text-center">Other</th>
           <th scope="col" class="text-center">Total</th>
           <th scope="col" style="width: 15%" class="text-center">Twitch viewers</th>
+          <th scope="col" style="width: 15%" class="text-center">Zoom</th>
         </tr>
       </thead>
       <tbody>
@@ -167,6 +168,11 @@
             <td class="text-center">
               {% if event.twitch_viewers %}
                  {{ event.twitch_viewers.smallest_viewers_max }}&mdash;{{ event.twitch_viewers.largest_viewers_max }}
+              {% endif %}
+            </td>
+            <td class="text-center">
+              {% if event.zoom_participants %}
+                 {{ event.zoom_participants.min }}&mdash;{{ event.zoom_participants.max }}
               {% endif %}
             </td>
           </tr>

@@ -74,6 +74,10 @@
             "twitch_viewers": {
                 "smallest_viewers_max": 97,
                 "largest_viewers_max": 157
+            },
+            "zoom_participants": {
+                "min": 25,
+                "max": 59
             }
         },
         {
