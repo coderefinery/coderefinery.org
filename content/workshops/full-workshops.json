@@ -70,6 +70,10 @@
                 "DE":  1,
                 "CA":  1,
                 "total": 262
+            },
+            "twitch_viewers": {
+                "smallest_viewers_max": 97,
+                "largest_viewers_max": 157
             }
         },
         {
