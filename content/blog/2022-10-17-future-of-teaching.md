@@ -1,5 +1,5 @@
 +++
-title = "CodeRefinery teaching strategies and the future of teachign"
+title = "CodeRefinery teaching strategies and the future of teaching"
 slug = "2022/10/17/future-of-teaching"
 
 [extra]
@@ -15,8 +15,8 @@ discuss what we did and how you can learn from it.**
 So, what is the future of teaching?  For type of practical, hands-on
 learning, we could try to classify learning situations into three
 types:
-* Very large courses and MOOCs, where individual interaction isn't
-  possible.
+* Very large courses and massive open online courses (MOOC),where
+  individual interaction isn't possible.
 * Small-medium courses, 10-30 people, with traditional classroom-type
   interactions.
 * One-on-one or small-group mentoring.
