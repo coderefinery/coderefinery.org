@@ -3,9 +3,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>{{ page.title }}</h1>
+  <h1>{{ section.title }}</h1>
 
-  {{ page.content | safe }}
+  {{ section.content | safe }}
 
   <h3>Standard CodeRefinery workshops</h3>
   {% set data = load_data(path="content/workshops/full-workshops.json") %}

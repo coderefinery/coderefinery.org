@@ -2,3 +2,4 @@
 venv/
 public/
 static/processed_images/
+*.DS_Store
