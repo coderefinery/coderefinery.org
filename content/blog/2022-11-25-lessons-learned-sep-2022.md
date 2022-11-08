@@ -1,5 +1,3 @@
-# Lessons learned draft
-
 +++
 title = "Lessons learned from the Sep 2022 online workshop"
 slug = "2022/11/25/lessons-learned-Sep-2022"
