@@ -6,16 +6,20 @@ slug = "2022/11/08/lessons-learned-Sep-2022"
 authors = "Matias Jääskeläinen, Diana Iusan, Radovan Bast"
 +++
 
-September 20-22 and 27-29, 2022, we held again our [CodeRefinery
-online workshop](https://coderefinery.github.io/2022-09-20-workshop/) (6 x 3.5 hours) with 204 individual registrants plus 10 teams with a total of 47 participants.
+September 20-22 and 27-29, 2022, we held again our [CodeRefinery online
+workshop](https://coderefinery.github.io/2022-09-20-workshop/) (6 x 3.5 hours)
+with 204 individual registrants plus 10 teams with a total of 47 participants.
+Here we wish to share with the community and our future selves our lessons
+learned: What worked well and what we need and plan to improve. We use bullet
+point format for brevity.  If you think you might have solutions for us or want
+to discuss about the topic, please [reach out to
+us(https://coderefinery.org/organization/contact/).  This complements our
+lessons learned from [our first online workshop
+2020](https://coderefinery.org/blog/2020/04/14/first-online-workshop/) and the
+[May 2021
+workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/).
 
-Here we wish to share with the community and our future selves our lessons learned: What worked well and what we need and plan to improve. We use bullet point format for brevity.
-
-If you think you might have solutions for us or want to discuss about the topic, please [reach out to us(https://coderefinery.org/organization/contact/).
-
-This complements our lessons learned from [our first online workshop 2020](https://coderefinery.org/blog/2020/04/14/first-online-workshop/) and the [May 2021 workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/).
-
-We have identified the following main issues that we want to address for future events:
+**We have identified the following main issues that we want to address for future events**:
 - Registration process is still too complicated.
 - We are asking ourselves how to further scale without being completely overwhelmed by coordination/communication/synchronization.
 - There are not enough exercises, especially in the later workshop days and exercise leads often feel that they don't have enough to do so we need to improve the experience for exercise leads.
