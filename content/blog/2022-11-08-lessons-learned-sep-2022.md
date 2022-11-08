@@ -1,6 +1,6 @@
 +++
 title = "Lessons learned from the Sep 2022 online workshop"
-slug = "2022/11/25/lessons-learned-Sep-2022"
+slug = "2022/11/08/lessons-learned-Sep-2022"
 
 [extra]
 authors = "Matias Jääskeläinen, Diana Iusan, Radovan Bast"
