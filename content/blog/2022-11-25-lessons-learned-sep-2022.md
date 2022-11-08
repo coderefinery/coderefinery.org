@@ -14,24 +14,21 @@ Here we wish to share with the community our lessons learned: What worked well a
 
 This complements our lessons learned from [our first online workshop](https://coderefinery.org/blog/2020/04/14/first-online-workshop/) and [May 2021 workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/).
 
-### Placeholder from [Zulip](https://coderefinery.zulipchat.com/#narrow/stream/316508-tools-workshop/topic/lessons.20learned/near/305823097)
-
 >>> What is needed still is to make coherent thoughts and see for synergies
 
 ### Registration
-- Let people to self-organise more
-  - Offer hackmd, EL zoom, Ex zoom, stream and inform people about those resources
-  - Give hints about different ways to participate but no rigid instructions
 - We still need a more lightweight system registration
   - This is a balancing act between guiding people and trusting them to them self-organise
+- Could we actually get away with no registration at all? How to get stats then?
+  - Zoom and Twitch give data like how many people. Then we should ask in HackMD about country and stuff
+    - That would actually make some icebreakers
+- Register but let people to self-organise more
+  - Offer hackmd, EL zoom, Ex zoom, stream and inform people about those resources
+  - Give hints about different ways to participate but no rigid instructions
 - Leave team registration completely to the participants or partners to handle
   - Tell that they could summon teams in their organisation communication channels
   - They could indicate somewhere that they are open for teams
   - Tell organisations that they can organise their own registration
-- Could we actually get away with no registration at all?
-  - How to get stats then?
-  - Could we just instruct people to give us info?
-    - Have it somewhere nicely submitted?
 - Exercise leader registration was confusing (too many forms)
 - Ask for consent to be contacted for future events organized by us
 - How to deal with late registrants?
