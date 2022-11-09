@@ -71,6 +71,7 @@ is the "start page" of the series):
 * Working together as a team
 * Comparison to MOOCs
 * Effort needed for organizing big courses
+* Measuring impact in livestream courses
 * (lessons for academic teaching?)
 
 ## See also
