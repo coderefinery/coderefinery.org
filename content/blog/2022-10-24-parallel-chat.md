@@ -16,8 +16,6 @@ one do that.  You might be surprised to learn that CodeRefinery's
 online courses have an order of magnitude more interaction than our
 in-person courses.
 
-![Demonstration of HackMD](https://coderefinery.github.io/manuals/_images/hackmd--questions2.png)
-
 Our solution is "parallel chat", or as we typically call it "HackMD"
 after the service we started using - although it's not really specific
 to that HackMD, and neither is it a chat platform. Basically, it's on online document (think
@@ -26,6 +24,8 @@ time.  Instead of asking question by voice or via classic (linear) chat,
 people write new questions as a bullet point in the bottom of the
 parallel chat.  Our team of helpers answers them in sub-bullet
 points - and a whole discussion can happen in these bullet points.
+
+![Demonstration of HackMD](https://coderefinery.github.io/manuals/_images/hackmd--questions2.png)
 
 There are a variety of reasons this is so good:
 * You can have multiple people asking and answering at the same time
