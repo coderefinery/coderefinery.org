@@ -1,6 +1,6 @@
 +++
 title = 'Parallel chat ("HackMD") and scaling teaching'
-slug = "2022/05/04/parallel-chat"
+slug = "2022/11/24/parallel-chat"
 
 [extra]
 authors = "Richard Darst"
