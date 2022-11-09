@@ -1,6 +1,7 @@
 +++
 title = 'Parallel chat ("HackMD") and scaling teaching'
-slug = "2022/11/24/parallel-chat"
+slug = "2022/10/24/parallel-chat"
+description = "Parallel chat enabled interactively at scale when online teaching."
 
 [extra]
 authors = "Richard Darst"
