@@ -13,6 +13,8 @@ one do that.  You might be surprised to learn that CodeRefinery's
 online courses have an order of magnitude more interaction than our
 in-person courses.
 
+![Demonstration of HackMD](https://coderefinery.github.io/manuals/_images/hackmd--questions2.png)
+
 Our solution is "parallel chat", or as we typically call it "HackMD"
 after the service we started using - although it's not really specific
 to that HackMD, and neither is it a chat platform. Basically, it's on online document (think
@@ -41,7 +43,10 @@ There are a variety of reasons this is so good:
   giving feedback.
   For example polls can be conducted as "+" or "-" or "o" added after the options.
 
-Just look at the number of questions in our old courses: LINK
+Just look at the number of questions in our old courses, [one 3.5 hour
+fay of our May 2022
+workshop](https://coderefinery.github.io/2022-03-22-workshop/questions/day1/) -
+and this is day 1, when people didn't yet know how it worked.
 
 But there are some disadvantages:
 * An absolute flood of information, which *will* be distracting to
@@ -105,3 +110,9 @@ it is...
 Overall parallel chat in a workshop feels extremely interactive - even
 more so than a medium-sized traditional in-person course.  Combine
 with a team for teaching, and things seem to work very well.
+
+See also:
+* [HackMD mechanics in CodeRefinery
+  manuals](https://coderefinery.github.io/manuals/hackmd-mechanics/)
+* [HackMD manager role
+  description](https://coderefinery.github.io/manuals/hackmd-helper/)
