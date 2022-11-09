@@ -7,7 +7,7 @@ authors = "Richard Darst"
 +++
 
 *Part of a series on the [Future of
-Teaching](../2022-10-17-future-of-teaching/)*
+Teaching](@/blog/2022-10-17-future-of-teaching.md)*
 
 One of the most common complaints when moving online was the amount of
 interaction and feedback possible.  How often have you heard "please
