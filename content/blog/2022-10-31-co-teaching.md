@@ -22,14 +22,15 @@ co-instructor and the course becomes a discussion between them.  This
 is different than having two instructors who alternate teaching, or an
 instructor or helper.  It's more like a pilot-co-pilot situation,
 where both pilots have a certain focus, but the flying is a continual
-team process with both providing information to each other.
+team process with each having a focus (flying and monitoring) but both
+constantly providing information to each other.
 
 Doing co-teaching in practice requires some care, but isn't that hard.
 There are different models, usually we try to designate a primary who
 is going over the course material, and the other co-instructor acts as
 a learner, asking questions and engaging by being the "voice of the
 audience".  The co-instructor who isn't most actively talking spends
-some time watching the HackMD and raising these questions.  During
+some time watching the [parallel chat](../2022-10-24-parallel-chat/) and raising these questions.  During
 demo times, one common strategy is that one person is guiding and
 explaining the big picture and the other person is typing and
 explaining the small picture.  Whatever happens, it works.  And
@@ -53,9 +54,19 @@ could work for very small courses, but at that size you would probably
 hope that the audience interacts directly.  At a few tens of students,
 it might work, if you can keep the co-instructor discipline working
 well - but that might easily be forgotten if there are many questions
-from the audience.
+from the audience.  But I personally think that even small courses
+benefit from two brains, and it worth trying co-teaching at any size.
 
 Overall, co-teaching has revolutionized our teaching: we can feel more
 interactive in large courses, we can bring in new instructors more
 quickly, and we can teach better.  It really seems to solve the boring
-"500-person lecture" problems that I had when I was in university.
+"500-person lecture" problems that I had when I was in university.  We
+now use co-teaching for anything that needs to seem "professional",
+from 20-person instructor training via Zoom to our 500-person
+livestreamed Python for Scientific Computing courses.
+
+See also:
+* [Co-teaching in CodeRefinery
+  manuals](https://coderefinery.github.io/manuals/team-teaching/)
+* [Co-teaching in Community
+  Teaching](https://coderefinery.github.io/community-teaching/team-teaching/)
