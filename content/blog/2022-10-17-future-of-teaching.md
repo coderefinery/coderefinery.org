@@ -60,7 +60,7 @@ exercises.
 Future blog posts in this series could include the following (this
 list will be updated and future blog posts will be linked below, this
 is the "start page" of the series):
-* Random access chat ("HackMD") and interaction in large courses
+* [Random access chat ("HackMD") and interaction in large courses](@/blog/2022-10-24-parallel-chat.md)
 * Co-teaching
 * Teams
 * [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
