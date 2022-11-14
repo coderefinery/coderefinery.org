@@ -41,17 +41,17 @@ without disrupting the whole course), and those that don't can still
 attend no matter where they are.
 
 But what do we lose?  Do we lose interaction with instructors?  As
-some upcoming posts on co-teaching and parallel chat will show, no!  When you get to these large
+our posts on [co-teaching](@/blog/2022-10-31-co-teaching.md) and [parallel chat](@/blog/2022-10-24-parallel-chat.md) show, no!  When you get to these large
 courses, students can't interact with instructors without technology
-anyway.  In-person interactions aren't as anonymous, so doesn't
+anyway.  In-person interactions aren't as anonymous, so that solution doesn't
 motivate all learners to be active.
 
 And what do we gain?  The course isn't bound to one location,
 literally anyone in the world can attend.  There are high-quality
 materials that everyone can review afterwards, so that the audience
 has the time to relax and interact.  By being able to scale up, we can
-have more staff, which allows us to interact more via parallel chat or
-co-instructors [links coming when posts released].  It's even possible to go as far as we go and make
+have more staff, which allows us to interact more via [parallel chat](@/blog/2022-10-24-parallel-chat.md) or
+co-instructors.  It's even possible to go as far as we go and make
 each course an international collaboration with local breakout rooms,
 and plenty of staff to manage everything.
 
@@ -75,3 +75,4 @@ See also
 * [CodeRefinery manuals on
   co-instructors](https://coderefinery.github.io/manuals/co-instructors/)
 * [CodeRefinery manuals on how we do parallel chat, "HackMD"](https://coderefinery.github.io/manuals/hackmd-mechanics/)
+* Series index: [Future of Teaching](@/blog/2022-10-17-future-of-teaching.md)

@@ -6,6 +6,10 @@ slug = "2022/10/17/future-of-teaching"
 authors = "Richard Darst"
 +++
 
+*This is the index page of the [Future of
+Teaching](/blog/2022/10/17/future-of-teaching/) series.*
+
+
 In early 2020, global teaching got disrupted by the Covid-19
 pandemic.  Countless courses struggled to maintain interaction and
 teaching, but CodeRefinery found that by embracing the times, our

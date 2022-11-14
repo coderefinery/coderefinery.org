@@ -1,6 +1,7 @@
 +++
 title = 'Co-teaching and scaling up'
 slug = "2022/10/31/co-teaching"
+description = "Co-teaching replaces (forced?) learner interaction with natural interaction between co-instructors."
 
 [extra]
 authors = "Richard Darst"
@@ -71,3 +72,4 @@ See also:
   manuals](https://coderefinery.github.io/manuals/team-teaching/)
 * [Co-teaching in Community
   Teaching](https://coderefinery.github.io/community-teaching/team-teaching/)
+* Series index: [Future of Teaching](@/blog/2022-10-17-future-of-teaching.md)

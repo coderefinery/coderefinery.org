@@ -47,8 +47,8 @@ There are a variety of reasons this is so good:
   giving feedback.
   For example polls can be conducted as "+" or "-" or "o" added after the options.
 
-Just look at the number of questions in our old courses, [one 3.5 hour
-fay of our May 2022
+Just look at the number of questions in our old courses, [one 3.5-hour
+day of our May 2022
 workshop](https://coderefinery.github.io/2022-03-22-workshop/questions/day1/) -
 and this is day 1, when people didn't yet know how it worked.
 
@@ -90,7 +90,7 @@ notes:
 We don't have unlimited scaling and there are some other problems,
 though.  Some possible issues that may come up:
 * To make this really good, you need at least one person focusing on
-  the parallel chat - or at least two co-instructors.  In workshops of
+  the parallel chat - or at least [two co-instructors](@/blog/2022-10-31-co-teaching.md).  In workshops of
   our size, this hasn't been a big issue, though - it provides a good
   task for helpers.
 * The tech might not scale to thousands of people - hackmd.io has
@@ -120,3 +120,4 @@ See also:
   manuals](https://coderefinery.github.io/manuals/hackmd-mechanics/)
 * [HackMD manager role
   description](https://coderefinery.github.io/manuals/hackmd-helper/)
+* Series index: [Future of Teaching](@/blog/2022-10-17-future-of-teaching.md)
