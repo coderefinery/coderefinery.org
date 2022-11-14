@@ -7,7 +7,7 @@ authors = "Richard Darst"
 +++
 
 *Part of a series on the [Future of
-Teaching](../2022-10-17-future-of-teaching/)*
+Teaching](/blog/2022/10/17/future-of-teaching/)*
 
 In 2020, we went to remote teaching.  In 2022, we are talking about
 hybrid so that we can keep accessibility benefits of being online,
