@@ -1,6 +1,7 @@
 +++
 title = "Reverse hybrid teaching"
 slug = "2022/11/07/reverse-hybrid"
+description = "'Reverse hybrid' is instructors remote, students local - possibly spread among different locations in small groups."
 
 [extra]
 authors = "Richard Darst"
