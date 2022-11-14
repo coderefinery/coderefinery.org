@@ -63,7 +63,8 @@ provided to governmental bodies and other entities as required by law.
   [Zulipchat](https://coderefinery.zulipchat.com), [HackMD](https://hackmd.io/@coderefinery),
   [Twitch](https://twitch.tv/coderefinery),
   [YouTube](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg),
-  and [Twitter](https://twitter.com/coderefine).
+  [Mastodon](https://fosstodon.org/@coderefinery), and
+  [Twitter](https://twitter.com/coderefine).
 - *Online video conference systems* - onlinve video conference systems that
   are licensed to any institute that CodeRefinery team members are affiliated
   by.

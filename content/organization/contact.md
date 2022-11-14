@@ -23,7 +23,9 @@ You can subscribe to the CodeRefinery newsletter
 [here](https://tinyletter.com/coderefinery).
 
 
-### Twitter
+### Mastodon and Twitter
 
 If you like what we do, please reach out:
-[@coderefine](https://twitter.com/coderefine)
+Mastodon at
+[@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery) and
+Twitter at [@coderefine](https://twitter.com/coderefine)
