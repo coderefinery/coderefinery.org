@@ -12,7 +12,7 @@ So you are trying to teach a large online course.  Everyone knows this
 will be boring and monotonous, right?  What if we told you that our
 large, online, livestreamed courses feel more interactive than our old
 small in-person courses?  Part of that is due to the
-[parallel chat](/blog/2022/10/24/parallel-chat/),
+[parallel chat](@/blog/2022-10-24-parallel-chat.md),
 but a significant part also comes from co-teaching, the topic
 of this article.
 
@@ -31,7 +31,7 @@ There are different models, usually we try to designate a primary who
 is going over the course material, and the other co-instructor acts as
 a learner, asking questions and engaging by being the "voice of the
 audience".  The co-instructor who isn't most actively talking spends
-some time watching the [parallel chat](/blog/2022/10/24/parallel-chat/) and raising these questions.  During
+some time watching the [parallel chat](@/blog/2022-10-24-parallel-chat.md) and raising these questions.  During
 demo times, one common strategy is that one person is guiding and
 explaining the big picture and the other person is typing and
 explaining the small picture.  Whatever happens, it works.  And
