@@ -1,7 +1,7 @@
 +++
 title = 'Livestreaming courses'
 slug = "2022/11/14/livestreaming-courses"
-description = "Livestream courses have changed how we teach - read to see why and how."
+description = "Livestream courses have changed how we teach by allowing unprecedented scaling possibilities."
 
 [extra]
 authors = "Richard Darst"
