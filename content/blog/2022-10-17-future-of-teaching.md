@@ -70,7 +70,7 @@ is the "start page" of the series):
 * [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
 * Open source courses
 * Registration and learner management
-* Livestreaming
+* [Livestream courses](@/blog/2022-11-14-livestreaming-courses.md)
 * Collaboration in organizing
 * Working together as a team
 * Comparison to MOOCs
