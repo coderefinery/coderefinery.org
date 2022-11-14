@@ -12,8 +12,10 @@ welcome to join just to hang out and share ideas.
 - The best way to get started is to [join our
   chat](https://coderefinery.github.io/manuals/chat/) and introduce
   yourself in `#new members`.
-- Subscribe to [@coderefine on
-  twitter](https://twitter.com/coderefine) for announcements.
+- Subscribe to
+  [@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery)
+  or [@coderefine on twitter](https://twitter.com/coderefine) for
+  announcements.
 - [Organizational support and becoming
   partner](/organization/partners/)
 - [Request a workshop](/workshops/request/)
