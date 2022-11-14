@@ -11,6 +11,11 @@
         - {{ page.extra.authors }}
       {% endif %}
     </p>
+    {% if page.description %}
+    <p class="uk-article-meta">
+      {{ page.description }}
+    </p>
+    {% endif %}
 
     <hr>
 
