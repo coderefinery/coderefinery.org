@@ -18,7 +18,7 @@ online courses have an order of magnitude more interaction than our
 in-person courses.
 
 Our solution is "parallel chat", or as we typically call it "HackMD"
-after the service we started using - although it's not really specific
+after the service we started using, [hackmd.io](https://hackmd.io) - although it's not really specific
 to that HackMD, and neither is it a chat platform. Basically, it's on online document (think
 etherpad/Google Docs/etc) that everyone can see and edit at the same
 time.  Instead of asking question by voice or via classic (linear) chat,
