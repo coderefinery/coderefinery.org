@@ -40,8 +40,8 @@ students who want interaction can get it (and actually interact,
 without disrupting the whole course), and those that don't can still
 attend no matter where they are.
 
-But what do we lose?  Do we lose interaction with instructors?  As the
-previous blog posts have shown, no!  When you get to these large
+But what do we lose?  Do we lose interaction with instructors?  As
+some upcoming posts on co-teaching and parallel chat will show, no!  When you get to these large
 courses, students can't interact with instructors without technology
 anyway.  In-person interactions aren't as anonymous, so doesn't
 motivate all learners to be active.
@@ -51,7 +51,7 @@ literally anyone in the world can attend.  There are high-quality
 materials that everyone can review afterwards, so that the audience
 has the time to relax and interact.  By being able to scale up, we can
 have more staff, which allows us to interact more via parallel chat or
-co-instructors.  It's even possible to go as far as we go and make
+co-instructors [links coming when posts released].  It's even possible to go as far as we go and make
 each course an international collaboration with local breakout rooms,
 and plenty of staff to manage everything.
 
@@ -70,3 +70,8 @@ do have a report of it not working so well - because the online
 interaction dominated the in-person interaction.  But is that really a
 negative about in-person, or an overwhelming message about how
 engaging our online courses are?
+
+See also
+* [CodeRefinery manuals on
+  co-instructors](https://coderefinery.github.io/manuals/co-instructors/)
+* [CodeRefinery manuals on how we do parallel chat, "HackMD"](https://coderefinery.github.io/manuals/hackmd-mechanics/)
