@@ -63,7 +63,7 @@ is the "start page" of the series):
 * Random access chat ("HackMD") and interaction in large courses
 * Co-teaching
 * Teams
-* Hybrid courses vs reverse-hybrid courses
+* [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
 * Open source courses
 * Registration and learner management
 * Livestreaming
