@@ -72,6 +72,7 @@ is the "start page" of the series):
 * Registration and learner management
 * [Livestream courses](@/blog/2022-11-14-livestreaming-courses.md)
 * Collaboration in organizing
+* [Publishing videos supports more learning styles](@/blog/2022-11-08-video-publishing.md)
 * Working together as a team
 * Comparison to MOOCs
 * Effort needed for organizing big courses
