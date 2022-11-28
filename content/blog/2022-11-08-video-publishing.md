@@ -21,7 +21,7 @@ either - I don't want to push "publish" and have to *hope* that no one
 missed the warning.  I don't want to motivate participants to be
 silent.  Editing videos takes a long time and is hardly worth it.
 
-This is part of why we developed [livestreaming](LINK): we want to
+This is part of why we developed [livestreaming](@/blog/2022-11-14-livestreaming-courses.md): we want to
 separate the instructor interaction from learner interaction, so that
 there is *no privacy risk whatsoever*.  This only works if the
 livestream is engaging enough, but our previous posts show how we
