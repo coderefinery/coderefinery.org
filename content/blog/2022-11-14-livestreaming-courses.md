@@ -34,7 +34,7 @@ such as learner teams.  Basically, it was a systematic process of
 re-thinking teaching until we *could* move on to the next step without
 losing essential points like interactivity or engagement.
 
-Then came **livestreaming**.  I livestream is a fancy way of saying
+Then came **livestreaming**.  Livestream is a fancy way of saying
 live video, in this context as a public broadcast over the internet.
 We had a few first pilots made by having Zoom do the livestreaming
 directly to Twitch (there is something built-in, but I didn't like it
@@ -61,7 +61,7 @@ the audience can't interfere with each other, except through our
 (moderated) channels.  This lets us scale far more than we could
 otherwise.
 
-> Livestreaming is made possibly by strategies like parallel chat and
+> Livestreaming is made possible by strategies like parallel chat and
 > co-teaching.  Because we livestream, we can now do reverse hybrid,
 > be more open, produce videos immediately, work together, and
 > simplify registration.  Livestreaming is the mediator of all of our
