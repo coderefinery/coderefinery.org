@@ -28,11 +28,13 @@ livestreams, and news articles.
 So once I understood the conceptual problem with Zoom meetings, I knew
 what to do.  We started working towards disconnecting the core
 teaching parts from the meeting parts.  That resulted in developments
-like [parallel chat ("HackMD") for questions](LINK) and
-[co-teaching](LINK), and lots more things which you will see later
-such as learner teams.  Basically, it was a systematic process of
-re-thinking teaching until we *could* move on to the next step without
-losing essential points like interactivity or engagement.
+like [parallel chat ("HackMD") for
+questions](@/blog/2022-10-24-parallel-chat.md) and
+[co-teaching](@/blog/2022-10-31-co-teaching.md), and lots more things
+which you will see later such as learner teams.  Basically, it was a
+systematic process of re-thinking teaching until we *could* move on to
+the next step without losing essential points like interactivity or
+engagement.
 
 Then came **livestreaming**.  Livestream is a fancy way of saying
 live video, in this context as a public broadcast over the internet.
@@ -43,7 +45,12 @@ register can watch the stream".  We also got a lot of experience with
 streaming in our project [Research Software
 Hour](https://researchsoftwarehour.github.io).
 
-> QUOTE HERE
+> I attended several "top" conferences/workshops/seminars as well as
+> videolectures this past year in their virtual implementations, and this
+> event is easily the best out of all of them when it comes down to
+> presentations and audience participation!
+>
+> - Feedback from Summer 2021 HPC Kickstart
 
 The fully "proper" livestreamed course was 2021 February, our [Intro
 to scientific computing/HPC
@@ -72,9 +79,10 @@ audience isn't in the Zoom, during breaks (when the livestream is
 muted and video off), the co-instructors are free to discuss without
 disrupting the course.  This actually is great for the co-instructors
 to manage the flow of the course - and students can continue
-interacting via [parallel chat](LINK) anyway.  And when the audience
-is not in the stream, you can publish videos immediately with no
-privacy risk - which is great for accessibility.
+interacting via [parallel chat](@/blog/2022-10-24-parallel-chat.md)
+anyway.  And when the audience is not in the stream, you can publish
+videos immediately with no privacy risk - which is great for
+accessibility.
 
 Livestreamed courses aren't exactly perfect, but they are pretty good
 and I think they should be considered more.  It does take some tech
