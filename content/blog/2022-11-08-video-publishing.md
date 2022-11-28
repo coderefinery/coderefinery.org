@@ -72,8 +72,7 @@ can work well, especially with co-teaching).  The most direct impact
 is supporting diverse teaching styles in the short term.
 
 Read more:
-* [https://youtu.be/thvMNTBJg2Y](video demonstration of
-  ffmpeg-editlist)
+* [https://youtu.be/thvMNTBJg2Y](video demonstration of ffmpeg-editlist)
 * [Video editor](https://coderefinery.github.io/manuals/video-editor/)
   role description in the CodeRefinery manuals
 * [ffmpeg-editlist](https://github.com/coderefinery/ffmpeg-editlist)
