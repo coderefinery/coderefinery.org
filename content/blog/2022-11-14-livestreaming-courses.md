@@ -18,6 +18,8 @@ could join"[1].  While there was a valid short-term reason for this,
 something seemed wrong: the promise of the internet was that we can
 reach everyone.  Yet here we are making things closed by default.
 
+## Start of the livestream idea
+
 I got to thinking about this, and realized we needed to re-think what
 it means to interact online.  Our first courses used the "meeting"
 concept - everyone talks to everyone.  But online activities with
@@ -36,6 +38,8 @@ systematic process of re-thinking teaching until we *could* move on to
 the next step without losing essential points like interactivity or
 engagement.
 
+## How livestreaming works for our courses
+
 Then came **livestreaming**.  Livestream is a fancy way of saying
 live video, in this context as a public broadcast over the internet.
 We had a few first pilots made by having Zoom do the livestreaming
@@ -44,13 +48,6 @@ very much) - at least this let us say "anyone who wasn't able to
 register can watch the stream".  We also got a lot of experience with
 streaming in our project [Research Software
 Hour](https://researchsoftwarehour.github.io).
-
-> I attended several "top" conferences/workshops/seminars as well as
-> videolectures this past year in their virtual implementations, and this
-> event is easily the best out of all of them when it comes down to
-> presentations and audience participation!
->
-> - Feedback from Summer 2021 HPC Kickstart
 
 The fully "proper" livestreamed course was 2021 February, our [Intro
 to scientific computing/HPC
@@ -74,6 +71,18 @@ otherwise.
 > simplify registration.  Livestreaming is the mediator of all of our
 > strategies - even if it's not technically required.
 
+
+## Evaluation
+
+> I attended several "top" conferences/workshops/seminars as well as
+> videolectures this past year in their virtual implementations, and this
+> event is easily the best out of all of them when it comes down to
+> presentations and audience participation!
+>
+> - Feedback from Summer 2021 HPC Kickstart
+
+In general, feedback was positive.
+
 Let's just say there was one surprising thing we noticed: since the
 audience isn't in the Zoom, during breaks (when the livestream is
 muted and video off), the co-instructors are free to discuss without
@@ -92,7 +101,8 @@ of being worth it.  Whatever the case, I think it's something that
 everyone teaching online should think about.
 
 
-See also:
+## See also
+
 * [Demo of livestream
   teaching](https://www.youtube.com/watch?v=WjmttAniZX8) (check the
   video description to know what is going on).
