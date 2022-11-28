@@ -69,6 +69,7 @@ visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 - [Project plan (phase 2)](phase-2-project-plan.pdf)
 - [Mid-term report (phase 2)](phase-2-mid-term-report.pdf)
 - [Mid-term presentation (phase 2)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/reports/main/mid-term.md/)
+- [Report (phase 2)](phase-2-report.pdf)
 - [Proposal to the NeIC open call 2021](open-call-2021-proposal.pdf)
 - [NeIC open call 2021 evaluation report](open-call-2021-evaluation.pdf)
 - [Collaboration agreement (phase 3)](phase-3-collaboration-agreement.pdf)
