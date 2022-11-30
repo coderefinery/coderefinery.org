@@ -15,24 +15,23 @@ course was over?
 
 When we went online, many people thought: avoid recording courses,
 that's a privacy risk for participants.  I firmly think this is the
-right choice: no privacy risk to participants is worth it, and "don't
+right choice: I don't think any privacy risk to participants is worth it, and "don't
 say anything if you don't want to be recorded" isn't good enough,
 either - I don't want to push "publish" and have to *hope* that no one
 missed the warning.  I don't want to motivate participants to be
 silent.  Editing videos takes a long time and is hardly worth it.
 
-This is part of why we developed [livestreaming](@/blog/2022-11-14-livestreaming-courses.md): we want to
+This is part of why we developed [livestream teaching](@/blog/2022-11-14-livestreaming-courses.md): we want to
 separate the instructor interaction from learner interaction, so that
-there is *no privacy risk whatsoever*.  This only works if the
+there is *no privacy risk whatsoever when recording*.  This only works if the
 livestream is engaging enough, but our previous posts show how we
 handled that problem.
 
 In order for a video to be useful, it has to be published *quickly*.
-Watching videos months later isn't that engaging, but as a immediate
+Watching videos months later isn't that engaging[1], but as a immediate
 follow-up for things you missed, or catching up if you had to miss a
 day, it is *extremely* useful.  We can't have a long publishing
-process with this.  If learners know videos will be available, they
-are suddenly much more free to go with the flow of the course.
+process with this.
 
 So, with livestreaming, what do we get?
 * The livestreaming platform usually records the video, making it
@@ -43,6 +42,8 @@ So, with livestreaming, what do we get?
   amount of time you have.
 * Learners can catch up immediately or refresh themselves on what they
   saw going off into the future.
+* If learners know videos will be available, they
+  are suddenly much more free to go with the flow of the course.
 
 We actually made our own tool,
 [ffmpeg-editlist](https://github.com/coderefinery/ffmpeg-editlist),
@@ -72,10 +73,17 @@ can work well, especially with co-teaching).  The most direct impact
 is supporting diverse teaching styles in the short term.
 
 Read more:
-* [https://youtu.be/thvMNTBJg2Y](video demonstration of ffmpeg-editlist)
+* [video demonstration of ffmpeg-editlist](https://youtu.be/thvMNTBJg2Y)
 * [Video editor](https://coderefinery.github.io/manuals/video-editor/)
   role description in the CodeRefinery manuals
 * [ffmpeg-editlist](https://github.com/coderefinery/ffmpeg-editlist)
 * [Sample ffmpeg-editlist
   file](https://github.com/AaltoSciComp/video-editlists-asc/blob/master/kickstart-2022-summer.yaml),
   very well done (perhaps too much).
+
+
+
+[1] Before remote teaching in 2020, an argument against recording the
+teaching was "it won't be interesting for others to watch later".
+This post also shows how that's the wrong perspective: the videos
+aren't only for random people later, but people in the course already.
