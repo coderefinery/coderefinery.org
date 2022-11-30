@@ -54,7 +54,10 @@ to this, it's our standard to have videos published by midnight the
 day of the course.
 
 Overall, this works well.  We seem to get lots of views with the
-Twitch automatic video (which lasts for 7 days), but the YouTube
+Twitch automatic video (which lasts for 7 days): the same day as the
+course, usually 1-2
+times the number attending the livestream ([stats from Python for
+Scientific Computing 2022](https://github.com/coderefinery/workshop-stats/blob/main/data/python-for-scicomp-2022/README.md#twitch-video-views)).  The YouTube
 videos tend to get much fewer, since it's not ready on time for people
 catching up the same day.  I'm still the main one making the videos,
 but it's simple enough that others could do so.  I think I put in too
