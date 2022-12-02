@@ -1,5 +1,6 @@
 +++
 title = "CodeRefinery meetings"
+description = "Usual meeting times of the CodeRefinery community; anyone may join."
 +++
 
 

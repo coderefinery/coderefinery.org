@@ -62,7 +62,7 @@ navigation = [
   { name = "About", items = [
       { name = "Project", target = "/about/project/" },
       { name = "History", target = "/about/history/" },
-      { name = "Partners", target = "/organization/partners/" },
+#      { name = "Partners", target = "/organization/partners/" },  # not much content
       { name = "Impact", target = "/about/impact/" },
       { name = "Statistics", target = "/about/statistics/" },
       { name = "Articles and reports", target = "/about/reports/" },

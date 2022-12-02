@@ -1,4 +1,6 @@
 +++
+title = "Code of conduct"
+description = "The CodeRefinery code of conduct"
 +++
 
 # Code of conduct
