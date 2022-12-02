@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://coderefinery.org"
+base_url = "https://coderefinery.org/branch/new-2022/"
 
 title = "CodeRefinery"
 
@@ -111,3 +111,5 @@ navigation = [
 #  { name = "Blog", target = "/blog/" },
 #  { name = "GitLab repository", target = "/repository/" },
 #]
+
+search_engine_exclude = true
