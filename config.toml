@@ -40,16 +40,16 @@ twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org
 navigation = [
   { name = "Home", target = "/" },
   { name = "Lessons", items = [
-      { name = "Core CodeRefinery workshop", target = "/lessons/" },
-      { name = "TODO: Self-study workshop", target = "/lessons/TODO" },
-      { name = "TODO: Other recommended lessons", target = "/lessons/TODO" },
+      { name = "Core CodeRefinery workshop", target = "/lessons/core/" },
+      { name = "Self-study workshop", target = "/lessons/core/#self-study-workshop" },
+      { name = "Other recommended lessons", target = "/lessons/" },
       ] },
   { name = "Workshops and events", items = [
       { name = "Upcoming", target = "/workshops/upcoming/" },
       { name = "Past", target = "/workshops/past/" },
-      { name = "TODO: The CodeRefinery teaching style", target = "/workshops/TODO" },
-      { name = "TODO: Join as an organization", target = "/workshops/TODO" },
-      { name = "TODO: Request or run your own", target = "/workshops/request/" },
+      { name = "The CodeRefinery teaching style", target = "/workshops/teaching-style/" },
+      { name = "Join as an organization", target = "/workshops/join-partner/" },
+      { name = "Request or run your own", target = "/workshops/request/" },
       ] },
   { name = "Join", items = [
       { name = "TODO: For individuals", target = "/organization/TODO/" },

@@ -1,7 +1,13 @@
 +++
+title = "All CodeRefinery-recommended lessons"
+description = "Many interesting lessons from the CodeRefinery team and partners"
 +++
 
-# Our lessons/material
+These are various lessons we teach or recommended
+
+## CodeRefinery lessons
+
+See [Core lessons](@/lessons/core.md)
 
 This is not a strict division, but lessons can be classified as to
 what is initially useful to yourself, to your group, and to the whole
