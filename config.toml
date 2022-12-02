@@ -52,7 +52,7 @@ navigation = [
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
   { name = "Join", items = [
-      { name = "TODO: For individuals", target = "/organization/TODO/" },
+      { name = "TODO: For individuals", target = "/join/individuals/" },
       { name = "TODO: For staff at organizations", target = "/organization/TODO/" },
       { name = "TODO: For organizations", target = "/organization/TODO/" },
       { name = "Public meetings", target = "/organization/meetings/" },
