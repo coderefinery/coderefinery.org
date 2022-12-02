@@ -29,6 +29,11 @@
 
     {% include "twitter.html" %}
 
+    {% if config.extra.search_engine_exclude %}
+    <!-- Exclude from search engines (this would be used when building other branches) -->
+    <meta name="robots" content="noindex,nofollow" />
+    {% endif %}
+
     <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
   </head>
 
