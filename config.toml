@@ -48,7 +48,7 @@ navigation = [
       { name = "Upcoming", target = "/workshops/upcoming/" },
       { name = "Past", target = "/workshops/past/" },
       { name = "The CodeRefinery teaching style", target = "/workshops/teaching-style/" },
-      { name = "Join as an organization", target = "/workshops/join-partner/" },
+      #{ name = "Join as an organization", target = "/workshops/join-partner/" },
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
   { name = "Join", items = [
@@ -66,8 +66,8 @@ navigation = [
       { name = "Impact", target = "/about/impact/" },
       { name = "Statistics", target = "/about/statistics/" },
       { name = "Articles and reports", target = "/about/reports/" },
-      { name = "Operations manual", target = "https://coderefinery.github.io/manuals/" },
-      { name = "Contact", target = "/organization/contact/" },
+      { name = "Operations manuals (external link)", target = "https://coderefinery.github.io/manuals/" },
+      { name = "Contact", target = "/about/contact/" },
       ] },
   { name = "See also", items = [
       { name = "Other projects", target = "/see-also/TODO/" },

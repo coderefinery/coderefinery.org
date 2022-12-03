@@ -15,3 +15,8 @@ to develop the workshop and do the streaming - including finding many
 expert co-instructors to help with the writing and teaching.  This
 collaboration is quite education and is a great way to network and
 share knowledge.
+
+In the future, there will be some way to officially join CodeRefinery
+as an organization, but that will come when it's time.  For now, if
+you express interest, you can join almost immediately and help figure
+out the way we will work later.

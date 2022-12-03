@@ -31,7 +31,7 @@ later.
 ## Local / custom workshops requests
 
 If you would like to request a private workshop, [please get in
-touch](@/organization/contact.md).  As of 2022, with our updated funding
+touch](@/about/contact.md).  As of 2022, with our updated funding
 situation, CodeRefinery is more of a decentralized organization and we
 may not have dedicated staff to offer workshops.
 Thus, you would be expected to help with the teaching and organization some.
