@@ -8,14 +8,15 @@ CodeRefinery workshop, and what we believe that every computational
 scientist (even those with very small amounts of computation) should
 know.
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/) (*)
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (*)
-- [Documentation](https://coderefinery.github.io/documentation/) (*)
-- [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (*)
-- [Automated testing](https://coderefinery.github.io/testing/) (*)
-- [Social coding and open software](https://coderefinery.github.io/social-coding/) (*)
-- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (*)
-- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (*)
+- [Introduction to version control](https://coderefinery.github.io/git-intro/)
+- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+- [Documentation](https://coderefinery.github.io/documentation/)
+- [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
+- [Automated testing](https://coderefinery.github.io/testing/)
+- [Social coding and open software](https://coderefinery.github.io/social-coding/)
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/)
+- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
+
 
 ## Self-study workshop
 
@@ -31,8 +32,8 @@ September workshop:
 
 * The lesson material is linked above, and is probably more up-to-date
   than the chat/playlist below.
-* [Parallel chat](https://coderefinery.github.io/2022-09-22-workshop/questions/)
-* [YouTube playlist](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
+* [Parallel chat](https://coderefinery.github.io/2022-09-20-workshop/)
+* [YouTube playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau).
 
 For self-study purposes, you may need the [installation
 instructions](https://coderefinery.github.io/installation/).  Note

@@ -52,11 +52,11 @@ navigation = [
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
   { name = "Join", items = [
-      { name = "TODO: For individuals", target = "/join/individuals/" },
-      { name = "TODO: For staff at organizations", target = "/organization/TODO/" },
-      { name = "TODO: For organizations", target = "/organization/TODO/" },
-      { name = "Public meetings", target = "/organization/meetings/" },
-      { name = "The CodeRefinery community", target = "/organization/contributors/" },
+      { name = "For individuals", target = "/join/individuals/" },
+      { name = "For staff", target = "/join/staff/" },
+      { name = "For organizations", target = "/join/organizations/" },
+      { name = "Public meetings", target = "/join/meetings/" },
+      { name = "The CodeRefinery community", target = "/about/contributors/" },
       { name = "Code of conduct", target = "/about/code-of-conduct/" },
       ] },
   { name = "About", items = [

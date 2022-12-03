@@ -1,6 +1,7 @@
 +++
 title = "Instructors and helpers"
 template = "contributors.html"
+aliases = ["/organization/contributors"]
 +++
 
 Below we list (hopefully) all speakers, instructors, hosts, helpers, and
