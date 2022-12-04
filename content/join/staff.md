@@ -24,6 +24,9 @@ the exercises.  We can support you however possible, for example more
 chat support, training exercise leaders, and you can join our planning
 meetings.
 
+* Read more: [Local advertisement and breakout
+  rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
+
 For any of these, you can get started by [join a
 meetings](@/join/meetings.md) and say hi, especially the
 "community calls" on the first of each month.  Or [join our

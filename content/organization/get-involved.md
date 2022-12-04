@@ -4,26 +4,58 @@ template = "page.html"
 +++
 
 CodeRefinery is a community project.  All our work is open, and we
+have both individual contributors and people contributing on behalf of
+organizations.  Our goal isn't just to run workshops but to support
+*all* researchers in computational science.  You are welcome to hang
+around if you just want to see what we do without contributing (also
+see [Nordic Research Software Engineers](https://nordic-rse.org),
+which has a lot of overlap with us).
+
+- Subscribe to
+  [@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery)
+  or [@coderefine on twitter](https://twitter.com/coderefine) for
+  announcements.
+- [More detail about contributing in our
+  manuals](https://coderefinery.github.io/manuals/contributing/)
+- Sign up for our newsletter (front page of the site)
+
+
+## Individual contributors
+
+If you are alone, there are still plenty of things you can do!  We
+welcome people teaching with us, helping out in other ways, giving us
+ideas, and generally being around.  Some people use their work with
+CodeRefinery very advantageously in their career later.
+
+- [Join our meetings](/organization/meetings/)
+- Stay up-to-date on all events and meetings by subscribing to one or more of our [Calendars](https://coderefinery.org/calendars/)
+- The best way to get started is to [join our
+  chat](https://coderefinery.github.io/manuals/chat/) and introduce
+  yourself in `#new members`.
+
+
+
+## Individual contributors on behalf of an organization
+
+If you are working on behalf of an organization, you probably have
+more
+
+- [Request a workshop](/workshops/request/)
+- [Reuse our lessons](/lessons/reusing/)
+
+
+## Organizational partners
+
+- [Organizational support and becoming
+  partner](/organization/partners/)
+
+
+
 accept any type of contributions: there is a lot more than instructing
 to run a successful workshop.  Also, CodeRefinery is really more of a
 group of like-minded people than one particular plan, so you are
 welcome to join just to hang out and share ideas.
 
-- The best way to get started is to [join our
-  chat](https://coderefinery.github.io/manuals/chat/) and introduce
-  yourself in `#new members`.
-- Subscribe to
-  [@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery)
-  or [@coderefine on twitter](https://twitter.com/coderefine) for
-  announcements.
-- [Organizational support and becoming
-  partner](/organization/partners/)
-- [Request a workshop](/workshops/request/)
-- [Reuse our lessons](/lessons/reusing/)
-- [Join our meetings](/organization/meetings/)
-- Stay up-to-date on all events and meetings by subscribing to one or more of our [Calendars](https://coderefinery.org/calendars/)
-- [More detail about contributing in our
-  manuals](https://coderefinery.github.io/manuals/contributing/)
 
 
 

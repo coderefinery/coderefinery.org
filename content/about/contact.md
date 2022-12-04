@@ -34,3 +34,7 @@ If you like what we do, please reach out:
 Mastodon at
 [@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery) and
 Twitter at [@coderefine](https://twitter.com/coderefine)
+
+### Calendars
+
+See [calendars](@/calendars.md).

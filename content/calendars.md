@@ -1,11 +1,11 @@
 +++
 +++
 
-<script> 
+<script>
   $(function(){
-    $("#included_body").load("https://coderefinery.github.io/calendar/body.html"); 
+    $("#included_body").load("https://coderefinery.github.io/calendar/body.html");
   });
-</script> 
+</script>
 
 <div id="included_body"></div>
 

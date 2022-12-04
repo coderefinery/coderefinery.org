@@ -15,7 +15,10 @@ they learn the tools needed to do their work with less trouble.
 
 We are most known for our practical-level workshop
 about [base-level practices of software development tools for
-researchers](@/lessons/core.md).
+researchers](@/lessons/core.md).  We are also very well known for our
+[unique and engaging online teaching
+style](@/workshops/teaching-style.md), and are building a community
+around this type of shared teaching.
 
 Through our spin-off project [Nordic-RSE](https://nordic-rse.org), we
 serve as a hub for research software engineers in the Nordic
@@ -42,7 +45,7 @@ We are basically intermediate-level
 [Carpentries](https://carpentries.org/) lessons and would like to work
 more closely with The Carpentries.  Our in-person workshops are
 basically "Carpentries-style", though our online workshops have
-adopted our [own unique stile](@/workshops/teaching-style.md).  Our
+adopted our [own unique style](@/workshops/teaching-style.md).  Our
 overall philosophy is similar.  Our target audience is learners who
 already have some experience with programming and would like to
 develop software in a more efficient and sustainable way.  We believe
@@ -132,4 +135,4 @@ ranging from lesson development to website updates.
 
 We're always interested in new collaborations, so if you would like to
 co-organize an event with us or suggest a new type of event, don't
-hesitate to [get in touch](/organization/get-involved/)!
+hesitate to [get in touch](@/join/organizations.md)!

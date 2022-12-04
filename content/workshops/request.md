@@ -12,7 +12,7 @@ matter where you are.  This isn't just because
 of Covid-19, but we have found that our [teaching
 style](@/workshops/teaching-style.md) provides such a high-quality
 program that few people show up in-person when there is that
-opportunity.  [Join as a partner](@/workshops/join-partner.md) and you
+opportunity.  [Join as a partner](@/join/organizations.md) and you
 can provide in-person exercise sessions and support to your local
 audience.
 

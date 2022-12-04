@@ -20,3 +20,6 @@ In the future, there will be some way to officially join CodeRefinery
 as an organization, but that will come when it's time.  For now, if
 you express interest, you can join almost immediately and help figure
 out the way we will work later.
+
+* Read more: [Community teaching training](https://coderefinery.github.io/community-teaching/)
+* Read more: [Open your courses to others](https://coderefinery.github.io/manuals/open-your-courses/)

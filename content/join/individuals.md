@@ -13,6 +13,10 @@ chat](https://coderefinery.github.io/manuals/chat/) and introduce
 yourself in "new members".  Or contact anyone you know for a
 recommendation on how to get involved - we aren't that formal yet.
 
+Our chat has all kinds of interesting facts and help, so hanging out
+there will probably teach you something anyway.
+
+Read more: [roles overview](https://coderefinery.github.io/manuals/roles-overview/)
 
 ## As a learner
 
@@ -33,6 +37,8 @@ the pre-requisites and aren't too scared by error messages, you can do
 it!  We have some [basic onboarding
 training](https://coderefinery.github.io/manuals/exercise-leaders/)
 for you!
+
+**Maybe you want to bring all the rest of your research group?**
 
 
 ## As a co-instructor or expert helper
