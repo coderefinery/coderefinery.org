@@ -6,6 +6,8 @@ description = "Join CodeRefinery as a partner"
 CodeRefinery is a collaboration between different organizations, and
 you can join!
 
+## Providing workshops to your community
+
 Joining as an organization isn't that different than [what is
 described on the staff page](@/join/staff.md), but you can do so even
 more systematically and take part in decision-making about what
@@ -15,6 +17,18 @@ to develop the workshop and do the streaming - including finding many
 expert co-instructors to help with the writing and teaching.  This
 collaboration is quite education and is a great way to network and
 share knowledge.
+
+## Do your own teaching better
+
+Do you need to teach and reach a broader audience?  Do you put on your
+own workshops?  Join CodeRefinery, learn our teaching strategies, and
+let's do better together.  In particular, plenty of technical and
+infrastructure staff need to teach as a side-product of their jobs.
+CodeRefinery provides exactly the community and resources to do this
+teaching better.
+
+
+## Joining CodeRefinery
 
 In the future, there will be some way to officially join CodeRefinery
 as an organization, but that will come when it's time.  For now, if
