@@ -19,7 +19,7 @@ news = """
 
 We teach all the essential tools which are usually skipped in academic
 education so everyone can make full use of software, computing, and
-data. We don't just give courses , but are a training network that you
+data. We don't just give courses, but are a training network that you
 can join to share the effort and bring better courses to your
 community.
 
