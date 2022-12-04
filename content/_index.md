@@ -17,10 +17,16 @@ news = """
 
 ## Training and e-Infrastructure for Research Software Development
 
-CodeRefinery acts as a hub for FAIR (Findable, Accessible,
-Interoperable, and Reusable) software practices. It currently
-focuses on the Nordic/Baltic countries, but aims to expand
-beyond this region. CodeRefinery aims to operate as a
+We teach all the essential tools which are usually skipped in academic
+education so everyone can make full use of software, computing, and
+data. We don't just give courses , but are a training network that you
+can join to share the effort and bring better courses to your
+community.
+
+Our [standard workshop](@/lessons/core.md) is well known in Nordic
+academic circles and our [our engaging online teaching
+style](@/workshops/teaching-style.md) is considered best-in-class even
+compared to in-person teaching.  CodeRefinery aims to operate as a
 community project with support from academic organizations.
 
 View our [vision of the future of
@@ -30,7 +36,8 @@ it](https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg?view)).
 ### CodeRefinery provides
 * For **organizations**: an opportunity to pool competence
   and offer more training and development opportunities than
-  they could individually.
+  they could individually.  A place to share best teaching practices
+  and other skills.
 * For **volunteers** and the team: a community around teaching
   and opportunity for skill development, both in pedagogy and
   practical skills.
