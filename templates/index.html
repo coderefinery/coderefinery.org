@@ -7,63 +7,15 @@
       <img src="{{ coderefinery.url }}"
            alt="CodeRefinery logo" class="pull-left mr-2"/>
 
-      <h3>
-        <a href="https://www.youtube.com/watch?v=GHlF1nGfz7g&list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau">Watch the recordings from September 2022 CodeRefinery workshop!</a> or <a href="https://coderefinery.github.io/2022-09-20-workshop/schedule/">check out the lessons themselves</a>
-        <br>
-        <br>
-        We got
-        <a href="https://neic.no/news/2021/10/01/2021-open-call-results/" target="_blank">new funding</a>
-        until 2025!
-      </h3>
+      {{ section.extra.news | markdown | safe }}
+
     </div>
     <div class="uk-width-2-3@m">
-      <h2>Training and e-Infrastructure for Research Software Development</h2>
-      <p>
-        CodeRefinery acts as a hub for FAIR (Findable, Accessible,
-        Interoperable, and Reusable) software practices. It currently
-        focuses on the Nordic/Baltic countries, but aims to expand
-        beyond this region. CodeRefinery aims to operate as a
-        community project with support from academic organizations.
-      </p>
-
-      <p>
-        View
-        our <a href="https://www.youtube.com/watch?v=S9Jor12Cxdc">vision
-        of the future of teaching</a>
-        (or <a href="https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg?view">read
-        it</a>).
-      </p>
-
-      <h3>CodeRefinery provides</h3>
-      <p>
-        <ul>
-          <li>
-            For <b>organizations</b>: an opportunity to pool competence
-            and offer more training and development opportunities than
-            they could individually.
-          </li>
-          <li>
-            For <b>volunteers</b> and the team: a community around teaching
-            and opportunity for skill development, both in pedagogy and
-            practical skills.
-          </li>
-          <li>
-            For <b>learners</b>: a welcoming and useful environment for
-            learning many necessary practical skills that may otherwise
-            not be explicitly taught. This can be through courses,
-            hackathons, and the like.
-          </li>
-        </ul>
-      </p>
+      {{ section.content | safe }}
     </div>
   </div>
 
-  <h2>Upcoming workshops and events</h2>
-  <ul>
-    <li><a href="https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/">Python for Scientific Computing, November 22-25, 2022</a></li>
-    <li>CodeRefinery, March 21-23,28-30, 2023</li>
-    <li><a href="/workshops/upcoming/" target="_blank">Full list</a></li>
-  </ul>
+  {{ section.extra.upcoming | markdown | safe }}
 
   <h2>Feedback and testimonials</h2>
   <div uk-slideshow="autoplay: true; autoplay-interval: 5000; animation: fade; ratio: 16:2">
