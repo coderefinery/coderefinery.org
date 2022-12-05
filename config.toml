@@ -42,8 +42,9 @@ navigation = [
   { name = "Lessons", items = [
       { name = "Core CodeRefinery workshop", target = "/lessons/core/" },
       { name = "Self-study workshop", target = "/lessons/core/#self-study-workshop" },
-      { name = "Other recommended lessons", target = "/lessons/" },
-      #{ name = "Reusing", target = "/lessons/reusing/" },
+      { name = "Other CodeRefinery lessons", target = "/lessons/from-coderefinery/" },
+      { name = "Other recommended lessons", target = "/lessons/other/" },
+      { name = "Reusing", target = "/lessons/reusing/" },
       #{ name = "Contributing", target = "/lessons/contributing/" },
       ] },
   { name = "Workshops and events", items = [

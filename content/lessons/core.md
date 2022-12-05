@@ -50,3 +50,11 @@ options:
 * There is a #help stream in [CodeRefinery
   chat](https://coderefinery.zulipchat.com/) where we welcome
   general questions and provide support on a best-effort basis.
+
+
+## Video recordings
+
+A number of video recordings of CodeRefinery lessons and workshops and
+[Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
+found on our [YouTube
+channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
