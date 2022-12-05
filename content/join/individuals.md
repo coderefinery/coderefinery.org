@@ -1,7 +1,7 @@
 +++
 title = "For individuals"
 description = "Individuals can find many ways to develop their skills and contribute to CodeRefinery."
-aliases = ["lessons/contributing/", "organization/get-involved/"]
+aliases = ["lessons/contributing/", "organization/get-involved/", "organization/how-to-help/"]
 +++
 
 As individuals, there are plenty of ways to join CodeRefinery,
