@@ -8,15 +8,16 @@ CodeRefinery workshop, and what we believe that every computational
 scientist (even those with very small amounts of computation) should
 know.
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/)
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
-- [Documentation](https://coderefinery.github.io/documentation/)
-- [Jupyter notebooks](https://coderefinery.github.io/jupyter/)
-- [Automated testing](https://coderefinery.github.io/testing/)
-- [Social coding and open software](https://coderefinery.github.io/social-coding/)
-- [Reproducible research](https://coderefinery.github.io/reproducible-research/)
-- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/)
+- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1)
+- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 2-3)
+- [Documentation](https://coderefinery.github.io/documentation/) (day 5)
+- [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5)
+- [Automated testing](https://coderefinery.github.io/testing/) (day 6)
+- [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4)
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4)
+- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6)
 
+**Also see all of our online lessons: [Lesson index](/lessons/_index.md)**
 
 ## Self-study workshop
 
@@ -45,8 +46,9 @@ options:
 * Most of the tools in these lessons are pretty standard.  Ask your
   friends and colleagues for help - you will probably both learn
   something.
-* You may get local support from our partner organizations. We will share a
-  link after we have reorganized the pages.
+* You may get local support from our [partner
+  organizations](@/about/partners.md). We will share a link after we
+  have reorganized the pages.
 * There is a #help stream in [CodeRefinery
   chat](https://coderefinery.zulipchat.com/) where we welcome
   general questions and provide support on a best-effort basis.
