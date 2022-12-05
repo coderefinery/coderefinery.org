@@ -1,6 +1,7 @@
 +++
 title = "For individuals"
 description = "Individuals can find many ways to develop their skills and contribute to CodeRefinery."
+aliases = ["lessons/contributing/"]
 +++
 
 As individuals, there are plenty of ways to join CodeRefinery,
@@ -51,7 +52,25 @@ of doing and learning the topics.
 If teaching isn't for you, there is also being a helper at a workshop.
 
 
-## Help out the project itself.
+## Lesson contributions
+
+We would love to see more contributions to our lessons. We are a normal open
+source project on GitHub, and you can contribute via issues, pull requests, or
+by discussing in our [chat](https://coderefinery.zulipchat.com/).  You
+are welcome to [reuse our lessons as well](@/lessons/reusing.md)
+
+A good starting point is to either open a topic on our
+[chat](https://coderefinery.zulipchat.com/) or to open an issue on one of the
+lesson repositories in our [GitHub
+organization](https://github.com/coderefinery) where you can describe what you
+would like to change to collect feedback and possibly also contributors.
+
+No contribution is too small and ideas for changes are very often very good
+ideas and we would love to work with you on making our lessons better and more
+modular and even more relevant.
+
+
+## Help out the project itself
 
 As an open project, there are always things to do to keep us running!
 We're especially interested in people who know how to grow a community
