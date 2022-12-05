@@ -32,8 +32,8 @@ September workshop:
 
 * The lesson material is linked above, and is probably more up-to-date
   than the chat/playlist below.
-* [Parallel chat](https://coderefinery.github.io/2022-09-20-workshop/)
-* [YouTube playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau).
+* [Parallel chat](https://coderefinery.github.io/2022-09-20-workshop/questions/)
+* [YouTube playlist](https://www.youtube.com/playlist?list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau)
 
 For self-study purposes, you may need the [installation
 instructions](https://coderefinery.github.io/installation/).  Note
@@ -45,6 +45,8 @@ options:
 * Most of the tools in these lessons are pretty standard.  Ask your
   friends and colleagues for help - you will probably both learn
   something.
-* You may get support at the {{ get_url(TODO: PARTNERS) }}.
-* There is a #help stream in CodeRefinery chat where we welcome
-  general questions and provide support on a best-effort basis. TODO: lnk
+* You may get local support from our partner organizations. We will share a
+  link after we have reorganized the pages.
+* There is a #help stream in [CodeRefinery
+  chat](https://coderefinery.zulipchat.com/) where we welcome
+  general questions and provide support on a best-effort basis.
