@@ -1,11 +1,13 @@
 +++
 title = "For individuals"
 description = "Individuals can find many ways to develop their skills and contribute to CodeRefinery."
-aliases = ["lessons/contributing/"]
+aliases = ["lessons/contributing/", "organization/get-involved/"]
 +++
 
 As individuals, there are plenty of ways to join CodeRefinery,
-regardless of what you do now.
+regardless of what you do now.  Also see what [professional
+staff](@/join/staff.md) and [organizations](@/join/organizations.md)
+can do.
 
 For any of these, you can get started by [join a
 meetings](@/join/meetings.md) and say hi, especially the
@@ -18,6 +20,7 @@ Our chat has all kinds of interesting facts and help, so hanging out
 there will probably teach you something anyway.
 
 Read more: [roles overview](https://coderefinery.github.io/manuals/roles-overview/)
+
 
 ## As a learner
 
