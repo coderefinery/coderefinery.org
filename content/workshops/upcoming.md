@@ -1,9 +1,8 @@
 +++
 title = "Upcoming workshops and events"
 description = "Upcomng core CodeRefinery workshops and other related events."
-date = 2022-10-31
+date = 2022-12-06
 +++
-
 
 ## Core CodeRefinery Workshops
 
