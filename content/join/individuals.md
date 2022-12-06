@@ -9,17 +9,20 @@ regardless of what you do now.  Also see what [professional
 staff](@/join/staff.md) and [organizations](@/join/organizations.md)
 can do.
 
-For any of these, you can get started by [join a
-meetings](@/join/meetings.md) and say hi, especially the
-"community calls" on the first of each month.  Or [join our
+For any of these, you can get started by [joining a
+meeting](@/join/meetings.md) and say hi, especially the "community
+calls" on the first of each month.  Or [join our
 chat](https://coderefinery.github.io/manuals/chat/) and introduce
-yourself in "new members".  Or contact anyone you know for a
-recommendation on how to get involved - we aren't that formal yet.
+yourself in the "#new members" stream.  Or contact anyone you know for
+a recommendation on how to get involved - we aren't that formal yet.
 
 Our chat has all kinds of interesting facts and help, so hanging out
 there will probably teach you something anyway.
 
-Read more: [roles overview](https://coderefinery.github.io/manuals/roles-overview/)
+Read more: [roles
+overview](https://coderefinery.github.io/manuals/roles-overview/) for
+all the varying responsibilities in a workshop (surely there is
+something for you there)
 
 
 ## As a learner
@@ -42,7 +45,8 @@ it!  We have some [basic onboarding
 training](https://coderefinery.github.io/manuals/exercise-leaders/)
 for you!
 
-**Maybe you want to bring all the rest of your research group?**
+Maybe you want to bring all the rest of your research group as your
+team?
 
 
 ## As a co-instructor or expert helper
@@ -52,7 +56,8 @@ an instructor!  In fact, we almost recommend it as a starting point,
 since it's good to have a co-instructor that understands the difficulty
 of doing and learning the topics.
 
-If teaching isn't for you, there is also being a helper at a workshop.
+If teaching isn't for you, there are plenty of staff helpers at every
+workshop.
 
 
 ## Lesson contributions
@@ -73,8 +78,24 @@ ideas and we would love to work with you on making our lessons better and more
 modular and even more relevant.
 
 
-## Help out the project itself
+## Help out the CodeRefinery project itself
 
 As an open project, there are always things to do to keep us running!
-We're especially interested in people who know how to grow a community
-or do better communications than we do now.
+We're especially interested in people who know how to grow a
+community, do better communications, or manage many events better than
+we do now.
+
+
+## Joining CodeRefinery as an individual
+
+Currently there is no formal joining, hang out in meetings/chat and
+offer suggestions, and you can call yourself a part of CodeRefinery.
+Create a pull request to add yourself to
+[contributors](@/about/contributors.md) after significant
+activity/commitment, or ~1 year of activity in general.
+
+
+## See also
+
+Also see what [professional staff](@/join/staff.md) and
+[organizations](@/join/organizations.md) can do.

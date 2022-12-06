@@ -5,7 +5,8 @@ description = "If you support computational scientists, provide our courses to t
 
 If you work at an organization that supports computational research,
 join us!  Don't forget you can do everything on the [for
-individuals](@/join/individuals.md) page, too.
+individuals](@/join/individuals.md) page as part of your job, and
+[your whole organization could join](@/join/organizations.md).
 
 ## Advertise our events to your audience
 
@@ -28,14 +29,18 @@ meetings.
   rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
 
 For any of these, you can get started by [join a
-meetings](@/join/meetings.md) and say hi, especially the
-"community calls" on the first of each month.  Or [join our
+meeting](@/join/meetings.md) and say hi, especially the "community
+calls" on the first of each month.  Or [join our
 chat](https://coderefinery.github.io/manuals/chat/) and introduce
-yourself in "new members".  Or contact anyone you know for a
-recommendation on how to get involved - we aren't that formal yet.
+yourself in the "#new members" stream.  Or contact anyone you know for
+a recommendation on how to get involved - we aren't that formal yet.
 
 ## Request in-person workshops
 
 This is currently somewhat on hiatus, since our online workshops [work
 so well](@/workshops/teaching-style.md), but you could [request your
 own workshop](@/workshops/request.md).
+
+## Joining CodeRefinery as staff
+
+See [individuals](@/join/individuals.md).

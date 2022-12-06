@@ -11,6 +11,6 @@ workshop](@/lessons/core.md) as well as other teaching events by the
 CodeRefinery team. Before March 2020, we focused on small/medium
 in-person workshops at sites around the Nordics.  After that, we
 focused on online teaching, and by the time in-person restrictions
-were over, the [CodeRefinery teaching styl](TODO-LINK) was so well
-developed that we are continuing online with in-person workshops as
-requested.
+were over, the [CodeRefinery teaching
+style](@/workshops/teaching-style.md) was so well developed that we
+are continuing online with in-person workshops as requested.

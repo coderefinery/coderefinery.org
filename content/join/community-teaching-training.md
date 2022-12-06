@@ -36,5 +36,8 @@ the [Carpentries instructor
 training](https://carpentries.org/become-instructor/) - attending both
 is useful.
 
+
+## See also
+
 The material can be found at [Community teaching
 training](https://coderefinery.github.io/community-teaching/).

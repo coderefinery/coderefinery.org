@@ -50,3 +50,12 @@ Lessons marked with (*) are part of a regular 6 half-day workshop.
 - Old material (material is outdated and could be revived by somebody)
   - [DevOps, automation, and continuous integration](https://coderefinery.github.io/automation/)
   - [Integrated development environments](https://coderefinery.github.io/IDEs/)
+
+
+## Video recordings
+
+A number of video recordings of CodeRefinery lessons and workshops and
+[Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
+found on our [YouTube
+channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
+

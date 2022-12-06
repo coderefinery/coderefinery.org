@@ -12,13 +12,16 @@ or even joining the Carpentries.
 
 ## Online workshops
 
-> TODO: "top quote"
-
 In March 2020, CodeRefinery moved online like many others.  While at
 first, we taught the same way as everyone else did, we were bold
 enough to go farther and eventually found something special.
 
-> TODO: some other quote
+> I attended several "top" conferences/workshops/seminars as well as
+> videolectures this past year in their virtual implementations, and
+> this event is easily the best out of all of them when it comes down
+> to presentations and audience participation!
+>
+> - Feedback, online Scientific Computing kickstart, June 2021
 
 ### Co-teaching
 
@@ -101,3 +104,11 @@ person and would rather ask questions anonymously (without taking time
 from someone else), need to attend from your own spaces, need more
 time to review after the teaching period, or more, we can do better
 than most.
+
+
+## Read more
+
+Our techniques and tools are as open as our teaching.  Read more in
+the [community teaching
+training](@/join/community-teaching-training.md) or [read technical
+descriptions in our manuals](https://coderefinery.github.io/manuals/).

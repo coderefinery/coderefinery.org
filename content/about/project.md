@@ -67,7 +67,6 @@ please get in touch.
     * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
     * Instructor training workshops to learn to organise and teach CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
----
 
 ## Infrastructure services
 

@@ -3,6 +3,8 @@ title = "Core CodeRefinery lessons"
 description = "The core lessons taught at the standard CodeRefinery workshop."
 +++
 
+**Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**
+
 These are the lessons which are included in the "standard"
 CodeRefinery workshop, and what we believe that every computational
 scientist (even those with very small amounts of computation) should
@@ -17,7 +19,7 @@ know.
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4)
 - [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6)
 
-**Also see all of our online lessons: [Lesson index](/lessons/_index.md)**
+**Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**
 
 ## Self-study workshop
 
@@ -47,16 +49,7 @@ options:
   friends and colleagues for help - you will probably both learn
   something.
 * You may get local support from our [partner
-  organizations](@/about/partners.md). We will share a link after we
-  have reorganized the pages.
+  organizations](@/about/partners.md) if you are in their community.
 * There is a #help stream in [CodeRefinery
   chat](https://coderefinery.zulipchat.com/) where we welcome
   general questions and provide support on a best-effort basis.
-
-
-## Video recordings
-
-A number of video recordings of CodeRefinery lessons and workshops and
-[Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
-found on our [YouTube
-channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
