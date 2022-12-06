@@ -5,14 +5,27 @@ template = "page-with-toc.html"
 
 ## Objectives
 
-We are working with **students, researchers, and research software engineers
-from all disciplines** to advance software development and management practices, 
-so that research groups can collaboratively develop, test,
-review and discuss their source code, with the aim of making it shareable and reusable,
-thus following the FAIR principles.
+CodeRefinery improves science by providing training and infrastructure
+for researchers, who often need to use computational tools but have
+little training in tools beyond basic programming.  Our support allows
+research to be more reproducible, open, and efficient and thus
+promotes the goals of open science and FAIR data management - in
+addition to making the lives of countless researchers better, since
+they learn the tools needed to do their work with less trouble.
 
-Through our spin-off project [Nordic-RSE](https://nordic-rse.org), we serve as a hub for research software engineers in the Nordic countries, 
-namely in Iceland, Denmark, Norway, Sweden, Finland, and Estonia.
+We are most known for our practical-level workshop
+about [base-level practices of software development tools for
+researchers](@/lessons/core.md).  We are also very well known for our
+[unique and engaging online teaching
+style](@/workshops/teaching-style.md), and are building a community
+around this type of shared teaching.
+
+Through our spin-off project [Nordic-RSE](https://nordic-rse.org), we
+serve as a hub for research software engineers in the Nordic
+countries, namely in Iceland, Denmark, Norway, Sweden, Finland, and
+Estonia.  Research Software Engineers are basically the professional
+level of what we teach, and the two-way collaboration is very
+productive.
 
 We are a community project seeking volunteers to sustain what we have
 accomplished in the first five years.
@@ -28,13 +41,20 @@ accomplished in the first five years.
 
 ## CodeRefinery and [The Carpentries](https://carpentries.org/)
 
-We are in the same galaxy as the [Carpentries
-organization](https://carpentries.org/) and closely work with them.  We run our
-workshops in a slightly different way, but our general philosophy, lesson
-material, and procedures are very similar.  Our target audience is learners who
-already have some experience with programming and would like to develop
-software in a more efficient and sustainable way.  We believe that for many
-learners we can offer a good second step after their Carpentries workshop.
+We are basically intermediate-level
+[Carpentries](https://carpentries.org/) lessons and would like to work
+more closely with The Carpentries.  Our in-person workshops are
+basically "Carpentries-style", though our online workshops have
+adopted our [own unique style](@/workshops/teaching-style.md).  Our
+overall philosophy is similar.  Our target audience is learners who
+already have some experience with programming and would like to
+develop software in a more efficient and sustainable way.  We believe
+that for many learners we can offer a good second step after their
+Carpentries workshop.
+
+We would like to work more closely with The Carpentries and offer our
+lessons as intermediate-level carpentries.  If you are reading this,
+please get in touch.
 
 
 ## Core Activities
@@ -47,7 +67,6 @@ learners we can offer a good second step after their Carpentries workshop.
     * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
     * Instructor training workshops to learn to organise and teach CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
----
 
 ## Infrastructure services
 
@@ -115,4 +134,4 @@ ranging from lesson development to website updates.
 
 We're always interested in new collaborations, so if you would like to
 co-organize an event with us or suggest a new type of event, don't
-hesitate to [get in touch](/organization/get-involved/)!
+hesitate to [get in touch](@/join/organizations.md)!

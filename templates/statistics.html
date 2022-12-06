@@ -1,11 +1,9 @@
 {% import "macros.html" as macros %}
 
-{% extends "base.html" %}
+{% extends "section.html" %}
 
 {% block content %}
-  <h1>{{ section.title }}</h1>
-
-  {{ section.content | safe }}
+  {{ super() }}
 
   <h3>Standard CodeRefinery workshops</h3>
   {% set data = load_data(path="content/workshops/full-workshops.json") %}

@@ -1,11 +1,10 @@
 +++
+title = "Upcoming workshops and events"
+description = "Upcomng core CodeRefinery workshops and other related events."
 date = 2022-12-06
 +++
 
-# Upcoming workshops and events
-
-
-## Workshop dates for 2023
+## Core CodeRefinery Workshops
 
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
@@ -16,7 +15,7 @@ is important for RSS feed. -->
 
 ## Past workshops and events
 
-On [this page](/workshops/past/) we list all our past workshops and events.
+On [this page](@/workshops/past.md) we list all our past workshops and events.
 
 
 ## How to be informed about future events

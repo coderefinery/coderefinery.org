@@ -1,9 +1,7 @@
-{% extends "base.html" %}
+{% extends "page.html" %}
 
 {% block content %}
-  <h1>{{ page.title }}</h1>
-
-  {{ page.content | safe }}
+  {{ super() }}
 
   <div class="uk-child-width-expand@s" uk-grid>
     <div>

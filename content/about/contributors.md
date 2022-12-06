@@ -1,34 +1,20 @@
 +++
-title = "Meet the community"
+title = "CodeRefinery contributors"
+template = "contributors.html"
+aliases = ["/organization/contributors"]
 +++
 
-### We are a community project
+Below we list (hopefully) all speakers, instructors, hosts, helpers, and
+exercise leaders of past CodeRefinery workshops, as well as CodeRefinery events
+and shared events. Without these contributions, these events would not have been possible.
+**Thank you so much for your contributions!**
 
-Since 2022, CodeRefinery is a community project and a number of persons
-contribute their work in-kind (typically 10% to 50% of their time), supported
-by their organizations.
+[You can join us too](@/join/individuals.md).
 
-**And you can join us and contribute**. And we will soon here describe more in
-detail the various ways how you (as person or as organization) can help the
-project if you find the project useful and interesting.
-
-
-### Instructors, helpers, and exercise leads
-
-Our workshops would not be possible without the contributions from
-[many speakers, instructors, hosts, helpers, and exercise leaders](/organization/contributors/).
-
-
-### Our teaching philosophies
-
-On [this page](https://coderefinery.github.io/instructor-training/02-teaching-philosophies/)
-our instructors share their teaching philosophies in short recorded videos.
-
-
-### People who are or were part of the project
+## People who are or were part of the project
 
 Here listing all persons who were part of the project as official staff or have
-contributed a significant amount of volunteer work:
+contributed a significant amount of volunteer work.
 
 - Anne Fouilloux (University of Oslo, Norway)
 - Bjørn Lindi (NTNU, Norway)
@@ -52,3 +38,9 @@ contributed a significant amount of volunteer work:
 - Pinja Koskinen (CSC - IT Center for Science, Finland)
 - Erik Edelmann (CSC - IT Center for Science, Finland)
 - Lukas Berger (Technical University of Denmark)
+
+On [this page](https://coderefinery.github.io/instructor-training/02-teaching-philosophies/)
+our instructors share their teaching philosophies in short recorded videos.
+
+
+## Instructors, helpers, and exercise leads

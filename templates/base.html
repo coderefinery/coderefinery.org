@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ config.title }}</title>
+    <title>{% if page.title %}{{page.title}} - {% endif %}{{ config.title }}</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <meta charset="utf-8">
@@ -28,6 +28,11 @@
     {% endblock %}
 
     {% include "twitter.html" %}
+
+    {% if config.extra.search_engine_exclude %}
+    <!-- Exclude from search engines (this would be used when building other branches) -->
+    <meta name="robots" content="noindex,nofollow" />
+    {% endif %}
 
     <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
   </head>

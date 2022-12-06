@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "section.html" %}
 
 {% block content %}
   <ul>
@@ -27,7 +27,5 @@
     {% endfor %}
   </ul>
 
-  {% if section.content %}
-    {{ section.content | safe }}
-  {% endif %}
+  {{ super() }}
 {% endblock content %}

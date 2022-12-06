@@ -2,6 +2,8 @@
 title = "Community call meeting minutes"
 +++
 
+Check the git history of this file for old minutes.
+
 ## Agenda and notes
 
 - Welcome
