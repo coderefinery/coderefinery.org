@@ -1,11 +1,11 @@
 +++
-date = 2022-10-31
+date = 2022-12-06
 +++
 
 # Upcoming workshops and events
 
 
-## Workshop dates for 2022
+## Workshop dates for 2023
 
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
