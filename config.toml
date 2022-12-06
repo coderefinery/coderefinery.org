@@ -45,7 +45,6 @@ navigation = [
       { name = "Other CodeRefinery lessons", target = "/lessons/from-coderefinery/" },
       { name = "Other recommended lessons", target = "/lessons/other/" },
       { name = "Reusing", target = "/lessons/reusing/" },
-      #{ name = "Contributing", target = "/lessons/contributing/" },
       ] },
   { name = "Workshops and events", items = [
       { name = "Upcoming", target = "/workshops/upcoming/" },
@@ -81,40 +80,5 @@ navigation = [
   { name = "News/blog", target = "/blog/" },
   { name = "GitLab repository", target = "/repository/" },
 ]
-
-#  { name = "Home", target = "/" },
-#  { name = "Get involved", items = [
-#*     { name = "Get involved", target = "/organization/get-involved/" },
-#*     { name = "How to help", target = "/organization/how-to-help/" },
-#      { name = "Partners", target = "/organization/partners/" },
-#*     { name = "Who we are", target = "/organization/who-we-are/" },
-#      { name = "Instructors and helpers", target = "/organization/contributors/" },
-#      { name = "Meetings", target = "/organization/meetings/" },
-#      { name = "Contact", target = "/organization/contact/" },
-#      ] },
-#  { name = "Calendars", target = "/calendars/" },
-#  { name = "About", items = [
-#      { name = "Project", target = "/about/project/" },
-#      { name = "Impact", target = "/about/impact/" },
-#      { name = "Statistics", target = "/about/statistics/" },
-#      { name = "Code of conduct", target = "/about/code-of-conduct/" },
-#      { name = "Articles and reports", target = "/about/reports/" },
-#      { name = "History", target = "/about/history/" },
-#      { name = "Logo and artwork", target = "https://github.com/coderefinery/coderefinery-artwork" },
-#      ] },
-#  { name = "Workshops/events", items = [
-#      { name = "Upcoming", target = "/workshops/upcoming/" },
-#      { name = "Past", target = "/workshops/past/" },
-#      { name = "Request a workshop", target = "/workshops/request/" },
-#      ] },
-#  { name = "Lessons", items = [
-#      { name = "Our lessons", target = "/lessons/" },
-#      { name = "Reusing", target = "/lessons/reusing/" },
-#*     { name = "Contributing", target = "/lessons/contributing/" },
-#      { name = "Other projects", target = "/lessons/other-projects/" },
-#      ] },
-#  { name = "Blog", target = "/blog/" },
-#  { name = "GitLab repository", target = "/repository/" },
-#]
 
 search_engine_exclude = true
