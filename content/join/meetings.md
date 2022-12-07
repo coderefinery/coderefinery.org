@@ -38,6 +38,7 @@ drop by if you would like to get involved but don't know where to start.
 
 ### Archive of past community calls
 
+- [Community call 2022-12-05 website reorganization and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/c523f95/content/organization/meeting-minutes.md)
 - [Community call 2022-11-07 discussing Twitter/Mastodon strategies](https://github.com/coderefinery/coderefinery.org/blob/fb9c2ae/content/organization/meeting-minutes.md)
 - [Community call 2022-10-03 with September workshop retrospective](https://github.com/coderefinery/coderefinery.org/blob/9c4ec1c/content/organization/meeting-minutes.md)
 - [Community call 2022-08-01 with focus on September workshop and kick-off planning](https://github.com/coderefinery/coderefinery.org/blob/0ae6031/content/organization/meeting-minutes.md)
