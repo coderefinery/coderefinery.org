@@ -2,46 +2,75 @@
 title = "Community call meeting minutes"
 +++
 
-Check the git history of this file for old minutes.
+Check the Git history of this file for old minutes.
 
 ## Agenda and notes
 
 - Welcome
-- Twitter strategy
-  - Currently CodeRefinery has 809 followers on Twitter
-  - The original plan for today's meeting was to discuss good/recommended practices for Twitter outreach and to create few educational one-liners "did you know this neat trick: ..." and to queue them so that we can post one each week
-  - However, Twitter has in the last days not been an optimal place but such one-liners will be useful anyway
-- Inspirations for Twitter/Mastodon outreach
-  - our goal: promote events from our network and engage users with good practices
-  - tread with motivations why and with funny memes generated a lot more engagement than a single tweet: "workshop next week"
-  - adding/finding gifs a bit less easy on mastodon
-  - tweets with pictures work better: more screenspace
-    - can twitter cards be used in mastodon? I suppose no so is there double work?
-  - when posting links, check the twitter card preview
-  - visibility on Twitter for academic questions decreased last week since the changes within the company
-  - we also need to interact with likes/retweet to engage others, not only tweet
-  - if we retweet, it makes it also more interesting to follow
-  - location card can be used to get easy sign up for newsletters
-  - pinned tweets are useful
-  - short quote/ personal comment and a link is better than just the link for engagement
-  - throw-back moment: repost something from the past
-  - follow-friday: each friday we recommend few handles to follow
-  - hashtags very important on mastodon
-  - quality/quantity: no need to filter ideas too much
-- Topics for daily/weekly tweets/toots:
-  - Reuse the TIL thread
-  - Terminal tricks
-  - Git tricks
-  - Philosophical thoughts/questions
-  - create Zulip topic under `#general` where we can post ideas and if they get enough "upvotes" and this becomes a queue for tweets and somebody/somegroup weekly posts one thing from that queue
-- Mastodon account created: <https://fosstodon.org/@coderefinery>
-  - any tools for multiple people to use mastodon account? ideally we would like to share access by granting accounts access.
-  - Mastodon has nice API, also all accounts have RSS feeds by construction so RSS-aware people can follow without even having an account
-  - do we want to automatically re-post/mirror?
-    - anybody has pointers on how to do that?
-    - can we have it in [twitter repo](https://github.com/coderefinery/coderefinery-twitter) as parallel?
-  -  <https://github.com/marketplace/actions/toot-together>
-      - we should use the same repo with 2 workflows
-- Reviving newsletter
-  - RB is (too slowly) working on this. Draft will be shared this week.
-- Next meeting topic
+
+- NeIC all-hands meeting
+  - preparing poster for poster session
+  - you can contribute here: https://hackmd.io/@coderefinery/poster-session
+    - add a note on how other NeIC staff can reuse and/or teach with us
+    - add SW's nice slide graphics 
+  - context: https://indico.neic.no/event/237/page/86-poster-session
+
+- A number of blog posts have been published
+  - https://coderefinery.org/blog/
+
+- CodeRefinery project is on Mastodon
+  - https://fosstodon.org/@coderefinery
+  - you can help posting/replying/maintaining/editing
+  - RD: unless more people want to do more with twitter, I'd say that we should make mastodon the primary.
+     - RB: from my perspective the work is not the tweeting but the shortening so shorter posts help 
+
+- Website reorganization
+  - https://github.com/coderefinery/coderefinery.org/pull/733
+  - this will be followed by issue triage
+  - motivations: make it more clear "how to join", "why to join" and what we provide, and where we want to go in the future. make relevant information easier to find
+  - DI: lessons - add information about licenses and reuse at https://coderefinery.org/lessons/
+  - DI et al: after the upcoming changes, let us share with our colleagues and collect feedback
+
+- What do we want to be in the future?
+  - Do we focus on the standard CR workshop?
+  - Do we focus on sharing the CR+other workshops?
+  - Should we advertise ourselves to the ENCC:s as a partner to make their teaching better?
+     - and advertize towards national infrastructure providers
+       - RD: if you ask me infra providers and similar are a good choice to target to: we know them well, they often need teaching.
+     - this is also very relevant in the context of future of SNIC
+     - visibility of contributing partners (e.g. PDC, KTH, Stockholm or UPPMAX, Uppsala University)
+       - RD: Yes, website parter page can be improved.  It can even say "after you attend our courses, this is how you get follow-up support": https://coderefinery.org/branch/new-2022/about/partners/
+  - What other options do exist?
+  - RB: more visibility, more credit, more collaboration, transition towards open source project - like community governance
+  - there will be meetings and events focusing on this good question. this is one of the main goals for 2023 to sharpen and communicate the answer to these questions
+
+- Python for Scientific Computing workshop held
+  - https://aaltoscicomp.github.io/python-for-scicomp/
+  - retrospective
+  - RD: help needed: video editing
+      - RB: instructions on how best to help are in chat? (I could watch some videos and create edit list files)
+      - Yes, in chat, under 'video processing'
+          - good. I will look ...
+
+- Workshops next year
+  - Workflows course early 2023: planning meeting Dec 9, 8:30-12 CET, 9:30-13 EET
+    - planning document for user stories and ideas: [planning doc](https://docs.google.com/document/d/1kBxcqfdCGuq6rzsuXdQDOnevjktLU9ua_6EMhtSQY04/edit#heading=h.27z16vsfzr11)
+      - https://hackmd.io/@coderefinery/workflows-course-planning
+      - RD: yes, there is this two - can you decide which should be primary?  I have no preference, google is good.
+  - March workshop: we need to now work on the registration and workshop page 
+     - for suggestions on how to simplify: look into the "lessons learned" blog post
+     - RB will make a first draft and share
+     - make it work with as few instructions as possible
+
+- Advent of Code
+  - A couple of people participate in https://adventofcode.com/
+  - You can join "Advent of Code" stream on https://coderefinery.zulipchat.com/ to get help or share solutions
+  - Spoilers are "collapsed" so you don't have to worry about seeing a spoiler accidentally 
+      - :question: How to do the collapsed thing in Zulip?
+        - like a code block (three backquotes) with highlight language of `spoiler`
+        - also you can try "view source" for a post that you have already seen
+
+- `if time:` Anonymisation vs. pseudonymisation (MJ)
+  - Difference: pseudonymisation is reversible
+  - Ways to ensure data is properly anonymised
+  - This will be followed up on chat
