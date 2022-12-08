@@ -3,7 +3,8 @@ title = "For organizations"
 description = "Join CodeRefinery as a partner"
 +++
 
-CodeRefinery is a collaboration between different organizations, and
+CodeRefinery is a collaboration between different organizations (most
+are universities or research computing infrastructure providers), and
 you can join!
 
 
@@ -15,23 +16,34 @@ more systematically and take part in decision-making about what
 workshops we offer and when.
 
 
+## Do your own teaching better
+
+Do you need to teach and reach a broader audience?  Do you put on your
+own workshops?  Join CodeRefinery, learn our teaching strategies, and
+let's do better together.  Plenty of technical staff (who aren't
+primarily teachers) need to teach as part of their jobs, and this is
+the kind of community that CodeRefinery provides.
+
+
 ## Provide your workshops to the CodeRefinery community
 
 You might offer some of your own workshops to be livestreamed to a
 wide audience, and we will help you to develop the workshop and do the
 streaming - including finding many expert co-instructors to help with
-the writing and teaching.  This collaboration is quite education and
-is a great way to network and share knowledge.
+the writing and teaching.  This exchange of teaching also leads to
+lots of other technical skill exchange, which is excellent for your
+staff skills as well.
 
 
-## Do your own teaching better
+## Relation to The Carpentries
 
-Do you need to teach and reach a broader audience?  Do you put on your
-own workshops?  Join CodeRefinery, learn our teaching strategies, and
-let's do better together.  In particular, plenty of technical and
-infrastructure staff need to teach as a side-product of their jobs.
-CodeRefinery provides exactly the community and resources to do this
-teaching better.
+[The Carpentries](https://carpentries.org) is another well-known
+organization that provides teaching.  Compared to them, we are more
+intermediate- and advanced-level, and focus on accommodating existing
+teaching needs, rather than putting a huge amount of effort into
+long procedures to making a few lessons perfect.  Lessons and
+workshops are primarily maintained and managed by the different
+partners, and we focus on teaching and pedagogy collaboration.
 
 
 ## Joining CodeRefinery as an organization
