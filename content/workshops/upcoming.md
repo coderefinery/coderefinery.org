@@ -15,7 +15,9 @@ is important for RSS feed. -->
 
 ## Past workshops and events
 
-On [this page](@/workshops/past.md) we list all our past workshops and events.
+- [Python for Scientific Computing, November 22-25,
+  2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/).
+- On [this page](@/workshops/past.md) we list all our past workshops and events.
 
 
 ## How to be informed about future events
@@ -37,9 +39,6 @@ request](https://github.com/coderefinery/coderefinery.org/edit/main/content/work
 to list your workshop/event here.
 
 </div>
-
-- [Python for Scientific Computing, November 22-25,
-  2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/)
 
 
 ## Privacy policy
