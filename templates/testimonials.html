@@ -1,0 +1,15 @@
+<h2>Feedback and testimonials</h2>
+
+<div uk-slideshow="autoplay: true; autoplay-interval: 5000; animation: fade; ratio: 16:2">
+  <ul class="uk-slideshow-items">
+    {% set data = load_data(path="content/feedback.toml") %}
+    {% for feedback in data.feedback %}
+      <h3>{{ feedback.text }}</h3>
+    {% endfor %}
+  </ul>
+</div>
+
+<p>
+  More feedback and testimonials
+  <a href="https://github.com/coderefinery/feedback" target="_blank">here</a>.
+</p>
