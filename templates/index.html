@@ -105,13 +105,7 @@
     </div>
   </div>
 
-  <h2>Latest news/blogs</h2>
-  <ul>
-    {% set blogs = get_section(path="blog/_index.md") %}
-    {% for post in blogs.pages %}
-      <li><a href="{{ post.permalink }}">{{ post.title }}</a> ({{ post.date }})</li>
-    {% endfor %}
-  </ul>
+  {% include "latest-blog-posts.html" %}
 
   {% include "social-media-news.html" %}
 {% endblock content %}

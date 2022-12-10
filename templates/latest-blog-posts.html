@@ -1,0 +1,13 @@
+<h2>Latest news/blogs</h2>
+<ul>
+  {% set blogs = get_section(path="blog/_index.md") %}
+  {% for post in blogs.pages %}
+    {% if loop.index < 6 %}
+      <li><a href="{{ post.permalink }}">{{ post.title }}</a> ({{ post.date }})</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+<p>
+  You can see a list of all blog posts
+  <a href="/blog/">here</a>.
+</p>
