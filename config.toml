@@ -74,7 +74,7 @@ navigation = [
       { name = "Contact", target = "/about/contact/" },
       ] },
   { name = "See also", items = [
-      { name = "TODO: Other lesson material", target = "/see-also/TODO/" },
+      { name = "Other lesson material", target = "/see-also/other-lessons/" },
       { name = "Other projects", target = "/see-also/other-projects/" },
       ] },
   { name = "News/blog", target = "/blog/" },
