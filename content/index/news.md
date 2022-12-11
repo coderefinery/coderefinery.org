@@ -1,0 +1,9 @@
++++
++++
+
+## News
+
+- Next workshop: CodeRefinery, March 21-23,28-30, 2023
+- [Full list of upcoming workshops](@/workshops/upcoming.md)
+- Watch the [recordings from the September 2022 CodeRefinery workshop](https://www.youtube.com/watch?v=GHlF1nGfz7g&list=PLpLblYHCzJACqaFsfQiCWp0Wqy6qG4iau) or check out the [lessons themselves](https://coderefinery.github.io/2022-09-20-workshop/schedule/)!
+- We got [funding until 2025](https://neic.no/news/2021/10/01/2021-open-call-results/)!

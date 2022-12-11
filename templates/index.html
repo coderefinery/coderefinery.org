@@ -3,25 +3,46 @@
 {% block content %}
   <div class="uk-child-width-expand@s" uk-grid>
     <div>
-      {% set coderefinery = resize_image(path="logo/coderefinery.png", width=300, op="fit_width") %}
+      {% set coderefinery = resize_image(path="logo/coderefinery.png", width=250, op="fit_width") %}
       <img src="{{ coderefinery.url }}"
            alt="CodeRefinery logo" class="pull-left mr-2"/>
 
-      {{ section.extra.news | markdown | safe }}
-
     </div>
-    <div class="uk-width-2-3@m">
-      {{ section.content | safe }}
+    <div class="uk-width-3-4@m">
+      {% set description = get_page(path="index/description.md") %}
+      {{ description.content | safe }}
     </div>
   </div>
 
-  {{ section.extra.upcoming | markdown | safe }}
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div>
+      {% set news = get_page(path="index/news.md") %}
+      {{ news.content | safe }}
 
-  {% include "testimonials.html" %}
+      {% include "index/newsletter.html" %}
+    </div>
 
-  {% include "cards.html" %}
+    <div>
+      {% include "index/latest-blog-posts.html" %}
+    </div>
+  </div>
 
-  {% include "latest-blog-posts.html" %}
+  <div class="uk-card uk-card-default uk-card-body">
+    {% include "index/testimonials.html" %}
+  </div>
 
-  {% include "social-media-news.html" %}
+  {% set provides = get_page(path="index/provides.md") %}
+  {{ provides.content | safe }}
+
+  {% include "index/cards.html" %}
+
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div>
+      {% include "index/mastodon.html" %}
+    </div>
+
+    <div>
+      {% include "index/twitter.html" %}
+    </div>
+  </div>
 {% endblock content %}
