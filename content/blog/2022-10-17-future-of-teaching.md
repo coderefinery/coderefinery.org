@@ -66,7 +66,7 @@ list will be updated and future blog posts will be linked below, this
 is the "start page" of the series):
 * [Random access chat ("HackMD") and interaction in large courses](@/blog/2022-10-24-parallel-chat.md)
 * [Co-teaching](@/blog/2022-10-31-co-teaching.md)
-* Teams
+* [Teams](@/blog/2022-11-28-teams.md
 * [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
 * Open source courses
 * Registration and learner management
