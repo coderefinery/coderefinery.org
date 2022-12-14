@@ -74,6 +74,7 @@ is the "start page" of the series):
 * Collaboration in organizing
 * [Publishing videos supports more learning styles](@/blog/2022-11-08-video-publishing.md)
 * Working together as a team
+* Modular and reusable courses
 * Comparison to MOOCs
 * Effort needed for organizing big courses
 * Measuring impact in livestream courses
