@@ -15,8 +15,8 @@ of them, but if you plan out a course well, it's manageable.
 
 In a small course, you register and people come, and everything else
 gets figured out from there.  When you have more than a hundred people
-coming, there are pre-made [teams](TODO:LINK), and you don't have "sit
-an empty table", registration can be much, much harder.  Luckily, if
+coming, perhaps with pre-made [teams](TODO:LINK),
+registration can be much, much harder.  Luckily, if
 you plan the course considering that registration will be a major
 task, it can work out OK.
 
@@ -38,12 +38,12 @@ courses, and it works well.
 ## Registration including teams
 
 If we want to provide [teams](TODO:LINK) as a service, things get more
-involved.  The man idea of registering including teams is that we want
-to make them pre-arranged and the same day-after-day.  We want to
-provide an exercise leader for each team (the same one each day).
-The in-person equivalent is "sit at a table with at group, that group
-is yoru team".  Our online version is much harder than this, since we
-pre-plan a lot more.  We *could* emulate this by randomly assigning
+involved.  The main idea of registering including teams is that we want
+to make them pre-arranged and the constant day-after-day.  We also want to
+provide an exercise leader for each team (again the same one each day).
+The in-person equivalent to that is "sit at a table with at group, that group
+is your team".  Our online version is much harder than this, since we
+need to pre-plan a lot more.  We *could* emulate this by randomly assigning
 Zoom breakout rooms on day 1, and then ask people to join the same one
 each day.  But, we think that part of the benefit is assigning similar
 teams (if you know someone, you are with them) and having it clear
