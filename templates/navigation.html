@@ -34,26 +34,26 @@
   <div class="uk-offcanvas-bar">
     <ul class="uk-nav">
       {% for item in config.extra.navigation %}
-        {% if item.target is defined %}
-          {% if item.target is starting_with("http") %}
-            <li><a href="{{ item.target }}" target="_blank">{{ item.name }}</a></li>
-          {% else %}
-            <li><a href="{{ get_url(path=item.target) }}">{{ item.name }}</a></li>
-          {% endif %}
+        <li>
+        {% if item.target is defined and item.target is starting_with("http") %}
+          <a href="{{ item.target }}" target="_blank">{{ item.name }}</a>
+        {% elif item.target is defined %}
+          <a href="{{ get_url(path=item.target) }}">{{ item.name }}</a>
         {% else %}
-          <li>
-            <a href="#">{{ item.name }}<span uk-navbar-parent-icon></span></a>
-            <ul class="uk-nav uk-navbar-dropdown-nav">
-              {% for subitem in item.items %}
-                {% if subitem.target is starting_with("http") %}
-                  <li><a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a></li>
-                {% else %}
-                  <li><a href="{{ get_url(path=subitem.target) }}">{{ subitem.name }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
+          <a href="#">{{ item.name }}<span uk-navbar-parent-icon></span></a>
         {% endif %}
+        {% if item.items is defined %}
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            {% for subitem in item.items %}
+              {% if subitem.target is starting_with("http") %}
+                <li><a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a></li>
+              {% else %}
+                <li><a href="{{ get_url(path=subitem.target) }}">{{ subitem.name }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+        </li>
       {% endfor %}
     </ul>
   </div>
