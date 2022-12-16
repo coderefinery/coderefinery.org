@@ -5,6 +5,9 @@ description = "A large collection of news articles, blog posts, and reports abou
 
 ## Articles and blog posts about CodeRefinery
 
+- [CodeRefinery
+  Continues](https://www.kth.se/polopoly_fs/1.1214879.1671148072!/Newsletter2022-2-final_lres_spreads.pdf),
+  article in PDC 2022.2 newsletter (KTH, Sweden)
 - [Training that connects people (2022 NeIC news article)](https://neic.no/news/2022/09/15/sixth-success-story/)
 - [CodeRefinery workshop: Nettkurs for utviklere av forskningsprogramvare](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-workshop.html)
 - [CodeRefinery: En samfunnsbasert plattform for samkjøring av kurs og opplæring relatert til utvikling av forskningsprogramvarer](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-samfunn.html)
