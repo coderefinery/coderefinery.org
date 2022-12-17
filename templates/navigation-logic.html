@@ -1,0 +1,43 @@
+{% for item in config.extra.navigation %}
+  <li>
+
+    {% set href = "#" %}
+    {% if item.target is defined %}
+      {% if item.target is starting_with("http") %}
+        {% set href = item.target %}
+      {% else %}
+        {% set href = get_url(path=item.target) %}
+      {% endif %}
+    {% endif %}
+
+    {% set contains_dropdown = item.items is defined %}
+
+    <a href="{{ href }}">
+      {{ item.name }}
+      {% if contains_dropdown %}
+        <span uk-navbar-parent-icon></span>
+      {% endif %}
+    </a>
+
+    {% if contains_dropdown %}
+      {% if not unroll %}
+      <div class="uk-navbar-dropdown">
+      {% endif %}
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          {% for subitem in item.items %}
+            <li>
+            {% if subitem.target is starting_with("http") %}
+              <a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a>
+            {% else %}
+              <a href="{{ get_url(path=subitem.target) }}">{{ subitem.name }}</a>
+            {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% if not unroll %}
+      </div>
+      {% endif %}
+    {% endif %}
+
+  </li>
+{% endfor %}
