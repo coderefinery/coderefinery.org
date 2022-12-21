@@ -20,11 +20,19 @@
       {{ news.content | safe }}
 
       {% include "index/latest-blog-posts.html" %}
-      {% include "index/newsletter.html" %}
     </div>
 
     <div>
       {% include "index/mastodon.html" %}
+    </div>
+  </div>
+
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div>
+      {% include "index/newsletter.html" %}
+    </div>
+
+    <div>
       {% include "index/twitter.html" %}
     </div>
   </div>
