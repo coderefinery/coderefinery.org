@@ -1,4 +1,4 @@
 +++
-title = "Workshops and events"
+title = "Why and how to join"
 template = "section.html"
 +++
