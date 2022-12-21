@@ -7,9 +7,9 @@
     {% set blogs = get_section(path="blog/_index.md") %}
     {% for post in blogs.pages %}
       <li><a class="post-title " href="{{ post.permalink }}">{{ post.title }}</a> <span class="post-date">({{ post.date }})</span>
-	{% if post.description %}<br>
-	<span class="post-description">{{post.description}}</span>
-	{% endif %}
+        {% if post.description %}<br>
+          <span class="post-description">{{post.description}}</span>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
