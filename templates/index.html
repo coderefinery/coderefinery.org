@@ -19,11 +19,13 @@
       {% set news = get_page(path="index/news.md") %}
       {{ news.content | safe }}
 
+      {% include "index/latest-blog-posts.html" %}
       {% include "index/newsletter.html" %}
     </div>
 
     <div>
-      {% include "index/latest-blog-posts.html" %}
+      {% include "index/mastodon.html" %}
+      {% include "index/twitter.html" %}
     </div>
   </div>
 
@@ -35,14 +37,4 @@
   {{ provides.content | safe }}
 
   {% include "index/cards.html" %}
-
-  <div class="uk-child-width-expand@s" uk-grid>
-    <div>
-      {% include "index/mastodon.html" %}
-    </div>
-
-    <div>
-      {% include "index/twitter.html" %}
-    </div>
-  </div>
 {% endblock content %}
