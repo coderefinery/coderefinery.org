@@ -10,7 +10,7 @@ can join to share the effort and bring better courses to your
 community.
 
 Our [standard workshop](@/lessons/core.md) is well known in Nordic
-academic circles and our [our engaging online teaching
+academic circles and our [engaging online teaching
 style](@/workshops/teaching-style.md) is considered best-in-class even
 compared to in-person teaching.  CodeRefinery aims to operate as a
 community project with support from academic organizations.
