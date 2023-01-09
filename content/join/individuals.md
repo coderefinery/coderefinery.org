@@ -6,8 +6,8 @@ aliases = ["lessons/contributing/", "organization/get-involved/", "organization/
 
 As individuals, there are plenty of ways to join CodeRefinery,
 regardless of what you do now.  Also see what [professional
-staff](@/join/staff.md) and [organizations](@/join/organizations.md)
-can do.
+staff](@/join/staff.md) supporting a local community and
+[organizations](@/join/organizations.md) can do.
 
 For any of these, you can get started by [joining a
 meeting](@/join/meetings.md) and say hi, especially the "community
@@ -15,14 +15,8 @@ calls" on the first of each month.  Or [join our
 chat](https://coderefinery.github.io/manuals/chat/) and introduce
 yourself in the "#new members" stream.  Or contact anyone you know for
 a recommendation on how to get involved - we aren't that formal yet.
-
-Our chat has all kinds of interesting facts and help, so hanging out
-there will probably teach you something anyway.
-
-Read more: [roles
-overview](https://coderefinery.github.io/manuals/roles-overview/) for
-all the varying responsibilities in a workshop (surely there is
-something for you there)
+If you've been sent this page as a "help out at this workshop", that
+will tell you who to contact.
 
 
 ## As a learner
@@ -35,18 +29,28 @@ give feedback during the workshop.
 ## As an exercise leader
 
 Even during your first workshop, you could register as an exercise
-leader and help others, as part of a
-[team](@/workshops/teaching-style.md#teams).  This is actually not
-that hard, you aren't expected to know anything, instead you are more
+leader and help a
+[team](@/workshops/teaching-style.md#teams) of others.  This is actually not
+that hard, you aren't expected to know everything, instead you are more
 focus on keeping a good flow and welcoming environment.  There are
 other expert helpers to help you.  If you are comfortable enough with
-the pre-requisites and aren't too scared by error messages, you can do
+the pre-requisites, aren't too scared by error messages, and are can
+call for help when you need it, then you can do
 it!  We have some [basic onboarding
 training](https://coderefinery.github.io/manuals/exercise-leaders/)
 for you!
 
 Maybe you want to bring all the rest of your research group as your
 team?
+
+To join:
+* To volunteer as a exercise leader for a team that we organize,
+  **register for the workshop normally and select "I'm interested in
+  being an exercise leader".**
+* To be an exercise leader in a team that you organize independently,
+  register normally (you + your team) and plan how you will
+  communicate with your team during the workshop (in-person room,
+  online meeting, etc).
 
 
 ## As a co-instructor or expert helper
@@ -58,6 +62,24 @@ of doing and learning the topics.
 
 If teaching isn't for you, there are plenty of staff helpers at every
 workshop.
+
+To join a workshop as a co-instructor:
+* Let the person who pointed you here know, and/or
+* Find the workshop coordination HackMD (this was probably sent you
+  along with the link to this page).  Find the schedule, and each
+  lesson should have at least two names after it (one coordinator, one
+  or more others).  Add your name here as needed.
+* Join CodeRefinery chat and introduce yourself.
+* You'll work with the other co-instructors to decide roles and
+  prepare the lesson.
+
+To join a workshop as an "expert helper":
+* Register for the workshop as normal, check the relevant "I'm
+  interested in being an expert helper" boxes.  You will be contacted
+  about our onboarding.
+* Join CodeRefinery chat and introduce yourself.
+* You'll be invited to our meetings and from there will learn how to
+  take part.
 
 
 ## Lesson contributions
@@ -97,5 +119,9 @@ activity/commitment, or ~1 year of activity in general.
 
 ## See also
 
-Also see what [professional staff](@/join/staff.md) and
-[organizations](@/join/organizations.md) can do.
+* Also see what [professional staff](@/join/staff.md) and
+  [organizations](@/join/organizations.md) can do.
+* If you like reading about how we work, see the [roles
+  overview](https://coderefinery.github.io/manuals/roles-overview/)
+  for all the varying responsibilities in a workshop (surely there is
+  something for you there)
