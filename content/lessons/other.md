@@ -1,5 +1,5 @@
 +++
-title = "Other lessons"
+title = "Other lessons by our partners and the CodeRefinery community"
 description = "Other lessons recommended by CodeRefinery"
 +++
 

@@ -1,6 +1,6 @@
 +++
 title = "Core CodeRefinery lessons"
-description = "The core lessons taught at the standard CodeRefinery workshop."
+description = "These are the ones we teach during our standard workshops and include good self-study possibilities. You probably want to start here."
 +++
 
 **Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**

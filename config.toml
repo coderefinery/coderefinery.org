@@ -39,20 +39,20 @@ twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org
 
 navigation = [
   { name = "Home", target = "/" },
-  { name = "Lessons", items = [
+  { name = "Lessons", target = "/lessons/", items = [
       { name = "Core CodeRefinery workshop", target = "/lessons/core/" },
       { name = "Self-study workshop", target = "/lessons/core/#self-study-workshop" },
       { name = "Other CodeRefinery lessons", target = "/lessons/from-coderefinery/" },
       { name = "Other recommended lessons", target = "/lessons/other/" },
       { name = "Reusing", target = "/lessons/reusing/" },
       ] },
-  { name = "Workshops and events", items = [
+  { name = "Workshops and events", target = "/workshops/", items = [
       { name = "Upcoming", target = "/workshops/upcoming/" },
       { name = "Past", target = "/workshops/past/" },
       { name = "The CodeRefinery teaching style", target = "/workshops/teaching-style/" },
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
-  { name = "Join", items = [
+  { name = "Join", target = "/join/", items = [
       { name = "For individuals", target = "/join/individuals/" },
       { name = "For staff", target = "/join/staff/" },
       { name = "For organizations", target = "/join/organizations/" },
@@ -62,7 +62,7 @@ navigation = [
       { name = "The CodeRefinery community", target = "/about/contributors/" },
       { name = "Code of conduct", target = "/about/code-of-conduct/" },
       ] },
-  { name = "About", items = [
+  { name = "About", target = "/about/", items = [
       { name = "Project", target = "/about/project/" },
       { name = "History", target = "/about/history/" },
       { name = "The CodeRefinery community", target = "/about/contributors/" },
@@ -73,7 +73,7 @@ navigation = [
       { name = "Operations manuals (external link)", target = "https://coderefinery.github.io/manuals/" },
       { name = "Contact", target = "/about/contact/" },
       ] },
-  { name = "See also", items = [
+  { name = "See also", target = "/see-also/", items = [
       { name = "Other lesson material", target = "/see-also/other-lessons/" },
       { name = "Other projects", target = "/see-also/other-projects/" },
       ] },

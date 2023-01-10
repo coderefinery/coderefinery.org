@@ -1,4 +1,4 @@
 +++
-title = "Workshops and events"
+title = "About the project"
 template = "section.html"
 +++
