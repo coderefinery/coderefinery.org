@@ -3,8 +3,6 @@ title = "Code of conduct"
 description = "The CodeRefinery code of conduct"
 +++
 
-# Code of conduct
-
 ## Introduction and source of inspiration
 
 In any events or community space organized by CodeRefinery, we are committed to
