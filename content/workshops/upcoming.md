@@ -1,7 +1,7 @@
 +++
 title = "Upcoming workshops and events"
 description = "Upcomng core CodeRefinery workshops and other related events."
-date = 2022-12-06
+date = 2023-01-16
 +++
 
 ## Core CodeRefinery Workshops
@@ -9,7 +9,7 @@ date = 2022-12-06
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- Spring 2023: Tue-Thu, March 21-23 and March 28-30 (6 half-day, online)
+- [Spring 2023: Tue-Thu, March 21-23 and March 28-30 (6 half-day, online)](https://coderefinery.github.io/2023-03-21-workshop/)
 - Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
 
 
