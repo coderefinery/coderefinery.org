@@ -35,7 +35,8 @@ skip_prefixes = [
 [extra]
 # Put all your custom variables here
 
-twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
+twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-minimal.png"
+twitter_image_alt = "CodeRefinery.  Teaching good-enough practices for comutational research.  Workshops as open as your science should be."
 
 navigation = [
   { name = "Home", target = "/" },
