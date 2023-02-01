@@ -80,7 +80,7 @@ support is provided.  We call this reverse hybrid.
 
 The best interaction is in small groups - this is the benefit of
 in-person, isn't it?  We support learners in forming these teams and
-training exercise leaders for them, in addition to providing expert
+training team leaders for them, in addition to providing expert
 helpers for additional support.  These teams could meet in-person (see
 "reverse hybrid" above), or online.
 

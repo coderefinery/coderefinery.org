@@ -26,7 +26,7 @@ started.  If you want to do more than just attend, join our chat and
 give feedback during the workshop.
 
 
-## As an exercise leader
+## As an team leader
 
 Even during your first workshop, you could register as an exercise
 leader and help a
@@ -37,17 +37,17 @@ other expert helpers to help you.  If you are comfortable enough with
 the pre-requisites, aren't too scared by error messages, and are can
 call for help when you need it, then you can do
 it!  We have some [basic onboarding
-training](https://coderefinery.github.io/manuals/exercise-leaders/)
+training](https://coderefinery.github.io/manuals/team-leaders/)
 for you!
 
 Maybe you want to bring all the rest of your research group as your
 team?
 
 To join:
-* To volunteer as a exercise leader for a team that we organize,
+* To volunteer as a team leader for a team that we organize,
   **register for the workshop normally and select "I'm interested in
-  being an exercise leader".**
-* To be an exercise leader in a team that you organize independently,
+  being an team leader".**
+* To be an team leader in a team that you organize independently,
   register normally (you + your team) and plan how you will
   communicate with your team during the workshop (in-person room,
   online meeting, etc).

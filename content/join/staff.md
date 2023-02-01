@@ -22,7 +22,7 @@ We call this "distributed registration" and basically means that you
 collect your own registration, organize people into teams (if
 desired), set up in-person on online spaces to watch the course and do
 the exercises.  We can support you however possible, for example more
-chat support, training exercise leaders, and you can join our planning
+chat support, training team leaders, and you can join our planning
 meetings.
 
 * Read more: [Local advertisement and breakout

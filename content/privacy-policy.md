@@ -27,7 +27,7 @@ to keep participation data from 2020 and 2021 workshops at least until the end
 of 2022 since we often get asked for participation certificates long after the
 workshop is concluded.  Therefore, we will keep information of the
 participants who are qualified to certificates (either as learner, helper,
-expert helper, or exercise lead) in the currently used platform, Indico,
+expert helper, or team lead) in the currently used platform, Indico,
 managed by NeIC. The currently participating staff who is also committed to be
 a part of the CodeRefinery SP have access to the information.
 
