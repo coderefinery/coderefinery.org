@@ -122,7 +122,7 @@ Each new discussion item gets a number. It is OK that the same item may be discu
 - [x] 2021-21: Indico data
   - What should we do with Indico data?
       - [Privacy policy](https://coderefinery.org/privacy-policy/) is updated with saying:
-       >we need to prolong this date by the further 3 years to keep it possible to issue certificates of participation in recent enough workshops (2020 and 2021) to be fair. Therefore, we will keep information of the participants who are qualified to certificates (either as learner, helper, expert helper, or exercise lead) in the currently used platform, Indico, managed by NeIC. The currently participating staff who is also committed to be a part of the CodeRefinery SP have access to the information.
+       >we need to prolong this date by the further 3 years to keep it possible to issue certificates of participation in recent enough workshops (2020 and 2021) to be fair. Therefore, we will keep information of the participants who are qualified to certificates (either as learner, helper, expert helper, or team lead) in the currently used platform, Indico, managed by NeIC. The currently participating staff who is also committed to be a part of the CodeRefinery SP have access to the information.
   - Can we delete all events prior to 2020?
     - No objection to do so. RB will delete these events.
 
@@ -269,7 +269,7 @@ RB watching support line until we organise next event.
     - By the 31st Oct, all the sign-up info for workshops stored in Indico and email inquiries in Freshdesk are deleted.
     - We will consolidate communication towards Zulip since it makes it easy to unwatch and also unregister
     - We send an email to all notify-me registrants to inform them that we will discontinue the indico survey solution but encourage to follow updates on Zulip
-- 2021-08-30: All exercise leads get a small gift and we invite expert helpers and volunteers and staff to a common lunch over video where we share a slideshow or videos which people can submit. (2021-08)
+- 2021-08-30: All team leads get a small gift and we invite expert helpers and volunteers and staff to a common lunch over video where we share a slideshow or videos which people can submit. (2021-08)
 - 2021-08-16: We go for online celebration event (both for safety reasons and for better inclusivity), making a doodle for a date and options on what to do but most probably it will be dinner voucher and optional game or something. (2021-08) 
 - 2021-08-16: We will keep the decisions in this file and not delete with expectation that people will dig into commit history. There are different stakeholders who want to read decisions, not only CR staff. (2021-09) 
 - 2021-08-16: Regarding 2021-10, NT and AF will take initial drafting for the 2 points (status, and how to become a client or sponsor) (2021-10)

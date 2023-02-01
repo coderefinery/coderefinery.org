@@ -5,7 +5,7 @@ aliases = ["/organization/contributors"]
 +++
 
 Below we list (hopefully) all speakers, instructors, hosts, helpers, and
-exercise leaders of past CodeRefinery workshops, as well as CodeRefinery events
+team leaders of past CodeRefinery workshops, as well as CodeRefinery events
 and shared events. Without these contributions, these events would not have been possible.
 **Thank you so much for your contributions!**
 
@@ -43,4 +43,4 @@ On [this page](https://coderefinery.github.io/instructor-training/02-teaching-ph
 our instructors share their teaching philosophies in short recorded videos.
 
 
-## Instructors, helpers, and exercise leads
+## Instructors, helpers, and team leads
