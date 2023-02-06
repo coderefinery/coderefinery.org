@@ -34,7 +34,7 @@ leader and help a
 that hard, you aren't expected to know everything, instead you are more
 focus on keeping a good flow and welcoming environment.  There are
 other expert helpers to help you.  If you are comfortable enough with
-the pre-requisites, aren't too scared by error messages, and are can
+the pre-requisites, aren't too scared by error messages, and can
 call for help when you need it, then you can do
 it!  We have some [basic onboarding
 training](https://coderefinery.github.io/manuals/team-leaders/)
