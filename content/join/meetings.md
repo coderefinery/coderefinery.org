@@ -30,6 +30,7 @@ involved but don't know where to start.
 
 ### Archive of past community calls
 
+- [Community call 2023-01-09 planning March workshop and NeIC all-hands](https://github.com/coderefinery/coderefinery.org/blob/09f940a/content/organization/meeting-minutes.md)
 - [Community call 2022-12-05 website reorganization and workshop planning](https://github.com/coderefinery/coderefinery.org/blob/c523f95/content/organization/meeting-minutes.md)
 - [Community call 2022-11-07 discussing Twitter/Mastodon strategies](https://github.com/coderefinery/coderefinery.org/blob/fb9c2ae/content/organization/meeting-minutes.md)
 - [Community call 2022-10-03 with September workshop retrospective](https://github.com/coderefinery/coderefinery.org/blob/9c4ec1c/content/organization/meeting-minutes.md)
