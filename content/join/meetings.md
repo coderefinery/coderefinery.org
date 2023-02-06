@@ -56,4 +56,4 @@ and deliverables, involving paid staff.  In Autumn 2021, with the end of phase
 and dropped the separation between staff meetings and community calls and
 started to focus on community calls.
 
-- [Archive of past meetings](https://github.com/coderefinery/coderefinery.org/commits/main/content/about/staff-meetings.md)
+- [Archive of past meetings](https://github.com/coderefinery/coderefinery.org/blob/eeaee17e5e0a80a3ea1c0beaa9eeab511d155847/content/about/staff-meetings.md)
