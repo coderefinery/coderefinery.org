@@ -9,22 +9,23 @@ aliases = ["/organization/meetings"]
 
 Every Monday at 14 CET/CEST.
 
-We welcome anyone interested in CodeRefinery to join our weekly team meetings.  
-This is the place to drop by if you would like to get involved but don't know where to start.
+We welcome everyone interested in CodeRefinery to join our weekly meetings.
+This is the place to drop by if you have questions or would like to get
+involved but don't know where to start.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
-- Calendar invites: [Subscribe to "team events" calendar here](https://coderefinery.github.io/calendar/), which includes these meetings.
+- Calendar invites: [Subscribe to "team events" calendar here](/calendars/), which includes these meetings.
 
-#### Scope: 
+
+### Scope
+
+- Information exchange
 - Making sure everything fits together
 - Workshop scheduling, governance, and roadmap
-- Improving the processes, website and documentation
-- Information exchange
+- Improving the processes, website, and documentation
 - Bouncing ideas off others
 - Making day-to-day decisions
-  - Any major decisions are also discussed in [Zulipchat](https://coderefinery.zulipchat.com) or with the the steering group. 
-
-
+- Major decisions are also discussed in the [Zulipchat](https://coderefinery.zulipchat.com) or with the steering group
 
 
 ### Archive of past community calls
