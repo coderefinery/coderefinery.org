@@ -7,70 +7,58 @@ Check the Git history of this file for old minutes.
 ## Agenda and notes
 
 - Welcome
+- Workflows course: https://coderefinery.github.io/cluster-workflows/
+  - how to contribute
+  - scheduling: see chat
+  - thinking about balance between: type-along, exercises, demo
+  - name could be misleading. suggestions for better names at GH repo issue of the above repo
+- March workshop:
+  - goal is to open registration end of this week
+  - we are about to distribute lessons to instructors, please see chat
+  - co-instructors welcome!
+      - RD can co-teach anything
+  - We will send a general instructor recruitment message as part of the CR email list
+- Poster for NeIC all-hands meeting: https://github.com/coderefinery/posters/blob/main/2023-neic-ahm/ahm-2023-poster.svg
+  - we need to send a newsletter and we need to draft it
+  - it would be good to have a single landing page for instructors 
+  - suggestions and edits welcome
+    - Where's the like button? :+1: 
+  - Poster should say "subscribe to newsletter"
+  - QR code to hackmd – if we want to hear what people think
+    - Or to Zulip – if we/they want to continue discussion somewhere
+  - QR code to get analytics to see who visits website from poster
+- Workshop about research software engineering at NeIC all-hands-meeting
+  - https://hackmd.io/@coderefinery/neic-ahm-2023
+  - Should we offer "if anyone wants to talk one-on-one about your project for a consultation, we can do that"?
+- Sharing CodeRefinery "best practices" at conferences
+    - RB will give a talk at https://www.siam.org/conferences/cm/conference/cse23 end of Feb
+    - +1
+    - What are the common things (already prepared) that we can re-give easily?
+        - instructor training/community teaching basics, ~1 hour, based on subset of https://coderefinery.github.io/community-teaching/
+        - "Future of Teaching" (too much like above?) that RD has given: https://hackmd.io/KRqQirJ_Rn2SHcE-t1iAUg?view
+        - ???
+- Draft governance charter
+  - we need to revive it 
+  - Where are the previous charter ideas?
+    - https://hackmd.io/uFIZF6x1TROxWwPCqGecsg
+- Onboarding for new colleagues
+    - Some new staff joining UiO and what is least scary way for them to get onboard 
+      - Introduce issues in GitHub as some easy tasks and that nothing is obligatory
+    - The chat is too much as the first step 
+      - Yes Zulip needs an own "onboarding" like what to follow and how the threads/streams/topics work
+    - RD: my feeling is that co-working is needed (one-on-one or small groups): can we find projects big enough for two people but not too big to do with them?
+    - ASC garage: 1 h on Zoom every day where users can come and ask questions. This turned out to be very effective way to onboard new staff, even when not in-person, since you see other people getting helped and next time you might help them.  Post-help, we discuss more background.
+    - "buddy system": new staff is assigned one person/mentor/buddy who can help navigating things and answer questions
+    - invite new staff and those interested to join as exercise lead in the March workshop since it's a relatively low-commitment and low-preparation way to see the content and form in practice
+    - Specific tasks which someone can do for next workshop:
+       - Registration coordinator
+       - co-instructor
+- Next meeting
+  - Feb 6
+  - any special topic to announce? 
 
-- NeIC all-hands meeting
-  - preparing poster for poster session
-  - you can contribute here: https://hackmd.io/@coderefinery/poster-session
-    - add a note on how other NeIC staff can reuse and/or teach with us
-    - add SW's nice slide graphics 
-  - context: https://indico.neic.no/event/237/page/86-poster-session
-
-- A number of blog posts have been published
-  - https://coderefinery.org/blog/
-
-- CodeRefinery project is on Mastodon
-  - https://fosstodon.org/@coderefinery
-  - you can help posting/replying/maintaining/editing
-  - RD: unless more people want to do more with twitter, I'd say that we should make mastodon the primary.
-     - RB: from my perspective the work is not the tweeting but the shortening so shorter posts help 
-
-- Website reorganization
-  - https://github.com/coderefinery/coderefinery.org/pull/733
-  - this will be followed by issue triage
-  - motivations: make it more clear "how to join", "why to join" and what we provide, and where we want to go in the future. make relevant information easier to find
-  - DI: lessons - add information about licenses and reuse at https://coderefinery.org/lessons/
-  - DI et al: after the upcoming changes, let us share with our colleagues and collect feedback
-
-- What do we want to be in the future?
-  - Do we focus on the standard CR workshop?
-  - Do we focus on sharing the CR+other workshops?
-  - Should we advertise ourselves to the ENCC:s as a partner to make their teaching better?
-     - and advertize towards national infrastructure providers
-       - RD: if you ask me infra providers and similar are a good choice to target to: we know them well, they often need teaching.
-     - this is also very relevant in the context of future of SNIC
-     - visibility of contributing partners (e.g. PDC, KTH, Stockholm or UPPMAX, Uppsala University)
-       - RD: Yes, website parter page can be improved.  It can even say "after you attend our courses, this is how you get follow-up support": https://coderefinery.org/branch/new-2022/about/partners/
-  - What other options do exist?
-  - RB: more visibility, more credit, more collaboration, transition towards open source project - like community governance
-  - there will be meetings and events focusing on this good question. this is one of the main goals for 2023 to sharpen and communicate the answer to these questions
-
-- Python for Scientific Computing workshop held
-  - https://aaltoscicomp.github.io/python-for-scicomp/
-  - retrospective
-  - RD: help needed: video editing
-      - RB: instructions on how best to help are in chat? (I could watch some videos and create edit list files)
-      - Yes, in chat, under 'video processing'
-          - good. I will look ...
-
-- Workshops next year
-  - Workflows course early 2023: planning meeting Dec 9, 8:30-12 CET, 9:30-13 EET
-    - planning document for user stories and ideas: [planning doc](https://docs.google.com/document/d/1kBxcqfdCGuq6rzsuXdQDOnevjktLU9ua_6EMhtSQY04/edit#heading=h.27z16vsfzr11)
-      - https://hackmd.io/@coderefinery/workflows-course-planning
-      - RD: yes, there is this two - can you decide which should be primary?  I have no preference, google is good.
-  - March workshop: we need to now work on the registration and workshop page 
-     - for suggestions on how to simplify: look into the "lessons learned" blog post
-     - RB will make a first draft and share
-     - make it work with as few instructions as possible
-
-- Advent of Code
-  - A couple of people participate in https://adventofcode.com/
-  - You can join "Advent of Code" stream on https://coderefinery.zulipchat.com/ to get help or share solutions
-  - Spoilers are "collapsed" so you don't have to worry about seeing a spoiler accidentally 
-      - :question: How to do the collapsed thing in Zulip?
-        - like a code block (three backquotes) with highlight language of `spoiler`
-        - also you can try "view source" for a post that you have already seen
-
-- `if time:` Anonymisation vs. pseudonymisation (MJ)
-  - Difference: pseudonymisation is reversible
-  - Ways to ensure data is properly anonymised
-  - This will be followed up on chat
+Follow up todo items that bubbled up:
+- newsletter to recruit: RB
+    - RD can help
+- landing page for those interested in co-preparing and co-teaching: RD
+- poster changes (see above)
