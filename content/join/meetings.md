@@ -5,35 +5,27 @@ aliases = ["/organization/meetings"]
 +++
 
 
-## Team meetings
+## Team & Community meetings
 
-Every Monday at 14 CET/CEST. Except the first Monday of the month where we have a
-call with more community focus (see below).
+Every Monday at 14 CET/CEST.
 
-Scope: Making sure everything fits together; improving the processes, website
-and documentation; information exchange; bouncing ideas off others. This is
-the place where day-to-day decisions are made, but any major decisions will
-also be discussed in chat, over several weeks, or in other meetings
-such as the community call or with the steering group. Despite the
-name, everyone is welcome to this event too.
+We welcome everyone interested in CodeRefinery to join our weekly meetings.
+This is the place to drop by if you have questions or would like to get
+involved but don't know where to start.
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
-- Calendar invites: [Subscribe to "team events" calendar here](https://coderefinery.github.io/calendar/), which includes community calls below.
+- Calendar invites: [Subscribe to "team events" calendar here](/calendars/), which includes these meetings.
 
 
-## Community calls
+### Scope
 
-Held on a monthly interval on Mondays at 14 CET/CEST,
-the **first Monday of a month**.
-
-Scope: All topics involving community onboarding, "what can I do?",
-workshop scheduling, governance, and roadmap.  This is the place to
-drop by if you would like to get involved but don't know where to start.
-
-- [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/community-call)
-- Calendar invites: [Subscribe to "CodeRefinery community calls"
-  calendar here](https://coderefinery.github.io/calendar/), or the
-  "team events" as in the link above.
+- Information exchange
+- Making sure everything fits together
+- Workshop scheduling, governance, and roadmap
+- Improving the processes, website, and documentation
+- Bouncing ideas off others
+- Making day-to-day decisions
+- Major decisions are also discussed in the [Zulipchat](https://coderefinery.zulipchat.com) or with the steering group
 
 
 ### Archive of past community calls
