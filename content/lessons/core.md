@@ -10,8 +10,8 @@ CodeRefinery workshop, and what we believe that every computational
 scientist (even those with very small amounts of computation) should
 know.
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1)
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 2-3)
+- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2)
+- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3)
 - [Documentation](https://coderefinery.github.io/documentation/) (day 5)
 - [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5)
 - [Automated testing](https://coderefinery.github.io/testing/) (day 6)
