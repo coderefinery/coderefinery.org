@@ -2,6 +2,17 @@
 title = "CodeRefinery privacy policy"
 +++
 
+**Update, 13th March 2023**
+
+We may use anonymous web analytics on our webpages and lessons.  This
+is not identifiable, does not have client-side identifiers, and can't
+re-identify people between visits (or even for single visits) any more
+than normal web browsing can.  Because this is (by design) not
+identifiable, this should not need to be mentioned here, but we are
+for completeness.  (The technical implementation is
+[plausible.io](https://plausible.io), self-hosted by a CodeRefinery
+partner).
+
 **Update, 12th October 2021**
 
 In short:
@@ -104,6 +115,10 @@ We obtain the following data anonymously and voluntarily from users.
 - Poll answers in Online video conference systems during a workshop
   - For sharing overview of workshop cohort's idea or opinions
 
+We use anonymous web analytics on some of our websites and lesson
+pages.  These are done without client-side IDs or storing identifiable
+information on either the client or server side.
+
 
 ## Who has access to the personally identifiable information?
 
@@ -139,6 +154,8 @@ We obtain the following data anonymously and voluntarily from users.
   processing non-sensitive person-identifiable information during
   anonymization process or obtaining information necessary for issuing a
   certificate.
+- Anonymous statistics may be stored on partners local facilities and
+  shared publicly if sufficiently aggregated.
 - Our GitLab service stores your account information which you have entered
   when signing up. This contact information is accessible to the system
   administrator operating the service and the CodeRefinery project management.
@@ -147,7 +164,7 @@ We obtain the following data anonymously and voluntarily from users.
 
 ## How long we store the data
 
-- Anonymized survey results are meant to be kept without a time limit.
+- Anonymized survey results and statistics are meant to be kept without a time limit.
 - We always keep affiliations and academic position long term for reporting
   but they are disconnected from names and email addresses (which we both do
   not store long term).
