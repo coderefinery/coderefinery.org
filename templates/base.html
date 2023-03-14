@@ -24,6 +24,9 @@
     <!-- to include the calendar -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/plausible.js"></script>
+
     {% block rss %}
       <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" />
     {% endblock %}
