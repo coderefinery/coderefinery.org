@@ -24,8 +24,10 @@
     <!-- to include the calendar -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+    {% if get_env(name="GITHUB_REF", default="") == config.extra.plausible['github_ref'] %}
     <!-- self-hosted plausible.io analytics -->
-    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/plausible.js"></script>
+    <script defer data-domain="{{ config.extra.plausible['domain'] }}" src="{{ config.extra.plausible['src'] | safe }}"></script>
+    {% endif %}
 
     {% block rss %}
       <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" />
