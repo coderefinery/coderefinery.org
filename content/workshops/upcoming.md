@@ -9,12 +9,12 @@ date = 2023-01-16
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [Spring 2023: Tue-Thu, March 21-23 and March 28-30 (6 half-day, online)](https://coderefinery.github.io/2023-03-21-workshop/)
 - Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
 
 
 ## Past workshops and events
 
+- [Spring 2023: Tue-Thu, March 21-23 and March 28-30 (6 half-day, online)](https://coderefinery.github.io/2023-03-21-workshop/)
 - [Python for Scientific Computing, November 22-25,
   2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/).
 - On [this page](@/workshops/past.md) we list all our past workshops and events.
