@@ -4,7 +4,7 @@
 ## News
 
 - Ongoing workshop: [CodeRefinery, March 21-23 and 28-30, 2023](https://coderefinery.github.io/2023-03-21-workshop/)
-- On-site CodeRefinery workshop in Uppsala, Sweden, May 9-11.
+- On-site [CodeRefinery workshop in Uppsala](https://coderefinery.github.io/2023-05-09-uppsala/), Sweden, May 9-11.
 - Following livestream workshop: CodeRefinery, Sept 19-21 & 26-28,
   subscribe to newsletter for updates (see below).
 - [Full list of upcoming workshops](@/workshops/upcoming.md)
