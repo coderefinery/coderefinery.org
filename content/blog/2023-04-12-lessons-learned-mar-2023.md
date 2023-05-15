@@ -99,6 +99,7 @@ workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/) an
 ### Workshop format
 
 - We changed the format slightly this time around in that we removed the group Zoom rooms.
+  - It was easier to organise.
 
 ### Coordination
 
