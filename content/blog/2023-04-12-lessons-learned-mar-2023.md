@@ -122,6 +122,8 @@ workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/) an
 
 ### Lesson content
 
+We could shorten the lecture-part by moving exercises to the end. 
+Longer exercises would benefit in onsite rooms.
 - We are constantly looking at improving the quality of the lessons we provide, so this is an ongoing process.
   - We take into consideration all the feedback that is given through the collaborative document to inform our decisions on where we should focus for lesson improvement.
 
