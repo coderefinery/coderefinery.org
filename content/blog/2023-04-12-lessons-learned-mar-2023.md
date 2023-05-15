@@ -8,7 +8,7 @@ authors = "Stephan Smuts"
 
 March 21-23 and 28-30, 2023, we held again our [CodeRefinery online
 workshop](https://coderefinery.github.io/2023-03-21-workshop/) (6 x 3.5 hours)
-with ... individual registrants plus ... teams with a total of ... participants.
+with 493 individual registrants and 100-200 views on average in Twitch.
 Here we wish to share with the community and our future selves our lessons
 learned: What worked well and what we need and plan to improve. We use bullet
 point format for brevity. If you think you might have solutions for us or want
