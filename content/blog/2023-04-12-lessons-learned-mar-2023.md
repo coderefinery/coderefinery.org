@@ -114,6 +114,7 @@ workshop](https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/) an
 - As was mentioned above, we had more hands on the collaborative document since we did away with the Zoom rooms. This proved to work well because we had a lot more people answering questions, so the document was kept updated and archived for maximum performance and accuracy.
 
 ### Installation and tools
+
 - We could have a demo exercise (or some) that people can test before the workshop
   - “If you feel comfortable with this you’re gonna be fine during the workshop”
 -
