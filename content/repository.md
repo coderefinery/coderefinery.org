@@ -29,7 +29,7 @@
 </div>
 
 
-### Why use this service, rather than a service like GitHub or BitBucket?
+## Why use this service, rather than a service like GitHub or BitBucket?
 
 The service we provide is a GitLab instance which targets persons and groups who:
 
@@ -49,7 +49,7 @@ so! They allow hosting public repositories and to some extent also private
 repositories.  They may offer higher visibility and discoverability than the
 instance offered by our project.
 
-### Who can use this service?
+## Who can use this service?
 
 Students, researchers, and staff affiliated with a Nordic academic institution.
 If you are not sure whether you can use the system, please contact
@@ -59,7 +59,7 @@ If you are not sure whether you can use the system, please contact
 Ask them to register and then you can add them to your projects or groups as collaborators.
 No need to ask us or inform us in order to add external collaborators.
 
-### You need to be first enabled before you can create projects and groups
+## You need to be first enabled before you can create projects and groups
 
 Newly signed-in users need to first be enabled before they can create projects and groups.
 This is to prevent abuse.
@@ -78,14 +78,14 @@ Please follow these steps:
   to be enabled. This is to avoid getting the same request 20-30 times within a day or two.
 - We will then promptly enable your account.
 
-### How about federated access such as Feide or HAKA or eduGAIN or Kalmar2?
+## How about federated access such as Feide or HAKA or eduGAIN or Kalmar2?
 
 We support sign in with eduGAIN.  Otherwise you need a specific user account
 for this instance. We recommend creating an account with the email address your
 identity federation gives you, as this will make it easier to enable other
 federated access providers seamlessly.
  
-### Is there a data limit per project?
+## Is there a data limit per project?
 
 Currently no limit is enforced but we recommend less than 100 MB per project.
 This should really be for code and not for persistent storage of data. If you
@@ -93,17 +93,17 @@ use more, we may contact you. If you need more, please contact us and motivate
 why you need more and we will see what we can do about it. If you have a good
 motivation, you will probably get a larger soft limit.
 
-### Can I serve GitLab pages?
+## Can I serve GitLab pages?
 
 Yes! GitLab pages now serve via `*.pages.coderefinery.org`.
 Currently only HTTP. TLS is in the works.
 
-### Does the service include shared continuous integration runners?
+## Does the service include shared continuous integration runners?
 
 No, shared runners are not part of the offering but you can connect
 your own CI runners to your projects for automated tests and builds.
 
-### SSH key fingerprints
+## SSH key fingerprints
 
 Public key fingerprints can be used to validate a connection to a remote server.
 
