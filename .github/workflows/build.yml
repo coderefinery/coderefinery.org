@@ -14,7 +14,7 @@
 name: Build/deploy website
 
 env:
-  ZOLA_VERSION: "0.16.0"
+  ZOLA_VERSION: "0.16.1"
   MAIN_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
   CNAME: "coderefinery.org"
