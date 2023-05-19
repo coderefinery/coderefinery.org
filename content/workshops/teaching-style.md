@@ -19,7 +19,7 @@ first, we taught the same way as everyone else did, we were bold
 enough to go farther and eventually found something special.
 
 
-### Co-teaching
+## Co-teaching
 
 Listening to one person is usually monotonous, even if they are an
 above-average speaker.  Speakers usually try to create engagement by
@@ -34,7 +34,7 @@ this greatly reduces the preparation effort, since the team can fill
 in any gaps together.
 
 
-### Parallel chat
+## Parallel chat
 
 Asking for questions by voice rarely gets many.  Even when it does, a
 few people often dominate.  Using a standard chat in an online course
@@ -48,7 +48,7 @@ information overload.  Many others have tried to do something similar,
 but our implementation seems to be the best.
 
 
-### Livestreaming
+## Livestreaming
 
 With the above developments, we don't actually need all the learners
 in one "meeting".  Instead, we can **run the course as a livestream**, and
@@ -57,7 +57,7 @@ Personal data for registering isn't even needed (but we do take
 registrations for access to the parallel chat and other support).
 
 
-### Videos
+## Videos
 
 Once the course is a livestream, it is trivial to **release videos of
 the course** - there is no privacy risk, since there are no audience in
@@ -67,7 +67,7 @@ learners can immediately review or catch up with things they missed.
 This extra flexibility helps many more people make the most of the course.
 
 
-### Reverse hybrid
+## Reverse hybrid
 
 Just because a course is online doesn't mean that people can't
 interact in-person: many do, by **watching the course together in
@@ -76,7 +76,7 @@ partner organizations run in-person breakout rooms where professional
 support is provided.  We call this reverse hybrid.
 
 
-### Teams
+## Teams
 
 The best interaction is in small groups - this is the benefit of
 in-person, isn't it?  We support learners in forming these teams and
@@ -85,7 +85,7 @@ helpers for additional support.  These teams could meet in-person (see
 "reverse hybrid" above), or online.
 
 
-### Open collaboration
+## Open collaboration
 
 At the scale we can reach above, we have a new level of openness.  Not
 only are the lesson materials open, but our very partnership in
@@ -98,7 +98,7 @@ education experience for the staff putting on the events.**
 Open collaboration allows us the resources to do all the things above.
 
 
-### Accessibility to more learning styles
+## Accessibility to more learning styles
 
 Put together, we don't just reach more people, but we actually are
 able to teach to many more learning styles.  Whether you are a quiet
@@ -108,7 +108,7 @@ time to review after the teaching period, or more, we can do better
 than most.
 
 
-### Read more
+## Read more
 
 Our techniques and tools are as open as our teaching.  Read more in
 the [community teaching
