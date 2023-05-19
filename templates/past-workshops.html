@@ -35,11 +35,11 @@
 
   <div class="uk-child-width-expand@s" uk-grid>
     <div>
-      <h3>Standard CodeRefinery workshops</h3>
+      <h2>Standard CodeRefinery workshops</h2>
       {% set data = load_data(path="content/workshops/full-workshops.json") %}
       {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
-      <h3>Open house events</h3>
+      <h2>Open house events</h2>
       <ul>
         {% set events = get_section(path="open-house/_index.md") %}
         {% for page in events.pages %}
@@ -54,11 +54,11 @@
     </div>
 
     <div>
-      <h3>Instructor training events</h3>
+      <h2>Instructor training events</h2>
       {% set data = load_data(path="content/workshops/instructor-training.json") %}
       {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
-      <h3>Shorter workshops and other events</h3>
+      <h2>Shorter workshops and other events</h2>
       {% set data = load_data(path="content/workshops/other.json") %}
       {{ macros::list_of_events(data=data, linebreak=true, show_only_future=false) }}
     </div>
