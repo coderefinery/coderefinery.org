@@ -6,14 +6,14 @@
   {{ super() }}
 
   <h2>Standard CodeRefinery workshops</h2>
-  {% set data = load_data(path="content/workshops/full-workshops.json") %}
+  {% set data = load_data(path="content/workshops/full-workshops.yml") %}
   {{ macros::table(data=data) }}
 
   <h2>Instructor training events</h2>
-  {% set data = load_data(path="content/workshops/instructor-training.json") %}
+  {% set data = load_data(path="content/workshops/instructor-training.yml") %}
   {{ macros::table(data=data) }}
 
   <h2>Shorter workshops and other events</h2>
-  {% set data = load_data(path="content/workshops/other.json") %}
+  {% set data = load_data(path="content/workshops/other.yml") %}
   {{ macros::table(data=data) }}
 {% endblock content %}

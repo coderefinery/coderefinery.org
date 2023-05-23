@@ -9,21 +9,21 @@
       <ul>
         {% set people = [] %}
 
-        {% set data = load_data(path="content/workshops/full-workshops.json") %}
+        {% set data = load_data(path="content/workshops/full-workshops.yml") %}
         {% for event in data.events %}
           {% if event.instructors %}
             {% set_global people = people | concat(with=event.instructors) %}
           {% endif %}
         {% endfor %}
 
-        {% set data = load_data(path="content/workshops/instructor-training.json") %}
+        {% set data = load_data(path="content/workshops/instructor-training.yml") %}
         {% for event in data.events %}
           {% if event.instructors %}
             {% set_global people = people | concat(with=event.instructors) %}
           {% endif %}
         {% endfor %}
 
-        {% set data = load_data(path="content/workshops/other.json") %}
+        {% set data = load_data(path="content/workshops/other.yml") %}
         {% for event in data.events %}
           {% if event.instructors %}
             {% set_global people = people | concat(with=event.instructors) %}
@@ -41,7 +41,7 @@
       <ul>
         {% set people = [] %}
 
-        {% set data = load_data(path="content/workshops/full-workshops.json") %}
+        {% set data = load_data(path="content/workshops/full-workshops.yml") %}
         {% for event in data.events %}
           {% if event.hosts %}
             {% set_global people = people | concat(with=event.hosts) %}
@@ -51,7 +51,7 @@
           {% endif %}
         {% endfor %}
 
-        {% set data = load_data(path="content/workshops/instructor-training.json") %}
+        {% set data = load_data(path="content/workshops/instructor-training.yml") %}
         {% for event in data.events %}
           {% if event.hosts %}
             {% set_global people = people | concat(with=event.hosts) %}
@@ -61,7 +61,7 @@
           {% endif %}
         {% endfor %}
 
-        {% set data = load_data(path="content/workshops/other.json") %}
+        {% set data = load_data(path="content/workshops/other.yml") %}
         {% for event in data.events %}
           {% if event.hosts %}
             {% set_global people = people | concat(with=event.hosts) %}

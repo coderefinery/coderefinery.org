@@ -21,13 +21,13 @@
 
     var markers = L.markerClusterGroup();
 
-    {% set data = load_data(path="content/workshops/full-workshops.json") %}
+    {% set data = load_data(path="content/workshops/full-workshops.yml") %}
     {{ macros::place_markers(data=data) }}
 
-    {% set data = load_data(path="content/workshops/instructor-training.json") %}
+    {% set data = load_data(path="content/workshops/instructor-training.yml") %}
     {{ macros::place_markers(data=data) }}
 
-    {% set data = load_data(path="content/workshops/other.json") %}
+    {% set data = load_data(path="content/workshops/other.yml") %}
     {{ macros::place_markers(data=data) }}
 
     map.addLayer(markers);
@@ -36,7 +36,7 @@
   <div class="uk-child-width-expand@s" uk-grid>
     <div>
       <h2>Standard CodeRefinery workshops</h2>
-      {% set data = load_data(path="content/workshops/full-workshops.json") %}
+      {% set data = load_data(path="content/workshops/full-workshops.yml") %}
       {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
       <h2>Open house events</h2>
@@ -55,11 +55,11 @@
 
     <div>
       <h2>Instructor training events</h2>
-      {% set data = load_data(path="content/workshops/instructor-training.json") %}
+      {% set data = load_data(path="content/workshops/instructor-training.yml") %}
       {{ macros::list_of_events(data=data, linebreak=false, show_only_future=false) }}
 
       <h2>Shorter workshops and other events</h2>
-      {% set data = load_data(path="content/workshops/other.json") %}
+      {% set data = load_data(path="content/workshops/other.yml") %}
       {{ macros::list_of_events(data=data, linebreak=true, show_only_future=false) }}
     </div>
   </div>
