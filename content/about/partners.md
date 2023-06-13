@@ -146,7 +146,10 @@ CodeRefinery workshops as part of their work time.
   </div>
 </div>
 
-Please encourage your organization to join as well.
+If you would like to contribute to shaping the future of the project, please
+encourage your organization to join as well. While it costs them your work time
+it has also proven to increase cross-organisation and international
+collaborations, not only for CodeRefinery workshops.
 
 
 ## Partners providing local support
