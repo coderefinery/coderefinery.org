@@ -43,39 +43,3 @@ CLAAUDIA (Denmark), CSC (Finland), DeiC (Denmark), ENCCS (Sweden), NAISS (former
 Sigma2 (Norway), and the University of Oslo USIT (Norway).
 
 CodeRefinery now welcomes other partners to join.
-
-
-## Funding partners 2016-2021
-
-<div class="uk-child-width-expand@s uk-text-center" uk-grid>
-  <div>
-    <a href="https://csc.fi">
-      <img src="/about/funding/csc.png" alt="logo: CSC - IT Center for Science" width="170px">
-    </a>
-  </div>
-  <div>
-    <a href="https://scicomp.aalto.fi/">
-      <img src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing" width="100px">
-    </a>
-  </div>
-  <div>
-    <a href="https://deic.dk">
-      <img src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation" width="150px">
-    </a>
-  </div>
-  <div>
-    <a href="https://neic.no">
-      <img src="/about/funding/neic.png" alt="logo: Nordic e-Infrastructure Collaboration" width="170px">
-    </a>
-  </div>
-  <div>
-    <a href="https://sigma2.no">
-      <img src="/about/funding/sigma2.jpg" alt="logo: Sigma2" width="150px">
-    </a>
-  </div>
-  <div>
-    <a href="https://snic.se">
-      <img src="/about/funding/snic.png" alt="logo: Swedish National Infrastructure for Computing" width="170px">
-    </a>
-  </div>
-</div>

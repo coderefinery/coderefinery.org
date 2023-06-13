@@ -22,4 +22,4 @@ it](https://coderefinery.github.io/manuals/chat/).
 
 Zulip is an open-source modern team chat app designed to keep both live and
 asynchronous conversations organized. We very much appreciate their support by
-hosting our chat for free.
+hosting our [chat](https://coderefinery.zulipchat.com/) for free.

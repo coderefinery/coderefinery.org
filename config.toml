@@ -70,7 +70,7 @@ navigation = [
       { name = "Project", target = "/about/project/" },
       { name = "History", target = "/about/history/" },
       { name = "The CodeRefinery community", target = "/about/contributors/" },
-      { name = "Partners", target = "/about/partners/" },  # not much content
+      { name = "Partners and sponsors", target = "/about/partners/" },
       { name = "Impact", target = "/about/impact/" },
       { name = "Statistics", target = "/about/statistics/" },
       { name = "Articles and reports", target = "/about/reports/" },
