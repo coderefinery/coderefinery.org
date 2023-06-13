@@ -1,4 +1,23 @@
 events:
+  - name: Uppsala
+    website: https://coderefinery.github.io/2023-05-09-uppsala/
+    start_date: "2023-05-09"
+    end_date: "2023-05-11"
+    instructors:
+      - Diana Iusan
+      - Thor Wikfeldt
+      - Johan Hellsvik
+      - Pavlin Mitev
+      - Björn Claremar
+    expert_helpers:
+      - Anastasiia Andriievska
+      - Qiang Li
+    num_participants:
+      SE: 15
+      total: 15
+    location:
+      lat: 59.8434075
+      lon: 17.641331
   - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2022-09-20-workshop/
     start_date: "2022-09-20"

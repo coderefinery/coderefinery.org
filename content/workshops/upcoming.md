@@ -9,7 +9,6 @@ date = 2023-04-24
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [May 2023 Uppsala: Tue-Thu, May 9-11 (3 full-day, onsite, Uppsala, Sweden)](https://coderefinery.github.io/2023-05-09-uppsala/)
 - Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
 
 ## Past workshops and events
