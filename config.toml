@@ -56,6 +56,7 @@ navigation = [
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
   { name = "Join", target = "/join/", items = [
+      { name = "Chat", target = "/join/chat/" },
       { name = "For individuals", target = "/join/individuals/" },
       { name = "For staff", target = "/join/staff/" },
       { name = "For organizations", target = "/join/organizations/" },
