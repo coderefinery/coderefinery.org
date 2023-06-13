@@ -23,10 +23,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="100px" src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing">
+        <a href="https://scicomp.aalto.fi/" target="_blank">
+          <img width="100px" src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">Aalto University (Aalto Scientific Computing, ASC)</h3>
+        <a href="https://scicomp.aalto.fi/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Aalto University (Aalto Scientific Computing, ASC)</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
     </div>
@@ -37,10 +41,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="100px" src="/about/funding/csc.png" alt="logo: CSC - IT Center for Science">
+        <a href="https://www.csc.fi/" target="_blank">
+          <img width="100px" src="/about/funding/csc.png" alt="logo: CSC - IT Center for Science">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">CSC - IT Center for Science</h3>
+        <a href="https://www.csc.fi/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">CSC - IT Center for Science</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
     </div>
@@ -51,10 +59,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="120px" src="/about/funding/chc.png" alt="logo: Center for Humanities Computing">
+        <a href="https://chc.au.dk/" target="_blank">
+          <img width="120px" src="/about/funding/chc.png" alt="logo: Center for Humanities Computing">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">Center for Humanities Computing</h3>
+        <a href="https://chc.au.dk/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Center for Humanities Computing</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
     </div>
@@ -65,10 +77,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="100px" src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation">
+        <a href="https://deic.dk/" target="_blank">
+          <img width="100px" src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">Danish e-Infrastructure Cooperation</h3>
+        <a href="https://deic.dk/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">Danish e-Infrastructure Cooperation</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
     </div>
@@ -79,10 +95,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="120px" src="/about/funding/enccs.png" alt="logo: EuroCC National Competence Center Sweden (ENCCS)">
+        <a href="https://enccs.se/" target="_blank">
+          <img width="120px" src="/about/funding/enccs.png" alt="logo: EuroCC National Competence Center Sweden (ENCCS)">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">EuroCC National Competence Center Sweden (ENCCS)</h3>
+        <a href="https://enccs.se/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">EuroCC National Competence Center Sweden (ENCCS)</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
     </div>
@@ -93,10 +113,14 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="100px" src="/about/funding/naiss.jpg" alt="logo: National Academic Infrastructure for Super­computing in Sweden (NAISS)">
+        <a href="https://www.naiss.se/" target="_blank">
+          <img width="100px" src="/about/funding/naiss.jpg" alt="logo: National Academic Infrastructure for Super­computing in Sweden (NAISS)">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">National Academic Infrastructure for Super­computing in Sweden (NAISS)</h3>
+        <a href="https://www.naiss.se/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">National Academic Infrastructure for Super­computing in Sweden (NAISS)</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
     </div>
@@ -107,11 +131,15 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
-        <img width="120px" src="/about/funding/nris.svg" alt="logo: NRIS/Sigma2">
-        <img width="120px" src="/about/funding/sigma2.png" alt="logo: NRIS/Sigma2">
+        <a href="https://www.sigma2.no/" target="_blank">
+          <img width="120px" src="/about/funding/nris.svg" alt="logo: NRIS/Sigma2">
+          <img width="120px" src="/about/funding/sigma2.png" alt="logo: NRIS/Sigma2">
+        </a>
       </div>
       <div class="uk-width-expand">
-        <h3 class="uk-card-title uk-margin-remove-bottom">NRIS/Sigma2</h3>
+        <a href="https://www.sigma2.no/" target="_blank">
+          <h3 class="uk-card-title uk-margin-remove-bottom">NRIS/Sigma2</h3>
+        </a>
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
     </div>
