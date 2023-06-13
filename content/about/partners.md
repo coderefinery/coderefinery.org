@@ -22,7 +22,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="100px" src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing">
       </div>
       <div class="uk-width-expand">
@@ -36,7 +36,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="100px" src="/about/funding/csc.png" alt="logo: CSC - IT Center for Science">
       </div>
       <div class="uk-width-expand">
@@ -50,7 +50,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="120px" src="/about/funding/chc.png" alt="logo: Center for Humanities Computing">
       </div>
       <div class="uk-width-expand">
@@ -64,7 +64,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="100px" src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation">
       </div>
       <div class="uk-width-expand">
@@ -78,7 +78,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="120px" src="/about/funding/enccs.png" alt="logo: EuroCC National Competence Center Sweden (ENCCS)">
       </div>
       <div class="uk-width-expand">
@@ -92,7 +92,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="100px" src="/about/funding/naiss.jpg" alt="logo: National Academic Infrastructure for Super­computing in Sweden (NAISS)">
       </div>
       <div class="uk-width-expand">
@@ -106,7 +106,7 @@ CodeRefinery workshops as part of their work time.
 <div class="uk-card uk-card-default uk-width-1-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
-      <div class="uk-width-auto">
+      <div class="uk-width-expand">
         <img width="120px" src="/about/funding/nris.svg" alt="logo: NRIS/Sigma2">
         <img width="120px" src="/about/funding/sigma2.png" alt="logo: NRIS/Sigma2">
       </div>
