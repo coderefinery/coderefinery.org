@@ -11,21 +11,17 @@ is important for RSS feed. -->
 
 - Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
 
+We don't want you to miss a workshop or event. The best
+way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
+(we are working on reviving it and will post updates there soon).
+You can also subscribe to our [RSS feed](/atom.xml).
+
 
 ## Past workshops and events
 
 - [Python for Scientific Computing, November 22-25,
   2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/).
 - [All our past workshops and events](@/workshops/past.md).
-
-
-## How to be informed about future events
-
-We don't want you to miss a workshop or event. The best
-way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
-(we are working on reviving it and will post updates there soon).
-
-You can also subscribe to our [RSS feed](/atom.xml).
 
 
 ## Upcoming workshops from partner organizations
