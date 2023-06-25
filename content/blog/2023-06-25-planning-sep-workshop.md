@@ -1,6 +1,7 @@
 +++
 title = "What we plan to improve for the September 2023 workshop"
 slug = "2023/06/25/planning-sep-workshop"
+description = "We encourage the community to give us feedback on these ideas."
 
 [extra]
 authors = "Radovan Bast"
