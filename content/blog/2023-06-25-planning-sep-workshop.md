@@ -61,6 +61,10 @@ We are particularly curious to hear what you think about the section
   teaching, followed by a session e.g. one week later).
 - Advertise sessions with a more descriptive title (not "Jupyter", but "How to
   prototype in Python" or something like that).
+- **Concrete suggestion**: keep first week as is (3 half-days) but split second
+  week into 6 two-hour to half-day sessions (reproducible research, software licensing and
+  citation, prototyping in Python, documentation, software testing, modular
+  code development)
 
 
 ## Creating a more motivating environment for volunteers
