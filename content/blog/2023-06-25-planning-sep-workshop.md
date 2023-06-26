@@ -176,6 +176,7 @@ The form options will be simplified to:
   - [ ] organizer of local group
   - [ ] instructor (I would like to teach a lesson)
   - free text to share additional information with organizers
+  - consider asking which sessions the participant is interested in attending
   - contact email for questions
 
 We plan to open registration before end of June 2023.
