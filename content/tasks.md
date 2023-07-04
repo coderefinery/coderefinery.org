@@ -62,6 +62,20 @@ individuals and organizations can stay informed.
 
 - Set up a Zenodo community.
 
+
+## Tasks where we struggle and can use help
+
+- Outreach, newsletter, social media. You can help us with blogs, drafting
+  newsletter, engaging in relevant social media posts.
+
+- Create a governance charter for a non-profit organization which could be the
+  follow-up organization for CodeRefinery.
+
+- Event management. We have many folks who like to develop lessons or teach or
+  help but who do not
+  enjoy the event management part of it. But perhaps you do? You could help
+  us reaching many more people.
+
 {{ enddiv() }}
 
 {{ div() }}
@@ -116,15 +130,6 @@ individuals and organizations can stay informed.
 
 - Prepare a financing plan from the [GitLab
   service](https://coderefinery.org/repository/). Contact RB.
-
-
-## Tasks where we struggle and can use help
-
-- Outreach, newsletter, social media. You can help us with blogs, drafting
-  newsletter, engaging in relevant social media posts.
-
-- Create a governance charter for a non-profit organization which could be the
-  follow-up organization for CodeRefinery.
 
 {{ enddiv() }}
 
