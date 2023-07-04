@@ -55,6 +55,7 @@ navigation = [
       { name = "The CodeRefinery teaching style", target = "/workshops/teaching-style/" },
       { name = "Request or run your own", target = "/workshops/request/" },
       ] },
+  { name = "Tasks/roadmap", target = "/tasks/" },
   { name = "Join", target = "/join/", items = [
       { name = "Chat", target = "/join/chat/" },
       { name = "For individuals", target = "/join/individuals/" },
