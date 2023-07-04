@@ -27,6 +27,13 @@ courses/workshops we know of are listed below but we would like to list more.
 
 ## Derivative work based on our material
 
+- [Collaborating and sharing using GitHub without command
+  line](https://miketrizna.github.io/github-without-command-line/)
+  taught as part of a Carpentries workshop at the Smithsonian and now
+  part of the [Carpentries
+  Incubator](https://github.com/carpentries-incubator/proposals/issues/166).
+  This lesson is based on [this lesson
+  material](https://coderefinery.github.io/github-without-command-line/).
 - [Digital skills workshops](https://www.esciencecenter.nl/digital-skills/) at
   the [Netherlands eScience Center](https://www.esciencecenter.nl/). These
   workshops use Documentation, Testing, and Modular code modules. The most
