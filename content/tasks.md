@@ -85,7 +85,8 @@ individuals and organizations can stay informed.
 
 - Make one of our lessons citable starting from
   <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Document
-  how to do this for all other lessons.
+  how to do this for all other lessons. Contact JH or RB if you want to
+  join this task.
 
 - Create a commented list of our lessons starting from
   <https://coderefinery.org/lessons/from-coderefinery/>.
@@ -105,10 +106,10 @@ individuals and organizations can stay informed.
 ## Tasks for multiple days
 
 - Create a survey and collect testimonials from
-  [GitLab](https://coderefinery.org/repository/) users.
+  [GitLab](https://coderefinery.org/repository/) users. Contact RB.
 
 - Prepare a financing plan from the [GitLab
-  service](https://coderefinery.org/repository/).
+  service](https://coderefinery.org/repository/). Contact RB.
 
 
 ## Tasks where we struggle and can use help
