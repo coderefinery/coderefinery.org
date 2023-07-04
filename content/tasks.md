@@ -83,6 +83,11 @@ individuals and organizations can stay informed.
   use additional feedback and help.
   Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
 
+- Take a lesson issue which looks
+  interesting and easy to you from one of our
+  [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
+  or mention `@bast` if you want more context about any of these.
+
 - Make one of our lessons citable starting from
   <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Document
   how to do this for all other lessons. Contact JH or RB if you want to
