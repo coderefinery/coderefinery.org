@@ -30,3 +30,4 @@ courses/workshops we know of are listed below but we would like to list more.
 
 - <https://imperialcollegelondon.github.io/grad_school_git_course/>
 - Tools for Scientific Software Development and Data Science (2020) in Aalborg
+- Short versions as 10-15 min presentations of [reproducible research](https://doi.org/10.5281/zenodo.8089472)  and [documentation](https://github.com/samumantha/documentation_example) lesson at "Best practice guide for software developers and scientists in Extremes DT and Climate DT" workshop in June 2023
