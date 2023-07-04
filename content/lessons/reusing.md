@@ -27,6 +27,11 @@ courses/workshops we know of are listed below but we would like to list more.
 
 ## Derivative work based on our material
 
+- [Digital skills workshops](https://www.esciencecenter.nl/digital-skills/) at
+  the [Netherlands eScience Center](https://www.esciencecenter.nl/). These
+  workshops use Documentation, Testing, and Modular code modules. The most
+  recent edition was [Good Practices in Research Software Development
+  (CodeRefinery) in June 2023](https://esciencecenter-digital-skills.github.io/2023-06-19-ds-cr/).
 - Short versions as 10-15 min presentations of [reproducible
   research](https://doi.org/10.5281/zenodo.8089472)  and
   [documentation](https://github.com/samumantha/documentation_example) lesson
