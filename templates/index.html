@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="uk-child-width-expand@s" uk-grid>
+  <div class="uk-child-width-expand@s uk-margin-bottom" uk-grid>
     <div>
       {% set coderefinery = resize_image(path="logo/coderefinery.png", width=250, op="fit_width") %}
       <img src="{{ coderefinery.url }}"
@@ -11,6 +11,27 @@
     <div class="uk-width-3-4@m">
       {% set description = get_page(path="index/description.md") %}
       {{ description.content | safe }}
+    </div>
+  </div>
+
+  {% set provides = get_page(path="index/provides.md") %}
+  <div class="uk-margin-large-bottom">
+    {{ provides.content | safe }}
+  </div>
+
+  <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
+    <div class="uk-width-1-3@m">
+      {% include "index/newsletter.html" %}
+    </div>
+
+    <div class="uk-margin-large-left">
+      {% include "index/join.html" %}
+    </div>
+  </div>
+
+  <div class="uk-visible@m uk-margin-large-bottom">
+    <div class="uk-card uk-card-secondary uk-card-body">
+      {% include "index/testimonials.html" %}
     </div>
   </div>
 
@@ -26,25 +47,6 @@
       {% include "index/mastodon.html" %}
     </div>
   </div>
-
-  <div class="uk-child-width-expand@s" uk-grid>
-    <div>
-      {% include "index/newsletter.html" %}
-    </div>
-
-    <div>
-      {% include "index/twitter.html" %}
-    </div>
-  </div>
-
-  <div class="uk-visible@m">
-    <div class="uk-margin-top uk-card uk-card-secondary uk-card-body">
-      {% include "index/testimonials.html" %}
-    </div>
-  </div>
-
-  {% set provides = get_page(path="index/provides.md") %}
-  {{ provides.content | safe }}
 
   {% include "index/cards.html" %}
 {% endblock content %}
