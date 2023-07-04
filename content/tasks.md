@@ -89,9 +89,10 @@ individuals and organizations can stay informed.
   or mention `@bast` if you want more context about any of these.
 
 - Make one of our lessons citable starting from
-  <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Document
-  how to do this for all other lessons. Contact JH or RB if you want to
-  join this task.
+  <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Use a
+  `CITATION.cff` file and from that one generate the `.zenodo.json` file and
+  deploy to Zenodo. Document how to do this for all other lessons. Contact JH
+  or RB if you want to join this task.
 
 - Create a commented list of our lessons starting from
   <https://coderefinery.org/lessons/from-coderefinery/>.
