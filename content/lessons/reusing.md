@@ -6,7 +6,7 @@ All of our material is open source and reuse is encouraged.  In
 general, we only recommend similarly open-source, reusable lessons.
 Check the license from each repository in case of questions (most
 CodeRefinery-developed lessons use [CC BY
-4.0](https://creativecommons.org/licenses/by/4.0/).
+4.0](https://creativecommons.org/licenses/by/4.0/)).
 
 Teaching these lessons independently is encouraged, just make sure the
 distinction between the "CodeRefinery" project and your workshop is
