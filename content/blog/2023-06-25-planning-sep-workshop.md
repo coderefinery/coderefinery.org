@@ -65,6 +65,12 @@ We are particularly curious to hear what you think about the section
   week into 6 two-hour to half-day sessions (reproducible research, software licensing and
   citation, prototyping in Python, documentation, software testing, modular
   code development)
+- **UPDATE**: after a lot of thinking we decided to keep two weeks this time
+  and perhaps try a more extended format in 2024
+  but to separate sessions a bit during week two in order to give few
+  sessions more time but also to make it easier for participants to only join
+  for a specific session. In addition, we consider offering additional debrief
+  sessions a la "research software hour" where we can go more in-depth.
 
 
 ## Creating a more motivating environment for volunteers
