@@ -9,7 +9,7 @@ date = 2023-04-24
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- Autumn 2023: Tue-Thu, September 19-21 and 26-28 (6 half-day, online)
+- Autumn 2023: [Tue-Thu, September 19-21 and 26-28 (6 half-day, online)](https://coderefinery.github.io/2023-09-19-workshop/)
 
 We don't want you to miss a workshop or event. The best
 way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
