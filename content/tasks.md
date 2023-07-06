@@ -37,6 +37,9 @@ individuals and organizations can stay informed.
 - Browse any of the [core lessons](https://coderefinery.org/lessons/core/) and
   open issues with suggestions for improvement.
 
+- Test our [install instructions](https://coderefinery.github.io/installation/)
+  and give us [feedback](https://github.com/coderefinery/installation/issues).
+
 
 ## Issues which are easy for somebody with a bit of overview
 
@@ -81,6 +84,9 @@ individuals and organizations can stay informed.
 {{ div() }}
 
 ## If you have 1 day
+
+- Take an [issue](https://github.com/coderefinery/installation/issues) from
+  our [install instructions](https://coderefinery.github.io/installation/).
 
 - Teaser video which in 3 minutes explains what the project is about.
 
