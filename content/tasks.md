@@ -95,10 +95,6 @@ individuals and organizations can stay informed.
 
 - Short video which explains how to join a workshop.
 
-- Set up workshop page for September 2023 workshop. RB is working on it but can
-  use additional feedback and help.
-  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
-
 - Set up a registration page for September 2023 workshop. RB is working on it but can
   use additional feedback and help.
   Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
@@ -140,3 +136,11 @@ individuals and organizations can stay informed.
 {{ enddiv() }}
 
 {{ enddiv() }}
+
+---
+
+## Recently finished
+
+- Set up workshop page for September 2023 workshop. RB is working on it but can
+  use additional feedback and help.
+  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
