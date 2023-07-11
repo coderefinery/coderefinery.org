@@ -33,6 +33,7 @@ description = "A large collection of news articles, blog posts, and reports abou
 ## Presentations
 
 - [CodeRefinery flashtalk in BoF at ISC – Challenges in reverse hybrid teaching, May 23, 2023 (Matias Jääskeläinen)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2023-ISC-lightning_WS-challenges.md/#1)
+- [CodeRefinery flashtalk and participation in panel discussion Education in HPC: A Lifelong Effort, EuroHPCSummit, March 22, 2023 (Johan Hellsvik)](https://www.eurohpcsummit.eu/)
 - [CodeRefinery and the Nordic perspective, at RDA FAIR webinar, Aug 30, 2021 (Radovan Bast)](https://rda-software-webinar.readthedocs.io/)
 - [Plenary session at Seminar for bibliotekenes nettverk for ph.d.-støtte (Naoe Tatara)](https://www.phdontrack.net/nettverk/seminar/2021/program_final.pdf) - Oppskalering av workshops på best praksis av data science og forskningsprogramvareutvikling - hvordan kan de nå de som trenger? [Presentation slides (Contents except for the title is in English)](https://www.phdontrack.net/nettverk/seminar/2021/tatara.pdf) 
 - [Panel session at CarpentryCon 2020, (Naoe Tatara, Radovan Bast, Richard Darst, Anne Fouilloux, Petri Jehkonen, Matúš Kalaš, Samantha Wittke)](https://2020.carpentrycon.org/schedule/#session-32) - Mega CodeRefinery online workshop - How to scale up online workshop to reach 100 learners? [Presentation slides](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/carpentrycon-2020/master/slides.md/), [YouTube video of the session](https://www.youtube.com/watch?v=r-5RsQqNInY)
