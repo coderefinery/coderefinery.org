@@ -8,9 +8,11 @@ join us!  Don't forget you can do everything on the [for
 individuals](@/join/individuals.md) page as part of your job, and
 [your whole organization could join](@/join/organizations.md).
 
+
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
 
 {{ div() }}
+
 
 ## Run your own breakout rooms and/or provide local support
 
@@ -28,9 +30,11 @@ and say hi, or [join our chat](https://coderefinery.github.io/manuals/chat/)
 and introduce yourself in the "#new members" stream.  Or contact anyone you
 know for a recommendation on how to get involved - we aren't that formal yet.
 
+
 {{ enddiv() }}
 
 {{ div() }}
+
 
 ## Advertise our events to your audience
 
@@ -45,6 +49,7 @@ live-streamed, so anyone can attend.
 This is currently somewhat on hiatus, since our online workshops [work
 so well](@/workshops/teaching-style.md), but you could [request your
 own workshop](@/workshops/request.md).
+
 
 {{ enddiv() }}
 

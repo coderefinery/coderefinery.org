@@ -7,9 +7,11 @@ CodeRefinery is a collaboration between different organizations (most
 are universities or research computing infrastructure providers), and
 your organization can join!
 
+
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
 
 {{ div() }}
+
 
 ## Provide CodeRefinery workshops to your community
 
@@ -38,6 +40,7 @@ the writing and teaching.  This exchange of teaching also leads to
 lots of other technical skill exchange, which is excellent for your
 staff skills as well.
 
+
 {{ enddiv() }}
 
 {{ div() }}
@@ -60,6 +63,7 @@ yourself a partner if (criteria are subject to change):
   wider audience.
 - You open a pull request adding yourself to the [partners
   page](@/about/partners.md).
+
 
 {{ enddiv() }}
 
