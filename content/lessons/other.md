@@ -35,10 +35,15 @@ a community you can join and give contributions to:
 ## Lessons we contributed to as instructors or helpers
 
 - [Introduction to Conda for (Data) Scientists](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/):
-  Gives a good overview of how conda works and how to use it.
+  Gives a good overview of how Conda works and how to use it.
 
 
 ## Other lessons we recommend
 
 - [Introduction to High-Performance Computing](https://carpentries-incubator.github.io/hpc-intro/):
-  Introduction to UNIX shell, file tranfer, and how to submit and manage calculations on a cluster.
+  Introduction to UNIX shell, file transfer, and how to submit and manage calculations on a cluster.
+
+- [ENCCS instructor training](https://enccs.github.io/instructor-training/):
+  This ENCCS instructor training material is focused on helping competent
+  practitioners and experts teach their knowledge to others. It also serves a
+  kickstart to teaching ENCCS lessons.
