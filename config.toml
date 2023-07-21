@@ -43,8 +43,7 @@ plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "code
 navigation = [
   { name = "Home", target = "/" },
   { name = "Lessons", target = "/lessons/", items = [
-      { name = "Core CodeRefinery workshop", target = "/lessons/core/" },
-      { name = "Self-study workshop", target = "/lessons/core/#self-study-workshop" },
+      { name = "Core lessons and self-study", target = "/lessons/core/" },
       { name = "Other CodeRefinery lessons", target = "/lessons/from-coderefinery/" },
       { name = "Other recommended lessons", target = "/lessons/other/" },
       { name = "Reusing", target = "/lessons/reusing/" },

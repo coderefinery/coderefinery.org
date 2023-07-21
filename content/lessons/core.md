@@ -8,14 +8,38 @@ workshop, and what we believe that every computational scientist (even those
 with very small amounts of computation) should know.  But there is more: Also
 see [all of our online lessons](@/lessons/from-coderefinery.md).
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2)
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3)
-- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4)
-- [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4)
-- [Documentation](https://coderefinery.github.io/documentation/) (day 5)
-- [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5)
-- [Automated testing](https://coderefinery.github.io/testing/) (day 6)
-- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6)
+- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2):
+  This lesson brings you from zero to using Git and GitHub for own projects.
+
+- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3):
+  This lesson builds on "Introduction to version control" and we apply branching and learn about pull requests
+  (merge requests), forks, and collaboration using Git and GitHub.
+
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4):
+  We focus here on 3 aspects of reproducible programs and computations: documenting dependencies,
+  environments, and computational steps in a reproducible way. We touch on containers.
+
+- [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4):
+  We motivate and give an overview over software and data licensing and software citation best practices.
+
+- [Documentation](https://coderefinery.github.io/documentation/) (day 5):
+  Here we give an overview of the different ways how a code project can be documented: from small projects to larger projects.
+  Markdown and Sphinx are central tools in this lesson.
+
+- [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5):
+  This lesson gives an overview of what Jupyter notebooks are, when they can be
+  particularly useful, and shows best practices for reusable and reproducible
+  notebooks.
+
+- [Automated testing](https://coderefinery.github.io/testing/) (day 6):
+  In this lesson we talk about motivation for testing, about test design, but
+  also about some tools that are typically used for automated testing of
+  software.
+
+- [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6):
+  The focus of this lesson is how to partition and organize projects as they
+  grow from one screen-full to larger and how to make code portions reusable
+  across projects and across notebooks.
 
 
 ## Self-study workshop
