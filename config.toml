@@ -79,10 +79,6 @@ navigation = [
       { name = "Operations manuals (external link)", target = "https://coderefinery.github.io/manuals/" },
       { name = "Contact", target = "/about/contact/" },
       ] },
-  { name = "See also", target = "/see-also/", items = [
-      { name = "Other lesson material", target = "/see-also/other-lessons/" },
-      { name = "Other projects", target = "/see-also/other-projects/" },
-      ] },
   { name = "News/blog", target = "/blog/" },
   { name = "GitLab repository", target = "/repository/" },
 ]
