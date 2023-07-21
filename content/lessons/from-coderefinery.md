@@ -1,21 +1,15 @@
 +++
 title = "All CodeRefinery lessons"
-description = "Many interesting lessons from the CodeRefinery team and partners"
+description = "Commented list of all our lessons. Some are not part of a standard 6-day workshop."
 template = "page.html"
 +++
 
-These are various lessons we teach or recommended:
-
 ## CodeRefinery lessons
 
-**See [Core lessons](@/lessons/core.md) for the ones we teach at every
-workshop, and a self-study program.**
-
-This is not a strict division, but lessons can be classified as to
-what is initially useful to yourself, to your group, and to the whole
-community.
-
-Lessons marked with (*) are part of a regular 6 half-day workshop.
+This is not a strict division, but lessons can be classified as to what is
+initially useful to yourself, to your group, and to the whole community.
+Lessons marked with (*) are [core lessons](@/lessons/core.md) and part of a
+regular 6 half-day workshop.
 
 - For yourself and larger
   - [Introduction to version control](https://coderefinery.github.io/git-intro/) (*)
@@ -39,9 +33,6 @@ Lessons marked with (*) are part of a regular 6 half-day workshop.
   - [Instructor training](https://coderefinery.github.io/instructor-training/)
   - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/)
 
-- Installation guides
-  - [Installation instructions](https://coderefinery.github.io/installation/) (see your workshop page for which ones are actually needed for you)
-
 - Special topics
   - [CMake workshop (based on ENCCS version)](https://coderefinery.github.io/cmake-workshop/)
   - [Mixed Martial Arts: Interfacing Fortran, C, C++, and Python](https://coderefinery.github.io/mma/)
@@ -54,3 +45,8 @@ A number of video recordings of CodeRefinery lessons and workshops and
 [Research Software Hour](https://researchsoftwarehour.github.io/) sessions can be
 found on our [YouTube
 channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
+
+
+## Installation guides
+
+- [Installation instructions](https://coderefinery.github.io/installation/) (see your workshop page for which ones are actually needed for you)
