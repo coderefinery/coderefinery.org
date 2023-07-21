@@ -74,6 +74,7 @@ navigation = [
       { name = "Partners and sponsors", target = "/about/partners/" },
       { name = "Impact", target = "/about/impact/" },
       { name = "Statistics", target = "/about/statistics/" },
+      { name = "Presentations", target = "/about/presentations/" },
       { name = "Articles and reports", target = "/about/reports/" },
       { name = "Operations manuals (external link)", target = "https://coderefinery.github.io/manuals/" },
       { name = "Contact", target = "/about/contact/" },
