@@ -40,6 +40,10 @@ a community you can join and give contributions to:
 
 ## Other lessons we recommend
 
+- [Existing Research Software Engineering Training Material by INTERSECT](https://intersect-training.org/training-links/):
+  This is the currently best commented overview of available lessons around research
+  software engineering that we know of.
+
 - [Research Software Engineering with Python](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/):
   This is a great resource for somebody who wants to go beyond the introductory
   Carpentries lesson about Python.
