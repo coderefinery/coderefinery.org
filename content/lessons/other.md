@@ -40,6 +40,10 @@ a community you can join and give contributions to:
 
 ## Other lessons we recommend
 
+- [Research Software Engineering with Python](https://github-pages.ucl.ac.uk/rsd-engineeringcourse/):
+  This is a great resource for somebody who wants to go beyond the introductory
+  Carpentries lesson about Python.
+
 - [Introduction to High-Performance Computing](https://carpentries-incubator.github.io/hpc-intro/):
   Introduction to UNIX shell, file transfer, and how to submit and manage calculations on a cluster.
 
