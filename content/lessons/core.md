@@ -12,14 +12,15 @@ know.
 
 - [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2)
 - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3)
+- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4)
+- [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4)
 - [Documentation](https://coderefinery.github.io/documentation/) (day 5)
 - [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5)
 - [Automated testing](https://coderefinery.github.io/testing/) (day 6)
-- [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4)
-- [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4)
 - [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6)
 
 **Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**
+
 
 ## Self-study workshop
 
