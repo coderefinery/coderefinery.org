@@ -76,6 +76,7 @@ navigation = [
       { name = "Statistics", target = "/about/statistics/" },
       { name = "Presentations", target = "/about/presentations/" },
       { name = "Articles and reports", target = "/about/reports/" },
+      { name = "Newsletter", target = "/about/newsletter/" },
       { name = "Operations manuals (external link)", target = "https://coderefinery.github.io/manuals/" },
       { name = "Contact", target = "/about/contact/" },
       ] },

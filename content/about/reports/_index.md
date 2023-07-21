@@ -1,6 +1,6 @@
 +++
 title = "Articles and reports"
-description = "A large collection of news articles, blog posts, and reports about CodeRefinery"
+description = "Collection of news articles, blog posts, and reports about CodeRefinery"
 +++
 
 ## Articles and blog posts about CodeRefinery
@@ -28,19 +28,6 @@ description = "A large collection of news articles, blog posts, and reports abou
 - *CodeRefinery and the Red Queen's race*, [CSC June 2017 blog post](https://www.csc.fi/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race)
 - *CodeRefinery Workshops*, [PDC June 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-1/coderefinery-workshops-1.744807)
 - *The CodeRefinery Project*, [PDC December 2016 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2016-no-2/the-coderefinery-project-1.744952)
-
-
-## Newsletter archives
-
-The CodeRefinery newsletter is sent out every few months.
-Subscribers will be informed about upcoming workshops, hackathons and
-other events, as well as other interesting developments like new training
-material, community building activities and general project
-updates.
-
-Here you can browse the [archive of all previous
-newsletters](https://tinyletter.com/coderefinery/archive).  To sign up, please
-visit [tinyletter.com/coderefinery](https://tinyletter.com/coderefinery).
 
 
 ## Project proposals, reports, and documents
