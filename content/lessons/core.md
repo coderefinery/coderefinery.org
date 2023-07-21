@@ -3,12 +3,10 @@ title = "Core CodeRefinery lessons"
 description = "These are the ones we teach during our standard workshops and include good self-study possibilities. You probably want to start here."
 +++
 
-**Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**
-
-These are the lessons which are included in the "standard"
-CodeRefinery workshop, and what we believe that every computational
-scientist (even those with very small amounts of computation) should
-know.
+These are the lessons which are included in the "standard" CodeRefinery
+workshop, and what we believe that every computational scientist (even those
+with very small amounts of computation) should know.  But there is more: Also
+see [all of our online lessons](@/lessons/from-coderefinery.md).
 
 - [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2)
 - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3)
@@ -18,8 +16,6 @@ know.
 - [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5)
 - [Automated testing](https://coderefinery.github.io/testing/) (day 6)
 - [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6)
-
-**Also see all of our online lessons: [Lesson index](@/lessons/_index.md)**
 
 
 ## Self-study workshop
