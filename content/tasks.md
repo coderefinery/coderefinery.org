@@ -20,12 +20,21 @@ individuals and organizations can stay informed.
 
 </div>
 
+In each category we try to sort tasks by priority from most urgent to least
+urgent.
+
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
 
 {{ div() }}
 
 
 ## Good first issues if you have 1 hour
+
+- Test our [install instructions](https://coderefinery.github.io/installation/)
+  and give us [feedback](https://github.com/coderefinery/installation/issues).
+
+- Browse any of the [core lessons](https://coderefinery.org/lessons/core/) and
+  open issues with suggestions for improvement.
 
 - Browse <https://coderefinery.org/> and [open
   issues](https://github.com/coderefinery/coderefinery.org/issues) about
@@ -34,20 +43,15 @@ individuals and organizations can stay informed.
 - Take a [website issue](https://github.com/coderefinery/coderefinery.org/issues) which looks
   interesting and easy to you. Ask on chat or mention `@bast` if you want more context about any of these.
 
-- Browse any of the [core lessons](https://coderefinery.org/lessons/core/) and
-  open issues with suggestions for improvement.
-
-- Test our [install instructions](https://coderefinery.github.io/installation/)
-  and give us [feedback](https://github.com/coderefinery/installation/issues).
-
 
 ## Issues which are easy for somebody with a bit of overview
 
-- Go through TO-DO items from [the 2022 kick-off
-  event](https://hackmd.io/@coderefinery/kickoff2022) and port them to this
-  document.
-
 - Add a web page on <https://coderefinery.org/> crediting staff/team.
+
+- Set up a Zenodo community.
+
+- List on <https://coderefinery.org/join/individuals/> the steps that need to
+  be done by a new person.
 
 - On <https://coderefinery.org/> describe better how somebody or some
   organization can help. This page here is part
@@ -60,19 +64,18 @@ individuals and organizations can stay informed.
   looks interesting and easy to you. Ask on chat or mention `@bast` if you want
   more context about any of these.
 
-- List on <https://coderefinery.org/join/individuals/> the steps that need to
-  be done by a new person.
-
-- Set up a Zenodo community.
+- Go through TO-DO items from [the 2022 kick-off
+  event](https://hackmd.io/@coderefinery/kickoff2022) and port them to this
+  document.
 
 
 ## Tasks where we struggle and can use help
 
-- Outreach, newsletter, social media. You can help us with blogs, drafting
-  newsletter, engaging in relevant social media posts.
-
 - Create a governance charter for a non-profit organization which could be the
   follow-up organization for CodeRefinery.
+
+- Outreach, newsletter, social media. You can help us with blogs, drafting
+  newsletter, engaging in relevant social media posts.
 
 - Event management. We have many folks who like to develop lessons or teach or
   help but who do not
@@ -85,24 +88,12 @@ individuals and organizations can stay informed.
 
 ## If you have 1 day
 
-- Take an [issue](https://github.com/coderefinery/installation/issues) from
-  our [install instructions](https://coderefinery.github.io/installation/).
+- Short video which explains how to join a workshop.
 
 - Teaser video which in 3 minutes explains what the project is about.
 
 - Teaser slide deck (5 slides?) which explains what the project is about and
   how organizations can get on board.
-
-- Short video which explains how to join a workshop.
-
-- Set up a registration page for September 2023 workshop. RB is working on it but can
-  use additional feedback and help.
-  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
-
-- Take a lesson issue which looks
-  interesting and easy to you from one of our
-  [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
-  or mention `@bast` if you want more context about any of these.
 
 - Make one of our lessons citable starting from
   <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Use a
@@ -110,13 +101,13 @@ individuals and organizations can stay informed.
   deploy to Zenodo. Document how to do this for all other lessons. Contact JH
   or RB if you want to join this task.
 
-- Create a commented list of our lessons starting from
-  <https://coderefinery.org/lessons/from-coderefinery/>.
-  The comments could be: audience, maturity, strong points, weaker points,
-  etc.
+- Take an [issue](https://github.com/coderefinery/installation/issues) from
+  our [install instructions](https://coderefinery.github.io/installation/).
 
-- Create a commented list of other lessons by our partners and the CodeRefinery
-  community. Instead of only linking to other material, add comments.
+- Take a lesson issue which looks
+  interesting and easy to you from one of our
+  [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
+  or mention `@bast` if you want more context about any of these.
 
 - Draft and execute a post-workshop survey for 2021-2023 workshops starting
   from <https://github.com/coderefinery/post-workshop-survey>.
@@ -140,6 +131,18 @@ individuals and organizations can stay informed.
 ---
 
 ## Recently finished
+
+- Create a commented list of our lessons starting from
+  <https://coderefinery.org/lessons/from-coderefinery/>.
+  The comments could be: audience, maturity, strong points, weaker points,
+  etc.
+
+- Create a commented list of other lessons by our partners and the CodeRefinery
+  community. Instead of only linking to other material, add comments.
+
+- Set up a registration page for September 2023 workshop. RB is working on it but can
+  use additional feedback and help.
+  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
 
 - Set up workshop page for September 2023 workshop. RB is working on it but can
   use additional feedback and help.
