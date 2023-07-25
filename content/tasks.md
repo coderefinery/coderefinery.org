@@ -48,8 +48,6 @@ urgent.
 
 - Add a web page on <https://coderefinery.org/> crediting staff/team.
 
-- Set up a Zenodo community.
-
 - List on <https://coderefinery.org/join/individuals/> the steps that need to
   be done by a new person.
 
@@ -131,6 +129,8 @@ urgent.
 ---
 
 ## Recently finished
+
+- Set up a Zenodo community: https://zenodo.org/communities/coderefinery/
 
 - Create a commented list of our lessons starting from
   <https://coderefinery.org/lessons/from-coderefinery/>.
