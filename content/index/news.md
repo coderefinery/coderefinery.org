@@ -3,6 +3,9 @@
 
 ## News
 
-- Our next workshop will be in September. We plan to open registration early
-  July. The best way to make sure we inform you once registration opens, is to
-  subscribe to our newsletter (below).
+- Our next workshop is [Tue-Thu, September 19-21 and 26-28 (6
+  half-days,
+  online)](https://coderefinery.github.io/2023-09-19-workshop/). Registration
+  is open!  This is our standard streamed workshop with the
+  possibility of teams and breakout rooms, and the whole world is
+  invited!
