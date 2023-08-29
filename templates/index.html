@@ -14,6 +14,11 @@
     </div>
   </div>
 
+  {% set news = get_page(path="index/news.md") %}
+  <div class="uk-margin-large-bottom">
+    {{ news.content | safe }}
+  </div>
+
   {% set provides = get_page(path="index/provides.md") %}
   <div class="uk-margin-large-bottom">
     {{ provides.content | safe }}
@@ -37,9 +42,6 @@
 
   <div class="uk-child-width-expand@s" uk-grid>
     <div>
-      {% set news = get_page(path="index/news.md") %}
-      {{ news.content | safe }}
-
       {% include "index/latest-blog-posts.html" %}
     </div>
 
