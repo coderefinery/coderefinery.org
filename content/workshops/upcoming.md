@@ -29,6 +29,8 @@ Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
 to list your workshop/event here.
 
+- [Python for Scientific Computing, November 07th-10th,
+  2023](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2023/).
 
 ## Privacy policy
 
