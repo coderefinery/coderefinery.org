@@ -111,10 +111,18 @@ These are the public key fingerprints for `source.coderefinery.org` (in hexadeci
 ```
 MD5:b8:c9:43:24:33:96:ba:5d:88:84:73:81:38:ac:e6:0f (RSA)
 MD5:21:dc:4e:ef:4f:1c:44:f8:d8:5e:3a:30:15:32:e3:4c (ECDSA)
+MD5:57:3f:dd:7e:52:5a:83:ec:68:7e:c9:58:d3:f2:21:c4 (ED25519)
 ```
 
 These are the SHA256 hashes:
 ```
 SHA256:dQ6iP+E6PZ2Ureynaw1eGKqRLJ5RtL4C7qUJlNSvLW8 (RSA)
 SHA256:dtWo53mvtXVv3NxZf44kpRIfvJ8edcEqv7HFEltPpa4 (ECDSA)
+SHA256:6vV2a0zfcMuls1KkGlzbrJPQP5yC+z5v+2pKtGMNx8Y (ED25519)
+```
+
+How to check these without logging in:
+```console
+$ ssh-keyscan source.coderefinery.org | ssh-keygen -E md5 -lf -
+$ ssh-keyscan source.coderefinery.org | ssh-keygen -lf -
 ```
