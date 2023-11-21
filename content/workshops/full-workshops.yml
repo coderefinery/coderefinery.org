@@ -1,5 +1,45 @@
 events:
   - name: Full online workshop (6 half-days)
+    website: https://coderefinery.github.io/2023-09-19-workshop/
+    start_date: "2023-09-19"
+    end_date: "2023-09-28"
+    host:
+      - Radovan Bast
+      - Richard Darst
+      - Enrico Glerean
+      - Matias Jääskeläinen
+    instructors:
+      - Radovan Bast
+      - Richard Darst
+      - Enrico Glerean
+      - Johan Hellsvik
+      - Matias Jääskeläinen
+      - Thomas Pfau
+      - Dhanya Pushpadas
+      - Jarno Rantaharju
+      - Samantha Wittke
+    expert_helpers:
+      - Diana Iusan
+      - Enrico Glerean
+      - Teemu Ruokolainen
+    num_participants:
+      NO: 103
+      FI: 100
+      SE: 31
+      NL: 19
+      IN: 16
+      FR: 12
+      GE: 11
+      IT: 9
+      UK: 5
+      US: 5
+      PO: 5
+      SP: 5
+      total: 360
+    twitch_viewers:
+      smallest_viewers_max: 145
+      largest_viewers_max: 54
+  - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2023-03-21-workshop/
     start_date: "2023-03-21"
     end_date: "2023-03-30"
