@@ -5,7 +5,7 @@
 
 # Code repository hosting for Nordic research software
 
-- **Over 330 active users, 225 groups, with over 460 active projects**.
+- **Over 288 active users, 226 groups, with over 390 active projects**.
 - The service is hosted at <https://source.coderefinery.org>.
 - The is currently run from and the data is stored on servers at the
   [Danish e-Infrastructure Cooperation (DeiC)](https://www.deic.dk/). DeiC is part of the Nordic
