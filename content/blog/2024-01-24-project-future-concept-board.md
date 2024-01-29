@@ -1,6 +1,7 @@
 +++
 title = "Summary from a brainstorming meeting about the project future"
 slug = "2024/01/24/project-future-concept-board"
+description = "Screenshots and summary from our concept board."
 
 [extra]
 authors = "Radovan Bast"
