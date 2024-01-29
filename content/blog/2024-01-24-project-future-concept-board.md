@@ -25,7 +25,7 @@ minutes, then read the summary (first section).
 ## Summary of ideas that were voted as most important
 
 We provide more details in screenshots below. Here we only summarize the points
-that received the most votes answering the question: "which ideas are most
+that received votes answering the question: "which ideas are most
 important for you".  The ideas are summarized here without being commented.
 They of course need to be followed-up somehow but this we will do in future
 meetings and events.
