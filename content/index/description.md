@@ -5,7 +5,8 @@
 
 We teach all the **essential tools** which are usually skipped in academic
 education so everyone can make full use of software, computing, and
-data. We don't just give courses, but **we are a training network** that you
+data with focus on reusability, reproducibility, and openness. 
+We don't just give courses, but **we are a training network** that you
 can join to share the effort and bring better courses to your
 community.
 
