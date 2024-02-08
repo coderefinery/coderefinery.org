@@ -16,7 +16,14 @@ $table-header-cell-color: #666666;
 @import "../uikit/src/scss/mixins-theme.scss";
 @import "../uikit/src/scss/uikit-theme.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(Roboto.ttf) format('truetype');
+}
+
 
 * {
     font-family: 'Roboto', sans-serif;
