@@ -43,43 +43,6 @@ urgent.
 - Take a [website issue](https://github.com/coderefinery/coderefinery.org/issues) which looks
   interesting and easy to you. Ask on chat or mention `@bast` if you want more context about any of these.
 
-
-## Issues which are easy for somebody with a bit of overview
-
-- Add a web page on <https://coderefinery.org/> crediting staff/team.
-
-- List on <https://coderefinery.org/join/individuals/> the steps that need to
-  be done by a new person.
-
-- On <https://coderefinery.org/> describe better how somebody or some
-  organization can help. This page here is part
-  of the solution but more is needed.
-
-- In the [manuals](https://coderefinery.github.io/manuals/) add a new page that
-  explains certificates and evaluation process.
-
-- Take a [manual issue](https://github.com/coderefinery/manuals/issues) which
-  looks interesting and easy to you. Ask on chat or mention `@bast` if you want
-  more context about any of these.
-
-- Go through TO-DO items from [the 2022 kick-off
-  event](https://hackmd.io/@coderefinery/kickoff2022) and port them to this
-  document.
-
-
-## Tasks where we struggle and can use help
-
-- Create a governance charter for a non-profit organization which could be the
-  follow-up organization for CodeRefinery.
-
-- Outreach, newsletter, social media. You can help us with blogs, drafting
-  newsletter, engaging in relevant social media posts.
-
-- Event management. We have many folks who like to develop lessons or teach or
-  help but who do not
-  enjoy the event management part of it. But perhaps you do? You could help
-  us reaching many more people.
-
 {{ enddiv() }}
 
 {{ div() }}
