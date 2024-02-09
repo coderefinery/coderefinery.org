@@ -19,7 +19,7 @@ coordination. NeIC also provides funding for travel, meetings, and conferences.
 A number of organizations encourage their staff to teach and co-organize
 CodeRefinery workshops as part of their work time.
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -33,11 +33,17 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
+      <div class="uk-width-expand">
+        <div>Richard Darst</div>
+        <div>Enrico Glerean</div>
+        <div>Thomas Pfau</div>
+        <div>Jarno Rantaharju</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -51,11 +57,15 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
+      <div class="uk-width-expand">
+        <div>Matias Jääskeläinen</div>
+        <div>Samantha Wittke</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -69,11 +79,14 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
+      <div class="uk-width-expand">
+        <div>Stephan Smuts</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -87,11 +100,13 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
+      <div class="uk-width-expand">
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -105,11 +120,14 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
+      <div class="uk-width-expand">
+        <div>Thor Wikfeldt</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -123,11 +141,15 @@ CodeRefinery workshops as part of their work time.
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
+      <div class="uk-width-expand">
+        <div>Diana Iusan</div>
+        <div>Johan Hellsvik</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="uk-card uk-card-default uk-width-1-2@m">
+<div class="uk-card uk-card-default uk-width-2-2@m">
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
@@ -141,6 +163,11 @@ CodeRefinery workshops as part of their work time.
           <h3 class="uk-card-title uk-margin-remove-bottom">NRIS/Sigma2</h3>
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
+      </div>
+      <div class="uk-width-expand">
+        <div>Radovan Bast</div>
+        <div>Bjørn Lindi</div>
+        <div>Dhanya Pushpadas</div>
       </div>
     </div>
   </div>
@@ -177,12 +204,12 @@ ASC has been involved in CodeRefinery since 2017.
 
 ### TU Delft
 
-(we need to write more here)
+TU Delft has provided local breakoutrooms for many core workshops. 
 
 
 ### VU Amsterdam
 
-(we need to write more here)
+VU Amsterdam has provided local breakoutrooms for many core workshops. 
 
 
 ## We are supported by [Zulip](https://zulip.com/)
