@@ -86,29 +86,13 @@ urgent.
 
 ## If you have 1 day
 
-- Short video which explains how to join a workshop.
-
-- Teaser video which in 3 minutes explains what the project is about.
-
-- Teaser slide deck (5 slides?) which explains what the project is about and
-  how organizations can get on board.
-
-- Make one of our lessons citable starting from
-  <https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/>. Use a
-  `CITATION.cff` file and from that one generate the `.zenodo.json` file and
-  deploy to Zenodo. Document how to do this for all other lessons. Contact JH
-  or RB if you want to join this task.
-
-- Take an [issue](https://github.com/coderefinery/installation/issues) from
-  our [install instructions](https://coderefinery.github.io/installation/).
-
 - Take a lesson issue which looks
   interesting and easy to you from one of our
   [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
   or mention `@bast` if you want more context about any of these.
 
-- Draft and execute a post-workshop survey for 2021-2023 workshops starting
-  from <https://github.com/coderefinery/post-workshop-survey>.
+- Take an [issue](https://github.com/coderefinery/installation/issues) from
+  our [install instructions](https://coderefinery.github.io/installation/).
 
 - Draft a blog post about the tools we use based on a nice chat thread ([GitHub
   issue](https://github.com/coderefinery/coderefinery.org/issues/720)).
