@@ -113,37 +113,6 @@ urgent.
 - Draft a blog post about the tools we use based on a nice chat thread ([GitHub
   issue](https://github.com/coderefinery/coderefinery.org/issues/720)).
 
-
-## Tasks for multiple days
-
-- Create a survey and collect testimonials from
-  [GitLab](https://coderefinery.org/repository/) users. Contact RB.
-
-- Prepare a financing plan from the [GitLab
-  service](https://coderefinery.org/repository/). Contact RB.
-
 {{ enddiv() }}
 
 {{ enddiv() }}
-
----
-
-## Recently finished
-
-- Set up a Zenodo community: https://zenodo.org/communities/coderefinery/
-
-- Create a commented list of our lessons starting from
-  <https://coderefinery.org/lessons/from-coderefinery/>.
-  The comments could be: audience, maturity, strong points, weaker points,
-  etc.
-
-- Create a commented list of other lessons by our partners and the CodeRefinery
-  community. Instead of only linking to other material, add comments.
-
-- Set up a registration page for September 2023 workshop. RB is working on it but can
-  use additional feedback and help.
-  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
-
-- Set up workshop page for September 2023 workshop. RB is working on it but can
-  use additional feedback and help.
-  Start from <https://coderefinery.org/blog/2023/06/25/planning-sep-workshop/>.
