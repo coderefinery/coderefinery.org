@@ -12,9 +12,9 @@ do.
 For any of these, you can get started by [joining a
 meeting](@/join/meetings.md) and say hi, or [join our
 chat](https://coderefinery.github.io/manuals/chat/) and introduce yourself in
-the "#new members" stream.  Or contact anyone you know for a recommendation on
-how to get involved - we aren't that formal yet.  If you've been sent this page
-as a "help out at this workshop", that will tell you who to contact.
+the "#new members" stream. We also have collected all important links and info on 
+our [onboarding page](https://coderefinery.github.io/manuals/onboarding/).
+If things are not clear, please let us know in the Zulip chat so that we can improve. 
 
 
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
