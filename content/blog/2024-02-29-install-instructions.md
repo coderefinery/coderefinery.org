@@ -1,7 +1,7 @@
 +++
-title = 'TITLE'
+title = 'Help us make usable IDE/git install instructions'
 slug = "2024/02/29/install-instructions"
-description = "1-2 sentence description for social media previews"
+description = "We want our workshops to be more usable than before, and that means aligning with best practices."
 
 [extra]
 authors = "Richard Darst"
