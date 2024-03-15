@@ -9,17 +9,17 @@ authors = "Samantha Wittke, Radovan Bast"
 
 What an exciting first 3 days of the CodeRefinery workshop we had!
 
-Our git lesson got fully rewritten right before the workshop to make it more welcoming to beginners and closer to how researchers would encounter git in their work. And that without the need for any coding: All our git exercises are around a recipe book.
+Our Git lesson got fully rewritten right before the workshop to make it more welcoming to beginners and closer to how researchers would encounter Git in their work. And that without the need for any coding: All our Git exercises are around a recipe book.
 
 ### Week 1 recap
 
 We start with the GitHub web interface, explore existing repositories, making our own fork of an existing repository, committing our own contributions to our own branch and merge it to the main content by pull request.
 
-Only on day 2 we switched from working in the GitHub web interface to working locally. Here we provided 2-4 tracks: Working on the commandline , in VScode, RStudio or staying in the web interface.
+Only on day 2 we switched from working in the GitHub web interface to working locally. Here we provided 2-4 tracks: Working on the command line , in VScode, RStudio or staying in the web interface.
 
 We cloned a repository and repeated the actions from before locally: committing, branching, merging. Then we also checked how we can inspect the history of existing projects and how commit messages can help us understand how a repository has developed over time.
 
-At the end of day 2, we also learned to estimate how much git is necessary or helpful for different types of projects.
+At the end of day 2, we also learned to estimate how much Git is necessary or helpful for different types of projects.
 
 Day 3 was all about collaboration and it got a bit chaotic, but the good kind of chaotic. We first learned about the basic workflow of contributing when multiple people are working on the same repository. Writing issues, suggesting changes via pull requests and connecting the two. Then we went on to code review, and practiced that on our recipe book, we don't want any typos there!
 
@@ -35,8 +35,8 @@ Thanks to everyone involved!
 
 ### Materials and recordings
 
-You can watch the recordings of the first 3 days of the workshop on YouTube (https://www.youtube.com/watch?v=9eUUd40HkYI&list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U) , reuse the lesson materials for your own course if you like (https://coderefinery.org/lessons/core/) and check out one of the resulting collaborative recipe books of this course (https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded) for cooking inspiration.
+You can watch the recordings of the first 3 days of the workshop [on YouTube](https://www.youtube.com/watch?v=9eUUd40HkYI&list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U), reuse the lesson materials for your own course if you like (<https://coderefinery.org/lessons/core/>) and check out one of the resulting collaborative [recipe books of this course](https://github.com/cr-workshop-exercises/centralized-workflow-exercise-recorded) for cooking inspiration.
 
-Next week (Tue 19.03.24- Thu 21.03.24) we will continue with other topics around FAIR researchsoftware development; event page with materials, questions and answers and more information: https://coderefinery.github.io/2024-03-12-workshop/
+Next week (Tue 19.03.24- Thu 21.03.24) we will continue with other topics around FAIR research software development; event page with materials, questions and answers and more information: <https://coderefinery.github.io/2024-03-12-workshop/>
 
 See you there or in one of our future workshops!
