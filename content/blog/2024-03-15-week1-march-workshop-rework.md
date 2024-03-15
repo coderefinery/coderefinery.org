@@ -4,7 +4,7 @@ slug = "2024/03/15/week1-march-workshop-rework"
 description = "Looking back at week one of the CodeRefinery workshop and the big rework of the version control lessons"
 
 [extra]
-authors = "Samantha Wittke"
+authors = "Samantha Wittke, Radovan Bast"
 +++
 
 What an exciting first 3 days of the CodeRefinery workshop we had!
