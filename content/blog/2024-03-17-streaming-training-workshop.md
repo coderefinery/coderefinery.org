@@ -36,7 +36,10 @@ and seeing by example with mentoring is easy.
 An ideal host would be an EU or regional computing competence center,
 open science organization, or someone interested in teaching innovation,
 who can host a public workshop, and be able to help in advertising the
-workshop to other interested parties.
+workshop to other interested parties.  (This could be tried online, but
+when we are setting up computers to do the screencapture of a meeting,
+while also doing another meeting to share that screen capture... it
+might get a bit complex.)
 
 Contact us at scip@aalto.fi or support@coderefinery.org, or via the
 [CodeRefinery chat](https://coderefinery.github.io/manuals/chat/).
