@@ -43,6 +43,11 @@ Contact us at scip@aalto.fi or support@coderefinery.org, or via the
 
 ## Gallery
 
+There are different ways to attend (and behind the scenes, many more
+ways to contribute):<br>
+<img alt="Schematic diagram of ways to attend CodeRefinery." src="https://coderefinery.github.io/2024-03-12-workshop/processed_images/how-to-join.2d9d0980087a6ca4.png" style="max-width: 420px">
+
+
 How the MOOC stragegy works:<br>
 <img alt="Schematic diagram of the MOOC strategy.  Streaming to Twitch, and watching, feedback by collaborative notes." src="https://coderefinery.github.io/manuals/_images/mooc-diagram.png" style="max-width: 420px">
 
