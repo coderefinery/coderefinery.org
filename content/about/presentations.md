@@ -3,9 +3,11 @@ title = "Presentations"
 description = "Presentations about the project and workshops"
 +++
 
+- [CodeRefinery talk at RSECon - Experiences from teaching basic RSE skills with CodeRefinery, September 05, 2023 (Samantha Wittke, Radovan Bast)](https://zenodo.org/records/8317155)
 - [CodeRefinery flashtalk in BoF at ISC – Challenges in reverse hybrid teaching, May 23, 2023 (Matias Jääskeläinen)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2023-ISC-lightning_WS-challenges.md/#1)
 - [CodeRefinery flashtalk and participation in panel discussion Education in HPC: A Lifelong Effort, EuroHPCSummit, March 22, 2023 (Johan Hellsvik)](https://www.eurohpcsummit.eu/)
 - ["CodeRefinery: What We Learned from Teaching Software Engineering Practices to Students and Researchers in Nordics and Beyond" at SIAM Conference on Computational Science and Engineering 2023 (Radovan Bast)](https://doi.org/10.6084/m9.figshare.22191292.v1)
+- [CodeRefinery short talk at deRSE - CodeRefinery - a hub for FAIR Software practices as part of the Teaching and Learning Research Software Engineering workshop, February 21, 2023 (Samantha Wittke)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2023-derse.md/#1)
 - ["CodeRefinery - a hub for FAIR Software practices" at DeiC conference 2022 (Radovan Bast)](https://www.deic.dk/en/conference/2022/program-day-1)
 - [CodeRefinery and the Nordic perspective, at RDA FAIR webinar, Aug 30, 2021 (Radovan Bast)](https://rda-software-webinar.readthedocs.io/)
 - [Plenary session at Seminar for bibliotekenes nettverk for ph.d.-støtte (Naoe Tatara)](https://www.phdontrack.net/nettverk/seminar/2021/program_final.pdf) - Oppskalering av workshops på best praksis av data science og forskningsprogramvareutvikling - hvordan kan de nå de som trenger? [Presentation slides (Contents except for the title is in English)](https://www.phdontrack.net/nettverk/seminar/2021/tatara.pdf) 
