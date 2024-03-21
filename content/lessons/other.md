@@ -74,6 +74,8 @@ a community you can join and give contributions to:
 
 - [Lecture recordings by High Performance Computing Center North (HPC2N)](https://www.youtube.com/user/HPC2N/videos)
 
+- [Github without Commandline by RSE at Stellenbosch University, South Africa](https://github.com/RSE-at-SUN/GitHub-Desktop-workshop-2022)
+
 
 ## Interesting organisations and projects to follow
 
