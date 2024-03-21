@@ -74,3 +74,10 @@ options:
 * There is a #help stream in [CodeRefinery
   chat](https://coderefinery.zulipchat.com/) where we welcome
   general questions and provide support on a best-effort basis.
+
+## CodeRefinery in one hour
+
+If you want to get an impression of the topics discussed in this workshop, check out the materials of the CodeRefinery in one hour workshop:
+
+* [Exercises](https://coderefinery.github.io/research-software-engineering/)
+* [Slides](https://zenodo.org/records/8242055)
