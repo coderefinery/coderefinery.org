@@ -88,6 +88,7 @@ a community you can join and give contributions to:
 - [rOpenSci: Transforming science through open data](http://ropensci.org)
 - [The RSE Community](https://twitter.com/ResearchSoftEng)
 - [NumFOCUS](http://www.numfocus.org)
+- [NASA TOPS Open Science 101](https://openscience101.org/)
 - [Netherlands eScience Center](https://www.esciencecenter.nl)
 - [The Turing Way](https://the-turing-way.netlify.app/)
 - [The Programming Historian](https://programminghistorian.org/en/lessons/)
