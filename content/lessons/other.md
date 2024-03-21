@@ -103,3 +103,4 @@ a community you can join and give contributions to:
 - [Society of Research Software Engineering](https://society-rse.org/)
 - [Research Software Alliance](http://www.researchsoft.org/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [Reproducibility for everyone](https://www.repro4everyone.org/)
