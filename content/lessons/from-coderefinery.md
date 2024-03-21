@@ -85,6 +85,10 @@ regular 6 half-day workshop.
   As the project and community grows, documentation becomes more important and
   this is our place where we document our guides and methods and solutions.
 
+## CodeRefinery in one hour
+
+[Slides](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/research-software-engineering/main/presentation.md/) and [exercises](https://coderefinery.github.io/research-software-engineering/) introducing version control, documentation, reproducibility and containers, cmake and 'sharing and reusing'.
+
 
 ## Special topics
 
