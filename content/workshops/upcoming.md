@@ -1,15 +1,13 @@
 +++
 title = "Upcoming workshops and events"
 description = "Upcomng core CodeRefinery workshops and other related events."
-date = 2024-02-06
+date = 2024-03-21
 +++
 
 ## Core CodeRefinery Workshops
 
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
-
-- [Tue-Thu, March 12-14 and 19-21 (6 half-days, online)](https://coderefinery.github.io/2024-03-12-workshop/)
 
 We don't want you to miss a workshop or event. The best
 way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
@@ -19,6 +17,7 @@ You can also subscribe to our [RSS feed](/atom.xml).
 
 ## Past workshops and events
 
+- [Tue-Thu, March 12-14 and 19-21 (6 half-days, online)](https://coderefinery.github.io/2024-03-12-workshop/)
 - [Tue-Thu, September 19-21 and 26-28 (6 half-days, online)](https://coderefinery.github.io/2023-09-19-workshop/)
 - [Python for Scientific Computing, November 22-25,
   2022](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/).
