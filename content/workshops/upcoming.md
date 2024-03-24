@@ -10,7 +10,7 @@ date = 2024-03-21
 is important for RSS feed. -->
 
 We don't want you to miss a workshop or event. The best
-way to stay informed is to join [our newsletter](https://tinyletter.com/coderefinery)
+way to stay informed is to join [our newsletter](@/about/newsletter.md)
 (we are working on reviving it and will post updates there soon).
 You can also subscribe to our [RSS feed](/atom.xml).
 

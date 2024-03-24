@@ -25,7 +25,7 @@ To ask questions about workshops or services or to report issues:
 ### Announcements: Newsletter
 
 You can subscribe to the CodeRefinery newsletter
-[here](https://tinyletter.com/coderefinery).
+[here](@/about/newsletter.md).
 
 
 ### Announcements and social media: Mastodon and Twitter
@@ -34,6 +34,7 @@ If you like what we do, please reach out:
 Mastodon at
 [@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery) and
 Twitter at [@coderefine](https://twitter.com/coderefine)
+
 
 ### Calendars
 
