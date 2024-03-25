@@ -36,12 +36,13 @@ urgent.
 - Browse any of the [core lessons](https://coderefinery.org/lessons/core/) and
   open issues with suggestions for improvement.
 
-- Browse <https://coderefinery.org/> and [open
+- Browse <https://coderefinery.org> and [open
   issues](https://github.com/coderefinery/coderefinery.org/issues) about
   problems you find or any suggestions for improvements.
 
 - Take a [website issue](https://github.com/coderefinery/coderefinery.org/issues) which looks
-  interesting and easy to you. Ask on chat or mention `@bast` if you want more context about any of these.
+  interesting and easy to you. Ask on chat or in the GitHub issue if you want
+  more context about any of these.
 
 {{ enddiv() }}
 
@@ -52,7 +53,7 @@ urgent.
 - Take a lesson issue which looks
   interesting and easy to you from one of our
   [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
-  or mention `@bast` if you want more context about any of these.
+  or in the GitHub issue if you want more context about any of these.
 
 - Take an [issue](https://github.com/coderefinery/installation/issues) from
   our [install instructions](https://coderefinery.github.io/installation/).
