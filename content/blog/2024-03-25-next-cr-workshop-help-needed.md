@@ -20,10 +20,10 @@ short supply, but something more about bigger picture stuff.  For
 example, any of the following would be very important to get:
 
 * **Instructor coordinator**, who can keep track of all of our
-  instructors and make sure the necessary onboarding and all is doe.
+  instructors and make sure the necessary onboarding and all is done.
 
 * **Registration coordinator**, who can help manage all of the
-  registrations and communicaiton.
+  registrations and communication.
 
 * **Partner coordinator** who can help with outreach to partners
   (other universities for example) who advertise our workshop and
@@ -33,7 +33,7 @@ None of these are exactly hard, and we can help you learn what is
 needed (but also there is a lot that can be improved for the future -
 new visions are welcome).
 
-Our vision is that our commonly shareable online, livestreamed course
+Our vision is that our commonly shareable online, live-streamed course
 can be used by as many organizations and learners as possible.  We
 have the base and now we need the communication and outreach to make
 that possible.  (If you can't help directly, but want to be part of
