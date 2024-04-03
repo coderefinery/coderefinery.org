@@ -8,7 +8,7 @@
 - **Over 288 active users, 226 groups, with over 390 active projects**.
 - The service is hosted at <https://source.coderefinery.org>.
 - The is currently run from and the data is stored on servers at the
-  [Danish e-Infrastructure Cooperation (DeiC)](https://www.deic.dk/). DeiC is part of the Nordic
+  [Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/). DeiC is part of the Nordic
   e-Infrastructure collaboration funding this project.
 - To inform us about issues, please contact `support@coderefinery.org`.
 - We announce service breaks through messages displayed once you log into the
