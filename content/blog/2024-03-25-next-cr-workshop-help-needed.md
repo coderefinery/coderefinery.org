@@ -15,7 +15,7 @@ there's another thing we need: the mere fact we have hundreds of
 registrations, multiple partners, and more than 10 instructors means
 **we need more help to keep these going**.
 
-**We won't schedule another CodeRefinery workshop until we can be sure
+**We won't schedule another very large CodeRefinery workshop until we can be sure
 we have enough people to distribute the load widely enough to make it
 worth it.  If we don't get that, we'll scale down to what is
 manageable.  Your help is essential.  We give an initial deadline of
