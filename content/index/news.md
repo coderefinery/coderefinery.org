@@ -3,7 +3,7 @@
 
 ## News
 
-- [Tuesday Tools & Techniques for High Performance Computing, March and April 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/):
+- [Tuesday Tools & Techniques for High Performance Computing, April-May 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/):
   Do you use supercomputers in your research work? Are you curious about making
   your computing faster and more efficient? Join us for TTT4HPC: four
   self-contained episodes on best practices in High Performance Computing. This
