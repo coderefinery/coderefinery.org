@@ -1,7 +1,7 @@
 +++
-title = Workshop format "
+title = "Workshop format"
 description = "Discussions on Workshop format and how it affects lesson development "
-date = 2024-02-27 
+date = "2024-02-27" 
 +++
 
 
