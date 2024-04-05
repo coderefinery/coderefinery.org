@@ -29,6 +29,12 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 - *CodeRefinery Workshops*, [PDC June 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-1/coderefinery-workshops-1.744807)
 - *The CodeRefinery Project*, [PDC December 2016 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2016-no-2/the-coderefinery-project-1.744952)
 
+## Mentions of the CodeRefinery project in other materials
+
+-  I. A. Cosden, K. McHenry and D. S. Katz, "Research Software Engineers: Career Entry Points and Training Gaps," in Computing in Science & Engineering, vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on [arxiv](https://arxiv.org/pdf/2210.04275.pdf); page 7
+- US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career. Zenodo. https://doi.org/10.5281/zenodo.10073233; page 19
+- Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK. Zenodo. https://doi.org/10.5281/zenodo.10473186; page 15
+
 
 ## Project proposals, reports, and documents
 
@@ -46,3 +52,4 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 - [NeIC open call 2021 evaluation report](open-call-2021-evaluation.pdf)
 - [Collaboration agreement (phase 3)](phase-3-collaboration-agreement.pdf)
 - [Project plan (phase 3)](phase-3-project-plan.pdf)
+- [Mid-term presentation for NeIC Board](https://zenodo.org/records/10388062) 

@@ -74,6 +74,8 @@ a community you can join and give contributions to:
 
 - [Lecture recordings by High Performance Computing Center North (HPC2N)](https://www.youtube.com/user/HPC2N/videos)
 
+- [Github without Commandline by RSE at Stellenbosch University, South Africa](https://github.com/RSE-at-SUN/GitHub-Desktop-workshop-2022)
+
 
 ## Interesting organisations and projects to follow
 
@@ -88,6 +90,8 @@ a community you can join and give contributions to:
 - [rOpenSci: Transforming science through open data](http://ropensci.org)
 - [The RSE Community](https://twitter.com/ResearchSoftEng)
 - [NumFOCUS](http://www.numfocus.org)
+- [Oxford Research Software Engineering group](https://train.oxrse.uk/)
+- [NASA TOPS Open Science 101](https://openscience101.org/)
 - [Netherlands eScience Center](https://www.esciencecenter.nl)
 - [The Turing Way](https://the-turing-way.netlify.app/)
 - [The Programming Historian](https://programminghistorian.org/en/lessons/)
@@ -99,3 +103,4 @@ a community you can join and give contributions to:
 - [Society of Research Software Engineering](https://society-rse.org/)
 - [Research Software Alliance](http://www.researchsoft.org/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [Reproducibility for everyone](https://www.repro4everyone.org/)

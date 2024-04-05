@@ -142,7 +142,7 @@ information on either the client or server side.
   processor) for email communication where we use our contact email address
   (support@coderefinery.org), except for the cases where we send email from
   <https://indico.neic.no>.
-- We use [TinyLetter(mailchimp)](https://mailchimp.com/legal/privacy/) as a
+- We use <https://postit.csc.fi/sympa/> as a
   platform to send a newsletter.
 - Anonymized survey results and workshop/event attendee statistics are or will
   be published on

@@ -91,12 +91,12 @@ CodeRefinery workshops as part of their work time.
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
         <a href="https://deic.dk/" target="_blank">
-          <img width="100px" src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Cooperation">
+          <img width="100px" src="/about/funding/deic.png" alt="logo: Danish e-Infrastructure Consortium">
         </a>
       </div>
       <div class="uk-width-expand">
         <a href="https://deic.dk/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Danish e-Infrastructure Cooperation</h3>
+          <h3 class="uk-card-title uk-margin-remove-bottom">Danish e-Infrastructure Consortium</h3>
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>

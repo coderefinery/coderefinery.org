@@ -8,7 +8,7 @@
 This page exists to make it easier to help and easier to see what project
 members are working on and what tasks they prioritize.
 
-We wanted to move this from our heads and from our notebooks and make this
+We wanted to make our work more
 visible and accessible for everybody who wants to help and be involved.
 
 If somebody has 1 hour
@@ -20,12 +20,15 @@ individuals and organizations can stay informed.
 
 </div>
 
-In each category we try to sort tasks by priority from most urgent to least
-urgent.
-
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
 
 {{ div() }}
+
+
+## Our project board with all tasks
+
+- <https://github.com/orgs/coderefinery/projects/7>
+- Please reach out on chat if you would like to collaborate on some of the tasks.
 
 
 ## Good first issues if you have 1 hour
@@ -36,12 +39,13 @@ urgent.
 - Browse any of the [core lessons](https://coderefinery.org/lessons/core/) and
   open issues with suggestions for improvement.
 
-- Browse <https://coderefinery.org/> and [open
+- Browse <https://coderefinery.org> and [open
   issues](https://github.com/coderefinery/coderefinery.org/issues) about
   problems you find or any suggestions for improvements.
 
 - Take a [website issue](https://github.com/coderefinery/coderefinery.org/issues) which looks
-  interesting and easy to you. Ask on chat or mention `@bast` if you want more context about any of these.
+  interesting and easy to you. Ask on chat or in the GitHub issue if you want
+  more context about any of these.
 
 {{ enddiv() }}
 
@@ -52,7 +56,7 @@ urgent.
 - Take a lesson issue which looks
   interesting and easy to you from one of our
   [lessons](https://coderefinery.org/lessons/from-coderefinery/). Ask on chat
-  or mention `@bast` if you want more context about any of these.
+  or in the GitHub issue if you want more context about any of these.
 
 - Take an [issue](https://github.com/coderefinery/installation/issues) from
   our [install instructions](https://coderefinery.github.io/installation/).
