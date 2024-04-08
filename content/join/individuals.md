@@ -63,6 +63,22 @@ there).
 
 {{ div() }}
 
+## CodeRefinery ambassador 
+
+Do you like what we do and would like to help spread the word to your community? 
+- Become an ambassador!
+
+We will provide materials for you to include in your talks, posters and trainings at events (you may anyway be attending). 
+You can also get CodeRefinery goodies to distribute at events. 
+
+We can also support you to start your own local community of CodeRefinery enthusiasts or other activities.
+
+What we can offer: 
+- A chance to influence the future of the project
+- Visibility in social media and on our webpage
+- Weekly community news
+- Support for organizing local events or other activities
+
 
 ## Lesson contributions
 
