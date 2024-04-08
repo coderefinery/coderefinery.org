@@ -74,7 +74,8 @@ You can also get CodeRefinery goodies to distribute at events.
 We can also support you to start your own local community of CodeRefinery enthusiasts or other activities.
 
 What we can offer: 
-- visibility in social media and on our webpage
+- A chance to influence the future of the project
+- Visibility in social media and on our webpage
 - Weekly community news
 - Support for organizing local events or other activities
 
