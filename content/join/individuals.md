@@ -79,6 +79,7 @@ What we can offer:
 - Weekly community news
 - Support for organizing local events or other activities
 
+Let us know if you want to be an ambassador and/or have any questions via our chat (#general > CodeRefinery Ambassador).
 
 ## Lesson contributions
 
