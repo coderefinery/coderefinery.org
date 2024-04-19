@@ -3,7 +3,8 @@ title = 'In-person meeting summary: Onboarding'
 slug = "2024/04/10/writing-retreat-onboarding.md" 
 description = "Onboarding new people to the community"
 
-[extra] authors = "Samantha Wittke" 
+[extra] 
+authors = "Samantha Wittke" 
 +++
 
 In order to provide newcomers to the CodeRefinery community a good experience that inspires them to stay we need to create a welcoming atmosphere and provide a good onboarding.
