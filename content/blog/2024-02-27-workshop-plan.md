@@ -16,19 +16,30 @@ considering following factors.
 3. Best value for host institutes, of CR staff and CR workshop participants  
 
 
-In summary, we evaluated four possible formats. 
+We evaluated four possible formats. 
 
 1. In-person workshops
 2. Small scale online workshop
 3. Large scale online workshops
 4. Large scale workshop with local in-person meetups
 
+## Summary
 
-the host institution invites participants and covers the costs associated with the workshop, including travel expenses for speakers. CodeRefinery workshops can add value to the competence of employees, and the training can be included as part of grant proposals. In-person workshops require high-quality courses and may involve training the trainers. In-person workshops have a maximum attendance limit of around 40 participants and offer benefits such as better feedback, increased learner commitment, improved evaluation of productivity, and individualized help. Sustainability of the program relies on effective publicity and promotional activities. Small scale online workshops can be initiated by the host or organization and offer flexibility in terms of spreading content, providing continuous feedback, and offering individualized help. Large scale online workshops initiated by the organization require more organizational work and face challenges in continuous feedback, learner commitment, and individualized help. Large scale workshops with local in-person meetups offer better individualized help and continuous feedback but require logistical coordination. The cost per learner can be estimated, and the physical space should accommodate breaks and exercise sessions for collaboration. Local in-person meetups have shown benefits, particularly on day 3, while the impact decreases in later days.
+### In-person workshops
+the host institution invites participants and covers the costs associated with the workshop, including travel expenses for speakers. CodeRefinery workshops can add value to the competence of employees, and the training can be included as part of grant proposals. In-person workshops require high-quality courses and may involve training the trainers. In-person workshops have a maximum attendance limit of around 40 participants and offer benefits such as better feedback, increased learner commitment, improved evaluation of productivity, and individualized help. 
 
-## Raw discussions
+### Small scale online workshop
+Sustainability of the program relies on effective publicity and promotional activities. Small scale online workshops can be initiated by the host or organization and offer flexibility in terms of spreading content, providing continuous feedback, and offering individualized help. 
 
- - ==In-person workshops==
+### Large scale online workshops
+Large scale online workshops initiated by the CodeRefinery require more organizational work and face challenges in receiving continuous feedback, learner commitment, and individualized help. 
+
+### Large scale workshop with local in-person meetups
+Large scale workshops with local in-person meetups offer better individualized help and continuous feedback but require logistical coordination. The cost per learner can be estimated, and the physical space should accommodate breaks and exercise sessions for collaboration. Local in-person meetups have shown benefits, particularly on day 3, while the impact decreases in later days.
+
+## Details of the discussions
+
+ 1.  In-person workshops
      - Invited by host
      - Costs reimbursed by host (Travel money etc.), maybe speaker paid by host
        - Host institution facilitate employee competence
@@ -51,7 +62,7 @@ the host institution invites participants and covers the costs associated with t
        - Teasers of the workshop in conferences
        - Webpages should be rewritten to accomodate and advertise the new model
        - Other webinars and talks to advertise more
- - ==Small scale online workshop==
+2. Small scale online workshop
      - Initiated by host or CR
        - If initiated by a host as tailored workshop then should be possible to reimburse for the speaker 
      - Less costs
@@ -67,7 +78,8 @@ the host institution invites participants and covers the costs associated with t
          - in-person helpers are more difficult to arrange anyway
      - Max 40 participants 
          - effective interactions with participents
- - ==Large scale online workshops==
+
+3. Large scale online workshops
      - Initiated by CR
      - More organizational work for CR
      - Low level of obligation (by learners)
@@ -84,7 +96,7 @@ the host institution invites participants and covers the costs associated with t
      - Communicating pre-requisites becomes harder, pre-requisites less likely followed
      - More questions get asked and more answers get seen
 
- - ==Large scale workshop with local in-person meetups==
+4. Large scale workshop with local in-person meetups
      - Better Individual help
      - Better continuous feed back issues
          - Continous quizzes after each exercise to gauge in real-time how the students understand the material. (must be anonymous)
