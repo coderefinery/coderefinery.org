@@ -1,5 +1,42 @@
 events:
   - name: Full online workshop (6 half-days)
+    website: https://coderefinery.github.io/2024-03-12-workshop/
+    start_date: "2024-03-12"
+    end_date: "2024-03-21"
+    organizers:
+      - Radovan Bast
+      - Samantha Wittke
+      - Richard Darst
+      - Teemu Ruokolainen
+      - Enrico Glerean
+    instructors:
+      - Enrico Glerean
+      - Radovan Bast
+      - Samantha Wittke
+      - Gregor Decristoforo
+      - Richard Darst
+      - Matias Jääskeläinen
+      - Jarno Rantaharju
+      - Thomas Pfau
+      - Bjørn Lindi
+    expert_helpers:
+      - Johan Hellsvik
+      - Stephan Smuts
+      - Aurélie Vancraeyenest
+    num_participants:
+      FI: 111
+      SE: 38
+      NO: 21
+      ES: 20
+      DK: 14
+      NL: 13
+      FR: 10
+      IT: 5
+      total: 263
+    twitch_viewers:
+      smallest_viewers_max: 39
+      largest_viewers_max: 107
+  - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2023-09-19-workshop/
     start_date: "2023-09-19"
     end_date: "2023-09-28"
@@ -34,11 +71,11 @@ events:
       UK: 5
       US: 5
       PO: 5
-      SP: 5
+      ES: 5
       total: 360
     twitch_viewers:
-      smallest_viewers_max: 145
-      largest_viewers_max: 54
+      smallest_viewers_max: 54
+      largest_viewers_max: 145
   - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2023-03-21-workshop/
     start_date: "2023-03-21"
@@ -74,8 +111,8 @@ events:
       IT: 9
       total: 493
     twitch_viewers:
-      smallest_viewers_max: 216
-      largest_viewers_max: 112
+      smallest_viewers_max: 112
+      largest_viewers_max: 216
   - name: Uppsala
     website: https://coderefinery.github.io/2023-05-09-uppsala/
     start_date: "2023-05-09"
