@@ -6,9 +6,25 @@ date = "2024-02-27"
 
 
 
-# Possible workshop-formats
+# Possible workshop-formats [V 1.0]
 
-In summary, the host institution invites participants and covers the costs associated with the workshop, including travel expenses for speakers. CodeRefinery workshops can add value to the competence of employees, and the training can be included as part of grant proposals. In-person workshops require high-quality courses and may involve training the trainers. In-person workshops have a maximum attendance limit of around 40 participants and offer benefits such as better feedback, increased learner commitment, improved evaluation of productivity, and individualized help. Sustainability of the program relies on effective publicity and promotional activities. Small scale online workshops can be initiated by the host or organization and offer flexibility in terms of spreading content, providing continuous feedback, and offering individualized help. Large scale online workshops initiated by the organization require more organizational work and face challenges in continuous feedback, learner commitment, and individualized help. Large scale workshops with local in-person meetups offer better individualized help and continuous feedback but require logistical coordination. The cost per learner can be estimated, and the physical space should accommodate breaks and exercise sessions for collaboration. Local in-person meetups have shown benefits, particularly on day 3, while the impact decreases in later days.
+During the CodeRefinery writing retreat in Tromsø, we tried to formulate the best workshop format
+considering following factors.
+
+1. Best way to reach the audience. 
+2. Best use of available resources to CR and foreseen challenges due to end of funding period.
+3. Best value for host institutes, of CR staff and CR workshop participants  
+
+
+In summary, we evaluated four possible formats. 
+
+1. In-person workshops
+2. Small scale online workshop
+3. Large scale online workshops
+4. Large scale workshop with local in-person meetups
+
+
+the host institution invites participants and covers the costs associated with the workshop, including travel expenses for speakers. CodeRefinery workshops can add value to the competence of employees, and the training can be included as part of grant proposals. In-person workshops require high-quality courses and may involve training the trainers. In-person workshops have a maximum attendance limit of around 40 participants and offer benefits such as better feedback, increased learner commitment, improved evaluation of productivity, and individualized help. Sustainability of the program relies on effective publicity and promotional activities. Small scale online workshops can be initiated by the host or organization and offer flexibility in terms of spreading content, providing continuous feedback, and offering individualized help. Large scale online workshops initiated by the organization require more organizational work and face challenges in continuous feedback, learner commitment, and individualized help. Large scale workshops with local in-person meetups offer better individualized help and continuous feedback but require logistical coordination. The cost per learner can be estimated, and the physical space should accommodate breaks and exercise sessions for collaboration. Local in-person meetups have shown benefits, particularly on day 3, while the impact decreases in later days.
 
 ## Raw discussions
 
