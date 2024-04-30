@@ -13,6 +13,12 @@ We welcome everyone interested in CodeRefinery to join our weekly meetings.
 This is the place to drop by if you have questions or would like to get
 involved but don't know where to start.
 
+We are currently piloting topical meetings open for everyone interested in the topic:
+- 6.5. Planning the autumn CodeRefinery workshop
+- 13.5 Welcome CodeRefinery ambassadors!
+- 20.5 (no meeting)
+- TBD
+
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
 - Calendar invites: [Subscribe to "team events" calendar here](/calendars/), which includes these meetings.
 
