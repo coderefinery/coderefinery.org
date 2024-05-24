@@ -14,12 +14,14 @@ This is the place to drop by if you have questions or would like to get
 involved but don't know where to start.
 
 We are currently piloting topical meetings open for everyone interested in the topic:
-- 6.5. Planning the autumn CodeRefinery workshop
-- 13.5 Welcome CodeRefinery ambassadors!
-- 20.5 (no meeting)
+- 27.5 CodeRefinery Zulip chat cleanup & guide writing
+- 3.6 Future of CodeRefinery - discussion
+- 10.6 CodeRefinery in half a day - what could such a workshop look like?
 - TBD
 
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
+
+- We also provide co-working sessions every Monday starting at 15 CEST/CEST, same Zoom room as the meetings. Every little step counts, if you have 10 or 60 minutes to give, spend them with us and work on some open task to support the project.
 - Calendar invites: [Subscribe to "team events" calendar here](/calendars/), which includes these meetings.
 
 
