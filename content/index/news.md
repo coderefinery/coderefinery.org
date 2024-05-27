@@ -3,12 +3,18 @@
 
 ## News
 
-- [Tuesday Tools & Techniques for High Performance Computing, April-May 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/):
-  Do you use supercomputers in your research work? Are you curious about making
-  your computing faster and more efficient? Join us for TTT4HPC: four
-  self-contained episodes on best practices in High Performance Computing. This
-  is a great chance to enhance your computational skills. What you will learn
-  is also used a lot outside academia whenever large scale computations are
-  needed.
-- Our most recent workshop was [Tue-Thu, March 12-14 and 19-21, 2024](https://coderefinery.github.io/2024-03-12-workshop/).
-  All materials are available to be browsed and self-studied.
+- **Our next standard CodeRefinery workshop is 10-12 & 17-19 September
+  2024.** There is no website yet but it will be similar to the [March
+  workshop](https://coderefinery.github.io/2024-03-12-workshop/).  To
+  be informed, sign up for our
+  [newsletter](https://coderefinery.org/about/newsletter/).
+- [Aalto University Scientific Computing/HPC
+  Kickstart](https://scicomp.aalto.fi/training/scip/kickstart-2024/)
+  (4-6 June 2024)is livestream in the CodeRefinery style and open to
+  all.
+- [Tuesday Tools & Techniques for High Performance Computing,
+  April-May
+  2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/) has just
+  ended - material and videos are available.
+- Long-term outlook: [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/) likely in
+  October or November.  The following standard tools workshop in spring 2025.
