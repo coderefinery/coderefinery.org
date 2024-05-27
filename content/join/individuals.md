@@ -24,21 +24,20 @@ If things are not clear, please let us know in the Zulip chat so that we can imp
 
 ## As a learner
 
-Anyone may attend our workshops, and this is a great way to get started.  If
-you want to do more than just attend, join our chat and give feedback during
-the workshop.
+Anyone may attend our workshops, and this is a great way to get
+started.  Our courses are free to the whole world and designed for
+individual learners, too.
 
 
 ## As a team leader
 
-Even during your first workshop, you could register as an exercise leader and
-help a team of others.  This is actually not that hard, and you aren't expected
-to know everything, instead you focus on keeping a good flow and welcoming
-environment.  There are other expert helpers to help you.  If you are
-comfortable enough with the pre-requisites, aren't too scared by error
-messages, and can call for help when you need it, then you can do it! We have
-some [basic on-boarding
-training](https://coderefinery.github.io/manuals/team-leaders/) for you!
+Even during your first workshop, you could help others attend.  Get
+your friends together and watch the course.  We have "exercise breaks"
+where you can work together, locally.  You don't need to know
+everything, only be able to keep the flow and read error messages a
+bit better than others.  We have some [basic on-boarding
+training](https://coderefinery.github.io/manuals/team-leaders/) for
+you!
 
 Maybe you want to bring all the rest of your research group as your team?
 
