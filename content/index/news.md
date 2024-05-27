@@ -7,7 +7,7 @@
   2024.** There is no website yet but it will be similar to the [March
   workshop](https://coderefinery.github.io/2024-03-12-workshop/).  To
   be informed, sign up for our
-  [newsletter](https://coderefinery.org/about/newsletter/).
+  [newsletter](/about/newsletter/).
 - [Aalto University Scientific Computing/HPC
   Kickstart](https://scicomp.aalto.fi/training/scip/kickstart-2024/)
   (4-6 June 2024) is livestreamed in the CodeRefinery style and open to
