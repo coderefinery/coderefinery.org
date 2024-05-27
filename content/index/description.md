@@ -1,7 +1,7 @@
 +++
 +++
 
-# Training and e-Infrastructure for Research Software Development
+# We train you in research software development
 
 Are you an academic researcher using computing/data, and your work is
 held back by struggling with the programming or data management?  Or

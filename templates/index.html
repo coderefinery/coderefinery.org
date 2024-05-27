@@ -19,11 +19,6 @@
     {{ news.content | safe }}
   </div>
 
-  {% set provides = get_page(path="index/provides.md") %}
-  <div class="uk-margin-large-bottom">
-    {{ provides.content | safe }}
-  </div>
-
   <div class="uk-margin-large-bottom">
     {% include "index/join.html" %}
   </div>
