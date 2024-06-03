@@ -15,51 +15,34 @@ authors = "Radovan Bast and Richard Darst"
 
 ## Executive summary
 
-CodeRefinery's NeIC sponshorship may be coming to and end, and the feeling is that partners want the collaboration to continue with some sort of structure.  In short, we propose to organize as a community project with a steering group of interested partners that could take over CodeRefinery management on 2025-01-01:
+CodeRefinery's NeIC sponshorship may be coming to an end, and the feeling is
+that partners want the collaboration to continue with some sort of structure.
+In short, we propose to organize as a community project with a steering group
+of interested partners that could take over CodeRefinery management on
+2025-01-01:
 
-- CodeRefinery continues with roughly the same vision and mission as now.
-  - We want to promote reproducible science by training and community
-  - ... via courses like we have been doing (but with more possibility of new partners joining and custom teaching styles, including small local courses)
+- CodeRefinery continues with roughly the same vision and mission as now:
+  - We want to promote reproducible science by training and community.
+  - We will continue giving courses like we have been doing (but with more
+    possibility of new partners joining and custom teaching styles, including small local
+    courses).
 - Board: a steering group of organizational partners and some community representatives.
   - The steering group will meet occasionally to discuss high-level matters and the broad direction.
-  - The steering group can make agreements on behalf of CodeRefinery
+  - The steering group can make agreements on behalf of CodeRefinery.
   - Updates the governance documents and accepts new organizational partners via majority vote.
-- Community managers: Coordinate the project on a day-to-day basis
-  - Appointed by the steering group (with consultation to the community)
+- Community managers: Coordinate the project on a day-to-day basis.
+  - Appointed by the steering group (with consultation of the community).
   - Handle most of the day-to-day organizational activities (or delegate them).
   - Report to and work with the board.
-- Community
-  - Operated as an open-source project with an open community membership of individuals
+- Community:
+  - Operated as an open-source project with an open community membership of individuals.
   - The board can work with organizational partners to define in-kind contributions and roles.
   - Recognized as decided by board/community managers.
 - We don't currently plan a separate legal entity just for CodeRefinery.
 
-There are ideas on these matters is below, but there will be much more among the "founding board" as it works towards formally defining a collaboration agreement.
-
-
-
-## Discussion points during the in-person meeting
-
-- Mission, vision, guiding principles: what is missing?
-- Initial board composition? The NeIC project partners? What if they prefer not to or are inactive?
-  - proportional to activity 2023-2024?
-- What if a board member leaves?
-- Can community elect a board member?
-  - Should be able to, yes.
-- What decision necessitates board input?
-  - Initially guiding principles (part of foundation document), in principle anything they haven't delegated to a community manager.
-- At which level of support should a partner be offered a board seat?
-  - Board decides. Initial principle is "those with in-kind work".
-- "This is a volunteer organization, no person has any requirement to do anything." - this is currently not the case but maybe we want this to be the case?
-  - I guess that's more for community, rather than paid staff. Paid staff do what their employer says.
-- Responsibilities for future board: what should be left out or added?
-- Who/what has ownership over intellectual property (IP)? Maybe case-by-case?
-  - case: teaching material publicly available – CC-licence?
-  - Transferring IP is probably very hard.  Distributed IP is probably needed.
-- Independent non-profit organization
-- Find the carpentries cooperation model and propose them to be in the board
-    - E.g. Science library of University of Oslo
-
+There are ideas on these matters is below, but there will be much more among
+the "founding board" as it works towards formally defining a collaboration
+agreement.
 
 
 ## Mission, vision, and guiding principles (early draft)
@@ -93,7 +76,9 @@ There are ideas on these matters is below, but there will be much more among the
 - Encourage collaboration when possible to do so.
 
 
-## Project governance 2016 - 2024
+## Structure and responsibilities
+
+### Project governance 2016 - 2024
 
 - Initially: NeIC board
 - NeIC board transfers management to steering group via project directive
@@ -105,7 +90,7 @@ There are ideas on these matters is below, but there will be much more among the
 - Project manager tries to get support and consensus from the project team and community
 
 
-## Scope and responsibilities for future board
+### Scope and responsibilities for future board
 
 - Strategic and organisational planning
 - Ensuring the effective implementation of community objectives
@@ -123,15 +108,19 @@ There are ideas on these matters is below, but there will be much more among the
 - Intellectual property
 
 
-## Outline of the structure
+### Outline of the structure
 
 - Partners: the institutions that collaborate, and unaffiliated individuals.
-- Board: high-level strategy and help. Can be consulted on big decisions and for tricky trade-offs.  Within mission statement, delegates all other decisions to community managers.
-- Community managers: Manage day-to-day work and connection with steering group. Build consensus among those doing the actual work for the day-to-day operations.
+- Board: high-level strategy and help. Can be consulted on big decisions and
+  for tricky trade-offs.  Within mission statement, delegates all other
+  decisions to community managers.
+- Community managers: Manage day-to-day work and connection with steering
+  group. Build consensus among those doing the actual work for the day-to-day
+  operations.
 - Community: does work
 
 
-## Board
+### Board
 
 - Initial board is one person per organization of the NeIC project.
 - Board decides its future composition, probably once a year.
@@ -139,7 +128,7 @@ There are ideas on these matters is below, but there will be much more among the
 - Board confirms community managers (likely with the community's input) and delegates most daily operation to them.
 
 
-## Community managers
+### Community managers
 
 - Coordinate most of the day-to-day work.
 - Are responsible to the board, but mainly lead the community in doing the work.
@@ -147,20 +136,22 @@ There are ideas on these matters is below, but there will be much more among the
 - Can appoint (=recognize on the website) leads in different areas.
 
 
-## Community
+### Community
 
 - Community doe most of the work, and should be recognized as decided by the community managers and board.
 - This is a volunteer organization, no person has any requirement to do anything.
 - Members are expected to abide by our community standards of cooperation and respect.
 
 
-## Code of conduct
+## Working methods
+
+### Code of conduct
 
 We take our [code of conduct](https://coderefinery.org/about/code-of-conduct/) as starting point but suggest to adapt it to
 the governance structure and decision making process.
 
 
-## Conflict resolution
+### Conflict resolution
 
 Questions to be worked out:
 - What to do if there is conflict within leadership?
@@ -169,21 +160,44 @@ Questions to be worked out:
 - What if a collaboration partner becomes problematic? (mission, guiding principles, code of conduct)
 
 
-## Community meetings, communication, and reporting mechanisms
+### Community meetings, communication, and reporting mechanisms
 
 This needs to be worked out.
 Data sharing policy needs to be worked out.
 
 
-## Amendments to the governance document
+### Amendments to the governance document
 
 Board can change based on majority vote.
 
 
-## Periodic review and evaluation
+### Periodic review and evaluation
 
 - How often do we review the governance document?
 - How do we evaluate the success of the community and project?
+
+
+## Discussion points during the in-person meeting in February 2024
+
+- Mission, vision, guiding principles: what is missing?
+- Initial board composition? The NeIC project partners? What if they prefer not to or are inactive?
+  - proportional to activity 2023-2024?
+- What if a board member leaves?
+- Can community elect a board member?
+  - Should be able to, yes.
+- What decision necessitates board input?
+  - Initially guiding principles (part of foundation document), in principle anything they haven't delegated to a community manager.
+- At which level of support should a partner be offered a board seat?
+  - Board decides. Initial principle is "those with in-kind work".
+- "This is a volunteer organization, no person has any requirement to do anything." - this is currently not the case but maybe we want this to be the case?
+  - I guess that's more for community, rather than paid staff. Paid staff do what their employer says.
+- Responsibilities for future board: what should be left out or added?
+- Who/what has ownership over intellectual property (IP)? Maybe case-by-case?
+  - case: teaching material publicly available – CC-licence?
+  - Transferring IP is probably very hard.  Distributed IP is probably needed.
+- Independent non-profit organization
+- Find the carpentries cooperation model and propose them to be in the board
+    - E.g. Science library of University of Oslo
 
 
 ## Inspirations for this document
