@@ -17,7 +17,8 @@ involved but don't know where to start.
 - 2024-05-27: CodeRefinery Zulip chat cleanup & guide writing
 - 2024-06-03: Future of CodeRefinery - discussion
 - 2024-06-10: CodeRefinery in half a day - what could such a workshop look like?
-- TBD
+- 2024-06-17: General CodeRefinery get-togther
+- Summer break until August
 
 
 ## Co-workig sessions: Every Monday at 15 CET/CEST
