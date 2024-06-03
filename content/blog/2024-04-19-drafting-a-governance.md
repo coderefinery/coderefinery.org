@@ -15,12 +15,26 @@ authors = "Radovan Bast and Richard Darst"
 
 ## Executive summary
 
-Our goal is to define mission, vision, and guiding principles
-and to define and set up a decision body and process which would take over the
-responsibilities starting 2025-01-01.
-There are many blanks and questions below. To be discussed and worked out.
-Goal is to have a starting point that the team and steering group
-is comfortable with and to form a working group which will work out details.
+CodeRefinery's NeIC sponshorship may be coming to and end, and the feeling is that partners want the collaboration to continue with some sort of structure.  In short, we propose to organize as a community project with a steering group of interested partners that could take over CodeRefinery management on 2025-01-01:
+
+- CodeRefinery continues with roughly the same vision and mission as now.
+  - We want to promote reproducible science by training and community
+  - ... via courses like we have been doing (but with more possibility of new partners joining and custom teaching styles, including small local courses)
+- Board: a steering group of organizational partners and some community representatives.
+  - The steering group will meet occasionally to discuss high-level matters and the broad direction.
+  - The steering group can make agreements on behalf of CodeRefinery
+  - Updates the governance documents and accepts new organizational partners via majority vote.
+- Community managers: Coordinate the project on a day-to-day basis
+  - Appointed by the steering group (with consultation to the community)
+  - Handle most of the day-to-day organizational activities (or delegate them).
+  - Report to and work with the board.
+- Community
+  - Operated as an open-source project with an open community membership of individuals
+  - The board can work with organizational partners to define in-kind contributions and roles.
+  - Recognized as decided by board/community managers.
+- We don't currently plan a separate legal entity just for CodeRefinery.
+
+There are ideas on these matters is below, but there will be much more among the "founding board" as it works towards formally defining a collaboration agreement.
 
 
 
