@@ -4,36 +4,31 @@ description = "Usual meeting times of the CodeRefinery community; anyone may joi
 aliases = ["/organization/meetings"]
 +++
 
+## Team & community meetings: Every Monday at 14 CET/CEST
 
-## Team & Community meetings
-
-Every Monday at 14 CET/CEST.
+- [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting).
+- Calendar invites: [Subscribe to "team events" calendar](/calendars/), which includes these meetings.
 
 We welcome everyone interested in CodeRefinery to join our weekly meetings.
 This is the place to drop by if you have questions or would like to get
 involved but don't know where to start.
 
-We are currently piloting topical meetings open for everyone interested in the topic:
-- 27.5 CodeRefinery Zulip chat cleanup & guide writing
-- 3.6 Future of CodeRefinery - discussion
-- 10.6 CodeRefinery in half a day - what could such a workshop look like?
+**Our weekly meetings are topical** (but you can also ask questions about other topics):
+- 2024-05-27: CodeRefinery Zulip chat cleanup & guide writing
+- 2024-06-03: Future of CodeRefinery - discussion
+- 2024-06-10: CodeRefinery in half a day - what could such a workshop look like?
 - TBD
 
-- [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting)
 
-- We also provide co-working sessions every Monday starting at 15 CEST/CEST, same Zoom room as the meetings. Every little step counts, if you have 10 or 60 minutes to give, spend them with us and work on some open task to support the project.
-- Calendar invites: [Subscribe to "team events" calendar here](/calendars/), which includes these meetings.
+## Co-workig sessions: Every Monday at 15 CET/CEST
+
+- Same Zoom room as the team meetings ([connection
+  details](https://hackmd.io/@coderefinery/team-meeting)). Every little step
+  counts, if you have 10 or 60 minutes to give, spend them with us and work on
+  some open task to support the project.
 
 
-### Scope
-
-- Information exchange
-- Making sure everything fits together
-- Workshop scheduling, governance, and roadmap
-- Improving the processes, website, and documentation
-- Bouncing ideas off others
-- Making day-to-day decisions
-- Major decisions are also discussed in the [Zulipchat](https://coderefinery.zulipchat.com) or with the steering group
+## Archive
 
 
 ### Archive of past community calls
