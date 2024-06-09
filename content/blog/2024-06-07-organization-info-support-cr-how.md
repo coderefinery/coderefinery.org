@@ -34,7 +34,7 @@ If you are curious about how these workshops work, you can always send observers
 ### Teach with us
 The most valuable contribution for us is to let your experienced employees work on lesson development, or be an instructor on worktime ("contribute in kind"). That way we can learn from each other and everyone can bring in their expertise to make the project sustainable. In-kind contribution can be facilitated by including it as apart of your organisation's culture to develop employee's competence and accelerate knowledge transfer.
 
-### Provide a Workshop Room
+### Provide a local team space
 If you want to provide a better way of learning together in a CodeRefinery workshop, provide a (virtual or real) room for a team from your institution to join the workshop together ("bring your own classroom"). This facilitates collaborative learning. You can make use of our central registration system or use your own (if you need control over own registration, credits, schedule).We mention all "local breakout rooms" on our webpage, if wished, to maximize outreach for these possibilities.
 
 ### Collaborative Workshops
