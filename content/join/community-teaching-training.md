@@ -39,5 +39,4 @@ is useful.
 
 ## See also
 
-The material can be found at [Community teaching
-training](https://coderefinery.github.io/community-teaching/).
+The material can be found at <https://coderefinery.github.io/train-the-trainer/>.

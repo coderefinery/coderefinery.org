@@ -71,19 +71,12 @@ regular 6 half-day workshop.
 
 ## Instructor training and manuals
 
-- [Community teaching](https://coderefinery.github.io/community-teaching/):
-  This material evolved from the "Instructor training" material below. Focus
-  changed from CodeRefinery workshops to online teaching, independently of
-  whether this is CodeRefinery or any other technical topic.
-
-- [Instructor training](https://coderefinery.github.io/instructor-training/):
-  Our first CodeRefinery instructor training events used this material. The
-  material has evolved to the "Community teaching" material (above) where we
-  tried to open it up and beyond only CodeRefinery workshops.
+- <https://coderefinery.github.io/train-the-trainer/>
 
 - [CodeRefinery manuals, our guides and hints on running CodeRefinery](https://coderefinery.github.io/manuals/):
   As the project and community grows, documentation becomes more important and
   this is our place where we document our guides and methods and solutions.
+
 
 ## CodeRefinery in one hour
 

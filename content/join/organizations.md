@@ -25,7 +25,7 @@ workshops we offer and when.
 
 Do you need to teach and reach a broader audience?  Do you put on your own
 workshops? Join CodeRefinery, learn our [teaching
-strategies](https://coderefinery.github.io/community-teaching/), and let's
+strategies](https://coderefinery.github.io/train-the-trainer/), and let's
 improve our events together.  Plenty of technical staff (who aren't primarily
 teachers) need to teach as part of their jobs, and this is the kind of
 community that CodeRefinery provides.

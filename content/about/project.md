@@ -118,11 +118,8 @@ partnerships with [research software engineers](https://nordic-rse.org)
 and researchers who are willing to lead skills' transfer within their
 local communities in the Nordics.
 
-Instructor training workshops take 2 days and cover [this lesson
-material](https://coderefinery.github.io/instructor-training/).
+- [Course material](https://coderefinery.github.io/train-the-trainer/)
 
-* **Level of Instructor training workshops** - Learners should have some familiarity with good software development practices, especially in the context of scientific software, and be
-interested in sharing knowledge and teaching.
 
 ### Other types of events
 

@@ -39,8 +39,5 @@ contributed a significant amount of volunteer work.
 - Erik Edelmann (CSC - IT Center for Science, Finland)
 - Lukas Berger (Technical University of Denmark)
 
-On [this page](https://coderefinery.github.io/instructor-training/02-teaching-philosophies/)
-our instructors share their teaching philosophies in short recorded videos.
-
 
 ## Instructors, helpers, and team leads
