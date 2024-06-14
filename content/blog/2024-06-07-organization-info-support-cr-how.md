@@ -23,7 +23,7 @@ Teams usually have some kind of advanced person with them to guide through the e
 
 From our point of view, organizations can support the CodeRefinery project in many different ways, as can be seen from the following figure:
 
-![Figure showing different possibilities for organizations to support the project, description below](../img/CR_organization.png)
+![Figure showing different possibilities for organizations to support the project, description below](/blog/CR_organization.png)
 
 ### Advertise
 The easiest way to support us is to advertise the workshop to your network. In that way, you can get people that know about FAIR software development back and can start implementing it in their work creating a more collaborative working environment regarding research software. By participating, your organization contributes to improving research software quality.
