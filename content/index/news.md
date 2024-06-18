@@ -4,9 +4,8 @@
 ## News
 
 - **CodeRefinery train the trainer workshop** on four Tuesdays between
-  August 13 and September 3, 9-12 CEST. Preliminary registration is open:
-  https://indico.neic.no/e/CR-ttt24 ; event page will be available soon.
-  To be informed, sign up for our [newsletter](/about/newsletter/).  
+  August 13 and September 3, 9-12 CEST.
+  [Registration and more information](https://coderefinery.github.io/train-the-trainer/)  
 - **Our next standard CodeRefinery workshop is September 10-12 & 17-19,
   2024.** There is no website yet but it will be similar to the [March
   workshop](https://coderefinery.github.io/2024-03-12-workshop/).  To
