@@ -78,7 +78,9 @@ What we can offer:
 - Weekly community news
 - Support for organizing local events or other activities
 
-Let us know if you want to be an ambassador and/or have any questions via our chat (#general > CodeRefinery Ambassador).
+Let us know if you want to be an ambassador by 
+[signing up for our ambassador e-mail list](https://postit.csc.fi/sympa/subscribe/coderefinery-ambassadors/) 
+and/or if you have any questions you can contact us in our chat (#coderefinery > CodeRefinery ambassador program).
 
 ## Lesson contributions
 
