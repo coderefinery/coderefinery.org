@@ -21,6 +21,7 @@ Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
 to list your workshop/event here.
 
+- [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
 - [Tuesday Tools & Techniques for High Performance Computing, March and April 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/)
 
 
