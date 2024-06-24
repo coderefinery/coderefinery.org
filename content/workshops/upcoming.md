@@ -21,6 +21,7 @@ Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
 to list your workshop/event here.
 
+- [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
 
 ## Past workshops and events
 
