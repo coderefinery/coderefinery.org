@@ -1,7 +1,7 @@
 +++
 title = "Upcoming workshops and events"
 description = "Upcomng core CodeRefinery workshops and other related events."
-date = 2024-03-21
+date = 2024-08-27
 +++
 
 ## Core CodeRefinery Workshops
@@ -14,14 +14,13 @@ way to stay informed is to join [our newsletter](@/about/newsletter.md)
 (we are working on reviving it and will post updates there soon).
 You can also subscribe to our [RSS feed](/atom.xml).
 
+- [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
 
 ## Upcoming workshops from partner organizations
 
 Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
 to list your workshop/event here.
-
-- [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
 
 ## Past workshops and events
 
