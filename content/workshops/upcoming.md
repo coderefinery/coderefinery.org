@@ -22,11 +22,10 @@ request](https://github.com/coderefinery/coderefinery.org/edit/main/content/work
 to list your workshop/event here.
 
 - [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
-- [Tuesday Tools & Techniques for High Performance Computing, March and April 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/)
-
 
 ## Past workshops and events
 
+- [Tuesday Tools & Techniques for High Performance Computing, March and April 2024](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/)
 - [Tue-Thu, March 12-14 and 19-21 (6 half-days, online)](https://coderefinery.github.io/2024-03-12-workshop/)
 - [Tue-Thu, September 19-21 and 26-28 (6 half-days, online)](https://coderefinery.github.io/2023-09-19-workshop/)
 - [Python for Scientific Computing, November 07th-10th,
