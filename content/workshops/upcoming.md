@@ -15,6 +15,11 @@ way to stay informed is to join [our newsletter](@/about/newsletter.md)
 You can also subscribe to our [RSS feed](/atom.xml).
 
 - [Tue-Thu, August 27-29 (3 full days, Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/)
+- [Tue-Thu, September 10-12 and 17-19 (6 half-days, online)](https://coderefinery.github.io/2024-09-10-workshop/)
+
+## CodeRefinery train the trainer workshop
+
+- [Every Tuesday between August 13 and September 3 (4 half days, online)](https://coderefinery.github.io/train-the-trainer/)
 
 ## Upcoming workshops from partner organizations
 
