@@ -14,12 +14,24 @@ This is the place to drop by if you have questions or would like to get
 involved but don't know where to start.
 
 **Our weekly meetings are topical** (but you can also ask questions about other topics):
-- 2024-05-27: CodeRefinery Zulip chat cleanup & guide writing
-- 2024-06-03: Future of CodeRefinery - discussion
-- 2024-06-10: CodeRefinery in half a day - what could such a workshop look like?
-- 2024-06-17: General CodeRefinery get-togther
-- Summer break until August
 
+Currently we are on summer break until August
+
+Upcoming: 
+- 2024-08-05: Current state of the project, open tasks and ideas 
+- 2024-08-12: CodeRefinery ambassador call
+- 2024-08-19: TBD
+- 2024-08-26: CodeRefinery workshop - Q&A
+- 2024-09-02: TBD
+- 2024-09-09: TBD
+- 2024-09-16: TBD
+- 2024-09-23: TBD
+
+Previous meetings
+- 2024-06-17: General CodeRefinery get-togther
+- 2024-06-10: CodeRefinery in half a day - what could such a workshop look like?
+- 2024-06-03: Future of CodeRefinery - discussion
+- 2024-05-27: CodeRefinery Zulip chat cleanup & guide writing
 
 ## Co-workig sessions: Every Monday at 15 CET/CEST
 
