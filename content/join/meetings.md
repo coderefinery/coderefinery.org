@@ -18,10 +18,10 @@ involved but don't know where to start.
 Currently we are on summer break until August
 
 Upcoming: 
-- 2024-08-05: Current state of the project, open tasks and ideas 
+- 2024-08-05: Upcoming workshops, info and Q&A
 - 2024-08-12: CodeRefinery ambassador call
 - 2024-08-19: TBD
-- 2024-08-26: CodeRefinery workshop - Q&A
+- 2024-08-26: TBD
 - 2024-09-02: TBD
 - 2024-09-09: TBD
 - 2024-09-16: TBD
