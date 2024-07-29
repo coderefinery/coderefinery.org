@@ -20,12 +20,14 @@ Currently we are on summer break until August
 Upcoming: 
 - 2024-08-05: Upcoming workshops, info and Q&A
 - 2024-08-12: CodeRefinery ambassador call
-- 2024-08-19: TBD
-- 2024-08-26: TBD
-- 2024-09-02: TBD
-- 2024-09-09: TBD
-- 2024-09-16: TBD
-- 2024-09-23: TBD
+- 2024-08-19: CodeRefinery September workshop preparation
+- 2024-08-26: CodeRefinery September workshop preparation
+- 2024-09-02: CodeRefinery September workshop preparation
+- 2024-09-09: CodeRefinery September workshop week 1 preparation
+- 2024-09-16: CodeRefinery September workshop week 2 preparation
+- 2024-09-23: Feedback and debriefing for the CodeRefinery September workshop
+- 2024-09-30: TBD
+- ...
 
 Previous meetings
 - 2024-06-17: General CodeRefinery get-togther
