@@ -30,8 +30,8 @@ For us, the collaborative document bridges the gap between traditional in-person
 
 **Scaling with Community Support: Bring your own classroom**
 
-An innovative aspect of CodeRefinery's approach to online workshops is the collaboration wit local partners to scale the workshop experience 
-while maintaining a sense of community. Local partners organize viewing rooms, either online or in-person, where learners can gather to watch the live stream, discuss the material, and collaborate on exercises. A local team leader facilitates discussions and provides learners with support and encouragement. 
+An innovative aspect of CodeRefinery's approach to online workshops is the collaboration with local partners to scale the workshop experience 
+while maintaining a sense of community. Local partners organize viewing rooms, either online or in-person, where **learners can gather to watch the live stream, discuss the material, and collaborate on exercises**. A local team leader facilitates discussions and provides learners with support and encouragement. 
 
 This setup not only scales the workshops to accommodate a larger number of learners but also preserves the interactive and community-centric 
 atmosphere of smaller workshops. It encourages learners to learn from each other, share their experiences, and apply the skills they are 
