@@ -40,10 +40,26 @@ discussions can be more comfortable and targeted on learners own work.
 
 Local partners have the flexibility to engage in the workshop preparation and organization as much as they wish, though it is not required. 
 This also means that a local partner can provide their learners with a full workshop experience, with possible tailored discussions, 
-without the need for local instructors or the organizational burden of organizing a full workshop.  
+without the need for local instructors or the organizational burden of organizing a full workshop. This way, "bringing your own classroom" to a CodeRefinery workshop can also serve as a testbed for offering this type of course; if a community responds well to certain topics of the workshop, an organization could expand their own course offering based on the experiences collected with us, e.g. by adapting CodeRefinery lesson materials to their own need.
 We offer a one-hour onboarding session prior to the workshop to orient you on the workshop proceedings and share insights on managing a local team. 
 This session also provides ample opportunity for questions and discussions. Following the workshop, we actively seek feedback from both learners 
 and local hosts, including team leads. This iterative process has been invaluable in refining and enhancing the workshop experience over time.
+
+**Bring Your Own Classroom Experiences from Previous Workshops**
+
+Paula Martinez Lavanchy, TU Delft: 
+
+> Our collaboration with the CodeRefinery initiative started in 2020, when we collaboratively organised a Train-the-Trainer activity and co-organizing a CodeRefinery online workshop where TU Delft researchers joined as participants and our data stewards and research software engineers joined as helpers. Since then, we have been ‘bringing our own class’ to the CodeRefinery workshops by joining the streaming of the lessons from the classroom with our participants and helpers.
+
+> The CodeRefinery initiative has helped us and benefit TU Delft researchers in several ways:
+    - The possibility of joining the workshops allowed us to advance with the implementation of our Vision for Research Data & Software management training and the implementation of TU Delft Research Software Policy by providing high quality and well-received training on FAIR software practices.
+    - The involvement of our data stewards, software engineers and trainers as helpers in the CodeRefinery workshops have also provided them with a great opportunity to continuously improve their skills and learn from this great community.
+    - The CodeRefinery learning materials are openly available and of excellent quality. We often refer our researchers to use them as consultation materials on our websites and/or guides.
+
+Lisanna Paladi, EMBL: 
+
+> We represent an established training entity within our institute (EMBL), and decided to present your workshop in the same way we present ours: adding your event to our calendars, having an internal registration to sort out rooms, and explaining that we will have the only role of helpers during your streamed lessons. I think that this worked well in advertising the opportunity and providing locally the essential pre-workshop installation assistance, but it posed a significant challenge: those that didn’t read carefully the workshop description on our website expected us to be the instructors and higher levels of interactivity with them. 
+Besides this point on expectations management, I think your format really allows to reach the biggest possible audience, while also fostering the creation of local communities. We had in-room discussions during the breaks and created a local chat channel for the participants. That was used also in the following days while they were testing the skills learned on their setups. We were inspired by your format in designing ours for the BioNT project.
 
 **Many Ways to Join the Experience**
 
@@ -54,6 +70,7 @@ If you can’t join us directly but want to support our mission, consider becomi
 
 To stay updated on upcoming workshops and opportunities, visit the [CodeRefinery website](https://coderefinery.org) and/or subscribe 
 to the [CodeRefinery newsletter](https://postit.csc.fi/sympa/subscribe/coderefinery). Let’s work together to advance FAIR research software practices!
+
 
 If you’re interested in bringing your own classroom to our next workshop, contact us at support@coderefinery.org .
 
