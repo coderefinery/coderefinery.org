@@ -8,6 +8,7 @@ Join a CodeRefinery workshop with your own classroom and help us scale
 authors = "Samantha Wittke"
 +++
 
+<img width="75%" src="/blog/BYOC.png" alt="Graphical representation of the possibilities of joining a CodeRefinery workshop: As individual learner, online classroom or local classroom, everyone watches the stream and interacts with the instructors via collaborative notes, learners in classrooms can in addition interact with each other and their team lead">
 
 CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable)
 research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring 
