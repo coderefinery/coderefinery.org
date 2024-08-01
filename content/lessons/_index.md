@@ -48,12 +48,17 @@ with very small amounts of computation) should know.
   across projects and across notebooks.
 
 
-## CodeRefinery in one hour
+## Shorter formats
 
-If you want to get an impression of the topics discussed in this workshop, check out the materials of the CodeRefinery in one hour workshop:
-
-* [Slides](https://zenodo.org/records/8242055)
-* [Exercises](https://coderefinery.github.io/research-software-engineering/)
+- [CodeRefinery "mini-workshop"](https://coderefinery.github.io/mini-workshop/):
+  Three sessions, each 1.5 - 2 hours long. Making an image processing pipeline
+  reproducible, reusable, and extensible. Uses Python in examples.
+- ["CodeRefinery in one hour"](https://coderefinery.github.io/research-software-engineering/):
+  If you want to get an impression of the topics discussed in this workshop,
+  check out the materials of the CodeRefinery in one hour workshop
+  ([slides](https://zenodo.org/records/8242055)
+  and
+  [exercises](https://coderefinery.github.io/research-software-engineering/)).
 
 
 ## Video recordings
