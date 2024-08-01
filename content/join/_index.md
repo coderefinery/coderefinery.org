@@ -1,4 +1,4 @@
 +++
 title = "Why and how to join"
-template = "section.html"
+template = "section-tree.html"
 +++

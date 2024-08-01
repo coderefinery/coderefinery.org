@@ -15,7 +15,7 @@ they learn the tools needed to do their work with less trouble.
 
 We are most known for our practical-level workshop
 about [base-level practices of software development tools for
-researchers](@/lessons/core.md). We are also known for our
+researchers](@/lessons/_index.md). We are also known for our
 [unique and engaging online teaching
 style](@/workshops/teaching-style.md), and are building a community
 around this type of shared teaching.

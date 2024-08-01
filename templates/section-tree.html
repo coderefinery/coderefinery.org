@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if section.title %}
+    <h1>{{ section.title }}</h1>
+  {% endif %}
+
+  <div class="uk-margin-large">
+    <ul>
+      {% for page in section.pages | sort(attribute="title") %}
+        <li>
+          <a href="{{ page.permalink }}">
+            {{ page.title }}
+          </a>
+          {% if page.description %}
+            <div class="post-description">
+              {{ page.description }}
+            </div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% if section.content %}
+    {{ section.content | safe }}
+  {% endif %}
+{% endblock content %}

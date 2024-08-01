@@ -11,7 +11,7 @@ Our March workshop is soon.  By now, many of you know what a
 CodeRefinery workshop is - git (intro and collaborative), social
 coding, reproducible research, Jupyter, documentation, testing, and
 modular code development ([check all
-material](@/lessons/core.md)).  But what's less
+material](@/lessons/_index.md)).  But what's less
 known is all the new ways to take part.
 
 **[Workshop page](https://coderefinery.github.io/2023-03-21-workshop/)

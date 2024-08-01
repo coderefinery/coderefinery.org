@@ -15,7 +15,7 @@ We don't just give courses, but **we are a training network** that you
 can join to share the effort and bring better courses to your
 community.
 
-Our [standard workshop](@/lessons/core.md) is well known in Nordic
+Our [standard workshop](@/lessons/_index.md) is well known in Nordic
 academic circles and our [engaging online teaching
 style](@/workshops/teaching-style.md) is considered best-in-class even
 compared to in-person teaching.  CodeRefinery is publicly funded and
