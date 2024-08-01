@@ -1,5 +1,12 @@
 [[feedback]]
 text = """
+I've been on many courses, I organize some bioinformatics courses myself,
+but it was certainly one of the best if not the best course I've attended.
+Thank you for your time and engagement :)
+"""
+
+[[feedback]]
+text = """
 I'm more conscious about the way I write programs and organize their 'organic'
 growth. I try to modularize more and write proper tests. I also use git more
 extensive to keep track about my different development branches
