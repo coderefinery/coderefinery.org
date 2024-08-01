@@ -3,6 +3,14 @@ title = "Presentations"
 description = "Presentations about the project and workshops"
 +++
 
+## 2024
+
+- [SIGHPC Education Webinar CodeRefinery - collaboratively training the next generation of Research Software Engineers](https://sighpceducation.acm.org/events/code_refinery/),
+  [presentation slides](https://zenodo.org/records/11065411),
+  [recording](https://youtu.be/q4WXp89SSQI),
+  Apr 25, 2024 (Samantha Wittke, Radovan Bast)
+
+
 ## 2023
 
 - [Research Software Hour flashtalk](https://zenodo.org/records/10126375) at Supercomputing 23
