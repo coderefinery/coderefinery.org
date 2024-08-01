@@ -3,6 +3,15 @@ title = "Presentations"
 description = "Presentations about the project and workshops"
 +++
 
+
+## Zenodo community
+
+Recently we like to deposit our presentations in the [Zenodo CodeRefinery
+community](https://zenodo.org/communities/coderefinery/).  This way,
+presentation slides don't disappear, they can be cited, and you can find them
+all in one place.
+
+
 ## 2024
 
 - [Presentation](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-liu-org.md/)
