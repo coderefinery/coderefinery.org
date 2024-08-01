@@ -23,6 +23,8 @@ description = "Presentations about the project and workshops"
 
 ## 2022
 
+- ["About the CodeRefinery project"](https://doi.org/10.5446/60140) at the
+  [EuSSI training bazaar](https://eussi.org/bazaar/) - Nov 21, 2022 (Matias Jääskeläinen)
 - "CodeRefinery - a hub for FAIR Software practices" at
   [DeiC conference 2022](https://www.deic.dk/en/conference/2022/program-day-1) (Radovan Bast)
 
