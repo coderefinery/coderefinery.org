@@ -3,6 +3,7 @@
 
 ## News
 
+- Get weekly or monthly updates: [Newsletter](/about/newsletter/)
 - [CodeRefinery train the trainer workshop](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
 - [CodeRefinery tools workshop](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
