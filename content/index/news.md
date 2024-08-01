@@ -4,11 +4,12 @@
 ## News
 
 - Get weekly or monthly updates: [Newsletter](/about/newsletter/)
-- [CodeRefinery train the trainer workshop](https://coderefinery.github.io/train-the-trainer/)
+- [CodeRefinery train the trainer workshop (online)](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
-- [CodeRefinery tools workshop](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
-- [Build Systems Course and Hackathon](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
-- Long-term outlook: [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/) likely in
+- [CodeRefinery tools workshop (Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/) (Aug 27-29, 2024)
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
+- [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
+- Long-term outlook: [Python for Scientific Computing (online)](https://aaltoscicomp.github.io/python-for-scicomp/) likely in
   November. The following CodeRefinery tools workshop in spring 2025.
 
 

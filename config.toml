@@ -49,7 +49,7 @@ navigation = [
       { name = "Reusing", target = "/lessons/reusing/" },
       ] },
   { name = "Workshops and events", target = "/workshops/", items = [
-      { name = "Upcoming", target = "/workshops/upcoming/" },
+      { name = "Upcoming and recent", target = "/workshops/upcoming/" },
       { name = "Past", target = "/workshops/past/" },
       { name = "The CodeRefinery teaching style", target = "/workshops/teaching-style/" },
       { name = "Request or run your own", target = "/workshops/request/" },
