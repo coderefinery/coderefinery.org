@@ -3,7 +3,9 @@ title = "Presentations"
 description = "Presentations about the project and workshops"
 +++
 
-- [Research Software Hour flashtalk at Supercomputing 23 BoF on Scientific Software and the People Who Make it Happen: Building Communities of Practice, November 14, 2023 (Radovan Bast)](https://zenodo.org/records/10126375) + [blogpost on the session](https://betterscientificsoftware.github.io/swe-cse-bof/)
+- [Research Software Hour flashtalk](https://zenodo.org/records/10126375) at Supercomputing 23
+  [BoF on Scientific Software and the People Who Make it Happen: Building Communities of Practice](https://betterscientificsoftware.github.io/swe-cse-bof/2023-11-sc23-bof/),
+  Nov 14, 2023 (Radovan Bast) - [blogpost on the session](https://bssw.io/blog_posts/reflecting-on-our-community-the-sc23-bof-on-scientific-software-and-the-people-who-make-it-happen-building-communities-of-practice)
 - [CodeRefinery talk at RSECon - Experiences from teaching basic RSE skills with CodeRefinery, September 05, 2023 (Samantha Wittke, Radovan Bast)](https://zenodo.org/records/8317155)
 - [CodeRefinery flashtalk in BoF at ISC – Challenges in reverse hybrid teaching, May 23, 2023 (Matias Jääskeläinen)](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2023-ISC-lightning_WS-challenges.md/#1)
 - [CodeRefinery flashtalk and participation in panel discussion Education in HPC: A Lifelong Effort, EuroHPCSummit, March 22, 2023 (Johan Hellsvik)](https://www.eurohpcsummit.eu/)
