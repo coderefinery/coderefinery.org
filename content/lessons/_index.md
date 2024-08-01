@@ -107,7 +107,8 @@ channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
 - [Data visualization using Python](https://coderefinery.github.io/data-visualization-python/):
   This material can be a useful and pragmatic starting point for somebody who
   starts with Python and wants to get up to speed with data visualization.
-  Exercises are mostly using Matplotlib but also other libraries are mentioned.
+  Exercises are mostly using [Vega-Altair](https://altair-viz.github.io/)
+  but also other libraries are mentioned.
 
 - [CMake workshop (based on ENCCS version)](https://coderefinery.github.io/cmake-workshop/):
   This material can give a useful starting point into CMake. It contains
