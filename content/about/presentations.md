@@ -5,6 +5,8 @@ description = "Presentations about the project and workshops"
 
 ## 2024
 
+- [Presentation](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-liu-org.md/)
+  to the Open Science Group, Linköping University, May 7, 2024 (Johan Hellsvik)
 - [SIGHPC Education Webinar CodeRefinery - collaboratively training the next generation of Research Software Engineers](https://sighpceducation.acm.org/events/code_refinery/),
   [presentation slides](https://zenodo.org/records/11065411),
   [recording](https://youtu.be/q4WXp89SSQI),
