@@ -15,6 +15,7 @@ workshop, and what we believe that every computational scientist (even those
 with very small amounts of computation) should know.
 
 - [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2):
+  **Why we want to track versions and how to go back in time to a working version.**
   This lesson brings you from zero to using Git and GitHub for own projects.
 
 - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3):
@@ -22,27 +23,32 @@ with very small amounts of computation) should know.
   (merge requests), forks, and collaboration using Git and GitHub.
 
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4):
+  **Preparing code to be usable by you and others in the future.**
   We focus here on 3 aspects of reproducible programs and computations: documenting dependencies,
   environments, and computational steps in a reproducible way. We touch on containers.
 
 - [Social coding and open software](https://coderefinery.github.io/social-coding/) (day 4):
+  **What can you do to get credit for your code and to allow reuse.**
   We motivate and give an overview over software and data licensing and software citation best practices.
 
-- [Documentation](https://coderefinery.github.io/documentation/) (day 5):
+- [How to document your research software](https://coderefinery.github.io/documentation/) (day 5):
   Here we give an overview of the different ways how a code project can be documented: from small projects to larger projects.
   Markdown and Sphinx are central tools in this lesson.
 
 - [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5):
+  **A tool to write and share executable notebooks and data visualization.**
   This lesson gives an overview of what Jupyter notebooks are, when they can be
   particularly useful, and shows best practices for reusable and reproducible
   notebooks.
 
 - [Automated testing](https://coderefinery.github.io/testing/) (day 6):
+  **Preventing yourself and others from breaking your functioning code.**
   In this lesson we talk about motivation for testing, about test design, but
   also about some tools that are typically used for automated testing of
   software.
 
 - [Modular code development type-along](https://coderefinery.github.io/modular-type-along/) (day 6):
+  **Making reusing parts of your code easier.**
   The focus of this lesson is how to partition and organize projects as they
   grow from one screen-full to larger and how to make code portions reusable
   across projects and across notebooks.
