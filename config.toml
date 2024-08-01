@@ -45,7 +45,7 @@ navigation = [
   { name = "Lessons", target = "/lessons/", items = [
       { name = "Core lessons and self-study", target = "/lessons/core/" },
       { name = "Other CodeRefinery lessons", target = "/lessons/from-coderefinery/" },
-      { name = "Other recommended lessons", target = "/lessons/other/" },
+      { name = "Other lessons we recommend", target = "/lessons/other/" },
       { name = "Reusing", target = "/lessons/reusing/" },
       ] },
   { name = "Workshops and events", target = "/workshops/", items = [
