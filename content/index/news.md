@@ -15,8 +15,7 @@
 
 ### Recent workshops
 
-- Mini-workshop at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
-  [Materials available](https://coderefinery.github.io/mini-workshop/).
+- [Mini-workshop](https://coderefinery.github.io/mini-workshop/) at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
 - [Aalto University Scientific Computing/HPC Kickstart](https://scicomp.aalto.fi/training/scip/kickstart-2024/)
   (Jun 4-6, 2024).
   Materials and recordings available.

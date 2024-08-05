@@ -31,6 +31,7 @@ to list your workshop/event here.
 
 ## Recent workshops and events
 
+- [Mini-workshop](https://coderefinery.github.io/mini-workshop/) at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
 - [Tuesday Tools & Techniques for High Performance Computing (online)](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/) (Mar and Apr, 2024)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-03-12-workshop/) (Mar 12-14 & 19-21, 2024).
 - [Python for Scientific Computing (online)](https://scicomp.aalto.fi/training/scip/python-for-scicomp-2023/) (Nov 7-10, 2023)
