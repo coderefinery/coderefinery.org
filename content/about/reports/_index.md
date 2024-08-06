@@ -24,10 +24,11 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 - *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580) and [Titan.uio.no blog post](https://titan.uio.no/node/3162)
 - *Teaching researchers to write better code*, [https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/](https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/)
 - *Better software leads to better science*, [NeIC news article](https://neic.no/news/2017/03/15/better-software-leads-to-better-science/)
-- *First Year of CodeRefinery*, [PDC December 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-2/first-year-of-coderefinery-1.783468)
-- *CodeRefinery and the Red Queen's race*, [CSC June 2017 blog post](https://www.csc.fi/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race)
-- *CodeRefinery Workshops*, [PDC June 2017 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2017-no-1/coderefinery-workshops-1.744807)
-- *The CodeRefinery Project*, [PDC December 2016 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2016-no-2/the-coderefinery-project-1.744952)
+- *First Year of CodeRefinery*, PDC December 2017 newsletter
+- *CodeRefinery and the Red Queen's race*, CSC June 2017 blog post
+- *CodeRefinery Workshops*, PDC June 2017 newsletter
+- *The CodeRefinery Project*, PDC December 2016 newsletter
+
 
 ## Mentions of the CodeRefinery project in other materials
 
