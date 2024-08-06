@@ -4,12 +4,16 @@ description = "Presentations about the project and workshops"
 +++
 
 
+<div class="uk-background-primary uk-light uk-padding uk-panel">
+
 ## Zenodo community
 
 Recently we like to deposit our presentations in the [Zenodo CodeRefinery
 community](https://zenodo.org/communities/coderefinery/).  This way,
 presentation slides don't disappear, they can be cited, and you can find them
 all in one place.
+
+</div>
 
 
 ## 2024
