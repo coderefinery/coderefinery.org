@@ -18,6 +18,13 @@ all in one place.
 
 ## 2024
 
+- ["Practical software licensing"](https://zenodo.org/records/11554001) at [DataverseNO](https://dataverse.no/) webinar,
+  Jun 10, 2024 (Radovan Bast)
+- ["CodeRefinery - My pathway into Research Software Engineering"](https://zenodo.org/records/11204358)
+  at RSEHPC/ISC24, Jun 10, 2024 (Samantha Wittke)
+- ["Competence building, the CodeRefinery way"](https://zenodo.org/records/11317382)
+  at the [NeIC 2024 conference](https://indico.neic.no/event/259/)
+  in Tallinn, May 28, 2024 (Radovan Bast)
 - [Presentation](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-liu-org.md/)
   to the Open Science Group, Linköping University, May 7, 2024 (Johan Hellsvik)
 - [SIGHPC Education Webinar CodeRefinery - collaboratively training the next generation of Research Software Engineers](https://sighpceducation.acm.org/events/code_refinery/),
