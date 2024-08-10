@@ -21,7 +21,7 @@ You can also browse the
 [survey questions](https://github.com/coderefinery/2024-post-workshop-survey/blob/main/form.pdf)
 and the
 [Jupyter notebook](https://github.com/coderefinery/2024-post-workshop-survey) which generated the plots.
-We have archived the results on Zenodo [FIX LINK].
+We have archived the results [on Zenodo](https://doi.org/10.5281/zenodo.13292363).
 
 For each plot we will also provide a summary in text form right below each
 plot. Further below you can find answers to free-form questions as well as
