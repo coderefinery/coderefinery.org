@@ -82,6 +82,8 @@ Candy Eugenie Charlotte Anquetil Ep Deck, NTNU:
 > People taking the workshop here at NTNU ... from beginning to end (more or less) are usually super happy and enthusiastic when it ends [...] I really think people taking the course learned a lot.
 > I would assume that in person course would definitley be more successfull ... However, I undestand the difficulty when the instructors come from different countries and when you want to offer the workshop for free !
 
+If YOU have hosted your own classroom or have attended a local classroom at a CodeRefinery workshop, please share your feedback with us via support@coderefinery.org. We will continuously add it to this blogpost.
+
 **Many Ways to Join the Experience**
 
 CodeRefinery’s workshops are more than just educational events — they are a step towards more open and collaborative research practices. 
