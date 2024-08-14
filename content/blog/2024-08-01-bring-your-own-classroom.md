@@ -26,7 +26,7 @@ At CodeRefinery, we believe in open access to education. Our workshop materials 
 and sessions are streamed live and recorded for on-demand access on the [CodeRefinery YouTube channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg). 
 This supports that anyone, regardless of their location, can benefit from high-quality training.
 
-During the workshops, we utilize a collaborative document that allows participants to interact with instructors in real-time. 
+During the workshops, we use a collaborative document that allows participants to interact with instructors in real-time. 
 For us, the collaborative document bridges the gap between traditional in-person instruction and the virtual environment, fostering an interactive learning experience for everyone.
 
 **Scaling with Community Support: Bring your own classroom**
