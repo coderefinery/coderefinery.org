@@ -22,7 +22,7 @@ While the current network is concentrated on the Nordics, we welcome learners, i
 
 **Open Source Learning Materials and Inclusive Workshops**
 
-At CodeRefinery, we believe in open access to education. Our workshop materials are freely available online (https://coderefinery.org/lessons/), 
+At CodeRefinery, we believe in open access to education. Our workshop materials are freely available online (<https://coderefinery.org/lessons/>), 
 and sessions are streamed live and recorded for on-demand access on the [CodeRefinery YouTube channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg). 
 This supports that anyone, regardless of their location, can benefit from high-quality training.
 
