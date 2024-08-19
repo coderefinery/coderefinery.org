@@ -72,12 +72,12 @@ Candy Eugenie Charlotte Anquetil Ep Deck, NTNU:
 > This is probably why I thought it could be interesting to organize rooms here at NTNU in order to have people sitting, talking, sharing and  helping each other, ...
 > One of the biggest challenge is to keep the whole classroom from first to last day ...  I think it's impossible 🙂 
 > I think different reasons can be cited  here :
-      - some people are going to conferences (I had the case where someone took the 2 first days and left afterwards)
-      - some have teaching duties
-      - some are taking other mandatory courses (This might be relevant to PhDs)
-      - some people think they are too good and do not need to take the course and drop it (which I think is a mistake)
-      - some people think they are not good enough (same remark here) ... they find the path too fast but they can easily catch up during the breaks when we help onsite.
-      - some people here register and do not bother showing up (This is one pb of the free workshop) ... or come the first day and leave then.
+> - some people are going to conferences (I had the case where someone took the 2 first days and left afterwards)
+> - some have teaching duties
+> - some are taking other mandatory courses (This might be relevant to PhDs)
+> - some people think they are too good and do not need to take the course and drop it (which I think is a mistake)
+> - some people think they are not good enough (same remark here) ... they find the path too fast but they can easily catch up during the breaks when we help onsite.
+> - some people here register and do not bother showing up (This is one pb of the free workshop) ... or come the first day and leave then.
 > 6 half days is time demanding. I would assume the impact would be better if we sort of organise something like what is coming up in Gothenburg (August 27-29, 2024)
 > People taking the workshop here at NTNU ... from beginning to end (more or less) are usually super happy and enthusiastic when it ends [...] I really think people taking the course learned a lot.
 > I would assume that in person course would definitley be more successfull ... However, I undestand the difficulty when the instructors come from different countries and when you want to offer the workshop for free !
