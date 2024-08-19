@@ -15,11 +15,9 @@ involved but don't know where to start.
 
 **Our weekly meetings are topical** (but you can also ask questions about other topics):
 
-Currently we are on summer break until August
+The next large CodeRefinery workshop is coming up in September, so we dedicate our meetings to the preparation and planning of it.
+If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
 
-Upcoming: 
-- 2024-08-05: Upcoming workshops, info and Q&A
-- 2024-08-12: CodeRefinery ambassador call
 - 2024-08-19: CodeRefinery September workshop preparation
 - 2024-08-26: CodeRefinery September workshop preparation
 - 2024-09-02: CodeRefinery September workshop preparation
@@ -29,7 +27,11 @@ Upcoming:
 - 2024-09-30: TBD
 - ...
 
-Previous meetings
+Previous meetings:
+
+- 2024-08-12: CodeRefinery ambassador call
+- 2024-08-05: Upcoming workshops, info and Q&A
+- Summer break
 - 2024-06-17: General CodeRefinery get-togther
 - 2024-06-10: CodeRefinery in half a day - what could such a workshop look like?
 - 2024-06-03: Future of CodeRefinery - discussion
