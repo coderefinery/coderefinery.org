@@ -35,6 +35,7 @@ accomplished in the first five years.
 
 - Funded by the [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) (October 2016 to February 2025)
 - Project manager: Radovan Bast
+- Steering group meeting minutes: [Until 2021](https://wiki.neic.no/wiki/Category:CodeRefinery_meetings) and [from 2022](https://drive.google.com/drive/folders/1wD_fzR94sTcqy-o8Rc1Qbl_l0HUFauHt)
 - Over 30 workshops held with over 1500 participants (see [past workshops](/workshops/past/) and [statistics](/about/statistics/))
 - [GitLab service](/repository/): Over 300 active users, 175 groups, with over 400 active projects
 
