@@ -3,7 +3,7 @@ title = "CodeRefinery goodies"
 description = "Stickers, patches and more!"
 +++
 
-<img src="/about/goodies/goodies.png" alt="CodeRefinery stickers, patches and t-shirt" width="500px">
+<img src="/about/goodies/goodies.jpg" alt="CodeRefinery stickers, patches and t-shirt" width="500px">
 
 We have some goodies for you!
 
