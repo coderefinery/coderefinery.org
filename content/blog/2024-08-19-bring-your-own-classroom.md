@@ -77,7 +77,7 @@ Candy Eugenie Charlotte Anquetil Ep Deck, NTNU:
 > - some are taking other mandatory courses (This might be relevant to PhDs)
 > - some people think they are too good and do not need to take the course and drop it (which I think is a mistake)
 > - some people think they are not good enough (same remark here) ... they find the path too fast but they can easily catch up during the breaks when we help onsite.
-> - some people here register and do not bother showing up (This is one pb of the free workshop) ... or come the first day and leave then.
+> - some people here register and do not bother showing up (This is one pb of the free workshop) ... or come the first day and leave then.
 
 > 6 half days is time demanding. I would assume the impact would be better if we sort of organise something like what is coming up in Gothenburg (August 27-29, 2024)
 > People taking the workshop here at NTNU ... from beginning to end (more or less) are usually super happy and enthusiastic when it ends [...] I really think people taking the course learned a lot.
