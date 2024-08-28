@@ -53,9 +53,9 @@ Paula Martinez Lavanchy, TU Delft:
 > Our collaboration with the CodeRefinery initiative started in 2020, when we collaboratively organised a Train-the-Trainer activity and co-organizing a CodeRefinery online workshop where TU Delft researchers joined as participants and our data stewards and research software engineers joined as helpers. Since then, we have been ‘bringing our own class’ to the CodeRefinery workshops by joining the streaming of the lessons from the classroom with our participants and helpers.
 
 > The CodeRefinery initiative has helped us and benefit TU Delft researchers in several ways:
-    - The possibility of joining the workshops allowed us to advance with the implementation of our Vision for Research Data & Software management training and the implementation of TU Delft Research Software Policy by providing high quality and well-received training on FAIR software practices.
-    - The involvement of our data stewards, software engineers and trainers as helpers in the CodeRefinery workshops have also provided them with a great opportunity to continuously improve their skills and learn from this great community.
-    - The CodeRefinery learning materials are openly available and of excellent quality. We often refer our researchers to use them as consultation materials on our websites and/or guides.
+> - The possibility of joining the workshops allowed us to advance with the implementation of our Vision for Research Data & Software management training and the implementation of TU Delft Research Software Policy by providing high quality and well-received training on FAIR software practices.
+> - The involvement of our data stewards, software engineers and trainers as helpers in the CodeRefinery workshops have also provided them with a great opportunity to continuously improve their skills and learn from this great community.
+> - The CodeRefinery learning materials are openly available and of excellent quality. We often refer our researchers to use them as consultation materials on our websites and/or guides.
 
 Lisanna Paladin, EMBL: 
 
@@ -78,6 +78,7 @@ Candy Eugenie Charlotte Anquetil Ep Deck, NTNU:
 > - some people think they are too good and do not need to take the course and drop it (which I think is a mistake)
 > - some people think they are not good enough (same remark here) ... they find the path too fast but they can easily catch up during the breaks when we help onsite.
 > - some people here register and do not bother showing up (This is one pb of the free workshop) ... or come the first day and leave then.
+
 > 6 half days is time demanding. I would assume the impact would be better if we sort of organise something like what is coming up in Gothenburg (August 27-29, 2024)
 > People taking the workshop here at NTNU ... from beginning to end (more or less) are usually super happy and enthusiastic when it ends [...] I really think people taking the course learned a lot.
 > I would assume that in person course would definitley be more successfull ... However, I undestand the difficulty when the instructors come from different countries and when you want to offer the workshop for free !
