@@ -6,10 +6,6 @@ description = "Presentations about the project and workshops"
 
 <div class="uk-background-primary uk-light uk-padding uk-panel">
 
-## CodeRefinery project presentation slides
-
-For a quick overview and in case you would like to add some slides about the CodeRefinery project to your own presentations, please check out our [short slideset](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-CodeRefinery-basic.md/) and find the source in `markdown` and LibreOffice Impress `odp` format in our [presentation repository](https://github.com/coderefinery/presentations) (named `2024-CodeRefinery-basic.*`).
-
 ## Zenodo community
 
 Recently we like to deposit our presentations in the [Zenodo CodeRefinery
@@ -19,6 +15,13 @@ all in one place.
 
 </div>
 
+
+## CodeRefinery project presentation slides
+
+For a quick overview and in case you would like to add some slides about the CodeRefinery project to your own presentations, 
+please check out our [short slideset](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-CodeRefinery-basic.md/) 
+and find the source in `markdown` and LibreOffice Impress `odp` format in our 
+[presentation repository](https://github.com/coderefinery/presentations) (named `2024-CodeRefinery-basic.*`).
 
 ## 2024
 
