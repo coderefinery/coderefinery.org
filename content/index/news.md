@@ -3,6 +3,7 @@
 
 ## News
 
+- CodeRefinery stickers, patches and more: [Goodies](/about/goodies/)
 - Get weekly or monthly updates: [Newsletter](/about/newsletter/)
 - [CodeRefinery train the trainer workshop (online)](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
