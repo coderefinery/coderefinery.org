@@ -57,7 +57,7 @@ Paula Martinez Lavanchy, TU Delft:
     - The involvement of our data stewards, software engineers and trainers as helpers in the CodeRefinery workshops have also provided them with a great opportunity to continuously improve their skills and learn from this great community.
     - The CodeRefinery learning materials are openly available and of excellent quality. We often refer our researchers to use them as consultation materials on our websites and/or guides.
 
-Lisanna Paladi, EMBL: 
+Lisanna Paladin, EMBL: 
 
 > We represent an established training entity within our institute (EMBL), and decided to present your workshop in the same way we present ours: adding your event to our calendars, having an internal registration to sort out rooms, and explaining that we will have the only role of helpers during your streamed lessons. I think that this worked well in advertising the opportunity and providing locally the essential pre-workshop installation assistance, but it posed a significant challenge: those that didn’t read carefully the workshop description on our website expected us to be the instructors and higher levels of interactivity with them. 
 > Besides this point on expectations management, I think your format really allows to reach the biggest possible audience, while also fostering the creation of local communities. We had in-room discussions during the breaks and created a local chat channel for the participants. That was used also in the following days while they were testing the skills learned on their setups. We were inspired by your format in designing ours for the BioNT project.
