@@ -103,7 +103,7 @@ channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
   and a great chance to enhance your computational skills:
   - [HPC Resources: RAM, CPUs/GPUs, I/O](https://coderefinery.github.io/TTT4HPC_resource_management/)
   - [Day-to-day working on clusters](https://coderefinery.github.io/TTT4HPC_Interactive/)
-  - [Containers on clusters](https://coderefinery.github.io/ttt4hpc_containers/)
+  - [Containers on clusters](https://coderefinery.github.io/hpc-containers/)
   - [Parallelization and workflows](https://coderefinery.github.io/TTT4HPC_parallel_workflows/)
 
 - [Collaborating and sharing using GitHub without command line](https://coderefinery.github.io/github-without-command-line/):
