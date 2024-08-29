@@ -98,6 +98,14 @@ channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
 
 ## Special topics
 
+- [Tuesday Tools & Techniques for High Performance Computing](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/):
+  this is a series of four self-contained episodes on best practices in high performance computing
+  and a great chance to enhance your computational skills:
+  - [HPC Resources: RAM, CPUs/GPUs, I/O](https://coderefinery.github.io/TTT4HPC_resource_management/)
+  - [Day-to-day working on clusters](https://coderefinery.github.io/TTT4HPC_Interactive/)
+  - [Containers on clusters](https://coderefinery.github.io/ttt4hpc_containers/)
+  - [Parallelization and workflows](https://coderefinery.github.io/TTT4HPC_parallel_workflows/)
+
 - [Collaborating and sharing using GitHub without command line](https://coderefinery.github.io/github-without-command-line/):
   In this lesson we try to introduce concepts around GitHub collaboration
   without using the command line at all, only using the web interface or GitHub
