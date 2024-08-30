@@ -15,7 +15,6 @@ You can also subscribe to our [RSS feed](/atom.xml).
 
 - [CodeRefinery train the trainer workshop (online)](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
-- [CodeRefinery tools workshop (Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/) (Aug 27-29, 2024)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
 - [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
 - Long-term outlook: [Python for Scientific Computing (online)](https://aaltoscicomp.github.io/python-for-scicomp/) likely in
@@ -31,6 +30,7 @@ to list your workshop/event here.
 
 ## Recent workshops and events
 
+- [CodeRefinery tools workshop (Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/) (Aug 27-29, 2024)
 - [Mini-workshop](https://coderefinery.github.io/mini-workshop/) at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
 - [Tuesday Tools & Techniques for High Performance Computing (online)](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/) (Mar and Apr, 2024)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-03-12-workshop/) (Mar 12-14 & 19-21, 2024).
