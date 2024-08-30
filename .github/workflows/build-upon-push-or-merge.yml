@@ -1,0 +1,69 @@
+# Zola build workflow.
+
+# Setting it up:
+#   Adjust the variables below, under env.
+#
+#   It is a general limitation of gh-actions that they cannot make the very first
+#   deploy to gh-pages.  It will seem to work, but not appear on the CDN to be
+#   online.  You need to go to settings and set the gh-pages branch, then future
+#   deploys will work.  See
+#   https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-first-deployment-with-github_token
+
+name: Build and deploy website upon push or merge to main
+
+env:
+  ZOLA_VERSION: "0.18.0"
+  CNAME: "coderefinery.org"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # only run on push to main branch or merge to main branch (not on prs that are under review)
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
+    steps:
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Install zola
+      run: |
+        set -x
+        wget -O - \
+           "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+        | sudo tar xzf - -C /usr/local/bin
+
+    - name: Generate HTML
+      run: zola build
+
+    # Add CNAME, either (first one used)
+    # - file in the root
+    # - the environment variable set above
+    - name: add CNAME
+      run: |
+        if [ -f CNAME ] ; then
+            mv CNAME public/
+            echo "Copied CNAME from repository root"
+            exit 0
+        fi
+        if [ -n ${{ env.CNAME }} ] ; then
+            echo -n ${{ env.CNAME }} > public/CNAME
+            echo "Used CNAME from the action workflow file"
+        fi
+
+    - name: Deploy website
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        force_orphan: true
