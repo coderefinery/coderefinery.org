@@ -27,6 +27,7 @@ courses/workshops we know of are listed below but we would like to list more.
 
 ## Derivative work based on our material
 
+- Some talks in the [software and data seminar](https://wias-berlin.de/seminars/swdata/) at the Weierstrass-Institute for Applied Analysis and Stochastics, Berlin, Germany.
 - [Collaborating and sharing using GitHub without command
   line](https://miketrizna.github.io/github-without-command-line/)
   taught as part of a Carpentries workshop at the Smithsonian and now
