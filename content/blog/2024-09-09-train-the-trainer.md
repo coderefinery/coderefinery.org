@@ -8,9 +8,7 @@ Report and insights gathered during our train the trainer workshop in August/Sep
 authors = "Samantha Wittke"
 +++
 
-CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable)
-research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring 
-new methods to make this learning process effective and inclusive. Through our train the trainer workshop we aim to share these practices and give some insights into why we do things as we do. The workshop was highly interactive, and apart from us sharing our experiences we are also encouraging everyone to share their own experiences. While it is not a requirement to become a CodeRefinery instructor after going through the workshop, we are welcoming everyone interested to join our pool of instructors. You do not have to be an expert in all topics taught in our workshop.
+CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable) research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring new methods to make this learning process effective and inclusive. Through our train the trainer workshop we aim to share these practices and give some insights into why we do things as we do. The workshop was highly interactive, and apart from us sharing our experiences we are also encouraging everyone to share their own experiences. While it is not a requirement to become a CodeRefinery instructor after going through the workshop, we are welcoming everyone interested to join our pool of instructors. You do not have to be an expert in all topics taught in our workshop.
 
 The workshop in August / September 2024 was not the first time we taught our practices, however a lot has changed throughout the years and materials needed to be updated. Also the format was new, splitting the four half day workshop days across four Tuesdays.
 
@@ -206,6 +204,7 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
 - Logic will get you from A to B. Imagination will take you everywhere. - Albert Einstein.
 
 ### Has anyone found a nice online tool to draw?
+
 - I love this tool suite https://excalideck.com/ 
     - For drawing https://excalidraw.com/ 
 - I have seen Miro ...
@@ -225,6 +224,7 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
         - I sometimes use the on-screen keyboard already provided by the OS :+1:
 
 ### How can you divide teaching into separate independent tasks?
+
 - By content blocks, having roles like main and assistant...
 - Having responsibility for different sections of the course.
 - Wow, now thats what we call a question... bravo... indeed, how does one separate sleeping and snoring into separate independent tasks...
@@ -233,6 +233,7 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
 - CodeRefinery answer: the big logical blocks are instructors, in-person and breakout room helpers, and Notes-questions answers.
 
 ### What’s the most interesting or useful thing you’ve learned from an online workshop, and how have you applied it/planning to apply in your life or work
+
 - Having breaks every hour or so
 - New approach to screensharing, using the 'portrait' approach
 - Manage breathing: reduce stress and use silence to let the audience grasp what you're saying
