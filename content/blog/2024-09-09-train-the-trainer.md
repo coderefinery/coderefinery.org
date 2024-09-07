@@ -12,11 +12,13 @@ CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is 
 
 The workshop in August / September 2024 was not the first time we taught our practices, however a lot has changed throughout the years and materials needed to be updated. Also the format was new, splitting the four half day workshop days across four Tuesdays.
 
-We had a record interest in the workshop with 82 registrations including instructors from 22 countries with most participants joining from Finland, United Kingdom, Norway, Sweden, Netherlands and Germany, with 10-40 participants attending the sessions. The sessions were standalone and it was free for participants to choose which session to attend. 
+Previous iterations materials: XX and XX. 
+
+For this workshop, we had a record interest in the workshop with 82 registrations including instructors from 22 countries with most participants joining from Finland, United Kingdom, Norway, Sweden, Netherlands and Germany, with 10-40 participants attending the sessions. The sessions were standalone and it was free for participants to choose which session to attend.
 
 This blogpost serves as report from the workshop as well as a collection of the wonderful contributions from all participants throughout the workshop.
 
-As we wanted this workshop to be highly interactive we decided to not record the sessions. All lesson materials are available at https://coderefinery.github.io/train-the-trainer/. 
+As we wanted this workshop to be highly interactive we decided to not record the sessions. All lesson materials are available at https://coderefinery.github.io/train-the-trainer/.
 
 ## Workshop themes and topics
 
@@ -30,26 +32,60 @@ The main topics discussed in the workshop were:
 ### Session 1: About lesson design, deployment and iterative improvement
 
 In our first session, we dove into the CodeRefinery lesson materials, explored the journey to their current versions, and discovered how anyone can contribute to this dynamic resource.
-We also unpacked our lesson template, showing you how to create polished, engaging lesson materials with features that enhance the learning experience. 
-Participants got hands-on experience by creating their own lesson pages, implementing features like tabs and line highlighting. 
 
-### Session 2: Tools and techniques adopted in CodeRefinery workshops 
+One essential aspect of our lesson material is that we have it under version control from the very beginning. We discussed how version control makes lessonds shareable and easy to contribute. We explored different formats and highlighted why we like Sphinx with the sphinx-lesson extension.
 
-In the second session, we took a peek behind the scenes of a large CodeRefinery workshop. We discovered the process of setting up a big event, the various roles involved, and how we keep it interactive with collaborative documents and the possibility to bring your own classroom. 
+We shared our design processes for teaching material and presentations and discussed and practiced the "backwards lesson design", starting from learning objectives and learner personas.
 
-We also looked into the onboarding process for new instructors and helpers, equipping you with the tools to lead and support effectively. 
+We also discussed how we learned to collect feedback, how we turn that into actionable items and how we measure the impact of our teaching. We also discussed the reasons and sources of inspiration behind major lesson and workshop updates.
+
+During the group work sessions we also encouraged everyone to share their way of creating lessons and lesson material as well as feedback.
+
+### Session 2: Tools and techniques adopted in CodeRefinery workshops
+
+In the second session, we took a peek behind the scenes of a large CodeRefinery workshop. We discovered the process of setting up a big event, the various roles involved, and how we keep it interactive with collaborative documents and the possibility to bring your own classroom.
+
+We also looked into the onboarding process for new instructors and helpers, how to prepare for teaching with regard to sound and screenshare.
+
+CodeRefinery teaches intermediate-level software development tool lessons. Since it is difficult to define "best practices", we try to teach **"good enough" practices**. We are also a training network for other lessons from Python to High Performance Computing. CodeRefinery Publicly-funded discrete projects (3 projects actually) transitioning towards an open community project. We have online material, teaching, and exercise sessions. Our main target audience are competent practitioners, but also novices and experts can get something out of the workshops. We want more people to work with us, and to work with more people. 
+
+CodeRefinery workshops are a collaborative effort with many different roles. For these roles to play well together, onboarding the different roles is one key aspect of our workshops. All of our instructors came into the project on a different path, and we want to keep it open for many more. We try to teach our ways through this train the trainer workshop, however, we are open for everyone brining in their own experiences.
+
+Our workshops themselves are streamed (see session 4 for more information about why we do that). Having a collaborative document improves communication and interaction between participants, instructors and rest of the team. Answering questions requires a dedicated person - A Collaborative Document Manager.
+We aim to post the collaborative document on the website as soon as possible after each workshop day.
+
+In the following episode we looked at screensharing. Since we stream our workshops, have the collaborative document and want participants to work in the terminal once in a while to we share in **portrait layout** instead of sharing entire screen. We discussed the importance of adjusting your prompt to make commands easy to read. Readability and beauty is important: adjust your setup for your audience. We also discussed the sharing of the history of your commands. Feedback and time to improve is very important to make things clear and accessible. 10 minutes before the session starts is typically too late.
+
+We then also discussed that audio quality is important and one of the most notable parts of the workshop. Improving audio isn't hard or expensive, but does require preparation. During the workshop we also provided participants with some time to set up a nice screenshare and test their audio.
+
 
 ### Session 3: About teaching & cool things we all would like to share
 
 The third session was all about mastering the art of teaching — from preparation strategies and embracing the co-teaching model to the tools we use and the teaching philosophies that guide us.
 
-We also opened the floor for participants to share their own favorite tools, techniques, and memorable anecdotes from their teaching journeys or courses they’ve attended.
+In the first episode we learned that Computational Thinking consists of 4 main parts: decomposition, pattern recognition, abstraction and algorithmic design. We discussed how can this be a useful framework for solving problems and how it can be used practically.
+
+In the next session we discussed different viewpoints on teaching and asked participants to share their own.  
+Afterwards, we discussed the co-teaching approach. Co-teaching focuses on complementing individual skills and strengths in teaching process. We discussed that Co-teaching may save time, reduce teachers' workload and make lessons more interactive/ engaging. Team teaching requires some adjustments in lesson preparation and delivery.
+
+In the "cool gems" session we had a few tool presentations:
+- [Screenkey for showing keyboard shortcuts](https://www.thregr.org/wavexx/software/screenkey)
+- [Containerized teaching setup](XX)
+- A DIY teaching clock, showing chunks of 5/10 minutes in black and white sections instead of numbers
 
 ### Session 4: Workshop streaming practices and post-workshop tasks
 
-In the fourth session, we dove into managing streaming and recording setups, unveiling our go-to tools for a seamless experience for both instructors and learners.
+In the fourth session, we dove into managing streaming and recording setups, unveiling our go-to tools for a seamless experience for both instructors and learners: Open Broadcaster Software (OBS) and ffmpeg.
 
-Participants got hands-on experience with OBS, a powerful tool that’s great not just for workshops, but also for your personal projects.
+While the broadcaster role seems overwhelming at first, this episode tried to show that while it is a lot to manage, each individual part isn't that hard. We discussed that video editing can be very useful for learning and improving your teaching and that it is important to set your time budget and make it good enough in that time.
+
+Participants got hands-on experience with OBS, a powerful tool that’s great not just for workshops, but also for your personal projects. While OBS may seem complicated, it's a graphical application and most pieces make sense once you know how it works.
+
+### Interested? - Join the next iteration
+
+We are still collecting full workshop feedback and link it here later. You can however already find all notes, questions and single day feedbacks from the [materials - notes archive](https://coderefinery.github.io/train-the-trainer/notes-archive). By focusing on the instructors, the program creates a powerful network of individuals who are equipped to teach, inspire, and build communities. Whether you're looking to enhance your teaching skills or simply want to be a part of this growing community, the TTT program offers an opportunity to make a lasting impact on the research world.
+
+Interested in becoming part of this exciting initiative? Learn more about the project and available lesson materials by checking out [CodeRefinery webpage](https://coderefinery.org) and sign up for the [Coderefinery newsletter](https://coderefinery.org/about/newsletter) to get to know about the next iteration.
 
 ## Collection of teaching related tips and tricks gathered throughout the workshop through questions to the audience
 
@@ -156,8 +192,8 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
 - Teaching together, learns from each other, feedbacks to improve
 - Not formally taught yet, only given presentations actually .
 - collective teaching would benefit the teachers with collaborative curriculumn and experiences sharing. 
-    
-    
+
+
 ### If applicable, have you seen any challenges when teaching together and how to overcome them?
 
 - It actually requires preparation, 
@@ -193,8 +229,7 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
 - Whatever is most useful to the learner first?
 - I work with researchers in different fields. I don't always fully understand their domain knowledge but I can take the basiscs or generalities and get code that works for them
 - A very practical problem is trying to resist going for a coffee in the midst of taking a shot at a complex concept, in the hope that the true details are to be found in the coffee.
-- not all information is easy to find or a lot of conflicting information or even sometimes imformation explosion 
-
+- not all information is easy to find or a lot of conflicting information or even sometimes imformation explosion
 
 ### How do you determine the priority of tasks when designing algorithms for your academic projects, and what criteria do you use to ensure that the most critical tasks are addressed first?
 
