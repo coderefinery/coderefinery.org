@@ -26,6 +26,7 @@ If you have any questions or suggestions about the workshop or want to teach wit
 - 2024-09-23: Feedback and debriefing for the CodeRefinery September workshop
 - 2024-09-30: TBD
 - ...
+- 2024-11-04 CodeRefinery ambassador call 
 
 Previous meetings:
 
