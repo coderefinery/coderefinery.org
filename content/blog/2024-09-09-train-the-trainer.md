@@ -143,7 +143,7 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 - Seeing when learner gets interested/curious about something and takes inspiration from the course. :+1:
 - Seeing it works and someone can do something new.
 - Motivated students grasping new stuff
-- Students picking up and running with the matertial and skills I give them and using it for their own work. :+1:
+- Students picking up and running with the material and skills I give them and using it for their own work. :+1:
 - The "ah-ha!" moment when a student gets it! :+1::100: :+1:
 - Learning from students who know about some topic more than you do. :+1:
 - Being able to help people reach their goals, by showing them something new.
@@ -188,7 +188,7 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 ### If your design process has changed over time, please describe what you used to do and what you do now instead.
 
 - I look more at existing materials and try to get more information about the audience. Unfortunately getting information about the audience before the event is hard
-- I used to start from the begginning and get from there but that often meant a very polished start and a rushed end. Now I try an overview first, then fil out sparsed details at every section
+- I used to start from the beginning and get from there but that often meant a very polished start and a rushed end. Now I try an overview first, then fill out sparse details at every section
 - Updating the data and tweak the presentation
 - If I am teaching a small group (or one to one) talk to them before hand - find out what they know already, what they want to learn. 
 
@@ -196,7 +196,7 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 
 - less is more. It's better to have 2-3 main messages rather than trying to show everything in one go :+1: :+1: :+1: :+1:
 - how much practice time the learners need to master what's taught
-- Don't worry about something going wrong. It often makes the lesson (and thus the material) more presistent in memory. :+1:
+- Don't worry about something going wrong. It often makes the lesson (and thus the material) more persistent in memory. :+1:
 - Try and remove everything except what you want the person to learn
     - That's a very tough part for me in the sense that I never know how much of an underlying "black box" is still ok.... 
 - Designing intermediate materials is hard, and requires putting some "gatekeeping" making sure that learners are directed to appropriate courses
@@ -205,7 +205,7 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 
 ### What tricks/techniques have you tried in your teaching or seen in someone else's teaching that you think have been particularly effective in collecting feedback from learners?
 
-- preparing a survey and emailing it to participants as soon as the event ends (usually get <50% of answers but it's a representative enough sample)
+- preparing a survey and emailing it to participants as soon as the event ends (usually get fewer than 50% of answers but it's a representative enough sample)
 - do engage with the audience, give them the time to get the courage to speak up
 - Be the audience yourself
     - yes! some problems/issues I don't notice as instructor, only as listener 
@@ -220,10 +220,10 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 - Teaching with very diverse partners, it can be challenging to find a common language with people very different than you.
 - I teach alone, in the future there will be more collaboration with multiple team members. Both approaches have their pros and cons. 
 - Both has its own distinct advantages
-- Most of my teaching is on my own, as a freelancer its more expensive to work with colleagues than to deliever a course on my own.
+- Most of my teaching is on my own, as a freelancer its more expensive to work with colleagues than to deliver a course on my own.
 - Teaching together, learns from each other, feedbacks to improve
 - Not formally taught yet, only given presentations actually .
-- collective teaching would benefit the teachers with collaborative curriculumn and experiences sharing. 
+- collective teaching would benefit the teachers with collaborative curriculum and experiences sharing. 
 
 
 ### If applicable, have you seen any challenges when teaching together and how to overcome them?
@@ -234,7 +234,7 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 - Need to plan before session, difficult if people don't 'plan' in the same way, e.g. with the same time frame.
 - Heterogeneity in learners make it impossible to get the same result from everyone.
     - In fact, the same applies to teachers :D
-- Teaching together requires to have similar opinions on how to teach. I share vews only with ~40% of my colleagues I think.
+- Teaching together requires to have similar opinions on how to teach. I share views only with ~40% of my colleagues I think.
 - No Teaching experience but it is good to give the outline of the lessons beforehand and learning goals.
 
 ### How might breaking down a complex problem into smaller parts change your approach to problem-solving in your current projects?
@@ -250,18 +250,18 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 
 - Multi-targeted drug design where you need to identify both chemical and biological pathways/patterns
 - Distilling complex physics problems into simpler 1D statistics is very often done.
-- I used to do bioinformatics, pretty much everything in biology is about patterns in strings of charachters (DNA, proteins). Finding those patterns and using them is the way to go
+- I used to do bioinformatics, pretty much everything in biology is about patterns in strings of characters (DNA, proteins). Finding those patterns and using them is the way to go
 - Pattern recognition DOES NOT lead to new insight, it is new insight which allows for the recognition of a 'pattern', the latter being an allocation of possible bias.
 
 
 ### What challenges do you face when trying to simplify complex concepts in your field, and how do you decide which details to focus on?
 
 - Absence of a terminology / jargon to describe a new idea. :+1:
-- Similar to above, when teaching often students know what they want to achive, but don't have the termonology to express it, so working through what they want is helpful, after teaching them some termonology.
+- Similar to above, when teaching often students know what they want to achieve, but don't have the terminology to express it, so working through what they want is helpful, after teaching them some terminology.
 - Whatever is most useful to the learner first?
-- I work with researchers in different fields. I don't always fully understand their domain knowledge but I can take the basiscs or generalities and get code that works for them
+- I work with researchers in different fields. I don't always fully understand their domain knowledge but I can take the basics or generalities and get code that works for them
 - A very practical problem is trying to resist going for a coffee in the midst of taking a shot at a complex concept, in the hope that the true details are to be found in the coffee.
-- not all information is easy to find or a lot of conflicting information or even sometimes imformation explosion
+- not all information is easy to find or a lot of conflicting information or even sometimes information explosion
 
 ### How do you determine the priority of tasks when designing algorithms for your academic projects, and what criteria do you use to ensure that the most critical tasks are addressed first?
 
@@ -295,13 +295,13 @@ please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/jo
 - Having breaks every hour or so
 - New approach to screensharing, using the 'portrait' approach
 - Manage breathing: reduce stress and use silence to let the audience grasp what you're saying
-- Well, the most interesting or useful thing I’ve learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That's one small step for a man, one giant leap for mankind..
+- Well, the most interesting or useful thing I've learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That's one small step for a man, one giant leap for mankind..
 
 ### How can you divide teaching into separate independent tasks?
 
 - By content blocks, having roles like main and assistant...
 - Having responsibility for different sections of the course.
-- Wow, now thats what we call a question... bravo... indeed, how does one separate sleeping and snoring into separate independent tasks...
-- Course, exercices, resources, tools and forms.
+- Wow, now that's what we call a question... bravo... indeed, how does one separate sleeping and snoring into separate independent tasks...
+- Course, exercises, resources, tools and forms.
 - Different people teach different topics
 - CodeRefinery answer: the big logical blocks are instructors, in-person and breakout room helpers, and Notes-questions answers.
