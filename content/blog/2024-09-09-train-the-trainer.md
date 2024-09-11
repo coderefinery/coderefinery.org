@@ -8,26 +8,45 @@ Report and insights gathered during our train the trainer workshop in August/Sep
 authors = "Samantha Wittke"
 +++
 
-CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable) research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring new methods to make this learning process effective and inclusive. Through our train the trainer workshop we aim to share these practices and give some insights into why we do things as we do. The workshop was highly interactive, and apart from us sharing our experiences we also encouraged everyone in the workshop to share their own experiences. While it is not a requirement to become a CodeRefinery instructor after going through the workshop, we are welcoming everyone interested to join our pool of instructors. 
+Supported by the Nordic e-Infrastructure Collaboration (NeiC), CodeRefinery is dedicated to promoting 
+FAIR (Findable, Accessible, Interoperable, and Reusable) research software development. 
+Our workshops provide essential training in research software development, and we are constantly evolving our teaching methods to create an effective and inclusive learning environment.
 
-This blogpost serves as report from the workshop as well as a collection of the wonderful contributions from all participants throughout the workshop.
+Our Train the Trainer workshops are designed to share our best practices and provide insights into our approach. 
+The sessions are highly interactive, encouraging participants to share their own experiences. 
+While there’s no obligation to become a CodeRefinery instructor after attending, we warmly welcome anyone interested in joining our community of instructors.
+
+This blog post serves as a report on the workshop and a compilation of the invaluable contributions made by participants throughout the sessions.
 
 ## Workshop setup 
 
-The workshop in August / September 2024 was not the first time we shared how we run things, however a lot has changed throughout the years and materials needed to be updated. 
-We also added more exercises and discussions for participants to get to know and learn from each other. 
-We also updated the format, splitting the four half day workshop days across four Tuesdays.
+The August/September 2024 workshop was not our first time sharing our methods, but with the many changes over the years, 
+we updated the materials accordingly. We also introduced more exercises and discussions to help participants connect and learn from each other.
+
+We spread the four half-day workshop sessions across four consecutive Tuesdays in an effort to make it more manageable and engaging.
 
 ## Workshop materials
 
-The workshop materials are available at XX. We decided to not record this workshop to make it a safe space for interaction. 
-You can also find previous iterations materials XX and XX. 
-The materials are under CC-BY licensed and we encourage anyone to reuse them. Let us know and we can help advertize your materials/course on our website!
-The materials themselves also explain how you can create your own lesson materials in the same style using the CodeRefinery lesson template (XX). 
+All materials from the workshop are available with a DOI on [Zenodo](XX). We chose not to record the sessions 
+to ensure a comfortable and open environment for interaction. However, you can find materials from 
+previous iterations of our [CodeRefinery instructor training](https://coderefinery.github.io/train-the-trainer/branch/instructor-training/) 
+and [Community teaching](https://coderefinery.github.io/train-the-trainer/branch/community-teaching/). 
+
+The materials are licensed under Creative Commons Attribution 4.0 International, and we encourage anyone to reuse them. 
+If you do, let us know so we can help advertise your materials or course on our website!
+
+You can also learn how to create your own lesson materials using the CodeRefinery lesson template in the episode
+[Lessons with version control episode](https://coderefinery.github.io/train-the-trainer/lessons-with-git/#coderefinery-lesson-template). 
+
 
 ## Participants
 
-For this workshop, we had a record interest in the workshop with 82 registrations including instructors from 22 countries with most participants joining from Finland, United Kingdom, Norway, Sweden, Netherlands and Germany, with 10-40 participants attending the sessions. The sessions were standalone and it was free for participants to choose which session to attend.
+This workshop attracted record interest, with 82 registrations from 22 countries. The majority of participants were from 
+Finland, the United Kingdom, Norway, Sweden, the Netherlands, and Germany, with 10-40 attendees joining each session. 
+Since the sessions were standalone, participants could choose which ones to attend.
+
+We gathered on Zoom, utilizing breakout rooms and collaborative notes for discussions and questions. 
+The notes are archived on the [materials web page](https://coderefinery.github.io/train-the-trainer/notes-archive/).
 
 
 ## Workshop themes and topics
@@ -41,62 +60,64 @@ The main topics discussed in the workshop were:
 
 ### Session 1: About lesson design, deployment and iterative improvement
 
-In our first session, we dove into the CodeRefinery lesson materials, explored the journey to their current versions, and discovered how anyone can contribute to this dynamic resource.
+In this session, we explored the evolution of CodeRefinery lesson materials and how anyone can contribute to their ongoing development. 
+A key aspect is version control, which ensures lessons are shareable and easy to contribute to. We discussed our preference for Sphinx with the sphinx-lesson extension.
 
-One essential aspect of our lesson material is that we have it under version control from the very beginning. We discussed how version control makes lessonds shareable and easy to contribute. We explored different formats and highlighted why we like Sphinx with the sphinx-lesson extension.
+We introduced "backward lesson design," where we start from learning objectives and learner personas, and work backwards to create effective lessons. 
+Feedback collection, its conversion into actionable improvements, and the impact of these refinements were also key topics.
 
-We shared our design processes for teaching material and presentations and discussed and practiced the "backwards lesson design", starting from learning objectives and learner personas.
-
-We also discussed how we learned to collect feedback, how we turn that into actionable items and how we measure the impact of our teaching. We also discussed the reasons and sources of inspiration behind major lesson and workshop updates.
-
-During the group work sessions we also encouraged everyone to share their way of creating lessons and lesson material as well as feedback.
+During group work, participants shared their methods for creating lesson materials and gathering feedback.
 
 ### Session 2: Tools and techniques adopted in CodeRefinery workshops
 
-In the second session, we took a peek behind the scenes of a large CodeRefinery workshop. We discovered the process of setting up a big event, the various roles involved, and how we keep it interactive with collaborative documents and the possibility to bring your own classroom.
+This session gave participants a behind-the-scenes look at how we run large CodeRefinery workshops. 
+We covered event setup, roles, and how we maintain interactivity through collaborative documents and "bring your own classroom" setups.
 
-We also looked into the onboarding process for new instructors and helpers, how to prepare for teaching with regard to sound and screenshare.
+We discussed onboarding new instructors and helpers, teaching preparation (sound, screen sharing), 
+and the importance of teaching "good enough" practices in intermediate software development tools, given the difficulty of defining "best practices."
+Our workshops aim to cater to all skill levels, with a focus on competent practitioners.
 
-CodeRefinery teaches intermediate-level software development tool lessons. Since it is difficult to define "best practices", we try to teach **"good enough" practices**. We are also a training network for other lessons from Python to High Performance Computing. CodeRefinery Publicly-funded discrete projects (3 projects actually) transitioning towards an open community project. We have online material, teaching, and exercise sessions. Our main target audience are competent practitioners, but also novices and experts can get something out of the workshops. We want more people to work with us, and to work with more people. 
-
-CodeRefinery workshops are a collaborative effort with many different roles. For these roles to play well together, onboarding the different roles is one key aspect of our workshops. All of our instructors came into the project on a different path, and we want to keep it open for many more. We try to teach our ways through this train the trainer workshop, however, we are open for everyone brining in their own experiences.
-
-Our workshops themselves are streamed (see session 4 for more information about why we do that). Having a collaborative document improves communication and interaction between participants, instructors and rest of the team. Answering questions requires a dedicated person - A Collaborative Document Manager.
-We aim to post the collaborative document on the website as soon as possible after each workshop day.
-
-In the following episode we looked at screensharing. Since we stream our workshops, have the collaborative document and want participants to work in the terminal once in a while to we share in **portrait layout** instead of sharing entire screen. We discussed the importance of adjusting your prompt to make commands easy to read. Readability and beauty is important: adjust your setup for your audience. We also discussed the sharing of the history of your commands. Feedback and time to improve is very important to make things clear and accessible. 10 minutes before the session starts is typically too late.
-
-We then also discussed that audio quality is important and one of the most notable parts of the workshop. Improving audio isn't hard or expensive, but does require preparation. During the workshop we also provided participants with some time to set up a nice screenshare and test their audio.
+Collaboration plays a key role in our workshops, and we highlighted the importance of assigning a Collaborative Document Manager
+to handle questions and interactions. Participants practiced setting up effective screen shares, ensuring readability, 
+tested their sound levels and learned different ways to adjust it as well as ways of adjusting terminal prompts for teaching.
 
 
 ### Session 3: About teaching & cool things we all would like to share
 
-The third session was all about mastering the art of teaching — from preparation strategies and embracing the co-teaching model to the tools we use and the teaching philosophies that guide us.
+This session focused on teaching techniques, co-teaching models, and useful tools. We discussed Computational Thinking,
+a framework that breaks problem-solving into four parts: decomposition, pattern recognition, abstraction, and algorithmic design.
 
-In the first episode we learned that Computational Thinking consists of 4 main parts: decomposition, pattern recognition, abstraction and algorithmic design. We discussed how can this be a useful framework for solving problems and how it can be used practically.
-
-In the next session we discussed different viewpoints on teaching and asked participants to share their own.  
-Afterwards, we discussed the co-teaching approach. Co-teaching focuses on complementing individual skills and strengths in teaching process. We discussed that Co-teaching may save time, reduce teachers' workload and make lessons more interactive/ engaging. Team teaching requires some adjustments in lesson preparation and delivery.
+We also examined the benefits of co-teaching, where complementary skills enhance the learning experience and reduce the workload 
+for individual instructors. Participants shared their perspectives on teaching and discussed how team teaching can improve lesson delivery.
 
 In the "cool gems" session we had a few tool presentations:
 - [Screenkey for showing keyboard shortcuts](https://www.thregr.org/wavexx/software/screenkey)
-- [Containerized teaching setup](XX)
+- [Containerized teaching setup](https://github.com/bast/teaching-setup)
 - A DIY teaching clock, showing chunks of 5/10 minutes in black and white sections instead of numbers
 
 ### Session 4: Workshop streaming practices and post-workshop tasks
 
-In the fourth session, we dove into managing streaming and recording setups, unveiling our go-to tools for a seamless experience for both instructors and learners: Open Broadcaster Software (OBS) and ffmpeg.
+In this session, we covered streaming and recording workflows, with a focus on using Open Broadcaster Software (OBS) and ffmpeg. 
+While managing a streaming setup can seem daunting, we broke down the process to show that each step is manageable. 
+We also discussed video editing as a valuable tool for improving teaching.
 
-While the broadcaster role seems overwhelming at first, this episode tried to show that while it is a lot to manage, each individual part isn't that hard. We discussed that video editing can be very useful for learning and improving your teaching and that it is important to set your time budget and make it good enough in that time.
+Participants had hands-on experience with OBS, a powerful but accessible tool, not just for workshops but for personal projects too. 
+While OBS may appear complex, once the pieces fall into place, it's an intuitive tool for enhancing online workshops.
 
-Participants got hands-on experience with OBS, a powerful tool that’s great not just for workshops, but also for your personal projects. While OBS may seem complicated, it's a graphical application and most pieces make sense once you know how it works.
 
-### Interested? - Join the next iteration
+### Interested in joining next time?
 
-We are still collecting full workshop feedback and link it here later. You can however already find all notes, questions and single day feedbacks from the [materials - notes archive](https://coderefinery.github.io/train-the-trainer/notes-archive). By focusing on the instructors, the program creates a powerful network of individuals who are equipped to teach, inspire, and build communities. Whether you're looking to enhance your teaching skills or simply want to be a part of this growing community, the TTT program offers an opportunity to make a lasting impact on the computational research education world.
+We are still collecting full workshop feedback and link it here later. You can however already find all notes, 
+questions and single day feedbacks from the [materials - notes archive](https://coderefinery.github.io/train-the-trainer/notes-archive). 
+Through this Train the Trainer workshop, we hope to empower more instructors to contribute to CodeRefinery 
+and foster an inclusive community of practice around research software development. 
+We look forward to seeing how participants will apply these skills and insights in their own teaching endeavors.
 
-Interested in becoming part of this exciting initiative? 
-Learn more about the project and available lesson materials by checking out [CodeRefinery webpage](https://coderefinery.org) and sign up for the [Coderefinery newsletter](https://coderefinery.org/about/newsletter) to get to know about the next iteration.
+No matter if you are an instructor or want to observe or support the project in some other way, you are very welcome.
+Learn more about the project and available lesson materials by checking out [CodeRefinery webpage](https://coderefinery.org) 
+and sign up for the [Coderefinery newsletter](https://coderefinery.org/about/newsletter) to get to know about the next iteration.
+If you do not have any resources to join, but would like to support the project, 
+please consider becoming a [CodeRefinery ambassador](https://coderefinery.org/join/individuals/#coderefinery-ambassador).
 
 ## Collection of teaching related tips and tricks gathered throughout the workshop through questions to the audience
 
