@@ -8,17 +8,27 @@ Report and insights gathered during our train the trainer workshop in August/Sep
 authors = "Samantha Wittke"
 +++
 
-CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable) research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring new methods to make this learning process effective and inclusive. Through our train the trainer workshop we aim to share these practices and give some insights into why we do things as we do. The workshop was highly interactive, and apart from us sharing our experiences we are also encouraging everyone to share their own experiences. While it is not a requirement to become a CodeRefinery instructor after going through the workshop, we are welcoming everyone interested to join our pool of instructors. You do not have to be an expert in all topics taught in our workshop.
-
-The workshop in August / September 2024 was not the first time we taught our practices, however a lot has changed throughout the years and materials needed to be updated. Also the format was new, splitting the four half day workshop days across four Tuesdays.
-
-Previous iterations materials: XX and XX. 
-
-For this workshop, we had a record interest in the workshop with 82 registrations including instructors from 22 countries with most participants joining from Finland, United Kingdom, Norway, Sweden, Netherlands and Germany, with 10-40 participants attending the sessions. The sessions were standalone and it was free for participants to choose which session to attend.
+CodeRefinery, supported by the Nordic e-infrastructure collaboration (NeiC), is dedicated to enhancing FAIR (Findable, Accessible, Interoperable, and Reusable) research software development practices. Our workshops aim to provide essential training in research software development, and we’re continually exploring new methods to make this learning process effective and inclusive. Through our train the trainer workshop we aim to share these practices and give some insights into why we do things as we do. The workshop was highly interactive, and apart from us sharing our experiences we also encouraged everyone in the workshop to share their own experiences. While it is not a requirement to become a CodeRefinery instructor after going through the workshop, we are welcoming everyone interested to join our pool of instructors. 
 
 This blogpost serves as report from the workshop as well as a collection of the wonderful contributions from all participants throughout the workshop.
 
-As we wanted this workshop to be highly interactive we decided to not record the sessions. All lesson materials are available at https://coderefinery.github.io/train-the-trainer/.
+## Workshop setup 
+
+The workshop in August / September 2024 was not the first time we shared how we run things, however a lot has changed throughout the years and materials needed to be updated. 
+We also added more exercises and discussions for participants to get to know and learn from each other. 
+We also updated the format, splitting the four half day workshop days across four Tuesdays.
+
+## Workshop materials
+
+The workshop materials are available at XX. We decided to not record this workshop to make it a safe space for interaction. 
+You can also find previous iterations materials XX and XX. 
+The materials are under CC-BY licensed and we encourage anyone to reuse them. Let us know and we can help advertize your materials/course on our website!
+The materials themselves also explain how you can create your own lesson materials in the same style using the CodeRefinery lesson template (XX). 
+
+## Participants
+
+For this workshop, we had a record interest in the workshop with 82 registrations including instructors from 22 countries with most participants joining from Finland, United Kingdom, Norway, Sweden, Netherlands and Germany, with 10-40 participants attending the sessions. The sessions were standalone and it was free for participants to choose which session to attend.
+
 
 ## Workshop themes and topics
 
@@ -83,9 +93,10 @@ Participants got hands-on experience with OBS, a powerful tool that’s great no
 
 ### Interested? - Join the next iteration
 
-We are still collecting full workshop feedback and link it here later. You can however already find all notes, questions and single day feedbacks from the [materials - notes archive](https://coderefinery.github.io/train-the-trainer/notes-archive). By focusing on the instructors, the program creates a powerful network of individuals who are equipped to teach, inspire, and build communities. Whether you're looking to enhance your teaching skills or simply want to be a part of this growing community, the TTT program offers an opportunity to make a lasting impact on the research world.
+We are still collecting full workshop feedback and link it here later. You can however already find all notes, questions and single day feedbacks from the [materials - notes archive](https://coderefinery.github.io/train-the-trainer/notes-archive). By focusing on the instructors, the program creates a powerful network of individuals who are equipped to teach, inspire, and build communities. Whether you're looking to enhance your teaching skills or simply want to be a part of this growing community, the TTT program offers an opportunity to make a lasting impact on the computational research education world.
 
-Interested in becoming part of this exciting initiative? Learn more about the project and available lesson materials by checking out [CodeRefinery webpage](https://coderefinery.org) and sign up for the [Coderefinery newsletter](https://coderefinery.org/about/newsletter) to get to know about the next iteration.
+Interested in becoming part of this exciting initiative? 
+Learn more about the project and available lesson materials by checking out [CodeRefinery webpage](https://coderefinery.org) and sign up for the [Coderefinery newsletter](https://coderefinery.org/about/newsletter) to get to know about the next iteration.
 
 ## Collection of teaching related tips and tricks gathered throughout the workshop through questions to the audience
 
@@ -258,6 +269,13 @@ Interested in becoming part of this exciting initiative? Learn more about the pr
         - I found this list of alternative for windows users like me: https://alternativeto.net/software/screenkey/ :+1:
         - I sometimes use the on-screen keyboard already provided by the OS :+1:
 
+### What’s the most interesting or useful thing you’ve learned from an online workshop (not specifically this one), and how have you applied it/planning to apply in your life or work
+
+- Having breaks every hour or so
+- New approach to screensharing, using the 'portrait' approach
+- Manage breathing: reduce stress and use silence to let the audience grasp what you're saying
+- Well, the most interesting or useful thing I’ve learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That's one small step for a man, one giant leap for mankind..
+
 ### How can you divide teaching into separate independent tasks?
 
 - By content blocks, having roles like main and assistant...
@@ -266,10 +284,3 @@ Interested in becoming part of this exciting initiative? Learn more about the pr
 - Course, exercices, resources, tools and forms.
 - Different people teach different topics
 - CodeRefinery answer: the big logical blocks are instructors, in-person and breakout room helpers, and Notes-questions answers.
-
-### What’s the most interesting or useful thing you’ve learned from an online workshop, and how have you applied it/planning to apply in your life or work
-
-- Having breaks every hour or so
-- New approach to screensharing, using the 'portrait' approach
-- Manage breathing: reduce stress and use silence to let the audience grasp what you're saying
-- Well, the most interesting or useful thing I’ve learned from online workshops is how not to conduct a workshop, or at least some elements of the same, and I have applied this understanding by engaging in the global effort to discover more about how not to conduct a workshop, or at least some elements of the same, with the motto: That's one small step for a man, one giant leap for mankind..
