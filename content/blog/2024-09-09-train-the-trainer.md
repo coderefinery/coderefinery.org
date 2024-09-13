@@ -27,7 +27,7 @@ We spread the four half-day workshop sessions across four consecutive Tuesdays i
 
 ## Workshop materials
 
-All materials from the workshop are available with a DOI on [Zenodo](XX). We chose not to record the sessions 
+All materials from the workshop are available with a DOI on [Zenodo](https://zenodo.org/doi/10.5281/zenodo.13736614)). We chose not to record the sessions 
 to ensure a comfortable and open environment for interaction. However, you can find materials from 
 previous iterations of our [CodeRefinery instructor training](https://coderefinery.github.io/train-the-trainer/branch/instructor-training/) 
 and [Community teaching](https://coderefinery.github.io/train-the-trainer/branch/community-teaching/). 
