@@ -56,6 +56,8 @@ with very small amounts of computation) should know.
 
 ## Shorter formats
 
+- [Reproducible research software development using Python](https://coderefinery.github.io/reproducible-python/):
+  2.5 days format tailored for people who write Python code.
 - [CodeRefinery "mini-workshop"](https://coderefinery.github.io/mini-workshop/):
   Three sessions, each 1.5 - 2 hours long. Making an image processing pipeline
   reproducible, reusable, and extensible. Uses Python in examples.
