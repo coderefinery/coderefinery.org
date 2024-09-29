@@ -15,7 +15,7 @@
 ### Recent workshops
 
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
-- During August and September we held our [CodeRefinery train the trainer workshop](https://coderefinery.github.io/train-the-trainer/). Materials are available and blogpost will come soon. 
+- During August and September we held our [CodeRefinery train the trainer workshop](https://coderefinery.github.io/train-the-trainer/). Materials are available and we summarized the event in a [blogpost](https://coderefinery.org/blog/train-the-trainer/).
 - [CodeRefinery tools workshop (Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/) (Aug 27-29, 2024).
 - [Mini-workshop](https://coderefinery.github.io/mini-workshop/) at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
 - [Aalto University Scientific Computing/HPC Kickstart](https://scicomp.aalto.fi/training/scip/kickstart-2024/)
