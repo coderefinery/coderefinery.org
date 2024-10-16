@@ -5,8 +5,10 @@
     <div>
       <div class="uk-margin-bottom">
         {% set neic_logo = resize_image(path="about/funding/neic.png", width=80, op="fit_width") %}
-        <img src="{{ neic_logo.url }}"
-             alt="NeIC logo" class="mr-2"/>
+        <a href="https://neic.no/">
+          <img src="{{ neic_logo.url }}"
+               alt="NeIC logo" class="mr-2, uk-align-right"/>
+        </a>
       </div>
       <div>
         {% set coderefinery = resize_image(path="logo/coderefinery.png", width=250, op="fit_width") %}
