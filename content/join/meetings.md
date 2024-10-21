@@ -18,18 +18,15 @@ involved but don't know where to start.
 The next large CodeRefinery workshop is coming up in September, so we dedicate our meetings to the preparation and planning of it.
 If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
 
-- 2024-08-19: CodeRefinery September workshop preparation
-- 2024-08-26: CodeRefinery September workshop preparation
-- 2024-09-02: CodeRefinery September workshop preparation
-- 2024-09-09: CodeRefinery September workshop week 1 preparation
-- 2024-09-16: CodeRefinery September workshop week 2 preparation
-- 2024-09-23: Feedback and debriefing for the CodeRefinery September workshop
-- 2024-09-30: TBD
+
+- 2024-10-21 CodeRefinery community meetup, news and stories
+- 2024-10-28 CodeRefinery community meetup, news and stories
+- 2024-11-04 CodeRefinery ambassador call
 - ...
-- 2024-11-04 CodeRefinery ambassador call 
 
 Previous meetings:
 
+-  Rest of august and September meetings: CR workshop planning meetings
 - 2024-08-12: CodeRefinery ambassador call
 - 2024-08-05: Upcoming workshops, info and Q&A
 - Summer break
