@@ -1,5 +1,43 @@
 events:
   - name: Full online workshop (6 half-days)
+    website: https://coderefinery.github.io/2024-09-10-workshop/
+    start_date: "2024-09-10"
+    end_date: "2024-09-19"
+    organizers:
+      - Diana Iusan
+      - Enrico Glerean
+      - Samantha Wittke
+      - Richard Darst
+    instructors:
+      - Radovan Bast
+      - Richard Darst
+      - Hossein Firooz
+      - Diana Iusan
+      - Bjørn Lindi
+      - Thomas Pfau
+      - Dhanya Pushpadas
+      - Sabry Razick
+      - Teemu Ruokolainen
+      - Yu Tian
+    expert_helpers:
+      - Teemu Ruokolainen
+      - Elisa Pierfederici
+      - Bjørn Lindi
+      - Samantha Wittke
+      - Diana Iusan
+    num_participants:
+      FI: 125
+      EE: 16
+      DK: 11
+      NO: 62
+      ES: 39
+      SE: 46
+      NL: 6
+      total: 356
+    twitch_viewers:
+      smallest_viewers_max: 135
+      largest_viewers_max: 481
+  - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2024-03-12-workshop/
     start_date: "2024-03-12"
     end_date: "2024-03-21"
