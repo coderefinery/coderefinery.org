@@ -13,7 +13,6 @@ We don't want you to miss a workshop or event. The best
 way to stay informed is to join [our newsletter](@/about/newsletter.md)
 You can also subscribe to our [RSS feed](/atom.xml).
 
-- [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
 
 
@@ -26,9 +25,10 @@ to list your workshop/event here.
 
 ## Recent workshops and events
 
+- [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
 - [CodeRefinery train the trainer workshop (online)](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
-- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
 - [CodeRefinery tools workshop (Gothenburg)](https://coderefinery.github.io/2024-08-27-gothenburg/) (Aug 27-29, 2024)
 - [Mini-workshop](https://coderefinery.github.io/mini-workshop/) at the [European Light Field Imaging Workshop](https://elfi2024.eu/) (Jun 25-27, 2024).
 - [Tuesday Tools & Techniques for High Performance Computing (online)](https://scicomp.aalto.fi/training/scip/ttt4hpc-2024/) (Mar and Apr, 2024)
