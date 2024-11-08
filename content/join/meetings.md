@@ -18,20 +18,20 @@ involved but don't know where to start.
 The next large CodeRefinery workshop is coming up in September, so we dedicate our meetings to the preparation and planning of it.
 If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
 
-
-
-- 2024-10-28 Catch up and reports from recent and upcoming events
-- 2024-11-04 CodeRefinery ambassador call
 - 2024-11-11 Governance 2025 and beyond
+- 2024-11-18 Manuals and train-the-trainer materials
 - ...
 
 
-## Co-workig sessions: Every Monday at 15 CET/CEST
+## Open house events
 
-- Same Zoom room as the team meetings ([connection
-  details](https://hackmd.io/@coderefinery/team-meeting)). Every little step
-  counts, if you have 10 or 60 minutes to give, spend them with us and work on
-  some open task to support the project.
+We invite everyone interested in CodeRefinery and CodeRefinery adjacent topics to join us for ~monthly open house events. 
+These half-day sessions are intended for discussion and co-working. Topics will be announced here: 
+
+- 2024-12-17 Workshop format for reproducible research topics (CodeRefinery workshop week 2) 
+- 2025-01-14 Git masterclass
+- 2025-02-11 New instructor onboarding and lesson material development
+- ...
 
 
 ## Archive of earlier meetings
