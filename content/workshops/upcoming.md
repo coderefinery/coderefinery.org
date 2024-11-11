@@ -24,7 +24,7 @@ to list your workshop/event here.
 ## Recent workshops and events
 
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
-- [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
+- [Build Systems Course and Hackathon (online)](https://github.com/PDC-support/build-systems-course) (Oct 8-11, 2024).
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
 - [CodeRefinery train the trainer workshop (online)](https://coderefinery.github.io/train-the-trainer/)
   (four Tuesdays between Aug 13 and Sep 3).
