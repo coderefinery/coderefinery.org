@@ -26,7 +26,7 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
 ## 2024
 
 - ["The CodeRefinery project for training in research software engineering"](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-hpc-train-ecosystem-europe.md/)
-  at [The HPC Training Ecosystem in Europe (Online)](https://enccs.se/events/the-hpc-training-ecosystem-in-europe/),
+  at [The HPC Training Ecosystem in Europe (Online)](https://enccs.se/news/2024/10/the-hpc-training-ecosystem-in-europe/),
   Oct 22, 2024 (Johan Hellsvik)
 - ["Practical software licensing"](https://zenodo.org/records/11554001) at [DataverseNO](https://dataverse.no/) webinar,
   Jun 10, 2024 (Radovan Bast)
