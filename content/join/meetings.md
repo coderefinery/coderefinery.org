@@ -29,7 +29,7 @@ We invite everyone interested in CodeRefinery and CodeRefinery adjacent topics t
 These half-day sessions are intended for discussion and co-working. Topics will be announced here: 
 
 - 2024-12-17 Workshop format for reproducible research topics (CodeRefinery workshop week 2) 
-- 2025-01-14 Git masterclass
+- 2025-01-14 Lesson development towards intermediate/advanced Git ("Git masterclass")
 - 2025-02-11 New instructor onboarding and lesson material development
 - ...
 
