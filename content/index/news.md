@@ -5,7 +5,7 @@
 
 ### Upcoming workshops and other news
 
-- [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
+- Don't worry there will be more workshops in 2025 and you can plan them with us!
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
 - CodeRefinery stickers, patches and more: [Goodies](/about/goodies/)
 - Get weekly or monthly updates: [Newsletter](/about/newsletter/)
@@ -13,6 +13,7 @@
 
 ### Recent workshops
 
+- [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
 - [Build Systems Course and Hackathon (online)](https://www.kth.se/form/build-systems-course-and-hackathon-part-i) (Oct 8-11, 2024).
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024).
 - During August and September we held our [CodeRefinery train the trainer workshop](https://coderefinery.github.io/train-the-trainer/). Materials are available and we summarized the event in a [blogpost](https://coderefinery.org/blog/train-the-trainer/).
