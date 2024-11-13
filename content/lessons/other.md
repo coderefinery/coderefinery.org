@@ -104,3 +104,4 @@ a community you can join and give contributions to:
 - [Research Software Alliance](http://www.researchsoft.org/)
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [Reproducibility for everyone](https://www.repro4everyone.org/)
+- [European Virtual Institute for Research Software Excellence](https://everse.software/)
