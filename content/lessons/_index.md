@@ -14,13 +14,14 @@ These are the lessons which are included in the "standard" CodeRefinery
 workshop, and what we believe that every computational scientist (even those
 with very small amounts of computation) should know.
 
-- [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2):
-  **Why we want to track versions and how to go back in time to a working version.**
-  This lesson brings you from zero to using Git and GitHub for own projects.
+- Version control with **focus on collaboration** and **not only for the command line**:
+    - [Introduction to version control](https://coderefinery.github.io/git-intro/) (day 1-2):
+      **Why we want to track versions and how to go back in time to a working version.**
+      This lesson brings you from zero to using Git and GitHub for own projects.
 
-- [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3):
-  This lesson builds on "Introduction to version control" and we apply branching and learn about pull requests
-  (merge requests), forks, and collaboration using Git and GitHub.
+    - [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/) (day 3):
+      This lesson builds on "Introduction to version control" and we apply branching and learn about pull requests
+      (merge requests), forks, and collaboration using Git and GitHub.
 
 - [Reproducible research](https://coderefinery.github.io/reproducible-research/) (day 4):
   **Preparing code to be usable by you and others in the future.**
