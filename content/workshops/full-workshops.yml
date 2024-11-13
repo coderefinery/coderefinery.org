@@ -37,6 +37,26 @@ events:
     twitch_viewers:
       smallest_viewers_max: 135
       largest_viewers_max: 481
+  - name: Gothenburg
+    website: https://coderefinery.github.io/2024-08-27-gothenburg/
+    start_date: "2024-08-27"
+    end_date: "2024-08-29"
+    organizers:
+      - Johan Hellsvik
+      - Björn Claremar
+      - Yonglei Wang
+      - Viktor Rehnberg
+    instructors:
+      - Björn Claremar
+      - Yonglei Wang
+      - Viktor Rehnberg
+      - Leon Boschman
+    num_participants:
+      SE: 9
+      total: 9
+    location:
+      lat: 57.70887
+      lon: 11.97456
   - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2024-03-12-workshop/
     start_date: "2024-03-12"
