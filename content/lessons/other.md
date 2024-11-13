@@ -80,9 +80,7 @@ a community you can join and give contributions to:
 ## Interesting organisations and projects to follow
 
 - [The Nordic RSE community](http://nordic-rse.org/)
-- [Software Carpentry](http://software-carpentry.org)
-- [Data Carpentry](http://www.datacarpentry.org)
-- [Library Carpentry](https://librarycarpentry.org)
+- [The Carpentries](https://carpentries.org/)
 - [The Software Sustainability Institute](https://www.software.ac.uk)
 - [The Molecular Sciences Software Institute](http://molssi.org)
 - [CBioVikings: ISCB Regional Student Group Denmark](http://cbiovikings.org)
