@@ -13,6 +13,9 @@ community](https://zenodo.org/communities/coderefinery/).  This way,
 presentation slides don't disappear, they can be cited, and you can find them
 all in one place.
 
+You can also submit your own presentations or derivative work to the CodeRefinery community on Zenodo.
+This community is not only for lessons but also presentations and reports.
+
 </div>
 
 
