@@ -9,9 +9,9 @@
 
     <p class="uk-article-meta">
       {% if page.description %}
-        <h3 class="uk-article-title">
+        <h2>
           {{ page.description }}
-        </h3>
+        </h2>
       {% endif %}
       {{ page.date | date(format="%B %d, %Y") }}
       {% if page.extra.authors %}

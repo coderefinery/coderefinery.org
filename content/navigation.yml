@@ -10,7 +10,7 @@ navigation:
         target: /lessons/reusing/
       - name: Other lessons we recommend
         target: /lessons/other/
-  - name: Workshops and events
+  - name: Workshops/events
     target: /workshops/
     items:
       - name: Upcoming and recent
@@ -71,5 +71,5 @@ navigation:
         target: /about/contact/
   - name: News/blog
     target: /blog/
-  - name: GitLab repository
+  - name: GitLab
     target: /repository/

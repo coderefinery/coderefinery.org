@@ -16,38 +16,16 @@ $table-header-cell-color: #666666;
 @import "../uikit/src/scss/mixins-theme.scss";
 @import "../uikit/src/scss/uikit-theme.scss";
 
-// Roboto is licensed under Apache License, Version 2.0
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(Roboto.ttf) format('truetype');
-}
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
 .markdown ul {
     @extend .uk-list;
     @extend .uk-list-square;
 
 }
 
-$heading-color: #404040;
-
-.markdown h1 {
-    @extend .uk-h2;
-    color: $heading-color;
+.site-footer a {
+    color: #909090;
 }
 
-.markdown h2 {
-    @extend .uk-h3;
-    color: $heading-color;
-}
-
-.markdown h3 {
-    @extend .uk-h4;
-    color: $heading-color;
+.no-break {
+    break-inside: avoid;
 }

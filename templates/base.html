@@ -41,12 +41,15 @@
     {% endif %}
 
     <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
+    <link href="{{ get_url(path="fonts.css") }}" rel="stylesheet">
   </head>
 
   <body>
-    <div class="uk-container uk-margin-large-bottom">
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
 
-      {% include "navigation.html" %}
+      <div class="uk-margin-bottom">
+        {% include "navigation.html" %}
+      </div>
 
       <div class="markdown">
         {% block content %}

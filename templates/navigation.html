@@ -1,11 +1,9 @@
 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-  <div class="uk-navbar-right">
-    <ul class="uk-navbar-nav uk-visible@s">
-      {% set unroll = false %}
-      {% include "navigation-logic.html" %}
-    </ul>
-    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
-  </div>
+  <ul class="uk-navbar-nav uk-visible@s">
+    {% set unroll = false %}
+    {% include "navigation-logic.html" %}
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
 </nav>
 
 <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">

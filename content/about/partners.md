@@ -29,7 +29,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://scicomp.aalto.fi/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Aalto University (Aalto Scientific Computing, ASC)</h3>
+          Aalto University (Aalto Scientific Computing, ASC)
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
@@ -53,7 +53,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://www.csc.fi/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">CSC - IT Center for Science</h3>
+          CSC - IT Center for Science
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
@@ -75,7 +75,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://chc.au.dk/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Center for Humanities Computing</h3>
+          Center for Humanities Computing
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
@@ -96,7 +96,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://deic.dk/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">Danish e-Infrastructure Consortium</h3>
+          Danish e-Infrastructure Consortium
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
@@ -116,7 +116,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://enccs.se/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">EuroCC National Competence Center Sweden (ENCCS)</h3>
+          EuroCC National Competence Center Sweden (ENCCS)
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
@@ -137,7 +137,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://www.naiss.se/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">National Academic Infrastructure for Super­computing in Sweden (NAISS)</h3>
+          National Academic Infrastructure for Super­computing in Sweden (NAISS)
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
@@ -160,7 +160,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <a href="https://www.sigma2.no/" target="_blank">
-          <h3 class="uk-card-title uk-margin-remove-bottom">NRIS/Sigma2</h3>
+          NRIS/Sigma2
         </a>
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
@@ -204,12 +204,12 @@ ASC has been involved in CodeRefinery since 2017.
 
 ### TU Delft
 
-TU Delft has provided local breakoutrooms for many core workshops. 
+TU Delft has provided local breakoutrooms for many core workshops.
 
 
 ### VU Amsterdam
 
-VU Amsterdam has provided local breakoutrooms for many core workshops. 
+VU Amsterdam has provided local breakoutrooms for many core workshops.
 
 
 ## We are supported by [Zulip](https://zulip.com/)

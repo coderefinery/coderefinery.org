@@ -1,9 +1,7 @@
 +++
 +++
 
-## News
-
-### Upcoming workshops and other news
+## Upcoming workshops and other news
 
 - Don't worry there will be more workshops in 2025 and you can plan them with us!
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
@@ -11,7 +9,7 @@
 - Get weekly or monthly updates: [Newsletter](/about/newsletter/)
 
 
-### Recent workshops
+## Recent workshops
 
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
 - [Build Systems Course and Hackathon (online)](https://github.com/PDC-support/build-systems-course) (Oct 8-11, 2024).
