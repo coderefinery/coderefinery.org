@@ -1,4 +1,4 @@
 +++
 title = "Workshops and events"
-template = "section-tree.html"
+template = "workshops.html"
 +++

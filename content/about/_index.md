@@ -1,4 +1,4 @@
 +++
 title = "About the project"
-template = "section-tree.html"
+template = "about.html"
 +++

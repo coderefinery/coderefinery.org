@@ -1,0 +1,10 @@
+{% import "macros.html" as macros %}
+
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ section.title }}</h1>
+
+  {% set data = load_data(path="content/navigation.yml") %}
+  {{ macros::section_tree(navigation=data.navigation, section="Join") }}
+{% endblock content %}
