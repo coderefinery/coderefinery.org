@@ -1,0 +1,75 @@
+navigation:
+  - name: Home
+    target: /
+  - name: Lessons
+    target: /lessons/
+    items:
+      - name: CodeRefinery lessons
+        target: /lessons/
+      - name: Reusing
+        target: /lessons/reusing/
+      - name: Other lessons we recommend
+        target: /lessons/other/
+  - name: Workshops and events
+    target: /workshops/
+    items:
+      - name: Upcoming and recent
+        target: /workshops/upcoming/
+      - name: Past
+        target: /workshops/past/
+      - name: The CodeRefinery teaching style
+        target: /workshops/teaching-style/
+      - name: Request or run your own
+        target: /workshops/request/
+  - name: Tasks/roadmap
+    target: /tasks/
+  - name: Join
+    target: /join/
+    items:
+      - name: Chat
+        target: /join/chat/
+      - name: For individuals
+        target: /join/individuals/
+      - name: For staff
+        target: /join/staff/
+      - name: For organizations
+        target: /join/organizations/
+      - name: Community teaching training
+        target: /join/community-teaching-training/
+      - name: Meetings
+        target: /join/meetings/
+      - name: Calendars
+        target: /calendars/
+      - name: The CodeRefinery community
+        target: /about/contributors/
+      - name: Code of conduct
+        target: /about/code-of-conduct/
+  - name: About
+    target: /about/
+    items:
+      - name: Project
+        target: /about/project/
+      - name: History
+        target: /about/history/
+      - name: The CodeRefinery community
+        target: /about/contributors/
+      - name: Partners and sponsors
+        target: /about/partners/
+      - name: Impact
+        target: /about/impact/
+      - name: Statistics
+        target: /about/statistics/
+      - name: Presentations
+        target: /about/presentations/
+      - name: Articles and reports
+        target: /about/reports/
+      - name: Newsletter
+        target: /about/newsletter/
+      - name: Operations manuals (external link)
+        target: https://coderefinery.github.io/manuals/
+      - name: Contact
+        target: /about/contact/
+  - name: News/blog
+    target: /blog/
+  - name: GitLab repository
+    target: /repository/

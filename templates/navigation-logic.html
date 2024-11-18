@@ -1,19 +1,21 @@
-{% for item in config.extra.navigation %}
+{% set data = load_data(path="content/navigation.yml") %}
+
+{% for link in data.navigation %}
   <li>
 
     {% set href = "#" %}
-    {% if item.target is defined %}
-      {% if item.target is starting_with("http") %}
-        {% set href = item.target %}
+    {% if link.target is defined %}
+      {% if link.target is starting_with("http") %}
+        {% set href = link.target %}
       {% else %}
-        {% set href = get_url(path=item.target) %}
+        {% set href = get_url(path=link.target) %}
       {% endif %}
     {% endif %}
 
-    {% set contains_dropdown = item.items is defined %}
+    {% set contains_dropdown = link.items is defined %}
 
     <a href="{{ href }}">
-      {{ item.name }}
+      {{ link.name }}
       {% if contains_dropdown %}
         <span uk-navbar-parent-icon></span>
       {% endif %}
@@ -24,7 +26,7 @@
       <div class="uk-navbar-dropdown">
       {% endif %}
         <ul class="uk-nav uk-navbar-dropdown-nav">
-          {% for subitem in item.items %}
+          {% for subitem in link.items %}
             <li>
             {% if subitem.target is starting_with("http") %}
               <a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a>
