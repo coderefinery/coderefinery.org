@@ -239,23 +239,19 @@
 {% endmacro toc %}
 
 {% macro section_tree(navigation, section) %}
-  <div class="uk-margin-large">
-    <ul>
-
-      {% for link in navigation %}
-        {% if link.name == section %}
-          {% for subitem in link.items %}
-            <li>
-              {% if subitem.target is starting_with("http") %}
-                <a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a>
-              {% else %}
-                <a href="{{ get_url(path=subitem.target) }}">{{ subitem.name }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-
-    </ul>
-  </div>
+  <ul>
+    {% for link in navigation %}
+      {% if link.name == section %}
+        {% for subitem in link.items %}
+          <li>
+            {% if subitem.target is starting_with("http") %}
+              <a href="{{ subitem.target }}" target="_blank">{{ subitem.name }}</a>
+            {% else %}
+              <a href="{{ get_url(path=subitem.target) }}">{{ subitem.name }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endmacro section_tree %}
