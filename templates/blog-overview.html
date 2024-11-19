@@ -7,9 +7,7 @@
   <ul>
     {% for post in blogs.pages %}
       <li>
-        <a class="post-title" href="{{ post.permalink }}">
-          {{ post.title }}
-        </a>
+        <a class="post-title" href="{{ post.permalink }}">{{ post.title }}</a>
         <span class="post-date">
           ({{ post.date }})
         </span>
