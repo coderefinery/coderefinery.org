@@ -18,12 +18,10 @@ involved but don't know where to start.
 The next large CodeRefinery workshop is coming up in September, so we dedicate our meetings to the preparation and planning of it.
 If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
 
-- 2024-11-18 Cancelled
-- 2024-11-25 Event reports and open discussion
-- 2024-12-02 Manuals and train-the-trainer materials
-- 2024-12-09 TBD
+- 2024-12-02 Open team call
+- 2024-12-09 Open team call
 - 2024-12-16 CodeRefinery ambassador call
-- ...
+- Break until 2024-01-06
 
 
 ## Open house events
