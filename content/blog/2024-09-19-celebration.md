@@ -10,7 +10,7 @@ authors = "Samantha Wittke"
 
 ## CodeRefinery - Continuing eight years of collaboratively teaching good enough research software engineering practices
 
-In October 2024 the CodeRefinery project is celebrating the conclusion of its 8th year of existance. 
+In October 2024 the CodeRefinery project was celebrating the conclusion of its 8th year of existance. 
 During that time about 9 online and 28 in-person workshops were held by ~30 instructors, organizers and facilitators teaching 
 good enough research software engineering practices to ~3000 participants from ~20 countries, of many scientific fields, career stages and preferred programming languages. 
 We would like to celebrate this archievement with you, by looking back at the history and achievements unlocked over the years and also ask you to share your best memories.
