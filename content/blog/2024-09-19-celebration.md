@@ -8,7 +8,9 @@ Celebratory blogpost
 authors = "Samantha Wittke"
 +++
 
-## CodeRefinery - Continuing eight years of collaboratively teaching good enough research software engineering practices
+<!-- toc -->
+
+## CodeRefinery started 8 years ago
 
 In October 2024 the CodeRefinery project was celebrating the conclusion of its
 8th year of existance.  During that time about 9 online and 28 in-person
@@ -41,7 +43,8 @@ professional life.  Radovan took CodeRefinery from a mere concept to a
 pioneering educational project that is now well- known not only in the Nordic
 region (where it started) but globally. [...] "
 
-**What is CodeRefinery?**
+
+## What is CodeRefinery?
 
 CodeRefinery acts as a hub for FAIR (Findable, Accessible, Interoperable, and
 Reusable) software practices. It currently focuses on the Nordic/Baltic
@@ -74,7 +77,8 @@ The objectives of the CodeRefinery project are:
 • Operate a Nordic GitLab service
 • Support the community of Nordic research software engineers
 
-**CodeRefinery workshops**
+
+## CodeRefinery workshops
 
 The CodeRefinery project provides open, reusable and self-learning ready lesson
 materials developed by experts from different countries, organizations and
@@ -96,7 +100,8 @@ and ideas (https://coderefinery.github.io/manuals/ ).  It summarizes how
 meetings, workshops and other topics work and serves as basis for e.g. the
 helper onboarding for the workshop.
 
-**Bring your own classroom**
+
+## Bring your own classroom
 
 When switching from in-person to online workshops the CodeRefinery team put a
 lot of effort in embracing the online workshop format.  A lot of thought has
@@ -127,7 +132,8 @@ continuously improve their skills and learn from this great community.
 We often refer our researchers to use them as consultation materials on our websites
 and/or guides. [...]"
 
-**Sharing experiences and support for doing your own thing**
+
+## Sharing experiences and support for doing your own thing
 
 But the CodeRefinery project does not only focus on own workshops, it also
 wants to make it easier for others to provide clean and functional lesson
@@ -173,7 +179,8 @@ scaling the course and reaching a new audience that otherwise wouldn’t be able
 to access this training.  We at the eScience Center will continue reusing and
 contributing to the CodeRefinery project. [...]"
 
-**More than just workshops**
+
+## More than just workshops
 
 The main CodeRefinery workshop is organized twice a year and it is free and
 open for everyone. Everyone is encouraged to ask their questions and discuss
@@ -201,7 +208,8 @@ https://zenodo.org/communities/coderefinery/records?q=&l=list&p=1&s=10&sort=newe
 
 CodeRefinery is also active on social media: LinkedIn (314 followers), X (860 followers) and Mastodon (296 followers).
 
-**Reaching out**
+
+## Reaching out
 
 The CodeRefinery project has been mentioned alongside other successful programs such as the Carpentries in Research Software Engineering related publications:
 
@@ -224,7 +232,8 @@ the research computing world.  Among others the project has been presented at
 Supercomputing (SC) conference in the US, International SuperComputing (ISC) in
 Germany, SIAM, RSECon and CarpentryCon in recent years.
 
-**The future**
+
+## The future
 
 We are currently in the third round of funding by NeiC (one person to
 coordinate the efforts, other partners support in-kind) and considering our
