@@ -96,7 +96,7 @@ If necessary and possible, given feedback is already implemented for the next
 workshop day.
 
 The CodeRefinery project maintains manuals with a collection of work processes
-and ideas (https://coderefinery.github.io/manuals/ ).  It summarizes how
+and ideas (<https://coderefinery.github.io/manuals/>).  It summarizes how
 meetings, workshops and other topics work and serves as basis for e.g. the
 helper onboarding for the workshop.
 
@@ -138,15 +138,14 @@ and/or guides. [...]"
 But the CodeRefinery project does not only focus on own workshops, it also
 wants to make it easier for others to provide clean and functional lesson
 materials with all the features needed for computational topics by providing a
-public lesson template (https://github.com/coderefinery/sphinx-lesson ).  In
+public lesson template (<https://github.com/coderefinery/sphinx-lesson>).  In
 addition, the ways that teaching has worked well for CodeRefinery are shared
 through train the trainer workshops, which have been presented in different
-forums and to various groups (https://coderefinery.github.io/train-the-trainer/
-).
+forums and to various groups (<https://coderefinery.github.io/train-the-trainer/>).
 
 The lesson development process always involves multiple experts. All
 discussions and reviews are public and can be found on our GitHub pages
-(https://github.com/coderefinery ).
+(<https://github.com/coderefinery>).
 
 Since it is free and open to reuse, there is no full overview about who has
 reused CodeRefinery materials. But when talking to people at conferences and
@@ -156,9 +155,9 @@ CodeRefinery materials for their lectures.
 Two larger programs that have been built on top of CodeRefinery materials are
 the Netherlands eScience Center workshop on "Good practices in research
 software development"
-(https://www.esciencecenter.nl/event/good-practices-in-research-software-development-5/
-) and the "EuroCC best practices in HPC training" program lead by ENCCS Sweden
-(https://enccs.github.io/instructor-training/ ).
+(<https://www.esciencecenter.nl/event/good-practices-in-research-software-development-5/>)
+and the "EuroCC best practices in HPC training" program lead by ENCCS Sweden
+(<https://enccs.github.io/instructor-training/>).
 
 Mateusz Kuzak and his team from the Netherlands eScience center explains:
 "[...] At the Center, we have been successfully using the training materials
@@ -200,11 +199,11 @@ While the workshops are the main event for CodeRefinery, it is also a community
 with an open heart for supporting research and providing courses on a
 researchers level.  Research Software Hour was born from the community, and has
 brought topics of Research Software Engineering that you cannot teach in a
-class to the research community (https://researchsoftwarehour.github.io/ )
+class to the research community (<https://researchsoftwarehour.github.io/>)
 hosted by the nominee and others.
 
 A Zenodo community is available to collect all CodeRefinery and CodeRefinery related outputs:
-https://zenodo.org/communities/coderefinery/records?q=&l=list&p=1&s=10&sort=newest
+<https://zenodo.org/communities/coderefinery/records?q=&l=list&p=1&s=10&sort=newest>
 
 CodeRefinery is also active on social media: LinkedIn (314 followers), X (860 followers) and Mastodon (296 followers).
 
@@ -217,13 +216,13 @@ The CodeRefinery project has been mentioned alongside other successful programs 
   vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on arxiv; page 7
 
 - US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career.
-  Zenodo. https://doi.org/10.5281/zenodo.10073233 ; page 19
+  Zenodo. <https://doi.org/10.5281/zenodo.10073233> ; page 19
 
 - Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK.
-  Zenodo. https://doi.org/10.5281/zenodo.10473186 ; page 15
+  Zenodo. <https://doi.org/10.5281/zenodo.10473186> ; page 15
 
-A collection of reports (https://coderefinery.org/about/reports/) and
-presentations (https://coderefinery.org/about/presentations/) about the project
+A collection of reports (<https://coderefinery.org/about/reports/>) and
+presentations (<https://coderefinery.org/about/presentations/>) about the project
 are collected on our website.
 
 Project members have been actively seeking opportunities to spread the word and
