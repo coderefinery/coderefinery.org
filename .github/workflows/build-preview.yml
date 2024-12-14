@@ -12,7 +12,7 @@
 name: Build and deploy website preview
 
 env:
-  ZOLA_VERSION: "0.18.0"
+  ZOLA_VERSION: "0.19.2"
   CNAME: "coderefinery.org"
 
 on:
