@@ -13,11 +13,11 @@ authors = "Samantha Wittke"
 ## CodeRefinery started 8 years ago
 
 In October 2024 the CodeRefinery project was celebrating the conclusion of its
-8th year of existance.  During that time about 9 online and 28 in-person
+8th year of existence.  During that time about 9 online and 28 in-person
 workshops were held by ~30 instructors, organizers and facilitators teaching
 good enough research software engineering practices to ~3000 participants from
 ~20 countries, of many scientific fields, career stages and preferred
-programming languages.  We would like to celebrate this archievement with you,
+programming languages.  We would like to celebrate this achievement with you,
 by looking back at the history and achievements unlocked over the years and
 also ask you to share your best memories.  Spoiler: Even though this is a
 "looking back" post, CodeRefinery will not cease to exist anytime soon if we
@@ -109,7 +109,7 @@ been put into our online hand-on, demo and screen sharing setups in order to
 provide the best possible learning experience to participants.
 
 Since 2020 we had multiple local classrooms join our workshop and have adapted
-the format to accomodate these special circumstances.
+the format to accommodate these special circumstances.
 
 Paula Martinez Lavanchy shares: "[...][W]e have been ‘bringing our own class’ to
 the CodeRefinery workshops by joining the streaming of the lessons from the classroom with
@@ -175,7 +175,7 @@ rich in independent work on complex exercises. At the eScience Center, we found
 that approach more effective for less novice learners.  CodeRefinery was also
 very innovative, introducing a distributed online approach with many helpers
 supporting locally or in online breakout rooms.  I believe that helps with
-scaling the course and reaching a new audience that otherwise wouldn’t be able
+scaling the course and reaching a new audience that otherwise wouldn't be able
 to access this training.  We at the eScience Center will continue reusing and
 contributing to the CodeRefinery project. [...]"
 
@@ -214,13 +214,13 @@ CodeRefinery is also active on social media: LinkedIn (314 followers), X (860 fo
 The CodeRefinery project has been mentioned alongside other successful programs such as the Carpentries in Research Software Engineering related publications:
 
 - I. A. Cosden, K. McHenry and D. S. Katz, "Research Software Engineers: Career Entry Points and Training Gaps," in Computing in Science & Engineering,
-- vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on arxiv; page 7
+  vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on arxiv; page 7
 
 - US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career.
-- Zenodo. https://doi.org/10.5281/zenodo.10073233 ; page 19
+  Zenodo. https://doi.org/10.5281/zenodo.10073233 ; page 19
 
 - Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK.
-- Zenodo. https://doi.org/10.5281/zenodo.10473186 ; page 15
+  Zenodo. https://doi.org/10.5281/zenodo.10473186 ; page 15
 
 A collection of reports (https://coderefinery.org/about/reports/) and
 presentations (https://coderefinery.org/about/presentations/) about the project
