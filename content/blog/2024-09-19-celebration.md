@@ -1,12 +1,13 @@
 +++
-title = "CodeRefinery - Continuing eight years of collaboratively teaching good enough research software engineering practices"
-description = """
-Celebratory blogpost
-"""
+title = "CodeRefinery - Celebrating eight years"
+slug = "2024/09/19/celebrating-8-years"
+description = "Continuing eight years of collaboratively teaching good enough research software engineering practices"
 
 [extra]
 authors = "Samantha Wittke"
 +++
+
+<img width="600px" src="/blog/2024-09-19-celebration/cr-small.jpg" alt="CodeRefinery logo as a hand-carved wooden stand">
 
 <!-- toc -->
 
