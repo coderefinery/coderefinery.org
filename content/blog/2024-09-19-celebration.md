@@ -72,6 +72,7 @@ Software Carpentry for beginners, and the more advanced/bespoke training
 offered by other universities and HPC/computational research initiatives.
 
 The objectives of the CodeRefinery project are:
+
 • Organize and deliver workshops and events
 • Develop and maintain a lesson portfolio
 • Build a community and network of instructors and volunteer helpers
@@ -105,7 +106,7 @@ helper onboarding for the workshop.
 ## Bring your own classroom
 
 When switching from in-person to online workshops the CodeRefinery team put a
-lot of effort in embracing the online workshop format.  A lot of thought has
+lot of effort in embracing the online workshop format. A lot of thought has
 been put into our online hand-on, demo and screen sharing setups in order to
 provide the best possible learning experience to participants.
 
@@ -117,11 +118,15 @@ the CodeRefinery workshops by joining the streaming of the lessons from the clas
 our participants and helpers.
 TU Delft researchers provided very positive feedback about this initiative reflected in
 comments such as:
+
 “It's great and extremely useful. If it was it for me I would make it mandatory knowledge. It's
 really important that TU Delft continues promoting these workshops.”
+
 “Excellent workshop: the graduate school would be so much better with more of these
 practical & technical workshops”
+
 The CodeRefinery initiative has helped us and benefit TU Delft researchers in several ways:
+
 - The possibility of joining the workshops allowed us to advance with the
 implementation of our Vision for Research Data & Software management training
 and the implementation of TU Delft Research Software Policy by providing high
@@ -131,7 +136,8 @@ the CodeRefinery workshops have also provided them with a great opportunity to
 continuously improve their skills and learn from this great community.
 - The CodeRefinery learning materials are openly available and of excellent quality.
 We often refer our researchers to use them as consultation materials on our websites
-and/or guides. [...]"
+and/or guides. 
+[...]"
 
 
 ## Sharing experiences and support for doing your own thing
@@ -160,7 +166,8 @@ software development"
 and the "EuroCC best practices in HPC training" program lead by ENCCS Sweden
 (<https://enccs.github.io/instructor-training/>).
 
-Mateusz Kuzak and his team from the Netherlands eScience center explains:
+Mateusz Kuzak and his team from the Netherlands eScience center explain:
+
 "[...] At the Center, we have been successfully using the training materials
 developed by the CodeRefinery project since 2020. At that time, CodeRefinery
 filled the gap in the intermediate research software skills for researchers.
@@ -172,11 +179,11 @@ Carpentries Instructor Training.  They also realised that the pedagogical
 methodology used by the Carpentries, heavily dependent on live coding, would
 not work that well for intermediate audiences.  They developed a curriculum
 rich in independent work on complex exercises. At the eScience Center, we found
-that approach more effective for less novice learners.  CodeRefinery was also
+that approach more effective for less novice learners. CodeRefinery was also
 very innovative, introducing a distributed online approach with many helpers
-supporting locally or in online breakout rooms.  I believe that helps with
+supporting locally or in online breakout rooms. I believe that helps with
 scaling the course and reaching a new audience that otherwise wouldn't be able
-to access this training.  We at the eScience Center will continue reusing and
+to access this training. We at the eScience Center will continue reusing and
 contributing to the CodeRefinery project. [...]"
 
 
@@ -186,7 +193,8 @@ The main CodeRefinery workshop is organized twice a year and it is free and
 open for everyone. Everyone is encouraged to ask their questions and discuss
 the topics that interest them in a collaborative document. Instructors have a
 variety of different scientific and cultural backgrounds and are in different
-stages in their career.  After each workshop participants are encouraged to
+stages in their career.  
+After each workshop participants are encouraged to
 join the community which mainly lives in the CodeRefinery Zulip chat that to
 date is a home to 446 people with about 10% being really active.  The chat is
 also home to the Nordic-RSE and Nordic-HPC communities which are tightly knit
@@ -197,16 +205,15 @@ around workshop topics and beyond. Some participants even have found their way
 into the project this way.
 
 While the workshops are the main event for CodeRefinery, it is also a community
-with an open heart for supporting research and providing courses on a
+with an open heart for supporting research computing and providing courses on a
 researchers level.  Research Software Hour was born from the community, and has
 brought topics of Research Software Engineering that you cannot teach in a
-class to the research community (<https://researchsoftwarehour.github.io/>)
-hosted by the nominee and others.
+class to the research community (<https://researchsoftwarehour.github.io/>).
 
 A Zenodo community is available to collect all CodeRefinery and CodeRefinery related outputs:
 <https://zenodo.org/communities/coderefinery/records?q=&l=list&p=1&s=10&sort=newest>
 
-CodeRefinery is also active on social media: LinkedIn (314 followers), X (860 followers) and Mastodon (296 followers).
+CodeRefinery is also active on social media: LinkedIn (347 followers), X (844 followers) and Mastodon (313 followers).
 
 
 ## Reaching out
@@ -221,6 +228,10 @@ The CodeRefinery project has been mentioned alongside other successful programs 
 
 - Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK.
   Zenodo. <https://doi.org/10.5281/zenodo.10473186> ; page 15
+
+- Software Sustainability Institute Blog post on Free resources for technical staff: Career development and research software training by A. Nenadic and S. Aragon:  <https://www.software.ac.uk/blog/free-resources-technical-staff-career-development-and-research-software-training>
+
+- Goth F, Alves R, Braun M et al. Foundational Competencies and Responsibilities of a Research Software Engineer [version 1; peer review: awaiting peer review]. F1000Research 2024, 13:1429 <https://doi.org/10.12688/f1000research.157778.1>
 
 A collection of reports (<https://coderefinery.org/about/reports/>) and
 presentations (<https://coderefinery.org/about/presentations/>) about the project
@@ -243,9 +254,9 @@ One thing is clear: CodeRefinery will not end or cease to exist.
 
 We are in contact with funders and past and potential future organizations to
 make these efforts go on and likely we will continue the funded coordination +
-in-kind partners model.  For other structures we may collaborate with other
+in-kind partners model. For other structures we may collaborate with other
 organizations and projects.
 
 If this project and its mission sounds like something you would like to join or
-support, please contact support@coderefinery.org and we can discuss in more
-detail.
+support, we have multiple ways to get involved from spreading the word as an ambassador, supporting material and workshop format development, becoming an instructor and teaching with us to organizing workshops with us or on your own. Please contact support@coderefinery.org or join our chat (<https://coderefinery.zulipchat.com/>) and we can discuss in more
+detail. 
