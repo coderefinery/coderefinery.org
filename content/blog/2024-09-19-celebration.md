@@ -73,11 +73,11 @@ offered by other universities and HPC/computational research initiatives.
 
 The objectives of the CodeRefinery project are:
 
-• Organize and deliver workshops and events
-• Develop and maintain a lesson portfolio
-• Build a community and network of instructors and volunteer helpers
-• Operate a Nordic GitLab service
-• Support the community of Nordic research software engineers
+- Organize and deliver workshops and events
+- Develop and maintain a lesson portfolio
+- Build a community and network of instructors and volunteer helpers
+- Operate a Nordic GitLab service
+- Support the community of Nordic research software engineers
 
 
 ## CodeRefinery workshops
