@@ -15,7 +15,7 @@ involved but don't know where to start.
 
 **Our weekly meetings are topical** (but you can also ask questions about other topics):
 
-The next large CodeRefinery workshop is coming up in September, so we dedicate our meetings to the preparation and planning of it.
+The next large CodeRefinery workshop is always around the corner, so we dedicate many of our meetings to the preparation and planning of it. Some meetings may have more specialized topics.
 If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
 
 - 2025-01-13 News and open discussion
