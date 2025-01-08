@@ -1,13 +1,15 @@
 +++
 title = "Upcoming and recent workshops and events"
 description = "Upcomng CodeRefinery workshops and other related events."
-date = 2024-09-29
+date = 2025-01-08
 +++
 
 ## Upcoming CodeRefinery workshops
 
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
+
+The next CodeRefinery workshop will be Mar 25-27/Apr 1-3 2025. More info and registration coming soon. 
 
 We don't want you to miss a workshop or event. The best
 way to stay informed is to join [our newsletter](@/about/newsletter.md)
