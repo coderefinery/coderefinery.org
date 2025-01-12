@@ -57,6 +57,10 @@ with very small amounts of computation) should know.
 
 ## Shorter formats
 
+- [Python Progression: Moving Beyond the Basics](https://coderefinery.github.io/python-progression/):
+  This aims to be a "best of" from
+  [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/),
+  distilled into a two half-day workshop.
 - [Reproducible research software development using Python](https://coderefinery.github.io/reproducible-python/):
   2.5 days format tailored for people who write Python code.
 - [CodeRefinery "mini-workshop"](https://coderefinery.github.io/mini-workshop/):
