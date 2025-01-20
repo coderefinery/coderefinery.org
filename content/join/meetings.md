@@ -9,28 +9,23 @@ aliases = ["/organization/meetings"]
 - [Next meeting agenda and connection details](https://hackmd.io/@coderefinery/team-meeting).
 - Calendar invites: [Subscribe to "team events" calendar](/calendars/), which includes these meetings.
 
-We welcome everyone interested in CodeRefinery to join our weekly meetings.
+We welcome everyone interested in CodeRefinery to join our weekly meetings, every Mon at 14 CET.
 This is the place to drop by if you have questions or would like to get
 involved but don't know where to start.
 
-**Our weekly meetings are topical** (but you can also ask questions about other topics):
+The next large CodeRefinery workshop is always around the corner, 
+so we dedicate many of our meetings to the preparation and planning of it.
+Some meetings may have more specialized topics, which we will list here: 
 
-The next large CodeRefinery workshop is always around the corner, so we dedicate many of our meetings to the preparation and planning of it. Some meetings may have more specialized topics.
-If you have any questions or suggestions about the workshop or want to teach with us, please join for any of the upcoming sessions: 
-
-- 2025-01-13 News and open discussion
-- 2025-01-20 Open team call or TBD
-- 2025-01-27 Open team call or TBD
 - 2025-02-03 CodeRefinery ambassador call
-- ...
+
 
 ## Open house events
 
 We invite everyone interested in CodeRefinery and CodeRefinery adjacent topics to join us for ~monthly open house events. 
 These half-day sessions are intended for discussion and co-working. Topics will be announced here: 
 
-- 2025-01-14 Lesson development towards intermediate/advanced Git ("Git masterclass")
-- 2025-02-11 New instructor onboarding and lesson material development
+- 2025-02-TBD New instructor onboarding and lesson material development
 - 2025-03-04 Workshop preparation
 - ...
 
