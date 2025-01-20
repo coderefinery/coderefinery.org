@@ -1,0 +1,97 @@
++++
+title = "CodeRefinery Open House - advaced git / git masterclass"
+description = """
+Report from our open house session on advaced git / git masterclass on 14.01.25
+"""
+
+[extra]
+authors = "Samantha Wittke, ..."
++++
+
+# Open house session on advanced git curriculum
+
+---
+TL;DR
+
+TODO: Write summary 
+
+---
+
+## Outreach 
+
+We reached out to the community during different events, in several RSE chats (including the CodeRefinery Zulip chat) and via social media with a variation of this text: 
+
+```
+Are you teaching Git?
+
+Come to our Open House session on Tuesday Jan 14 and discuss with few people who
+are interested in how a lesson could look like which goes beyond basic Git.
+
+Let's share materials, find the gaps in the curriculums and collaborate to fill these gaps. 
+
+Connection details and agenda: XXX
+```
+## Agenda
+
+- Welcome
+- Introductions
+- Share materials links, fill list of topics
+- Experience exchange in groups of 3 
+- Same as above with new group until 
+- break 
+- Some more introductions
+- Keyword collection and where they are discussed, twice in different groups
+    - Rooms based on rough topics
+        - Recovery
+        - History
+        - User interfaces
+        - Project organization
+        - Collaborative workflows
+        - Combining changes
+        - Under the hood of git
+- Break 
+- Identifying gaps
+- Future meetings/work
+
+## Experiences
+
+TODO: Collect git and git teaching experience from notes
+
+## Goal for the session
+
+During the introduction sessions we collected everyones goals to make this session as useful as possible for everyone: 
+
+- That we all know about materials that we already have; if we decide to develop some new material, we ideally don't re-invent the same things in
+- Awareness and knowledge exchange, starting the discussion
+- Gather some initial thoughts and ideas, make connections - know where to look when the time comes!
+- I think there is definetely a need for an advanced course especially when it comes to certain features
+- Share experiences, contribute to discussion, find contributors to the curriculum above?
+- Here in order to take the CR Git lesson to a more advanced level
+- See in what ways we can add to the exiting material / what might be missing
+- See what is out there; improvement of our advanced Git course
+- See in what ways we can add to the exiting material / what might be missing
+- Share what I think failed in our intermediate workshop, discuss a list of topic and their justifications (backward lesson design), and some philosophical questions about this in particular
+- Mainly listen and I hope for a more advanced course+reference after coderefinery (maybe something to inspire people)
+- Discover existing materials and work towards collating these into a single open, community maintained material. Refine what is 
+- Identify plans and allies to contribute my materials to a community-based effort
+- I want to learn how to teach more effectively, especially to people who are not approaching this from an IT background 
+
+TODO: Formulate to something common
+
+## Material collection
+
+TODO: Collect all links from the notes with short descriptions and author/owner, license, and status. 
+
+## Topic collection
+
+TODO: Collect all topics with notes from the notes document, can be ordered differently than in notes
+
+## Gap identification
+
+TODO: Collect the identified gaps
+
+# Outlook
+
+In this session, we looked back: we shared experiences and links to already existing materials. We also preliminary identified topics of interest to the community based on previous experiences. 
+For the next session, we aim to **look into the future: What lessons are missing, where do we put them and how do we collaborate** on something useful for the community to mix and match as needed. 
+If you want to be part of this discussion, please XX. 
