@@ -3,13 +3,6 @@
 {% block content %}
   <div class="uk-child-width-expand@s uk-margin-bottom" uk-grid>
     <div>
-      <div class="uk-margin-bottom">
-        {% set neic_logo = resize_image(path="about/funding/neic.png", width=80, op="fit_width") %}
-        <a href="https://neic.no/">
-          <img src="{{ neic_logo.url }}"
-               alt="NeIC logo" class="mr-2, uk-align-left"/>
-        </a>
-      </div>
       <div>
         {% set coderefinery = resize_image(path="logo/coderefinery.png", width=250, op="fit_width") %}
         <img src="{{ coderefinery.url }}"
@@ -23,8 +16,12 @@
     </div>
   </div>
 
-  {% set news = get_page(path="index/news.md") %}
+  <div class="uk-margin-bottom">
+    {% include "partners.html" %}
+  </div>
+
   <div class="uk-margin-large-bottom">
+    {% set news = get_page(path="index/news.md") %}
     {{ news.content | safe }}
   </div>
 

@@ -154,8 +154,7 @@ CodeRefinery workshops as part of their work time.
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
         <a href="https://www.sigma2.no/" target="_blank">
-          <img width="120px" src="/about/funding/nris.svg" alt="logo: NRIS/Sigma2">
-          <img width="120px" src="/about/funding/sigma2.png" alt="logo: NRIS/Sigma2">
+          <img width="120px" src="/about/funding/nris-sigma2.png" alt="logo: NRIS/Sigma2">
         </a>
       </div>
       <div class="uk-width-expand">

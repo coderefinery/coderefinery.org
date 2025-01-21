@@ -29,3 +29,11 @@ $table-header-cell-color: #666666;
 .no-break {
     break-inside: avoid;
 }
+
+.logo-container {
+    display: flex;
+    justify-content: space-between; /* Evenly space logos */
+    align-items: center; /* Align logos vertically */
+    padding: 10px;
+    gap: 20px; /* Optional: uniform gap between logos */
+}
