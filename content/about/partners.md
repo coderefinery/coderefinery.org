@@ -132,7 +132,7 @@ CodeRefinery workshops as part of their work time.
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
         <a href="https://www.naiss.se/" target="_blank">
-          <img width="100px" src="/about/funding/naiss.jpg" alt="logo: National Academic Infrastructure for Super­computing in Sweden (NAISS)">
+          <img width="120px" src="/about/funding/naiss.jpg" alt="logo: National Academic Infrastructure for Super­computing in Sweden (NAISS)">
         </a>
       </div>
       <div class="uk-width-expand">
