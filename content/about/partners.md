@@ -173,6 +173,27 @@ CodeRefinery workshops as part of their work time.
   </div>
 </div>
 
+<div class="uk-card uk-card-default uk-width-2-2@m">
+  <div class="uk-card-body">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-expand">
+        <a href="https://www.usit.uio.no/" target="_blank">
+          <img width="90px" src="/about/funding/uio.jpg" alt="logo: UiO/USIT">
+        </a>
+      </div>
+      <div class="uk-width-expand">
+        <a href="https://www.usit.uio.no/" target="_blank">
+          University of Oslo (UiO/USIT)
+        </a>
+        <p class="uk-text-meta uk-margin-remove-top">Norway</p>
+      </div>
+      <div class="uk-width-expand">
+        <div>Sabry Razick</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 If you would like to contribute to shaping the future of the project, please
 encourage your organization to join as well. While it costs them your work time
 it has also proven to increase cross-organisation and international
