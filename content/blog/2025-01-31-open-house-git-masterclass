@@ -10,16 +10,13 @@ authors = "Samantha Wittke, ..."
 
 # Open house session on advanced git curriculum
 
----
-TL;DR
 
-TODO: Write summary 
+On January 14, 2025, we held an Open House session was to discuss the need to develop an intermediate to advanced Git curriculum, 
+sometimes also referred to as a "Git masterclass". We invited educators and practitioners from various institutions and communities
+to share resources, identify curriculum gaps, and start strategizing on lesson development.
 
----
-
-## Outreach 
-
-We reached out to the community during different events, in several RSE chats (including the CodeRefinery Zulip chat) and via social media with a variation of this text: 
+We reached out to the community during different events, in several RSE chats (including the CodeRefinery Zulip chat) and via 
+CodeRefinery social media accounts with a variation of this text: 
 
 ```
 Are you teaching Git?
@@ -31,67 +28,58 @@ Let's share materials, find the gaps in the curriculums and collaborate to fill 
 
 Connection details and agenda: XXX
 ```
-## Agenda
 
-- Welcome
-- Introductions
-- Share materials links, fill list of topics
-- Experience exchange in groups of 3 
-- Same as above with new group until 
-- break 
-- Some more introductions
-- Keyword collection and where they are discussed, twice in different groups
-    - Rooms based on rough topics
+## Session Overview:
+
+- **Participants**: The session included representatives from organizations such as the University of Tromsø (NO), Met Office (UK),
+CSC-IT Center for Science (FI), the University of Sheffield (UK), RWTH Aachen University (DE), the University of Jena (DE), UPPMAX (SE),
+the Max Planck Institute for Astronomy (DE), Danmarks Meteorologiske Institut (DK), Karlsruher Institute für Technologie (DE),
+UK Centre for Ecology & Hydrology, Aalto University (FI), Newcastle University (UK) and Heidelberg University (DE).
+
+- **Objectives**: The primary goals were to exchange teaching materials, discuss experiences in instructing Git, and collaboratively 
+think about a curriculum that addresses advanced Git topics beyond the basics.
+
+## Key Activities:
+
+- **Introductions:** Participants introduced themselves, detailing their affiliations, experiences with Git, teaching backgrounds, 
+and objectives for the session.
+
+- **Resource Sharing:** Attendees shared links to existing materials and compiled a list of advanced Git topics to be covered in the curriculum. 
+See XX for more details.
+
+- **Experience Exchange:** Small group discussions facilitated the sharing of teaching experiences, challenges faced, 
+and effective strategies for conveying complex Git concepts.
+
+- **Keyword Collection:** The group identified key topics and discussed their relevance within the proposed curriculum.
+
+- **Breakout Sessions:** Participants divided into groups focusing on specific themes such as:
         - Recovery
         - History
-        - User interfaces
-        - Project organization
-        - Collaborative workflows
-        - Combining changes
-        - Under the hood of git
-- Break 
-- Identifying gaps
-- Future meetings/work
+        - User Interfaces
+        - Project Organization
+        - Collaborative Workflows
 
-## Experiences
+- **Gap Identification:** We concluded the session with a discussion aimed at identifying gaps in existing materials and planning 
+future collaborative efforts to develop comprehensive lessons.
 
-TODO: Collect git and git teaching experience from notes
+## Outcomes and Insights:
 
-## Goal for the session
+- **Resource Compilation:** A diverse array of teaching materials and resources were shared, providing a solid foundation for the curriculum development.
 
-During the introduction sessions we collected everyones goals to make this session as useful as possible for everyone: 
+- **Community Building:** The session fostered a sense of community among Git educators, highlighting the value of collaboration in enhancing teaching methodologies.
 
-- That we all know about materials that we already have; if we decide to develop some new material, we ideally don't re-invent the same things in
-- Awareness and knowledge exchange, starting the discussion
-- Gather some initial thoughts and ideas, make connections - know where to look when the time comes!
-- I think there is definetely a need for an advanced course especially when it comes to certain features
-- Share experiences, contribute to discussion, find contributors to the curriculum above?
-- Here in order to take the CR Git lesson to a more advanced level
-- See in what ways we can add to the exiting material / what might be missing
-- See what is out there; improvement of our advanced Git course
-- See in what ways we can add to the exiting material / what might be missing
-- Share what I think failed in our intermediate workshop, discuss a list of topic and their justifications (backward lesson design), and some philosophical questions about this in particular
-- Mainly listen and I hope for a more advanced course+reference after coderefinery (maybe something to inspire people)
-- Discover existing materials and work towards collating these into a single open, community maintained material. Refine what is 
-- Identify plans and allies to contribute my materials to a community-based effort
-- I want to learn how to teach more effectively, especially to people who are not approaching this from an IT background 
+- **Future Collaboration:** Participants expressed interest in ongoing collaboration to refine and expand the advanced Git curriculum.
 
-TODO: Formulate to something common
+## Personal Reflections:
 
-## Material collection
+Engaging with fellow educators and practitioners provided valuable insights into the diverse approaches to teaching Git. 
+The collaborative nature of the session underscored the importance of sharing knowledge and resources to improve educational outcomes.
 
-TODO: Collect all links from the notes with short descriptions and author/owner, license, and status. 
+## Conclusion:
 
-## Topic collection
+The Open House session in January 2025, marked a significant step toward developing a comprehensive intermediate to advanced Git curriculum.
+The collective expertise and willingness to collaborate among participants set a strong foundation for future efforts in this area.
 
-TODO: Collect all topics with notes from the notes document, can be ordered differently than in notes
+## Call to Action:
 
-## Gap identification
-
-TODO: Collect the identified gaps
-
-# Outlook
-
-In this session, we looked back: we shared experiences and links to already existing materials. We also preliminary identified topics of interest to the community based on previous experiences. 
-For the next session, we aim to **look into the future: What lessons are missing, where do we put them and how do we collaborate** on something useful for the community to mix and match as needed. 
-If you want to be part of this discussion, please XX. 
+We encourage all educators and practitioners interested in contributing to the development of the advanced Git curriculum to join future sessions and collaborate in this ongoing initiative.
