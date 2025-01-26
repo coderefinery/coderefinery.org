@@ -27,6 +27,9 @@ courses/workshops we know of are listed below but we would like to list more.
 
 ## Derivative work based on our material
 
+- [How to parallelize independent tasks](https://training.pages.sigma2.no/tutorials/independent-jobs-in-parallel/) taught online
+  as part of [NRIS/Sigma2](https://www.sigma2.no/) training.
+  It reuses part of [Tuesdays tools and techniques for HPC: Real-life compute cluster workflows](https://coderefinery.github.io/TTT4HPC_resource_management/).
 - Some talks in the [software and data seminar](https://wias-berlin.de/seminars/swdata/) at the Weierstrass-Institute for Applied Analysis and Stochastics, Berlin, Germany.
 - [Collaborating and sharing using GitHub without command
   line](https://miketrizna.github.io/github-without-command-line/)
