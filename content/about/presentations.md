@@ -28,9 +28,12 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
 
 ## 2024
 
+- CarpentryConnect in Heidelberg, Germany in November 2024: [Poster](https://github.com/coderefinery/posters/blob/main/2024_CarpentryCon.pdf)
+  and [lightning talk](https://github.com/coderefinery/presentations/blob/main/2024-CarpentryCon.pdf) on ["Teaching 'good enough' research software engineering skills"](https://doi.org/10.5281/zenodo.14739411) (Samantha Wittke)
 - ["The CodeRefinery project for training in research software engineering"](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-hpc-train-ecosystem-europe.md/)
   at [The HPC Training Ecosystem in Europe (Online)](https://enccs.se/news/2024/10/the-hpc-training-ecosystem-in-europe/),
   Oct 22, 2024 (Johan Hellsvik)
+- [Bring your own classroom to a CodeRefinery workshop](https://zenodo.org/records/13625954) at RSECon in Newcastle, UK in September 2024 (Samantha Wittke).
 - ["Practical software licensing"](https://zenodo.org/records/11554001) at [DataverseNO](https://dataverse.no/) webinar,
   Jun 10, 2024 (Radovan Bast)
 - ["CodeRefinery - My pathway into Research Software Engineering"](https://zenodo.org/records/11204358)
