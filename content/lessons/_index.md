@@ -57,6 +57,8 @@ with very small amounts of computation) should know.
 
 ## Shorter formats
 
+- [Reproducible research software development using Python (using ML example)](https://coderefinery.github.io/reproducible-python-ml/):
+  3-days format tailored for people who write Python code for machine learning.
 - [Python Progression: Moving Beyond the Basics](https://coderefinery.github.io/python-progression/):
   This aims to be a "best of" from
   [Python for Scientific Computing](https://aaltoscicomp.github.io/python-for-scicomp/),
