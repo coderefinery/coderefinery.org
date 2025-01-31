@@ -18,6 +18,7 @@ so we dedicate many of our meetings to the preparation and planning of it.
 Some meetings may have more specialized topics, which we will list here: 
 
 - 2025-02-03 CodeRefinery ambassador call
+- ...
 
 
 ## Open house events
@@ -25,7 +26,7 @@ Some meetings may have more specialized topics, which we will list here:
 We invite everyone interested in CodeRefinery and CodeRefinery adjacent topics to join us for ~monthly open house events. 
 These half-day sessions are intended for discussion and co-working. Topics will be announced here: 
 
-- 2025-02-TBD New instructor onboarding and lesson material development
+- 2025-02-19 and 2025-02-24 (9-11 CET) New instructor info and tech onboarding 
 - 2025-03-04 Workshop preparation
 - ...
 
