@@ -35,7 +35,4 @@ skip_prefixes = [
 [extra]
 # Put all your custom variables here
 
-twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-minimal.png"
-twitter_image_alt = "CodeRefinery.  Teaching good-enough practices for comutational research.  Workshops as open as your science should be."
-
 plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "coderefinery.org", github_ref = "refs/heads/main" }

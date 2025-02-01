@@ -28,12 +28,12 @@ You can subscribe to the CodeRefinery newsletter
 [here](@/about/newsletter.md).
 
 
-### Announcements and social media: Mastodon and Twitter
+### Announcements and social media: Mastodon, LinkedIn, and Bluesky
 
 If you like what we do, please reach out:
-Mastodon at
-[@coderefinery@fosstodon.org](https://fosstodon.org/@coderefinery) and
-Twitter at [@coderefine](https://twitter.com/coderefine)
+- Mastodon: <https://fosstodon.org/@coderefinery>
+- LinkedIn: <https://www.linkedin.com/company/coderefinery-research-software-development>
+- Bluesky: <https://bsky.app/profile/coderefinery.org>
 
 
 ### Calendars

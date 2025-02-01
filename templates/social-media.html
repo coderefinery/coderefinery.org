@@ -1,0 +1,16 @@
+    {% if page.title %}
+      <title>CodeRefinery - {{ page.title }}</title>
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta property="og:site_name" content="{{ config.title }}" />
+    {% else %}
+      <title>CodeRefinery</title>
+      <meta property="og:title" content="{{ config.title }}" />
+    {% endif %}
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+      <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+      <meta name="description" content="{{ config.description }}" />
+      <meta property="og:description" content="{{ config.description }}" />
+    {% endif %}

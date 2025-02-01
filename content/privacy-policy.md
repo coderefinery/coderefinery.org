@@ -75,7 +75,7 @@ provided to governmental bodies and other entities as required by law.
   [Twitch](https://twitch.tv/coderefinery),
   [YouTube](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg),
   [Mastodon](https://fosstodon.org/@coderefinery), and
-  [Twitter](https://twitter.com/coderefine).
+  [Bluesky](https://bsky.app/profile/coderefinery.org).
 - *Online video conference systems* - onlinve video conference systems that
   are licensed to any institute that CodeRefinery team members are affiliated
   by.
