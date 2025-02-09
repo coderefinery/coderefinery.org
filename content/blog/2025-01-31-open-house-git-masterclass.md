@@ -1,7 +1,7 @@
 +++
-title = "CodeRefinery Open House - advaced git / git masterclass"
+title = "CodeRefinery Open House - advanced git / git masterclass"
 description = """
-Report from our open house session on advaced git / git masterclass on 14.01.25
+Report from our open house session on advanced git / git masterclass on 14.01.25
 """
 
 [extra]
