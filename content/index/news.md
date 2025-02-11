@@ -3,7 +3,8 @@
 
 ## Upcoming workshops and other news
 
-- The next CodeRefinery workshop will be Mar 25-27/Apr 1-3 2025. More info and registration coming soon. Let us know if you want to get involved!
+- The next CodeRefinery workshop is happening Mar 25-27/Apr 1-3 2025. More info and registration on the [workshop website](https://coderefinery.github.io/2025-03-25-workshop/)!
+    - We would appreciate you helping us advertise this workshop. You may reuse any of our [workshop announcement texts](https://coderefinery.github.io/2025-03-25-workshop/communication/) or print and distribute our [workshop poster for your timezone](https://github.com/coderefinery/posters/tree/main/2025_spring_workshop). 
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
 - CodeRefinery stickers, patches and more: [Goodies](/about/goodies/)
 - Get weekly or monthly updates: [Newsletter](/about/newsletter/)
