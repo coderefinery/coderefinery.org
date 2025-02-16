@@ -29,7 +29,7 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
 
 ## 2024
 
-- Enabling Open Science Through Research Code meet-up series, co-hosted by
+- "Enabling Open Science Through Research Code" meet-up series, co-hosted by
   [RSSE Africa](https://rsse.africa/) and [RSE
   Asia](https://rse-asia.github.io/RSE_Asia/), [Episode 2: Enabling
   Reproducibility through Research
