@@ -26,8 +26,15 @@ please check out our [short slideset](https://cicero.xyz/v3/remark/0.14.0/github
 and find the source in `markdown` and LibreOffice Impress `odp` format in our 
 [presentation repository](https://github.com/coderefinery/presentations) (named `2024-CodeRefinery-basic.*`).
 
+
 ## 2024
 
+- Enabling Open Science Through Research Code meet-up series, co-hosted by
+  [RSSE Africa](https://rsse.africa/) and [RSE
+  Asia](https://rse-asia.github.io/RSE_Asia/), [Episode 2: Enabling
+  Reproducibility through Research
+  Code](https://rsse.africa/events-rsse-africa/2024-11-14/), Nov 14, 2024
+  ([blog post](https://rsse.africa/post/2024/12/open-science-episode2/)).
 - CarpentryConnect in Heidelberg, Germany in November 2024: [Poster](https://github.com/coderefinery/posters/blob/main/2024_CarpentryCon.pdf)
   and [lightning talk](https://github.com/coderefinery/presentations/blob/main/2024-CarpentryCon.pdf) on ["Teaching 'good enough' research software engineering skills"](https://doi.org/10.5281/zenodo.14739411) (Samantha Wittke)
 - ["The CodeRefinery project for training in research software engineering"](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-hpc-train-ecosystem-europe.md/)
