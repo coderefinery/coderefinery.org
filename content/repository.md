@@ -5,6 +5,8 @@
 
 # Code repository hosting for Nordic research software
 
+- We are currently working on securing a long-term support for this service,
+  well beyond 2025. We will provide more information as soon as possible.
 - **Over 288 active users, 226 groups, with over 390 active projects**.
 - The service is hosted at <https://source.coderefinery.org>.
 - The is currently run from and the data is stored on servers at the
@@ -17,10 +19,6 @@
 - This service is for collaborating on code and scripts. It is not designed to be
   a data sharing or data archive service. There are other services for data
   sharing and archival.  In doubt please ask `support@coderefinery.org`.
-- We are currently funded until 2025. We are actively working on
-  securing long-term funding for this service. The goal is to create a service
-  for many years to come. If we do not manage to secure long-term funding, we
-  will notify users well in advance and assist in migrating repository and data.
 - The entire file system is backed up every day.  The schedule is 1/month full
   backup, 3 out of 4 weeks differential backup, 1/day incremental backup.  We
   reserve the right to reduce the number of days backed up if space becomes an
