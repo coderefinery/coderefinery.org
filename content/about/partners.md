@@ -212,9 +212,8 @@ organizations](@/join/organizations.md) on how your organization can join.
 <img src="/about/funding/asc.png" alt="logo: Aalto Scientific Computing" width="100px">
 
 ASC has been involved in CodeRefinery since 2017.
-- Web: [scicomp.aalto.fi](https://scicomp.aalto.fi/)
-- Learner support:
-  [scicomp.aalto.fi/help/](https://scicomp.aalto.f/help/)
+- Web: <https://scicomp.aalto.fi>
+- Learner support: <https://scicomp.aalto.fi/help/>
 - Contact: Richard Darst via [CodeRefinery
   chat](https://coderefinery.github.io/manuals/chat/).
 - Provides local registration and breakout rooms for most core

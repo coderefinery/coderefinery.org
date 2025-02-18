@@ -6,7 +6,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 ## Articles and blog posts about CodeRefinery
 
 - [CodeRefinery
-  Continues](https://www.kth.se/polopoly_fs/1.1214879.1671148072!/Newsletter2022-2-final_lres_spreads.pdf),
+  Continues](https://www.pdc.kth.se/about/publications/pdc-newsletter-2022-no-2/coderefinery-continues-1.1208794)
   article in PDC 2022.2 newsletter (KTH, Sweden)
 - [Training that connects people (2022 NeIC news article)](https://neic.no/news/2022/09/15/sixth-success-story/)
 - [CodeRefinery workshop: Nettkurs for utviklere av forskningsprogramvare](https://www.usit.uio.no/om/organisasjon/itf/ds/task/task-bloggen/coderefinery-workshop.html)
@@ -21,7 +21,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
   (Aalto University news)
 - *A FAIRer future*, [Nature Physics 15, 728–730 (2019)](https://doi.org/10.1038/s41567-019-0624-3)
 - *Bättre datahantering gör forskning mer reproducerbar*, [article in the Curie newsletter](https://www.tidningencurie.se/nyheter/2019/04/23/battre-datahantering-gor-forskning-mer-reproducerbar/) from the Swedish Research Council
-- *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.pdc.kth.se/publications/pdc-newsletter-articles/2018-no-2/coderefinery-2-0-1.864580) and [Titan.uio.no blog post](https://titan.uio.no/node/3162)
+- *CodeRefinery 2.0*, [PDC December 2018 newsletter](https://www.kth.se/polopoly_fs/1.865417.1600689934!/Newsletter2018-2-final-lres.pdf) and [Titan.uio.no blog post](https://www.titan.uio.no/blogg/forskerbloggen/2018/coderefinery-20.html)
 - *Teaching researchers to write better code*, [https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/](https://www.inthefieldstories.net/teaching-researchers-to-write-better-code/)
 - *Better software leads to better science*, [NeIC news article](https://neic.no/news/2017/03/15/better-software-leads-to-better-science/)
 - *First Year of CodeRefinery*, PDC December 2017 newsletter
