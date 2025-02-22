@@ -39,6 +39,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 
 ## Project proposals, reports, and documents
 
+- [Proposal (phase 4)](phase-4-proposal.pdf)
 - [Mid-term presentation for NeIC Board (phase 3)](https://zenodo.org/records/10388062) 
 - [Project plan (phase 3)](phase-3-project-plan.pdf)
 - [Collaboration agreement (phase 3)](phase-3-collaboration-agreement.pdf)
