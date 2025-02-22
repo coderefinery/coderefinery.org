@@ -35,7 +35,7 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
   Reproducibility through Research
   Code](https://rsse.africa/events-rsse-africa/2024-11-14/), Nov 14, 2024
   ([blog post](https://rsse.africa/post/2024/12/open-science-episode2/)).
-- CarpentryConnect in Heidelberg, Germany in November 2024: [Poster](https://github.com/coderefinery/posters/blob/main/2024_CarpentryCon.pdf)
+- CarpentryConnect in Heidelberg, Germany in November 2024: [Poster](https://github.com/coderefinery/posters/blob/main/2024_CarpentryCon/2024_CarpentryCon.pdf)
   and [lightning talk](https://github.com/coderefinery/presentations/blob/main/2024-CarpentryCon.pdf) on ["Teaching 'good enough' research software engineering skills"](https://doi.org/10.5281/zenodo.14739411) (Samantha Wittke)
 - ["The CodeRefinery project for training in research software engineering"](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/main/2024-hpc-train-ecosystem-europe.md/)
   at [The HPC Training Ecosystem in Europe (Online)](https://enccs.se/news/2024/10/the-hpc-training-ecosystem-in-europe/),
@@ -77,7 +77,7 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
 ## 2022
 
 - ["About the CodeRefinery project"](https://doi.org/10.5446/60140) at the
-  [EuSSI training bazaar](https://eussi.org/bazaar/) - Nov 21, 2022 (Matias Jääskeläinen)
+  EuSSI training bazaar, Nov 21, 2022 (Matias Jääskeläinen)
 - "CodeRefinery - a hub for FAIR Software practices" at
   [DeiC conference 2022](https://www.deic.dk/en/conference/2022/program-day-1) (Radovan Bast)
 

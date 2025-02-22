@@ -31,6 +31,11 @@ skip_prefixes = [
     "https://cicero.xyz",
     "https://sandbox.zenodo.org",
 ]
+# do not check blog posts for broken external links
+ignored_files = [
+    "*/content/blog/*",
+    "*/content/open-house/*",
+]
 
 [extra]
 # Put all your custom variables here

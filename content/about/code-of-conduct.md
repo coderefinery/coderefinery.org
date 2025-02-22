@@ -11,7 +11,7 @@ contributing. All participants in our events and communications are expected to
 show respect and courtesy to others. 
 
 We follow [the Code of Conduct by the
-Carpentries](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+Carpentries](https://docs.carpentries.org/policies/coc/)
 as primary principles.  Here is a summary of CodeRefinery's Code of Conduct
 adapted from the Carpentries Code of Conduct:
 
