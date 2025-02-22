@@ -53,4 +53,4 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 - [NeIC open call 2021 evaluation report](open-call-2021-evaluation.pdf)
 - [Collaboration agreement (phase 3)](phase-3-collaboration-agreement.pdf)
 - [Project plan (phase 3)](phase-3-project-plan.pdf)
-- [Mid-term presentation for NeIC Board](https://zenodo.org/records/10388062) 
+- [Mid-term presentation for NeIC Board (phase 3)](https://zenodo.org/records/10388062) 
