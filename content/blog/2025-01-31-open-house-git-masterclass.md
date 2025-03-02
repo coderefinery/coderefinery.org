@@ -5,7 +5,7 @@ Report from our open house session on advanced git / git masterclass on 14.01.25
 """
 
 [extra]
-authors = "Samantha Wittke" , "with support of ChatGPT"
+authors = "Samantha Wittke with support from ChatGPT"
 +++
 
 # Open house session on advanced git curriculum
