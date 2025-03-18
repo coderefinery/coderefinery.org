@@ -83,6 +83,10 @@ A number of video recordings of CodeRefinery lessons and workshops and
 found on our [YouTube
 channel](https://www.youtube.com/channel/UC47aupE7HKGduAjXKt1Gwrg/videos).
 
+Recently we recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
+which can be used as preparation for those who wish to follow the course
+using the command line.
+
 
 ## Installation guides
 
