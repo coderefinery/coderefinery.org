@@ -68,13 +68,10 @@ please get in touch.
     * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
     * Instructor training workshops to learn to organise and teach CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
-* Until 2025 we provided a code repository hosting service that is open and free for all researchers based in national universities and research institutes from Nordic countries. This service is currently moving to DeiC, but will continue to be available for all Nordics.
 
 ## Infrastructure services (until 2025)
 
-Our [code repository hosting service](/repository/) is open and free for all
-researchers based in Nordic universities and research institutes. Please
-[contact us](/organization/contact/) if you would like to use these services.
+Until 2025 we provided a code repository hosting service that is open and free for all researchers based in national universities and research institutes from Nordic countries. This service is currently moving to DeiC, but will continue to be available for all Nordics.
 
 
 ## Training opportunities
