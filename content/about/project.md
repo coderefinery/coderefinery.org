@@ -29,16 +29,16 @@ level of what we teach, and the two-way collaboration is very
 productive.
 
 We are a community project seeking volunteers to sustain what we have
-accomplished in the first five years.
+accomplished in the previous phases.
 
 
 ## Key facts
 
-- Funded by the [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) (October 2016 to February 2025)
-- Project manager: Radovan Bast
+- Funded by the [Nordic e-Infrastructure Collaboration (NeIC)](https://neic.no/) and partner organisations (October 2016 to May 2028)
+- Project manager: Radovan Bast (2016 - 2025), Samantha Wittke (2025 - 2028)
 - Steering group meeting minutes: [Until 2021](https://wiki.neic.no/wiki/Category:CodeRefinery_meetings) and [from 2022](https://drive.google.com/drive/folders/1wD_fzR94sTcqy-o8Rc1Qbl_l0HUFauHt)
 - Over 30 workshops held with over 1500 participants (see [past workshops](/workshops/past/) and [statistics](/about/statistics/))
-- [GitLab service](/repository/): Over 300 active users, 175 groups, with over 400 active projects
+- [GitLab service](/repository/): Over 300 active users, 175 groups, with over 400 active projects until 2025
 
 
 ## CodeRefinery and [The Carpentries](https://carpentries.org/)
@@ -61,7 +61,6 @@ please get in touch.
 
 ## Core Activities
 
-* We provide a code repository hosting service that is open and free for all researchers based in national universities and research institutes from Nordic countries.
 * We develop and maintain training material on software best practices for researchers that already write code. Our material addresses all academic disciplines and tries to be as programming language-independent as possible.
 * We offer training opportunities:
 
@@ -69,8 +68,9 @@ please get in touch.
     * Other workshops, organized by partner institutions using CodeRefinery principles, advertised to others on a reciprocal basis.
     * Instructor training workshops to learn to organise and teach CodeRefinery workshops. Our train the trainer program aims at building partnerships with Research Software Engineers and researchers who are willing to lead skills' transfer within their local communities in the Nordics.
 
+* Until 2025 we provided a code repository hosting service that is open and free for all researchers based in national universities and research institutes from Nordic countries. This service is currently moving to DeiC, but will continue to be available for all Nordics.
 
-## Infrastructure services
+## Infrastructure services (until 2025)
 
 Our [code repository hosting service](/repository/) is open and free for all
 researchers based in Nordic universities and research institutes. Please
