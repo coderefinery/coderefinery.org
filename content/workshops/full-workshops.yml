@@ -1,5 +1,55 @@
 events:
   - name: Full online workshop (6 half-days)
+    website: https://coderefinery.github.io/2025-03-25-workshop/
+    start_date: "2025-03-25"
+    end_date: "2025-04-03"
+    organizers: 
+      - Diana Iusan
+      - Enrico Glerean
+      - Samantha Wittke
+      - Richard Darst
+    instructors:
+      - Radovan Bast
+      - Richard Darst
+      - Gregor Decristoforo
+      - Enrico Glerean
+      - Johan Hellsvik
+      - Diana Iusan
+      - Bjørn Lindi
+      - Michele Mesiti
+      - Dhanya Pushpadas
+      - Jarno Rantaharju
+      - Thomas Pfau
+      - Samantha Wittke
+    expert_helpers:
+      - Aurélie Vancraeyenest
+      - Anni Järvenpää
+      - Michele Mesiti
+    num_participants:
+      EE: 8
+      FI: 116
+      SE: 25
+      DK: 2
+      DE: 76
+      NO: 21
+      UK: 20
+      US: 14
+      NL: 11
+      GR: 13
+      FR: 23
+      IN: 8
+      IR: 4
+      IT: 7
+      PK: 3
+      PT: 3
+      ES: 3
+      other: 21
+      total: 378 
+    twitch_viewers:      
+      smallest_viewers_max: 179
+      largest_viewers_max: 525
+  
+  - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2024-09-10-workshop/
     start_date: "2024-09-10"
     end_date: "2024-09-19"
