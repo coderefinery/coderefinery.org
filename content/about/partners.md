@@ -58,7 +58,6 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
       <div class="uk-width-expand">
-        <div>Matias Jääskeläinen</div>
         <div>Samantha Wittke</div>
       </div>
     </div>
@@ -153,6 +152,27 @@ CodeRefinery workshops as part of their work time.
   <div class="uk-card-body">
     <div class="uk-grid-small uk-flex-middle" uk-grid>
       <div class="uk-width-expand">
+        <a href="https://www.ntnu.no/" target="_blank">
+          <img width="120px" src="/about/funding/ntnu.png" alt="logo: Norwegian University of Science and Technology (NTNU)">
+        </a>
+      </div>
+      <div class="uk-width-expand">
+        <a href="https://www.ntnu.edu/" target="_blank">
+          Norwegian University of Science and Technology (NTNU)
+        </a>
+        <p class="uk-text-meta uk-margin-remove-top">Norway</p>
+      </div>
+      <div class="uk-width-expand">
+        <div>Bjørn Lindi</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uk-card uk-card-default uk-width-2-2@m">
+  <div class="uk-card-body">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-expand">
         <a href="https://www.sigma2.no/" target="_blank">
           <img width="120px" src="/about/funding/nris-sigma2.png" alt="logo: NRIS/Sigma2">
         </a>
@@ -164,7 +184,6 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
       <div class="uk-width-expand">
-        <div>Radovan Bast</div>
         <div>Bjørn Lindi</div>
         <div>Dhanya Pushpadas</div>
       </div>
@@ -188,6 +207,27 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Sabry Razick</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uk-card uk-card-default uk-width-2-2@m">
+  <div class="uk-card-body">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-expand">
+        <a href="https://english.hi.is/" target="_blank">
+          <img width="90px" src="/about/funding/hi.png" alt="logo: University of Iceland">
+        </a>
+      </div>
+      <div class="uk-width-expand">
+        <a href="https://english.hi.is/" target="_blank">
+          University of Iceland
+        </a>
+        <p class="uk-text-meta uk-margin-remove-top">Iceland</p>
+      </div>
+      <div class="uk-width-expand">
+        <!-- <div>Name</div> -->
       </div>
     </div>
   </div>
