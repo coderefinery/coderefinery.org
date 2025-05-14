@@ -8,10 +8,12 @@ aliases = ["/organization/partners/"]
 
 <img src="/about/funding/neic.png" alt="NeIC logo" width="200px">
 
-This project is funded by the Nordic e-Infrastructure Collaboration (NeIC). The
-project is now in its third phase (2022--2025).  NeIC directly funds a 50%
-position for project management and a 40% position for workshop and training
-coordination. NeIC also provides funding for travel, meetings, and conferences.
+This project is funded by the Nordic e-Infrastructure Collaboration (NeIC)
+and many partners providing in-kind support (see below).
+The project is now in its fourth phase (2025--2028).
+NeIC directly funds a 50%
+position for project management.
+NeIC also provides funding for travel, meetings, and conferences.
 
 
 ## Organizations providing in-kind support
