@@ -18,6 +18,8 @@ You can also subscribe to our [RSS feed](/atom.xml).
 
 ## Upcoming workshops from partner organizations
 
+- [BioNT- NumPy and Pandas fundamentals for handling biological datasets](https://biont.biobyte.de/HklzRkuZRjS6ORgHCiA-HA) (May 27-28, 2025)
+
 Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
 to list your workshop/event here.
