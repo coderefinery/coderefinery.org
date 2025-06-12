@@ -60,6 +60,8 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Finland</p>
       </div>
       <div class="uk-width-expand">
+        <div>Oskar Taubert</div>
+        <div>Aurélie Vancraeyenest</div>
         <div>Samantha Wittke</div>
       </div>
     </div>
@@ -122,7 +124,8 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Sweden</p>
       </div>
       <div class="uk-width-expand">
-        <div>Thor Wikfeldt</div>
+        <div>Yonglei Wang</div>
+        <div>Ashwin V. Mohanan</div> 
       </div>
     </div>
   </div>
@@ -186,8 +189,7 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
       <div class="uk-width-expand">
-        <div>Bjørn Lindi</div>
-        <div>Dhanya Pushpadas</div>
+        <div>Gregor Dechristoforo</div>
       </div>
     </div>
   </div>
@@ -208,7 +210,7 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
       <div class="uk-width-expand">
-        <div>Sabry Razick</div>
+        <div>Pubudu Samarakoon</div>
       </div>
     </div>
   </div>
@@ -229,7 +231,8 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Iceland</p>
       </div>
       <div class="uk-width-expand">
-        <!-- <div>Name</div> -->
+        <div>Hemanadhan Myneni</div>
+        <div>Ebba Thora Hvannberg</div>
       </div>
     </div>
   </div>
