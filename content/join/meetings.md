@@ -15,9 +15,8 @@ involved but don't know where to start.
 
 The next large CodeRefinery workshop is always around the corner, 
 so we dedicate many of our meetings to the preparation and planning of it.
-Some meetings may have more specialized topics, which we will list here: 
-
-- 2025-02-03 CodeRefinery ambassador call
+Some meetings may have more specialized topics. Please refer to the 
+[team meeting notes and agenda document](https://hackmd.io/@coderefinery/team-meeting) to find out about the topic.
 
 
 ## Open house events
@@ -25,9 +24,7 @@ Some meetings may have more specialized topics, which we will list here:
 We invite everyone interested in CodeRefinery and CodeRefinery adjacent topics to join us for ~monthly open house events. 
 These half-day sessions are intended for discussion and co-working. Topics will be announced here: 
 
-- 2025-02-TBD New instructor onboarding and lesson material development
-- 2025-03-04 Workshop preparation
-- ...
+- ... Coming soon!
 
 
 ## Archive of earlier meetings
