@@ -1,7 +1,7 @@
 +++
 title = "Upcoming and recent workshops and events"
 description = "Upcomng CodeRefinery workshops and other related events."
-date = 2025-01-08
+date = 2025-06-15
 +++
 
 ## Upcoming CodeRefinery workshops
@@ -9,7 +9,7 @@ date = 2025-01-08
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-03-25-workshop/) (Mar 25-27 & Apr 1-3, 2025)
+- CodeRefinery tools workshop (online) - September 9-11 2025 + 6 following Wednesdays (new format - registration opening soon!)
 
 Don't want you to miss a workshop or event? The best
 way to stay informed is to join [our newsletter](@/about/newsletter.md)
@@ -18,7 +18,6 @@ You can also subscribe to our [RSS feed](/atom.xml).
 
 ## Upcoming workshops from partner organizations
 
-- [BioNT- NumPy and Pandas fundamentals for handling biological datasets](https://biont.biobyte.de/HklzRkuZRjS6ORgHCiA-HA) (May 27-28, 2025)
 
 Partners are invited to [send a pull
 request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
@@ -27,6 +26,8 @@ to list your workshop/event here.
 
 ## Recent workshops and events
 
+- [BioNT- NumPy and Pandas fundamentals for handling biological datasets](https://biont.biobyte.de/HklzRkuZRjS6ORgHCiA-HA) (May 27-28, 2025)
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-03-25-workshop/) (Mar 25-27 & Apr 1-3, 2025)
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024)
 - [Build Systems Course and Hackathon (online)](https://github.com/PDC-support/build-systems-course) (Oct 8-11, 2024)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2024-09-10-workshop/) (Sep 10-12 & 17-19, 2024)
