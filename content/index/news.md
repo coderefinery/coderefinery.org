@@ -3,6 +3,7 @@
 
 ## Upcoming workshops and other news
 
+- CodeRefinery tools workshop (online) - September 9-11 2025 + 6 following Wednesdays (new format - registration opening soon!)
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
 - Recently we recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
   which can be used as preparation for those who wish to follow the course
