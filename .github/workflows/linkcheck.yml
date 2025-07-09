@@ -3,8 +3,7 @@ name: Check links with zola
 env:
   ZOLA_VERSION: "0.19.2"
 
-on:
-  push:
+on: [push]
 
 jobs:
   build:
