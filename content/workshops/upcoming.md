@@ -9,7 +9,7 @@ date = 2025-07-09
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-09-09-workshop/) - September 9-11 2025 + 6 following Wednesdays (new format - registration opening soon!)
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-09-09-workshop/) - September 9-11 2025 + 6 following Wednesdays (new format - register now!)
 
 Don't want you to miss a workshop or event? The best
 way to stay informed is to join [our newsletter](@/about/newsletter.md)
