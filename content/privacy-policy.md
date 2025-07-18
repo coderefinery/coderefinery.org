@@ -2,6 +2,32 @@
 title = "CodeRefinery privacy policy"
 +++
 
+We collect all updates up top. The actual policy follows below.
+
+**Update, 15th July 2025**
+
+We have updated our note-taking tool for workshops: 
+We now use a self-hosted instance of HedgeDoc, replacing the previously mentioned HackMD. 
+The policy regarding data collected in collaborative workshop documents remains unchanged:
+
+> "When we archive notes taken during a workshop, we delete all personally identifiable information of users."
+
+The privacy policy update from October 12, 2021, marked the end of phase 3 of the project. 
+As of May 2025, CodeRefinery has entered phase 4. We are now following up by removing names 
+and e-mail addresses of workshop participants from earlier phases. An exception applies to 
+participant data from 2024, as it may still be used for:
+
+- The upcoming round of post-workshop surveys, and
+- Certificate requests, as described below.
+
+If your data is part of this exception but you would like it deleted, you may [contact us]((/organization/contact/)). 
+The right to be forgotten remains fully intact for all users.
+
+If the CodeRefinery project concludes after phase 4, all remaining participant names and e-mail addresses will be deleted. 
+If the project continues, we will retain such data only as long as necessary to conduct 
+the post-workshop survey—typically within 12 months of each workshop.
+
+
 **Update, 13th March 2023**
 
 We may use anonymous web analytics on our webpages and lessons.  This
@@ -50,6 +76,8 @@ unsubscribe before that, they are welcome to do so anytime.
 
 ----
 
+## CodeRefinery privacy policy
+
 This Privacy Policy covers person identifiable information that may be
 provided to CodeRefinery. Your data only comes from what you decide to provide
 to us by understanding privacy policy of the platforms we are using for
@@ -59,7 +87,7 @@ after the posted date of any such change. Additionally, information may be
 provided to governmental bodies and other entities as required by law.
 
 
-## Definitions
+### Definitions
 
 - *CodeRefinery team members/ We* - people who are working for the
   CodeRefinery project by either or both being funded or in-kind contribution.
@@ -81,7 +109,7 @@ provided to governmental bodies and other entities as required by law.
   by.
 
 
-## What information do we obtain and why?
+### What information do we obtain and why?
 
 We obtain user data including person identifiable information in the following manner for each purpose:
 - Registration form to sign-up for workshops.
@@ -120,7 +148,7 @@ pages.  These are done without client-side IDs or storing identifiable
 information on either the client or server side.
 
 
-## Who has access to the personally identifiable information?
+### Who has access to the personally identifiable information?
 
 - CodeRefinery team members have access to personally identifiable information
   provided upon workshop sign-up, subscribing to our
@@ -128,7 +156,7 @@ information on either the client or server side.
   online/in-person workshops.
 
 
-## Where we store the data
+### Where we store the data
 
 - We use <https://indico.neic.no> for storing sign-up
   information provided by users for any events. Also emails sent from
@@ -162,7 +190,7 @@ information on either the client or server side.
   You can at any moment delete your account from this service.
 
 
-## How long we store the data
+### How long we store the data
 
 - Anonymized survey results and statistics are meant to be kept without a time limit.
 - We always keep affiliations and academic position long term for reporting
@@ -172,7 +200,7 @@ information on either the client or server side.
   of the project period.
 
 
-## Anonymity and right to be forgotten
+### Anonymity and right to be forgotten
 
 - You have the right to register to a workshop anonymously.
 - If you want to be removed from announcement lists, please [let us
@@ -183,7 +211,7 @@ information on either the client or server side.
   you have used for registration.
 
 
-## Questions/concerns?
+### Questions/concerns?
 
 - If you believe something is wrong, please [let us know](/organization/contact/).
 - You have the right to lodge complaint with supervisory authority.
