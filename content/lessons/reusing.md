@@ -24,6 +24,9 @@ CodeRefinery and all).
 know whether this material has impact outside of our workshops. Some
 courses/workshops we know of are listed below but we would like to list more.
 
+You can also find some of our lessons and other materials in our 
+[Zenodo community](https://zenodo.org/communities/coderefinery).
+
 
 ## Derivative work based on our material
 
