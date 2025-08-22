@@ -8,6 +8,18 @@ Check the license from each repository in case of questions (most
 CodeRefinery-developed lessons use [CC BY
 4.0](https://creativecommons.org/licenses/by/4.0/)).
 
+Our core lessons can also be cited and linked to via DOI (published in our [Zenodo community](https://zenodo.org/communities/coderefinery) : 
+
+- Git intro: <https://doi.org/10.5281/zenodo.16925023>
+- Git collaborative: <https://doi.org/10.5281/zenodo.16925120>
+- Reproducible research: <https://doi.org/10.5281/zenodo.16410659>
+- Social coding: <https://doi.org/10.5281/zenodo.16410766>
+- Documentation <https://doi.org/10.5281/zenodo.8280234> 
+- Jupyter: <https://doi.org/10.5281/zenodo.16410839>
+- Testing: <https://doi.org/10.5281/zenodo.16410887>
+- Modular code development: <https://doi.org/10.5281/zenodo.16925149>
+
+
 Teaching these lessons independently is encouraged, just make sure the
 distinction between the "CodeRefinery" project and your workshop is
 clear.  For example, give your own name to the workshop but say
