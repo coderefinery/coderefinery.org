@@ -3,21 +3,31 @@
 
 <div class="uk-background-primary uk-light uk-padding uk-panel">
 
-# Code repository hosting for Nordic research software hosted by DeiC
+# Code repository for Nordic research software hosted by DeiC
 
 We are happy to share the news that we have secured follow-up funding for this
 service with generous support by the
-[Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/)
-and the service will continue to be a Nordic service.
+[Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/).
+The service will continue to be a Nordic service.
 
 In September 2025 the support contact and domain name will change.  We will
-announce the new support request form and the new domain name very soon here
-and also via email to all users.
+announce the **new support request form** and the **new domain name** very
+soon here and also via email to all users.
 
 The current domain name <https://source.coderefinery.org> will continue to
 forward to the new domain name until the end of 2026.
 
 </div>
+
+
+## The purpose of this service
+
+GitLab is a web service where you can host your research software and keep
+code documentation, track its changes, collaborate on code changes and review
+code changes.
+
+It is also possible to automatically perform tasks like running a set of tests or building the code or building the documentation. For this you can connect
+own so-called GitLab Runners (see below).
 
 
 ## Where to ask for help?
@@ -26,8 +36,8 @@ Currently the support is provided by the CodeRefinery team via
 `support@coderefinery.org`.
 
 **Starting from September 2025** support requests need to be directed to a
-support request form (URL to be announced) managed by the Danish
-e-Infrastructure Consortium (DeiC).
+support request form (URL to be announced) managed by the
+[Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/).
 
 
 ## Why use this service, rather than a service like GitHub or BitBucket or GitLab.com?
@@ -35,8 +45,8 @@ e-Infrastructure Consortium (DeiC).
 The service we provide is a GitLab instance for persons and groups who:
 
 - Need one place to host public and private repositories
-- Prefer the corresponding data to stay in the Nordics and remain under an
-  academic governance
+- Prefer the corresponding data to stay in the Nordics (Denmark) and remain
+  under an academic governance
 - Prefer a service not backed by a for-profit company
 - Host their code on local hard drives and look for a better place to host and
   collaborate but prefer the code to remain private
@@ -55,9 +65,11 @@ instance offered by our project.
 
 Students, researchers, and staff affiliated with a Nordic academic institution.
  
-**Your collaborators outside the Nordics can join your projects** but cannot create new projects.
-Ask them to register and then you can add them to your projects or groups as collaborators.
-No need to ask us or inform us in order to add external collaborators.
+**Your collaborators outside the Nordics can join your projects** but cannot
+create new projects.  Ask them to register and then you can add them to your
+projects or groups as collaborators.  Typically you can add external
+collaborators without informing us (occasionally new registrations need to be
+"unblocked"/approved).
 
 
 ## You need to be first enabled before you can create projects and groups
@@ -74,7 +86,7 @@ Please follow these steps:
   and how you plan to use this service.
 - If you do not receive a confirmation email after signing up, you are possibly
   auto-blocked (we do this to prevent spam registrations). In this case please contact us
-  and we unblock you.  Please also check your spam folder, though.
+  and we unblock you.  Please also check your spam folder.
 - If you sign in as part of a course, please ask your course organizer to write to us and send us a list of all students
   to be enabled. This is to avoid getting the same request 20-30 times within a day or two.
 - We will then promptly enable your account.
