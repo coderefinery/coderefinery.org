@@ -11,7 +11,7 @@ service with generous support by the
 The service will continue to be a Nordic service.
 
 In September 2025 the [support contact](https://deic-backoffice.atlassian.net/servicedesk/customer/portal/5)
-and [domain name](https://nordic-gitlab.deic.dk) have changed. Currently the new domain name <https://nordic-gitlab.deic.dk>
+and domain name (https://nordic-gitlab.deic.dk) have changed. Currently the new domain name (https://nordic-gitlab.deic.dk)
 forwards (back) to <https://source.coderefinery.org>. We will soon let it forward to the new domain name.
 
 </div>
