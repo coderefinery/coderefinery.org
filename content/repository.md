@@ -10,12 +10,9 @@ service with generous support by the
 [Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/).
 The service will continue to be a Nordic service.
 
-In September 2025 the support contact and domain name will change.  We will
-announce the **new support request form** and the **new domain name** very
-soon here and also via email to all users.
-
-The current domain name <https://source.coderefinery.org> will continue to
-forward to the new domain name until the end of 2026.
+In September 2025 the [support contact](https://deic-backoffice.atlassian.net/servicedesk/customer/portal/5)
+and [domain name](https://nordic-gitlab.deic.dk) have changed. Currently the new domain name <https://nordic-gitlab.deic.dk>
+forwards (back) to <https://source.coderefinery.org>. We will soon let it forward to the new domain name.
 
 </div>
 
@@ -32,11 +29,9 @@ own so-called GitLab Runners (see below).
 
 ## Where to ask for help?
 
-Currently the support is provided by the CodeRefinery team via
-`support@coderefinery.org`.
-
-**Starting from September 2025** support requests need to be directed to a
-support request form (URL to be announced) managed by the
+**Starting from September 2025** please submit support requests
+at a [dedicated portal](https://deic-backoffice.atlassian.net/servicedesk/customer/portal/5)
+managed by the
 [Danish e-Infrastructure Consortium (DeiC)](https://www.deic.dk/).
 
 
