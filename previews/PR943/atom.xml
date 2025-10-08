@@ -158,7 +158,7 @@
 &lt;p&gt;Interactive rebase to squash&#x2F;delete&#x2F;re-order commits&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Gradually introduce rebase: Amending&#x2F;Fixup first, then interactive rebase. Do not overwhelm with full power, links into creating clearer history while working.&lt;&#x2F;li&gt;
-&lt;li&gt;XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: https:&#x2F;&#x2F;github.com&#x2F;ssciwr&#x2F;git-rebase-xkcd-example (Details in Dominic&#x27;s material)&lt;&#x2F;li&gt;
+&lt;li&gt;XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: https:&#x2F;&#x2F;github.com&#x2F;ssciwr&#x2F;git-rebase-xkcd-example (Details in Heidelberg university material)&lt;&#x2F;li&gt;
 &lt;li&gt;Squashing commits into a logical unit using reset&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
@@ -172,7 +172,7 @@
 &lt;li&gt;
 &lt;p&gt;Temporary work and stashing&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;Small episode in Dominic&#x27;s material&lt;&#x2F;li&gt;
+&lt;li&gt;Small episode in Heidelberg university material&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
