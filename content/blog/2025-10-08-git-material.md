@@ -111,7 +111,7 @@ During the open house session we collected topics we would find interesting to h
 
 - Interactive rebase to squash/delete/re-order commits
     - Gradually introduce rebase: Amending/Fixup first, then interactive rebase. Do not overwhelm with full power, links into creating clearer history while working. 
-    - XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: https://github.com/ssciwr/git-rebase-xkcd-example (Details in Dominic's material)
+    - XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: https://github.com/ssciwr/git-rebase-xkcd-example (Details in Heidelberg university material)
     - Squashing commits into a logical unit using reset
 
 - Creating clearer history while working
@@ -119,7 +119,7 @@ During the open house session we collected topics we would find interesting to h
   - Pulling with rebase
 
 - Temporary work and stashing
-    - Small episode in Dominic's material
+    - Small episode in Heidelberg university material
 
 - [Atomic commits](https://www.pauline-vos.nl/atomic-commits/), using `git commit --amend` and `git commit --fixup` which provide a gentle introduction to `git rebase -i` (see above) 
 
