@@ -49,7 +49,7 @@ This list does not include our own blogposts, which you can find at [News/Blog](
 - [Code4Thought podcast episode on Research Software Engineering in HPC workshop at ISC'24](https://codeforthought.buzzsprout.com/1326658/episodes/15243430-en-research-software-engineering-workshop-at-isc-2024-in-hamburg)
 
 
-## Project proposals, reports, and documents
+## NeIC project proposals, reports, and documents
 
 - [Proposal (phase 4)](phase-4-proposal.pdf)
 - [Report (phase 3)](phase-3-report.pdf)
