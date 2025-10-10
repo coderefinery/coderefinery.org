@@ -32,9 +32,12 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 
 ## Mentions of the CodeRefinery project in other materials
 
--  I. A. Cosden, K. McHenry and D. S. Katz, "Research Software Engineers: Career Entry Points and Training Gaps," in Computing in Science & Engineering, vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on [arxiv](https://arxiv.org/pdf/2210.04275.pdf); page 7
-- US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career. Zenodo. https://doi.org/10.5281/zenodo.10073233; page 19
+- deRSE (German RSE association) mentions our Workshops and materials in "Learning Research Software Engineering": <https://de-rse.org/learn-and-teach/learn/>, and our train the trainer materials in "Teaching Research Software Engineering": <https://de-rse.org/learn-and-teach/teach/>
 - Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK. Zenodo. https://doi.org/10.5281/zenodo.10473186; page 15
+- US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career. Zenodo. https://doi.org/10.5281/zenodo.10073233; page 19
+-  I. A. Cosden, K. McHenry and D. S. Katz, "Research Software Engineers: Career Entry Points and Training Gaps," in Computing in Science & Engineering, vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on [arxiv](https://arxiv.org/pdf/2210.04275.pdf); page 7
+
+
 
 
 ## Project proposals, reports, and documents
