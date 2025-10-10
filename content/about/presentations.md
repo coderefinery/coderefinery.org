@@ -26,6 +26,11 @@ please check out our [short slideset](https://cicero.xyz/v3/remark/0.14.0/github
 and find the source in `markdown` and LibreOffice Impress `odp` format in our 
 [presentation repository](https://github.com/coderefinery/presentations) (named `2024-CodeRefinery-basic.*`).
 
+## 2025
+
+- CodeRefinery: Where Research Software Engineers can begin and grow at Nordic-RSE conference. Samantha Wittke (2025, May 20).  Zenodo. https://doi.org/10.5281/zenodo.15470651
+- RSE by accident: From CodeRefinery to Nordic-RSE and beyond at EPCC, Edinburgh, UK. Samantha Wittke (2025, May 16).  Zenodo. https://doi.org/10.5281/zenodo.15428448
+- CodeRefinery: A Community for Teaching, Learning, and Growing Together. HiRSE seminar series. Samantha Wittke (2025, March 6).  Zenodo. https://doi.org/10.5281/zenodo.14983966
 
 ## 2024
 
