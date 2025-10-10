@@ -4,6 +4,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 +++
 
 ## Articles and blog posts about CodeRefinery
+This list does not include our own blogposts, which you can find at [News/Blog](https://coderefinery.org/blog/).
 
 - [Blogpost on Research Software Engineering in the Nordics: Insights from CodeRefinery and Nordic-RSE on EPCC webpage](https://www.epcc.ed.ac.uk/whats-happening/articles/research-software-engineering-nordics-insights-coderefinery-and-nordic-rse), July 2025
 - [CodeRefinery
