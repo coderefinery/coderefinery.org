@@ -32,6 +32,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 
 ## Mentions of the CodeRefinery project in other materials
 
+- At "other open source lessons" for research software training in the Netherlands: <https://researchsoftwaretraining.nl/about/>
 - deRSE (German RSE association) mentions our Workshops and materials in "Learning Research Software Engineering": <https://de-rse.org/learn-and-teach/learn/>, and our train the trainer materials in "Teaching Research Software Engineering": <https://de-rse.org/learn-and-teach/teach/>
 - Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., & Taylor, R. (2024). Software and skills for research computing in the UK. Zenodo. https://doi.org/10.5281/zenodo.10473186; page 15
 - US Research Software Engineer Association, & IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career. Zenodo. https://doi.org/10.5281/zenodo.10073233; page 19
