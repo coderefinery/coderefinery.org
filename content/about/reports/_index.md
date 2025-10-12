@@ -4,7 +4,7 @@ description = "Collection of news articles, blog posts, and reports about CodeRe
 +++
 
 ## Articles and blog posts about CodeRefinery
-This list does not include our own blogposts, which you can find at [News/Blog](https://coderefinery.org/blog/).
+This list does not include our own blogposts, which you can find at [News/Blog](@/blog/_index.md).
 
 - [Code4Thought podcast on "Bring your own classroom - with CodeRefinery"](https://codeforthought.buzzsprout.com/1326658/episodes/17679373-en-bring-your-own-classroom-with-the-code-refinery), September 2025
 - [Blogpost on Research Software Engineering in the Nordics: Insights from CodeRefinery and Nordic-RSE on EPCC webpage](https://www.epcc.ed.ac.uk/whats-happening/articles/research-software-engineering-nordics-insights-coderefinery-and-nordic-rse), July 2025
