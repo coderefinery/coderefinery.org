@@ -38,6 +38,17 @@ contributed a significant amount of volunteer work.
 - Pinja Koskinen (CSC - IT Center for Science, Finland)
 - Erik Edelmann (CSC - IT Center for Science, Finland)
 - Lukas Berger (Technical University of Denmark)
-
+- Oskar Taubert (CSC - IT Center for Science, Finland)
+- Enrico Glerean (Aalto University, Finland)
+- Aurélie Vancraeyenest (CSC - IT Center for Science, Finland)
+- Thomas Pfau (Aalto University, Finland)
+- Yonglei Wang (ENCCS, Sweden)
+- Ashwin V. Mohanan (ENCCS, Sweden)
+- Dhanya Pushpadas (University of Bergen, Norway)
+- Gregor Dechristoforo (UiT The Arctic University of Norway)
+- Andrew Mashchak (UiT The Arctic University of Norway)
+- Stephan Smuts (Center for Humanities Computing, Denmark)
+- Hemanadhan Myneni (University of Iceland)
+- Ebba Thora Hvannberg (University of Iceland)
 
 ## Instructors, helpers, and team leads
