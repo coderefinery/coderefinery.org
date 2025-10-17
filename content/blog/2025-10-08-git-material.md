@@ -37,7 +37,7 @@ On January 14, 2025, we held an Open House session on "Git masterclass". Educato
     - [Intermediate Git](https://docs.google.com/document/d/1lUyXwlvU4NJLizreJc4LD6JISk8Ev9_L2LUmxBqaFys/edit?usp=sharing)
     - [Expert Git](https://docs.google.com/document/d/1vogIBg0U5kKXrTAHTSO3xeK33Oyq4VTAwDxwDr8VSSg/edit?usp=sharing)
 
-- [Collaborative version control with Git and GitHub by **e-Science Center** ](https://github.com/esciencecenter-digital-skills/git-lesson)
+- [Collaborative version control with Git and GitHub by **NL e-Science Center** ](https://github.com/esciencecenter-digital-skills/git-lesson)
 
 - **CodeRefinery**
     - [Introductory Git](https://coderefinery.github.io/git-intro/)
@@ -88,16 +88,16 @@ During the open house session we collected topics we would find interesting to h
     - [Visualizing Git Concepts with D3](http://onlywei.github.io/explain-git-with-d3/)
     - Collaborate on a meaningful example to convey mental model/understanding which would still be motivating
 - Recovering from making commits to the wrong branch
-   - https://coderefinery.github.io/git-intro/recovering/ (materials exist but we typically don't manage to teach this due to time in our "normal" workshop)
+   - <https://coderefinery.github.io/git-intro/recovering/> (materials exist but we typically don't manage to teach this due to time in our "normal" workshop)
 - Undoing/partially doing add (command-line or GUI-assisted)
-    - https://kernelnewbies.org/FirstKernelPatch#CommittingChanges
+    - <https://kernelnewbies.org/FirstKernelPatch#CommittingChanges>
 - Editing a previous commit (log, splitting, reverting)
 - Available material which covers multiple of the above:
-   - https://mmesiti.github.io/git-intermediate/git-states/
-   - http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;
-   - https://firstaidgit.io/
+   - <https://mmesiti.github.io/git-intermediate/git-states/>
+   - <http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;>
+   - <https://firstaidgit.io/>
 - Using the reflog to recover from bad resets
-   - https://ohshitgit.com/#magic-time-machine
+   - <https://ohshitgit.com/#magic-time-machine>
 
 
 ### Changing history
@@ -111,7 +111,7 @@ During the open house session we collected topics we would find interesting to h
 
 - Interactive rebase to squash/delete/re-order commits
     - Gradually introduce rebase: Amending/Fixup first, then interactive rebase. Do not overwhelm with full power, links into creating clearer history while working. 
-    - XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: https://github.com/ssciwr/git-rebase-xkcd-example (Details in Heidelberg university material)
+    - XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: <https://github.com/ssciwr/git-rebase-xkcd-example> (Details in Heidelberg university material)
     - Squashing commits into a logical unit using reset
 
 - Creating clearer history while working
@@ -127,21 +127,21 @@ During the open house session we collected topics we would find interesting to h
   - Which branches and commit have you worked on? (Analysing/Debugging history - Meta Level)
   - Searching through code changes with "pickaxe"
   - Finding a commit that introduced a bug with git annotate or bisect
-  - Example repository with two bugs hidden in history (1 functional, 1 performance): https://github.com/ssciwr/git-bisect-example (Details in Uni Heidelberg material)
+  - Example repository with two bugs hidden in history (1 functional, 1 performance): <https://github.com/ssciwr/git-bisect-example> (Details in Uni Heidelberg material)
 
 
 ### Collaborative workflows
 
 - Importance of having a workflow: contributing changes is key for reproducibility, many users fork a project and change it and then just use their own version. Also trains useful transferable skills to industry/research software engineering. 
-  - https://carpentries-incubator.github.io/advanced-git/07-branching-models/index.html
-  - https://carpentries-incubator.github.io/gitlab-novice/04-collaboration.html
-  - (not sure where this goes) https://carpentries-incubator.github.io/collaborative-git-and-github-lesson/aio.html
+  - <https://carpentries-incubator.github.io/advanced-git/07-branching-models/index.html>
+  - <https://carpentries-incubator.github.io/gitlab-novice/04-collaboration.html>
+  - (not sure where this goes) <https://carpentries-incubator.github.io/collaborative-git-and-github-lesson/aio.html>
 - Git project guidelines, i.e., no merge request without an issue, only a limited number of people merge to master/main, etc. A collection of the most important guidelines, familiarize participants with different options.
 - Forking workflow
-    - https://carpentries-incubator.github.io/advanced-git/09-forking/index.html
-    - https://carpentries-incubator.github.io/git-novice-branch-pr/10-pull-requests/
+    - <https://carpentries-incubator.github.io/advanced-git/09-forking/index.html>
+    - <https://carpentries-incubator.github.io/git-novice-branch-pr/10-pull-requests/>
 - GitFlow, different variations, with or without a development branch, feature branches, hotfixes
-    - https://carpentries-incubator.github.io/advanced-git/08-gitflow/index.html
+    - <https://carpentries-incubator.github.io/advanced-git/08-gitflow/index.html>
     - [Blog Post on why 'gitflow' may not be a good fit for your project](https://medium.com/@onatkorucu/dont-use-git-flow-in-2023-move-to-trunk-based-development-instead-1ac5bd7cb10)
     - [Blog Post on alternatives to Gitflow](https://moldstud.com/articles/p-what-are-some-alternative-workflows-to-gitflow-that-developers-can-consider)
 - Working with PR/MRs and code review
@@ -182,7 +182,7 @@ During the open house session we collected topics we would find interesting to h
     - how to customize fish shell for Git
 - how to use GUI for line-based "git add -p" commands, difftool, mergetool 
     - [difftastic](https://difftastic.wilfred.me.uk/) 
-    - https://carpentries-incubator.github.io/advanced-git/16-tools/index.html
+    - <https://carpentries-incubator.github.io/advanced-git/16-tools/index.html>
 - excellent tool for diffing and integrates easily with Git (see [git configuration](https://difftastic.wilfred.me.uk/git.html))
     - [delta](https://github.com/dandavison/delta) - syntax-highlighting pager that can be customized
     - meld as difftool/mergetool
