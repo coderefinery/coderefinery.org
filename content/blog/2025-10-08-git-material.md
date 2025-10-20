@@ -50,7 +50,7 @@ On January 14, 2025, we held an Open House session on "Git masterclass". Educato
 
 - [**Git and GitHub through GitKraken : From Zero to Hero**](https://srse-git-github-zero2hero.netlify.app/)
 
-- [**University of Sheffield - Git Collaboration**](https://fair2-for-research-software.github.io/git-collaboration/)
+- [**University of Sheffield - Git with it**](https://fair2-for-research-software.github.io/git-with-it/)
 
 - [**KIT - Intermediate git**](https://mmesiti.github.io/git-intermediate/), mostly CodeRefinery material, but with some additions
 
