@@ -2,7 +2,7 @@
 title = "Newsletter"
 +++
 
-## Updates every month or two
+## Updates every half a year approximately
 
 If you would like to receive our newsletter, please subscribe here:
 <https://postit.csc.fi/sympa/subscribe/coderefinery>
@@ -10,9 +10,9 @@ If you would like to receive our newsletter, please subscribe here:
 You can also read **past newsletters** in our [archive](https://postit.csc.fi/sympa/arc/coderefinery).
 
 
-## Weekly chat summary
+## Chat summary, randomlt timed
 
-If you want to get **weekly** updates about what is happening in our chat, please subscribe to our "chat summary":
+If you want to get **approximately monthly** updates about what is happening in our chat, please subscribe to our "chat summary":
 <https://postit.csc.fi/sympa/subscribe/coderefinery-team>
 
 
