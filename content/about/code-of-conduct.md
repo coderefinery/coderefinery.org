@@ -34,9 +34,9 @@ In order to foster a positive and professional learning environment we encourage
  - Show courtesy and respect towards other community members
 
 
-## Unexpected behaviors
+## Unwanted behaviors
 
-On the other hand, unexpected behaviors include but not limited to:
+On the other hand, unewanted behaviors include but not limited to:
 
 - written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
 - causing someone to fear for their safety, such as through stalking, following, or intimidation
