@@ -1,4 +1,41 @@
 events:
+
+  - name: Full online workshop (3 half-days + 6 sessions)
+    website: https://coderefinery.github.io/2025-09-09-workshop/
+    start_date: "2025-09-09"
+    end_date: "2025-10-22"
+    organizers: 
+     - Enrico Glerean
+     - Samantha Wittke
+    instructors: 
+     - Johan Hellsvik
+     - Jarno Rantaharju
+     - Sabry Razick
+     - Radovan Bast
+     - Michele Mesiti
+     - Gregor Decristoforo
+     - Ina Pöhner
+     - Oskar Taubert
+     - Bjørn Lindi
+     - Andrew Mashchak
+     - Thomas Pfau
+     - Yu Tian
+     - Hossein Firooz
+     - Hemanadhan Myneni
+     - Susa Merz
+    expert_helpers: 
+     - Jitka Stilund Hansen
+     - Ding He
+     - Jakob Sauer Jørgensen
+     - Elisa Pierfederici
+     - Anni Järvenpää
+     - Aurélie Vancraeyenest
+     - Lina Andrén
+     - Rosa Lönneborg
+     - Mattias Vesterlund
+    num_participants: 
+     total: 505
+
   - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2025-03-25-workshop/
     start_date: "2025-03-25"
