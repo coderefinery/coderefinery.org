@@ -34,7 +34,29 @@ events:
      - Rosa Lönneborg
      - Mattias Vesterlund
     num_participants: 
-     total: 505
+      DK: 106
+      FI: 106
+      SE: 81
+      DE: 60
+      NO: 38
+      UK: 23
+      IS: 17
+      IN: 8
+      NL: 8
+      IT: 6
+      AR: 5
+      CA: 4
+      CZ: 4
+      FR: 4
+      ES: 4
+      EE: 3
+      PL: 3
+      RS: 3
+      other: 22
+      total: 505
+    twitch_viewers:      
+      smallest_viewers_max: 71
+      largest_viewers_max: 452
 
   - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2025-03-25-workshop/
