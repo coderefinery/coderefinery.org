@@ -84,7 +84,7 @@ and find the source in `markdown` and LibreOffice Impress `odp` format in our
 - ["About the CodeRefinery project"](https://doi.org/10.5446/60140) at the
   EuSSI training bazaar, Nov 21, 2022 (Matias Jääskeläinen)
 - "CodeRefinery - a hub for FAIR Software practices" at
-  [DeiC conference 2022](https://www.deic.dk/en/conference/2022/program-day-1) (Radovan Bast)
+  DeiC conference 2022 (Radovan Bast)
 
 
 ## 2021
