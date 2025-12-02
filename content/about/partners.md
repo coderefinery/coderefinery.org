@@ -84,6 +84,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Stephan Smuts</div>
+        <div>Bahareh Tasdighi</div>
       </div>
     </div>
   </div>
@@ -190,6 +191,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Gregor Dechristoforo</div>
+        <div>Andrew Mashchak</div>
       </div>
     </div>
   </div>
@@ -210,7 +212,8 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Norway</p>
       </div>
       <div class="uk-width-expand">
-        <div>Pubudu Samarakoon</div>
+        <div>Sabry Razick</div>
+        <div>Elisa Pierfederici</div>
       </div>
     </div>
   </div>
