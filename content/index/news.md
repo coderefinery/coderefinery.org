@@ -9,7 +9,7 @@
   which can be used as preparation for those who wish to follow the course
   using the command line.
 - CodeRefinery stickers, patches and more: [Goodies](/about/goodies/)
-- Get weekly or monthly updates: [Newsletter](/about/newsletter/)
+- Get updates by signing up to our [Newsletter](/about/newsletter/)
 
 
 ## Recent workshops
