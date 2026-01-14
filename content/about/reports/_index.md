@@ -52,6 +52,7 @@ This list does not include our own blogposts, which you can find at [News/Blog](
 
 ## NeIC project proposals, reports, and documents
 
+- [Project plan (phase 4)](phase-4-project-plan.pdf)
 - [Proposal (phase 4)](phase-4-proposal.pdf)
 - [Report (phase 3)](phase-3-report.pdf)
 - [Mid-term presentation for NeIC Board (phase 3)](https://zenodo.org/records/10388062) 
