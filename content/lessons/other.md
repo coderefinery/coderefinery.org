@@ -90,7 +90,7 @@ a community you can join and give contributions to:
 - [Oxford Research Software Engineering group](https://train.oxrse.uk/)
 - [NASA TOPS Open Science 101](https://science.nasa.gov/open-science/os101/)
 - [Netherlands eScience Center](https://www.esciencecenter.nl)
-- [The Turing Way](https://the-turing-way.netlify.app/)
+- [The Turing Way](https://book.the-turing-way.org/)
 - [The Programming Historian](https://programminghistorian.org/en/lessons/)
 - [WSSSPE](http://wssspe.researchcomputing.org.uk)
 - [Better Scientific Software (BSSw)](https://bssw.io)
