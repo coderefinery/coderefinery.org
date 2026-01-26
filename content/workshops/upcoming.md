@@ -1,7 +1,7 @@
 +++
 title = "Upcoming and recent workshops and events"
 description = "Upcomng CodeRefinery workshops and other related events."
-date = 2025-07-09
+date = 2026-01-22
 +++
 
 ## Upcoming CodeRefinery workshops
@@ -9,7 +9,8 @@ date = 2025-07-09
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-Tentative dates for compact Spring 2026 CodeRefinery workshop: 17.-19. and 24.-26. of March 2026; sign up to our newsletter to get to know about registration etc.
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
+
 
 Don't want you to miss a workshop or event? The best
 way to stay informed is to join [our newsletter](@/about/newsletter.md)
