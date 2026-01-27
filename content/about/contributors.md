@@ -53,6 +53,7 @@ contributed a significant amount of volunteer work.
 
 ## People who are or were CodeRefinery ambassadors
 
+- Michele Mesiti (Karlsruher Institut für Technologie)
 - ...
 
 ## Instructors, helpers, and team leads
