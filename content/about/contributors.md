@@ -59,5 +59,8 @@ If you would like to be mentioned please contact us!
 - Michele Mesiti (Karlsruher Institut für Technologie)
 - Diana Pilvar (University of Tartu)
 - Jakob Sauer Jørgensen (Technical University of Denmark)
+- Ding He (Technical Univeristy of Denmark)
+  
+
 
 ## Instructors, helpers, and team leads
