@@ -1,0 +1,5907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery</title>
+      <meta property="og:title" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  
+  
+    <h1>Registration statistics</h1>
+  
+
+  
+    <p>This is mainly to simplify reporting to funding organizations. But maybe it is
+also interesting otherwise.</p>
+
+  
+
+
+  <h2>Standard CodeRefinery workshops</h2>
+  
+  
+  <p>
+    Number of participants/registrants by country of affiliation.
+    When interpreting the number of twitch viewers, consider
+    that some exercise classroom join as one viewer.
+  </p>
+
+    <table class="uk-table uk-table-divider">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%">Event</th>
+          <th scope="col" style="width: 20%">Time</th>
+          <th scope="col" class="text-center">Sweden</th>
+          <th scope="col" class="text-center">Norway</th>
+          <th scope="col" class="text-center">Finland</th>
+          <th scope="col" class="text-center">Denmark</th>
+          <th scope="col" class="text-center">Estonia</th>
+          <th scope="col" class="text-center">Iceland</th>
+          <th scope="col" class="text-center">Netherlands</th>
+          <th scope="col" class="text-center">Other</th>
+          <th scope="col" class="text-center">Total</th>
+          <th scope="col" style="width: 15%" class="text-center">Twitch viewers</th>
+          <th scope="col" style="width: 15%" class="text-center">Zoom</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2025-09-09-workshop&#x2F;" target=_blank>Full online workshop (3 half-days + 6 sessions)</a>
+              
+            </th>
+            <td>
+              
+                Sep  9
+                -
+                Oct 22, 2025
+              
+            </td>
+            <td class="text-center">
+              
+                81
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                38
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                106
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                106
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                17
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                8
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  146
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                505
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 71&mdash;452
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2025-03-25-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Mar 25
+                -
+                Apr  3, 2025
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                116
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                8
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                11
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  195
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                378
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 179&mdash;525
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-09-10-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Sep 10
+                -
+                Sep 19, 2024
+              
+            </td>
+            <td class="text-center">
+              
+                46
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                62
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                125
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                11
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                6
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  90
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                356
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 135&mdash;481
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-08-27-gothenburg&#x2F;" target=_blank>Gothenburg</a>
+              
+            </th>
+            <td>
+              
+                Aug 27
+                -
+                Aug 29, 2024
+              
+            </td>
+            <td class="text-center">
+              
+                9
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                9
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2024-03-12-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Mar 12
+                -
+                Mar 21, 2024
+              
+            </td>
+            <td class="text-center">
+              
+                38
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                111
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                14
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                13
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  66
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                263
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 39&mdash;107
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2023-09-19-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Sep 19
+                -
+                Sep 28, 2023
+              
+            </td>
+            <td class="text-center">
+              
+                31
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                103
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                100
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  107
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                360
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 54&mdash;145
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2023-03-21-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Mar 21
+                -
+                Mar 30, 2023
+              
+            </td>
+            <td class="text-center">
+              
+                87
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                43
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                178
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                58
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  108
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                493
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 112&mdash;216
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2023-05-09-uppsala&#x2F;" target=_blank>Uppsala</a>
+              
+            </th>
+            <td>
+              
+                May  9
+                -
+                May 11, 2023
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-09-20-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Sep 20
+                -
+                Sep 29, 2022
+              
+            </td>
+            <td class="text-center">
+              
+                52
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                50
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                76
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                7
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                34
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  43
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                262
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 97&mdash;157
+              
+            </td>
+            <td class="text-center">
+              
+                 25&mdash;59
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2022-03-22-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                Mar 22
+                -
+                Mar 31, 2022
+              
+            </td>
+            <td class="text-center">
+              
+                46
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                87
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                54
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                14
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                55
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  41
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                297
+                
+              
+            </td>
+            <td class="text-center">
+              
+                 144&mdash;215
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-05-10-workshop&#x2F;" target=_blank>Full online workshop (6 half-days)</a>
+              
+            </th>
+            <td>
+              
+                May 10
+                -
+                May 20, 2021
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                43
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                24
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  12
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                128
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-11-17-online&#x2F;" target=_blank>Online</a>
+              
+            </th>
+            <td>
+              
+                Nov 17
+                -
+                Nov 26, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                27
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                26
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                77
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-10-20-online&#x2F;" target=_blank>Online</a>
+              
+            </th>
+            <td>
+              
+                Oct 20
+                -
+                Oct 29, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                11
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                43
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                100
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-25-online&#x2F;" target=_blank>Online (Mega-CodeRefinery)</a>
+              
+            </th>
+            <td>
+              
+                May 25
+                -
+                Jun  4, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                75
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                102
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Trondheim
+              
+            </th>
+            <td>
+              
+                Feb 25
+                -
+                Feb 27, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                26
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                28
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Espoo
+              
+            </th>
+            <td>
+              
+                Dec 10
+                -
+                Dec 12, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Lille
+              
+            </th>
+            <td>
+              
+                Nov 25
+                -
+                Dec  5, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  28
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                28
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Stockholm
+              
+            </th>
+            <td>
+              
+                Nov 19
+                -
+                Nov 21, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                28
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                28
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Trondheim
+              
+            </th>
+            <td>
+              
+                Oct 22
+                -
+                Oct 24, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Aalborg
+              
+            </th>
+            <td>
+              
+                Jun 11
+                -
+                Jun 13, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                18
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Oslo
+              
+            </th>
+            <td>
+              
+                Jun  3
+                -
+                Jun  5, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                18
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Helsinki
+              
+            </th>
+            <td>
+              
+                May 27
+                -
+                May 29, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                26
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                27
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Gothenburg
+              
+            </th>
+            <td>
+              
+                May 21
+                -
+                May 23, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Tartu
+              
+            </th>
+            <td>
+              
+                Apr  2
+                -
+                Apr  4, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                26
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Stockholm
+              
+            </th>
+            <td>
+              
+                Mar 25
+                -
+                Mar 27, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                28
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Espoo
+              
+            </th>
+            <td>
+              
+                Dec 11
+                -
+                Dec 13, 2018
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                31
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                33
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Uppsala
+              
+            </th>
+            <td>
+              
+                Dec  3
+                -
+                Dec  5, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                31
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Kiruna
+              
+            </th>
+            <td>
+              
+                Nov 21
+                -
+                Nov 23, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                36
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                38
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Reykjavik
+              
+            </th>
+            <td>
+              
+                Aug 21
+                -
+                Aug 23, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                26
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Oslo
+              
+            </th>
+            <td>
+              
+                Jun 12
+                -
+                Jun 14, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                38
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                42
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Espoo
+              
+            </th>
+            <td>
+              
+                May 29
+                -
+                May 31, 2018
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                48
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                48
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Lund
+              
+            </th>
+            <td>
+              
+                May 15
+                -
+                May 17, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                31
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Turku
+              
+            </th>
+            <td>
+              
+                Mar 20
+                -
+                Mar 22, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                23
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Trondheim
+              
+            </th>
+            <td>
+              
+                Feb 27
+                -
+                Mar  1, 2018
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Espoo
+              
+            </th>
+            <td>
+              
+                Dec 14
+                -
+                Dec 16, 2017
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                40
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                40
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Linköping
+              
+            </th>
+            <td>
+              
+                Nov  7
+                -
+                Nov  9, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Aarhus
+              
+            </th>
+            <td>
+              
+                Oct 24
+                -
+                Oct 26, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                24
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                27
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Tromsø
+              
+            </th>
+            <td>
+              
+                Jun 19
+                -
+                Jun 21, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                23
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Copenhagen
+              
+            </th>
+            <td>
+              
+                May  9
+                -
+                May 11, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                23
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Stockholm
+              
+            </th>
+            <td>
+              
+                Feb 20
+                -
+                Feb 22, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                34
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                34
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Espoo
+              
+            </th>
+            <td>
+              
+                Dec 14
+                -
+                Dec 16, 2016
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+        <tr>
+          <td>
+            Total
+          </td>
+          <td>
+            41
+          </td>
+          <td class="text-center">
+            752
+          </td>
+          <td class="text-center">
+            660
+          </td>
+          <td class="text-center">
+            1212
+          </td>
+          <td class="text-center">
+            263
+          </td>
+          <td class="text-center">
+            52
+          </td>
+          <td class="text-center">
+            40
+          </td>
+          <td class="text-center">
+            264
+          </td>
+          <td class="text-center">
+            872
+          </td>
+          <td class="text-center">
+            4115
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  <h2>Instructor training events</h2>
+  
+  
+  <p>
+    Number of participants/registrants by country of affiliation.
+    When interpreting the number of twitch viewers, consider
+    that some exercise classroom join as one viewer.
+  </p>
+
+    <table class="uk-table uk-table-divider">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%">Event</th>
+          <th scope="col" style="width: 20%">Time</th>
+          <th scope="col" class="text-center">Sweden</th>
+          <th scope="col" class="text-center">Norway</th>
+          <th scope="col" class="text-center">Finland</th>
+          <th scope="col" class="text-center">Denmark</th>
+          <th scope="col" class="text-center">Estonia</th>
+          <th scope="col" class="text-center">Iceland</th>
+          <th scope="col" class="text-center">Netherlands</th>
+          <th scope="col" class="text-center">Other</th>
+          <th scope="col" class="text-center">Total</th>
+          <th scope="col" style="width: 15%" class="text-center">Twitch viewers</th>
+          <th scope="col" style="width: 15%" class="text-center">Zoom</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-11-02-instructor-training&#x2F;" target=_blank>Online (with FocusCoE)</a>
+              
+            </th>
+            <td>
+              
+                Nov  2
+                -
+                Nov  9, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  14
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                14
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-06-24-instructor-training&#x2F;" target=_blank>Online (with TU Delft)</a>
+              
+            </th>
+            <td>
+              
+                Jun 24
+                -
+                Jun 25, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                23
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Stockholm
+              
+            </th>
+            <td>
+              
+                Nov  4
+                -
+                Nov  5, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                8
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+        <tr>
+          <td>
+            Total
+          </td>
+          <td>
+            3
+          </td>
+          <td class="text-center">
+            15
+          </td>
+          <td class="text-center">
+            9
+          </td>
+          <td class="text-center">
+            3
+          </td>
+          <td class="text-center">
+            2
+          </td>
+          <td class="text-center">
+            2
+          </td>
+          <td class="text-center">
+            0
+          </td>
+          <td class="text-center">
+            21
+          </td>
+          <td class="text-center">
+            15
+          </td>
+          <td class="text-center">
+            67
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  <h2>Shorter workshops and other events</h2>
+  
+  
+  <p>
+    Number of participants/registrants by country of affiliation.
+    When interpreting the number of twitch viewers, consider
+    that some exercise classroom join as one viewer.
+  </p>
+
+    <table class="uk-table uk-table-divider">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 30%">Event</th>
+          <th scope="col" style="width: 20%">Time</th>
+          <th scope="col" class="text-center">Sweden</th>
+          <th scope="col" class="text-center">Norway</th>
+          <th scope="col" class="text-center">Finland</th>
+          <th scope="col" class="text-center">Denmark</th>
+          <th scope="col" class="text-center">Estonia</th>
+          <th scope="col" class="text-center">Iceland</th>
+          <th scope="col" class="text-center">Netherlands</th>
+          <th scope="col" class="text-center">Other</th>
+          <th scope="col" class="text-center">Total</th>
+          <th scope="col" style="width: 15%" class="text-center">Twitch viewers</th>
+          <th scope="col" style="width: 15%" class="text-center">Zoom</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;hackmd.io&#x2F;@coderefinery&#x2F;carpentrycon-2022-attendee" target=_blank>CarpentryCon 2022: Online teaching strategies from CodeRefinery</a>
+              
+            </th>
+            <td>
+              
+                Aug  3, 2022
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;hackmd.io&#x2F;@coderefinery&#x2F;community-teaching-2022-summer" target=_blank>Community teaching mini-workshop</a>
+              
+            </th>
+            <td>
+              
+                Jun 21, 2022
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                7
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Git workshop with Compex Systems Modelling group at UiT
+              
+            </th>
+            <td>
+              
+                Feb 16
+                -
+                Feb 23, 2022
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;scicomp.aalto.fi&#x2F;training&#x2F;scip&#x2F;python-for-scicomp&#x2F;" target=_blank>Python for Scientific Computing</a>
+              
+            </th>
+            <td>
+              
+                Oct 25
+                -
+                Oct 28, 2021
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-25-online&#x2F;" target=_blank>CodeRefinery workshop with focus on Git and GitLab for Metacenter</a>
+              
+            </th>
+            <td>
+              
+                Mar 25
+                -
+                Apr  8, 2021
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-17-testing-hackathon&#x2F;" target=_blank>Online CodeRefinery Hackathon on Software Testing</a>
+              
+            </th>
+            <td>
+              
+                Mar 17
+                -
+                Mar 24, 2021
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                6
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                33
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-03-17-testing-hackathon&#x2F;" target=_blank>Online CodeRefinery Workshop on Software Testing</a>
+              
+            </th>
+            <td>
+              
+                Mar 17, 2021
+              
+            </td>
+            <td class="text-center">
+              
+                31
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                14
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                7
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  10
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                69
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-01-29-linux-online&#x2F;" target=_blank>Introduction to Shell, Computing resources for researchers, and HPC Kickstart (Aalto University and University of Oslo) (online)</a>
+              
+            </th>
+            <td>
+              
+                Jan 29, 2021
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                59
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                71
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                130
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2021-01-08-coderefinery-online&#x2F;" target=_blank>Introduction to Conda for (Data) Scientists (online)</a>
+              
+            </th>
+            <td>
+              
+                Jan  8, 2021
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                39
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                48
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-12-10-online&#x2F;" target=_blank>Collaborative version control with Git (online)</a>
+              
+            </th>
+            <td>
+              
+                Dec 10
+                -
+                Dec 11, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;wikfeldt.github.io&#x2F;2020-09-22-karlstad&#x2F;" target=_blank>Version control (Karlstad&#x2F;online)</a>
+              
+            </th>
+            <td>
+              
+                Sep 22
+                -
+                Sep 23, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                11
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;scicomp.aalto.fi&#x2F;training&#x2F;scip&#x2F;python-for-scicomp&#x2F;" target=_blank>Python for Scientific Computing (online)</a>
+              
+            </th>
+            <td>
+              
+                Sep 14
+                -
+                Sep 23, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                24
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                41
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                68
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                GitHub without command line (Tampere&#x2F;online)
+              
+            </th>
+            <td>
+              
+                Aug 13, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                16
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-18-online&#x2F;" target=_blank>Workshop for those familiar with Git (online)</a>
+              
+            </th>
+            <td>
+              
+                May 18
+                -
+                May 20, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                20
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                27
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-05-06-online&#x2F;" target=_blank>Collaborative Git (online)</a>
+              
+            </th>
+            <td>
+              
+                May  6, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                25
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                5
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                37
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                GitHub without command line (online)
+              
+            </th>
+            <td>
+              
+                Apr 15
+                -
+                Apr 22, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                10
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                10
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;2020-04-07-online&#x2F;" target=_blank>Introduction to Git (online)</a>
+              
+            </th>
+            <td>
+              
+                Apr  7
+                -
+                Apr  8, 2020
+              
+            </td>
+            <td class="text-center">
+              
+                19
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  2
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                22
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Best Software Practices for the Norwegian Earth System Model (Oslo&#x2F;Bergen&#x2F;Online)
+              
+            </th>
+            <td>
+              
+                Feb  5, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                30
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;www.ub.uio.no&#x2F;english&#x2F;courses-events&#x2F;events&#x2F;all-libraries&#x2F;2020&#x2F;research-bazaar&#x2F;social-coding.html" target=_blank>Social coding and open software (Oslo)</a>
+              
+            </th>
+            <td>
+              
+                Jan  9, 2020
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Hackathon (Stockholm)
+              
+            </th>
+            <td>
+              
+                Nov  6
+                -
+                Nov  7, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                4
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                8
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                3
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  1
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                18
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Reproducibility workshop (Stockholm)
+              
+            </th>
+            <td>
+              
+                Sep  9
+                -
+                Sep 12, 2019
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;annefou.github.io&#x2F;2019-04-01-deep&#x2F;" target=_blank>Python for Dynamics and Evolution of Earth and Planets (Oslo)</a>
+              
+            </th>
+            <td>
+              
+                Apr  1
+                -
+                Apr  5, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                12
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;kln-courses.github.io&#x2F;mixed-arts&#x2F;" target=_blank>Mixed Arts with CodeRefinery &amp; Software Carpentry (Copenhagen)</a>
+              
+            </th>
+            <td>
+              
+                Mar  5, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                40
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                40
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;uio-carpentry.github.io&#x2F;2019-02-27-git&#x2F;" target=_blank>Git in practice (Oslo)</a>
+              
+            </th>
+            <td>
+              
+                Feb 27, 2019
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                18
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                18
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                Git workshop (Umeå)
+              
+            </th>
+            <td>
+              
+                Oct 16, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                21
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;rse.ac.uk&#x2F;conf2017&#x2F;workshop-and-tutorial-abstracts&#x2F;#mixed-martial-arts-with-coderefinery" target=_blank>Workshop: Interfacing Fortran, C, C++, and Python (Manchester)</a>
+              
+            </th>
+            <td>
+              
+                Sep  8, 2017
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="http:&#x2F;&#x2F;neic2017.nordforsk.org&#x2F;workshops&#x2F;coderefinery&#x2F;" target=_blank>Workshop: Mixed Martial Arts with CodeRefinery (Umeå)</a>
+              
+            </th>
+            <td>
+              
+                May 29, 2017
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                  15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                CodeRefinery get-together (Stockholm)
+              
+            </th>
+            <td>
+              
+                May 19, 2017
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+          
+          <tr>
+            <td>
+              
+                <a href="https:&#x2F;&#x2F;www.uio.no&#x2F;english&#x2F;services&#x2F;it&#x2F;research&#x2F;events&#x2F;coderefinery-2017-april.html" target=_blank>CodeRefinery seminar (Oslo)</a>
+              
+            </th>
+            <td>
+              
+                Apr  6, 2017
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+                
+                
+                
+              
+            </td>
+            <td class="text-center">
+              
+                15
+                
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+            <td class="text-center">
+              
+            </td>
+          </tr>
+        
+        <tr>
+          <td>
+            Total
+          </td>
+          <td>
+            29
+          </td>
+          <td class="text-center">
+            183
+          </td>
+          <td class="text-center">
+            319
+          </td>
+          <td class="text-center">
+            157
+          </td>
+          <td class="text-center">
+            55
+          </td>
+          <td class="text-center">
+            1
+          </td>
+          <td class="text-center">
+            0
+          </td>
+          <td class="text-center">
+            4
+          </td>
+          <td class="text-center">
+            71
+          </td>
+          <td class="text-center">
+            790
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
