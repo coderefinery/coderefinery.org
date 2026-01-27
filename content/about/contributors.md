@@ -53,7 +53,11 @@ contributed a significant amount of volunteer work.
 
 ## People who are or were CodeRefinery ambassadors
 
+This list contains only those ambassadors who agreed to be mentioned publicly. 
+If you would like to be mentioned please contact us!
+
 - Michele Mesiti (Karlsruher Institut für Technologie)
-- ...
+- Diana Pilvar (University of Tartu)
+- Jakob Sauer Jørgensen (Technical University of Denmark)
 
 ## Instructors, helpers, and team leads
