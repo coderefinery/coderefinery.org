@@ -4,7 +4,7 @@ template = "contributors.html"
 aliases = ["/organization/contributors"]
 +++
 
-Below we list (hopefully) all speakers, instructors, hosts, helpers, and
+Below we list (hopefully) all speakers, instructors, hosts, helpers, ambassadors and
 team leaders of past CodeRefinery workshops, as well as CodeRefinery events
 and shared events. Without these contributions, these events would not have been possible.
 **Thank you so much for your contributions!**
@@ -50,5 +50,14 @@ contributed a significant amount of volunteer work.
 - Stephan Smuts (Center for Humanities Computing, Denmark)
 - Hemanadhan Myneni (University of Iceland)
 - Ebba Thora Hvannberg (University of Iceland)
+
+## People who are or were CodeRefinery ambassadors
+
+This list contains only those ambassadors who agreed to be mentioned publicly. 
+If you would like to be mentioned please contact us!
+
+- Michele Mesiti (Karlsruher Institut für Technologie)
+- Diana Pilvar (University of Tartu)
+- Jakob Sauer Jørgensen (Technical University of Denmark)
 
 ## Instructors, helpers, and team leads
