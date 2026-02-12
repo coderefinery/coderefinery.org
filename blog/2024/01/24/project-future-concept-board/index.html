@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Summary from a brainstorming meeting about the project future - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Summary from a brainstorming meeting about the project future</title>
+      <meta property="og:title" content="Summary from a brainstorming meeting about the project future" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Screenshots and summary from our concept board." />
+      <meta property="og:description" content="Screenshots and summary from our concept board." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Summary from a brainstorming meeting about the project future</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          Screenshots and summary from our concept board.
+        </h2>
+      
+      January 24, 2024
+      
+        - Radovan Bast
+      
+    </p>
+
+    <hr>
+
+    <p>On January 23, 2024, we held a meeting where we wanted to explore <strong>ideas for
+the future of the CodeRefinery project</strong> from team members and the community.</p>
+<p>In most meetings only very few people speak and most participants don't say
+anything.  We wanted to change this and tried to create a welcoming meeting
+environment with a facilitator who hopefully only facilitates and meeting
+participants where hopefully everybody gets the chance to contribute. We used a
+concept board and collected ideas visually (screenshots are below).</p>
+<p>In this post we summarize our findings and lessons learned. If you only have 3
+minutes, then read the summary (first section).</p>
+
+    
+        <ul>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#summary-of-ideas-that-were-voted-as-most-important">Summary of ideas that were voted as most important</a>
+                
+                    <ul>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#needs">Needs</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#wants">Wants</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#general-suggestions-for-future-meetings">General suggestions for future meetings</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#meeting-format-and-goals">Meeting format and goals</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#timeline">Timeline</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#concept-boards-where-we-explored-what-project-members-need-and-want-from-the-project">Concept boards where we explored what project members need and want from the project</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/01/24/project-future-concept-board/#what-we-learned-about-the-meeting-format">What we learned about the meeting format</a>
+                
+            </li>
+        
+        </ul>
+    
+
+<h2 id="summary-of-ideas-that-were-voted-as-most-important">Summary of ideas that were voted as most important</h2>
+<p>We provide more details in screenshots below. Here we only summarize the points
+that received votes answering the question: "which ideas are most
+important for you".  The ideas are summarized here without being commented.
+They of course need to be followed-up somehow but this we will do in future
+meetings and events.</p>
+<h3 id="needs">Needs</h3>
+<p>In your current position, what do you need in order to be able to contribute to
+the project 1 year from now (in terms of work time, financing, governance,
+administration, accounting, leadership, credit)?</p>
+<p><strong>Recognition and credit</strong> (12 votes combined):</p>
+<ul>
+<li>Strong publication or white paper about CR and its importance/benefits</li>
+<li>Recognition of our good teaching practices</li>
+<li>Collect and showcase where else our materials are used</li>
+<li>Formalize credit to outside contributors</li>
+</ul>
+<p><strong>Collaboration and experimentation</strong> (12 votes combined):</p>
+<ul>
+<li>Collaboration with passionate people who enjoy teaching</li>
+<li>Two-way learning</li>
+<li>More opportunities for future development</li>
+<li>Experiment beyond the usual tools workshop</li>
+</ul>
+<p><strong>Overlap with high-performance computing</strong> (6 votes):</p>
+<ul>
+<li>Subject overlap with skills and tools of relevance for HPC</li>
+</ul>
+<p><strong>Roadmap</strong> (6 votes combined):</p>
+<ul>
+<li>Statement how CodeRefinery fits into the FAIR ecosystem</li>
+<li>Concrete and public roadmap for the future</li>
+</ul>
+<p><strong>Administrative/financial needs</strong> (6 votes combined):</p>
+<ul>
+<li>Tasks that have a clear work-time estimation</li>
+<li>Cost projects also for in-kind work</li>
+<li>Home organization securing funding</li>
+<li>If outside regular job, then compensated for the work</li>
+</ul>
+<h3 id="wants">Wants</h3>
+<p>What do you wish from the project in terms of lesson portfolio, format, and
+collaboration in order to still be around 1 year from now?</p>
+<p><strong>Topics and target audience</strong> (22 votes combined):</p>
+<ul>
+<li>Stronger integration with HPC - if CR should "belong" somewhere, it should be HPC</li>
+<li>New topics on AI and ML</li>
+<li>New training material topics"</li>
+<li>Think about new topics for training via discussion &amp; collaboration</li>
+<li>Develop training material for GPU computing</li>
+<li>Programming lessons to go hand-in-hand with software engineering lessons</li>
+<li>Create new lessons based on needs and existing expertise</li>
+<li>Focus on academic users to make it more valuable to [academic] management</li>
+<li>Material suitable for the "phone generation"</li>
+</ul>
+<p><strong>Self-learning vs. real-time</strong> (11 votes combined):</p>
+<ul>
+<li>Self learning materials/courses/ asynchronous learning: some researchers
+don't have time for long workshops and don't wanna know all the details</li>
+<li>MOOC as basic service, interaction/teams delegated</li>
+<li>Collaboration on video material</li>
+</ul>
+<p><strong>External collaboration and conferences</strong> (5 votes combined):</p>
+<ul>
+<li>Stronger connection to other similar projects, like BSSW, INTERSECT, etc.</li>
+<li>Regular BoF sessions at conferences like ISC, SC, PyCon, JuliaCon, etc.</li>
+<li>Keep/improve connection to RSE community</li>
+</ul>
+<p><strong>Collaboration and co-hosting</strong> (5 votes combined):</p>
+<ul>
+<li>Course collaborations of courses that already exist, like currently done with Aalto HPC kickstart</li>
+<li>National course/workshop collaborations, offering in-person specialized short workshops</li>
+<li>Co-hosting of events, and co-developing of lessons</li>
+</ul>
+<p><strong>Social events and keeping up-to-date</strong> (5 votes combined):</p>
+<ul>
+<li>Social events where team members get an overview of activities in each partner organization (e.g. monthly "zoomffee")</li>
+<li>Easy way to follow what is going on and when to step in (something else than scrolling all chat)</li>
+</ul>
+<p><strong>Workshop format</strong> (5 votes combined):</p>
+<ul>
+<li>Smaller, shorter workshops</li>
+<li>Have more formalized possibility of using ready-made computing environment ("executable website")</li>
+</ul>
+<p><strong>Administration and governance</strong> (3 votes combined):</p>
+<ul>
+<li>Formalized and more official course request form, to show organizations (in
+and outside of CR) that this is "a thing"</li>
+<li>Mechanism/support for creating new "refineries" (HPC Refinery, AI Refinery, ...)</li>
+<li>Delegate non-profit side to DRA (for example)</li>
+</ul>
+<p><strong>Credit</strong> (3 votes):</p>
+<ul>
+<li>Official network of teachers, public on webpage, with skills</li>
+</ul>
+<p><strong>Workshop preparation</strong> (3 votes combined):</p>
+<ul>
+<li>Less lesson revision each workshop</li>
+<li>Up-to-date and maintained lessons</li>
+</ul>
+<h3 id="general-suggestions-for-future-meetings">General suggestions for future meetings</h3>
+<ul>
+<li>Restart monthly community chats around specific topics where one can get
+updates without reading all chat.</li>
+<li>Separate on-boarding meetings for friends and future instructors (community
+calls could be on-boarding meetings).</li>
+<li>More social media presence and dissemination.</li>
+<li>Create tasks forces or work packages so that others can help better and to
+have fewer bottlenecks in the project.</li>
+</ul>
+<hr />
+<h2 id="meeting-format-and-goals">Meeting format and goals</h2>
+<p>To facilitate a meeting where we collect ideas from everybody but without
+judging them, we used a concept board and virtual sticky notes and divided the
+session into 3 parts:</p>
+<ul>
+<li>Start with everybody taking notes by themselves ("me"; for ourselves).</li>
+<li>Second step: formalize and place on concept board ("we"; randomized 1-1
+pairs).</li>
+<li>Third step: we review and discuss as a group ("us"). Make sure that the
+facilitator understood what the group wanted.</li>
+</ul>
+<p>13 persons participated in this meeting (one of them, the author of this blog
+post, was the facilitator):
+<img width="100%" src="/blog/project-future-concept-board/participants.jpg" alt="screenshot of sticky notes with participant names"></p>
+<h2 id="timeline">Timeline</h2>
+<ul>
+<li>5 min: welcome and getting started</li>
+<li>5 min: everyone adds themselves to the board</li>
+<li>10 min "me" time: work on your own on the two boards below, without sharing your thoughts yet</li>
+<li>15 min "we" time: 1-1 work with a randomized partner; put ideas on the board(s)</li>
+<li>10 min "us" time: we cluster and organize</li>
+<li>10 min: voting on which ideas are most important for you (everybody got 10 votes to distribute)</li>
+<li>follow-up: blog post summarizing this</li>
+</ul>
+<p>Here is a screenshot from the session:
+<img width="100%" src="/blog/project-future-concept-board/timeline.jpg" alt="screenshot of the meeting timeline and meeting suggestions"></p>
+<h2 id="concept-boards-where-we-explored-what-project-members-need-and-want-from-the-project">Concept boards where we explored what project members need and want from the project</h2>
+<p>Meeting participants were asked to answer two questions with sticky notes
+(sticky note color has no meaning):</p>
+<ul>
+<li><strong>"Needs"</strong>: In your current position, what do you need in order to be able
+to contribute to the project 1 year from now? (in terms of work time,
+financing, governance, administration, accounting, leadership, credit)</li>
+<li><strong>"Wants"</strong>: What do you wish from the project in terms of lesson portfolio,
+format, and collaboration in order to still be around 1 year from now?</li>
+</ul>
+<p>We did not have enough time to cluster the notes better but to summarize the
+findings I have later manually clustered related votes and summed them up.</p>
+<img width="100%" src="/blog/project-future-concept-board/vote.jpg" alt="screenshot of the sticky notes with ideas and number of votes">
+<p>The comment note that is outside that screenshot to the bottom and looks a bit
+cut off says:
+"I agree with this a way that CR should have a more defined brand - be it HPC or something else".</p>
+<p>Below we list the ideas also in text format.</p>
+<ul>
+<li>
+<p><strong>Needs</strong>: In your current position, what do you need in order to be able to contribute to the project 1 year from now? (in terms of work time, financing, governance, administration, accounting, leadership, credit)</p>
+<ul>
+<li>Company internal cost object for in-kind contribution</li>
+<li>Staff in my own project that are interested in working on CR</li>
+<li>A project in my organisation  that somehow includes CR</li>
+<li>Official statement of how CR fits in the ecosystem of FAIR X, to help convincing management if they say "we do already Y"</li>
+<li>collaborations with different people on varied topic for training and workshop, and also seeking more opportunities for future development</li>
+<li>Measurable benefit to Aalto (continued enrollment numbers)</li>
+<li>formalize contribution to the outside (credit to contributors)</li>
+<li>Subject overlap with skills and tools of relevance for HPC</li>
+<li>HPC connection</li>
+<li>Possibility to allocate (more) worktime for this</li>
+<li>"cost object" either via project funding or formalized "in-kind"</li>
+<li>Collaboration with passionate people who enjoys delivering, two way learning</li>
+<li>"Project" that includes CR as a job</li>
+<li>a strong publication or white paper about CR and its importance/benefits</li>
+<li>Plans for the future public and concrete, roadmap</li>
+<li>Tasks that have clear work-time estimations</li>
+<li>UPPMAX &amp; NAISS provide in-kind support: this has worked really well up to now, but it is dependent on the home organization to have a secure funding</li>
+<li>(this is a need/want) New content? New formats? Experiment beyond the usual tools workshop</li>
+<li>If outside regular job then some other compensation for my time</li>
+<li>Permission from supervisor</li>
+<li>possibility to join as "oneself",without organization that is "part of CR"</li>
+<li>collect and showcase where else than within the CR project, the materials are used -&gt; show benfit, visibility to employer</li>
+<li>Recognition of our good teaching practices</li>
+</ul>
+</li>
+<li>
+<p><strong>Wants</strong>: What do you wish from the project in terms of lesson portfolio, format, and collaboration in order to still be around 1 year from now?</p>
+<ul>
+<li>UPPMAX &amp; NAISS perspective: In terms of collaboration, the fact that this is a collaboration among people from several supercomputing centers makes it more valuable / "sells" better to higher ups. That is not to exclude industry, but main target audience for us/UPPMAX is academic users.</li>
+<li>More frequent social events eg. monthly zoomffee / networking events</li>
+<li>thinking more topics for training via discussion  &amp; collaboration</li>
+<li>Self learning materials/courses/ asynchronous learning: some researchers don't have time for long workshops and don't wanna know all the details</li>
+<li>social events where team members get an overview of activities in  each partner organization</li>
+<li>CR MOOC as basic service, interaction/teams delegated</li>
+<li>smaller shorter  workshops</li>
+<li>New training material topics</li>
+<li>Have "phone generation" suitable materials , eg IQM academy style</li>
+<li>National course/workshop collaborations, offering in -person specialized short workshops</li>
+<li>more in-person teaching</li>
+<li>New topics on AI and ML can be added to CR lesson portfolio</li>
+<li>official network of teachers, public on webpage, with skills</li>
+<li>stronger integration with HPC - if CR should "belong" somewhere, it should be HPC</li>
+<li>UPPMAX &amp; NAISS perspective: In terms of lessons, the base workshop is great. I think new lessons should be created in terms of needs and existing/wish-for expertise. CR has enabled collaboration on additional courses that are complimentary to the ones of the home institution - added value.</li>
+<li>co-organizing events</li>
+<li>course collaborations of courses that already exiost, like currently done with Aalto HPC kcikstart</li>
+<li>formalized and more official course request form, to show organizations (in and outside of CR) that this is "a thing"</li>
+<li>Have more formalized possibility of using readymade computing environment "executable website"</li>
+<li>regular BoF sessions at conferences like ISC, SC, PyCon, JuliaCon, etc</li>
+<li>programming lessons to go hand-in-hand with software engineering lessons</li>
+<li>Co-hosting of events, and co-developing of lessons, with PDC/NAISS</li>
+<li>mechanism/support for creating new "refineries" (HPC Refinery, AI Refinery, ...)</li>
+<li>Develop training material for GPU computing</li>
+<li>volunteer instructors for CR and instructor training workshops</li>
+<li>Easy way to follow what is going on and when to step in. (Something else than scrolling all chat)</li>
+<li>stronger connection to other similar projects, like BSSW, INTERSECT, etc</li>
+<li>UPPMAX &amp; NAISS perspective: As for the format, in my opinion going even
+larger in attendance would imply using a platform like LinkedIn or similar.
+But it does require additional effort, at least in the setup phase. This
+would allow for asyncrohonous learning. The danger I see with it is that it
+may not be appealing for the home institution.</li>
+<li>maintenance and further development of sphinx-lesson</li>
+<li>Collaborators on video-material (should we choose to make some)</li>
+<li>collaboration &amp; flexibility, promote two way learning</li>
+<li>Connection to RSE community somehow</li>
+<li>Delegate nonprofit side to DRA (for example)</li>
+<li>Denmark could use with another CR person</li>
+<li>Less lesson revision each workshop</li>
+<li>up-to-date and maintained lessons</li>
+</ul>
+</li>
+</ul>
+<h2 id="what-we-learned-about-the-meeting-format">What we learned about the meeting format</h2>
+<p>The format felt like the right choice. However we noted few suggestions
+for how we can improve such meetings in future:</p>
+<ul>
+<li>Allocate 1.5 hours instead of 1 hour.</li>
+<li>Add a break so that facilitator can organize boards to make it easier for all.</li>
+<li>Add example sticky notes.</li>
+<li>Suggest to make text short (some sticky notes contained too many words and
+were possibly not read during the 5 minute voting session).</li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

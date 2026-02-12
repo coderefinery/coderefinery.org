@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>For individuals - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - For individuals</title>
+      <meta property="og:title" content="For individuals" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Individuals can find many ways to develop their skills and contribute to CodeRefinery." />
+      <meta property="og:description" content="Individuals can find many ways to develop their skills and contribute to CodeRefinery." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  
+    <h1>For individuals</h1>
+  
+
+  
+    <p>As individuals, there are plenty of ways to join CodeRefinery, regardless of
+what you do now.  Also see what <a href="https://coderefinery.org/join/staff/">professional staff</a>
+supporting a local community and <a href="https://coderefinery.org/join/organizations/">organizations</a> can
+do.</p>
+<p>For any of these, you can get started by <a href="https://coderefinery.org/join/meetings/">joining a
+meeting</a> and say hi, or <a rel="external" href="https://coderefinery.github.io/manuals/chat/">join our
+chat</a> and introduce yourself in
+the "#new members" stream. We also have collected all important links and info on
+our <a rel="external" href="https://coderefinery.github.io/manuals/onboarding/">onboarding page</a>.
+If things are not clear, please let us know in the Zulip chat so that we can improve.</p>
+<div class="uk-child-width-expand@m uk-margin-large-top" uk-grid>
+<div >
+<h2 id="as-a-learner">As a learner</h2>
+<p>Anyone may attend our workshops, and this is a great way to get
+started.  Our courses are free to the whole world and designed for
+individual learners, too.</p>
+<h2 id="as-a-team-leader">As a team leader</h2>
+<p>Even during your first workshop, you could help others attend.  Get
+your friends together and watch the course.  We have "exercise breaks"
+where you can work together, locally.  You don't need to know
+everything, only be able to keep the flow and read error messages a
+bit better than others.  We have some <a rel="external" href="https://coderefinery.github.io/manuals/team-leaders/">basic on-boarding
+training</a> for
+you!</p>
+<p>Maybe you want to bring all the rest of your research group as your team?</p>
+<h2 id="as-a-co-instructor-or-expert-helper">As a co-instructor or expert helper</h2>
+<p>We don't teach alone, and thus it's remarkably easy to get started as an
+instructor!  In fact, we almost recommend it as a starting point, since it's
+good to have a co-instructor who understands the difficulty of doing and
+learning the topics. Joining as co-instructor means that you will be in touch
+with other instructors. It is great learning and a necessary step to call
+yourself "CodeRefinery instructor".</p>
+<p>If teaching isn't for you, you can help by supporting learners and team leaders
+during a workshop.  If you like reading about how we work, see the <a rel="external" href="https://coderefinery.github.io/manuals/roles-overview/">roles
+overview</a> for all the
+varying responsibilities in a workshop (surely there is something for you
+there).</p>
+</div>
+<div >
+<h2 id="coderefinery-ambassador">CodeRefinery ambassador</h2>
+<p>Do you like what we do and would like to help spread the word to your community?</p>
+<ul>
+<li>Become an ambassador!</li>
+</ul>
+<p>We will provide materials for you to include in your talks, posters and trainings at events (you may anyway be attending).
+You can also get CodeRefinery goodies to distribute at events.</p>
+<p>We can also support you to start your own local community of CodeRefinery enthusiasts or other activities.</p>
+<p>What we can offer:</p>
+<ul>
+<li>A chance to influence the future of the project</li>
+<li>Visibility in social media and on our webpage</li>
+<li>Weekly community news</li>
+<li>Support for organizing local events or other activities</li>
+</ul>
+<p>Note that to be an ambassador, you do not have to be active as a CodeRefinery instructor, helper or even community member.</p>
+<p>Let us know if you want to be an ambassador by
+<a rel="external" href="https://postit.csc.fi/sympa/subscribe/coderefinery-ambassadors/">signing up for our ambassador e-mail list</a>
+and/or if you have any questions you can contact us in our chat (#coderefinery &gt; CodeRefinery ambassador program).</p>
+<h2 id="lesson-contributions">Lesson contributions</h2>
+<p>We would love to see more contributions to our lessons. We are a normal open
+source project on GitHub, and you can contribute via issues, pull requests, or
+by discussing in our <a rel="external" href="https://coderefinery.zulipchat.com/">chat</a>.  You are
+welcome to <a href="https://coderefinery.org/lessons/reusing/">reuse our lessons as well</a>.</p>
+<p>A good starting point is to either open a topic on our
+<a rel="external" href="https://coderefinery.zulipchat.com/">chat</a> or to open an issue on one of the
+lesson repositories in our <a rel="external" href="https://github.com/coderefinery">GitHub
+organization</a> where you can describe what you
+would like to change to collect feedback and possibly also contributors.</p>
+<p>No contribution is too small and ideas for changes are very often very good
+ideas and we would love to work with you on making our lessons better and more
+modular and even more relevant.</p>
+<h2 id="help-out-the-coderefinery-project-itself">Help out the CodeRefinery project itself</h2>
+<p>As an open project, there are always things to do to keep us running!  We're
+especially interested in people who know how to grow a community, do better
+communications, or manage many events better than we do now. <a href="https://coderefinery.org/tasks/">On this
+page</a> we list the many tasks where you can join and contribute.</p>
+</div>
+</div>
+
+  
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

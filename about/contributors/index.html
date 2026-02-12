@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRefinery contributors - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - CodeRefinery contributors</title>
+      <meta property="og:title" content="CodeRefinery contributors" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  
+  
+    <h1>CodeRefinery contributors</h1>
+  
+
+  
+    <p>Below we list (hopefully) all speakers, instructors, hosts, helpers, ambassadors and
+team leaders of past CodeRefinery workshops, as well as CodeRefinery events
+and shared events. Without these contributions, these events would not have been possible.
+<strong>Thank you so much for your contributions!</strong></p>
+<p><a href="https://coderefinery.org/join/individuals/">You can join us too</a>.</p>
+<h2 id="people-who-are-or-were-part-of-the-project">People who are or were part of the project</h2>
+<p>Here listing all persons who were part of the project as official staff or have
+contributed a significant amount of volunteer work.</p>
+<ul>
+<li>Anne Fouilloux (University of Oslo, Norway)</li>
+<li>Bjørn Lindi (NTNU, Norway)</li>
+<li>Diana Iusan (UPPMAX - Uppsala Multidisciplinary Center for Advanced Computational Science, Sweden)</li>
+<li>Emiliano Molinaro (SDU eScience Center, Denmark)</li>
+<li>Johan Hellsvik (PDC Center for High Performance Computing, Sweden)</li>
+<li>Juho Lehtonen (CSC - IT Center for Science, Finland)</li>
+<li>Max R. Eckardt (Center for Humanities Computing Aarhus at Aarhus University, Denmark)</li>
+<li>Naoe Tatara (University of Oslo, Norway)</li>
+<li>Radovan Bast (UiT The Arctic University of Norway)</li>
+<li>Richard Darst (Aalto University, Finland)</li>
+<li>Sabry Razick (University of Oslo, Norway)</li>
+<li>Samantha Wittke (CSC - IT Center for Science, Finland)</li>
+<li>Stefan Negru (CSC - IT Center for Science, Finland)</li>
+<li>Thor Wikfeldt (EuroCC National Competence Centre Sweden)</li>
+<li>Jarno Rantaharju (Aalto University, Finland)</li>
+<li>João M. da Silva (CSC - IT Center for Science, Finland)</li>
+<li>Sri Harsha Vathsavayi (CSC - IT Center for Science, Finland)</li>
+<li>Jyry Suvilehto (CSC - IT Center for Science, Finland)</li>
+<li>Risto Laurikainen (CSC - IT Center for Science, Finland)</li>
+<li>Pinja Koskinen (CSC - IT Center for Science, Finland)</li>
+<li>Erik Edelmann (CSC - IT Center for Science, Finland)</li>
+<li>Lukas Berger (Technical University of Denmark)</li>
+<li>Oskar Taubert (CSC - IT Center for Science, Finland)</li>
+<li>Enrico Glerean (Aalto University, Finland)</li>
+<li>Aurélie Vancraeyenest (CSC - IT Center for Science, Finland)</li>
+<li>Thomas Pfau (Aalto University, Finland)</li>
+<li>Yonglei Wang (ENCCS, Sweden)</li>
+<li>Ashwin V. Mohanan (ENCCS, Sweden)</li>
+<li>Dhanya Pushpadas (University of Bergen, Norway)</li>
+<li>Gregor Dechristoforo (UiT The Arctic University of Norway)</li>
+<li>Andrew Mashchak (UiT The Arctic University of Norway)</li>
+<li>Stephan Smuts (Center for Humanities Computing, Denmark)</li>
+<li>Hemanadhan Myneni (University of Iceland)</li>
+<li>Ebba Thora Hvannberg (University of Iceland)</li>
+</ul>
+<h2 id="people-who-are-or-were-coderefinery-ambassadors">People who are or were CodeRefinery ambassadors</h2>
+<p>This list contains only those ambassadors who agreed to be mentioned publicly.
+If you would like to be mentioned please contact us!</p>
+<ul>
+<li>Michele Mesiti (Karlsruher Institut für Technologie)</li>
+<li>Diana Pilvar (University of Tartu)</li>
+<li>Jakob Sauer Jørgensen (Technical University of Denmark)</li>
+<li>Ding He (Technical Univeristy of Denmark)</li>
+</ul>
+<h2 id="instructors-helpers-and-team-leads">Instructors, helpers, and team leads</h2>
+
+  
+
+
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div>
+      <h2>Instructors/speakers</h2>
+      <ul>
+        
+
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+
+        
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+            
+          
+        
+          
+        
+          
+        
+
+        
+          <li>Andrew Mashchak</li>
+        
+          <li>Anne Fouilloux</li>
+        
+          <li>Annika Rockenberger</li>
+        
+          <li>Björn Claremar</li>
+        
+          <li>Bjørn Lindi</li>
+        
+          <li>Dhanya Pushpadas</li>
+        
+          <li>Diana Iusan</li>
+        
+          <li>Enrico Glerean</li>
+        
+          <li>Gregor Decristoforo</li>
+        
+          <li>Hande Celikkanat</li>
+        
+          <li>Hemanadhan Myneni</li>
+        
+          <li>Hossein Firooz</li>
+        
+          <li>Ina Pöhner</li>
+        
+          <li>Jarno Rantaharju</li>
+        
+          <li>Jens Wehner</li>
+        
+          <li>Johan Hellsvik</li>
+        
+          <li>Johan Hidding</li>
+        
+          <li>João M. da Silva</li>
+        
+          <li>Juho Lehtonen</li>
+        
+          <li>Jyry Suvilehto</li>
+        
+          <li>Leon Boschman</li>
+        
+          <li>Luca Ferranti</li>
+        
+          <li>Marijn van Vliet</li>
+        
+          <li>Mark Abraham</li>
+        
+          <li>Matias Jääskeläinen</li>
+        
+          <li>Matteo Tomasini</li>
+        
+          <li>Matus Kalas</li>
+        
+          <li>Max Roald Eckardt</li>
+        
+          <li>Max Schön</li>
+        
+          <li>Michele Mesiti</li>
+        
+          <li>N. D.</li>
+        
+          <li>Nico Reissmann</li>
+        
+          <li>Nils Charles Prieur</li>
+        
+          <li>Oskar Taubert</li>
+        
+          <li>Pavlin Mitev</li>
+        
+          <li>Pinja Koskinen</li>
+        
+          <li>Radovan Bast</li>
+        
+          <li>Raphaela Heil</li>
+        
+          <li>Richard Darst</li>
+        
+          <li>Sabry Razick</li>
+        
+          <li>Samantha Wittke</li>
+        
+          <li>Seija Sirkiä</li>
+        
+          <li>Simo Tuomisto</li>
+        
+          <li>Sri Harsha Vathsavayi</li>
+        
+          <li>Stefan Negru</li>
+        
+          <li>Susa Merz</li>
+        
+          <li>Teemu Ruokolainen</li>
+        
+          <li>Thomas Pfau</li>
+        
+          <li>Thor Wikfeldt</li>
+        
+          <li>Viktor Rehnberg</li>
+        
+          <li>Will Usher</li>
+        
+          <li>Yonglei Wang</li>
+        
+          <li>Yu Tian</li>
+        
+      </ul>
+    </div>
+
+    <div>
+      <h2>Hosts, helpers, and team leaders</h2>
+      <ul>
+        
+
+        
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+
+        
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+
+        
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+
+        
+          <li>Abel Carreras</li>
+        
+          <li>Agneta Ghose</li>
+        
+          <li>Aili Sarre</li>
+        
+          <li>Alberto Lazzarotto</li>
+        
+          <li>Aleksandra Wilczynska</li>
+        
+          <li>Amir Ebrahimi Fard</li>
+        
+          <li>Ankita Priya</li>
+        
+          <li>Annajiat Alim Rasel</li>
+        
+          <li>Anne Fouilloux</li>
+        
+          <li>Anni Järvenpää</li>
+        
+          <li>Annika Rockenberger </li>
+        
+          <li>Anthony Scemama</li>
+        
+          <li>Ashwin Vishnu</li>
+        
+          <li>Athanasios Protopapas</li>
+        
+          <li>Björn Claremar</li>
+        
+          <li>Bjørn Lindi</li>
+        
+          <li>Carolina Robustini</li>
+        
+          <li>Cristian Cira</li>
+        
+          <li>Dan Mønster</li>
+        
+          <li>Daniel Holmberg</li>
+        
+          <li>Devaraju Narayanappa</li>
+        
+          <li>Dhanya Pushpadas</li>
+        
+          <li>Diana Iusan</li>
+        
+          <li>Dmytro Fishman</li>
+        
+          <li>Dmytro Kryvokhyzha</li>
+        
+          <li>Ebrahim Afyounian</li>
+        
+          <li>Emilia Lipponen</li>
+        
+          <li>Emiliano Gelati</li>
+        
+          <li>Emiliano Molinaro</li>
+        
+          <li>Enrico Glerean</li>
+        
+          <li>Erika Yashiro</li>
+        
+          <li>Evelien Van Dijk</li>
+        
+          <li>Evgeny Posenitskiy</li>
+        
+          <li>Fabricio Oliveira</li>
+        
+          <li>Flavio Calvo</li>
+        
+          <li>Francesco Tabaro</li>
+        
+          <li>Giordano Lipari</li>
+        
+          <li>Hadrien Gourlé</li>
+        
+          <li>Harshit Agrawal</li>
+        
+          <li>Hasti Narimanzadeh</li>
+        
+          <li>Heather Andrews</li>
+        
+          <li>Heikki Lehväslaiho</li>
+        
+          <li>Hui Tang</li>
+        
+          <li>Ingrid Strandberg</li>
+        
+          <li>Inigo Aldazabal</li>
+        
+          <li>Ivan Kuzmin</li>
+        
+          <li>Jakob Sauer Jørgensen</li>
+        
+          <li>Janne Blomqvist</li>
+        
+          <li>Jannetta Steyn</li>
+        
+          <li>Jarno Rantaharju</li>
+        
+          <li>Jean Iaquinta</li>
+        
+          <li>Jens Wehner</li>
+        
+          <li>Joakim Löfgren</li>
+        
+          <li>Johan Hellsvik</li>
+        
+          <li>Johan Hidding</li>
+        
+          <li>Jose Carlos Llanusa</li>
+        
+          <li>João M. da Silva</li>
+        
+          <li>Juan Sebastian Diaz Boada</li>
+        
+          <li>Juho Lehtonen</li>
+        
+          <li>Kaveh Karimi</li>
+        
+          <li>Kerstin Lenk</li>
+        
+          <li>Lauri Neuvonen</li>
+        
+          <li>Leif Wigge</li>
+        
+          <li>Lesetja Lekoloane</li>
+        
+          <li>Lex Nederbragt</li>
+        
+          <li>Lora Armstrong</li>
+        
+          <li>Luc Girod</li>
+        
+          <li>Luca Ferranti</li>
+        
+          <li>Lucy Whalley</li>
+        
+          <li>Luis Amezcua</li>
+        
+          <li>Manana Koberidze</li>
+        
+          <li>Manuel Garcia Alvarez</li>
+        
+          <li>Marco Foscato</li>
+        
+          <li>Marijn Van Vliet</li>
+        
+          <li>Massimo Pizzol</li>
+        
+          <li>Matthew Morris</li>
+        
+          <li>Matúš Kalaš</li>
+        
+          <li>Maurits Kok</li>
+        
+          <li>Max Roald Eckardt</li>
+        
+          <li>Meron Vermaas</li>
+        
+          <li>Mika Jalava</li>
+        
+          <li>Mikael Djurfeldt</li>
+        
+          <li>Mikael Öhman</li>
+        
+          <li>Mikhail Papkov</li>
+        
+          <li>Mikko Heikkilä</li>
+        
+          <li>Naoe Tatara</li>
+        
+          <li>Narayan Puthanmadam Subramaniyam</li>
+        
+          <li>Nico Reissmann</li>
+        
+          <li>Niharika Gauraha</li>
+        
+          <li>Niket Agrawal</li>
+        
+          <li>Octavian Andrei</li>
+        
+          <li>Patric Holmvall</li>
+        
+          <li>Paula Martinez Lavanchy</li>
+        
+          <li>Pavlin Mitev</li>
+        
+          <li>Pedro Ojeda</li>
+        
+          <li>Pedro Ojeda May</li>
+        
+          <li>Pengfei Xu</li>
+        
+          <li>Peter Kjellström</li>
+        
+          <li>Philip Gjedde</li>
+        
+          <li>Pradeep Eranti</li>
+        
+          <li>Preethy Nair</li>
+        
+          <li>Qiang Li</li>
+        
+          <li>Radek Lonka</li>
+        
+          <li>Radovan Bast</li>
+        
+          <li>Raphaela Heil</li>
+        
+          <li>Raul Ortiz Merino</li>
+        
+          <li>Richard Darst</li>
+        
+          <li>Roberto Di Remigio</li>
+        
+          <li>Rohit Goswami</li>
+        
+          <li>Romain Caneill</li>
+        
+          <li>Ruslan Zhuravchak</li>
+        
+          <li>Sabry Razick</li>
+        
+          <li>Samantha Wittke</li>
+        
+          <li>Sebastian Schmidt</li>
+        
+          <li>Shashank Shekhar Harivyasi</li>
+        
+          <li>Shreyas Deshpande</li>
+        
+          <li>Simoneta Caño de Las Heras</li>
+        
+          <li>Sri Harsha Vathsavayi</li>
+        
+          <li>Stephan Smuts</li>
+        
+          <li>Stephanie van de Sandt</li>
+        
+          <li>Stig Rune Jensen</li>
+        
+          <li>Sunniva Indrehus</li>
+        
+          <li>Susan Branchett</li>
+        
+          <li>Ted Hsuan Yun Chen</li>
+        
+          <li>Thomas Arildsen</li>
+        
+          <li>Thor Wikfeldt</li>
+        
+          <li>Tobias Lindstrøm Jensen</li>
+        
+          <li>Toby Hodges</li>
+        
+          <li>Tomasz Kopec</li>
+        
+          <li>Tomi Häkkinen</li>
+        
+          <li>Tor Kjellsson Lindblom</li>
+        
+          <li>Tuomas Rossi</li>
+        
+          <li>Vang Que Le</li>
+        
+          <li>Vesa Vahermaa</li>
+        
+          <li>Will Usher</li>
+        
+          <li>Ygor Morais Jaques</li>
+        
+          <li>Zubair Maalick</li>
+        
+      </ul>
+    </div>
+  </div>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

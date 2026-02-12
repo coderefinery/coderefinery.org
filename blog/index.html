@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery</title>
+      <meta property="og:title" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <h1>Blog posts</h1>
+
+  
+  <ul>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;git-material&#x2F;">Advanced git &#x2F; git masterclass materials and topic collection</a>
+        <span class="post-date">
+          (2025-10-08)
+        </span>
+        
+          <div class="post-description">
+            Collected materials and topics from our open house session on advanced git &#x2F; git masterclass on 14.01.25
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;open-house-git-masterclass&#x2F;">CodeRefinery Open House - advanced git &#x2F; git masterclass</a>
+        <span class="post-date">
+          (2025-01-31)
+        </span>
+        
+          <div class="post-description">
+            Report from our open house session on advanced git &#x2F; git masterclass on 14.01.25
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;09&#x2F;19&#x2F;celebrating-8-years&#x2F;">CodeRefinery - Celebrating eight years</a>
+        <span class="post-date">
+          (2024-09-19)
+        </span>
+        
+          <div class="post-description">
+            Continuing eight years of collaboratively teaching good enough research software engineering practices
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;train-the-trainer&#x2F;">CodeRefinery train the trainer workshop</a>
+        <span class="post-date">
+          (2024-09-09)
+        </span>
+        
+          <div class="post-description">
+            Report and insights gathered during our train the trainer workshop in August&#x2F;September 2024
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;bring-your-own-classroom&#x2F;">Bring your own classroom to a CodeRefinery workshop</a>
+        <span class="post-date">
+          (2024-08-19)
+        </span>
+        
+          <div class="post-description">
+            Join a CodeRefinery workshop with your own classroom and help us scale
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;08&#x2F;10&#x2F;post-workshop-survey&#x2F;">Results from our 2024 post workshop survey</a>
+        <span class="post-date">
+          (2024-08-10)
+        </span>
+        
+          <div class="post-description">
+            In this blog post we summarize the feedback and suggestions
+collected from participants of workshops from 2022 and 2023.
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;07&#x2F;30&#x2F;lesson-cffs&#x2F;">Citation Information for Open Source Lessons</a>
+        <span class="post-date">
+          (2024-07-30)
+        </span>
+        
+          <div class="post-description">
+            Discussing the current state and potential future applications of the Citation File Format for lessons
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;06&#x2F;17&#x2F;finance-models&#x2F;">Summary of business and financing models -planning session Tromsø 2024</a>
+        <span class="post-date">
+          (2024-06-17)
+        </span>
+        
+          <div class="post-description">
+            Discussing possible business and financing models for CodeRefinery
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;06&#x2F;07&#x2F;organisation-info-support-cr-how&#x2F;">Why should your organization support CodeRefinery and how?</a>
+        <span class="post-date">
+          (2024-06-07)
+        </span>
+        
+          <div class="post-description">
+            Organizations can support the CodeRefinery project in several ways to make it sustainable and can have a mutually advantageous collaboration.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;10&#x2F;writing-retreat-community.md&#x2F;">In-person meeting summary: Community</a>
+        <span class="post-date">
+          (2024-04-20)
+        </span>
+        
+          <div class="post-description">
+            What is the CodeRefinery community to you?
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;10&#x2F;writing-retreat-onboarding.md&#x2F;">In-person meeting summary: Onboarding</a>
+        <span class="post-date">
+          (2024-04-20)
+        </span>
+        
+          <div class="post-description">
+            Onboarding new people to the community
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;19&#x2F;drafting-a-governance&#x2F;">Drafting a governance structure for 2025 and beyond</a>
+        <span class="post-date">
+          (2024-04-19)
+        </span>
+        
+          <div class="post-description">
+            We are working on defining a mission, vision, guiding principles, and a decision body
+for CodeRefinery in 2025 and beyond. This is an early draft.
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;19&#x2F;git-lesson-rewrite&#x2F;">We have completely changed our Git lessons. Hopefully to the better.</a>
+        <span class="post-date">
+          (2024-04-19)
+        </span>
+        
+          <div class="post-description">
+            We don&#x27;t start on the command line anymore. Instead, we start in the web
+interface of a Git hosting service and offer several tracks to follow the
+lesson.
+
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;19&#x2F;in-person-modular-code-development-lesson&#x2F;">The Modular Code Developement Lesson</a>
+        <span class="post-date">
+          (2024-04-19)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;19&#x2F;in-person-social-media-strategy&#x2F;">CodeRefinery Social Media Strategy</a>
+        <span class="post-date">
+          (2024-04-19)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;18&#x2F;in-person-asynchronous-versus-live-online-teaching&#x2F;">Asynchronous vs. Live Online Teaching: Understanding the Pros and Cons</a>
+        <span class="post-date">
+          (2024-04-18)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;04&#x2F;in-person-install-instructions-session&#x2F;">In-person meeting: install instructions update</a>
+        <span class="post-date">
+          (2024-04-04)
+        </span>
+        
+          <div class="post-description">
+            We looked at the installation instructions for CodeRefinery workshops and tried to figure out how to improve them
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;04&#x2F;04&#x2F;in-person-video-production-session.md&#x2F;">In-person meeting summary: video production</a>
+        <span class="post-date">
+          (2024-04-04)
+        </span>
+        
+          <div class="post-description">
+            The video production session provided a hands-on experience in what goes on behind the scenes.  It wasn&#x27;t that hard.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;03&#x2F;25&#x2F;next-cr-workshop-help-needed&#x2F;">Help us do the next CodeRefinery workshop (2024 H2)</a>
+        <span class="post-date">
+          (2024-03-25)
+        </span>
+        
+          <div class="post-description">
+            Our workshop in 2024 March went well.  But we need help if we want to do this again.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;03&#x2F;17&#x2F;streaming-training-workshop&#x2F;">Anyone want a streaming training workshop?</a>
+        <span class="post-date">
+          (2024-03-17)
+        </span>
+        
+          <div class="post-description">
+            CodeRefinery&#x27;s streaming setup is getting fairly professional.  Anyone want to learn how to reproduce it?
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;03&#x2F;15&#x2F;week1-march-workshop-rework&#x2F;">Recap of the first week of the spring 2024 workshop</a>
+        <span class="post-date">
+          (2024-03-15)
+        </span>
+        
+          <div class="post-description">
+            Looking back at week one of the CodeRefinery workshop and the big rework of the version control lessons
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;02&#x2F;29&#x2F;install-instructions&#x2F;">Help us make usable IDE&#x2F;git install instructions</a>
+        <span class="post-date">
+          (2024-02-29)
+        </span>
+        
+          <div class="post-description">
+            We want our workshops to be more usable than before, and that means aligning with best practices.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;workshop-plan&#x2F;">Workshop format</a>
+        <span class="post-date">
+          (2024-02-27)
+        </span>
+        
+          <div class="post-description">
+            Discussions on Workshop format and how it affects lesson development 
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2024&#x2F;01&#x2F;24&#x2F;project-future-concept-board&#x2F;">Summary from a brainstorming meeting about the project future</a>
+        <span class="post-date">
+          (2024-01-24)
+        </span>
+        
+          <div class="post-description">
+            Screenshots and summary from our concept board.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2023&#x2F;12&#x2F;05&#x2F;lessons-learned-sep-2023&#x2F;">Lessons learned from the September 2023 online workshop</a>
+        <span class="post-date">
+          (2023-12-05)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2023&#x2F;06&#x2F;25&#x2F;planning-sep-workshop&#x2F;">What we plan to improve for the September 2023 workshop</a>
+        <span class="post-date">
+          (2023-06-25)
+        </span>
+        
+          <div class="post-description">
+            We encourage the community to give us feedback on these ideas.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2023&#x2F;04&#x2F;12&#x2F;lessons-learned-mar-2023&#x2F;">Lessons learned from the March 2023 online workshop</a>
+        <span class="post-date">
+          (2023-04-12)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2023&#x2F;02&#x2F;14&#x2F;march-workshop&#x2F;">CodeRefinery workshop, 21-23 and 28-30 March 2023</a>
+        <span class="post-date">
+          (2023-02-14)
+        </span>
+        
+          <div class="post-description">
+            Our March workshop is soon, and you can join alone, as a team, or as a volunteer.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;28&#x2F;teams&#x2F;">Learner teams in courses</a>
+        <span class="post-date">
+          (2022-11-28)
+        </span>
+        
+          <div class="post-description">
+            Teams can provide high-quality interaction even in large courses.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;14&#x2F;livestreaming-courses&#x2F;">Livestreaming courses</a>
+        <span class="post-date">
+          (2022-11-14)
+        </span>
+        
+          <div class="post-description">
+            Livestream courses have changed how we teach by allowing unprecedented scaling possibilities.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;08&#x2F;lessons-learned-Sep-2022&#x2F;">Lessons learned from the Sep 2022 online workshop</a>
+        <span class="post-date">
+          (2022-11-08)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;08&#x2F;mastodon&#x2F;">CodeRefinery Mastodon account</a>
+        <span class="post-date">
+          (2022-11-08)
+        </span>
+        
+          <div class="post-description">
+            CodeRefinery has started a Mastodon social media account.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;21&#x2F;video-publishing&#x2F;">Video publishing supports more learning styles</a>
+        <span class="post-date">
+          (2022-11-08)
+        </span>
+        
+          <div class="post-description">
+            Publishing course videos supports more learning styles and doesn&#x27;t have to affect privacy.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;11&#x2F;07&#x2F;reverse-hybrid&#x2F;">Reverse hybrid teaching</a>
+        <span class="post-date">
+          (2022-11-07)
+        </span>
+        
+          <div class="post-description">
+            &#x27;Reverse hybrid&#x27; is instructors remote, students local - possibly spread among different locations in small groups.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;10&#x2F;31&#x2F;co-teaching&#x2F;">Co-teaching and scaling up</a>
+        <span class="post-date">
+          (2022-10-31)
+        </span>
+        
+          <div class="post-description">
+            Co-teaching replaces (forced?) learner interaction with natural interaction between co-instructors.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;10&#x2F;24&#x2F;parallel-chat&#x2F;">Parallel chat (&quot;HackMD&quot;) and scaling teaching</a>
+        <span class="post-date">
+          (2022-10-24)
+        </span>
+        
+          <div class="post-description">
+            Parallel chat via a text document enables interactively at scale when online teaching.
+          </div>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;10&#x2F;21&#x2F;python-for-scicomp&#x2F;">Python for Scientific Computing open for registration and collaborators</a>
+        <span class="post-date">
+          (2022-10-21)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;10&#x2F;17&#x2F;future-of-teaching&#x2F;">CodeRefinery teaching strategies and the future of teaching</a>
+        <span class="post-date">
+          (2022-10-17)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;05&#x2F;18&#x2F;measuring-impact&#x2F;">Outcomes from online hackathon about measuring the impact of CodeRefinery workshops</a>
+        <span class="post-date">
+          (2022-05-18)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2022&#x2F;05&#x2F;04&#x2F;improving-workshop-registration&#x2F;">Our plans to improve our workshop registration process</a>
+        <span class="post-date">
+          (2022-05-04)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2021&#x2F;11&#x2F;25&#x2F;lessons-learned-may-2021&#x2F;">Lessons learned from the May 2021 online workshop</a>
+        <span class="post-date">
+          (2021-11-25)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2021&#x2F;11&#x2F;21&#x2F;towards-citable-lessons&#x2F;">Towards citable lessons</a>
+        <span class="post-date">
+          (2021-11-21)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2021&#x2F;11&#x2F;20&#x2F;phase-2-lessons-learned&#x2F;">Lessons learned from phase 2 of the project</a>
+        <span class="post-date">
+          (2021-11-20)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2021&#x2F;09&#x2F;01&#x2F;bi-weekly-community-calls&#x2F;">Bi-weekly Community Calls started</a>
+        <span class="post-date">
+          (2021-09-01)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;11&#x2F;13&#x2F;carpentry-community-discussion-nordic&#x2F;">Community discussion in Nordic and Baltic countries</a>
+        <span class="post-date">
+          (2020-11-13)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;09&#x2F;29&#x2F;git-pr&#x2F;">git-pr: painless small pull requests</a>
+        <span class="post-date">
+          (2020-09-29)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;07&#x2F;31&#x2F;mega-coderefinery&#x2F;">Report from the Mega-Coderefinery workshop</a>
+        <span class="post-date">
+          (2020-07-31)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;27&#x2F;nordichpc-tools&#x2F;">CodeRefinery tools in action: NordicHPC</a>
+        <span class="post-date">
+          (2020-04-27)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;24&#x2F;nordic-rse-conference&#x2F;">Announcing the first Nordic-RSE conference</a>
+        <span class="post-date">
+          (2020-04-24)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;24&#x2F;online-workshops-update&#x2F;">CodeRefinery workshops moving online</a>
+        <span class="post-date">
+          (2020-04-24)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;24&#x2F;rebase-vs-merge&#x2F;">Rebase vs merge</a>
+        <span class="post-date">
+          (2020-04-24)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;24&#x2F;rsh&#x2F;">Research Software Hour</a>
+        <span class="post-date">
+          (2020-04-24)
+        </span>
+        
+      </li>
+    
+      <li>
+        <a class="post-title" href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog&#x2F;2020&#x2F;04&#x2F;14&#x2F;first-online-workshop&#x2F;">Lessons learned from running our first online workshop</a>
+        <span class="post-date">
+          (2020-04-14)
+        </span>
+        
+      </li>
+    
+  </ul>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
