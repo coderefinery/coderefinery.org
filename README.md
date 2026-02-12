@@ -1,5 +1,7 @@
 The sources behind https://coderefinery.org.
 
+This repo uses submodules so clone it using `git clone --recurse-submodules` or else run `git submodule update --init --recursive` after cloning to get the submodules.
+
 Tools:
 - Static site generator: [Zola](https://www.getzola.org/) ([getting started](https://www.getzola.org/documentation/getting-started/overview/))
 - Template engine used by Zola: [Tera](https://tera.netlify.app/docs/#introduction)
