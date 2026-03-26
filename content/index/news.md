@@ -3,11 +3,11 @@
 
 ## Upcoming workshops and other news
 
+- The next CodeRefinery workshop will happen September 22-24 and 29 - October 1, 2026. Stay tuned!
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
-- Recently we recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
+- We recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
   which can be used as preparation for those who wish to follow the course
   using the command line.
-- CodeRefinery stickers, patches and more: [Goodies](/about/goodies/)
 - Get updates by signing up to our [Newsletter](/about/newsletter/)
 
 
