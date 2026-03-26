@@ -3,7 +3,6 @@
 
 ## Upcoming workshops and other news
 
-- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
 - Recently we recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
   which can be used as preparation for those who wish to follow the course
@@ -14,6 +13,7 @@
 
 ## Recent workshops
 
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-09-09-workshop/) - September 9-11 2025 + 6 following Wednesdays (new format)
 - [CodeRefinery tools workshop](https://coderefinery.github.io/2025-03-25-workshop/) (Mar 25-27/Apr 1-3 2025)
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024).
