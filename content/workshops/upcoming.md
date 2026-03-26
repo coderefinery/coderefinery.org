@@ -1,7 +1,7 @@
 +++
 title = "Upcoming and recent workshops and events"
-description = "Upcomng CodeRefinery workshops and other related events."
-date = 2026-01-22
+description = "Upcoming CodeRefinery workshops and other related events."
+date = 2026-03-26
 +++
 
 ## Upcoming CodeRefinery workshops
@@ -9,7 +9,7 @@ date = 2026-01-22
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
+The next CodeRefinery workshop will happen September 22-24 and 29 - October 1, 2026. Stay tuned!
 
 
 Don't want you to miss a workshop or event? The best
@@ -17,16 +17,9 @@ way to stay informed is to join [our newsletter](@/about/newsletter.md)
 You can also subscribe to our [RSS feed](/atom.xml).
 
 
-## Upcoming workshops from partner organizations
-
-
-Partners are invited to [send a pull
-request](https://github.com/coderefinery/coderefinery.org/edit/main/content/workshops/upcoming.md)
-to list your workshop/event here.
-
-
 ## Recent workshops and events
 
+- [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-09-09-workshop/) - September 9-11 2025 + 6 following Wednesdays (long format)
 - [BioNT- NumPy and Pandas fundamentals for handling biological datasets](https://biont.biobyte.de/HklzRkuZRjS6ORgHCiA-HA) (May 27-28, 2025)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-03-25-workshop/) (Mar 25-27 & Apr 1-3, 2025)
