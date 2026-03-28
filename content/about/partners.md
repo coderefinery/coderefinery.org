@@ -241,6 +241,27 @@ CodeRefinery workshops as part of their work time.
   </div>
 </div>
 
+<div class="uk-card uk-card-default uk-width-2-2@m">
+  <div class="uk-card-body">
+    <div class="uk-grid-small uk-flex-middle" uk-grid>
+      <div class="uk-width-expand">
+        <a href="https://wiki.helsinki.fi/xwiki/bin/view/Research%20Software%20Engineering%20group/" target="_blank">
+          <img width="110px" src="/about/funding/uh.png" alt="logo: University of Helsinki">
+        </a>
+      </div>
+      <div class="uk-width-expand">
+        <a href="https://wiki.helsinki.fi/xwiki/bin/view/Research%20Software%20Engineering%20group/" target="_blank">
+          University of Helsinki (Research Software Engineering, UH-RSE)
+        </a>
+        <p class="uk-text-meta uk-margin-remove-top">Finland</p>
+      </div>
+      <div class="uk-width-expand">
+        <div>Frankie Robertson</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 If you would like to contribute to shaping the future of the project, please
 encourage your organization to join as well. While it costs them your work time
 it has also proven to increase cross-organisation and international
