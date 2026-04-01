@@ -36,11 +36,8 @@ with very small amounts of computation) should know.
   Here we give an overview of the different ways how a code project can be documented: from small projects to larger projects.
   Markdown and Sphinx are central tools in this lesson.
 
-- [Jupyter notebooks](https://coderefinery.github.io/jupyter/) (day 5):
-  **A tool to write and share executable notebooks and data visualization.**
-  This lesson gives an overview of what Jupyter notebooks are, when they can be
-  particularly useful, and shows best practices for reusable and reproducible
-  notebooks.
+- [Responsible Use of Generative AI in Assisted Coding](https://coderefinery.github.io/coding-with-ai/) (day 5):
+  In this lesson we present a framework for using AI coding assistants in research software work while maintaining control, security, and integrity. 
 
 - [Automated testing](https://coderefinery.github.io/testing/) (day 6):
   **Preventing yourself and others from breaking your functioning code.**
@@ -54,6 +51,11 @@ with very small amounts of computation) should know.
   grow from one screen-full to larger and how to make code portions reusable
   across projects and across notebooks.
 
+- Until 2026 part of the workshop: [Jupyter notebooks](https://coderefinery.github.io/jupyter/):
+  **A tool to write and share executable notebooks and data visualization.**
+  This lesson gives an overview of what Jupyter notebooks are, when they can be
+  particularly useful, and shows best practices for reusable and reproducible
+  notebooks.
 
 ## Shorter formats
 
