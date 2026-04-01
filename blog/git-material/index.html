@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced git &#x2F; git masterclass materials and topic collection - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Advanced git &#x2F; git masterclass materials and topic collection</title>
+      <meta property="og:title" content="Advanced git &#x2F; git masterclass materials and topic collection" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Collected materials and topics from our open house session on advanced git &#x2F; git masterclass on 14.01.25
+" />
+      <meta property="og:description" content="Collected materials and topics from our open house session on advanced git &#x2F; git masterclass on 14.01.25
+" />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Advanced git &#x2F; git masterclass materials and topic collection</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          Collected materials and topics from our open house session on advanced git &#x2F; git masterclass on 14.01.25
+
+        </h2>
+      
+      October 08, 2025
+      
+        - Samantha Wittke, Radovan Bast
+      
+    </p>
+
+    <hr>
+
+    <hr />
+<p>TL;DR</p>
+<p>The January 2025 CodeRefinery Open House on “Git masterclass” brought together educators and practitioners to share and map advanced Git teaching resources. The blog compiles existing materials (from Carpentries, universities, CodeRefinery, etc.) and organizes them around key themes: recovering from mistakes, changing history, collaborative workflows, merging/rebasing, user experience, and project organization. It also highlights best practices (commit messages, templates, large files, automation) and links to tools, cheatsheets, and talks. The session served as a starting point, and we plan future discussions to potentially creating new lessons to fill gaps and support flexible teaching.</p>
+<hr />
+<h2 id="background">Background</h2>
+<p>On January 14, 2025, we held an Open House session on "Git masterclass". Educators and practitioners from various institutions and communities came to share resources and discuss topics usually not taught in basic git classes. This blog post provides an overview of the materials and topics discussed. Please refer to <a rel="external" href="https://coderefinery.org/blog/open-house-git-masterclass/">https://coderefinery.org/blog/open-house-git-masterclass/</a> for an overview of the OpenHouse session itself.</p>
+<h2 id="list-of-material-we-know-about">List of material we know about</h2>
+<ul>
+<li><strong>Advanced Git in Carpentries incubator (pre-alpha)</strong>
+<ul>
+<li><a rel="external" href="https://carpentries-incubator.github.io/advanced-git/">Rendered webpage</a></li>
+<li><a rel="external" href="https://github.com/carpentries-incubator/advanced-git">GitHub repo (see issues for items in dev)</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p><strong>Other Carpentries incubator projects on intermediate and advanced Git</strong></p>
+<ul>
+<li><a rel="external" href="https://carpentries-incubator.github.io/gitlab-novice/">GitLab novice</a></li>
+<li><a rel="external" href="https://carpentries-incubator.github.io/git-novice-branch-pr/">Git novice branch pr</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="external" href="https://sa2c.swansea.ac.uk/git-demystified/"><strong>Git - beyond the basics</strong> by Swansea</a></p>
+</li>
+<li>
+<p><strong>Heidelberg University material for intermediate/expert Git courses</strong></p>
+<ul>
+<li><a rel="external" href="https://docs.google.com/document/d/1lUyXwlvU4NJLizreJc4LD6JISk8Ev9_L2LUmxBqaFys/edit?usp=sharing">Intermediate Git</a></li>
+<li><a rel="external" href="https://docs.google.com/document/d/1vogIBg0U5kKXrTAHTSO3xeK33Oyq4VTAwDxwDr8VSSg/edit?usp=sharing">Expert Git</a></li>
+</ul>
+</li>
+<li>
+<p><a rel="external" href="https://github.com/esciencecenter-digital-skills/git-lesson">Collaborative version control with Git and GitHub by <strong>NL e-Science Center</strong> </a></p>
+</li>
+<li>
+<p><strong>CodeRefinery</strong></p>
+<ul>
+<li><a rel="external" href="https://coderefinery.github.io/git-intro/">Introductory Git</a></li>
+<li><a rel="external" href="https://coderefinery.github.io/git-collaborative/">Collaborative Git</a></li>
+<li>(+ blogpost about why they don't start with <code>git init</code> anymore: https://coderefinery.org/blog/2024/04/19/git-lesson-rewrite/)</li>
+<li><a rel="external" href="https://coderefinery.github.io/git-branch-design/">Git branch design</a> (old material, we haven't touched or used this in many years)</li>
+<li><a rel="external" href="https://aaltoscicomp.github.io/cheatsheets/git-the-way-you-need-it-cheatsheet.pdf">Git cheatsheet</a></li>
+<li><a rel="external" href="https://coderefinery.github.io/github-without-command-line/">Collaborating and sharing using GitHub without command line</a>: this was used few years ago, a bit outdated now (since the "Introductory Git" lesson can now be done without command line) but there might be some good things in there</li>
+</ul>
+</li>
+<li>
+<p><a rel="external" href="https://srse-git-github-zero2hero.netlify.app/"><strong>Git and GitHub through GitKraken : From Zero to Hero</strong></a></p>
+</li>
+<li>
+<p><a rel="external" href="https://fair2-for-research-software.github.io/git-with-it/"><strong>University of Sheffield - Git with it</strong></a></p>
+</li>
+<li>
+<p><a rel="external" href="https://mmesiti.github.io/git-intermediate/"><strong>KIT - Intermediate git</strong></a>, mostly CodeRefinery material, but with some additions</p>
+</li>
+<li>
+<p><a rel="external" href="https://git.uni-jena.de/zedif/courses/git-intermediate-4h"><strong>zedif Jena - Collaborative Version Control with Git: An Advanced Workshop</strong></a></p>
+</li>
+<li>
+<p><a rel="external" href="https://nclrse-training.github.io/git-ultra-novice/"><strong>Basic GitHub but including pull requests and branching by Newcastle</strong></a></p>
+</li>
+<li>
+<p><strong>Met Office Resources - Custom Software Carpentry Lessons</strong></p>
+<ul>
+<li><a rel="external" href="https://github.com/MetOffice/git-novice/">git novice</a></li>
+<li><a rel="external" href="https://github.com/metOffice/git-working-practices">git working practices</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="other-resources-on-teaching-git">Other resources on teaching git</h3>
+<p>A list of other resources that can be helpful when learning about or teaching git:</p>
+<ul>
+<li><a rel="external" href="https://ohshitgit.com/">Oh Shit, Git!?!</a></li>
+<li><a rel="external" href="https://www.youtube.com/watch?v=aolI_Rz0ZqY">Scott Chacon's FOSDEM 2024 talk on Git Tips and Tricks.</a></li>
+<li><a rel="external" href="https://wizardzines.com/comics/every-git-command/">"Every git command I use" by Julia Evans</a></li>
+<li><a rel="external" href="https://ndpsoftware.com/git-cheatsheet.html#loc=stash">Interactive git cheatsheet</a></li>
+<li><a rel="external" href="https://cbea.ms/git-commit/">cbeams blogpost about writing commit messages</a></li>
+<li><a rel="external" href="https://devhints.io/git-branch">devhints git branch cheatsheet</a></li>
+<li><a rel="external" href="https://github.com/mpi-astronomy/data_science_training_materials/blob/main/files/python_projects.ipynb">About Python packaging and code organization</a></li>
+</ul>
+<h2 id="topic-collection">Topic collection</h2>
+<p>During the open house session we collected topics we would find interesting to have as part of an advanced git or git masterclass course. We then started to link existing materials to the topics. The following is a preliminary collection of topics and their links to at least some of the materials. We encourage anyone who knows about more links of topics and materials to contribute to this blogpost by sending a pull request to <a rel="external" href="https://github.com/coderefinery/coderefinery.org/">https://github.com/coderefinery/coderefinery.org/</a>.</p>
+<h3 id="recovering-from-local-mistakes">Recovering from local mistakes</h3>
+<ul>
+<li>Creating a mental model for commits and branches that allows learners to understand how different commands move along the tree and convey principles and some more theoretical understanding of how git <em>actually</em> works, to give some explanation for (e.g.) how to undo things
+<ul>
+<li><a rel="external" href="https://learngitbranching.js.org/">https://learngitbranching.js.org/</a></li>
+<li><a rel="external" href="http://onlywei.github.io/explain-git-with-d3/">Visualizing Git Concepts with D3</a></li>
+<li>Collaborate on a meaningful example to convey mental model/understanding which would still be motivating</li>
+</ul>
+</li>
+<li>Recovering from making commits to the wrong branch
+<ul>
+<li><a rel="external" href="https://coderefinery.github.io/git-intro/recovering/">https://coderefinery.github.io/git-intro/recovering/</a> (materials exist but we typically don't manage to teach this due to time in our "normal" workshop)</li>
+</ul>
+</li>
+<li>Undoing/partially doing add (command-line or GUI-assisted)
+<ul>
+<li><a rel="external" href="https://kernelnewbies.org/FirstKernelPatch#CommittingChanges">https://kernelnewbies.org/FirstKernelPatch#CommittingChanges</a></li>
+</ul>
+</li>
+<li>Editing a previous commit (log, splitting, reverting)</li>
+<li>Available material which covers multiple of the above:
+<ul>
+<li><a rel="external" href="https://mmesiti.github.io/git-intermediate/git-states/">https://mmesiti.github.io/git-intermediate/git-states/</a></li>
+<li><a rel="external" href="http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;">http://www.ndpsoftware.com/git-cheatsheet.html#loc=workspace;</a></li>
+<li><a rel="external" href="https://firstaidgit.io/">https://firstaidgit.io/</a></li>
+</ul>
+</li>
+<li>Using the reflog to recover from bad resets
+<ul>
+<li><a rel="external" href="https://ohshitgit.com/#magic-time-machine">https://ohshitgit.com/#magic-time-machine</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="changing-history">Changing history</h3>
+<ul>
+<li>
+<p>How to modify an open pull request/ merge request - responding to code review with changes (rebase, squash, edit commits)</p>
+<ul>
+<li>Make additional commits so that reviewers can see changes</li>
+<li><a rel="external" href="https://coderefinery.github.io/git-collaborative/code-review/#how-to-modify-a-pull-request-to-address-the-review-comments">CodeRefinery git collaborative lesson on code review</a></li>
+</ul>
+</li>
+<li>
+<p>How to remove something from the history</p>
+<ul>
+<li>Start with <code>git revert</code> and how it doesn't actually remove from history. Removing from history completely can be done using <a rel="external" href="https://rtyley.github.io/bfg-repo-cleaner/">BFG-repo-cleaner</a>.</li>
+</ul>
+</li>
+<li>
+<p>Interactive rebase to squash/delete/re-order commits</p>
+<ul>
+<li>Gradually introduce rebase: Amending/Fixup first, then interactive rebase. Do not overwhelm with full power, links into creating clearer history while working.</li>
+<li>XKCD comic as motivation to git rebase. This repository implements the git history of that comic and fixes it: <a rel="external" href="https://github.com/ssciwr/git-rebase-xkcd-example">https://github.com/ssciwr/git-rebase-xkcd-example</a> (Details in Heidelberg university material)</li>
+<li>Squashing commits into a logical unit using reset</li>
+</ul>
+</li>
+<li>
+<p>Creating clearer history while working</p>
+<ul>
+<li>Partial staging and committing</li>
+<li>Pulling with rebase</li>
+</ul>
+</li>
+<li>
+<p>Temporary work and stashing</p>
+<ul>
+<li>Small episode in Heidelberg university material</li>
+</ul>
+</li>
+<li>
+<p><a rel="external" href="https://www.pauline-vos.nl/atomic-commits/">Atomic commits</a>, using <code>git commit --amend</code> and <code>git commit --fixup</code> which provide a gentle introduction to <code>git rebase -i</code> (see above)</p>
+</li>
+<li>
+<p>History inspection</p>
+<ul>
+<li>Which branches and commit have you worked on? (Analysing/Debugging history - Meta Level)</li>
+<li>Searching through code changes with "pickaxe"</li>
+<li>Finding a commit that introduced a bug with git annotate or bisect</li>
+<li>Example repository with two bugs hidden in history (1 functional, 1 performance): <a rel="external" href="https://github.com/ssciwr/git-bisect-example">https://github.com/ssciwr/git-bisect-example</a> (Details in Uni Heidelberg material)</li>
+</ul>
+</li>
+</ul>
+<h3 id="collaborative-workflows">Collaborative workflows</h3>
+<ul>
+<li>Importance of having a workflow: contributing changes is key for reproducibility, many users fork a project and change it and then just use their own version. Also trains useful transferable skills to industry/research software engineering.
+<ul>
+<li><a rel="external" href="https://carpentries-incubator.github.io/advanced-git/07-branching-models/index.html">https://carpentries-incubator.github.io/advanced-git/07-branching-models/index.html</a></li>
+<li><a rel="external" href="https://carpentries-incubator.github.io/gitlab-novice/04-collaboration.html">https://carpentries-incubator.github.io/gitlab-novice/04-collaboration.html</a></li>
+<li>(not sure where this goes) <a rel="external" href="https://carpentries-incubator.github.io/collaborative-git-and-github-lesson/aio.html">https://carpentries-incubator.github.io/collaborative-git-and-github-lesson/aio.html</a></li>
+</ul>
+</li>
+<li>Git project guidelines, i.e., no merge request without an issue, only a limited number of people merge to master/main, etc. A collection of the most important guidelines, familiarize participants with different options.</li>
+<li>Forking workflow
+<ul>
+<li><a rel="external" href="https://carpentries-incubator.github.io/advanced-git/09-forking/index.html">https://carpentries-incubator.github.io/advanced-git/09-forking/index.html</a></li>
+<li><a rel="external" href="https://carpentries-incubator.github.io/git-novice-branch-pr/10-pull-requests/">https://carpentries-incubator.github.io/git-novice-branch-pr/10-pull-requests/</a></li>
+</ul>
+</li>
+<li>GitFlow, different variations, with or without a development branch, feature branches, hotfixes
+<ul>
+<li><a rel="external" href="https://carpentries-incubator.github.io/advanced-git/08-gitflow/index.html">https://carpentries-incubator.github.io/advanced-git/08-gitflow/index.html</a></li>
+<li><a rel="external" href="https://medium.com/@onatkorucu/dont-use-git-flow-in-2023-move-to-trunk-based-development-instead-1ac5bd7cb10">Blog Post on why 'gitflow' may not be a good fit for your project</a></li>
+<li><a rel="external" href="https://moldstud.com/articles/p-what-are-some-alternative-workflows-to-gitflow-that-developers-can-consider">Blog Post on alternatives to Gitflow</a></li>
+</ul>
+</li>
+<li>Working with PR/MRs and code review</li>
+<li>Organizing commit history for keeping code reviewers' sanity</li>
+<li>Stacked Branches Workflow</li>
+</ul>
+<h3 id="combining-changes">Combining changes</h3>
+<ul>
+<li>More advanced merge situations</li>
+<li>Cherry-picking to apply change from a single commit (as alternatives to merge)</li>
+<li>Comparing rebasing with merging and understanding when to prefer one or the other</li>
+<li>Rebasing across conflicts
+<ul>
+<li>First should cover the two ways of updating branches, either <code>git merge</code> or <code>git rebase</code> and explain why and when you might prefer one of the other. Both can result in conflicts though!</li>
+<li>Then go on to explain how to resolve conflicts.</li>
+<li>Some of this is covered in the <a rel="external" href="https://fair2-for-research-software.github.io/git-collaboration/diverging_branches.html">Diverging branches chapter</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="user-interfaces-and-experience">User interfaces and experience</h3>
+<ul>
+<li>Nice life hacks in <code>.gitconfig</code>
+<ul>
+<li><code>includeIf</code> to have custom configuration based on directory path.</li>
+<li>using <code>aliases</code></li>
+<li><code>conflictstyle = diff3</code> under <code>[merge]</code> to not only see a conflict but also what the original code was when resolving</li>
+<li><code>defaultBranch = main</code></li>
+<li><code>pushDefault = origin</code></li>
+<li>Aliases to avoid long complicated commands</li>
+<li>how to not reveal your email address if you prefer to not reveal it</li>
+</ul>
+</li>
+<li>Using GitHub/GitLab command line utilities (PRs from command lines)</li>
+<li>Collaborate between Windows users and *nix users (line ending issue)</li>
+<li>git hooks
+<ul>
+<li><a rel="external" href="https://pre-commit.com">pre-commit</a>, some blog posts on this can be found <a rel="external" href="https://blog.nshephard.dev/#category=pre-commit">on Neil;s website</a> and there is a chapter on this in <a rel="external" href="https://fair2-for-research-software.github.io/git-collaboration/hooks.html">fair for research software</a></li>
+</ul>
+</li>
+<li>GitHub actions / GitLab CI/CD
+<ul>
+<li>running GHA locally: <a rel="external" href="https://github.com/nektos/act">act</a></li>
+<li>ssh-ing into failed job runners using <a rel="external" href="https://github.com/mxschmitt/action-tmate">tmate</a> and debug the issue on GitHub</li>
+</ul>
+</li>
+<li>Git shell prompts
+<ul>
+<li>Oh-my-zsh (default on OSX) provides nice Git prompts via themes.</li>
+<li>how to customize fish shell for Git</li>
+</ul>
+</li>
+<li>how to use GUI for line-based "git add -p" commands, difftool, mergetool
+<ul>
+<li><a rel="external" href="https://difftastic.wilfred.me.uk/">difftastic</a></li>
+<li><a rel="external" href="https://carpentries-incubator.github.io/advanced-git/16-tools/index.html">https://carpentries-incubator.github.io/advanced-git/16-tools/index.html</a></li>
+</ul>
+</li>
+<li>excellent tool for diffing and integrates easily with Git (see <a rel="external" href="https://difftastic.wilfred.me.uk/git.html">git configuration</a>)
+<ul>
+<li><a rel="external" href="https://github.com/dandavison/delta">delta</a> - syntax-highlighting pager that can be customized</li>
+<li>meld as difftool/mergetool</li>
+</ul>
+</li>
+<li>Signing commits can be a pain point as GPG is a bit of a pain to use in and of itself.
+<ul>
+<li>Can sign with SSH keys these days.</li>
+</ul>
+</li>
+<li>How to some ignore files globally for all your repos (these are typically ignore patterns that relate to individual settings rather than ignore paths that would be useful for all)</li>
+</ul>
+<h3 id="organizing-projects">Organizing projects</h3>
+<p><em>Suggestion: this topic belongs on a 'RSE/Data Manager track' of git training, separate from a 'researcher/user track' that focuses more on daily usage, recipes etc - 'history' &amp; 'recovering' sections.</em></p>
+<ul>
+<li>Nesting repositories with git submodules</li>
+<li>Tracking large files with git-lfs/ git-annex / <a rel="external" href="https://dvc.org/">dvc</a></li>
+<li>Partial cloning for huge repositories</li>
+<li>Making &amp; distributing template repositories
+<ul>
+<li><a rel="external" href="https://github.com/showyourwork/showyourwork">Show your work templating package</a></li>
+<li><a rel="external" href="https://cookiecutter-data-science.drivendata.org/">Cookiecutter</a></li>
+<li><a rel="external" href="https://github.com/jdeplaa/open-data-template">Open data template</a></li>
+<li><a rel="external" href="https://github.com/mpi-astronomy/mpia-python-template">MPIA Python template</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Best practices:</strong></p>
+<ul>
+<li>How to write a 'proper' git commit message</li>
+<li>What to do when you have hundreds or thousands of repositories in various states of completion/abandonment, e.g. using GitHub's labels and/or other features</li>
+<li>Naming conventions</li>
+</ul>
+<p>These best practices could be served by e.g. blog posts disseminated via community forums, but they probably don't need to be part of a formal course.</p>
+<p><strong>Resources:</strong></p>
+<ul>
+<li>For keeping track on multiple repositories / places using <a rel="external" href="https://datalad.org">DataLad</a> could be a solution (based on git-annex)</li>
+<li><a rel="external" href="https://osf.io/akef3">CleanCode</a> as setting a base for the (code in the) repository</li>
+</ul>
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p>This collection and overview was developed collaboratively during a CodeRefinery OpenHouse session. Thanks goes out to all participants: Radovan Bast, Lukas C. Bossert, Richard Darst, Nishka Dasgupta, Jonathan Hartman, Marc-André Hermanns, Diana Iusan, Dominic Kempf, Christian Knüpfer, Michele Mesiti, Iva Momcheva, Joe Marsh Rossney, Neil Shepard, Jannetta Steyn, Dimitrios Theodorakis.</p>
+<h2 id="outlook">Outlook</h2>
+<p>In this Open House session, we looked back: we shared experiences and links to already existing materials. We also preliminary identified topics of interest to the community based on previous experiences.</p>
+<p>For the next session, we aim to <strong>look into the future: What lessons are missing, where do we put them and how do we collaborate</strong> on something useful for the community to mix and match as needed. If you want to be part of this discussion, please contact support@coderefinery.org.</p>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
