@@ -11,9 +11,7 @@ aliases = ["/organization/partners/"]
 This project is funded by the Nordic e-Infrastructure Collaboration (NeIC)
 and many partners providing in-kind support (see below).
 The project is now in its fourth phase (2025--2028).
-NeIC directly funds a 50%
-position for project management.
-NeIC also provides funding for travel, meetings, and conferences.
+NeIC provides funding for conference travel, in-person meetup and further development. 
 
 
 ## Organizations providing in-kind support
