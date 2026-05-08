@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learner teams in courses - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Learner teams in courses</title>
+      <meta property="og:title" content="Learner teams in courses" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teams can provide high-quality interaction even in large courses." />
+      <meta property="og:description" content="Teams can provide high-quality interaction even in large courses." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Learner teams in courses</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          Teams can provide high-quality interaction even in large courses.
+        </h2>
+      
+      November 28, 2022
+      
+        - Richard Darst
+      
+    </p>
+
+    <hr>
+
+    <p><em>Part of a series on the <a href="https://coderefinery.org/blog/2022/10/17/future-of-teaching/">Future of
+Teaching</a></em></p>
+<p>In April/May 2020, when we started doing "large" (~100 people) online
+courses, we wanted a way to be more interactive.  This was before the
+time of <a href="https://coderefinery.org/blog/2022/10/31/co-teaching/">co-teaching</a> and
+barely at the start of <a href="https://coderefinery.org/blog/2022/10/24/parallel-chat/">parallel
+chat</a>, so we were focused
+on the personal experience.  Our solution was <strong>learner teams</strong>.</p>
+<h2 id="how-it-worked">How it worked</h2>
+<p>The basic mechanics was this:</p>
+<ul>
+<li>Learners are grouped into teams of ~5 people each.  (We try no more
+than 6 people that don't know each other already, if a team already
+knows each other then we take whatever size they came with).</li>
+<li>Some learners registered as teams (in this case, we kept them
+together).</li>
+<li>We would also accommodate individual learners by finding suitable
+teams for them - and this did work well.</li>
+<li>Each team has an <strong>exercise leader</strong> assigned to it.  It might be
+someone who separately volunteered, or it might be someone who is
+already part of the group.</li>
+<li>Teams are pre-assigned and static over the entire workshop.  This
+takes more work, but means that a community forms - randomly
+assigning teams each day would <em>not</em> work as well.</li>
+<li>There are lecture parts, and there are exercise parts.  During the
+exercise parts, everyone is moved to a breakout room.  The exercise
+leaders work with their team to do the exercises and in general be
+friendly.</li>
+<li>We have other course staff around ("expert helpers") and they rotate
+between different rooms and make sure the expert helpers are doing
+well, if they need any help, and if they are keeping a safe and
+welcoming course environment.</li>
+</ul>
+<p>We have a short <a rel="external" href="https://coderefinery.github.io/manuals/team-leaders/">~1-hour training course for the exercise
+leaders</a>,
+where we try to motivate their value, give hints on promoting
+interaction, hints on what happens if things go badly, and especially
+about motivation of learners and safe learning environments.</p>
+<p>We would encourage entire groups to sign up together as a team.
+Research has shown that when two people (instead of one) learn some
+new skill, it is much more likely to be adopted by a group.  This is
+the natural extension of that, and it becomes very easy to take entire
+groups into a course.</p>
+<p>For exercise leaders, detailed knowledge about the course material
+wasn't needed, exercise leaders could come by and help with that.  The
+more important role of the exercise leader was social: being able to
+keep everyone engaged and make sure that no one felt left out.
+Knowing a little bit about command line interfaces and not being
+scared of reading error messages is a nice bonus, but not strictly
+needed.</p>
+<p><strong>Teams seemed to work best when it was actively managed.</strong>  This
+doesn't mean forcing everyone to be a part of a team, but if someone
+is on a team, it's clear they are expected to take part in it.  There
+should be a clear "do you want to take part in a team?" during the
+registration phase.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p>Teams worked great for us to scale to ~100-120 people.  We could have
+one instructor per lesson with plenty of staff to support the teams.
+We could scale up the number of people we could teach at once much
+more than the traditional 3-instructor model in a classroom.</p>
+<p>In principle, this is a lot like "work tables in a classroom".  In
+some ways, it wasn't as nice since it was online.  But in other ways,
+screensharing can allow everyone to see the active screen - something
+not easily possible with this sized groups in a classroom.  Everyone
+had a clear team, and exercise leaders were clearly responsible for
+the people on their teams - which meant that fewer people were at a
+table but not really participating in the group.</p>
+<p>When teams already knew each other in advance, it worked exceptionally
+well.  They would usually speak the same domain language and
+programming language, and use the same tools.  Often, one team member
+had more experience and became the exercise leader.  Even when teams
+didn't know each other in advance, if we could try to put people
+together based on these criteria, by day 2 they were working very well
+together.</p>
+<h2 id="benefits">Benefits</h2>
+<p>Teams allowed us to scale to an even larger number of people.  Our
+registration was: "We take people up to the capacity of exercise leaders we
+have.  However, we take any team that comes with their own exercise
+leader, even if we are over our basic capacity".  This worked well.</p>
+<h2 id="decrease-of-teams-with-the-rise-of-livestreaming">Decrease of teams with the rise of livestreaming</h2>
+<p>By 2022, the roles of teams has been decreasing (though this isn't
+exactly a good thing).  Our developments in
+<a href="https://coderefinery.org/blog/2022/10/31/co-teaching/">co-teaching</a>,  <a href="https://coderefinery.org/blog/2022/10/24/parallel-chat/">parallel
+chat</a>, and
+<a href="https://coderefinery.org/blog/2022/11/28/teams/2022-11-14-livestreaming-courses.md">livestreaming</a> allows us to
+break free of the limits of zoom.  Co-teaching provides engagement
+without needing two-way communication, parallel chat allows a way for
+everyone to ask questions at the same time, and with that
+livestreaming goes bigger than even the team-based approach.  In our
+recent attempts at teams, even when we provided an in-person team room
+with staff, there were very few attendees.  After spending large
+amounts of time setting up the teams, this was a bit disappointing.
+Still, this doesn't discourage us overall - if people find the mass
+communication to work better, that's fine!  We can be available for
+those who want something else.  Thus, or latest strategy is
+"livestream for the masses, higher-quality teams for those who want
+them."</p>
+<h2 id="downside-amount-of-organizational-work">Downside: amount of organizational work</h2>
+<p>The biggest downside is the overwhelming amount of effort needed to
+assign and manage teams.  The more work done to make good teams, the
+more effort needed, and it almost needs a full-time person to manage
+it.  This means we need to re-think our registration to make it more
+sustainable in the long-term.</p>
+<p>The advance assignment was doable, but handling last-minute changes to
+keep the teams balanced, or handling no-shows, was the worst part.  In
+order for the team concept to work best, we needed to handle these
+cases, since a team of too few people, or without an exercise leader,
+or changing every day didn't work well.</p>
+<h2 id="summary">Summary</h2>
+<p>In summary, teams allowed us to make a more interactive and engaging
+course than many others could online.  It's similar to how tables
+organized themselves in groups in classrooms, but by putting more
+attention to the arrangement, we could ensure fewer people were left
+out than in-person.  Yet, practical difficulties and the benefits of a
+livestream strategy mean that teams have a less central role than they
+used to.  In the near future, we will put extra effort into
+simplifying the registration system so that they can co-exist with the
+large livestream courses, since they are worth it when they work.</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a rel="external" href="https://coderefinery.github.io/manuals/team-leaders/">CodeRefinery manuals: Exercise
+leaders</a></li>
+<li><a rel="external" href="https://coderefinery.github.io/manuals/expert-helpers/">Expert helpers and their role in helping exercise
+leaders</a></li>
+<li>Series index: <a href="https://coderefinery.org/blog/2022/10/17/future-of-teaching/">Future of Teaching</a></li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
