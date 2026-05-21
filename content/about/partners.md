@@ -267,14 +267,21 @@ ASC has been involved in CodeRefinery since 2017.
   year.
 
 
-### TU Delft
+## Organizations that have provided local breakoutrooms for CodeRefinery workshops
 
-TU Delft has provided local breakoutrooms for many core workshops.
-
-
-### VU Amsterdam
-
-VU Amsterdam has provided local breakoutrooms for many core workshops.
+- Aalto University, Espoo, Finland
+- ACC Cyfronet AGH, Krakow, Poland
+- CSC - IT Center for Science in Espoo, Finland
+- DTU - Technical University of Denmark, Copenhagen, Denmark
+- Imperial College London, United Kingdom
+- KIT - Karlsruher Institut für Technologie, Germany
+- KTH Royal Institute of Technology, Stockholm, Sweden
+- University of Iceland, Reykjavik
+- UiO - University of Oslo, Norway
+- University of Tartu, Estonia
+- TU Delft, Netherlands
+- VU Amsterdam, Netherlands
+- And yours?
 
 
 ## We are supported by [Zulip](https://zulip.com/)
