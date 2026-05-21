@@ -46,23 +46,11 @@ staff skills as well.
 {{ div() }}
 
 
-## Joining CodeRefinery as a partner/sponsor
+## Joining CodeRefinery as a partner
 
-In the future, there will be some way to officially join CodeRefinery
-as a sponsor, but that will come when it's time.  For now, if
-you express interest, you can join almost immediately and help figure
-out the way we will work later.  Currently, you could consider
-yourself a partner if (criteria are subject to change):
+We are currently (May 2026) figuring this out and will update this section soon. 
+If your organization is interested in joining CodeRefinery, please contact support@coderefinery.org.
 
-- You have at least one staff member who has a significant interest in
-  teaching intermediate-level practical skills in scientific computing.
-- You have some staff who follows and is interested in contributing to
-  CodeRefinery meetings + activities.
-- You [help out](@/join/individuals.md) with CodeRefinery workshops in
-  proportion to your resources, possibly offering some of yours to a
-  wider audience.
-- You open a pull request adding yourself to the [partners
-  page](@/about/partners.md).
 
 
 {{ enddiv() }}
