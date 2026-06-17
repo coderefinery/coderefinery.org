@@ -59,7 +59,6 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Oskar Taubert</div>
-        <div>Aurélie Vancraeyenest</div>
         <div>Samantha Wittke</div>
       </div>
     </div>
@@ -81,7 +80,6 @@ CodeRefinery workshops as part of their work time.
         <p class="uk-text-meta uk-margin-remove-top">Denmark</p>
       </div>
       <div class="uk-width-expand">
-        <div>Stephan Smuts</div>
         <div>Bahareh Tasdighi</div>
       </div>
     </div>
@@ -189,7 +187,8 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Gregor Dechristoforo</div>
-        <div>Andrew Mashchak</div>
+        <div>Marit D. K. Jenssen</div>
+        <div>Julia Mikhailova</div>
       </div>
     </div>
   </div>
@@ -233,7 +232,6 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Hemanadhan Myneni</div>
-        <div>Ebba Thora Hvannberg</div>
       </div>
     </div>
   </div>
