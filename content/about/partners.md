@@ -257,6 +257,7 @@ CodeRefinery workshops as part of their work time.
       </div>
       <div class="uk-width-expand">
         <div>Frankie Robertson</div>
+        <div>Saska Dönges</div>
       </div>
     </div>
   </div>
