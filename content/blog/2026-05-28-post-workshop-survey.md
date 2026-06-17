@@ -19,7 +19,7 @@ We received 72 responses and this blog post summarizes the findings.
 The survey was open from 2026-04-01 to 2026-04-30.
 
 You can also browse the [survey questions](CodeRefinery_post_workshop_survey_questions.pdf) and the [GitHub repository](https://github.com/coderefinery/2026-post-workshop-survey), 
-including the Jupyter notebook which generated the plots. We have archived the results on [Zenodo](https://doi.org/10.5281/zenodo.20432382).
+including the Jupyter notebook which generated the plots. We have archived the results on [Zenodo](https://doi.org/10.5281/zenodo.20738733).
 
 For each plot we also provide a summary in text form right below each plot. 
 Further below you can find answers to free-form questions as well as suggestions for improvement which we received from the survey participants.
