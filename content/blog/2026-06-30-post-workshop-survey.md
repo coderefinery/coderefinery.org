@@ -35,7 +35,7 @@ Some lessons also have changed quite a bit since 2024/2025, and we therefore enc
 ## Survey results
 
 ### Plots 
-![Plot estimating time saving](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/time-saved.png)
+![Plot estimating time saving](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/time-saved.png)
 
 In your estimate, how much time per month have you saved as a result of attending a CodeRefinery workshop
 - No time saved: 11
@@ -43,28 +43,28 @@ In your estimate, how much time per month have you saved as a result of attendin
 - Hours: 37
 - Days: 13
 
-![Plot about whether code is more reusable](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/reusable.png)
+![Plot about whether code is more reusable](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/reusable.png)
 
 After attending the workshop, would you judge your code to be more reusable or not more reusable?
 - My code is more reusable: 55
 - My code is not more reusable: 3
 - Not sure: 14
 
-![Plot about whether collaboration is easier](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/collaboration.png)
+![Plot about whether collaboration is easier](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/collaboration.png)
 
 After attending the workshop, has it become easier or not for you to collaborate on software development with your colleagues and collaborators?
 - Collaboration is easier: 49
 - Collaboration is not easier: 3
 - Not sure: 20
 
-![Plot about whether colleagues have been introduced](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/colleagues.png)
+![Plot about whether colleagues have been introduced](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/colleagues.png)
 
 Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?
 - I have introduced one or more of my colleagues to new tools or practices: 48
 - I have not introduced one or more of my colleagues to new tools or practices: 19
 - Not sure: 5
 
-![How likely are you to recommend?](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/recommending.png)
+![How likely are you to recommend?](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/recommending.png)
 
 How likely is it that you would recommend CodeRefinery workshop to a friend or colleague?
 - 10: 37
@@ -74,7 +74,7 @@ How likely is it that you would recommend CodeRefinery workshop to a friend or c
 - 6: 2
 - 4: 1
 
-![What would be your preferred delivery style for this workshop?](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/pre-recorded-or-live-or-in-person.png)
+![What would be your preferred delivery style for this workshop?](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/pre-recorded-or-live-or-in-person.png)
 
 
 What would be your preferred delivery style for this workshop?
@@ -86,14 +86,14 @@ What would be your preferred delivery style for this workshop?
 - In-person teaching with demos: 2
 - Local classroom for streamed workshop with exercises: 3
 
-![Participation style](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/participation-style.png)
+![Participation style](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/participation-style.png)
 
 Participation style
 - Individual learner: 58
 - Learner in a team (with your colleagues/friends): 7
 - Learner in a local classroom: 6
 
-![Career stage](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/career-stage.png)
+![Career stage](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/career-stage.png)
 
 Career stage
 - Undergraduate student: 1
@@ -101,7 +101,7 @@ Career stage
 - Researcher: 10
 - Professor: 2
 
-![Academic discipline](https://github.com/coderefinery/2026-post-workshop-survey/blob/a612be09d4b1cba0664c2552039ccfeab4761617/notebook/academic-discipline.png)
+![Academic discipline](https://raw.githubusercontent.com/coderefinery/2026-post-workshop-survey/main/notebook/academic-discipline.png)
 
 Academic discipline
 - Physical Sciences: 14
