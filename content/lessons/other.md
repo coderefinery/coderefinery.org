@@ -66,6 +66,8 @@ a community you can join and give contributions to:
 
 - [Aalto Scientific Computing: Training from beginning to HPC](https://scicomp.aalto.fi/training/)
 
+- [ENCCS training on HPC and AI topics](https://enccs.github.io/lessons/)
+
 - [Collection of Carpentries style lessons](https://orchid00.github.io/The_Carpentries_info/carpentries_style_shared_lessons)
 
 - [Introduction to Cultural Analytics & Python](https://melaniewalsh.github.io/Intro-Cultural-Analytics/)
