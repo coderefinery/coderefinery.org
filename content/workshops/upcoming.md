@@ -9,7 +9,7 @@ date = 2026-03-26
 <!-- If you edit this section, also update the date on top of this page. This
 is important for RSS feed. -->
 
-The next CodeRefinery workshop will happen September 22-24 and 29 - October 1, 2026. Stay tuned!
+Next CodeRefinery workshop (September 22-24 and 29 - October 1, 2026) - registration open via our [CodeRefinery event page](https://coderefinery.github.io/2026-09-22-workshop/)
 
 
 Don't want you to miss a workshop or event? The best
@@ -21,7 +21,7 @@ You can also subscribe to our [RSS feed](/atom.xml).
 
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2026-03-17-workshop/) - March 17-19 and 24-26 2026 (compact format)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-09-09-workshop/) - September 9-11 2025 + 6 following Wednesdays (long format)
-- [BioNT- NumPy and Pandas fundamentals for handling biological datasets](https://biont.biobyte.de/HklzRkuZRjS6ORgHCiA-HA) (May 27-28, 2025)
+- BioNT- NumPy and Pandas fundamentals for handling biological datasets (May 27-28, 2025)
 - [CodeRefinery tools workshop (online)](https://coderefinery.github.io/2025-03-25-workshop/) (Mar 25-27 & Apr 1-3, 2025)
 - [Python for Scientific Computing (online)](https://www.aalto.fi/en/events/python-for-scientific-computing-5-7november2024) (Nov 5-7, 2024)
 - [Build Systems Course and Hackathon (online)](https://github.com/PDC-support/build-systems-course) (Oct 8-11, 2024)
