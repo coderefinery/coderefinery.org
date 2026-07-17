@@ -28,6 +28,7 @@ skip_prefixes = [
     "http://cicero.xyz",
     "https://cicero.xyz",
     "https://sandbox.zenodo.org",
+    "https://www.tidningencurie.se",
 ]
 # do not check blog posts for broken external links
 ignored_files = [
