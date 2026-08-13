@@ -31,10 +31,8 @@ jobs:
     if: github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name
 
     steps:
-    - name: Checkout repository and submodules
+    - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        submodules: recursive
 
     - name: Install zola
       run: |
