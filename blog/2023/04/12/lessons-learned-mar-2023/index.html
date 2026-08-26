@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lessons learned from the March 2023 online workshop - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Lessons learned from the March 2023 online workshop</title>
+      <meta property="og:title" content="Lessons learned from the March 2023 online workshop" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Lessons learned from the March 2023 online workshop</a></h1>
+
+    <p class="uk-article-meta">
+      
+      April 12, 2023
+      
+        - Stephan Smuts
+      
+    </p>
+
+    <hr>
+
+    <p>March 21-23 and 28-30, 2023, we held again our <a rel="external" href="https://coderefinery.github.io/2023-03-21-workshop/">CodeRefinery online
+workshop</a> (6 x 3.5 hours)
+with 493 individual registrants and 100-200 views on average in Twitch.
+Here we wish to share with the community and our future selves our lessons
+learned: What worked well and what we need and plan to improve.</p>
+<p>If you think you might have solutions for us or want
+to discuss about the topic, please <a rel="external" href="https://coderefinery.org/organization/contact/">reach out to
+us</a>. This complements our
+lessons learned from <a rel="external" href="https://coderefinery.org/blog/2020/04/14/first-online-workshop/">our first online workshop
+2020</a>, the
+<a rel="external" href="https://coderefinery.org/blog/2021/11/25/lessons-learned-may-2021/">May 2021
+workshop</a>,
+and the <a rel="external" href="https://coderefinery.org/blog/2022/11/08/lessons-learned-Sep-2022/">Sep 2022 workshop</a>.</p>
+<p><strong>We have identified the following main issues that we want to address for future events</strong>:</p>
+<ul>
+<li>Speaking more clearly, improving mic quality, and recommending participants to get familiar with Vim, Nano, etc. before the workshop starts.</li>
+<li>Some attendees expressed confusion with some exercises and recommended more
+repetition of basic commands and more concrete examples of solutions in
+exercises.</li>
+<li>Some attendees suggested improving the teaching style by doing exercises
+while explaining each step, while others preferred doing the exercises
+themselves for better learning.</li>
+<li>Provide more support for online participants and having more, smaller repositories for exercises.</li>
+<li>Some participants found certain aspects of the training confusing, such as the merging process.</li>
+<li>Provide clearer instructions.</li>
+<li>Some participants wanted more hands-on exercises and more information on specific topics like environments, MATLAB, and good documentation and attribution practices.</li>
+<li>The participants suggested expanding the course duration or offering a series of mini workshops.</li>
+<li>They also suggested covering ethics and copyright law and providing solutions to exercises directly under each question.</li>
+<li>There are suggestions for improvement, including making the content more linear, explaining concepts in more detail, and providing more examples.</li>
+<li>The use of Sphinx, a documentation tool, was discussed, and some participants were unsure of its value.</li>
+<li>Suggestions for improvements included providing more information on common practices and beginner's mistakes, as well as offering more focused mentorship and help sessions after the course.</li>
+<li>Some participants felt that the daily schedule could be shorter or more compact.</li>
+<li>Cheat sheets or code checkpoints could be provided to help with finding information quickly.</li>
+</ul>
+<h2 id="daily-summaries">Daily summaries</h2>
+<h3 id="day-1">Day 1</h3>
+<ul>
+<li>The workshop was just right in terms of pace and highly recommendable to others.</li>
+<li>Participants appreciated the hands-on experience, type-along exercises,
+availability of workshop material, and the responsiveness of the
+collaborative document.</li>
+<li>Some participants suggested speaking more clearly, improving mic quality, and
+recommending participants to get familiar with Vim, Nano, etc. before the
+workshop starts.</li>
+<li>Overall, participants enjoyed the workshop and would like to join more like this.</li>
+</ul>
+<h3 id="day-2">Day 2</h3>
+<ul>
+<li>The speed and level of the workshop were appropriate and engaging.</li>
+<li>Several positive comments on the commands and examples covered, the breaks provided, and the helpfulness of the instructors.</li>
+<li>Some attendees expressed confusion with some exercises and recommended more
+repetition of basic commands and more concrete examples of solutions in
+exercises.</li>
+<li>Some attendees suggested improving the teaching style by doing exercises
+while explaining each step, while others preferred doing the exercises
+themselves for better learning.</li>
+<li>Technical questions were asked about the official Git documentation, the use
+of Overleaf, and the concept of stash, which were addressed by the
+instructors.</li>
+<li>Some attendees provided personal comments and suggestions for future
+workshops, including the possibility of working on a test project together
+and adding prompts to show the branch in Git repositories.</li>
+</ul>
+<h3 id="day-3">Day 3</h3>
+<ul>
+<li>General consensus that the pace of the training was appropriate.</li>
+<li>Many participants found the hands-on work helpful.</li>
+<li>Some participants encountered technical difficulties.</li>
+<li>Suggestions for improvements, such as providing more support for online participants and having more, smaller repositories for exercises.</li>
+<li>Some participants found certain aspects of the training confusing, such as the merging process.</li>
+<li>Suggestion for instructors to provide clearer instructions.</li>
+<li>Overall, a positive response to the training.</li>
+<li>Many participants indicated that they learned useful skills that they can apply in their work.</li>
+</ul>
+<h3 id="day-4">Day 4</h3>
+<ul>
+<li>The participants found the speed of the course to be appropriate.</li>
+<li>They appreciated learning about containers, as well as Snakemake, licensing, and R examples.</li>
+<li>Some participants wanted more hands-on exercises and more information on
+specific topics like environments, MATLAB, and good documentation and
+attribution practices.</li>
+<li>The participants suggested expanding the course duration or offering a series of mini workshops.</li>
+<li>They also suggested covering ethics and copyright law and providing solutions to exercises directly under each question.</li>
+<li>Overall, the participants enjoyed the course and found it to be informative and useful.</li>
+</ul>
+<h3 id="day-5">Day 5</h3>
+<ul>
+<li>Participants have varying opinions on the pace, level, and usefulness of the workshop.</li>
+<li>Some participants found the tools introduced to be too advanced, while others found them to be a good challenge.</li>
+<li>There are suggestions for improvement, including making the content more linear, explaining concepts in more detail, and providing more examples.</li>
+<li>The use of Sphinx, a documentation tool, was discussed, and some participants were unsure of its value.</li>
+<li>Overall, participants found the workshop to be informative and inspiring, with some planning to spend additional time reviewing the content.</li>
+</ul>
+<h3 id="day-6">Day 6</h3>
+<ul>
+<li>The course was generally well-received and appreciated.</li>
+<li>Many participants felt that they learned useful skills and would recommend the course to others.</li>
+<li>Suggestions for improvements included providing more information on common practices and beginner's mistakes, as well as offering more focused mentorship and help sessions after the course.</li>
+<li>Some participants felt that the daily schedule could be shorter or more compact.</li>
+<li>Cheat sheets or code checkpoints could be provided to help with finding information quickly.</li>
+<li>Technical concerns included difficulty with using the automatic debugging tool in GitHub.</li>
+<li>There were also some questions about how to receive course credits or certificates.</li>
+</ul>
+<h2 id="registration">Registration</h2>
+<ul>
+<li>The registration process has definitely been improved, but we have identified that it could be further streamlined.</li>
+<li>Our initial ambition was to register participants in two steps: in the first step to make sure they get all following
+information, and in the second step signing up more concretely to a specific format. But during the registration we
+decided to not ask all registrants to update their registrations. For future we wish to make this one-step.</li>
+</ul>
+<h2 id="zoom-and-twitch">Zoom and Twitch</h2>
+<ul>
+<li>Before this workshop we had decided to do away with the group Zoom rooms
+because it proved to be a lot of work for inconsistent results.
+In previous workshops we found that the problems start to mount when
+members don't show up for the group they signed up for. As the workshop
+progresses, there is a drop in attendance and this affects the Zoom
+breakout rooms. This in and of itself is not a big problem, but we found
+that we get some rooms that are completely empty; some rooms are at full
+capacity; and some rooms have 1 or 2 people. We then have to asses each day
+and rearrange people together with expert helpers. This proved to be more
+work for little improvement in the quality of the workshop. So, we decided
+to do away with the group rooms for this workshop and focus only on the
+collaborative document.</li>
+</ul>
+<h2 id="collaborative-notes">Collaborative notes</h2>
+<ul>
+<li>As was mentioned above, we had more hands on the collaborative document since
+we did away with the Zoom rooms. This proved to work well because we had a
+lot more people answering questions, so the document was kept updated and
+archived for maximum performance and accuracy.</li>
+</ul>
+<h2 id="installation-and-tools">Installation and tools</h2>
+<ul>
+<li>We could have a demo exercise (or some) that people can test before the
+workshop: "If you feel comfortable with this you’re gonna be fine during the
+workshop".</li>
+</ul>
+<h2 id="lesson-content">Lesson content</h2>
+<ul>
+<li>We could shorten the lecture-part by moving exercises to the end.</li>
+<li>Longer exercises would benefit in on-site rooms.</li>
+<li>We are constantly looking at improving the quality of the lessons we provide,
+so this is an ongoing process. We take into consideration all the feedback
+that is given through the collaborative document to inform our decisions on
+where we should focus for lesson improvement.</li>
+</ul>
+<h2 id="communication-with-participants">Communication with participants</h2>
+<ul>
+<li>Add all sessions to the <a rel="external" href="https://coderefinery.org/calendars/">CodeRefinery calendar</a>.</li>
+<li>Link all relevant repositories in one place (i.e. this calendar and anything
+that needs attention near a workshop). Make sure those repositories have good
+instructions in READMEs.</li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

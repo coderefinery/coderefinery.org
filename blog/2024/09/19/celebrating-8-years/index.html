@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CodeRefinery - Celebrating eight years - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - CodeRefinery - Celebrating eight years</title>
+      <meta property="og:title" content="CodeRefinery - Celebrating eight years" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Continuing eight years of collaboratively teaching good enough research software engineering practices" />
+      <meta property="og:description" content="Continuing eight years of collaboratively teaching good enough research software engineering practices" />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">CodeRefinery - Celebrating eight years</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          Continuing eight years of collaboratively teaching good enough research software engineering practices
+        </h2>
+      
+      September 19, 2024
+      
+        - Samantha Wittke
+      
+    </p>
+
+    <hr>
+
+    <img width="600px" src="/blog/2024-09-19-celebration/cr-small.jpg" alt="CodeRefinery logo as a hand-carved wooden stand">
+
+    
+        <ul>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#coderefinery-started-8-years-ago">CodeRefinery started 8 years ago</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#what-is-coderefinery">What is CodeRefinery?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#coderefinery-workshops">CodeRefinery workshops</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#bring-your-own-classroom">Bring your own classroom</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#sharing-experiences-and-support-for-doing-your-own-thing">Sharing experiences and support for doing your own thing</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#more-than-just-workshops">More than just workshops</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#reaching-out">Reaching out</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/09/19/celebrating-8-years/#the-future">The future</a>
+                
+            </li>
+        
+        </ul>
+    
+
+<h2 id="coderefinery-started-8-years-ago">CodeRefinery started 8 years ago</h2>
+<p>In October 2024 the CodeRefinery project was celebrating the conclusion of its
+8th year of existence.  During that time about 9 online and 28 in-person
+workshops were held by ~30 instructors, organizers and facilitators teaching
+good enough research software engineering practices to ~3000 participants from
+~20 countries, of many scientific fields, career stages and preferred
+programming languages.  We would like to celebrate this achievement with you,
+by looking back at the history and achievements unlocked over the years and
+also ask you to share your best memories.  Spoiler: Even though this is a
+"looking back" post, CodeRefinery will not cease to exist anytime soon if we
+can help it.  We'd just like to celebrate the project and highlight the
+contributions of key members.</p>
+<p>The project grew out of an initially local course (given at KTH Stockholm in
+2014 and 2015) and in 2016 became a Nordic project.  Rossen Apostolov (KTH
+Stockholm) submitted a proposal to the Nordic e-Infrastructure Collaboration
+(NeIC) in 2015 and NeIC quickly recognized it as a potentially impactful
+project worth co-funding. The project was started in 2016, under the leadership
+of Radovan Bast, project manager of CodeRefinery for the whole duration of the
+project.</p>
+<p>Thor Wikfeldt remembers: "[...] I have had the privilege of working with
+Radovan Bast since 2016 when the CodeRefinery project was launched, and I
+joined under his leadership.  Among all the highly competent individuals I have
+encountered in my career, Radovan stands out for his relentless dedication and
+selfless commitment to making a meaningful impact on the world.  He has
+inspired me to not only become a better teacher and developer of training
+materials but also to be more productive, collaborative and generous in my
+professional life.  Radovan took CodeRefinery from a mere concept to a
+pioneering educational project that is now well- known not only in the Nordic
+region (where it started) but globally. [...] "</p>
+<h2 id="what-is-coderefinery">What is CodeRefinery?</h2>
+<p>CodeRefinery acts as a hub for FAIR (Findable, Accessible, Interoperable, and
+Reusable) software practices. It currently focuses on the Nordic/Baltic
+countries, but aims to expand beyond this region.  CodeRefinery aims to operate
+as a community project with support from academic organizations. The project
+started in 2016 and has developed a broad curriculum of openly maintained and
+reviewed lessons, has taught hundreds of participants across all academic
+disciplines, and has managed to build a community of instructors, learners,
+team leads (who help learners during exercises), expert helpers (who support
+team leads), local organizers and partner organizations.</p>
+<p>The project idea/directive grew out of two courses given at PDC/KTH in 2014 and
+2015, which focused on research software engineering tools and techniques.  The
+courses were popular and it was clear that the demand is not limited to the
+Stockholm region and we approached NeIC to bring this project to a Nordic
+level, both to have more impact, but also to connect instructors across Nordic
+borders.  The first CodeRefinery workshop was given late 2016 and since then
+the lesson material has evolved a lot and we have delivered many more
+workshops, both in-person and online.</p>
+<p>CodeRefinery has established itself as a highly successful initiative that
+improves coding skills at an intermediate level, bridging the gap between
+Software Carpentry for beginners, and the more advanced/bespoke training
+offered by other universities and HPC/computational research initiatives.</p>
+<p>The objectives of the CodeRefinery project are:</p>
+<ul>
+<li>Organize and deliver workshops and events</li>
+<li>Develop and maintain a lesson portfolio</li>
+<li>Build a community and network of instructors and volunteer helpers</li>
+<li>Operate a Nordic GitLab service</li>
+<li>Support the community of Nordic research software engineers</li>
+</ul>
+<h2 id="coderefinery-workshops">CodeRefinery workshops</h2>
+<p>The CodeRefinery project provides open, reusable and self-learning ready lesson
+materials developed by experts from different countries, organizations and
+scientific backgrounds.  CodeRefinery focuses on maintaining collaboration in
+lesson development, teaching and workshop organization. Workshops with multiple
+roles especially highlight the value of collaborative efforts.</p>
+<p>The workshops are focused around exercises and discussions and participants are
+encouraged to form teams for these sessions.  The learning outcomes for each
+lesson are defined and shared in the beginning of each lesson.</p>
+<p>We kindly request feedback from participants after each workshop day. Feedback
+is gathered using known tools with no separation between workshop and feedback.
+If necessary and possible, given feedback is already implemented for the next
+workshop day.</p>
+<p>The CodeRefinery project maintains manuals with a collection of work processes
+and ideas (<a rel="external" href="https://coderefinery.github.io/manuals/">https://coderefinery.github.io/manuals/</a>).  It summarizes how
+meetings, workshops and other topics work and serves as basis for e.g. the
+helper onboarding for the workshop.</p>
+<h2 id="bring-your-own-classroom">Bring your own classroom</h2>
+<p>When switching from in-person to online workshops the CodeRefinery team put a
+lot of effort in embracing the online workshop format. A lot of thought has
+been put into our online hand-on, demo and screen sharing setups in order to
+provide the best possible learning experience to participants.</p>
+<p>Since 2020 we had multiple local classrooms join our workshop and have adapted
+the format to accommodate these special circumstances.</p>
+<p>Paula Martinez Lavanchy shares: "[...][W]e have been ‘bringing our own class’ to
+the CodeRefinery workshops by joining the streaming of the lessons from the classroom with
+our participants and helpers.
+TU Delft researchers provided very positive feedback about this initiative reflected in
+comments such as:</p>
+<p>“It's great and extremely useful. If it was it for me I would make it mandatory knowledge. It's
+really important that TU Delft continues promoting these workshops.”</p>
+<p>“Excellent workshop: the graduate school would be so much better with more of these
+practical &amp; technical workshops”</p>
+<p>The CodeRefinery initiative has helped us and benefit TU Delft researchers in several ways:</p>
+<ul>
+<li>The possibility of joining the workshops allowed us to advance with the
+implementation of our Vision for Research Data &amp; Software management training
+and the implementation of TU Delft Research Software Policy by providing high
+quality and well-received training on FAIR software practices.•</li>
+<li>The involvement of our data stewards, software engineers and trainers as helpers in
+the CodeRefinery workshops have also provided them with a great opportunity to
+continuously improve their skills and learn from this great community.</li>
+<li>The CodeRefinery learning materials are openly available and of excellent quality.
+We often refer our researchers to use them as consultation materials on our websites
+and/or guides.
+[...]"</li>
+</ul>
+<h2 id="sharing-experiences-and-support-for-doing-your-own-thing">Sharing experiences and support for doing your own thing</h2>
+<p>But the CodeRefinery project does not only focus on own workshops, it also
+wants to make it easier for others to provide clean and functional lesson
+materials with all the features needed for computational topics by providing a
+public lesson template (<a rel="external" href="https://github.com/coderefinery/sphinx-lesson">https://github.com/coderefinery/sphinx-lesson</a>).  In
+addition, the ways that teaching has worked well for CodeRefinery are shared
+through train the trainer workshops, which have been presented in different
+forums and to various groups (<a rel="external" href="https://coderefinery.github.io/train-the-trainer/">https://coderefinery.github.io/train-the-trainer/</a>).</p>
+<p>The lesson development process always involves multiple experts. All
+discussions and reviews are public and can be found on our GitHub pages
+(<a rel="external" href="https://github.com/coderefinery">https://github.com/coderefinery</a>).</p>
+<p>Since it is free and open to reuse, there is no full overview about who has
+reused CodeRefinery materials. But when talking to people at conferences and
+other events we often get to hear that teachers are happily reusing the
+CodeRefinery materials for their lectures.</p>
+<p>Two larger programs that have been built on top of CodeRefinery materials are
+the Netherlands eScience Center workshop on "Good practices in research
+software development"
+(<a rel="external" href="https://www.esciencecenter.nl/event/good-practices-in-research-software-development-5/">https://www.esciencecenter.nl/event/good-practices-in-research-software-development-5/</a>)
+and the "EuroCC best practices in HPC training" program lead by ENCCS Sweden
+(<a rel="external" href="https://enccs.github.io/instructor-training/">https://enccs.github.io/instructor-training/</a>).</p>
+<p>Mateusz Kuzak and his team from the Netherlands eScience center explain:</p>
+<p>"[...] At the Center, we have been successfully using the training materials
+developed by the CodeRefinery project since 2020. At that time, CodeRefinery
+filled the gap in the intermediate research software skills for researchers.
+We already delivered training based on the Carpentries and were looking for
+more advanced content for researchers already doing some programming. What I
+appreciate about the project is that Radovan and others didn’t just reinvent
+everything. They build the Trainer the Trainer programme on top of excellent
+Carpentries Instructor Training.  They also realised that the pedagogical
+methodology used by the Carpentries, heavily dependent on live coding, would
+not work that well for intermediate audiences.  They developed a curriculum
+rich in independent work on complex exercises. At the eScience Center, we found
+that approach more effective for less novice learners. CodeRefinery was also
+very innovative, introducing a distributed online approach with many helpers
+supporting locally or in online breakout rooms. I believe that helps with
+scaling the course and reaching a new audience that otherwise wouldn't be able
+to access this training. We at the eScience Center will continue reusing and
+contributing to the CodeRefinery project. [...]"</p>
+<h2 id="more-than-just-workshops">More than just workshops</h2>
+<p>The main CodeRefinery workshop is organized twice a year and it is free and
+open for everyone. Everyone is encouraged to ask their questions and discuss
+the topics that interest them in a collaborative document. Instructors have a
+variety of different scientific and cultural backgrounds and are in different
+stages in their career.<br />
+After each workshop participants are encouraged to
+join the community which mainly lives in the CodeRefinery Zulip chat that to
+date is a home to 446 people with about 10% being really active.  The chat is
+also home to the Nordic-RSE and Nordic-HPC communities which are tightly knit
+with CodeRefinery. The chat serves as a space for planning, support and
+discussions around different topics. Participants of the CodeRefinery workshops
+are encouraged to use the chat also beyond the workshop to ask their questions
+around workshop topics and beyond. Some participants even have found their way
+into the project this way.</p>
+<p>While the workshops are the main event for CodeRefinery, it is also a community
+with an open heart for supporting research computing and providing courses on a
+researchers level.  Research Software Hour was born from the community, and has
+brought topics of Research Software Engineering that you cannot teach in a
+class to the research community (<a rel="external" href="https://researchsoftwarehour.github.io/">https://researchsoftwarehour.github.io/</a>).</p>
+<p>A Zenodo community is available to collect all CodeRefinery and CodeRefinery related outputs:
+<a rel="external" href="https://zenodo.org/communities/coderefinery/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">https://zenodo.org/communities/coderefinery/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest</a></p>
+<p>CodeRefinery is also active on social media: LinkedIn (347 followers), X (844 followers) and Mastodon (313 followers).</p>
+<h2 id="reaching-out">Reaching out</h2>
+<p>The CodeRefinery project has been mentioned alongside other successful programs such as the Carpentries in Research Software Engineering related publications:</p>
+<ul>
+<li>
+<p>I. A. Cosden, K. McHenry and D. S. Katz, "Research Software Engineers: Career Entry Points and Training Gaps," in Computing in Science &amp; Engineering,
+vol. 24, no. 6, pp. 14-21, Nov.-Dec. 2022, doi: 10.1109/MCSE.2023.3258630 or on arxiv; page 7</p>
+</li>
+<li>
+<p>US Research Software Engineer Association, &amp; IEEE Computer Society. (2023). Research Software Engineers: Creating a Career Path—and a Career.
+Zenodo. <a rel="external" href="https://doi.org/10.5281/zenodo.10073233">https://doi.org/10.5281/zenodo.10073233</a> ; page 19</p>
+</li>
+<li>
+<p>Barker, M., Breitmoser, E., Broadbent, P., Chue Hong, N., Hettrick, S., Lampaki, I., Quinn, A., &amp; Taylor, R. (2024). Software and skills for research computing in the UK.
+Zenodo. <a rel="external" href="https://doi.org/10.5281/zenodo.10473186">https://doi.org/10.5281/zenodo.10473186</a> ; page 15</p>
+</li>
+<li>
+<p>Software Sustainability Institute Blog post on Free resources for technical staff: Career development and research software training by A. Nenadic and S. Aragon:  <a rel="external" href="https://www.software.ac.uk/blog/free-resources-technical-staff-career-development-and-research-software-training">https://www.software.ac.uk/blog/free-resources-technical-staff-career-development-and-research-software-training</a></p>
+</li>
+<li>
+<p>Goth F, Alves R, Braun M et al. Foundational Competencies and Responsibilities of a Research Software Engineer [version 1; peer review: awaiting peer review]. F1000Research 2024, 13:1429 <a rel="external" href="https://doi.org/10.12688/f1000research.157778.1">https://doi.org/10.12688/f1000research.157778.1</a></p>
+</li>
+</ul>
+<p>A collection of reports (<a rel="external" href="https://coderefinery.org/about/reports/">https://coderefinery.org/about/reports/</a>) and
+presentations (<a rel="external" href="https://coderefinery.org/about/presentations/">https://coderefinery.org/about/presentations/</a>) about the project
+are collected on our website.</p>
+<p>Project members have been actively seeking opportunities to spread the word and
+share the experiences from running the CodeRefinery workshops at conferences in
+the research computing world.  Among others the project has been presented at
+Supercomputing (SC) conference in the US, International SuperComputing (ISC) in
+Germany, SIAM, RSECon and CarpentryCon in recent years.</p>
+<h2 id="the-future">The future</h2>
+<p>We are currently in the third round of funding by NeiC (one person to
+coordinate the efforts, other partners support in-kind) and considering our
+next steps.</p>
+<p>One thing is clear: CodeRefinery will not end or cease to exist.</p>
+<p>We are in contact with funders and past and potential future organizations to
+make these efforts go on and likely we will continue the funded coordination +
+in-kind partners model. For other structures we may collaborate with other
+organizations and projects.</p>
+<p>If this project and its mission sounds like something you would like to join or
+support, we have multiple ways to get involved from spreading the word as an ambassador, supporting material and workshop format development, becoming an instructor and teaching with us to organizing workshops with us or on your own. Please contact support@coderefinery.org or join our chat (<a rel="external" href="https://coderefinery.zulipchat.com/">https://coderefinery.zulipchat.com/</a>) and we can discuss in more
+detail.</p>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

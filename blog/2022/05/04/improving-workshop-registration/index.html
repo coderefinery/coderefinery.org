@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Our plans to improve our workshop registration process - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Our plans to improve our workshop registration process</title>
+      <meta property="og:title" content="Our plans to improve our workshop registration process" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Our plans to improve our workshop registration process</a></h1>
+
+    <p class="uk-article-meta">
+      
+      May 04, 2022
+      
+        - Diana Iușan and Radovan Bast
+      
+    </p>
+
+    <hr>
+
+    <p>As we entered the sustainability phase of the CodeRefinery project, the number
+of participants attending our workshops continues to increase. The March 2022
+online workshop on best practices for scientific software development has
+reached <a rel="external" href="https://coderefinery.org/workshops/past/">297 registrants</a> which is a
+record for us.</p>
+<p>Interactive lessons and team exercise work where teams of colleagues can
+register as a team and go through exercises as a team are among the essential
+ingredients of our workshops.  However, we also wish to accommodate also solo
+learners and exercise leads in our workshops and give them the possibility to
+exercise with other solo learners. The challenge for us is to manage a dynamic
+registration process and exercise group formation without excessive effort.</p>
+<p>To collect ideas on how to simplify this in future, the CodeRefinery staff and
+some community members have brainstormed in an online hackathon on improving
+the workshop registration, held on May 3, 2022.</p>
+<p>Below we summarize our observations and strategies for the upcoming events.</p>
+<h3 id="goals-of-a-good-registration">Goals of a good registration</h3>
+<ul>
+<li>
+<p>Avoid chaos during the workshop</p>
+<ul>
+<li>Avoid misunderstandings about registration types</li>
+<li>Teams are clear and require minimum effort from organizers</li>
+</ul>
+</li>
+<li>
+<p>Be able to predict attendance, avoid major disappointments</p>
+</li>
+<li>
+<p>Reusable by different partners who have different approved survey platforms (not tied to one system, though it's OK if the questions have to be re-entered)</p>
+<ul>
+<li>E.g. not being bound only to Indico or something else that needs to be installed</li>
+</ul>
+</li>
+<li>
+<p>Collect good information on participants for reporting later</p>
+</li>
+<li>
+<p>Registration does not <em>have</em> to ever close</p>
+<ul>
+<li>Continued registrations allow people to join halfway through</li>
+<li>What needs does this have?</li>
+</ul>
+</li>
+<li>
+<p>Editable by organizers (without making a copy by exporting)</p>
+<ul>
+<li>e.g. exporting Indico to spreadsheet makes a copy, if people modify their registration our copy is invalid</li>
+<li>Google Docs allows a form to be directly connected to a spreadsheet, we can modify old registrations while new ones come in</li>
+</ul>
+</li>
+</ul>
+<h3 id="lessons-learned-from-a-recent-event">Lessons learned from a recent event</h3>
+<ul>
+<li>Unclear what registration options mean, people sign up for Zoom and don't show up</li>
+<li>We have to manage teams ourselves, which requires too much communication and
+manual work.  Teams should be able to do this themselves.</li>
+<li>Scheduling teams is hard, must optimize for this and avoid all ambiguity</li>
+<li>Registration coordinator shouldn't teach (much, certainly not early on)</li>
+<li>Communication and registration is the same person or same two persons</li>
+<li>Communication/registration and teaching coordination should not be the same person</li>
+<li>Indico is a good tool but we need to remove old copy-pasted questions/options and streamline</li>
+<li>Allow teams to register with one contact point only</li>
+<li>Merging teams is hard in indico</li>
+<li>Adjusting teams is hard in indico</li>
+<li>Communication/registration/coordination is a full time job for two weeks prior to the workshop</li>
+<li>Question about availability is too often misunderstood: ask differently</li>
+<li>Optimize for fewer emails since these are difficult to delegate</li>
+<li>For exercise leads it is confusing whether to choose staff registration or regular registration</li>
+<li>It is good to leave registration open. People ask on twitch "can I have the
+Q&amp;A" and then I can say "not right not but if you register you will get it in
+an email tonight so you have it tomorrow"</li>
+<li>Regarding breakout rooms in Zoom and the problems with too small rooms,
+missing ELs, and the organisational challenges: it's worth trying something
+different next time, like having only one-person registrations but having
+numbered rooms in zoom that participants self-organise into</li>
+<li>Team registrations seem to have worked though and they seem to have the only
+groups that "survived" to the end.</li>
+<li>Local organizers could choose to use a centrally organized zoom if they
+wanted - as long as they managed the teams themselves</li>
+</ul>
+<h3 id="suggestions-for-improving-our-previous-registration-form">Suggestions for improving our previous registration form</h3>
+<ul>
+<li>"affiliation or university": have a list of institutions + "other" * free
+text for other institutions or companies not listed</li>
+<li>can we decentralize registration to groups and partners?
+<ul>
+<li>groups/partners scale as far as they like to as many helpers as they have</li>
+</ul>
+</li>
+<li>questions on form
+<ul>
+<li>"do you want to participate in Stockholm? click here" -&gt; another form</li>
+<li>"in Aalto" -&gt; another form</li>
+<li>none of the above -&gt; central form
+<ul>
+<li>group registration (exercise lead? or anybody as proxy?)</li>
+<li>register as exercise lead and want to help out a "random" group</li>
+<li>want to be part of a group -&gt; click here but we can't guarantee a helper, especially if you register late</li>
+<li>want to only watch alone</li>
+</ul>
+</li>
+<li>also offer options to get informed for those unsure/undecided
+<ul>
+<li>yes</li>
+<li>"interested"</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>standardized reporting form for partners</li>
+</ul>
+<h3 id="how-to-manage-teams">How to manage teams?</h3>
+<ul>
+<li>Teams could handle some issues/setup themselves</li>
+<li>They need some templates to send information</li>
+<li>Which information should be sent by CR and which by the local organizers?</li>
+<li>Need to get statistics and feedback from the local groups</li>
+<li>Need to clarify if there will be "general" helpers in addition to team helpers</li>
+<li>Larger project partners will probably prefer offering in-person exercise groups</li>
+<li>How to deal with registration in the wrong form if we have several forms?</li>
+<li>Each partner needs to clearly commit to a certain level of support and size</li>
+<li>How to self-organize teams:
+<ul>
+<li>"helpers, rename yourself and join a room that does not have helpers yet"</li>
+<li>"learners, if you are in a room that is too empty or too full, join another one"</li>
+<li>this is to avoid rooms that are too full or too empty, or without helpers, or avoiding communicating which days an EL is unavailable</li>
+<li>what if one exercise lead or room is more popular than another room?</li>
+<li>how about continuity between days?</li>
+</ul>
+</li>
+<li>What to do with solo registrations who are not part of a group and want to be
+in an exercise group?
+<ul>
+<li>Is pairing up happening locally or centrally?</li>
+</ul>
+</li>
+</ul>
+<h3 id="comments-on-a-mock-up-registration-form">Comments on a mock-up registration form</h3>
+<p>We have together reviewed an <a rel="external" href="https://forms.gle/xNSmW7DJ43jV7NhD9">example
+form</a> and collected comments:</p>
+<ul>
+<li>Problems: "team organized by us" is not separated from "self-organized team"</li>
+<li>The "probably not but send info" does not need to be asked for each day separately</li>
+<li>But it's nice to offer the possibility to stay informed and decide later</li>
+<li>Nice to have one form both for staff and everyone else to avoid the confusion that we saw at the previous event</li>
+<li>"observer": let them decide whether they want emails or not</li>
+<li>"how do you plan on attending"
+<ul>
+<li>Option 1:
+<ul>
+<li>Maybe confusing if somebody selects both zoom and in person</li>
+<li>In-person breakout delegated to the local organization</li>
+</ul>
+</li>
+<li>Option 2:</li>
+</ul>
+</li>
+<li>Local rooms
+<ul>
+<li>Ask this earlier</li>
+</ul>
+</li>
+<li>Teams
+<ul>
+<li>Ask this question earlier</li>
+</ul>
+</li>
+<li>It is important that registrants can change their choices</li>
+<li>In general, Radio buttons are nicer than dropdowns because you get to see the answers right away
+<ul>
+<li>But dropdown takes less screen space</li>
+</ul>
+</li>
+</ul>
+<h3 id="what-if-we-get-asked-for-help-with-creating-a-registration-page-for-a-local-partner">What if we get asked for help with creating a registration page for a local partner?</h3>
+<ul>
+<li>We need to communicate who we share data with and ask for consent</li>
+<li>We document what we ask and what we recommend partners to ask</li>
+<li>We document which privacy policy we follow and which privacy standards
+we require</li>
+<li>We could offer a form/event if some local organizers need a separate
+form but do not want to set it up themselves</li>
+</ul>
+<h3 id="starting-point-for-the-new-registration-form">Starting point for the new registration form</h3>
+<ul>
+<li>OS
+<ul>
+<li>Dropdown</li>
+</ul>
+</li>
+<li>Discipline
+<ul>
+<li>Dropdown</li>
+</ul>
+</li>
+<li>Name
+<ul>
+<li>Open</li>
+</ul>
+</li>
+<li>Email
+<ul>
+<li>Open</li>
+</ul>
+</li>
+<li>Affiliation
+<ul>
+<li>Open</li>
+<li>Has not been used for reporting yet but the information is good to
+have</li>
+</ul>
+</li>
+<li>Country
+<ul>
+<li>Dropdown</li>
+</ul>
+</li>
+<li>Team name
+<ul>
+<li>Open</li>
+</ul>
+</li>
+<li>Permission to give contact details to breakout room organizer
+<ul>
+<li>Yes/no dropdown</li>
+</ul>
+</li>
+<li>Other notes to organizers
+<ul>
+<li>Open</li>
+</ul>
+</li>
+<li>Room
+<ul>
+<li>Open</li>
+</ul>
+</li>
+<li>Which days attending
+<ul>
+<li>Radio buttons</li>
+</ul>
+</li>
+<li>Type of attendee
+<ul>
+<li>Radio buttons</li>
+</ul>
+</li>
+<li>Do you want to attend in Zoom or follow live-stream only?
+<ul>
+<li>Dropdown/Radio buttons</li>
+</ul>
+</li>
+</ul>
+<h3 id="conclusions">Conclusions</h3>
+<ul>
+<li>Central registration is in Indico</li>
+<li>We can offer a copy of our Indico template for a separate event for local partners who cannot use a local
+registration system</li>
+<li>Local partners are welcome to use their own registration systems</li>
+<li>Teams can register as a team with a single contact point and the contact point does not have to be an exercise lead</li>
+<li>We offer the possibility for individual learners and individual exercise leads to self-join exercise rooms</li>
+<li>Workshop limits:
+<ul>
+<li>in terms of Twitch: it seems one bottleneck could be the collaborative HackMD document</li>
+<li>in terms of exercise groups: the number of volunteers but also groups without exercise leads can be useful</li>
+</ul>
+</li>
+</ul>
+<h3 id="follow-up-steps">Follow-up steps</h3>
+<ul>
+<li>Share a mock-up form soon with stakeholders for feedback via email and during a team meeting</li>
+<li>Explain the setup clearly and concisely, directly in the <a rel="external" href="https://github.com/coderefinery/template-workshop-webpage">workshop template</a></li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
