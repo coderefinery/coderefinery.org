@@ -68,11 +68,12 @@ is the "start page" of the series):
 * [Co-teaching](@/blog/2022-10-31-co-teaching.md)
 * [Teams](@/blog/2022-11-28-teams.md
 * [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
-* Open source courses
+* [Open source courses](@/blog/2022-12-12-open-source-courses.md)
 * Registration and learner management
 * [Livestream courses](@/blog/2022-11-14-livestreaming-courses.md)
 * Collaboration in organizing
 * [Publishing videos supports more learning styles](@/blog/2022-11-08-video-publishing.md)
+* Sphinx-lesson
 * Working together as a team
 * Modular and reusable courses
 * Comparison to MOOCs
