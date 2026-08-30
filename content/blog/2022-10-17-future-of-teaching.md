@@ -69,7 +69,7 @@ is the "start page" of the series):
 * [Teams](@/blog/2022-11-28-teams.md
 * [Hybrid courses vs reverse-hybrid courses](@/blog/2022-11-07-reverse-hybrid.md)
 * Open source courses
-* Registration and learner management
+* [Registration and learner management](@/blog/2022-12-05-registration.md)
 * [Livestream courses](@/blog/2022-11-14-livestreaming-courses.md)
 * Collaboration in organizing
 * [Publishing videos supports more learning styles](@/blog/2022-11-08-video-publishing.md)
