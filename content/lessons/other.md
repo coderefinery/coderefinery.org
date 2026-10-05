@@ -81,9 +81,8 @@ a community you can join and give contributions to:
 
 - [The Nordic RSE community](http://nordic-rse.org/)
 - [The Carpentries](https://carpentries.org/)
-- [The Software Sustainability Institute](https://www.software.ac.uk)
+- [The Institute for Research Software](https://www.software.ac.uk)
 - [The Molecular Sciences Software Institute](http://molssi.org)
-- [CBioVikings: ISCB Regional Student Group Denmark](https://www.cbiovikings.org/index.html)
 - [New Zealand eScience Infrastructure](https://www.nesi.org.nz)
 - [rOpenSci: Transforming science through open data](http://ropensci.org)
 - [NumFOCUS](http://www.numfocus.org)

@@ -10,7 +10,7 @@ or [download the binary](https://github.com/getzola/zola/releases).
 
 Then:
 ```
-$ git clone --recursive git@github.com:coderefinery/coderefinery.org.git
+$ git clone git@github.com:coderefinery/coderefinery.org.git
 $ cd coderefinery.org
 $ zola serve
 ```

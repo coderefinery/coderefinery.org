@@ -1,5 +1,52 @@
 events:
   - name: Full online workshop (6 half-days)
+    website: https://coderefinery.github.io/2026-09-22-workshop/
+    start_date: "2026-09-22"
+    end_date: "2026-10-01"
+    organizers: 
+      - Diana Iusan
+      - Enrico Glerean
+      - Samantha Wittke
+    instructors: 
+      - Blazej Baczkowski
+      - Federico Bianchini
+      - Enrico Glerean
+      - Diana Iusan
+      - Susa Merz
+      - Michele Mesiti
+      - Ashwin Mohanan
+      - Hemanadhan Myneni
+      - Thomas Pfau
+      - Jarno Rantaharju
+      - Sabry Razick
+      - Frankie Robertson
+      - Bahareh Tasdighi
+      - Oskar Taubert
+      - Anja Virkkunen
+    expert_helpers: 
+      - Virginia Conde
+      - Hemanadhan Myneni
+      - Enrico Glerean
+      - Michele Mesiti
+      - Bahareh Tasdighi
+      - Patricia Hernández León
+      - Julia Mikhailova
+      - Oskar Taubert
+      - Richard Darst
+    num_participants:
+      FI: 164
+      SE: 26
+      DK: 6
+      NO: 55
+      DE: 52
+      IS: 17
+      UK: 6
+      NL: 8
+      other: 54
+      total: 388
+
+      
+  - name: Full online workshop (6 half-days)
     website: https://coderefinery.github.io/2026-03-17-workshop/
     start_date: "2026-03-17"
     end_date: "2026-03-26"

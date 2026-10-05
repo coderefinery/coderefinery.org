@@ -14,7 +14,8 @@ Our core lessons can also be cited and linked to via DOI (published in our [Zeno
 - Git collaborative: <https://doi.org/10.5281/zenodo.16925120>
 - Reproducible research: <https://doi.org/10.5281/zenodo.16410659>
 - Social coding: <https://doi.org/10.5281/zenodo.16410766>
-- Documentation <https://doi.org/10.5281/zenodo.8280234> 
+- Documentation <https://doi.org/10.5281/zenodo.8280234>
+- AI assisted coding: <https://doi.org/10.5281/zenodo.19335927>
 - Jupyter: <https://doi.org/10.5281/zenodo.16410839>
 - Testing: <https://doi.org/10.5281/zenodo.16410887>
 - Modular code development: <https://doi.org/10.5281/zenodo.16925149>
