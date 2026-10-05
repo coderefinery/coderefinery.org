@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Results from our 2024 post workshop survey - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Results from our 2024 post workshop survey</title>
+      <meta property="og:title" content="Results from our 2024 post workshop survey" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="In this blog post we summarize the feedback and suggestions
+collected from participants of workshops from 2022 and 2023.
+" />
+      <meta property="og:description" content="In this blog post we summarize the feedback and suggestions
+collected from participants of workshops from 2022 and 2023.
+" />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Results from our 2024 post workshop survey</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          In this blog post we summarize the feedback and suggestions
+collected from participants of workshops from 2022 and 2023.
+
+        </h2>
+      
+      August 10, 2024
+      
+        - Radovan Bast
+      
+    </p>
+
+    <hr>
+
+    
+    
+        <ul>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#about-this-survey">About this survey</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#how-much-time-have-you-saved">How much time have you saved?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#is-your-code-more-reusable">Is your code more reusable?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#has-it-become-easier-to-collaborate">Has it become easier to collaborate?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#have-you-introduced-your-colleagues-to-new-tools-and-practices">Have you introduced your colleagues to new tools and practices?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#how-likely-are-you-to-recommend">How likely are you to recommend?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#pre-recorded-lectures-live-online-teaching-or-in-person-teaching">Pre-recorded lectures, live online teaching, or in-person teaching?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#what-would-be-the-ideal-format">What would be the ideal format?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#participation-style">Participation style</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#career-stage">Career stage</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#academic-discipline">Academic discipline</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#has-anything-else-changed-in-how-you-write-code-for-your-research-after-attending-the-workshop">Has anything else changed in how you write code for your research after attending the workshop?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#what-topic-s-should-we-add-to-our-workshops">What topic(s) should we add to our workshops?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#what-topic-s-should-we-remove">What topic(s) should we remove?</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/08/10/post-workshop-survey/#other-feedback">Other feedback</a>
+                
+            </li>
+        
+        </ul>
+    
+
+<h2 id="about-this-survey">About this survey</h2>
+<p>In early 2024 we sent out a survey to participants of our workshops from 2022 and 2023.
+We received 129 responses and this blog post summarizes the findings.</p>
+<p>You can also browse the
+<a rel="external" href="https://github.com/coderefinery/2024-post-workshop-survey/blob/main/form.pdf">survey questions</a>
+and the
+<a rel="external" href="https://github.com/coderefinery/2024-post-workshop-survey">Jupyter notebook</a> which generated the plots.
+We have archived the results <a rel="external" href="https://doi.org/10.5281/zenodo.13292363">on Zenodo</a>.</p>
+<p>For each plot we will also provide a summary in text form right below each
+plot. Further below you can find answers to free-form questions as well as
+suggestions for improvement which we received from the survey participants.</p>
+<p>One thing we did not do with the answers was to try to cross-correlate
+questions (for instance to correlate feedback with career stage or academic
+discipline).</p>
+<p>We are very grateful for the feedback and suggestions and we will use them to
+improve our workshops in the future. We also appreciate very valuable
+input on how to improve survey questions by experts at
+RISE Research Institutes of Sweden.</p>
+<h2 id="how-much-time-have-you-saved">How much time have you saved?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/time-saved.png" alt="Plot estimating time saving" /></p>
+<p>In your estimate, how much time per month have you saved as a result of attending a CodeRefinery workshop?</p>
+<ul>
+<li>No time saved: 20</li>
+<li>Minutes: 32</li>
+<li>Hours: 59</li>
+<li>Days: 17</li>
+</ul>
+<h2 id="is-your-code-more-reusable">Is your code more reusable?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/reusable.png" alt="Plot about whether code is more reusable" /></p>
+<p>After attending the workshop, would you judge your code to be more reusable or not more reusable?</p>
+<ul>
+<li>My code is more reusable: 90</li>
+<li>My code is not more reusable: 9</li>
+<li>Not sure: 30</li>
+</ul>
+<h2 id="has-it-become-easier-to-collaborate">Has it become easier to collaborate?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/collaboration.png" alt="Plot about whether collaboration is easier" /></p>
+<p>After attending the workshop, has it become easier or not for you to collaborate on software development with your colleagues and collaborators?</p>
+<ul>
+<li>Collaboration is easier: 91</li>
+<li>Collaboration is not easier: 6</li>
+<li>Not sure: 32</li>
+</ul>
+<h2 id="have-you-introduced-your-colleagues-to-new-tools-and-practices">Have you introduced your colleagues to new tools and practices?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/colleagues.png" alt="Plot about whether colleagues have been introduced" /></p>
+<p>Have you introduced one or more of your colleagues to new tools or practices as a result of the workshop?</p>
+<ul>
+<li>I have introduced one or more of my colleagues to new tools or practices: 79</li>
+<li>I have not introduced one or more of my colleagues to new tools or practices: 33</li>
+<li>Not sure: 16</li>
+</ul>
+<h2 id="how-likely-are-you-to-recommend">How likely are you to recommend?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/recommending.png" alt="How likely are you to recommend?" /></p>
+<p>How likely is it that you would recommend CodeRefinery workshop to a friend or colleague?</p>
+<ul>
+<li>10: 64</li>
+<li>9: 21</li>
+<li>8: 24</li>
+<li>7: 11</li>
+<li>6: 3</li>
+<li>5: 1</li>
+<li>4: 1</li>
+<li>3: 3</li>
+<li>0: 1</li>
+</ul>
+<h2 id="pre-recorded-lectures-live-online-teaching-or-in-person-teaching">Pre-recorded lectures, live online teaching, or in-person teaching?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/pre-recorded-or-live-or-in-person.png" alt="Would you prefer pre-recorded lectures, live online teaching, or in-person teaching?" /></p>
+<p>Would you prefer pre-recorded lectures, live online teaching, or in-person teaching?</p>
+<ul>
+<li>I would prefer pre-recorded lectures combined with live discussions: 36</li>
+<li>I would prefer online teaching (lectures are live): 62</li>
+<li>I would prefer in-person teaching: 30</li>
+</ul>
+<h2 id="what-would-be-the-ideal-format">What would be the ideal format?</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/format.png" alt="What would be the ideal format for you?" /></p>
+<p>What would be the ideal format for you?</p>
+<ul>
+<li>One week with half days (3 or 4 half-days): 32</li>
+<li>One week with full days (3 or 4 full days): 13</li>
+<li>Two weeks (6 half-days): 25</li>
+<li>Two weeks (6 half-days) but split into two separate logical courses: 24</li>
+<li>Lesson series over 6 weeks with one session per week: 17</li>
+<li>Lessons are available in a catalogue of videos and can be followed anytime: 18</li>
+</ul>
+<h2 id="participation-style">Participation style</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/participation-style.png" alt="Participation style" /></p>
+<p>Participation style</p>
+<ul>
+<li>Individual learner: 95</li>
+<li>Learner in a team: 15</li>
+<li>Team leader/ helper (online): 9</li>
+<li>Team leader/ helper (in person): 8</li>
+</ul>
+<h2 id="career-stage">Career stage</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/career-stage.png" alt="Career stage" /></p>
+<p>Career stage</p>
+<ul>
+<li>Undergraduate student: 3</li>
+<li>Graduate student/ PhD student: 63</li>
+<li>Postdoc: 18</li>
+<li>Researcher: 19</li>
+<li>Professor: 4</li>
+<li>Research software engineer/ Scientific programmer: 12</li>
+<li>Industry: 4</li>
+<li>Other: 6</li>
+</ul>
+<h2 id="academic-discipline">Academic discipline</h2>
+<p><img src="https://raw.githubusercontent.com/coderefinery/2024-post-workshop-survey/main/notebook/academic-discipline.png" alt="Academic discipline" /></p>
+<p>Academic discipline</p>
+<ul>
+<li>Physical Sciences: 30</li>
+<li>Earth and Related Environmental Sciences: 18</li>
+<li>Biological Sciences: 13</li>
+<li>Chemical Sciences: 11</li>
+<li>Computer and Information Sciences: 11</li>
+<li>Other Engineering and Technologies: 6</li>
+<li>Health Sciences: 5</li>
+<li>Psychology: 4</li>
+<li>Mathematics: 4</li>
+<li>Mechanical Engineering: 3</li>
+<li>Civil Engineering: 3</li>
+<li>Environmental Engineering: 3</li>
+<li>Medical Engineering: 2</li>
+<li>Medical Biotechnology: 2</li>
+<li>Clinical Medicine: 2</li>
+<li>Other Medical and Health Sciences: 2</li>
+<li>Other: 2</li>
+<li>Other Social Sciences: 2</li>
+<li>Chemical Engineering: 1</li>
+<li>Electrical Engineering, Electronic Engineering, Information Engineering: 1</li>
+<li>Economics and Business: 1</li>
+<li>History and Archaeology: 1</li>
+<li>Nano-technology: 1</li>
+<li>Other Natural Sciences: 1</li>
+</ul>
+<h2 id="has-anything-else-changed-in-how-you-write-code-for-your-research-after-attending-the-workshop">Has anything else changed in how you write code for your research after attending the workshop?</h2>
+<ul>
+<li>
+<p>I started doing documentation in Read the Docs and it really makes the
+difference. Thank you!</p>
+</li>
+<li>
+<p>Usage of documentation with sphinx to pages planned, not done for now.</p>
+</li>
+<li>
+<p>I learned to use Git and GitHub.</p>
+</li>
+<li>
+<p>Optimized coding.</p>
+</li>
+<li>
+<p>Modularity, smaller functions.</p>
+</li>
+<li>
+<p>I use Git extensively since attending the workshop.</p>
+</li>
+<li>
+<p>GitHub, Bash, Python, and others were very useful even if many things I did
+already know in advance.</p>
+</li>
+<li>
+<p>Especially code documentation improved a lot as a consequence of the course.</p>
+</li>
+<li>
+<p>I use Git for myself and it is nice, but I think so much depends on your
+supervisors, so ... there is little leverage for me to change things.</p>
+</li>
+<li>
+<p>When I don't know how to do something, I use your lesson material as a
+reference.</p>
+</li>
+<li>
+<p>I think I am a lot more confident when writing code now.</p>
+</li>
+<li>
+<p>I write my code so that it is more easier to read by others.</p>
+</li>
+<li>
+<p>I write more cleaner code, I think. I have a better understanding of testing
+routines, though haven't incorporated them yet myself.</p>
+</li>
+<li>
+<p>Commenting and code structure.</p>
+</li>
+<li>
+<p>My code is more streamlined and elegant when it comes to reproducibility.</p>
+</li>
+<li>
+<p>More comments, splitting files in separate notebooks, etc.</p>
+</li>
+<li>
+<p>Learned to use Git and GitHub better.</p>
+</li>
+<li>
+<p>I have changed some of my earlier code to be more "modular", that it is easier
+and quicker to run. At least that. Workshop has also made some changes in how I
+think about coding, that will probably show in my future work. So, the workshop
+felt very useful.</p>
+</li>
+<li>
+<p>Give more emphasis to code structure (architecture) and adopting a consistent
+way of writing code.</p>
+</li>
+<li>
+<p>I have gotten better at using functions in code, previously it was much more
+script-esque. I have referred several junior colleagues to your workshops as
+well (and they've also found them valuable).</p>
+</li>
+<li>
+<p>I try to be tidier but it is hard.</p>
+</li>
+<li>
+<p>Started using Git.</p>
+</li>
+<li>
+<p>I have improved my reusability and documentation of my codes.</p>
+</li>
+<li>
+<p>I thank my past self for writing such clear codes now.</p>
+</li>
+<li>
+<p>Considering the latest workshop, the most important topic for me is the "How
+to document your research software". After the workshop, I have used "GitHub
+Pages" and "GitHub Actions" for the main documentation of the project that I
+am currently working on.</p>
+</li>
+<li>
+<p>I document my code more thoroughly.</p>
+</li>
+<li>
+<p>I didn't know how to use git version control before. Now I find it so useful!</p>
+</li>
+<li>
+<p>Better documentation + Easier to test.</p>
+</li>
+<li>
+<p>I have started writing more modular code and I use git more diligently, too.</p>
+</li>
+<li>
+<p>I use Git in much more sophisticated way and enjoy it!</p>
+</li>
+<li>
+<p>I think more on the potential reader of my code and make it more comprehensible.</p>
+</li>
+<li>
+<p>It is hard to tell, since I took CodeRefinery in the beginning in my PhD. I
+think the focus on tests and test-driven development has had a good impact on
+my coding.</p>
+</li>
+<li>
+<p>The most important outcome I got from CodeRefinery was learning version control.</p>
+</li>
+<li>
+<p>I am way more careful to commit regularly to my repositories and keep track of changes better.</p>
+</li>
+<li>
+<p>No. But I am mainly an experimental scientist. Coding isn't a big part of my work.</p>
+</li>
+<li>
+<p>I use Git more consistently and I learned that making my code more easily
+understandable does not in fact cost me as much more time as it saves. I have
+known that I have room to grow for a long time, but would like to mention
+that just the fact that I finally made time for the workshop and I focused on
+developing my coding for a few days helped as well.</p>
+</li>
+<li>
+<p>I try to write more functions to reuse code for multiple purposes.
+Furthermore, I've started using virtual engines.</p>
+</li>
+<li>
+<p>Haven't coded a lot since then so hard to say.</p>
+</li>
+<li>
+<p>I write self explanatory commit messages.</p>
+</li>
+<li>
+<p>I back up in git repositories almost all my code.</p>
+</li>
+<li>
+<p>I try to document my code as I am writing it.</p>
+</li>
+<li>
+<p>I am just starting to apply the information from "HPC Best Practices." From
+previous workshops, it has been a useful reference point to discuss
+collaborative workflow with colleagues.</p>
+</li>
+<li>
+<p>My code was always a mess that was meant to be solely my personal playground.
+The workshop definitely changed my mindset about it - now I think in the
+process of what is the best way to write the code (and comment it) so it can
+be used by other people without any (or at least, big) difficulties. I don't
+use Git actively at the moment, but it was great to receive the necessary
+toolkit for efficiently working with it. I think I will definitely need it at
+some point!</p>
+</li>
+<li>
+<p>I've been trying to use Git for all of my projects.</p>
+</li>
+<li>
+<p>A lot has changed on the way how I run code and test it. I attended code
+refinery while I was still new to programming so it was difficult to put into
+use the learning from code refinery. Now that I actually do coding for my
+research, I expect to make the most of the workshop.</p>
+</li>
+<li>
+<p>I am using Snakemake now. Right now I think it might not speed up my work
+because I am still learning, but I think the benefits will come over time.</p>
+</li>
+<li>
+<p>Making my codes easier to share, comment them and version control.</p>
+</li>
+<li>
+<p>It maybe not directly related to the code itself but I've learned a lot of new
+what is always very beneficial in this area.</p>
+</li>
+<li>
+<p>Slightly. I was aware of much already in the course.</p>
+</li>
+<li>
+<p>I don't have a lot of versions of my code anymore. I have my codes in a Git
+repository that can be shared with my publications.</p>
+</li>
+<li>
+<p>I can write code more compactly and with high performance.</p>
+</li>
+<li>
+<p>I tend to write more functions with documentation and test units.</p>
+</li>
+<li>
+<p>More testing and better documentation.</p>
+</li>
+<li>
+<p>I try to create new Git branch for every new line of development to always
+have a working version of the code.</p>
+</li>
+<li>
+<p>I haven't been writing a lot of code since the workshop so I haven't really
+had a chance to put everything into practice, but I'm trying to create a
+project environment for each project and I have been documenting my working
+process in RMarkdown notebooks. The notebooks have been really helpful for my
+research process.</p>
+</li>
+<li>
+<p>I am trying to keep good practices in mind. I am trying to use proper workflows
+(raise issue ==&gt; create branch ==&gt; deploy fix ==&gt; push ==&gt; merge request), etc.</p>
+</li>
+<li>
+<p>Not after this workshop just when I tried it in my own projects.</p>
+</li>
+<li>
+<p>I use more arrays, which speeds up my work a lot.</p>
+</li>
+<li>
+<p>I try to use GitHub now. try to do at least some version control.</p>
+</li>
+<li>
+<p>Better commenting.</p>
+</li>
+<li>
+<p>It has been easier to get to know other's code projects because I have
+learned some of the conventions eg. in naming.</p>
+</li>
+<li>
+<p>Now I use Git for managing the code folders.</p>
+</li>
+<li>
+<p>I tried to follow the rules to make it more reusable.</p>
+</li>
+<li>
+<p>I am more organised thanks to the use of Git.</p>
+</li>
+<li>
+<p>No.</p>
+</li>
+<li>
+<p>More focus on version control and testing.</p>
+</li>
+<li>
+<p>My code is still so bad that I haven't benefited from it yet. But I am
+definitely going to integrate it. Actually, thanks for asking, I will just
+get a few words of advice from my colleague on how best to apply what I
+learned at your workshop! :)</p>
+</li>
+<li>
+<p>Made life easier when I work with git tool.</p>
+</li>
+<li>
+<p>For me trying to write more readable and reusable code is taking a bit more
+time at the moment, but that is because I do not write code very much so I
+take a lot of time planning the code and the parts and how they are most
+fluently glued together. So I expect it to become easier and take less time
+with practice.</p>
+</li>
+<li>
+<p>I'm actively trying to use Git, and back-up my projects (code, useful
+articles) in my personal GitHub. I try to update it and, though I've not done
+so yet, I intend to use tags to keep track of milestones along the project.</p>
+</li>
+<li>
+<p>I started using Git on all my projects.</p>
+</li>
+<li>
+<p>I started using renv to track which version of packages I am using.</p>
+</li>
+<li>
+<p>Forcing myself to write function description prior to actually writing the function.</p>
+</li>
+<li>
+<p>Creating all code under Git control.</p>
+</li>
+<li>
+<p>Trying more modular approaches.</p>
+</li>
+<li>
+<p>I think my code now is modular. The way I organize my repositories reflects
+it too.</p>
+</li>
+</ul>
+<h2 id="what-topic-s-should-we-add-to-our-workshops">What topic(s) should we add to our workshops?</h2>
+<p>[Answers like "None", "Nothing", "Everything was on point", etc., are not shown
+in the results below.]</p>
+<ul>
+<li>
+<p>More advanced topics on GitLab.</p>
+</li>
+<li>
+<p>Hands-on with setting up, training and running AI-models.</p>
+</li>
+<li>
+<p>Java APIs.</p>
+</li>
+<li>
+<p>Java for beginners.</p>
+</li>
+<li>
+<p>Automation with Azure.</p>
+</li>
+<li>
+<p>OOP with Python.</p>
+</li>
+<li>
+<p>Xarray and/or similar useful libraries</p>
+</li>
+<li>
+<p>Some stuff related to Quantum Computing could be quite interesting. Also some
+more "technical computer skills" (how its works by inside, compilations..)
+could be interesting.</p>
+</li>
+<li>
+<p>It would be good if in the workshop you also showed how to connect GIT to a
+private repository on GitHub and later how to synchronize such a connection
+with VS Code or RStudio.</p>
+</li>
+<li>
+<p>I have not managed, unfortunately, to make git a regular part of my workflow.
+For that, I find that a short revision few weeks after the course would be
+useful.</p>
+</li>
+<li>
+<p>Linting/debugging and maybe more time for testing.</p>
+</li>
+<li>
+<p>Besa training.</p>
+</li>
+<li>
+<p>Matlab training.</p>
+</li>
+<li>
+<p>Python training.</p>
+</li>
+<li>
+<p>Visualisation with Python, Matplotlib of gridded data (thinking about maps,
+projections). And also setting up figures with multiple plots. Smart ways to
+get reusable code for creating figures.</p>
+</li>
+<li>
+<p>Processing of non-linear timestamp data; Combination of float, string, object data in the same data analysis.</p>
+</li>
+<li>
+<p>The actual pieces of code shown were minimal and went quite fast whereas
+there was a lot of discussion in very general analogy level which wasn't so
+helpful.</p>
+</li>
+<li>
+<p>Could mention VSCode's version control instead of just using the terminal.</p>
+</li>
+<li>
+<p>Git (always useful).</p>
+</li>
+<li>
+<p>Python: managing problem with installation packages.</p>
+</li>
+<li>
+<p>Python: debug (within some environment: Spyder (?).</p>
+</li>
+<li>
+<p>How to use Google Colab.</p>
+</li>
+<li>
+<p>Maybe: Docker / code ocean ...</p>
+</li>
+<li>
+<p>Maybe more on organizing "analysis script" type projects - at least where I
+am this is a more common than developing software packages.</p>
+</li>
+<li>
+<p>I think the program was good, but the Git part was most useful.</p>
+</li>
+<li>
+<p>I think the current topics are very good. I felt like the course was a nice
+introduction to all the topics, even for the length of it it felt a bit
+crowded, so I think it is good as it is.</p>
+</li>
+<li>
+<p>VS Code and GitHub Copilot or using AI for coding.</p>
+</li>
+<li>
+<p>I know that GitLab Pages and GitLab CI have similar workflows but you might
+also consider creating some examples for those alternatives as well.</p>
+</li>
+<li>
+<p>Maybe something about reproducibility (like Docker containers etc.) or code
+publications beyond Zenodo.</p>
+</li>
+<li>
+<p>A small note on how to correctly version-control Jupyter notebooks would be
+useful.</p>
+</li>
+<li>
+<p>It would have been nice to spend a couple of minutes on GitHub Desktop (not
+all of us are Terminal fans).</p>
+</li>
+<li>
+<p>Build systems: For example Make or CMake.</p>
+</li>
+<li>
+<p>HPC: What are supercomputers and how to use them. What are GPUs, how to program and use them.</p>
+</li>
+<li>
+<p>Object Orient Programming (for Python).</p>
+</li>
+<li>
+<p>Use of AI tools for coding.</p>
+</li>
+<li>
+<p>Perhaps package building for Python? Or a practical example of Docker
+application? But this is more for a subsequent workshop, I would not remove
+anything from the workshop as I attended it.</p>
+</li>
+<li>
+<p>Go further on how to browse some else's code.</p>
+</li>
+<li>
+<p>Further on recovery options of erroneous commits.</p>
+</li>
+<li>
+<p>A bit on debugging.</p>
+</li>
+<li>
+<p>More than additional topics, interactive/exercise segments should be added
+after topics to reinforce learning. This was more the case in earlier workshops
+than the day 1 HPC best practices workshop.</p>
+</li>
+<li>
+<p>In terms of content covered, although challenging, more concrete examples on
+how to find the right amount of memory and CPUs to allocate a job would be
+incredibly valuable.</p>
+</li>
+<li>
+<p>For the general CodeRefinery workshop, I think a "putting it all together"
+unit, including hands-on exercises, would be incredibly helpful, and almost
+essential, to see the extent of a baseline application of the knowledge
+included.</p>
+</li>
+<li>
+<p>Since Visual Studio code is quite popular editor it would be good to teach
+running Jupyter notebooks in Visual Studio Code.</p>
+</li>
+<li>
+<p>The courses are very complete, perhaps something about dataset sharing.</p>
+</li>
+<li>
+<p>ML maybe =)</p>
+</li>
+<li>
+<p>Something about docker maybe? It's used more and more in my experience.</p>
+</li>
+<li>
+<p>Perhaps a couple of more advances focused workshops of advances git to save
+time and make it easier to manage code and collaborating.</p>
+</li>
+<li>
+<p>Code for publishing.</p>
+</li>
+<li>
+<p>PEP 8 style.</p>
+</li>
+<li>
+<p>Maybe for more advanced courses: Object based coding.</p>
+</li>
+<li>
+<p>Functionalizing a code.</p>
+</li>
+<li>
+<p>I think it is just right. Adding more may be too overwhelming for a beginner.</p>
+</li>
+<li>
+<p>Testing.</p>
+</li>
+<li>
+<p>Refactoring.</p>
+</li>
+<li>
+<p>Management in general (partly done already).</p>
+</li>
+<li>
+<p>I would have liked to spend more time on reproducible environments.</p>
+</li>
+<li>
+<p>Difficult to know. I recently would have benefited from knowing more about
+(c)cmake, but this becomes very specific. Git is likely the one thing that
+has most general applicability from your education suite.</p>
+</li>
+<li>
+<p>More focus on writing statistical code (as opposed to software).</p>
+</li>
+<li>
+<p>The topics look fine the overall organization of the workshop was a limiting
+factor. There were too many participants and it got chaotic due to the
+limited number of teachers. Maybe CodeRefinery should focus on quality rather
+than on quantity, for instance deliver courses with reduced number of
+participants on-line. Also, CodeRefinery can coordinate with universities
+where local instructors could teach the courses locally.</p>
+</li>
+<li>
+<p>Conda environments.</p>
+</li>
+<li>
+<p>Using pycharm for some code development and version control.</p>
+</li>
+<li>
+<p>More testing and how to switch from chaotic version control to a good one.
+Now there is only from scratch, but it would be helpful to go over from
+midpoint.</p>
+</li>
+<li>
+<p>How to use Chatgpt to assist coding.</p>
+</li>
+<li>
+<p>Using a IDE for Python programming: Notebook &amp; Git/Github integration, debugging, etc.</p>
+</li>
+<li>
+<p>Docker or containerization in general.</p>
+</li>
+<li>
+<p>How about software design for research? How to write reusable and
+maintainable code when you don't know today what you need tomorrow, or when
+students, who may have been sole authors, move on.</p>
+</li>
+<li>
+<p>More examples of Pull requests, forks and upstream repositories or local
+repositories.</p>
+</li>
+<li>
+<p>More advanced topics on git collaboration.</p>
+</li>
+<li>
+<p>Since I work with R I would have liked to get more R specific information.
+But I can see how it can be difficult to add specific info if everyone uses a
+different language.</p>
+</li>
+<li>
+<p>Conda vs mamba, module management?</p>
+</li>
+<li>
+<p>Code architecture and data repository architecture and management.</p>
+</li>
+</ul>
+<h2 id="what-topic-s-should-we-remove">What topic(s) should we remove?</h2>
+<p>[Answers like "None", "Nothing", "Everything was on point", "All the topics are
+relevant", etc., are not shown in the results below.]</p>
+<ul>
+<li>
+<p>The course is very good as it is ...
+However, The 6 half days over 2 consecutive weeks  is not very convenient for some people here ...
+However, I understand the difficulty to bring together online helpers and instructors.
+You are doing a good job ! Keep going !</p>
+</li>
+<li>
+<p>Reproducible research and social coding are a little vague for my taste. So if you need more time, I'd skip them.</p>
+</li>
+<li>
+<p>Jupyter</p>
+</li>
+<li>
+<p>The Open Science workshop day has a lot of potential, but there is too little
+time with too few interactions with too many topics to make a difference. The
+exercises are not very engaging and you did not go deep enough in the aspects
+you try to cover.</p>
+</li>
+<li>
+<p>Jupyter notebook, because Python is too slow.</p>
+</li>
+<li>
+<p>I attended the workshop about Git and was surprised that also other topics
+were covered. Maybe have shorter, more focused courses instead of the current
+format.</p>
+</li>
+<li>
+<p>In the first workshop I attended, the general code refinery workshop, I did
+not get enough of a grasp on Snakemake, and other tools I understood well
+mainly because of prior experience. I think this was a wonderful workshop
+that I have repeatedly recommended to my colleagues, but I think more time
+should be given to fully try out and cement each tool introduced. I would
+roughly add 50-100% more time to the course and spend all the added time on
+more live exercise walk-through and coaching while people work on exercises
+individually. I would not remove any topics.</p>
+</li>
+<li>
+<p>I found the basic Git introduction to be rather tedious, so I lost my focus
+and motivation. This made it difficult to prioritize attending the final
+parts of the workshop over other duties, so I eventually opted out
+completely.</p>
+</li>
+<li>
+<p>I would much prefer an approach were participants are assumed to be at a
+somewhat competent level from the get-go. Preparation material could be
+provided ahead of time for the beginners.</p>
+</li>
+<li>
+<p>Maybe automated testing and modular coding to put that in a separate workshop about improving coding practices.</p>
+</li>
+<li>
+<p>Documentation was a lot of things in a very short time. I say just choose one
+of the documentation options to explain.</p>
+</li>
+<li>
+<p>None of them. Or split the topic of collaborative programming (Day 1 to 3)
+and documentation (Day 4 to 6) to two separate courses.</p>
+</li>
+<li>
+<p>I don't think anything should be removed...maybe a second workshop that goes into more depth on reproducibility?</p>
+</li>
+<li>
+<p>How about you ask registrants to pick their three/five/x favorite topics from
+a list upon registration, and you select the N most popular ones? Perhaps
+makes it more difficult to prepare, and perhaps makes it more difficult for
+participants to commit, but since participation (at least online) is a
+relatively low commitment, maybe it is okay anyway?</p>
+</li>
+<li>
+<p>Maybe a small practice session for some of the presenters - a few of the
+presenters could improve their communication skills. I know it is a small
+thing, but just adding 10-20% humor or more energy into a presentation can
+really significantly affect the learning output for students.</p>
+</li>
+<li>
+<p>For me personally the Jupyter notebooks session was less helpful. But that
+doesn't mean it should necessarily be removed.</p>
+</li>
+</ul>
+<h2 id="other-feedback">Other feedback</h2>
+<ul>
+<li>
+<p>Let me highlight it here: your format is great!
+The features I liked in particular:</p>
+<ul>
+<li>HackMD and very high quality feedback there</li>
+<li>type-along sessions</li>
+<li>dialogue between the two teachers as a format of the lecture.
+Many thanks for your effort!</li>
+</ul>
+</li>
+<li>
+<p>It was great that I could watch the few sessions that O unfortunately couldn't attend on video.</p>
+</li>
+<li>
+<p>Thanks a lot for organizing these super useful workshops
+and for promoting/creating a environment very relaxed and inclusive
+learning environment.</p>
+</li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

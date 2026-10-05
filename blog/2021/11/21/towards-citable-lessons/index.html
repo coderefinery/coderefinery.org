@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Towards citable lessons - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Towards citable lessons</title>
+      <meta property="og:title" content="Towards citable lessons" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+      <meta property="og:description" content="Teaching essential tools so that researchers can make full use of software, computing, and data." />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Towards citable lessons</a></h1>
+
+    <p class="uk-article-meta">
+      
+      November 21, 2021
+      
+        - Radovan Bast, Johan Hellsvik
+      
+    </p>
+
+    <hr>
+
+    <p>In Autumn 2021 we have started to work on making our lessons and other material
+we have created over the years, citable. At the same time we wish to assign a
+digital object identifier (DOI) to each lesson so that the material becomes
+persistent and remains findable. However, the main motivation for this work is
+to get some metrics about the use of our material and also to give contributors
+better credit and to make it possible for them to get and display metrics about
+their contributions.</p>
+<p>This effort is work in progress and in this document we will summarize our
+discussions, decisions, findings, and observations so that we can then use
+these later when we conclude this effort lesson by lesson.</p>
+<h3 id="technical-choices">Technical choices</h3>
+<ul>
+<li>We will use Zenodo because it is a well-established service which we know and
+which integrates nicely with the repositories hosting the lessons and because
+we will need to be able to update metadata (author information) without
+changing the DOI record.</li>
+<li>We will convert the 3 remaining Jekyll lessons to Sphinx to simplify pdf export.</li>
+<li>We will not start with <a rel="external" href="https://allcontributors.org/">https://allcontributors.org/</a> because it requires each contributor
+to have a GitHub account which we have found a too strict limitation.</li>
+<li>We start with tracking authorship in CITATION.cff since GitHub presents a
+"cite as" button when this file is present.</li>
+<li>If we find that CITATION.cff is not enough or does not provide the right
+categories, we will try to track this in the .zenodo.json which Zenodo
+understands and we could generate CITATION.cff from this file.  It seems that
+if a .zenodo.json is present in a repo, it has on Zenodo precedence over a
+CITATION.cff.</li>
+</ul>
+<h3 id="distinguishing-authors-and-contributors">Distinguishing authors and contributors</h3>
+<ul>
+<li>Removed "code" (lesson material) does not mean removing authorship unless the author prefers to be removed.</li>
+<li>Example for how Carpentries do it (unix shell lesson):
+<ul>
+<li><a rel="external" href="https://github.com/swcarpentry/shell-novice/blob/gh-pages/CITATION">https://github.com/swcarpentry/shell-novice/blob/gh-pages/CITATION</a></li>
+<li><a rel="external" href="http://doi.org/10.5281/zenodo.3266823">http://doi.org/10.5281/zenodo.3266823</a></li>
+</ul>
+</li>
+<li>Definitions of the roles:
+<ul>
+<li>"creator": significant contributions</li>
+<li>"contributor"/Editor: reviewing/approving contributions</li>
+<li>"contributor"/Other: smaller contributions</li>
+</ul>
+</li>
+<li>On Zenodo we start with "creator" (author) and "contributor" (other).
+<ul>
+<li>See also categories that Zenodo understands: <a rel="external" href="https://developers.zenodo.org/#representation">https://developers.zenodo.org/#representation</a> (search for "creators" and "contributors")</li>
+<li>We are a bit unsure whether one person can assume more than one role on
+Zenodo. probably yes. If so, maybe one occurence for the highest
+contribution is best.</li>
+</ul>
+</li>
+<li>We still need to verify whether CITATION.cff and/or .zenodo.json can map to
+the definitions of roles (above).</li>
+</ul>
+<h3 id="how-we-will-reach-out-to-creators-and-contributors">How we will reach out to creators and contributors</h3>
+<ul>
+<li>We will do this on a per-lesson basis and we will start with the lessons
+which we teach the most often.</li>
+<li>Contributors are not only people who have contributed with Git commits, but
+could also be people that contributed with input and ideas in other form.</li>
+<li>We reach out to everybody and ask whether they want to be contributor or author.</li>
+<li>If a person cannot be reached, we do not add the person without consent and
+rather add the person later once we reach them.</li>
+<li>Reaching out to creators and contributors will happen via GitHub issues close
+to the lesson repository but those who do not respond or may not be on GitHub
+will be reached via email.</li>
+<li>On the GitHub issue we will ask authors for their ORCID.</li>
+</ul>
+<h3 id="archiving-lessons-as-pdf">Archiving lessons as pdf</h3>
+<ul>
+<li>When archiving lessons on Zenodo we have the choice of archiving the
+repository as is (the sources) or to generate a pdf version of the lesson and
+archiving the pdf.</li>
+<li>We have concluded that we wish to attempt depositing pdf versions unless this
+turns out too difficult.</li>
+<li>The pdf versions will be generated automatically as part of a "release" workflow.</li>
+<li>The automatic pdf generation is relatively straightforward with Sphinx
+lessons but less trivial with Jekyll-based lessons.</li>
+<li>We will focus on Sphinx lessons and prefer converting Jekyll-based lessons to
+Sphinx lessons rather than investing time in generating pdfs from Jekyll lessons.</li>
+<li>But we have also concluded that cite-ability is more important than preserving
+a pdf version of the lessons since we expect the lessons to evolve and be
+continuously improved and the credit aspect is found more important than the
+preservation aspect.</li>
+</ul>
+<h3 id="orcid-vs-zenodo-community">ORCID vs. Zenodo community</h3>
+<ul>
+<li>We have decided against introducing a project ORCID for CodeRefinery and
+rather collect related records in a CodeRefinery Zenodo community.</li>
+</ul>
+<h3 id="how-we-wish-to-test-the-workflow">How we wish to test the workflow</h3>
+<ul>
+<li>For one or two example lessons we will create a fork and test the release
+deployment and DOI generation on <a rel="external" href="https://sandbox.zenodo.org">Zenodo sandbox</a>.</li>
+</ul>
+<h3 id="suggested-workflow-to-make-lessons-citable-via-zenodo">Suggested workflow to make lessons citable via Zenodo</h3>
+<ul>
+<li>Add a .zenodo.json to the lesson repo, for example:</li>
+</ul>
+<pre class="giallo" style="color: #383A42; background-color: #FAFAFA;"><code data-lang="json"><span class="giallo-l"><span style="color: #50A14F;">    &quot;creators&quot;</span><span>: [</span></span>
+<span class="giallo-l"><span>        {   </span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;orcid&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;0000-0002-1825-0097&quot;</span><span>,</span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;affiliation&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;Feline research institute&quot;</span><span>,</span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;name&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;Field, Gar&quot;</span></span>
+<span class="giallo-l"><span>        },</span></span>
+<span class="giallo-l"><span>        {   </span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;orcid&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;0000-0002-1825-0097&quot;</span><span>,</span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;affiliation&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;Feline research institute&quot;</span><span>,</span></span>
+<span class="giallo-l"><span style="color: #E45649;">            &quot;name&quot;</span><span>:</span><span style="color: #50A14F;"> &quot;Cat, Felix&quot;</span></span>
+<span class="giallo-l"><span>        }</span></span>
+<span class="giallo-l"><span>    ],</span></span></code></pre>
+<ul>
+<li>Generate pdfs from Sphinx sources via LaTeX:
+<ul>
+<li>In <code>conf.py</code>, set <code>latex_engine = 'xelatex'</code> (makes emojis work), then <code>make clean ; make latexpdf</code>.</li>
+<li>This will become part of GitHub Actions, it will not be a manual step.</li>
+</ul>
+</li>
+<li>Create a release of the lesson on GitHub.</li>
+<li>On Zenodo, check syncing with GitHub.</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<ul>
+<li>About Zenodo <a rel="external" href="https://about.zenodo.org/">https://about.zenodo.org/</a></li>
+<li>Zenodo terms of use <a rel="external" href="https://about.zenodo.org/terms/">https://about.zenodo.org/terms/</a></li>
+<li>Zenodo policies <a rel="external" href="https://about.zenodo.org/policies/">https://about.zenodo.org/policies/</a></li>
+<li>Zenodo FAQ <a rel="external" href="https://help.zenodo.org/">https://help.zenodo.org/</a></li>
+<li>Zenodo REST API <a rel="external" href="https://developers.zenodo.org/">https://developers.zenodo.org/</a></li>
+<li>Zenodo .zenodo.json and GitHub <a rel="external" href="https://developers.zenodo.org/#github">https://developers.zenodo.org/#github</a></li>
+<li>GitHub-Zenodo tutorial <a rel="external" href="https://guides.github.com/activities/citable-code/">https://guides.github.com/activities/citable-code/</a></li>
+<li>The <a rel="external" href="https://allcontributors.org/">https://allcontributors.org/</a> specification and GitHub bot</li>
+<li>The CITATION.cff format <a rel="external" href="https://citation-file-format.github.io/">https://citation-file-format.github.io/</a></li>
+<li>The CITATION.cff format keywords <a rel="external" href="https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md">https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md</a></li>
+<li>SPDX ID short-form identifiers for FOSS license information <a rel="external" href="https://spdx.dev/ids/">https://spdx.dev/ids/</a></li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

@@ -1,0 +1,18 @@
++++
+title = 'TITLE'
+slug = "20ZZ/XX/YY/name"
+description = "1-2 sentence description for social media previews"
+
+[extra]
+authors = "NAME, NAME, NAME"
++++
+
+Concise introduction.
+
+Body here.
+
+More body.
+
+
+See also
+* Optional but nice
