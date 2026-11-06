@@ -43,6 +43,11 @@ You can also find some of our lessons and other materials in our
 
 ## Derivative work based on our material
 
+- [Practical software development workshops at Ukrainian National Forestry University (NLTU)](@/blog/2026-10-30-coderefinery-nltu-lviv.md),
+  Lviv, Ukraine. Taught in Ukrainian using adapted CodeRefinery materials,
+  covering version control, collaboration, testing, continuous integration,
+  documentation, licensing and responsible AI-assisted development, with an
+  emphasis on skills for student projects and research.
 - [How to parallelize independent tasks](https://training.pages.sigma2.no/tutorials/independent-jobs-in-parallel/) taught online
   as part of [NRIS/Sigma2](https://www.sigma2.no/) training.
   It reuses part of [Tuesdays tools and techniques for HPC: Real-life compute cluster workflows](https://coderefinery.github.io/TTT4HPC_resource_management/).
