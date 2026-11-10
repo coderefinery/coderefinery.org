@@ -1,0 +1,73 @@
+name: Check links
+
+# Runs `zola check` once a week, including checks of external links (the build
+# workflow only checks internal links, to keep builds fast and offline-safe).
+#
+# The result is reported in the single "Broken links issue": it is reopened when
+# the check fails and closed again when it passes.  Each report is posted as a
+# comment, but a report identical to the previous one is not repeated.
+
+on:
+  schedule:
+    # Mondays at 04:17 UTC.  Cron schedules are always in UTC.
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: check-links
+  cancel-in-progress: false
+
+env:
+  ZOLA_VERSION: "0.22.1"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+    - name: Checkout repository and submodules
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Install zola
+      run: |
+        set -x
+        wget -O - \
+           "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+        | sudo tar xzf - -C /usr/local/bin
+
+    # The exit code is recorded instead of failing the step so that the report
+    # is still posted; a later step fails the job if the check failed.
+    - name: Run zola check (including external links)
+      id: check
+      run: |
+        set +e
+        zola check > "${RUNNER_TEMP}/zola-check.log" 2>&1
+        status=$?
+        set -e
+        cat "${RUNNER_TEMP}/zola-check.log"
+        echo "status=${status}" >> "${GITHUB_OUTPUT}"
+        exit 0
+
+    - name: Report result in the "Broken links issue"
+      if: steps.check.outputs.status != ''
+      uses: actions/github-script@v7
+      env:
+        ZOLA_CHECK_LOG: ${{ runner.temp }}/zola-check.log
+        ZOLA_CHECK_STATUS: ${{ steps.check.outputs.status }}
+      with:
+        script: |
+          const reportBrokenLinks = require('./.github/scripts/broken-links-issue.js');
+          await reportBrokenLinks({ github, context, core });
+
+    - name: Fail the job if links are broken
+      if: steps.check.outputs.status != '0'
+      run: |
+        echo "zola check failed, see the \"Broken links issue\" for details."
+        exit 1
