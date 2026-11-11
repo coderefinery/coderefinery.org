@@ -3,6 +3,7 @@
 
 ## Upcoming workshops and other news
 
+- Save the dates: The next CodeRefinery tools workshop will happen March 9-11 and 16 - 18 2027.
 - We have a short [slideset about CodeRefinery](@/about/presentations.md) which you can reuse in own presentations.
 - We recorded a [Shell crash course](https://youtu.be/xbTTDLA3txI)
   which can be used as preparation for those who wish to follow the course
