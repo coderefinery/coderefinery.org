@@ -31,8 +31,8 @@ training materials.
 
 ## How?
 
-- **Metadata in the lesson pages:** Our lessons are built with Sphinx. The `sphinx-bioschemas`
-  extension (https://biocorecrg.github.io/sphinx-bioschemas/, thanks to Toni Hermoso for creating the extension!) embeds the Bioschemas metadata into the generated web pages,
+- **Metadata in the lesson pages:** Our lessons are built with Sphinx. The [`sphinx-bioschemas`
+  extension](https://biocorecrg.github.io/sphinx-bioschemas/) (thanks to Toni Hermoso for creating the extension!) embeds the Bioschemas metadata into the generated web pages,
   invisible to readers but readable by search engines and services like OpenAIRE.
 - **A DOI for every release:** Each lesson publishes new releases to
   [Zenodo](https://zenodo.org/) using a GitHub Actions workflow. We use our own workflow instead
