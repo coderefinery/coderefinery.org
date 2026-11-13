@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Drafting a governance structure for 2025 and beyond - CodeRefinery</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.23.12/dist/js/uikit-icons.min.js"></script>
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css" integrity="sha256-O4WK/g+HUIRMtgNwSRMA+lTFXVCZOSNwqMt2jboE8gg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.js" integrity="sha256-OnFzHtqrwoenz6OjU3Z4SPDkER5Ih/vqRUvS5doFcZo=" crossorigin="anonymous"></script>
+
+    <!-- https://github.com/Leaflet/Leaflet.markercluster -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+    <!-- to include the calendar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <!-- self-hosted plausible.io analytics -->
+    <script defer data-domain="coderefinery.org" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.org/atom.xml" />
+    
+
+        
+      <title>CodeRefinery - Drafting a governance structure for 2025 and beyond</title>
+      <meta property="og:title" content="Drafting a governance structure for 2025 and beyond" />
+      <meta property="og:site_name" content="CodeRefinery" />
+    
+
+    
+      <meta name="description" content="We are working on defining a mission, vision, guiding principles, and a decision body
+for CodeRefinery in 2025 and beyond. This is an early draft.
+" />
+      <meta property="og:description" content="We are working on defining a mission, vision, guiding principles, and a decision body
+for CodeRefinery in 2025 and beyond. This is an early draft.
+" />
+    
+
+
+    
+
+    <link href="https://coderefinery.org/style.css" rel="stylesheet">
+    <link href="https://coderefinery.org/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-container-small uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+    
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+      <div class="uk-navbar-dropdown">
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+      </div>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org">
+      Home
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;lessons">
+      Lessons
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons">CodeRefinery lessons</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/reusing">Reusing</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/lessons/other">Other lessons we recommend</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;workshops">
+      Workshops&#x2F;events
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/upcoming">Upcoming and recent</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/past">Past</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/teaching-style">The CodeRefinery teaching style</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/workshops/request">Request or run your own</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;tasks">
+      Tasks&#x2F;roadmap
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;join">
+      Join
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/chat">Chat</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/individuals">For individuals</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/staff">For staff</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/organizations">For organizations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/community-teaching-training">Community teaching training</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/join/meetings">Meetings</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/calendars">Calendars</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/code-of-conduct">Code of conduct</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;about">
+      About
+      
+        <span uk-navbar-parent-icon></span>
+      
+    </a>
+
+    
+      
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/project">Project</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/history">History</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contributors">The CodeRefinery community</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/partners">Partners and sponsors</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/impact">Impact</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/statistics">Statistics</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/presentations">Presentations</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/reports">Articles and reports</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/newsletter">Newsletter</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;" target="_blank">Operations manuals (external link)</a>
+            
+            </li>
+          
+            <li>
+            
+              <a href="https://coderefinery.org/about/contact">Contact</a>
+            
+            </li>
+          
+        </ul>
+      
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;blog">
+      News&#x2F;blog
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;repository">
+      GitLab
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Drafting a governance structure for 2025 and beyond</a></h1>
+
+    <p class="uk-article-meta">
+      
+        <h2>
+          We are working on defining a mission, vision, guiding principles, and a decision body
+for CodeRefinery in 2025 and beyond. This is an early draft.
+
+        </h2>
+      
+      April 19, 2024
+      
+        - Radovan Bast and Richard Darst
+      
+    </p>
+
+    <hr>
+
+    
+    
+        <ul>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#executive-summary">Executive summary</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#mission-vision-and-guiding-principles-early-draft">Mission, vision, and guiding principles (early draft)</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#structure-and-responsibilities">Structure and responsibilities</a>
+                
+                    <ul>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#project-governance-2016-2024">Project governance 2016 - 2024</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#scope-and-responsibilities-for-future-board">Scope and responsibilities for future board</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#outline-of-the-structure">Outline of the structure</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#board">Board</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#community-managers">Community managers</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#community">Community</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#working-methods">Working methods</a>
+                
+                    <ul>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#code-of-conduct">Code of conduct</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#conflict-resolution">Conflict resolution</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#community-meetings-communication-and-reporting-mechanisms">Community meetings, communication, and reporting mechanisms</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#amendments-to-the-governance-document">Amendments to the governance document</a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#periodic-review-and-evaluation">Periodic review and evaluation</a>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#discussion-points-during-the-in-person-meeting-in-february-2024">Discussion points during the in-person meeting in February 2024</a>
+                
+            </li>
+        
+            <li>
+                <a href="https://coderefinery.org/blog/2024/04/19/drafting-a-governance/#inspirations-for-this-document">Inspirations for this document</a>
+                
+            </li>
+        
+        </ul>
+    
+
+<h2 id="executive-summary">Executive summary</h2>
+<p>CodeRefinery's NeIC sponshorship may be coming to an end, and the feeling is
+that partners want the collaboration to continue with some sort of structure.
+In short, we propose to organize as a community project with a steering group
+of interested partners that could take over CodeRefinery management on
+2025-01-01:</p>
+<ul>
+<li>CodeRefinery continues with roughly the same vision and mission as now:
+<ul>
+<li>We want to promote reproducible science by training and community.</li>
+<li>We will continue giving courses like we have been doing (but with more
+possibility of new partners joining and custom teaching styles, including small local
+courses).</li>
+</ul>
+</li>
+<li>Board: a steering group of organizational partners and some community representatives.
+<ul>
+<li>The steering group will meet occasionally to discuss high-level matters and the broad direction.</li>
+<li>The steering group can make agreements on behalf of CodeRefinery.</li>
+<li>Updates the governance documents and accepts new organizational partners via majority vote.</li>
+</ul>
+</li>
+<li>Community managers: Coordinate the project on a day-to-day basis.
+<ul>
+<li>Appointed by the steering group (with consultation of the community).</li>
+<li>Handle most of the day-to-day organizational activities (or delegate them).</li>
+<li>Report to and work with the board.</li>
+</ul>
+</li>
+<li>Community:
+<ul>
+<li>Operated as an open-source project with an open community membership of individuals.</li>
+<li>The board can work with organizational partners to define in-kind contributions and roles.</li>
+<li>Recognized as decided by board/community managers.</li>
+</ul>
+</li>
+<li>We don't currently plan a separate legal entity just for CodeRefinery.</li>
+</ul>
+<p>There are ideas on these matters is below, but there will be much more among
+the "founding board" as it works towards formally defining a collaboration
+agreement.</p>
+<h2 id="mission-vision-and-guiding-principles-early-draft">Mission, vision, and guiding principles (early draft)</h2>
+<p>(when thinking of these, think "what makes us different from others?")</p>
+<p><strong>Mission</strong> (what we do and why we do it¸ 2025):</p>
+<ul>
+<li>CodeRefinery improves science and research by providing education in the tools of computational science to a diverse audience.
+<ul>
+<li>CR empowers XX by providing skills needed for achieving YY through providing training on practical skills.</li>
+</ul>
+</li>
+<li>Fill gaps between academia's lack of training in certain areas.</li>
+<li>Preparing people and communities for high-performance computing and AI.</li>
+<li>Foster a culture of FAIR, collaboration and openness in research software practices.</li>
+</ul>
+<p><strong>Vision</strong> (what we want to achieve):</p>
+<ul>
+<li>We create a highly skilled academic community who can do better, more reproducible science.</li>
+<li>Our core workshops are a regular recommendation for any students or researchers who does computational research.</li>
+<li>We have a wide variety of other rotating workshops, organized by partners but with contribution by many.</li>
+<li>When research projects need extra training, they think of us and our team.</li>
+<li>Skilled trainers and build knowledge transfer and build competence.</li>
+<li>Highly skilled researchers and staff.</li>
+<li>Create a group of good trainers in partner institutes.</li>
+<li>Bringing academia into digital age.</li>
+<li>Equip society with tools for collaborative and reusable research.</li>
+</ul>
+<p><strong>Guiding principles</strong> (when a difficult decision needs to be made, we invoke the following guiding principles):</p>
+<ul>
+<li>At our core, we are an open project and structure our working methods like one.  Our outputs are openly licensed with distributed copyright.</li>
+<li>We optimise for practical usability for those who lack skills in reproducible computational work.  We don't try to replace career-oriented IT training.</li>
+<li>Make people's lives easier (but we need to make this more tangible).</li>
+<li>When in doubt, do what makes science/research/academics more reproducible.</li>
+<li>Make it easier for people and organizations to participate.</li>
+<li>Encourage collaboration when possible to do so.</li>
+</ul>
+<h2 id="structure-and-responsibilities">Structure and responsibilities</h2>
+<h3 id="project-governance-2016-2024">Project governance 2016 - 2024</h3>
+<ul>
+<li>Initially: NeIC board</li>
+<li>NeIC board transfers management to steering group via project directive</li>
+<li>Project partners each appoint a steering group member</li>
+<li>Steering group meets 2-3 times per year and makes big picture decisions</li>
+<li>Day to day decisions by project manager in communication with steering group and project owner (NeIC)</li>
+<li>Project manager reports to NeIC and project owner and steering group</li>
+<li>Project manager is responsible for the project budget</li>
+<li>Project manager tries to get support and consensus from the project team and community</li>
+</ul>
+<h3 id="scope-and-responsibilities-for-future-board">Scope and responsibilities for future board</h3>
+<ul>
+<li>Strategic and organisational planning</li>
+<li>Ensuring the effective implementation of community objectives</li>
+<li>Financial oversight</li>
+<li>Business plan and budget plan</li>
+<li>Capacity plan</li>
+<li>Fostering collaboration among members</li>
+<li>Name, brand, and public image</li>
+<li>Steering the lesson portfolio</li>
+<li>Coordinate community initiatives</li>
+<li>Manage accounts: Freshdesk, Twitter, Fosstodon, GitHub, domain name, HackMD, Indico, chat, mailing list, GitLab, YouTube</li>
+<li>Manage the data and data sharing policies</li>
+<li>Contact point</li>
+<li>GitLab (maybe)</li>
+<li>Intellectual property</li>
+</ul>
+<h3 id="outline-of-the-structure">Outline of the structure</h3>
+<ul>
+<li>Partners: the institutions that collaborate, and unaffiliated individuals.</li>
+<li>Board: high-level strategy and help. Can be consulted on big decisions and
+for tricky trade-offs.  Within mission statement, delegates all other
+decisions to community managers.</li>
+<li>Community managers: Manage day-to-day work and connection with steering
+group. Build consensus among those doing the actual work for the day-to-day
+operations.</li>
+<li>Community: does work</li>
+</ul>
+<h3 id="board">Board</h3>
+<ul>
+<li>Initial board is one person per organization of the NeIC project.</li>
+<li>Board decides its future composition, probably once a year.</li>
+<li>Board confirms partner-level contributions.</li>
+<li>Board confirms community managers (likely with the community's input) and delegates most daily operation to them.</li>
+</ul>
+<h3 id="community-managers">Community managers</h3>
+<ul>
+<li>Coordinate most of the day-to-day work.</li>
+<li>Are responsible to the board, but mainly lead the community in doing the work.</li>
+<li>Ensure rough consensus and push things forward if it can't be done.</li>
+<li>Can appoint (=recognize on the website) leads in different areas.</li>
+</ul>
+<h3 id="community">Community</h3>
+<ul>
+<li>Community doe most of the work, and should be recognized as decided by the community managers and board.</li>
+<li>This is a volunteer organization, no person has any requirement to do anything.</li>
+<li>Members are expected to abide by our community standards of cooperation and respect.</li>
+</ul>
+<h2 id="working-methods">Working methods</h2>
+<h3 id="code-of-conduct">Code of conduct</h3>
+<p>We take our <a rel="external" href="https://coderefinery.org/about/code-of-conduct/">code of conduct</a> as starting point but suggest to adapt it to
+the governance structure and decision making process.</p>
+<h3 id="conflict-resolution">Conflict resolution</h3>
+<p>Questions to be worked out:</p>
+<ul>
+<li>What to do if there is conflict within leadership?</li>
+<li>Conflict within community?</li>
+<li>Conflict between leadership and community?</li>
+<li>What if a collaboration partner becomes problematic? (mission, guiding principles, code of conduct)</li>
+</ul>
+<h3 id="community-meetings-communication-and-reporting-mechanisms">Community meetings, communication, and reporting mechanisms</h3>
+<p>This needs to be worked out.
+Data sharing policy needs to be worked out.</p>
+<h3 id="amendments-to-the-governance-document">Amendments to the governance document</h3>
+<p>Board can change based on majority vote.</p>
+<h3 id="periodic-review-and-evaluation">Periodic review and evaluation</h3>
+<ul>
+<li>How often do we review the governance document?</li>
+<li>How do we evaluate the success of the community and project?</li>
+</ul>
+<h2 id="discussion-points-during-the-in-person-meeting-in-february-2024">Discussion points during the in-person meeting in February 2024</h2>
+<ul>
+<li>Mission, vision, guiding principles: what is missing?</li>
+<li>Initial board composition? The NeIC project partners? What if they prefer not to or are inactive?
+<ul>
+<li>proportional to activity 2023-2024?</li>
+</ul>
+</li>
+<li>What if a board member leaves?</li>
+<li>Can community elect a board member?
+<ul>
+<li>Should be able to, yes.</li>
+</ul>
+</li>
+<li>What decision necessitates board input?
+<ul>
+<li>Initially guiding principles (part of foundation document), in principle anything they haven't delegated to a community manager.</li>
+</ul>
+</li>
+<li>At which level of support should a partner be offered a board seat?
+<ul>
+<li>Board decides. Initial principle is "those with in-kind work".</li>
+</ul>
+</li>
+<li>"This is a volunteer organization, no person has any requirement to do anything." - this is currently not the case but maybe we want this to be the case?
+<ul>
+<li>I guess that's more for community, rather than paid staff. Paid staff do what their employer says.</li>
+</ul>
+</li>
+<li>Responsibilities for future board: what should be left out or added?</li>
+<li>Who/what has ownership over intellectual property (IP)? Maybe case-by-case?
+<ul>
+<li>case: teaching material publicly available – CC-licence?</li>
+<li>Transferring IP is probably very hard.  Distributed IP is probably needed.</li>
+</ul>
+</li>
+<li>Independent non-profit organization</li>
+<li>Find the carpentries cooperation model and propose them to be in the board
+<ul>
+<li>E.g. Science library of University of Oslo</li>
+</ul>
+</li>
+</ul>
+<h2 id="inspirations-for-this-document">Inspirations for this document</h2>
+<ul>
+<li>NeIC/NICEST2 project governance draft (big thanks to A. Fouilloux)</li>
+<li><a rel="external" href="https://carpentries.org/blog/2024/02/revisions-to-the-carpentries-governance-structure/">https://carpentries.org/blog/2024/02/revisions-to-the-carpentries-governance-structure/</a></li>
+<li><a rel="external" href="https://hackclub.com/team/">https://hackclub.com/team/</a></li>
+<li><a rel="external" href="https://jupyterhub-team-compass.readthedocs.io/">https://jupyterhub-team-compass.readthedocs.io/</a></li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <hr>
+
+      <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h2>Funding</h2>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+    </p>
+  </div>
+
+  <div>
+    <h2>Privacy</h2>
+    <p>
+      <a href="/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h2>Follow us</h2>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: mastodon">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://bsky.app/profile/coderefinery.org" target="_blank" uk-icon="icon: bluesky">Bluesky</a>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+</div>
+
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
