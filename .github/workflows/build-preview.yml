@@ -1,5 +1,5 @@
-# Zola build workflow.
-
+# Zola build workflow for pull request previews.
+#
 # Setting it up:
 #   Adjust the variables below, under env.
 #
@@ -8,6 +8,10 @@
 #   online.  You need to go to settings and set the gh-pages branch, then future
 #   deploys will work.  See
 #   https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-first-deployment-with-github_token
+#
+# Each pull request is deployed to previews/PR<number>/ on gh-pages, which also
+# holds the production site at its root.  The deploy therefore only touches its
+# own subdirectory and must never force-push.
 
 name: Build and deploy website preview
 
@@ -16,12 +20,18 @@ env:
   CNAME: "coderefinery.org"
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
+
+permissions:
+  contents: write
+
+# Same group as the other gh-pages writers, so previews and site deploys queue
+# instead of overwriting each other.
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -31,8 +41,10 @@ jobs:
     if: github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name
 
     steps:
-    - name: Checkout repository
+    - name: Checkout repository and submodules
       uses: actions/checkout@v4
+      with:
+        submodules: recursive
 
     - name: Install zola
       run: |
@@ -44,10 +56,20 @@ jobs:
     - name: Generate HTML
       run: zola build --base-url "https://${{ env.CNAME }}/previews/PR${{ github.event.number }}"
 
-    - name: Deploy website
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    # Previews duplicate the production pages, so keep them out of search engines
+    - name: Prevent indexing of the preview
+      run: |
+        printf 'User-agent: *\nDisallow: /\n' > public/robots.txt
+
+    # clean only removes files inside target-folder, so rebuilding a PR replaces
+    # its own preview and leaves the site and other previews alone.
+    - name: Deploy preview
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: ./public
-          TARGET_FOLDER: "previews/PR${{ github.event.number }}" # The website preview is going to be stored in the previews subfolder
+        folder: public
+        branch: gh-pages
+        target-folder: previews/PR${{ github.event.number }}
+        clean: true
+        force: false
+        attempt-limit: 5
+        commit-message: "Preview for PR #${{ github.event.number }}"

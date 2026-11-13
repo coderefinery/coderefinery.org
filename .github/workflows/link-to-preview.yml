@@ -1,8 +1,15 @@
 name: Link to preview in PR conversation
 
+env:
+  PREVIEW_BASE_URL: https://coderefinery.org
+
 on:
   pull_request:
     types: [opened, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   link-to-preview:
@@ -12,5 +19,14 @@ jobs:
         if: github.event_name == 'pull_request' && github.repository == github.event.pull_request.head.repo.full_name # if this is a pull request build AND the pull request is NOT made from a fork
         uses: thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff
         with:
-          message: 'Once the build has completed, you can preview your PR at this URL: https://${{ github.event.pull_request.base.repo.name }}/previews/PR${{ github.event.number }}/'
+          message: 'Once the build has completed, you can preview your PR at this URL: ${{ env.PREVIEW_BASE_URL }}/previews/PR${{ github.event.number }}/'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # build-preview.yml skips pull requests from forks, so do not promise a
+      # preview that will never exist.
+      - name: Explain that fork PRs have no preview
+        if: github.event_name == 'pull_request' && github.repository != github.event.pull_request.head.repo.full_name
+        uses: thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff
+        with:
+          message: 'Previews are only built for pull requests whose branch is in this repository, so this PR will not get one. The site is built and deployed once the PR is merged.'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
