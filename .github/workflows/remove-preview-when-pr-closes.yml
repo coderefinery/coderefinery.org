@@ -1,0 +1,65 @@
+# Originally from https://github.com/CliMA/ClimaTimeSteppers.jl
+#
+# Deletes previews/PR<number>/ from gh-pages once the pull request is merged or
+# closed.  This runs at the same moment as the production deploy triggered by the
+# merge, and also while other previews may be deploying, so it must not rewrite
+# the branch the way the old commit-tree + force-push version did: it deletes the
+# directory, commits and pushes, retrying on a rejected push.
+
+name: Remove preview once PR is merged or closed
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
+
+jobs:
+  remove-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Delete preview
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          dir="previews/PR${PR_NUMBER}"
+          for attempt in 1 2 3 4 5; do
+            # Pick up previews that were deployed after this job started, so the
+            # push is not rejected (and so they are not clobbered by a stale tree).
+            git fetch --depth=1 origin gh-pages
+            git reset --hard FETCH_HEAD
+
+            if [ ! -d "$dir" ] ; then
+              echo "$dir is already absent, nothing to do"
+              exit 0
+            fi
+
+            git rm -r --quiet "$dir"
+            git commit -m "Remove preview for PR #${PR_NUMBER}"
+
+            if git push origin HEAD:gh-pages ; then
+              exit 0
+            fi
+
+            echo "push rejected, retrying (attempt ${attempt})"
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::could not delete ${dir} after 5 attempts"
+          exit 1

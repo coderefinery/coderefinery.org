@@ -8,6 +8,12 @@
 #   online.  You need to go to settings and set the gh-pages branch, then future
 #   deploys will work.  See
 #   https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-first-deployment-with-github_token
+#
+# The gh-pages branch is a persistent tree holding both the production site at
+# the root and the pull request previews under previews/PR<number>/.  It is
+# written to by build-preview.yml, remove-preview-when-pr-closes.yml and
+# remove-stale-previews.yml as well, so all of them share the concurrency group
+# "gh-pages" and none of them force-push.
 
 name: Build and deploy website upon push or merge to main
 
@@ -19,20 +25,26 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+
+permissions:
+  contents: write
+  pull-requests: read
+
+# Serialise every writer of gh-pages.  Job-level groups are repository-wide, so
+# this also covers the preview workflows.
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    # only run on push to main branch or merge to main branch (not on prs that are under review)
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
-
     steps:
-    - name: Checkout repository
+    - name: Checkout repository and submodules
       uses: actions/checkout@v4
+      with:
+        submodules: recursive
 
     - name: Install zola
       run: |
@@ -62,9 +74,40 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
 
+    # Deploy the site to the root of gh-pages and remove files that no longer
+    # exist in public/.  clean-exclude reaches rsync as --exclude, and excluded
+    # paths are protected from --delete, which is what keeps the pull request
+    # previews alive.  force: false makes the action rebase onto gh-pages instead
+    # of force-pushing over previews that were deployed in the meantime.
     - name: Deploy website
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        force_orphan: true
+        folder: public
+        branch: gh-pages
+        clean: true
+        clean-exclude: |
+          previews
+          previews/***
+          CNAME
+        force: false
+        attempt-limit: 5
+
+    # Regression guard: the site deploy used to force-push an orphan commit that
+    # wiped every preview.  Fail loudly instead of silently losing them again.
+    - name: Verify that PR previews survived the deploy
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        set -euo pipefail
+        if ! have=$(gh api "repos/${GITHUB_REPOSITORY}/contents/previews?ref=gh-pages" \
+                        --jq 'length' 2>/dev/null); then
+          echo "No previews/ directory on gh-pages yet, nothing to lose"
+          exit 0
+        fi
+        want=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open \
+                          --limit 1000 --json number --jq 'length')
+        echo "gh-pages has ${have} preview(s); ${want} pull request(s) are open"
+        if [ "$have" -eq 0 ] && [ "$want" -gt 0 ]; then
+          echo "::error::previews/ is empty on gh-pages while ${want} PR(s) are open"
+          exit 1
+        fi

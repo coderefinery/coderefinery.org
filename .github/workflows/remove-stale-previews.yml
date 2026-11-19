@@ -1,0 +1,61 @@
+# Garbage-collects previews left behind on gh-pages.
+#
+# remove-preview-when-pr-closes.yml covers the normal case, but a preview can
+# outlive its pull request: the closed event can be missed, a run can be
+# cancelled, or a PR can be transferred.  Any previews/PR<number>/ whose pull
+# request is not open is deleted here.
+
+name: Remove stale PR previews
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: gh-pages
+  cancel-in-progress: false
+
+jobs:
+  remove-stale-previews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Delete previews of closed pull requests
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open \
+                            --limit 1000 --json number --jq '.[].number')
+
+          removed=0
+          for dir in previews/PR* ; do
+            [ -d "$dir" ] || continue
+            number=${dir#previews/PR}
+            if ! grep -qx "$number" <<<"$open" ; then
+              echo "Removing $dir, PR #$number is not open"
+              git rm -r --quiet "$dir"
+              removed=$((removed + 1))
+            fi
+          done
+
+          if [ "$removed" -eq 0 ] ; then
+            echo "No stale previews"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove ${removed} stale preview(s)"
+          git push origin HEAD:gh-pages
